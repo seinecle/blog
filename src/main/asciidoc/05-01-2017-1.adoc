@@ -13,10 +13,12 @@ The pdf, html and slide versions of this document are also on https://github.com
 == The goal
 
 //ST: The goal
+
 I'd like to be able to write my courses and tutorials in one document, then convert them to slides / pdfs / ebooks / web pages at the click of a button.
 On a second button click, I'd like these docs to be uploaded on the web to make them open access, versionable and fit for multi-authoring.
 
 //ST: !
+
 image::https://docs.google.com/drawings/d/1hyRQpxwsJlFBBqx4N_-k0g3duc8GpHEFu3Un-sVtXLM/pub?w=450[align="center", title="A diagram showing the authoring steps to create open, web friendly docs"]
 
 
