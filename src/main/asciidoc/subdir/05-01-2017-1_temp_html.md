@@ -3,8 +3,7 @@ Clément Levallois <clementlevallois@gmail.com>
 2017-01-04
 :revnumber: 1.0
 :example-caption!:
-ifndef::imagesdir[:imagesdir: images]
-ifndef::sourcedir[:sourcedir: ../../main/java]
+:sourcedir: ../../main/java
 
 The source of this document (written in asciiDoc) is available on https://github.com/seinecle/blog/blob/master/src/main/asciidoc/05-01-2017-1.adoc[on Github].
 The pdf, html and slide versions of this document are also on https://github.com/seinecle/blog/tree/master/target[Github].
@@ -19,7 +18,7 @@ On a second button click, I'd like these docs to be uploaded on the web to make 
 
 //ST: !
 
-image::https://docs.google.com/drawings/d/1hyRQpxwsJlFBBqx4N_-k0g3duc8GpHEFu3Un-sVtXLM/pub?w=450[align="center", title="A diagram showing the authoring steps to create open, web friendly docs"]
+image::A-diagram-showing-the-authoring-steps-to-create-open--web-friendly-docs.png[align="center", title="A diagram showing the authoring steps to create open, web friendly docs"]
 
 
 //ST: Introduction

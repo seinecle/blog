@@ -107,7 +107,7 @@
                     -->
                 </configuration>
                 <executions>
-                    <execution>
+<!--                    <execution>
                         <id>generate-slides</id>
                         <phase>generate-resources</phase>
                         <goals>
@@ -123,13 +123,14 @@
                                 As we are downloading reveal.js in runtime, it sits in a nonstandard folder `reveal.js-${revealjs.version}`
                                 
                                 <revealjsdir>reveal.js-${revealjs.version}</revealjsdir>
-                                put here the reveal.js specific attributes 
+                                                                put here the reveal.js specific attributes 
                                 see https://github.com/asciidoctor/asciidoctor-reveal.js/#revealjs-options 
                                 <sourcedir>${basedir}/src/main/java</sourcedir>
                                 <revealjs_theme>white</revealjs_theme>
                                 <revealjs_transition>linear</revealjs_transition>
                                 <revealjs_maxscale>10.0</revealjs_maxscale>
                                 <project-version>${project.version}</project-version>
+
                             </attributes>
                             <extensions>
                                 <extension>
@@ -150,12 +151,19 @@
                             <backend>pdf</backend>
                             <sourceHighlighter>coderay</sourceHighlighter>
                             <attributes>
+                                <path>${basedir}</path>                                
                                 <icons>font</icons>
                                 <pagenums/>
                                 <toc/>
                             </attributes>
+                            <extensions>
+                                <extension>
+                                    <className>Controller.PdfPreProcessor</className>
+                                </extension>
+                            </extensions>
+
                         </configuration>
-                    </execution>
+                    </execution>-->
                     <execution>
                         <id>generate-html</id>
                         <phase>generate-resources</phase>
@@ -181,7 +189,7 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
+<!--            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-antrun-plugin</artifactId>
                 <version>1.8</version>
@@ -204,8 +212,24 @@
                         </configuration>
                     </execution>
                 </executions>
+            </plugin>-->
+            <plugin>
+                <groupId>net.clementlevallois</groupId>
+                <artifactId>MojoPublishToMedium</artifactId>
+                <version>1.0</version>
+                <configuration>
+                    <fileName>${project.build.directory}\generated-html\09-01-2017-1.html</fileName>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>default-descriptor</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>publishtomedium</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
-
 </project>
