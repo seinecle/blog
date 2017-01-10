@@ -24,7 +24,7 @@ _____
 
 And indeed, I found in the papers of Lotka archived at Princeton that Lotka had a copy of Samuelson's "The stability of equilibrium : comparative statics and dynamics" (Samuelson 1943footnote:[Samuelson, Paul A. (1941), « The stability of equilibrium: comparative statics and dynamics », Econometrica, 9, (2), April, pp. 97-120.]), which introduces for the first time in economics the principle of comparative statics, applied  to Keynesian economics.
 
-On the cover of this reprint, that Samuelson had sent him, Lotka had penciled: "Phys Biol Chapter 6", indicating his intention to use this material for the revision of his _Elements of Mathematial Biology_, which he was working on.footnote:[Boîte 7, dossier 6, A. J. Lotka Papers, Seeley G. Mudd Manuscript Library, Princeton University] (Lotka did not complete this second edition)
+On the cover of this reprint, that Samuelson had sent him, Lotka had penciled: "Phys Biol Chapter 6", indicating his intention to use this material for the revision of his _Elements of Physical Biology_, which he was working on.footnote:[Boîte 7, dossier 6, A. J. Lotka Papers, Seeley G. Mudd Manuscript Library, Princeton University] (Lotka did not complete this second edition)
 
 There is a second interesting piece in Lotka's archives: a letter he received in 1943 from George Lundberg, the President of the American Sociological Society.  Lundberg writes:
 
