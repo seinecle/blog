@@ -1,4 +1,4 @@
-= Did Alfred Lokta acknowledge his influence on Paul Samuelson?
+= Did Alfred Lotka acknowledge his influence on Paul Samuelson?
 Clément Levallois <clementlevallois@gmail.com>
 2017-01-09
 :revnumber: 1.0
@@ -8,7 +8,7 @@ ifndef::sourcedir[:sourcedir: ../../main/java]
 
 I have finally a convenient solution to write my blog posts (see https://github.com/seinecle/blog/blob/master/src/main/asciidoc/05-01-2017-1.adoc[here]), so I finally "put on paper" things I had in store.
 
-This is a short one: a piece of archive documenting the intellectual connection between Alfred Lotka and Paul Samuelson, extracted from my https://tel.archives-ouvertes.fr/tel-00372263/[PhD disseration] [in French].
+This is a short one: a piece of archive documenting the intellectual connection between Alfred Lotka and Paul Samuelson, extracted from my https://tel.archives-ouvertes.fr/tel-00372263/[PhD dissertation] [in French].
 
 Lotka (1880-1849) is a key figure in mathematical biology, Samuelson (1915-2009) is a key figure in mathematical economics.
 I argue in my PhD dissertation that Lotka influenced Samuelson (building up on Weintraub footnote:[Weintraub, E. Roy (1991), Stabilizing Dynamics: Constructing Economic Knowledge, Cambridge, UK : Cambridge University Press (Historical Perspectives on Modern Economics).] here).
