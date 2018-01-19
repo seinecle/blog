@@ -9,7 +9,7 @@ last modified: {docdate}
 :iconsfont:   font-awesome
 :revnumber: 1.0
 :example-caption!:
-ifndef::imagesdir[:imagesdir: ../../images]
+ifndef::imagesdir[:imagesdir: images]
 ifndef::sourcedir[:sourcedir: ../../../../main/java]
 
 
@@ -20,235 +20,271 @@ image::EMLyon_logo_corp.png[width="242" align="center"]
 //ST: 'Escape' or 'o' to see all sides, F11 for full screen, 's' for speaker notes
 
 
-//ST: !
-== 1. Apprendre à coder
+== 1. Comprendre ce qu'est l'intelligence artificielle
+//ST: 1. Comprendre ce qu'est l'intelligence artificielle
 
+//ST: !
+==== a. Intelligence artificielle forte vs Intelligence artificielle faible
+
+//ST: !
+Les robots sont encore loins d'être une techno pertinente pour l'économie:
+
+//ST: !
+video::g0TaYhjpOfo[youtube]
+
+//ST: !
+Mais en est-vous si sûr?
+
+//ST: !
+video::fRj34o4hN4I[youtube]
+
+//ST: !
+Les robots sont impressionnants, et évoquent une intelligence artificielle menaçante:
+
+//ST: !
+image:terminator.jpg[] image:Wall-e_and_eve.png[] image:exmachina.jpg[]
+
+//ST: !
+En fait, ces robots d'Hollywood represéntent l' *intelligence artificielle forte*:
+
+Une intelligence qui a conscience d'elle-même.
+
+//ST: !
+Tous les experts s'accordent pour dire que cette intelligence n'existe pas et n'existera pas avant plusieurs dizaines d'années.
+
+//ST: !
+L'enjeu pour les jeunes voulant se former aujourd'hui et de connaître ce qu'est l' *intelligence artificielle faible*.
+
+Qu'est-ce que cette intelligence artificielle faible?
+
+//ST: !
+L'intelligence artificielle faible est celle qui:
+
+
+//ST: !
+- est capable de meilleures performances que l'humain
+- sur des tâches complexes
+- très clairement définies
+- et sur un périmètre précis
+
+(faible ne veut donc pas dire "nulle" ou "mauvaise"!)
+
+//ST: !
+Exemples:
+
+//ST: !
+IBM Watson at Jeopardy!
+
+//ST: !
+video::YgYSv2KSyWg[youtube]
+
+//ST: !
+Les entrepôts d'Amazon en 2013:
+
+//ST: !
+video::8-DgmfMa5Zk[youtube]
+
+//ST: !
+Les mêmes entrepôts d'Amazon en 2016:
+
+//ST: !
+video::cLVCGEmkJs0?t=23s[youtube]
+
+//ST: !
+==== b. De quoi est faites l'intelligence artificielle faible?
+
+//ST: !
+Aujourd'hui, *l'intelligence artificielle faible est synonyme de data science*.
+
+//ST: !
+La data science consiste à:
+
+- analyser des jeux de données riches et en grand volume
+- en appliquant des techniques statistiques avancées
+
+//ST: !
+- qui demandent à être déployées sous forme de code informatique - algorithmes mais pas seulement
+- dans le but de répondre à une problématique métier (optimiser, prédire, suggérer, matcher, catégoriser...)
+
+//ST: !
+Une famille de techniques statistiques populaires en data science s'appelle le machine learning, elle-même composée de sous-familles appelées *unsupervised learning*, *supervised learning*, *reinforcement learning*...
+
+//ST: !
+Mais pour rester sur un niveau plus général, ce graphique représente la data science de façon très utile:
+
+//ST: !
+image::conway.jpg[align="center", title="La data science représentée par Drew Conway"]
+
+//ST: !
+J'attire votre attention sur le cercle "substantive expertise", qui peut se traduire par "compétence métier". On ne fait pas de data science, ou d'intelligence artificielle, *sans expertise du secteur dans lequel on applique les techniques de data science*.
+
+//ST: !
+Comment se forme-t-on aux compétences représentées dans ce graphique?
+
+== 2. Comment se former à l'intelligence artificielle?
+//ST: 2. Comment se former à l'intelligence artificielle?
+
+//ST: !
+Plusieurs options s'offrent à la génération qui va grandir avec l'IA:
+
+//ST: !
+a. découvrir l'IA en tant que citoyen(ne) du monde
+b. comprendre l'IA dans son  cadre professionnel
+c. faire de l'IA son coeur de métier
+
+//ST: !
+Ces trois types de rapport à l'IA justifient des formations différentes.
+
+//ST: !
+==== a. un rapport de citoyen(ne) à l'IA:
+
+//ST: !
+On peut bien s'intéresser à l'IA sans que cela soit un enjeu professionel immédiat.
+
+C'est important pour exercer son jugement de citoyen(ne), pour sa curiosité scientifique. L'IA pose des questions majeures de société que l'on se doit d'appréhender:
+
+//ST: !
+- puisque la data science s'exerce sur les données, quelle protection pour les données privées?
+- les algorithmes des data scientists n'ont-ils pas des effets pervers? des usages néfastes?
+- et ce n'est pas que anxiogène! On peut également s'intéresser aux avantages de l'IA :-)
+
+//ST: !
+Dans cette démarche, ma recommendation serait de lire des ouvrages de références, regarder des vidéos de qualité, participer aux nombreuses conférences qui existent sur le sujet, voire apprendre à coder soi même par curiosité.
+
+//ST: !
+En français par exemple, un ouvrage très bien fait et que je recommande est celui de Jean-Paul Aimetti:
+
+//ST: !
+image::No-data.jpg[align="center", title="No Data"]
+
+//ST: !
+En introduction au sujet, et pour mieux réaliser les enjeux sociétaux et économiques de l'IA, je recommanderai également cette vidéo de Laurent Alexandre, qui est intervenu devant une Commission du Sénat en 2017:
+
+//ST: !
+video::rJowm24piM4[youtube]
+
+//ST: !
+==== b. Faire de l'IA / la data science sont coeur de métier
+
+//ST: !
+Je vais passer rapidement sur ce point car il est simple:
+
+//ST: !
+Les écoles d'ingénieur ayant pris le virage de la data science sont la voie simple et efficace si l'on veut devenir data scientist.
+
+Quelques précisions cependant:
+
+//ST: !
+- beaucoup d'écoles d'ingénieur sont juste en train de prendre ce virage, certaines sont un peu en retard.
+
+Un bon moyen pour vérifier qu'un cursus aborde effectivement la data science de la bonne façon est qu'il inclut l'apprentissage du machine learning *avec python*, qui est le langage de programmation de référence dans ce domaine.
+
+//ST: !
+- il existe un certain nombre de formations en ligne d'excellente qualité, en anglais, gratuites sous forme de MOOC.
+
+-> Allez voir "Intro to data science" sur Coursera et Udacity.
+
+//ST: !
+=== c. Utiliser / être complémentaire de l'IA dans son métier
+
+//ST: !
+Je pense que cette voie est essentielle.
+
+Il est crucial que les générations se formant à un métier aujourd'hui maîtrisent les enjeux de l'IA pour travailler avec elle, plutôt que de se faire remplacer ou être relégué à des tâches d'éxecution dépourvues d'intérêt.
+
+Pour cela, il faut:
+
+//ST: !
+- apprendre à coder
+- suivre des cours de data science (introduction ou avancé) dans son cursus ou en parallèle
+- faire, créer, développer des projets concrets
+- être dans une démarche de *formation continue*: les techniques évoluent rapidement, on est vite dépassé.
+
+//ST: !
+- Apprendre à coder: c'est moins dur qu'on peut le croire:
+
+//ST: !
 video::nKIu9yen5nc[youtube]
 
+//ST: !
+A emlyon business school, dans le programme grande école, nous faisons découvrir à *tous nos étudiants* la programation en créant une application mobile.
 
-
-== 2. Se former aux sciences... humaines
-
-== 3. Comprendre ce qu'est l'intelligence artificielle
-
-== 3. Faire, aller sur le terrain
-
-
-
-
-
-Before a picture can be shown on the screen of your app, you must add the picture to the files of your app.
-
-Importing a picture in the files of the app should be done from the GUI Builder, in one click:
+Ce cours est d'ailleurs également sur la plateforme de MOOC Coursera:
 
 //ST: !
-image::https://docs.google.com/drawings/d/e/2PACX-1vSLPnmssKJF8wwyqE11sImdLaTRBXOennCg2Es4bCYrNndq6w6utCETw-h6SDKrSX-VHugOxa6KiwdK/pub?w=1444&h=779[align="center",title="Importing from the GUI Builder - does not work at the moment"]
+image::coursera.png[align="center"]
 
 //ST: !
-But this simple way does not work at the moment (it will probably be fixed soon).
+- Suivre des cours de data science: ils sont plus difficiles à trouver
 
 //ST: !
-So the alternative is to go somewhere else: in a place that used to be important to create the app, but which is now rarely used, except for cases like this.
+A ma connaissance, peu voire pas d'écoles ou d'universités proposent des cours de data science au sein de leurs cursus disciplinaires.
+
+(une licence de sociologie ne propose pas de data science)
 
 //ST: !
-- in the files of your project in NetBeans, spot the file named "theme.res" and double click on it:
+Solutions:
+
+- faire un double diplôme
+- faire une licence dans un domaine, puis suivre un Master en data science (*emlyon en lance un à Paris*)
+- intégrer une des rares écoles qui allie formation professionnelle et data science (indice: emlyon!)
 
 //ST: !
-image::https://docs.google.com/drawings/d/e/2PACX-1vS_VG4vC2052zshEacVIzW2S0F0u-TPZlTx-eA81RDqc4ArK3p5N_EQib5ev6-5LqwguLUFKcxhqkkF/pub?w=645&h=434[align="center",title="Clicking on the file theme.res"]
+emlyon propose dans son programme grande école, en bba, en Msc, des cours de data science.
+
+Trois liens:
 
 //ST: !
--> It launches a new window. Be patient, it takes a bit of time to open!
-
-Here is how the new window should look:
-
-//ST: !
-image::https://docs.google.com/drawings/d/e/2PACX-1vRxDY5ikra8n7-BQ9l7D71NRl2nht21cS6Mg62o1kJ_THCDiRB7i6fEj0dxsB1daRbqhISd6cwit5vZ/pub?w=1124&h=638[align="center",title="A new window opened"]
+- cours de data science à emlyon: http://data.em-lyon.com/teaching-2
+- Msc in Digital Marketing and Data Science à Paris en Sept 2018: http://graduate.em-lyon.com/en/MSc-in-Digital-Marketing-Data-Science
+- cours sur l'Internet des objets au BBA emlyon de St Etienne: http://seinecle.github.io/IoT4Entrepreneurs
 
 //ST: !
-There, just go in the top menu, select 'Images' and choose "Add images":
+- Faire, aller sur le terrain
 
 //ST: !
-image::https://docs.google.com/drawings/d/e/2PACX-1vTrZcz0hlcsJOp3f57r14z2TG3wTqkjvGz3kX2QXODhAZ5VsSDja6j4T2LjiIrWShsdsFRluHFQe2pk/pub?w=1441&h=819[align="center",title="Selecting Add Images"]
+L'intelligence artificielle et la data science ont des composantes technologiques essentielles: on n'apprend pas simplement un savoir matématique ou statistique théorique.
+
+On code, on installe des programmes sur des ordinateurs et des serveurs, on connecte des objets, on créé des pages web...
+
+(et quoi qu'il arrive on apprenant mieux en *faisant*, j'en ai la conviction)
 
 //ST: !
-Simply choose the image that you would like to insert in your app. Guidelines:
-
-- choose an image in '.jpg' or '.png' format
-- *choose a small sized image*: a file not bigger than 300kb.
+Il faut donc chercher autant que possible des formations qui font travailler les participants en projets, avec des réalistions concrètes et visibles (ce qu'ils pourront mentionner dans leur CV, d'ailleurs).
 
 //ST: !
-Done! Save (File -> Save) before you close this window, as we don't need it anymore.
-
-You are now ready to use this pic in your app. Let's see how to add it onto a Form:
-
-== 2. Adding a picture to a Form
-
-The general idea is very simple: place a Component onto the Form, then set the picture as the background of this Component.
-
-Let's try this with a Label. Open the GUI Builder of the Form, then place a Label on the Form:
+Encore une fois avec sa pédagogie "early makers", emlyon a des formations qui répondent à ce besoin:
 
 //ST: !
-image::https://docs.google.com/drawings/d/e/2PACX-1vT8p6D8Sn4nwoJXlWs4zRMvwnNfkNNvTDhDX377rYfwOyOZhZJorVxIhD2VF5vl8R0d69HrlKu2OTzr/pub?w=1434&h=791[align="center",title="Dragging a Label onto the Form"]
+Un exemple de devoir rendu dans mon cours sur l'internet des objets dans le BBA emlyon, campus de St-Etienne:
 
 //ST: !
-If you have clicked on this little icon, you should now see many properties of the Label that you can modify:
+video::155B6dSZEfs[youtube]
 
 //ST: !
-image::https://docs.google.com/drawings/d/e/2PACX-1vQikFRnjqNNzusfU15Yp-slSRqpv-WJvCTD1mfhBkZE7WK54J0uxupE6CVv4Y8zhvXUDmmcwdKAc9CD/pub?w=1443&h=836[align="center",title="Discovering how to change the style of a Label"]
+Le cours était d'ailleurs lui-même en vidéo:
 
 //ST: !
-So many properties that we can change! Feel free to explore them. For the moment, we want to add a picture:
+video::C6vhPETtXN8[youtube]
 
 //ST: !
-- Click on the right of the line of 'Bg Image', where there are 3 dots.
-- If you imported correctly your image in the previous step (see above), you should see your picture available.
-- Select it
-- Click on its name at the bottom of the menu to close the window.
+Et tous les programmes de emlyon, sur tous les capus de Lyon, Paris, Saint-Etienne, ont accès aux formations du Makers Lab:
 
 //ST: !
-You should now see your picture on the Form:
+video::tQ79QR7LUw8[youtube]
 
 //ST: !
-image::https://docs.google.com/drawings/d/e/2PACX-1vRvxzfaqv8_IT2OOVQnGQd5W4W_b86tcgQkk6dZlZv4JcD-jjPGDk2eJc_qsfEje5OhX_kMuNGLIcN3/pub?w=1440&h=1080[align="center",title="Resizing and fitting the picture"]
+C'est la fin de cette présentation!
 
-== 3. Setting a picture as the background of a Form
+Je reste à votre disposition pour des questions, également par email à levallois@em-lyon.com
 
-//ST: !
-So, we have seen how to add a pic on the screen. But often we also want to set a background for the entire of the phone, like this:
+== Merci!
+//ST: Merci!
 
-image::Nexus_4-smaller.png[align="center",title="An example of an app with a colored background"]
-
-//ST: !
-In this case, we could create a Label and then resize it to take the entire space of the Form, but there is a better way:
-
-//ST: !
-We can simply set the picture we want to the background of the Form itself. In the following, I am using a picture by https://www.flickr.com/photos/zooboing/5405160553[user Patrick Hoesly on Flickr]:
-
-//ST: !
-image::green_background-smaller.png[align="center",title="a green background"]
-
-//ST: !
-Just like we have seen, we need first to import this picture through the file 'theme.res' (see the top of this lesson for how to).
-
-Then, set this picture as the "Bg Image" of the Form:
-
-//ST: !
-image::https://docs.google.com/drawings/d/e/2PACX-1vSzhd-E4N9gnl1SloouWV9nTRYxeLGX-ojS1Bvi5jeNqCZ8gfvG_dvHo-b0zUIEbA5H6fr8-wp_N70X/pub?w=1446&h=935[align="center",title="Setting an image as the background of the Form"]
-
-//ST: !
-To see the result, make sure to save the GUI Builder then launch the preview of the app (big green arrow in NetBeans.).
-
-You should get something like:
-
-//ST: !
-image::background-preview-1.png[align="center",title="Background of the app - but with the top remaining blank"]
-
-//ST: !
-This is quite good but we see that some room on the top of the app is not covered, because it is reserved space for the title of the Form.
-
-//ST: !
-We can remove this white space on the top by adding two lines of code to the file 'MyApplication.java'.
-
-In the file 'MyApplication.java', spot the lines that say:
-
-//ST: !
-[[anchor-2]]
-.MyApplication.java
-[source,java]
-----
-public void start() {
-    if (current != null) {
-        current.show();
-        return;
-    }
-    Form1 myForm1 = new Form1();
-    myForm1.show();
-}
-----
-
-//ST: !
-Just add two lines of code precisely like this:
-
-//ST: !
-[[anchor-2]]
-.MyApplication.java
-[source,java]
-----
-public void start() {
-    if (current != null) {
-        current.show();
-        return;
-    }
-    Form1 myForm1 = new Form1();
-    myForm1.getToolbar().setUIID("Container");
-    myForm1.getToolbar().hideToolbar();
-    myForm1.show();
-}
-----
-
-//ST: !
-Now, if you launch the preview, your background should nicely cover the entire space of your screen:
-
-//ST: !
-image::background-preview-2.png[align="center",title="Background of the app - covering the entire screen"]
-
-//ST: !
-Congratulations! You learned how to place a picture onto a Form, and how to set a picture as the background of your app. It will look great! 🎉🎉🎉
-
-
-//ST: !
-*This is the end of the second module. You should now be able to:*
-
-//ST: !
-1. understand what a Component is.
-2. understand what an Action is.
-3. understand what a Form is.
-
-//ST: !
-[start=4]
-4. create a Form using simple lines of code.
-5. create a Form using the Graphical User Interface (GUI).
-6. understand what are the different panels of the GUI.
-
-//ST: !
-[start=7]
-7. trigger with a couple lines of code the opening of the Form you created with the GUI.
-8. create a Label
-9. create a Button and attach an action to it.
-
-//ST: !
-[start=10]
-10. add a picture to the files of your app through theme.res
-11. add a picture onto a Form
-12. set a picture as the background of a Form.
-
-//ST: !
-You are now well equipped to build apps with beautiful UI (user interface). Go and create something beautiful!
-
-//ST: !
-*In the next module, we are going to learn how test and release your app for Android an iPhones!*
-
-== The end
-//ST: The end
-
-//ST: !
-Questions? Want to open a discussion on this lesson? Visit the forum https://github.com/seinecle/codapps/issues[here] (need a free Github account).
-
-//ST: !
-Find references for this lesson, and other lessons, https://seinecle.github.io/codapps/[here].
-
-//ST: !
-Licence: Creative Commons, https://creativecommons.org/licenses/by/4.0/legalcode[Attribution 4.0 International] (CC BY 4.0).
-You are free to:
-
-- copy and redistribute the material in any medium or format
-- Adapt — remix, transform, and build upon the material
-
-=> for any purpose, even commercially.
 
 //ST: !
 image:round_portrait_mini_150.png[align="center", role="right"]
-This course is designed by Clement Levallois.
+This presentation is designed by Clement Levallois.
 
 Discover my other courses in data / tech for business: http://www.clementlevallois.net
 
