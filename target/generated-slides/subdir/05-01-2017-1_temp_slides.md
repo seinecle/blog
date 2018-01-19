@@ -17,6 +17,7 @@ On a second button click, I'd like these docs to be uploaded on the web to make 
 == !
 
 image::A-diagram-showing-the-authoring-steps-to-create-open--web-friendly-docs.png[align="center", title="A diagram showing the authoring steps to create open, web friendly docs"]
+{nbsp} +
 
 
 == Introduction

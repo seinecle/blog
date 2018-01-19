@@ -1,0 +1,200 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title>Authoring open, web-friendly courses and tutorials</title><meta content="yes" name="apple-mobile-web-app-capable" /><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" /><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" name="viewport" /><link href="reveal.js-3.6.0/css/reveal.css" rel="stylesheet" /><link rel="stylesheet" href="reveal.js-3.6.0/css/theme/white.css" id="theme" /><style>/* Stylesheet for CodeRay to match GitHub theme | MIT License | http://foundation.zurb.com */
+/*pre.CodeRay {background-color:#f7f7f8;}*/
+.CodeRay .line-numbers{border-right:1px solid #d8d8d8;padding:0 0.5em 0 .25em}
+.CodeRay span.line-numbers{display:inline-block;margin-right:.5em;color:rgba(0,0,0,.3)}
+.CodeRay .line-numbers strong{color:rgba(0,0,0,.4)}
+table.CodeRay{border-collapse:separate;border-spacing:0;margin-bottom:0;border:0;background:none}
+table.CodeRay td{vertical-align: top;line-height:1.45}
+table.CodeRay td.line-numbers{text-align:right}
+table.CodeRay td.line-numbers>pre{padding:0;color:rgba(0,0,0,.3)}
+table.CodeRay td.code{padding:0 0 0 .5em}
+table.CodeRay td.code>pre{padding:0}
+.CodeRay .debug{color:#fff !important;background:#000080 !important}
+.CodeRay .annotation{color:#007}
+.CodeRay .attribute-name{color:#000080}
+.CodeRay .attribute-value{color:#700}
+.CodeRay .binary{color:#509}
+.CodeRay .comment{color:#998;font-style:italic}
+.CodeRay .char{color:#04d}
+.CodeRay .char .content{color:#04d}
+.CodeRay .char .delimiter{color:#039}
+.CodeRay .class{color:#458;font-weight:bold}
+.CodeRay .complex{color:#a08}
+.CodeRay .constant,.CodeRay .predefined-constant{color:#008080}
+.CodeRay .color{color:#099}
+.CodeRay .class-variable{color:#369}
+.CodeRay .decorator{color:#b0b}
+.CodeRay .definition{color:#099}
+.CodeRay .delimiter{color:#000}
+.CodeRay .doc{color:#970}
+.CodeRay .doctype{color:#34b}
+.CodeRay .doc-string{color:#d42}
+.CodeRay .escape{color:#666}
+.CodeRay .entity{color:#800}
+.CodeRay .error{color:#808}
+.CodeRay .exception{color:inherit}
+.CodeRay .filename{color:#099}
+.CodeRay .function{color:#900;font-weight:bold}
+.CodeRay .global-variable{color:#008080}
+.CodeRay .hex{color:#058}
+.CodeRay .integer,.CodeRay .float{color:#099}
+.CodeRay .include{color:#555}
+.CodeRay .inline{color:#000}
+.CodeRay .inline .inline{background:#ccc}
+.CodeRay .inline .inline .inline{background:#bbb}
+.CodeRay .inline .inline-delimiter{color:#d14}
+.CodeRay .inline-delimiter{color:#d14}
+.CodeRay .important{color:#555;font-weight:bold}
+.CodeRay .interpreted{color:#b2b}
+.CodeRay .instance-variable{color:#008080}
+.CodeRay .label{color:#970}
+.CodeRay .local-variable{color:#963}
+.CodeRay .octal{color:#40e}
+.CodeRay .predefined{color:#369}
+.CodeRay .preprocessor{color:#579}
+.CodeRay .pseudo-class{color:#555}
+.CodeRay .directive{font-weight:bold}
+.CodeRay .type{font-weight:bold}
+.CodeRay .predefined-type{color:inherit}
+.CodeRay .reserved,.CodeRay .keyword {color:#000;font-weight:bold}
+.CodeRay .key{color:#808}
+.CodeRay .key .delimiter{color:#606}
+.CodeRay .key .char{color:#80f}
+.CodeRay .value{color:#088}
+.CodeRay .regexp .delimiter{color:#808}
+.CodeRay .regexp .content{color:#808}
+.CodeRay .regexp .modifier{color:#808}
+.CodeRay .regexp .char{color:#d14}
+.CodeRay .regexp .function{color:#404;font-weight:bold}
+.CodeRay .string{color:#d20}
+.CodeRay .string .string .string{background:#ffd0d0}
+.CodeRay .string .content{color:#d14}
+.CodeRay .string .char{color:#d14}
+.CodeRay .string .delimiter{color:#d14}
+.CodeRay .shell{color:#d14}
+.CodeRay .shell .delimiter{color:#d14}
+.CodeRay .symbol{color:#990073}
+.CodeRay .symbol .content{color:#a60}
+.CodeRay .symbol .delimiter{color:#630}
+.CodeRay .tag{color:#008080}
+.CodeRay .tag-special{color:#d70}
+.CodeRay .variable{color:#036}
+.CodeRay .insert{background:#afa}
+.CodeRay .delete{background:#faa}
+.CodeRay .change{color:#aaf;background:#007}
+.CodeRay .head{color:#f8f;background:#505}
+.CodeRay .insert .insert{color:#080}
+.CodeRay .delete .delete{color:#800}
+.CodeRay .change .change{color:#66f}
+.CodeRay .head .head{color:#f4f}</style><link href="reveal.js-3.6.0/lib/css/zenburn.css" rel="stylesheet" /><script>document.write( '<link rel="stylesheet" href="reveal.js-3.6.0/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );</script></head><body><div class="reveal"><div class="slides"><section class="title"><h1>Authoring open, web-friendly courses and tutorials</h1></section><div class="paragraph"><p>by Clément Levallois (<a href="http://www.twitter.com/seinecle">@seinecle</a>), first version 27/12/2016</p></div>
+<div class="paragraph"><p><em>To make my point early on: this document is written in AsciiDoc, which converts easily into
+<a href="https://github.com/seinecle/blog/blob/master/blog%20post%2027-12-2016.pdf">pdf</a>,  <a href="https://rawgit.com/seinecle/blog/master/blog%20post%2027-12-2016.html">html</a> and <a href="https://rawgit.com/seinecle/blog/master/blog%20post%2027-12-2016.epub">epub</a> versions and online slides as well.</em></p></div>
+<div class="paragraph"><p>Teachers and experts create a ton of content (slides and pdfs mostly) which never reach anybody beyond the participants they teach in the class / conference / meeting room. What a waste! What if we could google and browse course materials, just like we do with regular web pages?</p></div>
+<div class="paragraph"><p>The first obstacle is the limitations that teachers impose on themselves: we refuse that our content should be left in the open. These courses requested big efforts to be created (a PhD! life on the road as a consultant! summers, weekend and nights!) and they crystalize our intellectual value. Making this content available would diminish our originality, it could get copied (stolen!) and taught elsewhere by total strangers. We would become replaceable. Our students or clients would go on the Internet instead of visiting our seminars.</p></div>
+<div class="paragraph"><p>Well, this is not true. Spreading and publicizing your content makes a broader audience interested in what you produce, not less. MOOCs show that (ask <a href="https://youtu.be/ESr9z0aKuCc">Andrew Ng</a>), open source code show that (ask <a href="https://wptavern.com/linus-torvalds-explains-how-open-source-led-to-the-success-of-linux">Linus Torvald</a>), open data shows that as well (ask the <a href="http://techpresident.com/blog-entry/open-data-makes-good-advertising-mta">MTA</a>).</p></div>
+<div class="paragraph"><p>A second obstacle is the use of Microsoft Word, Powerpoint (or Keynote for Mac), and pdf in general: these types of documents are good for the desktop, not for web surfing. So most of the docs stay as files in folders on the hard drives of the teachers&#8217;s laptops. They might get uploaded to the LMS (the intranet for courses) of the univ / school, but they are not fit for web browsing.</p></div>
+<div class="paragraph"><p>I was stimulated to think  how to do differently by 2 things:</p></div>
+<div class="ulist"><ul><li><p>a talk by <a href="http://hsablonniere.com/">Hubert Sablonnière</a> at <a href="http://webenvert.fr/events/s03e03/">WebEnVert</a> on AsciiDoc</p></li><li><p>the need to update lots of tutorials I have on <a href="http://gephi.org/">Gephi</a></p></li></ul></div>
+<div class="paragraph"><p>What if our course materials and tutorials were as easy to find, edit, maintain and read as webpages?
+To achieve that, many free options are available:</p></div>
+<div class="qlist qanda"><ol><li><p><em>Writing courses and tutorials as blog posts in WordPress?</em></p><p>Not a bad idea actually. WordPress is a "content management system", which sounds about right if we project to manage course content online. It would cover most of the needs: easy for the prof to write and edit, public by default, an admin panel to grant editing access and collect reading stats. A not so minor issue is that whatever written in WordPress doesn&#8217;t travel easily: a blog post is hard to translate into a slide presentation, a pdf, or an archive to store on one&#8217;s computer.</p></li><li><p><em>Writing slides on <a href="https://slides.com/features">Slides.com</a> or <a href="https://www.google.com/slides/about/">Google Slides</a>?</em></p><p>These 2 services provide Powerpoint / Keynote functionalities, but in a web browser rather than in a desktop software. It makes it easy to edit, publish and share online presentations. One issue: Slides.com is very limited in its free version (250Mb storage, no export facility). To note: Google Slides is compatible with the Powerpoint pptx format, which is excellent.</p></li><li><p><em>AsciiDoc!</em></p><p>Basically, what you do is write your text in a very simple format: just a plain text document (.txt). Then, you format the text with some very simple signs: these little stars for * <strong>bold text</strong> *, underscores for _ <em>italic text</em>  _, and similar stuff to create titles, bullet points, etc. The document you are reading now is written in AsciiDoc. The advantages are:</p><div class="ulist"><ul><li><p>with <a href="http://asciidocfx.com/">AsciiDocFX</a> and other free software, you create and turn these txt files into beautiful pdfs, slides, web pages, ebooks!</p></li><li><p>asciidoc is really just plain text, so you can use git versioning on it. That&#8217;s really geek territory here, but very useful: Git is a system that allows you to track and record successive versions of a given document, for an author or even a team of auhors / editors. It works only with text, not files like .pptx or .docx. So, creating documents in asciidoc adds versioning + multiauthoring capabilities to your workflow! Personnally, I find it can be useful to allow students, colleagues and anonymous readers of my courses to suggest edits to the course through this system.</p></li><li><p>and given that it is plain text, you have full control on it. Again, geek stuff here, but let&#8217;s just say that plain text can be handled easily with APIs, contrary to files in .docx or .pptx formats.</p></li></ul></div></li></ol></div>
+<div class="paragraph"><p>To recap:</p></div>
+<table class="tableblock frame-all grid-all" style="width:90%"><caption class="title">Table 1. Different options to create web-based, open courses and tutorials</caption><colgroup><col style="width:28.5714%" /><col style="width:35.7142%" /><col style="width:35.7144%" /></colgroup><thead><tr><th class="tableblock halign-left valign-top">Solution</th><th class="tableblock halign-left valign-top">Advantages</th><th class="tableblock halign-left valign-top">Inconvenients</th></tr></thead><tbody><tr><td class="tableblock halign-left valign-top"><p class="tableblock">Wordpress</p></td><td class="tableblock halign-left valign-top"><p class="tableblock">Creates webpages in an easy way. Widely adopted content management system with a mature admin interface and a flexible, familiar text editor.</p></td><td class="tableblock halign-left valign-top"><p class="tableblock">Poor interface with other systems: what&#8217;s created on WP stays on WP. Difficult or impossible to turn blog posts into slides, pdfs and ebooks or stand alone webpages. Can handle media imports but not the design of figures.</p></td></tr><tr><td class="tableblock halign-left valign-top"><p class="tableblock">Google Docs + Google Drawings + Google Slides</p></td><td class="tableblock halign-left valign-top"><p class="tableblock">Full solution to create texts, drawings, slides and more, in a "online native" fashion and with familiar tools. Lots of sharing capabilities through embed links and compatible with the MS Office file formats.</p></td><td class="tableblock halign-left valign-top"><p class="tableblock">Not easy / impossible to exend with advanced features like git versioning.</p></td></tr><tr><td class="tableblock halign-left valign-top"><p class="tableblock">AsciiDoc</p></td><td class="tableblock halign-left valign-top"><p class="tableblock">Full flexibility in terms of formats, from slides to pdf and ebooks. Made to work with developer tools and web technologies: git, apis, html.</p></td><td class="tableblock halign-left valign-top"><p class="tableblock">Does not handle figures, just text. There is a learning curve. Tools are not stable and might break / disappear.</p></td></tr></tbody></table>
+<div class="paragraph"><p>I choose AsciiDoc, using also Google Drawings for the design of diagrams which I&#8217;ll embed in my AsciiDocs. For example the following figure was created in in Google Drawings and added to this document through a simple "share link":</p></div>
+<div class="paragraph"><p>In 2017, I am going to experiment with the transition of working on my courses and tutorials from using MS Word + Powerpoint to writing in AsciiDoc format.</p></div>
+<div class="paragraph"><p>The point is to make these documents easy to publish on the web, easier on my side to maintain, and open to the public. I don&#8217;t have the exact address where you should find these things as I create them, but check <a href="http://www.github.com/seinecle">my github account</a> or <a href="http://www.clementlevallois.net">my personal website</a>.</p></div>
+<div class="paragraph"><p>Comments? Questions on this document? Please open <a href="https://github.com/seinecle/blog/issues">an issue on Github</a>.
+    <!-- Start of StatCounter Code for Default Guide -->
+    <script type="text/javascript">
+        var sc_project = 11604994;
+        var sc_invisible = 1;
+        var sc_security = "11604994";
+        var scJsHost = (("https:" == document.location.protocol) ?
+            "https://secure." : "http://www.");
+        document.write("<sc" + "ript type='text/javascript' src='" +
+            scJsHost +
+            "statcounter.com/counter/counter.js'></" + "script>");
+    </script>
+    <noscript><div class="statcounter"><a title="site stats"
+    href="http://statcounter.com/" target="_blank"><img
+    class="statcounter"
+    src="//c.statcounter.com/11604994/0/11604994/1/" alt="site
+    stats"></a></div></noscript>
+    <!-- End of StatCounter Code for Default Guide --></p></div></div></div><script src="reveal.js-3.6.0/lib/js/head.min.js"></script><script src="reveal.js-3.6.0/js/reveal.js"></script><script>// See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
+Reveal.initialize({
+  // Display controls in the bottom right corner
+  controls: true,
+  // Display a presentation progress bar
+  progress: true,
+  // Display the page number of the current slide
+  slideNumber: false,
+  // Push each slide change to the browser history
+  history: false,
+  // Enable keyboard shortcuts for navigation
+  keyboard: true,
+  // Enable the slide overview mode
+  overview: true,
+  // Vertical centering of slides
+  center: true,
+  // Enables touch navigation on devices with touch input
+  touch: true,
+  // Loop the presentation
+  loop: false,
+  // Change the presentation direction to be RTL
+  rtl: false,
+  // Turns fragments on and off globally
+  fragments: true,
+  // Flags if the presentation is running in an embedded mode,
+  // i.e. contained within a limited portion of the screen
+  embedded: false,
+  // Number of milliseconds between automatically proceeding to the
+  // next slide, disabled when set to 0, this value can be overwritten
+  // by using a data-autoslide attribute on your slides
+  autoSlide: 0,
+  // Stop auto-sliding after user input
+  autoSlideStoppable: true,
+  // Enable slide navigation via mouse wheel
+  mouseWheel: false,
+  // Hides the address bar on mobile devices
+  hideAddressBar: true,
+  // Opens links in an iframe preview overlay
+  previewLinks: false,
+  // Theme (e.g., beige, black, league, night, serif, simple, sky, solarized, white)
+  // NOTE setting the theme in the config no longer works in reveal.js 3.x
+  //theme: Reveal.getQueryHash().theme || 'white',
+  // Transition style (e.g., none, fade, slide, convex, concave, zoom)
+  transition: Reveal.getQueryHash().transition || 'linear',
+  // Transition speed (e.g., default, fast, slow)
+  transitionSpeed: 'default',
+  // Transition style for full page slide backgrounds (e.g., none, fade, slide, convex, concave, zoom)
+  backgroundTransition: 'fade',
+  // Number of slides away from the current that are visible
+  viewDistance: 3,
+  // Parallax background image (e.g., "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
+  parallaxBackgroundImage: '',
+  // Parallax background size in CSS syntax (e.g., "2100px 900px")
+  parallaxBackgroundSize: '',
+
+  // The "normal" size of the presentation, aspect ratio will be preserved
+  // when the presentation is scaled to fit different resolutions. Can be
+  // specified using percentage units.
+  width: 960,
+  height: 700,
+
+  // Factor of the display size that should remain empty around the content
+  margin: 0.1,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  minScale: 0.2,
+  maxScale: 10.0,
+
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+      { src: 'reveal.js-3.6.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'reveal.js-3.6.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'reveal.js-3.6.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      
+      { src: 'reveal.js-3.6.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: 'reveal.js-3.6.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+});</script></body></html>

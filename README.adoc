@@ -1,0 +1,11 @@
+= Clement Levallois's irregular blog
+Clément Levallois <clementlevallois@gmail.com>
+2018-01-19
+:revnumber: 1.0
+:example-caption!:
+ifndef::imagesdir[:imagesdir: images]
+ifndef::sourcedir[:sourcedir: ../../main/java]
+
+Website: https://seinecle.github.io/blog/
+
+by http://clementlevallois.net[Clément Levallois], Associate Professor at http://www.emlyon.com[emlyon business school].
