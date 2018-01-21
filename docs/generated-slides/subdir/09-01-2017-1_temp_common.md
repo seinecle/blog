@@ -3,7 +3,6 @@ Clément Levallois <clementlevallois@gmail.com>
 2017-01-09
 :revnumber: 1.0
 :example-caption!:
-:sourcedir: ../../main/java
 
 I received an email by a participant of CODAPPS, the MOOC I created to learn how to create native mobile apps.
 This MOOC is currently running on Coursera.

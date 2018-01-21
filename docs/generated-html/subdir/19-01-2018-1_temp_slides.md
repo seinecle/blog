@@ -32,7 +32,7 @@ Les robots sont encore loins d'être une techno pertinente pour l'économie:
 video::g0TaYhjpOfo[youtube]
 
 ==  !
-Mais en est-vous si sûr?
+Mais en êtes-vous si sûr?
 
 ==  !
 video::fRj34o4hN4I[youtube]
@@ -72,7 +72,7 @@ L'intelligence artificielle faible est celle qui:
 Exemples:
 
 ==  !
-IBM Watson at Jeopardy!
+IBM Watson bat les meilleurs joueurs de Jeopardy!
 
 ==  !
 video::YgYSv2KSyWg[youtube]
@@ -90,7 +90,7 @@ Les mêmes entrepôts d'Amazon en 2016:
 video::cLVCGEmkJs0?t=23s[youtube]
 
 ==  !
-==== b. De quoi est faites l'intelligence artificielle faible?
+==== b. De quoi est faite l'intelligence artificielle faible?
 
 ==  !
 Aujourd'hui, *l'intelligence artificielle faible est synonyme de data science*.
@@ -187,7 +187,7 @@ Un bon moyen pour vérifier qu'un cursus aborde effectivement la data science de
 -> Allez voir "Intro to data science" sur Coursera et Udacity.
 
 ==  !
-=== c. Utiliser / être complémentaire de l'IA dans son métier
+==== c. Utiliser / être complémentaire de l'IA dans son métier
 
 ==  !
 Je pense que cette voie est essentielle.

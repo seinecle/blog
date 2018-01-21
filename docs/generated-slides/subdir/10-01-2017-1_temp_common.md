@@ -3,7 +3,6 @@ Clément Levallois <clementlevallois@gmail.com>
 2017-01-09
 :revnumber: 1.0
 :example-caption!:
-:sourcedir: ../../main/java
 
 I have finally a convenient solution to write my blog posts (see https://github.com/seinecle/blog/blob/master/src/main/asciidoc/05-01-2017-1.adoc[here]), so I finally "put on paper" things I had in store.
 

@@ -9,7 +9,6 @@ last modified: {docdate}
 :iconsfont:   font-awesome
 :revnumber: 1.0
 :example-caption!:
-:sourcedir: ../../../../main/java
 
 
 :title-logo-image: EMLyon_logo_corp.png[width="242" align="center"]
@@ -23,6 +22,7 @@ image::EMLyon_logo_corp.png[width="242" align="center"]
 == 1. Comprendre ce qu'est l'intelligence artificielle
 //ST: 1. Comprendre ce qu'est l'intelligence artificielle
 
+//ST: !
 ==== a. Intelligence artificielle forte vs Intelligence artificielle faible
 
 //ST: !
@@ -109,7 +109,7 @@ La data science consiste à:
 Une famille de techniques statistiques populaires en data science s'appelle le machine learning, elle-même composée de sous-familles appelées *unsupervised learning*, *supervised learning*, *reinforcement learning*...
 
 //ST: !
-Mais pour rester sur un niveau plus général, ce graphique représent la data science de façon très utile:
+Mais pour rester sur un niveau plus général, ce graphique représente la data science de façon très utile:
 
 //ST: !
 image::conway.jpg[align="center", title="La data science représentée par Drew Conway"]
@@ -124,6 +124,7 @@ Comment se forme-t-on aux compétences représentées dans ce graphique?
 == 2. Comment se former à l'intelligence artificielle?
 //ST: 2. Comment se former à l'intelligence artificielle?
 
+//ST: !
 Plusieurs options s'offrent à la génération qui va grandir avec l'IA:
 
 //ST: !
@@ -135,7 +136,7 @@ c. faire de l'IA son coeur de métier
 Ces trois types de rapport à l'IA justifient des formations différentes.
 
 //ST: !
-=== a. un rapport de citoyen(ne) à l'IA:
+==== a. un rapport de citoyen(ne) à l'IA:
 
 //ST: !
 On peut bien s'intéresser à l'IA sans que cela soit un enjeu professionel immédiat.
@@ -164,7 +165,7 @@ En introduction au sujet, et pour mieux réaliser les enjeux sociétaux et écon
 video::rJowm24piM4[youtube]
 
 //ST: !
-=== b. Faire de l'IA / la data science sont coeur de métier
+==== b. Faire de l'IA / la data science sont coeur de métier
 
 //ST: !
 Je vais passer rapidement sur ce point car il est simple:
@@ -185,7 +186,7 @@ Un bon moyen pour vérifier qu'un cursus aborde effectivement la data science de
 -> Allez voir "Intro to data science" sur Coursera et Udacity.
 
 //ST: !
-=== c. Utiliser / être complémentaire de l'IA dans son métier
+==== c. Utiliser / être complémentaire de l'IA dans son métier
 
 //ST: !
 Je pense que cette voie est essentielle.
@@ -264,6 +265,8 @@ video::155B6dSZEfs[youtube]
 
 //ST: !
 Le cours était d'ailleurs lui-même en vidéo:
+
+//ST: !
 video::C6vhPETtXN8[youtube]
 
 //ST: !
