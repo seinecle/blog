@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Jatomis Stevenson
+name: Nocode functions - blog
 
 # Short bio or description (displayed in the header)
-description: Chief Technology Officer of KIGT Inc.
+description: The journey of an academic and app developer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://pbs.twimg.com/profile_images/436294985625772033/_5Ofty7a_400x400.jpeg
 
 #
 # Flags below are optional
@@ -26,7 +26,7 @@ footer-links:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
+  twitter: seinecle
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://nocodefunctions.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
