@@ -14,11 +14,11 @@ I am a social scientist and Java developer with a passion for discovering insigh
 
 ### Programming
 
-Working with bigger texts and networks, I switched from using Excel to Java in 2011. The tools I created are scattered in academic publications, private and public Github repos, and websites which emerged and died. The key contributions are:
+Working with bigger texts and networks, I switched from using Excel to Java in 2011. The tools I created are scattered in academic publications, private and public Github repos, and websites which emerged and died. Examples of contributions:
 
-* Umigon, best of class sentiment analysis for social media
-* A method to map Twitter fields, at scale
-* [Plugins](https://gephi.org/plugins/#/browse/search/levallois) and [tutorials](https://seinecle.github.io/gephi-tutorials/) for Gephi.
+* [Umigon](https://test.nocodefunctions.com/nocodeapp-web-front-1.0/umigon/umigon.html), best of class sentiment analysis for social media
+* [A method to map Twitter fields, at scale](https://management-aims.com/index.php/mgmt/article/view/4245/10254)
+* [Plugins](https://gephi.org/plugins/#/browse/search/levallois) and [tutorials](https://seinecle.github.io/gephi-tutorials/) for [Gephi](https::/gephi.org).
 
 ### Today
 
