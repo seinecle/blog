@@ -22,7 +22,7 @@ Working with bigger texts and networks, I switched from using Excel to Java in 2
 
 ### Today
 
-I am now trying to increase the public impact of my academic work. In 2021 I started developping https://nocodefunctions.com/. It is meant as a platform making it easy to re-use the functions I developed, and it will be the host and training ground for the new functions I am currently developing.
+I am now trying to increase the public impact of my academic work. In 2021 I started developping [https://nocodefunctions.com/](https://nocodefunctions.com/). It is meant as a platform making it easy to re-use the functions I developed, for free. It will be the host and training ground for the new functions I am developing in my current academic projects.
 
 
 ### Contact me
