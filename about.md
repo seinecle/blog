@@ -6,14 +6,25 @@ permalink: /about/
 
 I am a social scientist and Java developer with a passion for discovering insights in big texts, networks and in unstructured data in general.
 
-* In my 20s under the guidance of [Philippe Fontaine](https://isp.cnrs.fr/?project=fontaine-philippe) I used archives (boxes of documents! plenty of boxes!) to write a contextualized history of economics and biology in post-WWII USA.
-* In my 30s under the guidance of Paul Wouters and Ale Smidts, I used scientometric data and survey data to map the field of scientometrics and highlight its interdisciplinary character
-* Now in my 40s, my goal is to continue my exploration AND to make the tools I developed accessible to the public. This is the sense of https://nocodefunctions.com/
+### Work in social science
 
-### More Information
+* In my 20s for my PhD under the guidance of [Philippe Fontaine](https://isp.cnrs.fr/?project=fontaine-philippe) digged in archives (boxes of documents! plenty of boxes!) to write a contextualized history of economics and biology in post-WWII USA.
+* In my 30s under the guidance of [Paul Wouters](https://scholar.google.fr/citations?user=ZHF-hVMAAAAJ&hl=en&oi=ao) and [Ale Smidts](https://orcid.org/0000-0002-6699-1172), I used scientometric data and survey data to map the field of neuroeconomics and highlight its interdisciplinary character. I relied a lot on [Gephi](https://gephi.org/), a software for the visualization of networks.
+* Now in my 40s and professor in a business school, my goal is to continue exploring texts and networks, AND to make the tools I develop accessible to the public. This is the sense of https://nocodefunctions.com/
 
-A place to include any other types of information that you'd like to include about yourself.
+### Programming
+
+Working with bigger texts and networks, I switched from using Excel to Java in 2011. The tools I created are scattered in academic publications, private and public Github repos, and websites which emerged and died. The key contributions are:
+
+* Umigon, best of class sentiment analysis for social media
+* A method to map Twitter fields, at scale
+* [Plugins](https://gephi.org/plugins/#/browse/search/levallois) and [tutorials](https://seinecle.github.io/gephi-tutorials/) for Gephi.
+
+### Today
+
+I am now trying to increase the public impact of my academic work. In 2021 I started developping https://nocodefunctions.com/. It is meant as a platform making it easy to re-use the functions I developed, and it will be the host and training ground for the new functions I am currently developing.
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[admin@clemenlevallois.net](mailto:admin@clemenlevallois.net)
