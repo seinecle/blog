@@ -1,4 +1,6 @@
 ---
+layout: post
+title: 2nd post
 published: false
 ---
 ## A New Post
