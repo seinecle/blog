@@ -2,8 +2,8 @@
 layout: post
 title: The long game
 published: true
-date_readable:               Jan 15, 2021
-last_modified_at_readable:   Jan 15, 2021
+date_readable:               July 8, 2021
+last_modified_at_readable:   July 8, 2021
 ---
 
 What time have we got to develop an academic research project? What time have we got when we develop and launch an app, as an indie maker?
