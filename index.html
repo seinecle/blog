@@ -12,9 +12,7 @@ layout: default
         {{ post.excerpt }}
       </div>
       
-      <br/>
-      <p style="color:#495057;">{{ post.date }}</p>
-      <br/>
+      <p style="color:#495057;"><small>{{ post.date }}</small></p>
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
