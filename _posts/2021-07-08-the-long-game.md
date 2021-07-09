@@ -32,6 +32,17 @@ In my case, I tended to follow this advice in the following way:
 **What has changed today is that for once, I wish to develop and launch an app which is solidly built and evolve it. And that will take more than 3 months**.
 
 ### The long game
+The plan is pretty simple. It fits both my professional identity as an academic who conducts and publishes research projects, and my evenings and week-ends interest in coding and developing apps, all while keeping a balanced work / life balance. The idea is:
+
+1. develop an app that is super simple: a website where features can be easily added, in the form of new pages or functions.
+2. add to it the features and functions that are laying in my drawers from my past research projects.
+3. develop new academic research projects, publish them.
+4. for each research project, publish an implementation of the method on the app, offered as a free service to whoever has an interest in it.
+
+Take as much time as necessary for steps 1 and 2, then take 20 years or more to loop and repeat through steps 3 and 4, as many time as I want.
+
+What I hope to achieve is a a sense of aggregating and building up a coherent set of research outputs, which I miss so far. They will be made available to a wide audience, which is another desirable outcome. And they will live on a web platform that will grow and improve as time passes. It already gives me a feeling I appreciate a lot: looking far ahead, as when starting a long climb. Small steps, no rush, no timer. Playing the long game.
+
 
 
 
