@@ -9,7 +9,7 @@ last_modified_at_readable:   July 8, 2021
 
 What time have we got to develop an academic research project? What time have we got when we develop and launch an app, as an indie maker?
 
-In my experience as a social scientist, academic projects leading to publications tend to last between 2 to 5 years. For an app (web app or else) launched by an indie maker, we often see projects that launch after less than 6 months, and the fate of the app is decided in a year or two.
+In my experience as a social scientist, academic projects leading to publications tend to last **between 2 to 5 years**. For an app (web app or else) launched by an indie maker, we often see projects that launch after **less than 6 months**, and the fate of the app is decided in less than a year.
 
 For a long, I have felt uncomfortable with both these time scales, and I believe I have found a better way. **I am reprogramming my academic and dev work habits to reason at a 20 years horizon.**
 
