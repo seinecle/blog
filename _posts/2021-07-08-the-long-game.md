@@ -11,10 +11,10 @@ What time have we got to develop an academic research project? What time have we
 
 In my experience as a social scientist, academic projects leading to publications tend to last **between 2 to 5 years**. For an app (web app or else) launched by an indie maker, we often see projects that launch after **less than 6 months**, and the fate of the app is decided in less than a year.
 
-For a long, I have felt uncomfortable with both these time scales, and I believe I have found a better way. **I am reprogramming my academic and dev work habits to reason at a 20 years horizon.**
+For long, I have felt uncomfortable with both these time scales, because they do not help design long term, "life time" perspectives in terms of accomplishments. I believe I have found a better way. **I am reprogramming my academic and dev work habits to reason at a 20 or 30 years horizon.**
 
 ### Academia: the pressure to publish tends to shorten and narrow down the research horizon
-It is going to be hard to generalize about scientists, as academic fields are so different in their social organizations. Still, the vast majority of scientists are today under the intense pressure to publish frequently, in selective journals. This has a for effect to reduce the time of research projects to a span which is compatible with short publication cycles.
+It is going to be hard to generalize about scientists, as academic fields are so different in their social organizations. Still, the vast majority of scientists are today under the intense pressure to publish frequently, in selective journals. This has for effect to reduce the time of research projects to a span which is compatible with short publication cycles.
 
 Long term horizon science is of course possible and exists in many forms - just cut your long term research goal into smaller projects of 2 to 5 years each. Huge collaborative efforts lasting decades in physics are the proof that far sight exists. In all fields, some academics have the stamina to follow this fast paced publication cycle *and* to participate in longer-term institution building initiatives. This is how research institutes, new journals, new societies and other research networking initiatives get developed.
 
