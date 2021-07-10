@@ -32,7 +32,7 @@ I tended to follow this advice in the following way:
 **What has changed today is that for once, I wish to develop and launch an app which is solidly built and evolve it until it finds its audience. And that will take more than 3 months**.
 
 ### The long game
-The plan is pretty simple. It fits both my professional identity as an academic who conducts and publishes research projects, and my evenings and week-ends interest in coding and developing apps, all while keeping a balanced work / life balance. The idea is:
+The plan is pretty simple. It fits both my professional identity as an academic who conducts and publishes research projects, and my evenings and week-ends interest in coding and developing apps, all while keeping a work / life balance. The idea is:
 
 1. develop an app that is super simple but done right: a one-page website where features can be easily added as independent modules, in the form of new pages or functions.
 2. add to it the features and functions that are laying in my drawers from my past research projects.
