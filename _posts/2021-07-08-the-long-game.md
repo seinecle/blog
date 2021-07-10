@@ -29,7 +29,7 @@ I tended to follow this advice in the following way:
 - waiting a couple of months, making few meager attempts at evolving the app, but getting zero traffic
 - end up killing the app after a year.
 
-**What has changed today is that for once, I wish to develop and launch an app which is solidly built and evolve it. And that will take more than 3 months**.
+**What has changed today is that for once, I wish to develop and launch an app which is solidly built and evolve it until it finds its audience. And that will take more than 3 months**.
 
 ### The long game
 The plan is pretty simple. It fits both my professional identity as an academic who conducts and publishes research projects, and my evenings and week-ends interest in coding and developing apps, all while keeping a balanced work / life balance. The idea is:
