@@ -41,6 +41,6 @@ The plan is pretty simple. It fits both my professional identity as an academic 
 
 Take as much time as necessary for steps 1 and 2, then take 20 years or more to loop and repeat through steps 3 and 4, as many time as I want.
 
-What I hope to achieve is a a sense of aggregating and building up a coherent set of research outputs. The cumulative effect, I hope, will stimulate an interest in the whole, rather than just the parts. My research will be made available to a wide audience, which is another desirable outcome. It will live on a web platform that will grow and improve as time passes. It already gives me a feeling I appreciate a lot: looking far ahead, as when starting a long climb. Small steps, no rush, no timer. Playing the long game.
+What I hope to achieve is a sense of aggregating and building up a coherent set of research outputs. The cumulative effect, I hope, will stimulate an interest in the whole, rather than just the parts. My research will be made available to a wide audience, which is another desirable outcome. It will live on a web platform that will grow and improve as time passes. It already gives me a feeling I appreciate a lot: looking far ahead, as when starting a long climb. Small steps, no rush, no timer. Playing the long game.
 
 The app is [Nocode functions](https://nocodefunctions.com). Check it now, and again in 5, 10 and 20 years :-)
