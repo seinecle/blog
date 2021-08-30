@@ -2,7 +2,7 @@
 layout: post
 title: Pointwise mutual information and tf-idf: when to use them
 permalink: /pmi-tf-idf/
-published: false
+published: true
 date_readable:               August 30, 2021
 last_modified_at_readable:   August 30, 2021
 ---
@@ -25,7 +25,11 @@ Example :
 - **we don't care** that "but", "the", "or"... appear frequently in the same sentence, because that is to be expected, given that they are so common throughout the text.
 - **but we do care** that in a text about world capitals for instance, "Paris" and "France", though they appear **unfrequently** in the text, keep occurring **frequently** in the same sentences.
 
-How to automagically build a network that takes this nuance into account? Simple: for a pair of terms ("Paris", "France"), divide the number of time they co-occur by the total number of time each term appears in the text. This is one variant of "Pointwise Mutual Information" and it is explained very simply below:
+How to automagically build a network that takes this nuance into account? Simple: for a pair of terms ("Paris", "France"), divide the number of time they co-occur by the total number of time each term appears in the text:
+
+> **PMI of a cooccurrence between A and B = count of the coocurrences between A and B ÷ (total count of occurrences of A + total count of occurrences of B)**
+
+This is one simple and powerful variant of "Pointwise Mutual Information" and it is explained very simply below:
 
 ### Pointwise mutual information: the solution to discount edges with low information
 
@@ -63,11 +67,29 @@ We first categorized each article according to one or several broad subject cate
 
 Then, we wondered: which subject categories "co-occur", meaning: which subject categories tend to be often discussed together (by the same papers). If I did not apply the PMI correction, then the most freqent subject categories would have been associated, and the less frequent ones would have had weak associations *simply because of this frequency effect, hiding the fact that subject categories rarely discussed in articles actually tend to be discussed in the ***same papers***.
 
-The PMI correction helped us reveal these less frequent connections, but which were informationally dense:
+The PMI correction helped us reveal these less frequent connections, but which were meaningful:
 
 ![A network of co-occurring subject categories corrected with a PMI method][network]
 
 [network]: https://www.ncbi.nlm.nih.gov/pmc/articles/instance/4929847/bin/fnhum-10-00336-g0004.jpg "A network of co-occurring subject categories corrected with a PMI method"
+
+### What is the difference between Pointwise Mutual Information (PMI) and TF-IDF?
+You might have heard about TF-IDF, which is a famous method in information retrieval, and quite similar in goal to the PMI I just described.
+
+The common goal between PMI and TF-IDF is to remove this bias (or fallacy): something is not meaningful because it is *observed frequently somewhere*, if it just the side effect of this thing being *frequently present everywhere*.
+
+* For PMI: a co-occurrence between A and B is not very meaningful if A and B keep occurring separately as well.
+* For TF-IDF: a word "A" being used a lot in a document...
+**  ... **does not mean** that this document is the most relevant about "A", because "A" might just be a word commonly used in many, many documents (not just this one)
+**  ... **does not mean** that "A" is the key topic or focus on this document: again, "A" might be frequent in this document for the simple reason that this is a general word used frequently everywhere, in all documents...
+
+The same way PMI tells us how special a co-occurrence really, TF-IDF tells us how special a word A is for a document where it appears. The [wikipedia page for TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) is again quite intimidating, but a basic and working version is:
+
+> **TF-IDF for A in a document = count of A in this document ÷ count of documents that contain A**
+
+(the higher the TF-IDF measure, the most specific and "key" is A in this document)
+
+In the same paper mentioned above, we used a variant of TF-IDF to measure what were the key terms  in this or that subject category in neuroethics. When one term is occurring a lot in a category, does it mean this term is the most "typical" of this category? Maybe that she is just a very common term used in the scientific discourse, or in neuroethics broadly! The TF-IDF measure helped establish how "specific" a term was for each subject category.
 
 ### Want to use Pointwise mutual information to improve your networks?
 [Nocode functions](https://nocodefunctions.com) offers a function which [turns texts into networks](https://nocodefunctions.com/cowo/semantic_networks_tool.html). It includes a PMI correction which is slightly more agressive than the one presented above. It does:
