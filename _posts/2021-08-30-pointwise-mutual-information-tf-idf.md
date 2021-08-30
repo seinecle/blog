@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pointwise mutual information and tf-idf: when to use them
+title: Pointwise mutual information and tf-idf - when to use them
 permalink: /pmi-tf-idf/
 published: true
 date_readable:               August 30, 2021
