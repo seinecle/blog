@@ -7,22 +7,21 @@ date_readable:               August 30, 2021
 last_modified_at_readable:   August 30, 2021
 ---
 
+
+When creating a network from a text or a corpus of texts, the logic is to draw the terms that frequently appear ("co-occur") together in the same sentences or paragraphs. The problem is, most frequent terms in these texts will be connected *even if these connections* don't make a lot of sense.
+
 ### The problem with co-occurrences: lots of noise
-
-When creating a network from a text or a corpus of texts, the logic is to keep only the most frequent terms, the links betwee any two terms representing how many times they "co-occur" in the text (that is, two terms which appear in the same sentences or paragraphs will have a strong connection between them).
-
-The problem is, most frequent terms in these texts will be connected *even if these connections* don't make a lot of sense.
 
 For example, we can expect words such as "the", "and", "but"... to be frequently used in any text in English. Just because they are so frequent, they will appear frequently together as well.
 
-As a result, when building a network of co-occurring terms, these very common words will be strongly connected. We would have preferred something else:
+As a result, when building a network of co-occurring terms, these very common words will be strongly connected and appear prominently in the network. We would have preferred something else:
 
 - terms that co-occur should be connected, yes
 - but meaningful connections are those between *unfrequent terms that co-occur*.
 
 Example :
 
-- **we don't care** that "but", "the", "or"... appear frequently in the same sentence, because that is to be expected, given that they are so common throughout the text.
+- **we don't care** that "but" / "the" / "or"... appear frequently in the same sentence, because that is to be expected, given that they are so common throughout the text.
 - **but we do care** that in a text about world capitals for instance, "Paris" and "France", though they appear **unfrequently** in the text, keep occurring **frequently** in the same sentences.
 
 How to automagically build a network that takes this nuance into account? Simple: for a pair of terms ("Paris", "France"), divide the number of time they co-occur by the total number of time each term appears in the text:
