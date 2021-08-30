@@ -25,11 +25,9 @@ Example :
 - **we don't care** that "but", "the", "or"... appear frequently in the same sentence, because that is to be expected, given that they are so common throughout the text.
 - **but we do care** that in a text about world capitals for instance, "Paris" and "France", though they appear **unfrequently** in the text, keep occurring **frequently** in the same sentences.
 
-How to automagically build a network that takes this nuance into account?
+How to automagically build a network that takes this nuance into account? Simple: for a pair of terms ("Paris", "France"), divide the number of time they co-occur by the total number of time each term appears in the text. This is one variant of "Pointwise Mutual Information" and it is explained very simply below:
 
 ### Pointwise mutual information: the solution to discount edges with low information
-
-**Simple: for a pair of terms ("Paris", "France"), divide the number of time they co-occur by the total number of time each term appears in the text.**
 
 Let's imagine a very long text discussing all the world capitals:
 
