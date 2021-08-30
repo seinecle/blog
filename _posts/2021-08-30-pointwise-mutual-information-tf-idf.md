@@ -42,7 +42,7 @@ Let's imagine a very long text discussing all the world capitals:
 
 > **12** ÷ (**15** + **14**) = 0.41
 
-Meanwhile, in the same text about world capitals, let's imagine that the words "but" and "if" appear in the same sentences 72 times. Not because these terms are so important in a text of world capitals, but simply because they are so common in the English language. Without a correction, we would find a big edge (weight = 72!) linking the two, bigger than the connection between Paris and France! (weight = 12).
+Meanwhile, in the same text about world capitals, let's imagine that the words "but" and "if" appear in the same sentences 72 times. Not because these terms are so important in a text on world capitals, but simply because they are so common in the English language. Without a correction, we would find a big edge (weight = 72!) linking the two, bigger than the connection between Paris and France! (weight = 12).
 
 Now let's correct:
 
