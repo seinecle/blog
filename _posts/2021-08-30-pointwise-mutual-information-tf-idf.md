@@ -64,7 +64,7 @@ I used a variant of PMI in [a study of the scientific articles in the field of n
 
 We first categorized each article according to one or several broad subject categories they were discussing (legal studies, neuroimaging, philosophy of mind, etc.). 
 
-Then, we wondered: which subject categories "co-occur", meaning: which subject categories tend to be often discussed together (by the same papers). If I did not apply the PMI correction, then the most freqent subject categories would have been associated, and the less frequent ones would have had weak associations *simply because of this frequency effect, hiding the fact that subject categories rarely discussed in articles actually tend to be discussed in the ***same papers***.
+Then, we wondered: which subject categories "co-occur", meaning: which subject categories tend to be often discussed together (by the same papers). If I did not apply the PMI correction, then the most freqent subject categories would have been associated, and the less frequent ones would have had weak associations *simply because of this frequency effect, hiding the fact that subject categories rarely discussed in articles actually tend to be discussed in the* ***same papers***.
 
 The PMI correction helped us reveal these less frequent connections, but which were meaningful:
 
@@ -79,8 +79,8 @@ The common goal between PMI and TF-IDF is to remove this bias (or fallacy): some
 
 * For PMI: a co-occurrence between A and B is not very meaningful if A and B keep occurring separately as well.
 * For TF-IDF: a word "A" being used a lot in a document...
-**  ... **does not mean** that this document is the most relevant about "A", because "A" might just be a word commonly used in many, many documents (not just this one)
-**  ... **does not mean** that "A" is the key topic or focus on this document: again, "A" might be frequent in this document for the simple reason that this is a general word used frequently everywhere, in all documents...
+ *  ... **does not mean** that this document is the most relevant about "A", because "A" might just be a word commonly used in many, many documents (not just this one)
+ *  ... **does not mean** that "A" is the key topic or focus on this document: again, "A" might be frequent in this document for the simple reason that this is a general word used frequently everywhere, in all documents...
 
 The same way PMI tells us how special a co-occurrence really, TF-IDF tells us how special a word A is for a document where it appears. The [wikipedia page for TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) is again quite intimidating, but a basic and working version is:
 
