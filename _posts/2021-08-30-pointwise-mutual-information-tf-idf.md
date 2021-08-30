@@ -7,6 +7,8 @@ date_readable:               August 30, 2021
 last_modified_at_readable:   August 30, 2021
 ---
 
+### The problem with co-occurrences: lots of noise
+
 When creating a network from a text or a corpus of texts, the logic is to keep only the most frequent terms, the links betwee any two terms representing how many times they "co-occur" in the text (that is, two terms which appear in the same sentences or paragraphs will have a strong connection between them).
 
 The problem is, most frequent terms in these texts will be connected *even if these connections* don't make a lot of sense.
@@ -25,6 +27,8 @@ Example :
 
 How to automagically build a network that takes this nuance into account?
 
+### Pointwise mutual information: the solution to discount edges with low information
+
 **Simple: for a pair of terms ("Paris", "France"), divide the number of time they co-occur by the total number of time each term appears in the text.**
 
 Let's imagine a very long text discussing all the world capitals:
@@ -34,7 +38,8 @@ Let's imagine a very long text discussing all the world capitals:
 - "France" appears **14** times in the entire text,
 
 -> it means that Paris and France appear almost always in the same sentences (they "co-occur"), and very rarely in different sentences! The weight of the edge between them is 12, but with the reasoning above it can be corrected to:
-**12** ÷ (**15** + **14**) = 0.41
+
+> **12** ÷ (**15** + **14**) = 0.41
 
 Meanwhile, in the same text about world capitals, let's imagine that the words "but" and "if" appear in the same sentences 72 times. Not because these terms are so important in a text of world capitals, but simply because they are so common in the English language. Without a correction, we would find a big edge (weight = 72!) linking the two, bigger than the connection between Paris and France! (weight = 12).
 
@@ -47,7 +52,17 @@ Now let's correct:
 
 -> it means that though "if and "but" appear frequently together in the text, they also appear many more times *separately* in the text as well. The weight of the edge between them is 72, but with the reasoning above it can be corrected to:
 
-**72** ÷ (**350** + **170**) = 0.13
+> **72** ÷ (**350** + **170**) = 0.13
 
 -> with the correction, the pair "Paris, France" (strength: 0.41) is now stronger than "but, if" (strength: 0.13). Applied to all pairs of the network, this correction will lead to a much more informative result.
 
+What we did here is using a variant of the method called **Pointwise Mutual Information**. The [Wikipedia entry for PMI](https://en.wikipedia.org/wiki/Pointwise_mutual_information) is pretty complex but explains the same principles I presented here.
+
+### Want to use Pointwise mutual information to improve your networks?
+[Nocode functions](https://nocodefunctions.com) offers a function which [turns texts into networks](https://nocodefunctions.com/cowo/semantic_networks_tool.html). It includes a PMI correction which is slightly more agressive than the one presented above. It does:
+
+> Corrected weight = weight of cooccurrence (A,B) ÷ (count of A x count of B).
+
+(so the only thing we did as compared to the example above is to use a multiplication instead of an addition).
+
+Questions? [Ping me on Twitter!](https://twitter.com/seinecle)
