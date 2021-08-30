@@ -79,7 +79,8 @@ The common goal between PMI and TF-IDF is to remove this bias (or fallacy): some
 
 1. For PMI: a co-occurrence between A and B is not very meaningful if A and B keep occurring separately as well.
 
-3. For TF-IDF: a word "A" being used a lot in a document...
+2. For TF-IDF: a word "A" being used a lot in a document...
+ 
  2.1 **does not mean** that this document is the most relevant about "A", because "A" might just be a word commonly used in many, many documents (not just this one)
  2.2 **does not mean** that "A" is the key topic or focus on this document: again, "A" might be frequent in this document for the simple reason that this is a general word used frequently everywhere, in all documents...
 
