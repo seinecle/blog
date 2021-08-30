@@ -19,17 +19,19 @@ As a result, when building a network of co-occurring terms, these very common wo
 - but meaningful connections are those between *unfrequent terms that co-occur*.
 
 Example :
-• **we don't care** that "but", "the", "or"... appear frequently in the same sentence, because that is to be expected, given that they are so common throughout the text.
-• **but we do care** that in a text about world capitals for instance, "Paris" and "France", though they appear **unfrequently** in the text, keep occurring **frequently** in the same sentences.
+
+- **we don't care** that "but", "the", "or"... appear frequently in the same sentence, because that is to be expected, given that they are so common throughout the text.
+- **but we do care** that in a text about world capitals for instance, "Paris" and "France", though they appear **unfrequently** in the text, keep occurring **frequently** in the same sentences.
 
 How to automagically build a network that takes this nuance into account?
 
 **Simple: for a pair of terms ("Paris", "France"), divide the number of time they co-occur by the total number of time each term appears in the text.**
 
 Let's imagine a very long text discussing all the world capitals:
-• in **12** sentences, "Paris" and "France" are both mentioned,
-• "Paris" appears **15** times in the entire text,
-• "France" appears **14** times in the entire text,
+
+- in **12** sentences, "Paris" and "France" are both mentioned,
+- "Paris" appears **15** times in the entire text,
+- "France" appears **14** times in the entire text,
 
 -> it means that Paris and France appear almost always in the same sentences (they "co-occur"), and very rarely in different sentences! The weight of the edge between them is 12, but with the reasoning above it can be corrected to:
 **12** ÷ (**15** + **14**) = 0.41
@@ -39,8 +41,9 @@ Meanwhile, in the same text about world capitals, let's imagine that the words "
 Now let's correct:
 
 "but" and "if" co-occur **72** times in the text (there are 72 sentences that include both "but" and "if"),
-• "but" appears **350** times in the text,
-• "if" appears **170** times in the text,
+
+- "but" appears **350** times in the text,
+- "if" appears **170** times in the text,
 
 -> it means that though "if and "but" appear frequently together in the text, they also appear many more times *separately* in the text as well. The weight of the edge between them is 72, but with the reasoning above it can be corrected to:
 
