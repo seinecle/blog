@@ -57,8 +57,13 @@ Now let's correct:
 What we did here is using a variant of the method called **Pointwise Mutual Information**. The [Wikipedia entry for PMI](https://en.wikipedia.org/wiki/Pointwise_mutual_information) is pretty complex but explains the same principles I presented here.
 
 ### An example
-I used a variant of PMI in a study of the scientific articles in the field of neuroethics. We first categorized each article according to one or several broad subject categories they were discussing (legal studies, neuroimaging, philosophy of mind, etc.). Then, we wondered: which subject categories "co-occur", meaning: which which subject categories tend to be often discussed together (by the same papers). If I din not apply the PMI correction, then the most freqent subject categories would have been associated, and the less frequent ones would have had weak associations *simply because of this frequency effect, hiding the fact that subject categories rarely discussed in articles actually tend to be discussed in the ***same papers***.
-Any how, this is the network we ended with:
+I used a variant of PMI in [a study of the scientific articles in the field of neuroethics from 1995 to 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/instance/4929847/), which amounted to 1925 documents.
+
+We first categorized each article according to one or several broad subject categories they were discussing (legal studies, neuroimaging, philosophy of mind, etc.). 
+
+Then, we wondered: which subject categories "co-occur", meaning: which subject categories tend to be often discussed together (by the same papers). If I did not apply the PMI correction, then the most freqent subject categories would have been associated, and the less frequent ones would have had weak associations *simply because of this frequency effect, hiding the fact that subject categories rarely discussed in articles actually tend to be discussed in the ***same papers***.
+
+The PMI correction helped us reveal these less frequent connections, but which were informationally dense:
 
 ![A network of co-occurring subject categories corrected with a PMI method][network]
 
