@@ -25,8 +25,6 @@ Indie makers developing web applications follow the principle that there is no p
 
 <blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">It&#39;s 2021 and I still meet people every week who build a startup for months without any paying customers</p>&mdash; ؜ (@levelsio) <a href="https://twitter.com/levelsio/status/1416634896575913988?ref_src=twsrc%5Etfw">July 18, 2021</a></blockquote>
 
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
-
 I used to follow this advice in the following way:
 
 - develop a half baked app, because I have not enough time and / or skills to do better
