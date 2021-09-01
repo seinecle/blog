@@ -24,6 +24,7 @@ But in my case at least, **I found that research projects that need more than a 
 Indie makers developing web applications follow the principle that there is no point building an app for years, to have it ignored or rejected by the public when it launches. **Fail fast, fail often**. Launch your app as quickly as feasible (3 to 6 months are often heard as targets), so that it can pass the most important test: does it get any traction? If not, there is no market fit. You should kill the app and move on with the next project.
 
 <blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">It&#39;s 2021 and I still meet people every week who build a startup for months without any paying customers</p>&mdash; ؜ (@levelsio) <a href="https://twitter.com/levelsio/status/1416634896575913988?ref_src=twsrc%5Etfw">July 18, 2021</a></blockquote>
+
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
 
 I used to follow this advice in the following way:
