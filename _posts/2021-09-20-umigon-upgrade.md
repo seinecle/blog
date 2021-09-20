@@ -2,7 +2,7 @@
 layout: post
 title: Sentiment analysis with Umigon 2.0
 permalink: /umigon-upgrade/
-published: false
+published: true
 date_readable:               Sept 20, 2021
 last_modified_at_readable:   Sept 20, 2021
 ---
