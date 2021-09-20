@@ -57,7 +57,7 @@ One of the most complex heuristics for a term looks like:
 Where A, B and C are true / false values that result from checks on the context of the term, and "11" and "12" are the codes for "positive marker" and "negative" marker.
 
 ### Bug fixes: minor but big impact
-Umigon has been put back online in the Spring of 2021, and it will be maintained [for the long term](https://nocodefunctions.com/blog/long-game/). It is part of a (free) [web app <i class="fas fa-external-link-alt fa-sm"](https://nocodefunctions.com/) which makes it easy for users to test their texts and report any misclassifications with just one click. I have received about 30 of such reports, which were as many tests on edge cases which I had missed. Thanks to them, I could spot and fix these issues:
+Umigon has been put back online in the Spring of 2021, and it will be maintained [for the long term](https://nocodefunctions.com/blog/long-game/). It is part of a (free) [web app <i class="fas fa-external-link-alt fa-sm"></i>](https://nocodefunctions.com/) which makes it easy for users to test their texts and report any misclassifications with just one click. I have received about 30 of such reports, which were as many tests on edge cases which I had missed. Thanks to them, I could spot and fix these issues:
 
 - negations were not taken into account if they were one word apart from the term under examination. <code>I don't really like</code> was considered neutral because <code>don't</code> was not immediately before <code>like</code>. FIXED
 - emojis following each other 🥰⛷️ were considered as one big emoji, so they escaped detection. FIXED
