@@ -7,7 +7,7 @@ date_readable:               Sept 20, 2021
 last_modified_at_readable:   Sept 20, 2021
 ---
 
-[Umigon <i class="fas fa-external-link-alt"></i>](https://nocodefunctions.com/umigon/sentiment_analysis_tool.html) is the name of the function performing __sentiment analysis__, which I initially developed in 2012.
+[Umigon](https://nocodefunctions.com/umigon/sentiment_analysis_tool.html)<i class="fas fa-external-link-alt"></i> is the name of the function performing __sentiment analysis__, which I initially developed in 2012.
 
 Umigon just got an upgrade that I will develop in this blog post, but let's first describe quickly what it does:
 
@@ -79,6 +79,6 @@ Language is constantly evolving, especially the type of oral expressions and sla
 The changes have been integrated and you should see a great improvement in the results (by the way, if you conduct benchmarks on sentiment analysis, I would love to hear about it!)
 
 ------
-Try Umigon here: https://nocodefunctions.com/umigon/sentiment_analysis_tool.html
+Try Umigon here, it is free and without any registration: [https://nocodefunctions.com/umigon/sentiment_analysis_tool.html](https://nocodefunctions.com/umigon/sentiment_analysis_tool.html)
 
-And discover all the other functions: https://nocodefunctions.com/
+And discover all the other functions: [https://nocodefunctions.com/](https://nocodefunctions.com/)
