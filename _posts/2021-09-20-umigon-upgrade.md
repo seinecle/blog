@@ -7,7 +7,7 @@ date_readable:               Sept 20, 2021
 last_modified_at_readable:   Sept 20, 2021
 ---
 
-[Umigon](https://nocodefunctions.com/umigon/sentiment_analysis_tool.html)<i class="fas fa-external-link-alt"></i> is the name of the function performing __sentiment analysis__, which I initially developed in 2012.
+[Umigon <i class="fas fa-external-link-alt fa-sm"></i>](https://nocodefunctions.com/umigon/sentiment_analysis_tool.html) is the name of the function performing __sentiment analysis__, which I initially developed in 2012.
 
 Umigon just got an upgrade that I will develop in this blog post, but let's first describe quickly what it does:
 
