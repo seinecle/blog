@@ -19,7 +19,6 @@ Umigon just got an upgrade that I will develop in this blog post, but let's firs
 -  free without restrictions, and available here: https://nocodefunctions.com/umigon/sentiment_analysis_tool.html
 - evaluated as best in class, compared to 23 other solutions (commercial or not): https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-016-0085-1
 
-
 ### Umigon: a new heuristics engine with MVEL
 As described [in this paper](https://aclanthology.org/S13-2068/), Umigon's performance is based on using lists of terms which are markers of sentiment.
 Obviously though, terms alone would not suffice, as in this example:
