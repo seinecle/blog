@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Just released: Converter from gexf (used by Gephi) to VOSviexer json file format
+title: Just released - Converter from gexf (used by Gephi) to VOSviewer json file format
 permalink: /gexf-vosviewer/
 published: true
 date_readable:               Sept 22, 2021
@@ -24,7 +24,7 @@ I have just released [a file converter that does the conversion from gexf to the
 Enjoy, and your questions and feedback are welcome.
 https://test.nocodefunctions.com/
 
-![image](/images/new conversion function.jpg)
+![image](/images/new_conversion_function.jpg)
 
 ------
 And discover all the other functions: [https://nocodefunctions.com/](https://nocodefunctions.com/)
