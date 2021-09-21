@@ -22,7 +22,6 @@ I have just released [a file converter that does the conversion from gexf to the
 (gexf is the file format produced by Gephi). The VOSviewer -> gexf converter will come soon.
 
 Enjoy, and your questions and feedback are welcome.
-https://test.nocodefunctions.com/
 
 ![image](/images/new_conversion_function.jpg)
 
