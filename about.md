@@ -27,4 +27,4 @@ I am now trying to increase the public impact of my academic work. In 2021 I sta
 
 ### Contact me
 
-[admin@clemenlevallois.net](mailto:admin@clemenlevallois.net)
+[admin@clementlevallois.net](mailto:admin@clementlevallois.net)
