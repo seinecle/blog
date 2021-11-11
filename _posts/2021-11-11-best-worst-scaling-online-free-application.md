@@ -76,9 +76,7 @@ My feeling is that using a specific type of input could have a great impact on t
 <br/>
 <br/>
 <div align="center">
-   <kbd>
 ![bws_ordered_list](https://user-images.githubusercontent.com/1244100/141376242-4c6806f9-7b29-4c41-898c-f8e07e3ce731.gif)
- </kbd>
 </div>
 <br/>
 <br/>
