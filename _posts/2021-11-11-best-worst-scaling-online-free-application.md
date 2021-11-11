@@ -23,7 +23,9 @@ There are many well established scales to do these kinds of ratings, such as thi
 Best-Worst Scaling is different. The respondent must choose among several options at once, and is simply asked to select the best and worst option:
 
 <div align="center">
-   <img src="https://user-images.githubusercontent.com/1244100/141345964-4622087f-19fc-4402-98d0-a6f623065129.png" width="350"/>
+   <kbd>
+     <img src="https://user-images.githubusercontent.com/1244100/141345964-4622087f-19fc-4402-98d0-a6f623065129.png" width="350"/>
+   </kbd>
 </div>
 This change in the design of the questions has two important benefits:
 
