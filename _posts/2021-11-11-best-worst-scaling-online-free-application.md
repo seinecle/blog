@@ -22,20 +22,35 @@ There are many well established scales to do these kinds of ratings, such as thi
       <img src="https://user-images.githubusercontent.com/1244100/141346470-14a43c76-3dd1-411c-8001-b65839618307.png" width="350"/>
    </kbd>
 </div>
-Best-Worst Scaling is different. The respondent must choose among several options at once, and is simply asked to select the best and worst option:
+<br/>
+<br/>
+Best-Worst Scaling is different and introduces a smart twist. With BWS, __the respondent must choose among several options at once, and is simply asked to select the best and worst option__:
+<br/>
+<br/>
 
 <div align="center">
    <kbd>
      <img src="https://user-images.githubusercontent.com/1244100/141345964-4622087f-19fc-4402-98d0-a6f623065129.png" width="350"/>
    </kbd>
 </div>
-This change in the design of the questions has two important benefits:
+<br/>
+<br/>
+This slight change in the design of the questions has two important benefits:
 
 1. contrary to rating scales, there is no trouble guessing what the respondents meant with their scoring, or correcting for possible biases (such as a tendency to choose scores near the middle of the scale).
 2. faster collection of data - many items are scored at once. This reduces the number of questions to be asked.
 
-On the first point, [a recent study](https://link.springer.com/article/10.1007%2Fs10579-020-09524-2)[^1] speaks volumes: Best Worst Scaling elicits judgements which spread smoothly and "naturally" over the space of all possibilities.
-The classic methods (rating scales and pairwise comparisons) produce jittered results, which show that the design of these methods introduce noticeable distortions.
+On the first point, [a recent study](https://link.springer.com/article/10.1007%2Fs10579-020-09524-2)[^1] speaks volumes: Best Worst Scaling elicits judgements which spread smoothly and "naturally" over the space of all possibilities. Look at the difference between BWS (red line, very smooth) and the other methods (blue and red lines, pretty irregular):
+<br/>
+<br/>
+
+<div align="center">
+   <kbd>
+     <img src="https://user-images.githubusercontent.com/1244100/141371606-6df024e3-c554-4b60-98bc-a339d61fb7b7.png" width="400"/>
+   </kbd>
+</div>
+<br/>
+<br/>
 
 ### 
 
