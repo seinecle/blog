@@ -2,9 +2,9 @@
 layout: post
 title: Request for feedback: developing a Best-Worst Scaling (BWS) free web app for any researcher to use 
 permalink: /best-worst-scaling-bws-in-progress/
-published: false
-date_readable:               Nov 11, 2021
-last_modified_at_readable:   Nov 11, 2021
+published: true
+date_readable:               Nov 12, 2021
+last_modified_at_readable:   Nov 12, 2021
 ---
 
 ### Your suggestions are welcome: I am developing a free web app for Best-Worst Scaling (BWS)
