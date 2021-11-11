@@ -18,7 +18,7 @@ Best-Worst Scaling is a fantastic - yet still relatively underused - tool to col
 
 There are many well established scales to do these kinds of ratings, such as this linear rating scale that is very commonly used:
 
-<img src="https://user-images.githubusercontent.com/1244100/141346470-14a43c76-3dd1-411c-8001-b65839618307.png" width="350">
+<img src="https://user-images.githubusercontent.com/1244100/141346470-14a43c76-3dd1-411c-8001-b65839618307.png" width="350" style="text-align:center">
 
 Best-Worst Scaling is different. The respondent must choose among several options at once, and is simply asked to select the best and worst option:
 
