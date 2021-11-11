@@ -91,7 +91,7 @@ While designing the BWS task as a free web app is what matters most to me, I rea
 Have you the need for such an app? Suggestions or remarks? I'd love to hear from you. If you have feature requests, I'll do my best to add them! [Email me](mailto:analysis@exploreyourdata.com) or [say hi on Twitter](https://twitter.com/seinecle)!
 
 ## Where to find the BWS task when it will go live?
-It will be hosted on[Nocode functions](https://nocodefunctions.com), which is the platform I develop for all my research apps. I hope to have it live by January 2022.
+It will be hosted on [Nocode functions](https://nocodefunctions.com), which is the platform I develop for all my research apps. I hope to have it live by January 2022.
 
 
 ------
