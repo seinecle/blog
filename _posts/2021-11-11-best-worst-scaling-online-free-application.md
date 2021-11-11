@@ -61,11 +61,11 @@ You would expect that respondents would find that most of the words have a neutr
 </div>
 <br/>
 <br/>
-BWs is the only method which produced a smooth ranking, as should be expected. The two other methods have big ups and downs which are due to their design specificities - clearly artefacts of measurement. 
+BWS is the only method which produced a smooth ranking, as should be expected. The two other methods have big ups and downs which are due to their design specificities - clearly artefacts of measurement. 
 
 ## Project: a web app to facilitate running BWS tasks
-The project is to develop a web tool to design and run such BWS tasks ("Case 1" scenario, which corresponds to the example above). The idea for this project comes from my need to run many of these tasks, possibly over several years, for a research study I am starting. While many survey tools exist, few of them provide BWS scaling as a type of data collection. Several [free R packages for BWS](https://github.com/markhwhiteii/bwsTools) exist and a [free Python tool for BWS by Geoff Hollis](https://sites.ualberta.ca/~hollis/) as well. As far as I could see, there is no online tool yet.
-Hence goal is to develop a free web app for Best-Worst scaling. The advantages will be:
+The project is to develop a web tool to design and run such BWS tasks ("Case 1" scenario, which corresponds to the example above). The idea for this project comes from my need to run many of these tasks, possibly over several years, for a research study I am starting. While many survey tools exist, few of them provide BWS tasks as a type of data collection. Several [free R packages for BWS](https://github.com/markhwhiteii/bwsTools) exist and a [free Python tool for BWS by Geoff Hollis](https://sites.ualberta.ca/~hollis/) as well. As far as I could see, there is no online tool yet.
+Hence the goal is to develop a free web app for Best-Worst scaling. The advantages will be:
 
 - a web application: makes it easy to share it with the respondents / human annotators
 - responsive and mobile friendly with touch screens to allow for the greatest engagement of human annotators
