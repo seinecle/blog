@@ -40,7 +40,9 @@ This slight change in the design of the questions has two important benefits:
 1. contrary to rating scales, there is no trouble guessing what the respondents meant with their scoring, or correcting for possible biases (such as a tendency to choose scores near the middle of the scale).
 2. faster collection of data - many items are scored at once. This reduces the number of questions to be asked.
 
-On the first point, [a recent study](https://link.springer.com/article/10.1007%2Fs10579-020-09524-2)[^1] speaks volumes: Best Worst Scaling elicits judgements which spread smoothly and "naturally" over the space of all possibilities. Look at the difference between BWS (red line, very smooth) and the other methods (blue and red lines, pretty irregular):
+On the first point, [a recent study](https://link.springer.com/article/10.1007%2Fs10579-020-09524-2)[^1] speaks volumes: Best Worst Scaling elicits judgements which spread smoothly and "naturally" over the space of all possibilities. The study used BWS, pairwise comparison and a rating scale to ask respondents about how they value words in terms of their positive / negative "valence" ("happy" is a term with a positive valence, "depressed" in a term with a negative valence).
+
+You would expect that respondents would find that most of the words have a neutral or quasi neutral valence, and fewer words in the extremes of positive and negative. Indeed! But look  at the difference between BWS (red line, very smooth) and what the other methods produced (blue and red lines, pretty irregular):
 <br/>
 <br/>
 
@@ -51,6 +53,7 @@ On the first point, [a recent study](https://link.springer.com/article/10.1007%2
 </div>
 <br/>
 <br/>
+BWs is the only method which produced a smooth ranking. The two other methods have big ups and downs which are due to the ways the questions were asked - clearly artefacts of measurement. 
 
 ### 
 
