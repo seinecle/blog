@@ -86,17 +86,13 @@ This format of user input, I believe, has the benefit to make the respondent "ac
 While designing the BWS task as a free web app is what matters most to me, I realize that such a task needs supporting services to be fully useful. The task designer must be able to upload their dataset, recruit coders, adding "gold questions" and other methods of quality control. I'll go about it in two ways:
 
 - remain as minimalist as possible. The goal is to make the BWS task as easy to design and run.
-- if possible, connect with existing software for the management of datasets and coders. Discovertext <img src="https://user-images.githubusercontent.com/1244100/141379157-f75196e8-d623-45e9-8ee6-5a8fd40122f4.png" width="100"/> is a great software for the annotation of textual datasets, and I am exploring the possibility that the BWS web app I develop can connect to it. This would save on development time and insure a best-in-class management of coders and datasets.
+- if possible, connect with existing software for the management of datasets and coders. [Discovertext](https://discovertext.com/) <img src="https://user-images.githubusercontent.com/1244100/141379157-f75196e8-d623-45e9-8ee6-5a8fd40122f4.png" width="100"/> is a great web app for the annotation of textual datasets, and I am exploring the possibility that the BWS web app I develop can connect to it. This would save on development time and insure a best-in-class management of coders and datasets.
 
 ## Your contribution
-Have you the need for such an app? Suggestions or remarks? I'd love to hear from you.
+Have you the need for such an app? Suggestions or remarks? I'd love to hear from you. If you have feature requests, I'll do my best to add them! 
 
 ## Where to find the BWS task when it will go live?
 It will be hosted on[Nocode functions](https://nocodefunctions.com), which is the platform I develop for all my research apps. I hope to have it live by January 2022.
-
-
-
-
 
 
 ------
