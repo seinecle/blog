@@ -71,11 +71,13 @@ Hence goal is to develop a free web app for BWS scaling. The advantages will be:
 - following the best academic standards (eg, in the design of the blocks of choice)
 
 ## Design of the BWS task: special attention to make it engaging to human annotators
-My feeling is that using a specific type of input could have a great impact on the quality of the responses and on the engagement of the human annotators recruited on BWS tasks. Namely, designing a user interface that allows for drag-and dropping the items in a block of items to compare. The user would drag the best option to the top of the list, and drag the worst option to the bottom of the list:
+My feeling is that the specific type of input used in a BWS task has an impact on the quality of the responses and on the engagement of the human annotators recruited on BWS tasks. The radio buttons or check boxes that are often used in studies just feel not "cognitively aligned" with the task.
+
+Alternatively, I propose to designe a __user interface for BWS that allows the user to drag-and drop the items in a block of items under review__. The user would drag the best option to the top of the list, and drag the worst option to the bottom of the list, like so:
 
 ![bws_ordered_list](https://user-images.githubusercontent.com/1244100/141376242-4c6806f9-7b29-4c41-898c-f8e07e3ce731.gif)
 
-This format of user input, I believe, has the benefit to make the respondent "act" and "embody" (even with a simple mouse movement) the decisions they make (more than clicking a radio button. Displacing the preferred option to the top (and the worst at the bottom) adds a symbolic weight to the decision and offers a visual feedback to the decision being taken. It might well make the respondent more reflexive on the choice they are making, making the final outcome more valuable.
+This format of user input, I believe, has the benefit to make the respondent "act" and "embody" (even with a simple mouse movement) the decisions they make (more than clicking a radio button). Displacing the preferred option to the top (and the worst at the bottom) adds a symbolic weight to the decision and offers a meaningful visual feedback to the decision being taken. It might well make the respondent more reflexive on the choice they are making, making the final outcome more valuable.
 
 ## Management of datasets and human annotators (coders)
 While designing the BWS task as a free web app is what matters most to me, I realize that such a task needs supporting services to be fully useful. The task designer must be able to upload their dataset, recruit coders, adding "gold questions" and other methods of quality control. I'll go about it in two ways:
