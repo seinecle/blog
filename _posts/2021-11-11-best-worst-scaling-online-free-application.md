@@ -16,7 +16,9 @@ Best-Worst Scaling is a fantastic - yet still relatively underused - tool to col
 - ordering a list of features from least to most important (political issues, product characteristics...)
 - classifying statements or single terms based on how "relevant" they are on a given dimension
 
-I am developing a free web app to run BWS tasks. Read further or jump to the bottom of this page if you that would interest you as a task designer!
+In the last few years, researchers using machine learning have realized that Best-Worst scaling (BWS) could be very useful to label datasets. I am confident this use case for BWS will expand.
+
+I am developing a free web app to run BWS tasks. Read further or jump to the bottom of this page if you'd like a contact point and start a discussion!
 
 ## Advantages of Best-Worst Scaling
 
@@ -60,8 +62,8 @@ You would expect that respondents would find that most of the words have a neutr
 BWs is the only method which produced a smooth ranking, as should be expected. The two other methods have big ups and downs which are due to their design specificities - clearly artefacts of measurement. 
 
 ## Project: a web app to facilitate running BWS tasks
-The project is to develop a web tool to design and run such BWS tasks. The idea for this project comes from my need to run such many of these tasks, possibly over several years, for a research study I am starting. While many survey tools exist, few of them provide BWS scaling as a type of data collection. As far as I could see, there is no free tool.
-Hence goal is to develop a free web app for BWS scaling. The advantages will be:
+The project is to develop a web tool to design and run such BWS tasks ("Case 1" scenario, which corresponds to the example above). The idea for this project comes from my need to run such many of these tasks, possibly over several years, for a research study I am starting. While many survey tools exist, few of them provide BWS scaling as a type of data collection. Several [free R packages for BWS](https://github.com/markhwhiteii/bwsTools) exist and a [free Python tool for BWS by Geoff Hollis](https://sites.ualberta.ca/~hollis/) as well. As far as I could see, there is no online tool yet.
+Hence goal is to develop a free web app for Best-Worst scaling. The advantages will be:
 
 - a web application: makes it easy to share it with the respondents / human annotators
 - responsive and mobile friendly with touch screens to allow for the greatest engagement of human annotators
@@ -86,7 +88,7 @@ While designing the BWS task as a free web app is what matters most to me, I rea
 - if possible, connect with existing software for the management of datasets and coders. [Discovertext](https://discovertext.com/) <img src="https://user-images.githubusercontent.com/1244100/141379157-f75196e8-d623-45e9-8ee6-5a8fd40122f4.png" width="100"/> is a great web app for the annotation of textual datasets, and I am exploring the possibility that the BWS web app I develop can connect to it. This would save on development time and insure a best-in-class management of coders and datasets.
 
 ## Your contribution
-Have you the need for such an app? Suggestions or remarks? I'd love to hear from you. If you have feature requests, I'll do my best to add them! 
+Have you the need for such an app? Suggestions or remarks? I'd love to hear from you. If you have feature requests, I'll do my best to add them! [Email me](mailto:analysis@exploreyourdata.com) or [say hi on Twitter](https://twitter.com/seinecle)!
 
 ## Where to find the BWS task when it will go live?
 It will be hosted on[Nocode functions](https://nocodefunctions.com), which is the platform I develop for all my research apps. I hope to have it live by January 2022.
