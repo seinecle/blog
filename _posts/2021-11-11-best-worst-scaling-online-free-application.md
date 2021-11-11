@@ -30,7 +30,9 @@ There are many well established scales to do these kinds of ratings, such as thi
 </div>
 <br/>
 <br/>
-Best-Worst Scaling is different and introduces a smart twist. With BWS, __the respondent must choose among several options at once, and is simply asked to select the best and worst option__:
+
+Best-Worst Scaling is different and introduces a smart twist. With BWS, __the respondent must choose among several options at once, and is simply asked to select the best and worst option__ :
+
 <br/>
 <br/>
 
