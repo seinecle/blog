@@ -11,7 +11,6 @@ last_modified_at_readable:   Nov 12, 2021
 
 - ordering a list of items from least preferred to most preferred (candidates, brands, places...)
 - ordering a list of features from least to most important (political issues, product characteristics...)
-- ordering a list of features from least to most important (political issues, product characteristics...)
 - classifying statements or single terms based on how "relevant" they are on a given dimension
 
 In the last few years, __researchers using machine learning have realized that Best-Worst scaling (BWS) could be very useful to label datasets. I am confident this use case for BWS will expand.__
