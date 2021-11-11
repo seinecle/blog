@@ -17,9 +17,9 @@ Best-Worst Scaling is a fantastic - yet still relatively underused - tool to col
 - classifying statements or single terms based on how "relevant" they are on a given dimension 
 
 There are many well established scales to do these kinds of ratings, such as this linear rating scale that is very commonly used:
-
-<img src="https://user-images.githubusercontent.com/1244100/141346470-14a43c76-3dd1-411c-8001-b65839618307.png" width="350" style="text-align:center">
-
+<div style="text-align:center">
+<img src="https://user-images.githubusercontent.com/1244100/141346470-14a43c76-3dd1-411c-8001-b65839618307.png" width="350" >
+</div>
 Best-Worst Scaling is different. The respondent must choose among several options at once, and is simply asked to select the best and worst option:
 
 <img src="https://user-images.githubusercontent.com/1244100/141345964-4622087f-19fc-4402-98d0-a6f623065129.png" width="350">
