@@ -18,11 +18,11 @@ Best-Worst Scaling is a fantastic - yet still relatively underused - tool to col
 
 There are many well established scales to do these kinds of ratings, such as this linear rating scale that is very commonly used:
 
-![image](https://user-images.githubusercontent.com/1244100/141346470-14a43c76-3dd1-411c-8001-b65839618307.png | width=350)
+<img src="https://user-images.githubusercontent.com/1244100/141346470-14a43c76-3dd1-411c-8001-b65839618307.png" width="350">
 
 Best-Worst Scaling is different. The respondent must choose among several options at once, and is simply asked to select the best and worst option:
 
-![image](https://user-images.githubusercontent.com/1244100/141345964-4622087f-19fc-4402-98d0-a6f623065129.png?v=4&s=200)
+<img src="https://user-images.githubusercontent.com/1244100/141345964-4622087f-19fc-4402-98d0-a6f623065129.png" width="350">
 
 This change in the design of the questions has two important benefits:
 
