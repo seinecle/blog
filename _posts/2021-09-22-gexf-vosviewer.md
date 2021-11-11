@@ -18,12 +18,14 @@ VOSviewer has evolved a lot and this summer, their developers released a web app
 
 For Gephi users, there was no easy way to transfer your work from or to VOSviewer. Until now!
 
-I have just released [a file converter that does the conversion from gexf to the VOSviewer file format](https://test.nocodefunctions.com/networkconverter/network_format_converter.html).
-(gexf is the file format produced by Gephi). The VOSviewer -> gexf converter will come soon.
+I have just released [a file converter that does the conversion from gexf to the VOSviewer file format](https://nocodefunctions.com/networkconverter/network_format_converter.html).
+(gexf is the file format produced by Gephi). The __VOSviewer to gexf converter__ will come soon.
+
+[EDIT: the [VOSviewer to gexf converter](https://nocodefunctions.com/networkconverter/network_format_converter.html) has been added!]
 
 Enjoy, and your questions and feedback are welcome.
 
 ![image](/images/new_conversion_function.jpg)
 
 ------
-And discover all the other functions: [https://nocodefunctions.com/](https://nocodefunctions.com/)
+And discover all the other functions of the nocode functions web app: [https://nocodefunctions.com/](https://nocodefunctions.com/)
