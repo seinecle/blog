@@ -1,21 +1,30 @@
 ---
 layout: post
-title: Request for feedback - developing a Best-Worst Scaling (BWS) free web app for any researcher to use 
+title: Developing a Best-Worst Scaling (BWS, aka maxdiff) free web app
 permalink: /best-worst-scaling-bws-in-progress/
 published: true
 date_readable:               Nov 12, 2021
 last_modified_at_readable:   Nov 12, 2021
 ---
 
-[Best-Worst Scaling](https://www.cambridge.org/core/books/bestworst-scaling/E0DC2818A7EC1D1AE2C7F008ADC4DFA9) is a fantastic - yet still relatively underused - tool to collect data on how people compare / evaluate a list of items. That can be as diverse as:
+[Best-Worst Scaling](https://www.cambridge.org/core/books/bestworst-scaling/E0DC2818A7EC1D1AE2C7F008ADC4DFA9), also known as maxdiff, is a fantastic - yet still relatively underused - tool to collect data on how people compare / evaluate a list of items.
+That can be as diverse as:
 
 - ordering a list of items from least preferred to most preferred (candidates, brands, places...)
 - ordering a list of features from least to most important (political issues, product characteristics...)
 - classifying statements or single terms based on how "relevant" they are on a given dimension
 
-In the last few years, __researchers using machine learning have realized that Best-Worst scaling (BWS) could be very useful to label datasets. I am confident this use case for BWS will expand.__
+In the last few years, use cases have expanded from market research to UX design and even more recently, to __Best-Worst scaling (BWS) being used in machine learning to create labelled datasets of a high quality.
+I am confident these two use cases for BWS / maxdiff will expand.__
 
-I am developing a free web app to run BWS tasks. Read further or jump to the bottom of this page if you'd like a contact point and start a discussion!
+So far, BWS can be used either:
+
+- via free programming packages (with R)
+- by hiring specialized research agencies and consultants
+- by using commercial software. 
+
+These solutions have obvious benefits, but a free and click-and-point solution would be useful, too.
+For this reason, I am developing a __free web app to run BWS / maxdiff tasks__.Read further or jump to the bottom of this page if you'd like a contact point and start a discussion!
 
 ## Advantages of Best-Worst Scaling
 
