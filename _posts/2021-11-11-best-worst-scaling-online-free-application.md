@@ -74,7 +74,7 @@ Hence the goal is to develop a free web app for Best-Worst scaling. The advantag
 ## Design of the BWS task: special attention to make it engaging to human annotators
 My feeling is that the specific type of input used in a BWS task has an impact on the quality of the responses and on the engagement of the human annotators recruited on BWS tasks. The radio buttons or check boxes that are often used in studies just feel not "cognitively aligned" with the task.
 
-Alternatively, I propose to designe a __user interface for BWS that allows the user to drag-and-drop the items in a block of items under review__. The user would drag the best option to the top of the list, and drag the worst option to the bottom of the list, like so:
+Alternatively, I propose to design a __user interface for BWS that allows the user to drag-and-drop the items in a block of items under review__. The user would drag the best option to the top of the list, and drag the worst option to the bottom of the list, like so:
 
 ![bws_ordered_list](https://user-images.githubusercontent.com/1244100/141376242-4c6806f9-7b29-4c41-898c-f8e07e3ce731.gif)
 
