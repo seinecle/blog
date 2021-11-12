@@ -28,7 +28,7 @@ For this reason, I am developing a __free web app to run BWS / maxdiff tasks__. 
 
 ## Advantages of Best-Worst Scaling
 
-There are many well established scales to do these kinds of ratings, such as this linear rating scale that is very commonly used:
+There are many well established scales to have users rate things, such as this linear rating scale:
 <div align="center">
    <kbd>
       <img src="https://user-images.githubusercontent.com/1244100/141346470-14a43c76-3dd1-411c-8001-b65839618307.png" width="350"/>
