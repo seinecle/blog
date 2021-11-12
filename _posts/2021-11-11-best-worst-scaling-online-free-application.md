@@ -14,14 +14,14 @@ That can be as diverse as:
 - ordering a list of features from least to most important (political issues, product characteristics...)
 - classifying statements or single terms based on how "relevant" they are on a given dimension
 
-In the last few years, use cases have expanded from market research to UX design and even more recently, to __Best-Worst scaling (BWS) being used in machine learning to create labelled datasets of a high quality.
-I am confident these two use cases for BWS / maxdiff will expand.__
+In the last few years, use cases have expanded from market research to __UX design_ and even more recently, to __Best-Worst scaling (BWS) being used in machine learning to create labelled datasets of a high quality.__
+I am confident these two use cases for BWS / maxdiff will expand.
 
-So far, BWS can be used either:
+So far, setting up a BWS choice task can be implemented using either:
 
-- via free programming packages (with R)
-- by hiring specialized research agencies and consultants
-- by using commercial software. 
+- via free programming packages (with an [R package](https://cran.r-project.org/web/packages/support.BWS/index.html) or [Python scripts by Geoff Hollis](https://sites.ualberta.ca/~hollis/))
+- by hiring specialized research agencies and [consultants](https://www.linkedin.com/in/michaelamora/)
+- by using [commercial software](https://sightx.io/capabilities/maxdiff). 
 
 These solutions have obvious benefits, but a free and click-and-point solution would be useful, too.
 For this reason, I am developing a __free web app to run BWS / maxdiff tasks__.Read further or jump to the bottom of this page if you'd like a contact point and start a discussion!
