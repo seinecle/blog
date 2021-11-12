@@ -17,7 +17,7 @@ That can be as diverse as:
 In the last few years, use cases have expanded from market research to __UX design__ and even more recently, to __Best-Worst scaling (BWS) being used in machine learning to create labelled datasets of a high quality.__
 I am confident these two use cases for BWS / maxdiff will expand.
 
-So far, setting up a BWS choice task can be implemented using either:
+So far, setting up a BWS choice task can be implemented:
 
 - via free programming packages (with an [R package](https://cran.r-project.org/web/packages/support.BWS/index.html) or [Python scripts by Geoff Hollis](https://sites.ualberta.ca/~hollis/))
 - by hiring specialized research agencies and [consultants](https://www.linkedin.com/in/michaelamora/)
