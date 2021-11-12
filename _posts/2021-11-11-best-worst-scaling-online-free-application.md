@@ -71,8 +71,9 @@ BWS is the only method which produced a smooth ranking, as should be expected. T
 
 ## Project: a web app to facilitate running BWS tasks
 The project is to develop a web tool to design and run such BWS tasks ("Case 1" scenario, which corresponds to the example above).
-The idea for this project comes from my need to run many of these tasks, possibly over several years, for a research study I am starting.
-Hence the goal is to develop a free web app for Best-Worst scaling. The advantages will be:
+The idea for this project comes from my need to run many of these tasks for a research study where students will be the respondents. I need the BWS task to be super convenient to setup and useable with dozens of students, accessible on the web from their laptop or mobile.
+
+Hence the goal is to develop this web app for Best-Worst scaling and to open it for any one to use for their own BWS tasks. The advantages will be:
 
 - a web application: makes it easy to share it with the respondents / human annotators
 - responsive and mobile friendly with touch screens to allow for the greatest engagement of human annotators
