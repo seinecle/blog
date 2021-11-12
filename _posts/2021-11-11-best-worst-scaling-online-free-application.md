@@ -24,7 +24,7 @@ So far, setting up a BWS choice task can be implemented:
 - by using [commercial software](https://sightx.io/capabilities/maxdiff). 
 
 These solutions have obvious benefits, but a free and click-and-point solution would be useful, too.
-For this reason, I am developing a __free web app to run BWS / maxdiff tasks__.Read further or jump to the bottom of this page if you'd like a contact point and start a discussion!
+For this reason, I am developing a __free web app to run BWS / maxdiff tasks__. Read further or jump to the bottom of this page if you'd like a contact point and start a discussion!
 
 ## Advantages of Best-Worst Scaling
 
