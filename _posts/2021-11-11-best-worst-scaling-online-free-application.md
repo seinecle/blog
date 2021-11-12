@@ -7,7 +7,7 @@ date_readable:               Nov 12, 2021
 last_modified_at_readable:   Nov 12, 2021
 ---
 
-[Best-Worst Scaling](https://www.cambridge.org/core/books/bestworst-scaling/E0DC2818A7EC1D1AE2C7F008ADC4DFA9), also known as maxdiff, is a fantastic - yet still relatively underused - tool to collect data on how people compare / evaluate a list of items.
+[Best-Worst Scaling](https://www.cambridge.org/core/books/bestworst-scaling/E0DC2818A7EC1D1AE2C7F008ADC4DFA9), also known as [MaxDiff](https://en.wikipedia.org/wiki/MaxDiff), is a fantastic - yet still relatively underused - tool to collect data on how people compare / evaluate a list of items.
 That can be as diverse as:
 
 - ordering a list of items from least preferred to most preferred (candidates, brands, places...)
