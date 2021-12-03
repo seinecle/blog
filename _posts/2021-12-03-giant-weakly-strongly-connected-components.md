@@ -37,3 +37,4 @@ See [this part of the code](https://github.com/gephi/gephi/blob/6e9096b69b8cf5e9
 ). The code for the tarjan's algorithm [is visible here](https://github.com/gephi/gephi/blob/6e9096b69b8cf5e9dc7ad2e65ac8a80f269a5c33/modules/StatisticsPlugin/src/main/java/org/gephi/statistics/plugin/ConnectedComponents.java#L253
 ).
  
+ 
