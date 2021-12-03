@@ -24,7 +24,7 @@ It depends whether your graph is directed or not. A graph is said to be _directe
 If the direction of the connection has no relevance (as in: A-B, there is no "direction" or "arrow" between A and B), the graph is said to be "undirected".
 
 ### if your graph is undirected:
-A  connected component is used to mean a "_weakly_ connected component". In non technical terms, this is a group of nodes where no node is isolated, there is at least one node linking a node to another.
+A  connected component is used to mean a "_weakly_ connected component". In non technical terms, this is a group of nodes where no node is isolated, there is at least one connection linking a node to another.
 See [this part of the code](https://github.com/gephi/gephi/blob/6e9096b69b8cf5e9dc7ad2e65ac8a80f269a5c33/modules/StatisticsPlugin/src/main/java/org/gephi/statistics/plugin/ConnectedComponents.java#L100
 ) which shows that weak components are computed when the graph is undirected.
 
