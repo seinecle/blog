@@ -12,7 +12,7 @@ This post hopes to make a clear distinction between weak, strong and giant compo
 ## The definition of a giant component is simply the connected component which has the largest number of nodes.
 
 You can see it [in the code](https://github.com/gephi/gephi/blob/6e9096b69b8cf5e9dc7ad2e65ac8a80f269a5c33/modules/StatisticsPlugin/src/main/java/org/gephi/statistics/plugin/ConnectedComponents.java#L344
-): the giant component of a graph (or network) is simply identified by:
+). The giant component of a graph (or network) is simply identified by:
 
 - considering all the connected components,
 - selecting the one that has the largest size (meaning, that has the most nodes)
@@ -30,10 +30,10 @@ See [this part of the code](https://github.com/gephi/gephi/blob/6e9096b69b8cf5e9
 
 ### if your graph is directed:
  
- A connected component is used to mean a "strongly connected component", according to this definition: https://en.wikipedia.org/wiki/Strongly_connected_component
+ A connected component is used to mean a "strongly connected component", according to this definition: https://en.wikipedia.org/wiki/Strongly_connected_component.
  In non technical term, this is a group of nodes where it is possible to go from one node to any other node, even with taking into account that some links can be followed in just one direction.
 
- The method used to find these strongly connected components is [Tarjan's algorithm](https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm
+ In the Gephi software, the method used to find these strongly connected components is [Tarjan's algorithm](https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm
 ). The code for the tarjan's algorithm [is visible here](https://github.com/gephi/gephi/blob/6e9096b69b8cf5e9dc7ad2e65ac8a80f269a5c33/modules/StatisticsPlugin/src/main/java/org/gephi/statistics/plugin/ConnectedComponents.java#L253
-)
+).
  
