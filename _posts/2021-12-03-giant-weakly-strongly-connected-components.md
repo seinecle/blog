@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What is the difference between weakly strongly and giant connected components?
-permalink: /weakly-strongly-connected-components/
+permalink: /giant-weakly-strongly-connected-components/
 published: true
 date_readable:               Dec 03, 2021
 last_modified_at_readable:   Dec 03, 2021
