@@ -4,8 +4,10 @@ title: Developing a Best-Worst Scaling (BWS, aka maxdiff) free web app
 permalink: /best-worst-scaling-bws-in-progress/
 published: true
 date_readable:               Nov 12, 2021
-last_modified_at_readable:   Nov 12, 2021
+last_modified_at_readable:   Dec 10, 2021
 ---
+
+__update:__ [Best-Worst Scaling is now available on Nocode!](https://nocodefunctions.com/labelling/role.html)
 
 [Best-Worst Scaling](https://www.cambridge.org/core/books/bestworst-scaling/E0DC2818A7EC1D1AE2C7F008ADC4DFA9), also known as [MaxDiff](https://en.wikipedia.org/wiki/MaxDiff), is a fantastic - yet still relatively underused - tool to collect data on how people compare / evaluate a list of items.
 That can be as diverse as:
