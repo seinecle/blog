@@ -7,7 +7,7 @@ date_readable:               Dec 17, 2021
 last_modified_at_readable:   Dec 17, 2021
 ---
 
-_On detecting sarcasm / humor: I received an email asking me how I would go about the dectection of sarcasm and humor in texts. A lot of papers on the subject have appeared but I didn't review them. I'd be interested to see what approaches are explored to date. The following is how I would approach the task:_
+_I received an email asking me how I would go about the dectection of sarcasm and humor in texts. A lot of papers on the subject have appeared but I didn't review them. I'd be interested to see what approaches are explored to date. The following is how I would approach the task:_
 
 Sarcasm and humor are, in my opinion, cases that are very difficult to approach by machine learning. Indeed, a sarcastic or humorous connotation is revealed by very subtle clues, which are difficult to put together in an annotated training set.
 
