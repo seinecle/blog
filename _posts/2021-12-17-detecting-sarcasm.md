@@ -28,7 +28,13 @@ On the semantic aspects: I am a priori confident of the fact that many sarcastic
 - sentence length (strongly positive sentences which are really terse can be a hint of sarcasm.)
 - use of punctuation ("..." can be a hint of sarcasm)
 - some vocabulary markers ("really" is a reinforcer, but "reaaaally" can be a hint of sarcasm)
-- excessivity: when the markers of positive sentiment or emotion tend to pile up in a short sentence, the explicit meaning can be a strong praise, but it can also be one of the mechanisms that points to sarcasm. 
+- excessivity / exageration: when the markers of positive sentiment or emotion tend to pile up in a short sentence, the explicit meaning can be a strong praise, but it can also be one of the mechanisms that points to sarcasm.
+
+An example of a sentence which combines all these traits would be:
+
+> Clearly, the guy is reaaally a genius...
+
+An algorithm detecting sarcasm should score a 100% certainty on this, and it is not difficult to build such an algorithm.
 
 So my approach would be labor intensive: read a lot of sarcastic-type sentences (difficulty: where to find them easily?), and reflect on each of them. What aspects of the sentence contribute to my subjective opinion that the author is being sarcastic? And then I'd try to codify those semantic traits as I did for [Umigon](https://nocodefunctions.com/umigon/sentiment_analysis_tool.html): creating lexicons and their heuristics + sentence-level heuristics.
 
