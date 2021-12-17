@@ -7,7 +7,7 @@ date_readable:               Dec 17, 2021
 last_modified_at_readable:   Dec 17, 2021
 ---
 
-_I received an email asking me how I would go about the dectection of sarcasm in texts. A lot of papers on the subject have appeared but I didn't review them. I'd be interested to see what approaches are explored to date. The following is how I would approach the task:_
+_I received an email asking how I would go about the dectection of sarcasm in texts. I have a long standing interest for this topic, but only from the side lines of somebody interested in other NLP tasks ([sentiment analysis](https://nocodefunctions.com/umigon/sentiment_analysis_tool.html), [topic detection](https://nocodefunctions.com/topics/topic_extraction_tool.html) and recently, [identification of emotions in text](https://aim.em-lyon.com/2021/11/28/call-for-participation/)). A lot of papers on sarcasm have appeared but I didn't review them. I'd be interested to see what approaches are explored to date. The following is how I would approach the task:_
 
 I'd define sarcasm as the voluntary act for a locutor to:
 
