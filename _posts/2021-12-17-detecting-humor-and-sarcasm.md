@@ -16,7 +16,7 @@ On the other hand, these very subtle clues are detectable if we examine carefull
 1. the different semantic aspects of the text (punctuation, vocabulary, grammatical structure ...)
 2. the context: what comes before the text under examination, what comes after it, or even the speaker's profile (I expect the Twitter account of the United Nations to be less susceptible to sarcasm than an account coming from entertainment).
 
-On the semantic aspects: I am a priori very confident of the fact that many sarcastic or humorous sentences leave semantic traces of their connotation - it is only very rarely 100% dependent on the context. Indeed, it is the subjective experience I have of it when I read sarcastic tweets. By re-reading them carefully, we can distinguish objectivable characteristics:
+On the semantic aspects: I am a priori very confident of the fact that many sarcastic or humorous sentences leave semantic traces of their connotation - it is rarely 100% dependent on the context. Indeed, it is the subjective experience I have of it when I read sarcastic tweets. By re-reading them carefully, we can distinguish objectivable characteristics:
 
 - sentence length (strongly positive sentences which are really terse can be a hint of sarcasm.)
 - use of punctuation ("..." can be a hint of sarcasm)
