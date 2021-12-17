@@ -26,7 +26,7 @@ So my approach would be labor intensive: read a lot of sarcastic-type sentences 
 
 I understand that one can be uncertain about the effectiveness of this approach: is it really possible to arrive at a list of semantic markers of something as subtle as sarcasm? My response is to turn the table on this argument. When or if sarcasm is impossible to pinpoint semantically, then a computational approach cannot get a grasp on it... __but neither can humans__.
 
-To put it differently: when sarcasm is entirely context dependent (no semantic clue available), then machines and humans alike tend to be unsure about the sarcastic character of the utterance. This shows that the computational approach has not hit a limit, but instead that the person who made the sarcastic comment used to few markers to make its intentions (sarcasm or not?) entirely known.
+To put it differently: when sarcasm is entirely context dependent (no semantic clue available), then machines and humans alike tend to be unsure about the sarcastic character of the utterance. This shows that the computational approach has not hit a limit, but instead that the person who made the sarcastic comment used too few markers to make its intentions (sarcasm or not?) entirely known.
 
 An excellent example of this is an exchange betwenn Elon Musk and an unofficial account sharing news about [Rocket Lab](https://www.rocketlabusa.com/) on Twitter, dating from Oct 1, 2021. The account "Everything Rocket Lab" tweeted:
 
@@ -45,4 +45,4 @@ So, sarcasm or not? (I personally think this is sarcasm but could be wrong). Her
 
 Still, how could the context be appraised in a computational manner? We would have to develop a tool which would be "platform specific" I think. Typically, a platform that allows reactions in the form of emojis would help, as one could rely on commenter's reactions such as "😆" or "😬" or "🤣" to signal that the content may be humorous or sarcastic. Apart from this, we could fancy more complex approaches (characterizing the profile of the locutor as "prone to sarcasm or not", but that would be a refinement, not a first step in my opinion).
 
-So that would be my starting point! I'd be happy to exchange with researchers and students interested in the subject. If you are interested in my projects in text mining and graph minin, have a look at [Nocodefunctions](https://nocodefunctions.com/), a free web application that makes it easy to test and use the tools I have developed in the past years.
+So that would be my starting point! I'd be happy to exchange with researchers and students interested in the subject. If you are interested in my projects in text mining and graph mining, have a look at [Nocodefunctions](https://nocodefunctions.com/), a free web application that makes it easy to test and use the tools I have developed in the past years.
