@@ -9,14 +9,21 @@ last_modified_at_readable:   Dec 17, 2021
 
 _I received an email asking me how I would go about the dectection of sarcasm in texts. A lot of papers on the subject have appeared but I didn't review them. I'd be interested to see what approaches are explored to date. The following is how I would approach the task:_
 
-Sarcasm is, in my opinion, cases that are very difficult to approach by machine learning. Indeed, a sarcastic connotation is revealed by very subtle clues, which would be very difficult to pick up by a model.
+I'd define sarcasm as the voluntary act for a locutor to:
 
-On the other hand, these very subtle clues are detectable if we examine carefully:
+- convey an implicit meaning which is different (and often, opposite) to the meaning which is explicit in the literal message
+- with the effect to create a kind of "dark humor", at the expense of the event or entity which is the topic of the literal message.
+
+See below for an example involving a response by Elon Musk to a tweet by @RocketLab360.
+
+Sarcasm is, in my opinion, a case that is difficult to approach by machine learning. Indeed, a sarcastic connotation is revealed by very subtle clues, which would not be easily to pick up by a model.
+
+On the other hand, these subtle clues are detectable if we examine carefully:
 
 1. the different semantic aspects of the text (punctuation, vocabulary, grammatical structure ...)
 2. the context: what comes before the text under examination, what comes after it, or even the speaker's profile (I expect the Twitter account of the United Nations to be less susceptible to sarcasm than an account coming from entertainment).
 
-On the semantic aspects: I am a priori very confident of the fact that many sarcastic sentences leave semantic traces of their connotation - it is rarely 100% dependent on the context. Indeed, it is the subjective experience I have of it when I read sarcastic tweets. By re-reading them carefully, we can distinguish objectivable characteristics:
+On the semantic aspects: I am a priori confident of the fact that many sarcastic sentences leave semantic traces of their connotation - it is rarely 100% dependent on the context. Indeed, it is the subjective experience I have of it when I read sarcastic tweets. By re-reading them carefully, we can distinguish objectivable characteristics:
 
 - sentence length (strongly positive sentences which are really terse can be a hint of sarcasm.)
 - use of punctuation ("..." can be a hint of sarcasm)
