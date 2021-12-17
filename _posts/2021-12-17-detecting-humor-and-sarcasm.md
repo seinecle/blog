@@ -31,8 +31,11 @@ To put it differently: when sarcasm is entirely context dependent (no semantic c
 An excellent example of this is an exchange betwenn Elon Musk and an unofficial account sharing news about [Rocket Lab](https://www.rocketlabusa.com/) on Twitter, dating from Oct 1, 2021. The account "Everything Rocket Lab" tweeted:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A small Neutron update before the official big one:<br><br>- Rocket Lab is still in the final downselect between the ultimate launch site according to Peter Beck.<br>- Neutron has become a bigger rocket! The rocket is now 46 meters high with a 5-meter diameter fairing.<br><br>📸: Rocket Lab <a href="https://t.co/S51bx9x4J4">pic.twitter.com/S51bx9x4J4</a></p>&mdash; Everything Rocket Lab (@RocketLab360) <a href="https://twitter.com/RocketLab360/status/1443933374813442051?ref_src=twsrc%5Etfw">October 1, 2021</a></blockquote>
-
+<br/>
+<br/>
 To which Elon Musk replied:
+<br/>
+<br/>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Will be Falcon 9 size sooner or later</p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1444135225538265090?ref_src=twsrc%5Etfw">October 2, 2021</a></blockquote> 
 
