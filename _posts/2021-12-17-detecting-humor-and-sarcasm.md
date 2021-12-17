@@ -1,22 +1,22 @@
 ---
 layout: post
-title: How to detect humor and sarcasm in texts
-permalink: /detecting-humor-and-sarcasm-in-text/
+title: How to detect sarcasm in texts
+permalink: /detecting-sarcasm-in-text/
 published: true
 date_readable:               Dec 17, 2021
 last_modified_at_readable:   Dec 17, 2021
 ---
 
-_I received an email asking me how I would go about the dectection of sarcasm and humor in texts. A lot of papers on the subject have appeared but I didn't review them. I'd be interested to see what approaches are explored to date. The following is how I would approach the task:_
+_I received an email asking me how I would go about the dectection of sarcasm in texts. A lot of papers on the subject have appeared but I didn't review them. I'd be interested to see what approaches are explored to date. The following is how I would approach the task:_
 
-Sarcasm and humor are, in my opinion, cases that are very difficult to approach by machine learning. Indeed, a sarcastic or humorous connotation is revealed by very subtle clues, which would be very difficult to pick up by a model.
+Sarcasm is, in my opinion, cases that are very difficult to approach by machine learning. Indeed, a sarcastic connotation is revealed by very subtle clues, which would be very difficult to pick up by a model.
 
 On the other hand, these very subtle clues are detectable if we examine carefully:
 
 1. the different semantic aspects of the text (punctuation, vocabulary, grammatical structure ...)
 2. the context: what comes before the text under examination, what comes after it, or even the speaker's profile (I expect the Twitter account of the United Nations to be less susceptible to sarcasm than an account coming from entertainment).
 
-On the semantic aspects: I am a priori very confident of the fact that many sarcastic or humorous sentences leave semantic traces of their connotation - it is rarely 100% dependent on the context. Indeed, it is the subjective experience I have of it when I read sarcastic tweets. By re-reading them carefully, we can distinguish objectivable characteristics:
+On the semantic aspects: I am a priori very confident of the fact that many sarcastic sentences leave semantic traces of their connotation - it is rarely 100% dependent on the context. Indeed, it is the subjective experience I have of it when I read sarcastic tweets. By re-reading them carefully, we can distinguish objectivable characteristics:
 
 - sentence length (strongly positive sentences which are really terse can be a hint of sarcasm.)
 - use of punctuation ("..." can be a hint of sarcasm)
@@ -43,6 +43,6 @@ In Elon Musk's response, there is no clear semantic hint indicating sarcasm (I g
 
 So, sarcasm or not? (I personally think this is sarcasm but could be wrong). Here, a computational approach wouldn't detect sarcasm, but neither would humans with any degree of certainty, because the context is pretty specialized (difference in development between SpaceX and Rocket Lab). So in terms of accuracy, the detection of sarcasm has a bar which is the level which humans are capable of detecting - and this is lower than in other NLP tasks (sentiment analysis, emotion detection, etc).
 
-Still, how could the context be appraised in a computational manner? We would have to develop a tool which would be "platform specific" I think. Typically, a platform that allows reactions in the form of emojis would help, as one could rely on commenter's reactions such as "😆" or "😬" or "🤣" to signal that the content may be humorous or sarcastic. Apart from this, we could fancy more complex approaches (characterizing the profile of the locutor as "prone to sarcasm or not", but that would be a refinement, not a first step in my opinion).
+Still, how could the context be appraised in a computational manner? We would have to develop a tool which would be "platform specific" I think. Typically, a platform that allows reactions in the form of emojis would help, as one could rely on commenter's reactions such as "😆" or "😬" or "🤣" to signal that the content may be sarcastic. Apart from this, we could fancy more complex approaches (characterizing the profile of the locutor as "prone to sarcasm or not", but that would be a refinement, not a first step in my opinion).
 
 So that would be my starting point! I'd be happy to exchange with researchers and students interested in the subject. If you are interested in my projects in text mining and graph mining, have a look at [Nocodefunctions](https://nocodefunctions.com/), a free web application that makes it easy to test and use the tools I have developed in the past years.
