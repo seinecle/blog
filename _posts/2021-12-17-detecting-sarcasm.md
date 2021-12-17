@@ -16,7 +16,7 @@ I'd define sarcasm as the voluntary act for a locutor to:
 
 See below for an example involving a response by Elon Musk to a tweet by @RocketLab360.
 
-Sarcasm is, in my opinion, a case that is difficult to approach by machine learning. Indeed, a sarcastic connotation is revealed by very subtle clues, which would not be easily to pick up by a model.
+Sarcasm is, in my opinion, a case that is difficult to approach by machine learning. Indeed, a sarcastic connotation is revealed by very subtle clues, which would not be easily picked up by a model.
 
 On the other hand, these subtle clues are detectable if we examine carefully:
 
