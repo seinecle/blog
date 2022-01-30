@@ -2,7 +2,7 @@
 layout: post
 title: The mundane work of designing precise data annotation / labelling tasks
 permalink: /designing-precise-data-annotation-tasks/
-published: false
+published: true
 date_readable:               Jan 30, 2022
 last_modified_at_readable:   Jan 30, 2022
 ---
@@ -70,8 +70,11 @@ Isn't it very redundant, given the plethora of offer? These are the reasons:
 These two points boil down to "customization". I need to run annotation tasks in ways that are not covered by the existing solutions. Specifically:
 
 - I need to run a Best-Worst Scaling task. This is suuuuper powerful and yet not on offer anywhere AFAIK. So I added [BWS Tasks](https://nocodefunctions.com/blog/best-worst-scaling-bws-in-progress/) to Nocode functions
-- I need to categorize words, which is a super classic kind of task. But these words need to be highlighted in a sentence, to provide context to the annotator. Otherwise, how can the annotator judge the meaning of a word in isolation? That would be much harder and imprecise. So I need a task that allows a notion like: "annotate an object, which has a value (the word) and a 'displayed' value (the sentence where it appears with some css to highlight it)". I developed a specific [function to do this highlighting](https://nocodefunctions.com/highlighter/highlight_word_in_context.html) and integrated with the test, so that  now [tasks on Nocode function accomodate the notion of item value / item displayed value with css formatting for the annotation of an item](https://nocodefunctions.com/labelling/role.html). 
+- I need to categorize words, which is a super classic kind of task. But these words need to be highlighted in a sentence, to provide context to the annotator. Otherwise, how can the annotator judge the meaning of a word in isolation? That would be much harder and imprecise. So I need a task that allows a notion like: "annotate an object, which has a value (the word) and a 'displayed' value for the annotator (a sentence where the term appears, with some css to highlight it)". I developed a specific [function to do this highlighting](https://nocodefunctions.com/highlighter/highlight_word_in_context.html) and integrated with the test, so that  now [tasks on Nocode function accomodate the notion of item value / item displayed value with css formatting for the annotation of an item](https://nocodefunctions.com/labelling/role.html).
+- While the above seems trivial (adding some css...), it has cascading impacts on the UI. For instance, the solution now needs to allow for the import of two fields per item to annotate (the value, and the displayed value). This can be managed by defining a scheme for the data to be imported... but that adds another layer of complexity and pre-supposes a programmatic approach. I choose instead to have a click-and-point interface where two columns can be imported from a csv or Excel spreadsheet. Much simpler.
 
+Yes, this is not industry-grade so I don't expect it to be widely adopted. I just hope that it will speed up my research and that it will prove useful to smaller scale organizations that need these functions specifically, without lock-in nor the complexity of adopting large scale solutions.
 
+Your feedback is welcome!
 
 [^1]: [ Joseph K Goodman & Gabriele Paolacci (2017): Crowdsourcing Consumer Research](https://doi.org/10.1093/jcr/ucx047).
