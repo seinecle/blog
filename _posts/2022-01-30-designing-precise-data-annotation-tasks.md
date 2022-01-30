@@ -70,14 +70,14 @@ Isn't it very redundant, given the plethora of offer? These are the reasons:
 These two points boil down to "customization". I need to run annotation tasks in ways that are not covered by the existing solutions. Specifically:
 
 - I need to run a Best-Worst Scaling task. This is suuuuper powerful and yet not on offer anywhere AFAIK. So I added [BWS Tasks](https://nocodefunctions.com/blog/best-worst-scaling-bws-in-progress/) to Nocode functions
-- I need to categorize words, which is a super classic kind of task. But these words need to be highlighted in a sentence, to provide context to the annotator. Otherwise, how can the annotator judge the meaning of a word in isolation? That would be much harder and imprecise. So I need a task that allows a notion like: "annotate an object, which has a value (the word) and a 'displayed' value for the annotator (a sentence where the term appears, with some css to highlight it)".  Like so:
+- I need to categorize words, which is a super classic kind of task. But these words need to be highlighted in a sentence, to provide context to the annotator. Otherwise, how can the annotator judge the meaning of a word in isolation? That would be much harder and imprecise. So I need a task that allows a notion like: "annotate an object, which has a value (the word) and a 'displayed' value for the annotator (a sentence where the term appears, with some css to highlight it)".  For instance, to categorize the term "Oklahoma" I would need it to be inserted in a sentence for context, with some color effect to signal it to the annotator:
 
 "To the red country and part of the gray country of <span id="oklahoma">Oklahoma</span>, the last rains came gently, and they did not cut the scarred earth."
 
 I developed a specific [function to do this highlighting](https://nocodefunctions.com/highlighter/highlight_word_in_context.html) and integrated with the rest, so that  now [tasks on Nocode function have the notion of item value / item displayed value with css formatting for the annotation of an item](https://nocodefunctions.com/labelling/role.html).
 - While the above seems trivial (adding some css...), it has cascading impacts on the UI. For instance, the solution now needs to allow for the import of two fields per item to annotate (the value of the item, and the displayed value with the css). This can be managed by defining a json schema for the data to be imported... but that would add another layer of complexity and pre-supposes a programmatic approach. I choose instead to have a click-and-point interface where two columns can be imported from a csv or Excel spreadsheet. Much simpler.
 
-Yes, this is not industry-grade so I don't expect it to be widely adopted. I just hope that it will speed up my research and that it will prove useful to smaller scale organizations that need these functions specifically, without lock-in nor the complexity of adopting large scale solutions.
+Yes, this is not industry-grade so I don't expect it to be widely adopted. I just hope that it will improve the quality of the annotations for research and that it will prove useful to smaller scale organizations that need these functions specifically, without lock-in nor the complexity of adopting large scale solutions.
 
 Your feedback is welcome!
 
