@@ -65,7 +65,7 @@ Amazon has followed up these developments by adding an "[Amazon SageMaker Data L
 Isn't it very redundant, given the plethora of offer? These are the reasons:
 
 1. To be effective, annotation tasks need to be precisely taylored to the case.
-2. An existing solution can be hard to fit in an existing chain of data processing
+2. A third party solution can be hard to fit in an existing chain of data processing
 
 These two points boil down to "customization". I need to run annotation tasks in ways that are not covered by the existing solutions. Specifically:
 
