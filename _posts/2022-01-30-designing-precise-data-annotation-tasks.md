@@ -33,11 +33,9 @@ MTurk is the dominant, generalist platform to design any type of crowd-sourced t
 Today, querying "annotation platform" on your favorite search engine will return the names of [Toloka](https://toloka.ai), [SuperAnnotate](https://www.superannotate.com), [Basic.ai](https://www.basic.ai), and many others.
 
 <div align="center">
-  ![image](https://user-images.githubusercontent.com/1244100/151705453-f40cea8d-f5c9-4e86-8dcb-1ef3a2463718.png)
+   <img src="https://user-images.githubusercontent.com/1244100/151705453-f40cea8d-f5c9-4e86-8dcb-1ef3a2463718.png"/>
   <br/>
-  ![image](https://user-images.githubusercontent.com/1244100/151705462-3be1f08b-caa3-4bfb-b72c-a7c3ebfafeb3.png)
-
-
+   <img src="https://user-images.githubusercontent.com/1244100/151705462-3be1f08b-caa3-4bfb-b72c-a7c3ebfafeb3.png"/>
 </div>  
 
 Together, these companies coalesce into a new, specific industy proposing part or all of:
