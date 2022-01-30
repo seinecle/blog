@@ -9,7 +9,7 @@ last_modified_at_readable:   Jan 30, 2022
 
 Annotating or labelling data is an essential step in the chain of data processing, for at least two use cases:
 
-* in supervised learning, labelled datasets provide a ground for the model to train on. Good annotations make good training sets, which determine the quality of the model
+* in supervised learning, labelled datasets provide a ground for the model to train on. Good annotations make good training sets, which impact greatly the quality of the model.
 * in data analysis models that are "rule based", a dataset which is accurately labelled make sure the rules and heuristics get triggered in the appropriate circumstances.
 
 Computer vision is a domain where data labelling has taken off big time.
