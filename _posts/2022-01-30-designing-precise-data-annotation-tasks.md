@@ -11,8 +11,8 @@ _or, why did I add annotation tasks to Nocode functions if there is so much alre
 
 # Annotating or labelling data is an essential step in the chain of data processing, for at least two use cases:
 
-* in supervised learning, labelled datasets provide a ground for the model to train on. Good annotations make good training sets, which impact greatly the quality of the model.
-* in data analysis models that are "rule based", a dataset which is accurately labelled makes sure the rules and heuristics get triggered in the appropriate circumstances.
+* in supervised learning, labeled datasets provide a ground for the model to train on. Good annotations make good training sets, which impact greatly the quality of the model.
+* in data analysis models that are "rule based", a dataset which is accurately labeled makes sure the rules and heuristics get triggered in the appropriate circumstances.
 
 Annotating data consists for a person to point the absence or presence of a specific feature in a piece of text, an image, a video or audio content...
 For instance, the open source solution Label Studio offers tools to annotate audio segments, by adding tags [in a very intuitive interface](https://labelstud.io/playground/):
