@@ -33,8 +33,10 @@ Together, these companies coalesce into a new, specific industy proposing part o
 
 - tools for annotating text, image, video, audio
 - project management (curation, quality control, time management, data security, etc.)
-- annotator's recruitment and management
+- management of the workforce of annotators - including the setup of world-wide marketplaces 
 - integration with the rest of the flow of data analysis
+
+Amazon has followed up these developments by adding an "[Amazon SageMaker Data Labeling](https://aws.amazon.com/sagemaker/data-labeling/?nc=sn&loc=0)" (aka Amazon SageMaker Ground Truth Plus) to their MTurk offer.
 
 
 
