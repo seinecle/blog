@@ -15,7 +15,7 @@ _or, why did I add annotation tasks to Nocode functions if there is so much alre
 * in models that are "rule based", a dataset which is accurately labeled makes sure the rules and heuristics get triggered in the appropriate circumstances.
 
 Annotating data consists for a person to point the absence or presence of a specific feature in a piece of text, an image, a video or audio content...
-For instance, the open source solution Label Studio offers tools to annotate audio segments, by adding tags [in a very intuitive interface](https://labelstud.io/playground/):
+For instance, the open source solution Label Studio offers tools to annotate audio segments, by adding tags [in a very intuitive interface](https://labelstud.io/playground/){:target="_blank"}:
 
 <div align="center">
    <img src="https://user-images.githubusercontent.com/1244100/151705003-f9c8212c-e76e-4550-8926-8605ca7c307f.png" width="400"/>
@@ -27,7 +27,7 @@ Until ~ 2015, Amazon Mechanical Turk ([MTurk](https://www.mturk.com/)) was the d
 It has profoundly changed practices in the industry, and in academia as well.
 In 2016, 43% of behavioral studies featured in the academic _Journal of Consumer Behavior_ were conducted on MTurk! ([^1])
 
-This positon evolved:
+This position evolved:
 
 - new actors emerged, integrating additional services
 - some actors positioned themselves on a specific segment: crowd-sourcing __annotation__ tasks.
