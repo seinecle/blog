@@ -49,75 +49,82 @@ The use case consists in performing sentiment analysis on thousands of tweets. I
 This is how the code looks like:
 
 ```java
-            Map<Integer, String> mapOfLines = new HashMap();
+Map<Integer, String> mapOfLines = new HashMap();
+
+mapOfLines.put(0, "This is a test. Concurrency is amazing!");
+mapOfLines.put(1, "This is a test. Concurrency is hard!");
+
+ConcurrentHashMap<Integer, Document> tempResults = new ConcurrentHashMap();
+
+HttpRequest request;
+HttpClient client = HttpClient.newHttpClient();
+
+Set<CompletableFuture> futures = new HashSet();
+			
+Clock clock = new Clock("clocking the concurrent task");
+
+try {
+	for (Map.Entry<Integer, String> entry : mapOfLines.entrySet()) {
 	
-			mapOfLines.put(0, "This is a test. Concurrency is amazing!");
-			mapOfLines.put(1, "This is a test. Concurrency is hard!");
+		Document doc = new Document();
+		doc.setText(entry.getValue());
+		doc.setId(entry.getKey());
+		doc.setSentiment(Category._10);
+
+		URI uri = new URI("http://localhost:7002/api/sentimentForAText/" 
+		+ selectedLanguage
+		+ "?id="
+		+ doc.getId() 
+		+ "&text=" 
+		+ URLEncoder.encode(entry.getValue(), StandardCharsets.UTF_8.toString()));
+
+		request = HttpRequest.newBuilder()
+				.uri(uri)
+				.build();
+
+		CompletableFuture<Void> future = client.sendAsync(request, HttpResponse.BodyHandlers.ofString()).thenAccept(resp -> {
+			String body = resp.body();
+
+			// the task returns a JSON Object, for convenience of handling
 			
-			ConcurrentHashMap<Integer, Document> tempResults = new ConcurrentHashMap();
+			JsonReader jsonReader = Json.createReader(new StringReader(body));
+			JsonObject jsonObject = jsonReader.readObject();
+			Document docReturn = new Document();
+			if (jsonObject != null && !jsonObject.isEmpty()) {
 
-            HttpRequest request;
-            HttpClient client = HttpClient.newHttpClient();
-            Set<CompletableFuture> futures = new HashSet();
-			
-            Clock clock = new Clock("clocking the concurrent task");
+				String key = jsonObject.keySet().iterator().next();
+				docReturn.setId(Integer.valueOf(key));
+				docReturn.setText(mapOfLines.get(Integer.valueOf(key)));
 
-            try {
-                for (Map.Entry<Integer, String> entry : mapOfLines.entrySet()) {
-                    Document doc = new Document();
-                    doc.setText(entry.getValue());
-                    doc.setId(entry.getKey());
-                    doc.setSentiment(Category._10);
+				// Category._11 is the label for "positive sentiment" 
+				if (jsonObject.getString(key).equals(Category._11.toString())) {
+					docReturn.setSentiment(Categories.Category._11);
+				}
 
-                    URI uri = new URI("http://localhost:7002/api/sentimentForAText/" + selectedLanguage + "?id=" + doc.getId() + "&text=" + URLEncoder.encode(entry.getValue(), StandardCharsets.UTF_8.toString()));
-
-                    request = HttpRequest.newBuilder()
-                            .uri(uri)
-                            .build();
-
-                    CompletableFuture<Void> future = client.sendAsync(request, HttpResponse.BodyHandlers.ofString()).thenAccept(resp -> {
-                        String body = resp.body();
-
-						// the task returns a JSON Object, for convenience of handling
-						
-                        JsonReader jsonReader = Json.createReader(new StringReader(body));
-                        JsonObject jsonObject = jsonReader.readObject();
-                        Document docReturn = new Document();
-                        if (jsonObject != null && !jsonObject.isEmpty()) {
-
-                            String key = jsonObject.keySet().iterator().next();
-                            docReturn.setId(Integer.valueOf(key));
-                            docReturn.setText(mapOfLines.get(Integer.valueOf(key)));
-
-							// Category._11 is the label for "positive sentiment" 
-                            if (jsonObject.getString(key).equals(Category._11.toString())) {
-                                docReturn.setSentiment(Categories.Category._11);
-                            }
-
-							// Category._12 is the label for "negative sentiment" 
-                            if (jsonObject.getString(key).equals(Category._12.toString())) {
-                                docReturn.setSentiment(Categories.Category._12);
-                            }
-							
-                            tempResults.put(Integer.valueOf(key), docReturn);
-                        }
-                    }
-                    );
-                    futures.add(future);
-
-                }
-                CompletableFuture<Void> combinedFuture = CompletableFuture.allOf(futures.toArray((new CompletableFuture[0])));
-                combinedFuture.join();
+				// Category._12 is the label for "negative sentiment" 
+				if (jsonObject.getString(key).equals(Category._12.toString())) {
+					docReturn.setSentiment(Categories.Category._12);
+				}
 				
-				// tempResults ready to be use further in the code!
+				tempResults.put(Integer.valueOf(key), docReturn);
+			}
+		}
+		);
+		futures.add(future);
 
-            } catch (URISyntaxException exception) {
-                System.out.println("URI syntax exception"+ exception);
-            } catch (UnsupportedEncodingException ex) {
-                System.out.println("Encoding exception: "+ ex);
-            }
+	}
+	CompletableFuture<Void> combinedFuture = CompletableFuture.allOf(futures.toArray((new CompletableFuture[0])));
+	combinedFuture.join();
+	
+	// tempResults ready to be use further in the code!
 
-            clock.closeAndPrintClock();
+} catch (URISyntaxException exception) {
+	System.out.println("URI syntax exception"+ exception);
+} catch (UnsupportedEncodingException ex) {
+	System.out.println("Encoding exception: "+ ex);
+}
+
+clock.closeAndPrintClock();
 ```
 
 * in supervised learning, labeled datasets provide a ground for the model to train on. Good annotations make good training sets, which impact greatly the quality of the model.
