@@ -2,7 +2,7 @@
 layout: post
 title: Concurrency and decoupling for cheap with Java 11 HttpClient asynch requests
 permalink: /java-concurrency-with-http-client-asynch/
-published: false
+published: true
 date_readable:               Feb 19, 2022
 last_modified_at_readable:   Feb 19, 2022
 ---
@@ -90,6 +90,9 @@ try {
 			String body = resp.body();
 
 			// the task returns a JSON Object, for convenience of handling
+			
+			// as you see below, it is very easy and convenient to define operations
+			// on the body (here, a String) returned by each concurrent task 
 			
 			JsonReader jsonReader = Json.createReader(new StringReader(body));
 			JsonObject jsonObject = jsonReader.readObject();
@@ -220,7 +223,7 @@ Looking at the code above, I realize that the reaction might be whaaaat but this
 	1. Local vs remote: the gains of concurrency as shown above are achieved when the REST API sits on the same machine as the main code base. When I tried the mix (main code base on local laptop x REST API on a distante server), the code was just suuuuper slow. I didn't investigate why.
 	2. When the REST API is on a Windows Machine, there is a maximum limit of connections. Hitting this limit causes an exception. Weird! So make sure to host your REST API on linux.
 
-### Conclusion
-I will progressively refactor all the functions on Nocodefunctions.com to adopt this design. At the moment (Feb 19, 2022), only sentiment analysis on the _test_ version of the site has been implemented. As a result, analyzing 6,000 tweets take just 10 seconds now (600 tweets per second!), versus ~ one minute before.
+### Conclusion and thanks
+I will progressively refactor all the functions on [nocodefunctions.com](https://nocodefunctions.com) to adopt this design. At the moment (Feb 19, 2022), only [sentiment analysis](https://test.nocodefunctions.com/umigon/sentiment_analysis_tool.html) on the _test_ version of the site has been implemented. As a result, analyzing 6,000 tweets take just 10 seconds now (600 tweets per second!), versus ~ one minute before.
 
 I arrived at this solution after reading many blog posts by professional Java developers and StackOverflow Q&As. I thank all these contributors, and I hope this new blog post will be of help to the next person researching these topics.
