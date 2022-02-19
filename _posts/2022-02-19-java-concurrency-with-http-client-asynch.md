@@ -82,7 +82,8 @@ try {
 				.uri(uri)
 				.build();
 
-		CompletableFuture<Void> future = client.sendAsync(request, HttpResponse.BodyHandlers.ofString()).thenAccept(resp -> {
+		CompletableFuture<Void> future = client.sendAsync(request, HttpResponse.BodyHandlers.ofString())
+		.thenAccept(resp -> {
 			String body = resp.body();
 
 			// the task returns a JSON Object, for convenience of handling
