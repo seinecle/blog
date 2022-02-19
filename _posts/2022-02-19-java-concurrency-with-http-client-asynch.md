@@ -49,6 +49,8 @@ The use case consists in performing sentiment analysis on thousands of tweets. I
 This is how the code looks like:
 
 ```java
+String selectedLanguage = "en";
+
 Map<Integer, String> mapOfLines = new HashMap();
 
 mapOfLines.put(0, "This is a test. Concurrency is amazing!");
@@ -71,7 +73,7 @@ try {
 		doc.setId(entry.getKey());
 		doc.setSentiment(Category._10);
 
-		URI uri = new URI("http://localhost:7002/api/sentimentForAText/" 
+		URI uri = new URI("http://localhost:45/api/sentimentForAText/" 
 		+ selectedLanguage
 		+ "?id="
 		+ doc.getId() 
@@ -126,6 +128,68 @@ try {
 }
 
 clock.closeAndPrintClock();
+```
+
+# Showing the code: the task
+
+The task is behind a simple REST API, using the super lightweight Javalin framework (but any other REST framework would work). This code resides in a separate Java SE project, which compiles in a jar that I can deploy anywhere and separately from the main code base:
+
+```java
+public class APIController {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+    
+        Javalin app = Javalin.create().start(45);
+        System.out.println("running the api");
+	
+	// initialization of objects for sentiment analysis when deploying the jar. Each call to the API will find these objects ready to use.
+	// this sentiment analyis tool is free and open source at: https://github.com/seinecle/umigon-core
+
+	UmigonController umigonController = new UmigonController();
+        ClassifierMachineOneDocument classifierOneDocEN = new ClassifierMachineOneDocument(umigonController.getSemanticsEN());
+        ClassifierMachineOneDocument classifierOneDocFR = new ClassifierMachineOneDocument(umigonController.getSemanticsFR());
+
+        app.get("/api/sentimentForAText/{lang}", ctx -> {
+            JsonObjectBuilder objectBuilder = Json.createObjectBuilder();
+
+	    String text = ctx.queryParam("text");
+            String id = ctx.queryParam("id");
+            if (id == null){
+                id = UUID.randomUUID().toString().substring(0, 10);
+            }
+            if (text == null) {
+                objectBuilder.add(id, "text parameter was absent");
+                JsonObject jsonObject = objectBuilder.build();
+                ctx.result(jsonObject.toString()).status(HttpCode.BAD_REQUEST);
+            } else {
+                String lang = ctx.pathParam("lang");
+                Document doc = new Document();
+                doc.setText(text);
+                switch (lang) {
+                    case "en":
+                        doc = classifierOneDocEN.call(doc);
+                        break;
+
+                    case "fr":
+                        doc = classifierOneDocFR.call(doc);
+                        break;
+
+                    default:
+                        objectBuilder.add("-99", "wrong param for lang - lang not supported");
+                        JsonObject jsonObject = objectBuilder.build();
+                        ctx.result(jsonObject.toString()).status(HttpCode.BAD_REQUEST);
+                }
+                objectBuilder.add(id, doc.getSentiment().toString());
+                JsonObject jsonObject = objectBuilder.build();
+
+                ctx.result(jsonObject.toString()).status(HttpCode.OK);
+            }
+        }
+        );
+    }
 ```
 
 * in supervised learning, labeled datasets provide a ground for the model to train on. Good annotations make good training sets, which impact greatly the quality of the model.
