@@ -63,6 +63,7 @@ HttpClient client = HttpClient.newHttpClient();
 
 Set<CompletableFuture> futures = new HashSet();
 			
+// this is a convenient class I designed to clock time, available here https://github.com/seinecle/Utils			
 Clock clock = new Clock("clocking the concurrent task");
 
 try {
@@ -191,6 +192,22 @@ public class APIController {
         );
     }
 ```
+
+# The argument for this design
+
+Looking at the code above, I realize that the reaction might be whaaaat but this code is actually much more complex than using an `ExecutorService` etc! Well, let's examine the pros and cons:
+
+## Pros
+
+* the task is completely free from the concurrency logic. No `Callable` nor `Runnable`. That frees your mind!
+* it follows that the task is completely reusable and can be refactored without a consequence on the logic of concurrency, from the perspective of the main code base. Huge bonus, as you don't want to be disturbed, when working on the logic of your code, by problems of making the code "concurrent compatible".
+* the encapsulation behind a REST API is a bonus:
+	1. you get an API!
+	2. the codebase for the task is the same across interfaces. In practice, the sentiment analyis task is carried out by the same code on the web app interface and the API, visible here: https://nocodefunctions.com/umigon/sentiment_analysis_tool.html
+	3. the task is offloaded from the main codebase, and that helps make things more organized
+* calling the concurrent tasks from the main codebase is _relatively_ simple. Not need to instantiate or fiddle with an `Executor`, as it comes already bundled in the HttpClient.
+
+
 
 * in supervised learning, labeled datasets provide a ground for the model to train on. Good annotations make good training sets, which impact greatly the quality of the model.
 * in models that are "rule based", a dataset which is accurately labeled makes sure the rules and heuristics get triggered in the appropriate circumstances.
