@@ -7,9 +7,28 @@ date_readable:               Feb 19, 2022
 last_modified_at_readable:   Feb 19, 2022
 ---
 
-_After years of dabbling with `threads`, `Callables` and `Executor Pools`, finally an easier way to setup concurrent tasks_
+_After years of dabbling with `threads`, `Callables` and `Executor Pools`, finally an easy way to setup concurrent tasks_
 
-# Annotating or labelling data is an essential step in the chain of data processing, for at least two use cases:
+# The problem: having a task to execute concurrently, but keeping the code free from Callables and other thread logic
+
+For many years, I have worked at making some parts of my code execute in a concurrent way. Pair-wise computations on vectors, text mining ops on thousands on tweets, simple checks and operations on nodes and edges in a network, etc.
+
+The approach I took is pretty textbook, I suppose:
+
+* isolate in a separate class the part of the code that can be executed concurrently: that will be the task.
+* make this class implement the `Runnable` interface, or more probably the `Callable` interface as it allows to return an object.
+* in the main part of the code, setup an `Executor` service. Instantiate all the tasks and submit these to the executor.
+* collect the `Future` objects and aggregate their results.
+
+I suppose there is nothing wrong with this. In practice, it didn't work for me. The reason is fundamentally that:
+
+* setting the task as a `Runnable` or `Callable`, even if that is pretty easy and lightweight, specializes the code for this use case. If I want to re-use the code in another context that requires the logic to run with different interfaces, or refactor the task because the code logic has grown in complexity, these interfaces I had added for concurrency become boilerplate. I'm like "oh, I had added that `Callable` way of running the code for this particular project, but in this other project that's just a thing in my way. I'll have to remove it." So in practice, when I developped some concurrent code, I ended up giving up on it soon to work unencumbered.
+
+* Setting up the `Executor` / `Future` logic on the main side of the code base is harder than it seems. There are so many variations on these APIs that it is a big effort each time to remember and identify how the thing should be set up. That is because multithreading and concurrency is low level, and one could be tempted to says that "there is a library that wraps this up for you". But I would really avoid relying on libraries for concurrency, they are probably super big and too wide in scope for what I want to do.
+
+__Anyway, all this introduction to say that I've found a better way.__ It doesn't involve clever nor sophisticated tricks, so don't expect a big "wow". It is all in simplicity and robustness. 
+
+# 
 
 * in supervised learning, labeled datasets provide a ground for the model to train on. Good annotations make good training sets, which impact greatly the quality of the model.
 * in models that are "rule based", a dataset which is accurately labeled makes sure the rules and heuristics get triggered in the appropriate circumstances.
