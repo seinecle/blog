@@ -26,9 +26,99 @@ I suppose there is nothing wrong with this. In practice, it didn't work for me. 
 
 * Setting up the `Executor` / `Future` logic on the main side of the code base is harder than it seems. There are so many variations on these APIs that it is a big effort each time to remember and identify how the thing should be set up. That is because multithreading and concurrency is low level, and one could be tempted to says that "there is a library that wraps this up for you". But I would really avoid relying on libraries for concurrency, they are probably super big and too wide in scope for what I want to do.
 
-__Anyway, all this introduction to say that I've found a better way.__ It doesn't involve clever nor sophisticated tricks, so don't expect a big "wow". It is all in simplicity and robustness. 
+__Anyway, all this introduction to say that I've found a better way.__
 
-# 
+It doesn't involve clever nor sophisticated tricks, so don't expect a big "wow". It is all in simplicity and robustness. 
+
+# The solution: putting the task behind a REST API and calling it with Java 11's HttpClient asynch requests
+
+The solution consists in:
+
+* isolating the task in a separate module
+* having this task called with a REST API, returning an Object
+* in the main code base, calling each task with Java 11's HttpClient, using the asynch feature. __That's where concurrency kicks in!!__
+* collecting the results
+
+# Showing the code: the main code base
+
+The use case consists in performing sentiment analysis on thousands of tweets. Instead of doing it sequentially, this can be done in a concurrent way.
+
+* __Input__: each line of text (each tweet) is stored as a `String` with an `Integer` which is a unique identifier, in the form of an object `Map<Integer, String> mapOfLines`.
+* __Output__: each line of text, its unique identifier, and the sentiment that was found, is stored in a `Document` object, itself stored in a object `ConcurrentHashMap<Integer, Document> tempResults`. The Map has to be a ConcurrentHashMap as it will be written to by many threads.
+
+This is how the code looks like:
+
+```java
+            Map<Integer, String> mapOfLines = new HashMap();
+	
+			mapOfLines.put(0, "This is a test. Concurrency is amazing!");
+			mapOfLines.put(1, "This is a test. Concurrency is hard!");
+			
+			ConcurrentHashMap<Integer, Document> tempResults = new ConcurrentHashMap();
+
+            HttpRequest request;
+            HttpClient client = HttpClient.newHttpClient();
+            Set<CompletableFuture> futures = new HashSet();
+			
+            Clock clock = new Clock("clocking the concurrent task");
+
+            try {
+                for (Map.Entry<Integer, String> entry : mapOfLines.entrySet()) {
+                    Document doc = new Document();
+                    doc.setText(entry.getValue());
+                    doc.setId(entry.getKey());
+                    doc.setSentiment(Category._10);
+
+                    URI uri = new URI("http://localhost:7002/api/sentimentForAText/" + selectedLanguage + "?id=" + doc.getId() + "&text=" + URLEncoder.encode(entry.getValue(), StandardCharsets.UTF_8.toString()));
+
+                    request = HttpRequest.newBuilder()
+                            .uri(uri)
+                            .build();
+
+                    CompletableFuture<Void> future = client.sendAsync(request, HttpResponse.BodyHandlers.ofString()).thenAccept(resp -> {
+                        String body = resp.body();
+
+						// the task returns a JSON Object, for convenience of handling
+						
+                        JsonReader jsonReader = Json.createReader(new StringReader(body));
+                        JsonObject jsonObject = jsonReader.readObject();
+                        Document docReturn = new Document();
+                        if (jsonObject != null && !jsonObject.isEmpty()) {
+
+                            String key = jsonObject.keySet().iterator().next();
+                            docReturn.setId(Integer.valueOf(key));
+                            docReturn.setText(mapOfLines.get(Integer.valueOf(key)));
+
+							// Category._11 is the label for "positive sentiment" 
+                            if (jsonObject.getString(key).equals(Category._11.toString())) {
+                                docReturn.setSentiment(Categories.Category._11);
+                            }
+
+							// Category._12 is the label for "negative sentiment" 
+                            if (jsonObject.getString(key).equals(Category._12.toString())) {
+                                docReturn.setSentiment(Categories.Category._12);
+                            }
+							
+                            tempResults.put(Integer.valueOf(key), docReturn);
+                        }
+                    }
+                    );
+                    futures.add(future);
+
+                }
+                CompletableFuture<Void> combinedFuture = CompletableFuture.allOf(futures.toArray((new CompletableFuture[0])));
+                combinedFuture.join();
+				
+				// tempResults ready to be use further in the code!
+
+            } catch (URISyntaxException exception) {
+                System.out.println("URI syntax exception"+ exception);
+            } catch (UnsupportedEncodingException ex) {
+                System.out.println("Encoding exception: "+ ex);
+            }
+
+            clock.closeAndPrintClock();
+```
 
 * in supervised learning, labeled datasets provide a ground for the model to train on. Good annotations make good training sets, which impact greatly the quality of the model.
 * in models that are "rule based", a dataset which is accurately labeled makes sure the rules and heuristics get triggered in the appropriate circumstances.
