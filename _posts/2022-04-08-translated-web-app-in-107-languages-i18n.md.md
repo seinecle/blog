@@ -79,7 +79,7 @@ I ended up:
 * this represents about 50,000 characters.
 * across 43 html pages and ~ 20 files ("classes" in Java) in the backend
 
-It too me a a dozen evenings for a month.
+It took me a a dozen evenings for a month.
 
 A lesson I draw from it is that:
 
