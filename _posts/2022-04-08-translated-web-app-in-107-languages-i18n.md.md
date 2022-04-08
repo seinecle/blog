@@ -93,7 +93,9 @@ As it turns out, DeepL provides "only" 27 target languages (including their regi
 * DeepL: https://www.deepl.com/docs-api/translating-text/
 * Google Translate: https://cloud.google.com/translate/docs/languages?hl=en
 
-I have written some spaghetti code to query these APis. In the end, I use Google for all languages, except for the regional versions of Portuguese (Brazil and Portugal), which DeepL alone offers. The [code is on Github](https://www.amazon.com/Definitive-Guide-Jakarta-Faces-Applications-dp-1484273095/dp/1484273095/), do have a look to see how easy it is.
+I have written some spaghetti code to query these APIs. The process for authorization for Google is less horrible than the usual.
+
+In the end, I use Google for all languages, except for the regional versions of Portuguese (Brazil and Portugal), which DeepL alone offers. The [code is on Github](https://www.amazon.com/Definitive-Guide-Jakarta-Faces-Applications-dp-1484273095/dp/1484273095/), do have a look to see how easy it is.
 
 The irony is that you spend literally dozen of hours refactoring the web app, making zero visible progress. And suddenly when launching the calls to the APIs, the app ingests one language per minute! In less than 2 hours, all was ready.
 
