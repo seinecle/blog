@@ -27,7 +27,9 @@ And as I don't have the same quality constraints as a company website, I  could 
 You can visit the web app, it will be localized in the defaut language of your browser.
 You can then switch to any of the languages with a dropdown menu in the header and in the footer of each page:
 
-![image](https://user-images.githubusercontent.com/1244100/162452618-72b4a2aa-6523-4e48-bce2-33ac55a6fcdd.png)
+<div align="center">
+   <img src="https://user-images.githubusercontent.com/1244100/162452618-72b4a2aa-6523-4e48-bce2-33ac55a6fcdd.png" width="400"/>
+</div>
 
 # Sharing the process
 
@@ -61,7 +63,9 @@ I relied quasi exclusively on Bauke Scholtz (of [@BalusC](https://stackoverflow.
 I absolutely recommend it, and they just publised [an updated version for Java EE 10](https://www.amazon.com/Definitive-Guide-Jakarta-Faces-Applications-dp-1484273095/dp/1484273095/).
 I'll buy it as it describes how to conveniently localize visuals in a web app, which I did,'t do yet.
 
-![image](https://user-images.githubusercontent.com/1244100/162455448-e3ab7e66-bc31-449e-95c7-1578c3e7f62e.png)
+<div align="center">
+   <img src="https://user-images.githubusercontent.com/1244100/162455448-e3ab7e66-bc31-449e-95c7-1578c3e7f62e.png" width="300"/>
+</div>
 
 ## The sweat
 I ended up:
@@ -100,25 +104,27 @@ As described above, the source language of my app is English, and it covers abou
 I could go quicker because I had some free credit on my Google Account, that I activated for this occasion.
 Looking at the spending on this credit, it looks like I consumed the equivalent of 120€ (130$) for these translations:
 
-![image](https://user-images.githubusercontent.com/1244100/162468427-c9dae69c-c0e6-404f-8dba-717e514c7005.png)
+<div align="center">
+   <img src="https://user-images.githubusercontent.com/1244100/162468427-c9dae69c-c0e6-404f-8dba-717e514c7005.png" width="400"/>
+</div>
 
 # The next steps
 
-That was a one-time effort. I have now taken the habits, when developing new features on my app, to do it "naturally" (using classic html etc) but once finished I immediately localize it:
+That was a one-time effort. I have now taken the habits, when developing new features on my app, to write it in classic code (using classic html etc) but once finished I immediately localize it:
 
 * replacing strings with handlebars and property keys
 * running the script above that fetches automatically the 107 versions of the original English text
 * as these incremental developments represent a small volume of text, I'll never run pas the free tiers of DeepL or Google Translate so I expect it to remain at zero cost.
 
-I have also placed a feedback button (itself localized as well!) in the hope users will report wrong or imperfect translations:
+I have also placed a feedback button (itself localized as well!) opening a sidebar form where users can report imperfect translations:
+
+<div align="center">
+   <img src="https://user-images.githubusercontent.com/1244100/162472330-a0079c84-9d7a-41fc-9774-c5c7263ae3d8.png" width="400"/>
+</div>
 
 
+# Your feedback
+
+Speaking of feedback: try the app and let me know of what you think of it! -> https://nocodefunctions.com/
 
 
-
-
-
-### Conclusion and thanks
-I will progressively refactor all the functions on [nocodefunctions.com](https://nocodefunctions.com) to adopt this design. At the moment (Feb 19, 2022), only [sentiment analysis](https://test.nocodefunctions.com/umigon/sentiment_analysis_tool.html) on the _test_ version of the site has been implemented. As a result, analyzing 6,000 tweets take just 10 seconds now (600 tweets per second!), versus ~ one minute before.
-
-I arrived at this solution after reading many blog posts by professional Java developers and StackOverflow Q&As. I thank all these contributors, and I hope this new blog post will be of help to the next person researching these topics.
