@@ -53,7 +53,7 @@ The language is one thing, but then internationalizing a web app is also a lot a
 Netbeans assisted a lot in it with:
 
 * auto-completion of property keys
-* error signaling when a property key did not exist in the propery file
+* error signaling when a property key did not exist in the property file
 * and most importantly: embedded property editor designed for internationalization. Create one property for one language, and this key gets replicated in all the language property files you created.
 
 ### An aside: where and how are the localized texts stored, in all these languages?
