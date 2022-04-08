@@ -64,8 +64,8 @@ The entirety of the languages added about 5Mb to my packaged app (which is about
 
 ## The documentation
   
-I relied quasi exclusively on Bauke Scholtz (of [@BalusC](https://stackoverflow.com/users/157882/balusc)'s fame) and Arjan Tims' book, who have a 30-page chapter on Inernationalization in their reference book on Java EE 8 and JSF.
-I absolutely recommend it, and they just publised [an updated version for Java EE 10](https://www.amazon.com/Definitive-Guide-Jakarta-Faces-Applications-dp-1484273095/dp/1484273095/).
+I relied quasi exclusively on Bauke Scholtz (of [@BalusC](https://stackoverflow.com/users/157882/balusc)'s fame) and Arjan Tims' book, who have a 30-page chapter on Internationalization in their reference book on Java EE 8 and JSF.
+I absolutely recommend it, and they just published [an updated version for Java EE 10](https://www.amazon.com/Definitive-Guide-Jakarta-Faces-Applications-dp-1484273095/dp/1484273095/).
 I'll buy this new version as it describes how to conveniently localize visuals in a web app, which I didn't do yet.
 
 <div align="center">
