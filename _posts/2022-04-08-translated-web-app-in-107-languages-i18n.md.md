@@ -24,7 +24,7 @@ He is Internationalization Manager at [Change.org](https://www.change.org/) and 
 Change.org is internationalized in 20+ languages (if I recall correctly) and Patrick largely contributed to it with a strong kick off in 2012, moving from one language to a dozen in less than a year.
 A significant part of the content and traffic at Change.org is now driven by different world regions, obviously.
 
-And that made me thought: how cool is that! Could I internationalize my web app?
+And that made me think: how cool is that! Could I internationalize my web app?
 And as I don't have the same quality constraints as a company website, I  could use automated translation and scale to all available languages!
 
 # A result: a month later, the web app is translated in 107 languages for zero € or $.
