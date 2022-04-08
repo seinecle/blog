@@ -121,7 +121,7 @@ That was a one-time effort. I have now taken the habit, when developing new feat
 
 * replacing strings with handlebars and property keys
 * running the script above that fetches automatically the 107 versions of the original English text
-* as these incremental developments represent a small volume of text, I'll never run pas the free tiers of DeepL or Google Translate so I expect it to remain at zero cost.
+* as these incremental developments represent a small volume of text, I'll never run past the free tiers of DeepL or Google Translate so I expect it to remain at zero cost.
 
 I have also placed a feedback button (itself localized as well!) opening a sidebar form where users can report imperfect translations:
 
