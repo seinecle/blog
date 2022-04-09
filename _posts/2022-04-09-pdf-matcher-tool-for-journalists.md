@@ -27,14 +27,14 @@ I reported it to Runa:
 
 I'll post links to them here for your convenience, noting whether they are desktop solutions 💻, browser-based ☁️ or command-line interfaces 🔤 and whether it is free ✔️ or not 💰:
 
-In-browser solutions ☁️:
+### In-browser solutions ☁️:
 
 * [Documentcloud](https://www.documentcloud.org/home) ✔️
 * [Google Drive](https://drive.google.com) ✔️
 * [Google Journalist Studio's Pinpoint](https://journaliststudio.google.com/pinpoint/about) ✔️
-* [🎯 pdf matcher tool](https://nocodefunctions.com/pdfmatcher/pdf_matcher_tool.html) ✔️
 
-Desktop solutions 💻:
+
+### Desktop solutions 💻:
 
 * [Aleph](https://docs.alephdata.org/)  ✔️
 * [Open Semantic Search](https://opensemanticsearch.org/) ✔️
@@ -44,7 +44,7 @@ Desktop solutions 💻:
 * [🤖 PDF Keywords Extractor 🤖](https://github.com/bendersej/pdf-keywords-extractor) ✔️  not sure which platforms are supported?
 
 
-Command line 🔤 :
+### Command line 🔤 :
 
 * [ripgrep-all](https://github.com/phiresky/ripgrep-all)  ✔️ linux mac windows
 * [pdfind](https://github.com/dolanor/pdfind) ✔️ (linux and mac)
@@ -53,7 +53,8 @@ Command line 🔤 :
 
 
 # Your feedback
+Try the solution I developed and give some feedback!
 
-Speaking of feedback: try the app and let me know of what you think of it! -> https://nocodefunctions.com/
+* [🎯 pdf matcher tool](https://nocodefunctions.com/pdfmatcher/pdf_matcher_tool.html) ☁️ ✔️
 
 
