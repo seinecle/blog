@@ -4,7 +4,7 @@ title: Translating (localizing) my web app in 107 languages - insights
 permalink: /translated-web-app-in-107-languages-i18n/
 published: true
 date_readable:               Apr 08, 2022
-last_modified_at_readable:   Apr 08, 2022
+last_modified_at_readable:   Apr 09, 2022
 ---
 
 _The web app is originally developed in English. Now it can be visited in any of the 107 languages offered by Google Translate and DeepL_
@@ -50,7 +50,7 @@ It is handy for everyday web development, but especially when you start a projec
 
 The language is one thing, but then internationalizing a web app is also a lot about refactoring: replacing every bit of String with a placeholder property key, that will be replaced by a value in the selected language at run time.
 
-Netbeans assisted a lot in it with:
+[Netbeans](https://netbeans.apache.org/) assisted a lot in it with:
 
 * auto-completion of property keys
 * error signaling when a property key did not exist in the property file
@@ -95,8 +95,8 @@ __A benefit is that the effort is done just once, after the initial push all tex
 DeepL is all the rage at the moment so that's the first API I checked. Also because I still have nightmares from the doc for the Google APIs for Java.
 As it turns out, DeepL provides "only" 27 target languages (including their regional variations), while Google provides more than 100 target languages:
 
-* DeepL: https://www.deepl.com/docs-api/translating-text/
-* Google Translate: https://cloud.google.com/translate/docs/languages?hl=en
+* DeepL: [https://www.deepl.com/docs-api/translating-text/](https://www.deepl.com/docs-api/translating-text/)
+* Google Translate: [https://cloud.google.com/translate/docs/languages?hl=en](https://cloud.google.com/translate/docs/languages?hl=en)
 
 I have written [some spaghetti code to query these APIs](https://github.com/seinecle/TranslateJavaProperties). The process for authorization for Google is less horrible than the usual.
 
