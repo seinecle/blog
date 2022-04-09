@@ -2,12 +2,12 @@
 layout: post
 title: Publishing a free in-browser tool to mine pdfs on a precise keyword or expression
 permalink: /pdf-matcher-tool-for-journalists/
-published: false
+published: true
 date_readable:               Apr 09, 2022
 last_modified_at_readable:   Apr 09, 2022
 ---
 
-_A new function has been added to Nocodefunctions.com in response to a need by journalists _
+*A new function has been added to Nocodefunctions.com in response to a need by journalists*
 
 # The need: helping journalists sift through pdfs
 
@@ -23,9 +23,9 @@ I reported it to Runa:
 
 <blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">Hi, please find the function here:<a href="https://t.co/N9oM7dBOPN">https://t.co/N9oM7dBOPN</a><br><br>The export to Excel stalls for some reason but otherwise the results can be seen on the page. Please submit bug reports etc. to analysis@exploreyourdata.com<br><br>(free to use, respectful of the data, of course!)</p>&mdash; Clement Levallois (@seinecle) <a href="https://twitter.com/seinecle/status/1510661117768515586?ref_src=twsrc%5Etfw">April 3, 2022</a></blockquote>
 
-... and was disappointed to get no reply. But looking back at the original post, I realized it got tons of replies (91 so far), with "less than helpful comments" but also pointers to useful resources.
+... and I was disappointed to get no reply. But looking back at the original post, I realized it got tons of replies (91 so far), with "less than helpful comments" but also pointers to super useful resources.
 
-Here is a summary of the solutions to sift through pdfs to search for expressions (free ✔️ or not 💰):
+Here is a summary of the solutions mentioned in the replies, all identified as able to sift through pdfs to search for expressions (free ✔️ or not 💰):
 
 ### In-browser solutions ☁️
 
