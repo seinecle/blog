@@ -27,22 +27,29 @@ I reported it to Runa:
 
 I'll post links to them here for your convenience, noting whether they are desktop solutions 💻, browser-based ☁️ or command-line interfaces 🔤 and whether it is free ✔️ or not 💰:
 
-* [Documentcloud](https://www.documentcloud.org/home)  ☁️ ✔️
-  * [Google Drive](https://drive.google.com)  ☁️ ✔️
-  * [Google Journalist Studio's Pinpoint](https://journaliststudio.google.com/pinpoint/about)  ☁️ ✔️
-  * [Aleph](https://docs.alephdata.org/)  💻 ✔️
-* [Open Semantic Search](https://opensemanticsearch.org/)  💻 ✔️
-  * [pdfind](https://github.com/dolanor/pdfind)  🔤 ✔️ (linux and mac)
-  * [pdfgrep](https://pdfgrep.org/)  🔤 ✔️ (linux)
-  * [Acrobat DC](https://www.adobe.com/fr/acrobat/acrobat-pro.html)  💻 💰
-  * [dnGrep](https://dngrep.github.io/)  💻 ✔️ windows only
-  * [ripgrep-all](https://github.com/phiresky/ripgrep-all)  🔤 ✔️ linux mac windows
-  * [Agent Ransack](https://www.mythicsoft.com/agentransack/)  💻 ✔️ windows only (freemium)
-  * [🤖 PDF Keywords Extractor 🤖](https://github.com/bendersej/pdf-keywords-extractor)  💻 ✔️  not sure which platforms are supported?
- 
- and the solution I developed! :-)
- 
-  * [🎯 pdf matcher tool](https://nocodefunctions.com/pdfmatcher/pdf_matcher_tool.html)  ☁️ ✔️
+In-browser solutions ☁️:
+
+* [Documentcloud](https://www.documentcloud.org/home) ✔️
+* [Google Drive](https://drive.google.com) ✔️
+* [Google Journalist Studio's Pinpoint](https://journaliststudio.google.com/pinpoint/about) ✔️
+* [🎯 pdf matcher tool](https://nocodefunctions.com/pdfmatcher/pdf_matcher_tool.html) ✔️
+
+Desktop solutions 💻:
+
+* [Aleph](https://docs.alephdata.org/)  ✔️
+* [Open Semantic Search](https://opensemanticsearch.org/) ✔️
+* [Acrobat DC](https://www.adobe.com/fr/acrobat/acrobat-pro.html) 💰
+* [dnGrep](https://dngrep.github.io/) ✔️ windows only
+* [Agent Ransack](https://www.mythicsoft.com/agentransack/) ✔️ windows only (freemium)
+* [🤖 PDF Keywords Extractor 🤖](https://github.com/bendersej/pdf-keywords-extractor) ✔️  not sure which platforms are supported?
+
+
+Command line 🔤 :
+
+* [ripgrep-all](https://github.com/phiresky/ripgrep-all)  ✔️ linux mac windows
+* [pdfind](https://github.com/dolanor/pdfind) ✔️ (linux and mac)
+* [pdfgrep](https://pdfgrep.org/) ✔️ (linux)
+
 
 
 # Your feedback
