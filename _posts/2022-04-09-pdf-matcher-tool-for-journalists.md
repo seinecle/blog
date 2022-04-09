@@ -27,23 +27,22 @@ I reported it to Runa:
 
 I'll post links to them here for your convenience, noting whether they are desktop solutions 💻, browser-based ☁️ or command-line interfaces 🔤 and whether it is free ✔️ or not 💰:
 
-<ul>
-  <li>[Documentcloud](https://www.documentcloud.org/home)  ☁️ ✔️</li>
-  <li>[Google Drive](https://drive.google.com)  ☁️ ✔️</li>
-  <li>[Google Journalist Studio's Pinpoint](https://journaliststudio.google.com/pinpoint/about)  ☁️ ✔️</li>
-  <li>[Aleph](https://docs.alephdata.org/)  💻 ✔️</li>
-  <li>[Open Semantic Search](https://opensemanticsearch.org/)  💻 ✔️</li>
-  <li>[pdfind](https://github.com/dolanor/pdfind)  🔤 ✔️ (linux and mac)</li>
-  <li>[pdfgrep](https://pdfgrep.org/)  🔤 ✔️ (linux)</li>
-  <li>[Acrobat DC](https://www.adobe.com/fr/acrobat/acrobat-pro.html)  💻 💰</li>
-  <li>[dnGrep](https://dngrep.github.io/)  💻 ✔️ windows only</li>
-  <li>[ripgrep-all](https://github.com/phiresky/ripgrep-all)  🔤 ✔️ linux mac windows</li>
-  <li>[Agent Ransack](https://www.mythicsoft.com/agentransack/)  💻 ✔️ windows only (freemium)</li>
-  <li>[🤖 PDF Keywords Extractor 🤖](https://github.com/bendersej/pdf-keywords-extractor)  💻 ✔️  not sure which platforms are supported?</li>
-  <br/>
-  <p>and the solution I developed! :-)</p>
-  <li>[🎯 pdf matcher tool](https://nocodefunctions.com/pdfmatcher/pdf_matcher_tool.html)  ☁️ ✔️</li>
-</ul>    
+* [Documentcloud](https://www.documentcloud.org/home)  ☁️ ✔️
+  * [Google Drive](https://drive.google.com)  ☁️ ✔️
+  * [Google Journalist Studio's Pinpoint](https://journaliststudio.google.com/pinpoint/about)  ☁️ ✔️
+  * [Aleph](https://docs.alephdata.org/)  💻 ✔️
+* [Open Semantic Search](https://opensemanticsearch.org/)  💻 ✔️
+  * [pdfind](https://github.com/dolanor/pdfind)  🔤 ✔️ (linux and mac)
+  * [pdfgrep](https://pdfgrep.org/)  🔤 ✔️ (linux)
+  * [Acrobat DC](https://www.adobe.com/fr/acrobat/acrobat-pro.html)  💻 💰
+  * [dnGrep](https://dngrep.github.io/)  💻 ✔️ windows only
+  * [ripgrep-all](https://github.com/phiresky/ripgrep-all)  🔤 ✔️ linux mac windows
+  * [Agent Ransack](https://www.mythicsoft.com/agentransack/)  💻 ✔️ windows only (freemium)
+  * [🤖 PDF Keywords Extractor 🤖](https://github.com/bendersej/pdf-keywords-extractor)  💻 ✔️  not sure which platforms are supported?
+ 
+ and the solution I developed! :-)
+ 
+  * [🎯 pdf matcher tool](https://nocodefunctions.com/pdfmatcher/pdf_matcher_tool.html)  ☁️ ✔️
 
 
 # Your feedback
