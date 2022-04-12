@@ -42,7 +42,7 @@ The process includes nothing extraordinary: just a good deal of patience, relyin
 Let's start with the tooling.
 
 ## The tooling: Jakarta faces and Netbeans (yes!)
-Jakarta Faces is the rebranding of Java Server Faces after Oracle offloaded it to the Eclipse foundation.
+[Jakarta Faces](https://start.jakarta.ee/) is the rebranding of Java Server Faces after Oracle offloaded it to the Eclipse foundation.
 I suppose 90% of the readers will stop there because it isn't JS or JSF will remind them of JSP and smell like the early 2000s. You'd be wrong.
 
 Basically Jakarta Faces is alive and kicking. Server-side rendering has come back in favor lately, and this is where Java thrives.
