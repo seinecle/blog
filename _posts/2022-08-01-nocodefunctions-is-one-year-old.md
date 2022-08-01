@@ -13,8 +13,6 @@ In this post, I celebrate the first anniversary of [nocode functions](https://no
 
 # Key facts over the past year
 
-![](https://media.giphy.com/media/SEWEmCymjv8XDbsb8I/giphy.gif)
-
 According to the Wayback machine, I have launched nocodefunctions [around May 2021](http://web.archive.org/web/20210503153337/https://nocodefunctions.com/). Since then, it:
 
 1. went from 1 function (sentiment analysis) to 9: sentiment analysis, creating networks from text, topic detection, turning lists into networks, gephi <-> vosviewer converter, data annotation tool, network link prediction, css highlighter, pdf matcher.
