@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nocode function is one year old!
+title: Nocode functions is one year old!
 permalink: /nocodefunctions-is-one-year-old/
 published: true
 date_readable:               Aug 01, 2022
