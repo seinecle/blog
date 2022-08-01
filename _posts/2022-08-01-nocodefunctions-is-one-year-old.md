@@ -54,7 +54,7 @@ The Twitter import will get improved, so that we can go beyond 100 tweets (🤦)
 
 The code of the app will be refactored, with robustness and elegance in view. At the moment, the code of the app includes the web pages and some back-end code to make it work. The functions themselves are located in separate repos. Good, but this modular principle should be pushed a bit further, so that the codebase for nocodefunctions ends up including just the web interface, really. In particular, the logic to import files, and to export the results, should go in separate modules.
 
-Following user reports, I will improve the UX, which remains less than perfect. The goal is to have user complete an analysis in just a minute - the time to upload a dataset and to click on a "compute".
+Following user reports, I will improve the UX, which remains less than perfect. The goal is to have a user complete an analysis in just a minute - the time to upload a dataset and to click on a "compute" button.
 
 That's all I can think of for now.
 
