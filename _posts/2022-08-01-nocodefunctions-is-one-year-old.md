@@ -35,15 +35,20 @@ While I am writing the academic paper that will develop the internals of this te
 
 # Next steps
 
-The next steps consist in going slowly and surely. The goal will remain to provide a free, no-registration, click-and-point experience to execute data analysis functions with minimum hassle.
+The next steps consist in going slowly and surely. The goal will remain to provide a free, no-registration, click-and-point experience to execute data analysis functions of the best quality.
 
 I will improve the documentation, starting with submissions to academic journals that specialize in relevant topics. The doc on Github will also get some love, so that this open source project can become easily re-usable.
 
-The Twitter import will get improved, so that we can go beyond 100 tweets ()
+The Twitter import will get improved, so that we can go beyond 100 tweets (🤦) and also with a complete user-friendly access to all the subtelties of the query parameters available in the v2 of the Twitter API ([there are a lot](https://developer.twitter.com/en/docs/twitter-api/tweets/search/integrate/build-a-query)).
+
+The code of the app will be refactored, with robustness and elegance in view. At the moment, the code of the app includes the web pages and some back-end code to make it work. The functions themselves are located in separate repos. Good, but this modular principle should be pushed a bit further, so that the codebase for nocodefunctions ends up including just the web interface, really. In particular, the logic to import files, and to export the results, should go in separate modules.
+
+That's all I can think of for now.
 
 
 # Your feedback
-Try nocode functions and give some feedback!
+I build nocode functions for you. Try it and give some feedback, I would appreciate it!
 
-* [🎯 pdf matcher tool](https://nocodefunctions.com/pdfmatcher/pdf_matcher_tool.html) ☁️ ✔️
+* [nocode functions](https://nocodefunctions.com) 🔎
+* my email: [admin@clementlevallois.net](mailto:admin@clementlevallois.net) 
 
