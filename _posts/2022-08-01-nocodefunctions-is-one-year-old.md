@@ -11,9 +11,6 @@ last_modified_at_readable:   Aug 01, 2022
 
 In this post, I celebrate the first anniversary of [nocode functions](https://nocodefunctions.com/)!
 
-![one year cake](https://user-images.githubusercontent.com/1244100/182169756-ec56c55e-b8d0-47b5-8d5b-2eb0093c7f18.jpg)
-
-
 # Key facts over the past year
 
 ![](https://media.giphy.com/media/SEWEmCymjv8XDbsb8I/giphy.gif)
