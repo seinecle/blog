@@ -16,6 +16,8 @@ In this post, I celebrate the first anniversary of [nocode functions](https://no
 
 # Key facts over the past year
 
+![](https://media.giphy.com/media/SEWEmCymjv8XDbsb8I/giphy.gif)
+
 According to the Wayback machine, I have launched nocodefunctions [around May 2021](http://web.archive.org/web/20210503153337/https://nocodefunctions.com/). Since then, it:
 
 1. went from 1 function (sentiment analysis) to 9: sentiment analysis, creating networks from text, topic detection, turning lists into networks, gephi <-> vosviewer converter, data annotation tool, network link prediction, css highlighter, pdf matcher.
@@ -28,6 +30,8 @@ According to the Wayback machine, I have launched nocodefunctions [around May 20
 
 
 # Overall feeling
+
+![](https://media.giphy.com/media/3oKIPu1AxMWB2xlwl2/giphy.gif)
 
 The [long-term objective with nocodefunctions](https://nocodefunctions.com/blog/long-game/) is to provide a free, user friendly, robust web app helping a variety of audiences to use common (but sophisticated) data analysis functions, offered in their best-in-class versions.
 
