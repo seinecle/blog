@@ -60,6 +60,9 @@ Following user reports, I will improve the UX, which remains less than perfect. 
 That's all I can think of for now.
 
 # Acknowledgements
+
+![](https://media.giphy.com/media/ZfK4cXKJTTay1Ava29/giphy.gif)
+
 This app is truly built on the shoulders of giants. Fully developed in [Java](https://www.youtube.com/watch?v=RRubcjpTkks) using [Netbeans](https://netbeans.apache.org/) as a coding tool, I thank the community for developing such a versatile, robust, easy-to-use programming language and tooling. Thanks also to all the maintainers of the libraries that provide specific features. And thanks to all the users who provided feedback, big or not, anonymously or not. Find the [detailed list of acknowledgements here](https://nocodefunctions.com/acknowledgements.html).
 
 
