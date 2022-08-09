@@ -15,65 +15,27 @@ Please excuse the at-times sloppy vocabulary.*
 Java and web browsers are often thought of as incompatible: [Java Applets](https://en.wikipedia.org/wiki/Java_applet) and [Java Webstart](https://en.wikipedia.org/wiki/Java_Web_Start) enabled java apps to be launched from the browser, and they are [now ancient history](https://www.slideshare.net/HendrikEbbers/java-webstart-is-dead-what-should-we-do-now) 💀.
 
 Another flavor of Java in the browser are JSP or "Java Server Pages", which many computer science students learned at school.
-Even if JSP is still discussed in some books on Java for the web ([1](https://www.amazon.com/Java-Jakarta-Recipes-Problem-Solution-Enterprise-ebook/dp/B0B6Z9JTNH), [2](https://www.amazon.com/Beginning-Jakarta-Web-Development-Applications/dp/1484258657), but not [there](https://www.amazon.com/Java-Application-Development-Enterprise-applications/dp/1788293673)), it is outdated [since the 2010s](https://odoepner.wordpress.com/2015/03/11/is-jsp-an-unsupported-deprecated-part-of-jee/).
+Even if JSP is still discussed in some books on Java for the web (eg [1](https://www.amazon.com/Java-Jakarta-Recipes-Problem-Solution-Enterprise-ebook/dp/B0B6Z9JTNH), [2](https://www.amazon.com/Beginning-Jakarta-Web-Development-Applications/dp/1484258657)), it is outdated [since the 2010s](https://odoepner.wordpress.com/2015/03/11/is-jsp-an-unsupported-deprecated-part-of-jee/).
 
 Last, there are frameworks that enable Java developers to "transpile" their code into Javascript thanks to the Google Web Toolkit (GWT, [not super fresh](https://groups.google.com/g/google-web-toolkit/c/FeEI0Rl7cyw/m/OU0HHvxtBQAJ?pli=1)) or the up-and-coming [J2Cl project](https://github.com/google/j2cl) (also by Google, very active).
 GWT and J2Cl however are not meant as a beginner-friendly frameworks, they are more of enterprise toolings developed by Google, to be used by big projects in companies.
 
+# The unsung hero of Java for the front-end: Jakarta Server Faces (JSF)!
 
+JSF is around at least since the early 2010s, which is when I started learning coding in Java. I am always surprised it is not more famous, as it allows developing web apps in a fast and robust way Here is how you create a web page showing some dynamic content:
 
+- create an html page
+- replace the `<head>` and `<body>` tags with `<h:head> and `<h:body>` tags.
+- display some dynamic content by calling some property in the backend, just place it after a hashtag and between handle bars: `#{backendscript.myText}`
 
+See also [this example](https://eclipse-ee4j.github.io/jakartaee-tutorial/#a-web-module-that-uses-jakarta-faces-technology-the-hello1-example) from the official doc, which shows an input field in a form.
 
-According to the Wayback machine, I have launched nocodefunctions [around May 2021](http://web.archive.org/web/20210503153337/https://nocodefunctions.com/). Since then, it:
+JSF is really super simple. It is well documented thanks to [tons of Stackoverflow questions](https://stackoverflow.com/questions/tagged/jsf), many books (I like the ones by [David Hellfinger](https://www.amazon.fr/Java-Application-Development-Enterprise-applications-ebook/dp/B072MFGRVF)) and of course [Youtube tutorials](https://www.youtube.com/watch?v=-Jbuy8aaLVA).
 
-1. went from 1 function (sentiment analysis) to 9: sentiment analysis, creating networks from text, topic detection, turning lists into networks, gephi <-> vosviewer converter, data annotation tool, network link prediction, css highlighter, pdf matcher.
-2. is now available in [in 107 different languages](https://nocodefunctions.com/blog/translated-web-app-in-107-languages-i18n/) (🤯)
-3. went from accepting plain text files as a data input, to accepting excel, csv, pdf files and tweet search
-4. has ~ [200 active users per week](https://public.nocodefunctions.com/)
-5. has experienced close to zero downtime
-6. has a few dedicated users who helped with bug reports and quality checks, making the site improve much faster
-7. transitioned to being fully open source ([:octocat:](https://github.com/seinecle/nocodefunctions))
+# Primefaces: huge list of free components and themes for JSF
 
+JSF comes with a long list of components that create the classic parts of an html page, so that you don't have to do it yourself. For example, use the [`<h:dataTable>`](https://www.javatpoint.com/jsf-datatable) tag to create a table that displays some data that is loaded from your backend. This is already super useful, but there is better: a company called Prime, which is around for a very long time, develops a suite of components that are drop-in replacemens for the regular JSF components - and they come with additional features and benefits. Instead of the `<h:dataTable>`, just use the  Look at the showcase for the `<**p**:dataTable>` tag. It gives you a [basic data table](https://www.primefaces.org/showcase/ui/data/datatable/basic.xhtml), but you can easily add a [column toggler](https://www.primefaces.org/showcase/ui/data/datatable/columnToggler.xhtml), or [dynamic colums](https://www.primefaces.org/showcase/ui/data/datatable/columns.xhtml), or [edit functions](https://www.primefaces.org/showcase/ui/data/datatable/edit.xhtml) on the table... !! **And all this is responsive of course**.
 
-# Overall feeling
-
-![](https://media.giphy.com/media/3oKIPu1AxMWB2xlwl2/giphy.gif)
-
-The [long-term objective with nocodefunctions](https://nocodefunctions.com/blog/long-game/) is to provide a free, user friendly, robust web app helping a variety of audiences to use common (but sophisticated) data analysis functions, offered in their best-in-class versions.
-
-After a year, **this objective has started being fulfilled**. I got informal reports about use of nocodefunctions in classrooms, in academic research and by governing bodies.
-
-Another objective for nocode functions is to serve as a testbench for the new functions I develop, as an academic researcher. Bringing a function to the app forces me to go beyond the development of an algorithm. I now must also develop a web interface for it (in 107 languages!), so that it can be featured on https://nocodefunctions.com.
-
-This is exactly what happened last month with the development of a new text mining technique that performs sentiment analysis *and provides a detailed explanation of the result - again, in 107 languages*.
-While I am writing the academic paper that will develop the internals of this technique, the function is already available on the front page of nocode functions, and [as an API as well](https://nocodefunctions.com/umigon/sentiment_analysis_tool.html). It helped me get feedback to improve on it (thank you [Verónica](https://www.linkedin.com/in/ver%C3%B3nica-espinoza/)!).
-
-Here is an example analyzing "I hate to say it, but this actually tastes great"
-
-![image](https://user-images.githubusercontent.com/1244100/182168735-32a410a5-0224-4685-b697-e741b47cec1b.png)
-
-Try it by yourself [with this link](https://nocodefunctions.com/api/sentimentForAText?text-lang=en&text=I%20hate%20to%20say%20it,%20but%20this%20actually%20tastes%20great&explanation=on&output-format=html&explanation-lang=en) or [visit the page that explains how to use it](https://nocodefunctions.com/umigon/sentiment_analysis_tool.html).
-
-
-# Next steps
-
-The next steps consist in going slowly and surely. The goal will remain to provide a free, no-registration, click-and-point experience to execute data analysis functions of the best quality.
-
-I will improve the documentation, starting with submissions to academic journals that specialize in relevant topics. The doc on Github will also get some love, so that this open source project can become easily re-usable.
-
-The Twitter import will get improved, so that we can go beyond 100 tweets (🤦) and also with a complete user-friendly access to all the subtelties of the query parameters available in the v2 of the Twitter API ([there are a lot](https://developer.twitter.com/en/docs/twitter-api/tweets/search/integrate/build-a-query)).
-
-The code of the app will be refactored, with robustness and elegance in view. At the moment, the code of the app includes the web pages and some back-end code to make it work. The functions themselves are located in separate repos. Good, but this modular principle should be pushed a bit further, so that the codebase for nocodefunctions ends up including just the web interface, really. In particular, the logic to import files, and to export the results, should go in separate modules.
-
-Following user reports, I will improve the UX, which remains less than perfect. The goal is to have a user complete an analysis in just a minute - the time to upload a dataset and to click on a "compute" button.
-
-That's all I can think of for now.
-
-# Acknowledgements
-
-![](https://media.giphy.com/media/ZfK4cXKJTTay1Ava29/giphy.gif)
-
-This app is truly built on the shoulders of giants. Fully developed in [Java](https://www.youtube.com/watch?v=RRubcjpTkks) using [Netbeans](https://netbeans.apache.org/) as a coding tool, I thank the community for developing such a versatile, robust, easy-to-use programming language and tooling. Thanks also to all the maintainers of the libraries that provide specific features. And thanks to all the users who provided feedback, big or not, anonymously or not. Find the [detailed list of acknowledgements here](https://nocodefunctions.com/acknowledgements.html).
 
 
 # Your feedback
