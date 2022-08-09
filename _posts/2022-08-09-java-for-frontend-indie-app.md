@@ -27,7 +27,7 @@ JSF is around at least since the early 2010s, which is when I started learning c
 Here is how you create a web page showing some dynamic content:
 
 - create an html page
-- replace the `<head>` and `<body>` tags with `<h:head> and `<h:body>` tags.
+- replace the `<head>` and `<body>` tags with `<h:head>` and `<h:body>` tags.
 - display some dynamic content by calling some property in the backend, just place it after a hashtag and between handle bars: `#{backendscript.myText}`
 
 See also [this example](https://eclipse-ee4j.github.io/jakartaee-tutorial/#a-web-module-that-uses-jakarta-faces-technology-the-hello1-example) from the official doc, which shows an input field in a form.
@@ -41,7 +41,7 @@ For example, use the [`<h:dataTable>`](https://www.javatpoint.com/jsf-datatable)
 
 This is already super useful, but there is better: a company called Prime, which is around for a very long time, develops a suite of components that are drop-in replacements for the regular JSF components - and they come with additional features and benefits.
 
-Instead of the `<h:dataTable>`, just use the `<**p**:dataTable>` tag. It gives you a [basic data table](https://www.primefaces.org/showcase/ui/data/datatable/basic.xhtml), but you can easily add a [column toggler](https://www.primefaces.org/showcase/ui/data/datatable/columnToggler.xhtml), or [dynamic colums](https://www.primefaces.org/showcase/ui/data/datatable/columns.xhtml), or [edit functions](https://www.primefaces.org/showcase/ui/data/datatable/edit.xhtml) on the table... !! **And all this is responsive of course**.
+Instead of the `<h:dataTable>`, just use the `<p:dataTable>` tag. It gives you a [basic data table](https://www.primefaces.org/showcase/ui/data/datatable/basic.xhtml), but you can easily add a [column toggler](https://www.primefaces.org/showcase/ui/data/datatable/columnToggler.xhtml), or [dynamic colums](https://www.primefaces.org/showcase/ui/data/datatable/columns.xhtml), or [edit functions](https://www.primefaces.org/showcase/ui/data/datatable/edit.xhtml) on the table... !! **And all this is responsive of course**.
 
 
 # Your feedback
