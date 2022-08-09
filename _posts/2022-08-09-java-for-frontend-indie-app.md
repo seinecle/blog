@@ -22,7 +22,9 @@ GWT and J2Cl however are not meant as a beginner-friendly frameworks, they are m
 
 # The unsung hero of Java for the front-end: Jakarta Server Faces (JSF)!
 
-JSF is around at least since the early 2010s, which is when I started learning coding in Java. I am always surprised it is not more famous, as it allows developing web apps in a fast and robust way Here is how you create a web page showing some dynamic content:
+JSF is around at least since the early 2010s, which is when I started learning coding in Java. I am always surprised it is not more famous, as it allows developing web apps in a fast, secure and robust way.
+
+Here is how you create a web page showing some dynamic content:
 
 - create an html page
 - replace the `<head>` and `<body>` tags with `<h:head> and `<h:body>` tags.
@@ -34,8 +36,12 @@ JSF is really super simple. It is well documented thanks to [tons of Stackoverfl
 
 # Primefaces: huge list of free components and themes for JSF
 
-JSF comes with a long list of components that create the classic parts of an html page, so that you don't have to do it yourself. For example, use the [`<h:dataTable>`](https://www.javatpoint.com/jsf-datatable) tag to create a table that displays some data that is loaded from your backend. This is already super useful, but there is better: a company called Prime, which is around for a very long time, develops a suite of components that are drop-in replacemens for the regular JSF components - and they come with additional features and benefits. Instead of the `<h:dataTable>`, just use the  Look at the showcase for the `<**p**:dataTable>` tag. It gives you a [basic data table](https://www.primefaces.org/showcase/ui/data/datatable/basic.xhtml), but you can easily add a [column toggler](https://www.primefaces.org/showcase/ui/data/datatable/columnToggler.xhtml), or [dynamic colums](https://www.primefaces.org/showcase/ui/data/datatable/columns.xhtml), or [edit functions](https://www.primefaces.org/showcase/ui/data/datatable/edit.xhtml) on the table... !! **And all this is responsive of course**.
+JSF comes with a long list of components that create the classic parts of an html page, so that you don't have to do it yourself.
+For example, use the [`<h:dataTable>`](https://www.javatpoint.com/jsf-datatable) tag to create a table that displays some data that is loaded from your backend.
 
+This is already super useful, but there is better: a company called Prime, which is around for a very long time, develops a suite of components that are drop-in replacements for the regular JSF components - and they come with additional features and benefits.
+
+Instead of the `<h:dataTable>`, just use the `<**p**:dataTable>` tag. It gives you a [basic data table](https://www.primefaces.org/showcase/ui/data/datatable/basic.xhtml), but you can easily add a [column toggler](https://www.primefaces.org/showcase/ui/data/datatable/columnToggler.xhtml), or [dynamic colums](https://www.primefaces.org/showcase/ui/data/datatable/columns.xhtml), or [edit functions](https://www.primefaces.org/showcase/ui/data/datatable/edit.xhtml) on the table... !! **And all this is responsive of course**.
 
 
 # Your feedback
