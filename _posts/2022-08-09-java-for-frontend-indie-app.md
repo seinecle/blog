@@ -8,14 +8,14 @@ last_modified_at_readable:   Aug 09, 2022
 ---
 
 *This is a technical article about my positive experience as an academic developing an indie app, using Java for the front-end.
-Please excuse the at times sloppy vocabulary.*
+Please excuse the at-times sloppy vocabulary.*
 
 # Java for the front-end - I thought the whole issue was a dead end?
 
-Java and web browsers are often thought of as incompatible: [Java Applets](https://en.wikipedia.org/wiki/Java_applet) and [Java Webstart](https://en.wikipedia.org/wiki/Java_Web_Start) enabled java apps to be launched from the browser, and they are now ancient history 💀.
+Java and web browsers are often thought of as incompatible: [Java Applets](https://en.wikipedia.org/wiki/Java_applet) and [Java Webstart](https://en.wikipedia.org/wiki/Java_Web_Start) enabled java apps to be launched from the browser, and they are [now ancient history](https://www.slideshare.net/HendrikEbbers/java-webstart-is-dead-what-should-we-do-now) 💀.
 
-Another flavor of Java in the browser are JSP or "Java Server Pages", which many computer sciences learned at school.
-Even if JSP is still discusse in some books on Java for the web ([1](https://www.amazon.com/Java-Jakarta-Recipes-Problem-Solution-Enterprise-ebook/dp/B0B6Z9JTNH), [2](https://www.amazon.com/Beginning-Jakarta-Web-Development-Applications/dp/1484258657), but not [there](https://www.amazon.com/Java-Application-Development-Enterprise-applications/dp/1788293673)), it is ancient, though not deprecated yet.
+Another flavor of Java in the browser are JSP or "Java Server Pages", which many computer science students learned at school.
+Even if JSP is still discussed in some books on Java for the web ([1](https://www.amazon.com/Java-Jakarta-Recipes-Problem-Solution-Enterprise-ebook/dp/B0B6Z9JTNH), [2](https://www.amazon.com/Beginning-Jakarta-Web-Development-Applications/dp/1484258657), but not [there](https://www.amazon.com/Java-Application-Development-Enterprise-applications/dp/1788293673)), it is outdated [since the 2010s](https://odoepner.wordpress.com/2015/03/11/is-jsp-an-unsupported-deprecated-part-of-jee/).
 
 Last, there are frameworks that enable Java developers to "transpile" their code into Javascript thanks to the Google Web Toolkit (GWT, [not super fresh](https://groups.google.com/g/google-web-toolkit/c/FeEI0Rl7cyw/m/OU0HHvxtBQAJ?pli=1)) or the up-and-coming [J2Cl project](https://github.com/google/j2cl) (also by Google, very active).
 GWT and J2Cl however are not meant as a beginner-friendly frameworks, they are more of enterprise toolings developed by Google, to be used by big projects in companies.
