@@ -31,10 +31,16 @@ Here is how you create a web page showing some dynamic content:
 - now, in order to display some dynamic content by calling some property in the backend, just place it after a hashtag and between handle bars:
 
   `#{backendscript.myText}`
+  
+Create a file `Backendscript.java` in your backend, add a variable called `String myText = "hy! welcome to my page!"`. It will be displayed on the web page.
 
 See also [this example](https://eclipse-ee4j.github.io/jakartaee-tutorial/#a-web-module-that-uses-jakarta-faces-technology-the-hello1-example) from the official doc, which shows an input field in a form.
 
 JSF is really super simple. It is well documented thanks to [tons of Stackoverflow questions](https://stackoverflow.com/questions/tagged/jsf), many books ([this reference](https://link.springer.com/book/10.1007/978-1-4842-7310-4), and I also like the ones by [David Hellfinger](https://www.amazon.fr/Java-Application-Development-Enterprise-applications-ebook/dp/B072MFGRVF)) and of course [Youtube tutorials](https://www.youtube.com/watch?v=-Jbuy8aaLVA).
+
+# What I personally liked about working with Java and JSF for my indie app
+
+
 
 # Primefaces: huge list of free components and themes for JSF
 
