@@ -32,7 +32,7 @@ Here is how you create a web page showing some dynamic content:
 
   `#{backendscript.myText}`
   
-Create a file `Backendscript.java` in your backend, add a variable called `String myText = "hy! welcome to my page!"`. It will be displayed on the web page.
+Create a file `Backendscript.java` in your backend, add a variable called `String myText = "hi! welcome to my page!"`. It will be displayed on the web page.
 
 See also [this example](https://eclipse-ee4j.github.io/jakartaee-tutorial/#a-web-module-that-uses-jakarta-faces-technology-the-hello1-example) from the official doc, which shows an input field in a form.
 
