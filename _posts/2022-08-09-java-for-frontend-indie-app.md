@@ -12,33 +12,44 @@ Please excuse the at-times sloppy vocabulary.*
 
 # Java for the front-end - I thought the whole issue was a dead end?
 
-Java and web browsers are often thought to be incompatible: [Java Applets](https://en.wikipedia.org/wiki/Java_applet) and [Java Webstart](https://en.wikipedia.org/wiki/Java_Web_Start) enabled java apps to be launched from the browser, and they are [now ancient history](https://www.slideshare.net/HendrikEbbers/java-webstart-is-dead-what-should-we-do-now) 💀.
+Using Java for front-end development is often thought to be just impossible: Java is for heavy backend stuff, right?
 
-Another flavor of Java in the browser are JSP or "Java Server Pages", which many computer science students learned at school.
-Even if JSP is still discussed in some books on Java for the web (eg [1](https://www.amazon.com/Java-Jakarta-Recipes-Problem-Solution-Enterprise-ebook/dp/B0B6Z9JTNH), [2](https://www.amazon.com/Beginning-Jakarta-Web-Development-Applications/dp/1484258657)), it is outdated [since the 2010s](https://odoepner.wordpress.com/2015/03/11/is-jsp-an-unsupported-deprecated-part-of-jee/).
+Yes, a long time ago, [Java Applets](https://en.wikipedia.org/wiki/Java_applet) and [Java Webstart](https://en.wikipedia.org/wiki/Java_Web_Start) enabled java apps to be launched from the browser. But this is [ancient history](https://www.slideshare.net/HendrikEbbers/java-webstart-is-dead-what-should-we-do-now), as old as the Flash plugin 💀.
+
+Sure, there is a way to use Java for the front end, and this is JSP or "Java Server Pages", which many computer science students learned at school.
+Even if JSP is still discussed in some books on Java for the web (eg [1](https://www.amazon.com/Java-Jakarta-Recipes-Problem-Solution-Enterprise-ebook/dp/B0B6Z9JTNH), [2](https://www.amazon.com/Beginning-Jakarta-Web-Development-Applications/dp/1484258657)), it is outdated [since the 2010s](https://odoepner.wordpress.com/2015/03/11/is-jsp-an-unsupported-deprecated-part-of-jee/). Another dead end 💀.
 
 Last, there are frameworks that enable Java developers to "transpile" their code into Javascript thanks to the Google Web Toolkit (GWT, [not super fresh](https://groups.google.com/g/google-web-toolkit/c/FeEI0Rl7cyw/m/OU0HHvxtBQAJ?pli=1)) or the up-and-coming [J2Cl project](https://github.com/google/j2cl) (also by Google, very active).
 GWT and J2Cl however are not meant as a beginner-friendly frameworks, they are more of enterprise toolings developed by Google, to be used by big projects in companies.
 
 # The unsung hero of Java for the front-end: Jakarta Faces (JSF)!
 
-JSF (now known as "Jakarta Faces") is around at least since the early 2010s, which is when I started learning coding in Java. I am always surprised it is not more famous, as it allows developing web apps in a fast, secure and robust way.
+Java Server Faces (JSF), **now known as "Jakarta Faces"**, is around at least since the early 2010s, which is when I started learning coding in Java. I am always surprised it is not more famous, as it allows developing web apps in a fast, secure and robust way.
+
+The thing works, is easy to learn, benefits from all the goodness of the Java ecosystem... yet, have you ever heard about it?
 
 Here is how you create a web page showing some dynamic content:
 
 - create an html page (with an extension ".xhtml")
 - replace the `<head>` and `<body>` html tags with `<h:head>` and `<h:body>` tags.
-- now, in order to display some dynamic content by calling some property in the backend, just place it after a hashtag and between handle bars:
+- now, in order to display some dynamic content by calling some property in the backend, just place it after a hashtag and between handle bars like so:
 
   `#{backendscript.myText}`
   
 Create a file `Backendscript.java` in your backend, add a variable called `String myText = "hi! welcome to my page!"`. It will be displayed on the web page.
 
-See also [this example](https://eclipse-ee4j.github.io/jakartaee-tutorial/#a-web-module-that-uses-jakarta-faces-technology-the-hello1-example) from the official doc, which shows an input field in a form.
+JSF is really super simple. It is well documented thanks to [tons of Stackoverflow questions](https://stackoverflow.com/questions/tagged/jsf), a [clear official doc](https://eclipse-ee4j.github.io/jakartaee-tutorial/), many books ([this reference](https://link.springer.com/book/10.1007/978-1-4842-7310-4), and I also like the ones by [David Hellfinger](https://www.amazon.fr/Java-Application-Development-Enterprise-applications-ebook/dp/B072MFGRVF)) and of course [Youtube tutorials](https://www.youtube.com/watch?v=-Jbuy8aaLVA).
 
-JSF is really super simple. It is well documented thanks to [tons of Stackoverflow questions](https://stackoverflow.com/questions/tagged/jsf), many books ([this reference](https://link.springer.com/book/10.1007/978-1-4842-7310-4), and I also like the ones by [David Hellfinger](https://www.amazon.fr/Java-Application-Development-Enterprise-applications-ebook/dp/B072MFGRVF)) and of course [Youtube tutorials](https://www.youtube.com/watch?v=-Jbuy8aaLVA).
+# Is JSF hard? what are the benefits?
 
-# What I personally liked about working with Java and JSF for my indie app
+JSF is not hard at all:
+
+* It is well integrated with the classic IDEs for Java ([NetBeans](https://netbeans.apache.org/), [IntelliJ](https://www.jetbrains.com/idea/) and [Eclipse](https://www.eclipse.org/ide/)). Each IDE provide:
+** template projects that fill in the boilerplate for the Maven config (which is dead simple, by the way).
+** debbuging tools (with hot reload, for NetBeans I least)
+** the usual super efficient auto-complete, refactoring, navigation and error highlighting tools of the Java ecosystem. The IDE can provide useful info on any class that you mention in an html page (like the `#{backendscript.myText}` mentioned above). Html pages are truly integrated with the rest of your codebase!**
+
+* it handles advanced cases of html 
 
 
 
