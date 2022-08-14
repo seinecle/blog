@@ -14,18 +14,17 @@ Please excuse the at-times sloppy vocabulary.*
 
 Using Java for front-end development is often thought to be just impossible: Java is for heavy backend stuff, right?
 
-Yes, a long time ago ![image](https://user-images.githubusercontent.com/1244100/184530869-08f582b4-afe2-4740-9a29-949e4ffa5a76.png)
-, [Java Applets](https://en.wikipedia.org/wiki/Java_applet) and [Java Webstart](https://en.wikipedia.org/wiki/Java_Web_Start) enabled java apps to be launched from the browser. But this is [ancient history](https://www.slideshare.net/HendrikEbbers/java-webstart-is-dead-what-should-we-do-now), as old as the Flash plugin 💀.
+Yes, a long time ago, [Java Applets](https://en.wikipedia.org/wiki/Java_applet) and [Java Webstart](https://en.wikipedia.org/wiki/Java_Web_Start) enabled java apps to be launched from the browser. But this is [ancient history](https://www.slideshare.net/HendrikEbbers/java-webstart-is-dead-what-should-we-do-now), as old as the Flash plugin 💀.
 
-Sure, there is a way to use Java for the front end, and this is JSP or "Java Server Pages", which many computer science students learned at school.
-Even if JSP is still discussed in some books on Java for the web (eg [1](https://www.amazon.com/Java-Jakarta-Recipes-Problem-Solution-Enterprise-ebook/dp/B0B6Z9JTNH), [2](https://www.amazon.com/Beginning-Jakarta-Web-Development-Applications/dp/1484258657)), it is outdated [since the 2010s](https://odoepner.wordpress.com/2015/03/11/is-jsp-an-unsupported-deprecated-part-of-jee/). Another dead end 💀.
+Even without applets, there is still a way to use Java for the front end: this is JSP or "Java Server Pages", which many computer science students learned at school.
+Even if JSP is still discussed in some books on Java for the web (eg [1](https://www.amazon.com/Java-Jakarta-Recipes-Problem-Solution-Enterprise-ebook/dp/B0B6Z9JTNH), [2](https://www.amazon.com/Beginning-Jakarta-Web-Development-Applications/dp/1484258657)), it is outdated [since the 2010s](https://odoepner.wordpress.com/2015/03/11/is-jsp-an-unsupported-deprecated-part-of-jee/). Another dead end 💀 😔. 
 
-Last, there are frameworks that enable Java developers to "transpile" their code into Javascript thanks to the Google Web Toolkit (GWT, [not super fresh](https://groups.google.com/g/google-web-toolkit/c/FeEI0Rl7cyw/m/OU0HHvxtBQAJ?pli=1)) or the up-and-coming [J2Cl project](https://github.com/google/j2cl) (also by Google, very active).
+Last, there are frameworks that enable Java developers to "transpile" (convert in a complicated way) their code into Javascript thanks to the Google Web Toolkit (GWT, [not super fresh](https://groups.google.com/g/google-web-toolkit/c/FeEI0Rl7cyw/m/OU0HHvxtBQAJ?pli=1)) or the up-and-coming [J2Cl project](https://github.com/google/j2cl) (also by Google, very active).
 GWT and J2Cl however are not meant as a beginner-friendly frameworks, they are more of enterprise toolings developed by Google, to be used by big projects in companies.
 
-# The unsung hero of Java for the front-end: Jakarta Faces (JSF)!
+# The unsung hero 🌈 of Java for the front-end: Jakarta Faces (JSF)!
 
-Java Server Faces (JSF), **now known as "Jakarta Faces"**, is around at least since the early 2010s, which is when I started learning coding in Java. I am always surprised it is not more famous, as it allows developing web apps in a fast, secure and robust way.
+Java Server Faces (JSF), **now known as "Jakarta Faces"**, is around at least since the early 2010s. I am always surprised it is not more famous and rarely mentioned, as it allows developing web apps easily in a fast, secure and robust way.
 
 The thing works, is easy to learn, benefits from all the goodness of the Java ecosystem... yet, have you ever heard about it?
 
@@ -50,7 +49,13 @@ JSF is not hard at all:
 ** debbuging tools (with hot reload, for NetBeans I least)
 ** the usual super efficient auto-complete, refactoring, navigation and error highlighting tools of the Java ecosystem. The IDE can provide useful info on any class that you mention in an html page (like the `#{backendscript.myText}` mentioned above). Html pages are truly integrated with the rest of your codebase!**
 
-* it handles advanced cases of html 
+* it handles advanced cases of actions on html pages, super easily:**
+(https://github.com/seinecle/nocodefunctions/blob/0fb9a250f4e33559b5e835d241e0974de7047068/src/main/webapp/import_your_structured_data_two_columns.xhtml#L68).
+** updating parts of the the page when a button is clicked? Just add [an `update` property](https://github.com/seinecle/nocodefunctions/blob/0fb9a250f4e33559b5e835d241e0974de7047068/src/main/webapp/index.xhtml#L215) to your button, followed by the id of the component to be refreshed
+** have a user upload a file, or multiple files, with conditions on the types of size of files, [in one line with clear parameters]
+** powering your website with multiple languages? Add a [`<f:view>`](https://github.com/seinecle/nocodefunctions/blob/0fb9a250f4e33559b5e835d241e0974de7047068/src/main/webapp/who.xhtml#L8) tag in your html, and retrieve the user language [with a single line in the backend](https://github.com/seinecle/nocodefunctions/blob/0fb9a250f4e33559b5e835d241e0974de7047068/src/main/java/net/clementlevallois/nocodeapp/web/front/backingbeans/ActiveLocale.java#L40)
+
+
 
 
 
