@@ -52,17 +52,14 @@ JSF is not hard at all:
 
 2. it handles advanced cases of actions on html pages, super easily:
   * updating parts of the the page when a button is clicked? Just add [an `update` property](https://github.com/seinecle/nocodefunctions/blob/0fb9a250f4e33559b5e835d241e0974de7047068/src/main/webapp/index.xhtml#L215) to your button, followed by the id of the component to be refreshed
+  * still on this question of updating / dynamic content: I just love the simplicity with JSF to have the frontend update the backend, the frontend updating itself, or the backend updating the frontend, which are basic requirements of a web app. 
   * have a user upload a file, or multiple files, with conditions on the types of size of files, [in one line with clear parameters](https://github.com/seinecle/nocodefunctions/blob/0fb9a250f4e33559b5e835d241e0974de7047068/src/main/webapp/import_your_structured_data_two_columns.xhtml#L68).
   * powering your website with multiple languages? Add a [`<f:view>`](https://github.com/seinecle/nocodefunctions/blob/0fb9a250f4e33559b5e835d241e0974de7047068/src/main/webapp/who.xhtml#L8) tag in your html, and retrieve the user language [with a single line in the backend](https://github.com/seinecle/nocodefunctions/blob/0fb9a250f4e33559b5e835d241e0974de7047068/src/main/java/net/clementlevallois/nocodeapp/web/front/backingbeans/ActiveLocale.java#L40)
   * etc, etc.
 
 3. You can add and mix html tags, JS scripts, and css, and it is SEO friendly
 
-You have full control on the html produced by JSF and can always add vanilla html and js. This makes for a an easy way to collaborate with designers and front-end developers who don't know about JSF. I have tried it myself: as I suck in CSS, I got some help by a designer who could work on the front-end I had developed with JSF, without any difficulty finding their way and making the modifications they needed.
-
-
-
-
+You have full control on the html produced by JSF and can always add vanilla html and js. This makes for a an easy way to collaborate with designers and front-end developers who don't know nor care about JSF. I have tried it myself: as I suck in CSS, I got some help by a designer who could work on the html pages I had developed with JSF, without any difficulty finding their way and making the modifications they needed.
 
 
 # Primefaces: huge list of free components and themes for JSF
@@ -73,6 +70,16 @@ For example, use the [`<h:dataTable>`](https://www.javatpoint.com/jsf-datatable)
 This is already super useful, but there is better: a company called [Prime Tek](https://www.primefaces.org/), which is around for a very long time, develops a suite of components called Primefaces: drop-in replacements for the regular JSF components - and they come with additional features and benefits.
 
 Instead of the `<h:dataTable>`, just use the `<p:dataTable>` tag. It gives you a [basic data table](https://www.primefaces.org/showcase/ui/data/datatable/basic.xhtml), but you can easily add a [column toggler](https://www.primefaces.org/showcase/ui/data/datatable/columnToggler.xhtml), or [dynamic colums](https://www.primefaces.org/showcase/ui/data/datatable/columns.xhtml), or [edit functions](https://www.primefaces.org/showcase/ui/data/datatable/edit.xhtml) on the table... !! **And all this is responsive of course**.
+
+# But Java is heavy and slow?
+
+No. The funny thing is that JS frameworks such as React, Angular and Vue emerged with the promise to be quicker and smarter than JSF by Java, because they were sending all the logic of the frontend at once and in just one go to the web browser, hence their names of a "single page application". No need to fetch pages from the backend after this single, first step, so that's blazzing fast 🏎️ (all happening in the browser, no back and forth with a distant server).
+
+JSF works differently: when a user calls a page (https://nocodefunctions.com), the app in the backend generates the html for this page and sends it back. Same happens for any page that the user will visit on the website. Seems slow 🚜.
+
+
+
+
 
 # Alternatives
 
