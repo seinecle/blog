@@ -44,17 +44,22 @@ JSF is really super simple. It is well documented thanks to [tons of Stackoverfl
 
 JSF is not hard at all:
 
-* It is well integrated with the classic IDEs for Java ([NetBeans](https://netbeans.apache.org/), [IntelliJ](https://www.jetbrains.com/idea/) and [Eclipse](https://www.eclipse.org/ide/)). Each IDE provide:
+1. It is well integrated with the classic IDEs for Java ([NetBeans](https://netbeans.apache.org/), [IntelliJ](https://www.jetbrains.com/idea/) and [Eclipse](https://www.eclipse.org/ide/)). Each IDE provide:
 
-  template projects that fill in the boilerplate for the Maven config (which is dead simple, by the way).
-** debbuging tools (with hot reload, for NetBeans I least)
-** the usual super efficient auto-complete, refactoring, navigation and error highlighting tools of the Java ecosystem. The IDE can provide useful info on any class that you mention in an html page (like the `#{backendscript.myText}` mentioned above). Html pages are truly integrated with the rest of your codebase!**
+  * template projects that fill in the boilerplate for the Maven config (which is dead simple, by the way).
+  * debbuging tools (with hot reload, for NetBeans I least)
+  * the usual super efficient auto-complete, refactoring, navigation and error highlighting tools of the Java ecosystem. The IDE can provide useful info on any class that you mention in an html page (like the `#{backendscript.myText}` mentioned above). Html pages are truly integrated with the rest of your codebase!**
 
-* it handles advanced cases of actions on html pages, super easily:**
-(https://github.com/seinecle/nocodefunctions/blob/0fb9a250f4e33559b5e835d241e0974de7047068/src/main/webapp/import_your_structured_data_two_columns.xhtml#L68).
+2. it handles advanced cases of actions on html pages, super easily:
   * updating parts of the the page when a button is clicked? Just add [an `update` property](https://github.com/seinecle/nocodefunctions/blob/0fb9a250f4e33559b5e835d241e0974de7047068/src/main/webapp/index.xhtml#L215) to your button, followed by the id of the component to be refreshed
-  * have a user upload a file, or multiple files, with conditions on the types of size of files, [in one line with clear parameters]
+  * have a user upload a file, or multiple files, with conditions on the types of size of files, [in one line with clear parameters](https://github.com/seinecle/nocodefunctions/blob/0fb9a250f4e33559b5e835d241e0974de7047068/src/main/webapp/import_your_structured_data_two_columns.xhtml#L68).
   * powering your website with multiple languages? Add a [`<f:view>`](https://github.com/seinecle/nocodefunctions/blob/0fb9a250f4e33559b5e835d241e0974de7047068/src/main/webapp/who.xhtml#L8) tag in your html, and retrieve the user language [with a single line in the backend](https://github.com/seinecle/nocodefunctions/blob/0fb9a250f4e33559b5e835d241e0974de7047068/src/main/java/net/clementlevallois/nocodeapp/web/front/backingbeans/ActiveLocale.java#L40)
+  * etc, etc.
+
+3. You can add and mix html tags, JS scripts, and css, and it is SEO friendly
+
+You have full control on the html produced by JSF and can always add vanilla html and js. This makes for a an easy way to collaborate with designers and front-end developers who don't know about JSF. I have tried it myself: as I suck in CSS, I got some help by a designer who could work on the front-end I had developed with JSF, without any difficulty finding their way and making the modifications they needed.
+
 
 
 
