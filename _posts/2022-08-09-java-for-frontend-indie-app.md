@@ -2,9 +2,9 @@
 layout: post
 title: Using java for the front-end in an indie app in 2022
 permalink: /java-for-frontend-indie-app/
-published: false
-date_readable:               Aug 09, 2022
-last_modified_at_readable:   Aug 09, 2022
+published: true
+date_readable:               Aug 14, 2022
+last_modified_at_readable:   Aug 14, 2022
 ---
 
 *This is a technical article about my positive experience as an academic developing an indie app, using Java for the front-end.
@@ -98,7 +98,7 @@ Now, run it on a server. For that, you need to:
 
 - have a server. For https://test.nocodefunctions.com, I run it [on a server with 2Gb of RAM for € 4.15 / mo](https://www.hetzner.com/cloud). I could use less RAM but my app provides some data-intensive services and it needs to fit in memory.
 - have Java installed. That is a single download of a [less than 200Mb](https://adoptium.net/) file for Mac, Win or Linux, is [completely free even for commercial use](https://adoptium.net/docs/faq) (no "but Oracle can..." worry to have) and is a one liner / one click to install.
-- hava a Java server to run. There are many. I personally use Payara Micro (Community Edition), which is free and is a single file download of 77Mb.
+- have a Java server to run. There are many. I personally use [Payara Micro (Community Edition)](https://www.payara.fish/downloads/payara-platform-community-edition/), which is free and is a single file download of 77Mb.
 - launch your app. That is a one liner.
 
 # Conclusion: consider Java!
