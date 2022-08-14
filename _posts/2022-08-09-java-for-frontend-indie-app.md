@@ -108,5 +108,5 @@ Some programmers, I feel, think that Python, Ruby, php, nodejs + React... are th
 I build [nocode functions](https://nocodefunctions.com) 🔎 entirely in Java. It is [fully open source](https://github.com/seinecle/nocodefunctions). Try it and give some feedback, I would appreciate it!
 
 * my email: [admin@clementlevallois.net](mailto:admin@clementlevallois.net) 📧
-* or on Twitter: [@seinecle](https://twitter.com/seinecle)
-* you can also read [the other articles of this blog](https://nocodefunctions.com/blog), where I write about the process of developing the app.
+* or on Twitter: [@seinecle](https://twitter.com/seinecle) 📱
+* you can also read [the other articles of this blog](https://nocodefunctions.com/blog) 👓, where I write about the process of developing the app.
