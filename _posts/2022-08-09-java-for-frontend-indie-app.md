@@ -10,11 +10,12 @@ last_modified_at_readable:   Aug 09, 2022
 *This is a technical article about my positive experience as an academic developing an indie app, using Java for the front-end.
 Please excuse the at-times sloppy vocabulary.*
 
-# Java for the front-end - I thought the whole issue was a dead end?
+# Java for the front-end - I thought it was a dead end?
 
 Using Java for front-end development is often thought to be just impossible: Java is for heavy backend stuff, right?
 
-Yes, a long time ago, [Java Applets](https://en.wikipedia.org/wiki/Java_applet) and [Java Webstart](https://en.wikipedia.org/wiki/Java_Web_Start) enabled java apps to be launched from the browser. But this is [ancient history](https://www.slideshare.net/HendrikEbbers/java-webstart-is-dead-what-should-we-do-now), as old as the Flash plugin 💀.
+Yes, a long time ago ![image](https://user-images.githubusercontent.com/1244100/184530869-08f582b4-afe2-4740-9a29-949e4ffa5a76.png)
+, [Java Applets](https://en.wikipedia.org/wiki/Java_applet) and [Java Webstart](https://en.wikipedia.org/wiki/Java_Web_Start) enabled java apps to be launched from the browser. But this is [ancient history](https://www.slideshare.net/HendrikEbbers/java-webstart-is-dead-what-should-we-do-now), as old as the Flash plugin 💀.
 
 Sure, there is a way to use Java for the front end, and this is JSP or "Java Server Pages", which many computer science students learned at school.
 Even if JSP is still discussed in some books on Java for the web (eg [1](https://www.amazon.com/Java-Jakarta-Recipes-Problem-Solution-Enterprise-ebook/dp/B0B6Z9JTNH), [2](https://www.amazon.com/Beginning-Jakarta-Web-Development-Applications/dp/1484258657)), it is outdated [since the 2010s](https://odoepner.wordpress.com/2015/03/11/is-jsp-an-unsupported-deprecated-part-of-jee/). Another dead end 💀.
