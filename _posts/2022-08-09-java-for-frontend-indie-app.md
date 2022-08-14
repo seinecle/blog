@@ -45,6 +45,7 @@ JSF is really super simple. It is well documented thanks to [tons of Stackoverfl
 JSF is not hard at all:
 
 * It is well integrated with the classic IDEs for Java ([NetBeans](https://netbeans.apache.org/), [IntelliJ](https://www.jetbrains.com/idea/) and [Eclipse](https://www.eclipse.org/ide/)). Each IDE provide:
+
 ** template projects that fill in the boilerplate for the Maven config (which is dead simple, by the way).
 ** debbuging tools (with hot reload, for NetBeans I least)
 ** the usual super efficient auto-complete, refactoring, navigation and error highlighting tools of the Java ecosystem. The IDE can provide useful info on any class that you mention in an html page (like the `#{backendscript.myText}` mentioned above). Html pages are truly integrated with the rest of your codebase!**
