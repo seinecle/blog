@@ -38,7 +38,8 @@ Here is how you create a web page showing some dynamic content:
   
 Create a file `Backendscript.java` in your backend, add a variable called `String myText = "hi! welcome to my page!"`. It will be displayed on the web page.
 
-JSF is really super simple. It is well documented thanks to [tons of Stackoverflow questions](https://stackoverflow.com/questions/tagged/jsf), a [clear official doc](https://eclipse-ee4j.github.io/jakartaee-tutorial/), many books ([this reference](https://link.springer.com/book/10.1007/978-1-4842-7310-4), and I also like the ones by [David Hellfinger](https://www.amazon.fr/Java-Application-Development-Enterprise-applications-ebook/dp/B072MFGRVF)) and of course [Youtube tutorials](https://www.youtube.com/watch?v=-Jbuy8aaLVA).
+JSF is really super simple.
+It is well documented thanks to [tons of Stackoverflow questions](https://stackoverflow.com/questions/tagged/jsf), a [clear official doc](https://eclipse-ee4j.github.io/jakartaee-tutorial/), many books ([this reference](https://link.springer.com/book/10.1007/978-1-4842-7310-4), and I also like the ones by [David Heffelfinger](https://www.amazon.fr/Java-Application-Development-Enterprise-applications-ebook/dp/B072MFGRVF)) and of course [Youtube tutorials](https://www.youtube.com/watch?v=-Jbuy8aaLVA).
 
 # Is JSF hard? what are the benefits?
 
