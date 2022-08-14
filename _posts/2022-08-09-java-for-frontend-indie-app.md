@@ -83,23 +83,28 @@ Instead of the `<h:dataTable>`, just use the Primefaces's `<p:dataTable>` tag. I
 
 No. The funny thing is that JS frameworks such as React, Angular and Vue emerged with the promise to be quicker and smarter than JSF by Java, because they were sending all the logic of the app at once to the browser of the vistor of the website ("the client"), in just one go, hence their names of a "single page application" (SPA) that do "client side rendering" (CSR). No need to fetch pages from the backend after this single, first step, so that's blazzing fast in theory 🏎️ (all happening in the browser, no back and forth with a distant server).
 
-JSF works differently: when a user calls a page (such as https://nocodefunctions.com), the app in the backend generates the html for this page only and sends it back. That is called "server side rendering" (SSR). Same happens for any page that the user will visit on the website. Seems slow 🚜.
+JSF works differently: when a user calls a page (such as https://nocodefunctions.com), the app in the backend generates the html for this page only and sends it back. That is called "server side rendering" (SSR).
+Same happens for any page that the user will visit on the website.
+Seems slow 🚜.
 
-In practice for Single Page Applications, the time can be very long for the user to receive and load the javascript files that make the whole app. This can lead to a bad user experience (having to wait for the 1st page to load, we have all had this experience!), and penalties in terms of SEO. As a result, Java style Server Side Rendering gained back a new popularity as it is judged superior in terms of speed / performance than Client Side Rendering. New [SSR frameworks emerge](https://blog.logrocket.com/improve-app-performance-react-server-side-rendering/#why-move-to-react-server-side-rendering), obliging developers used to the Client Side Rendering to handle these two different logics. A real pain in my opinion. Java has done it for ~ 15 years now with JSF, the thing is just solid and easy.
+In practice for Single Page Applications, the time can be very long for the user to receive and load the javascript files that make the whole app.
+This can lead to a bad user experience (having to wait for the 1st page to load, we have all had this experience!), and penalties in terms of SEO.
+As a result, Java style Server Side Rendering gained back a new popularity as it is judged superior in terms of speed / performance than Client Side Rendering.
+New [SSR frameworks emerge](https://blog.logrocket.com/improve-app-performance-react-server-side-rendering/#why-move-to-react-server-side-rendering), obliging developers used to Client Side Rendering to handle and mix these two different logics. A real pain in my opinion. Java and JSF provide SSR for ~ 15 years now - the thing is just solid, use it! 
 
 **2. Heavy**
 
 No. What you need to deploy a JSF app is:
 
 - the app itself. A naked "hello world" JSF app is probably 10kb or less.
-- add all the components of Primefaces (discussed above) if you want, and [this is 4.5Mb more](https://mvnrepository.com/artifact/org.primefaces/primefaces/12.0.0-RC2).
+- optional: add Primefaces (discussed above) if you want more high quality components. [This represents an extra 4.5Mb](https://mvnrepository.com/artifact/org.primefaces/primefaces/12.0.0-RC2).
 - that's it.
 
 Now, run it on a server. For that, you need to:
 
-- have a server. For https://test.nocodefunctions.com, I run it [on a server with 2Gb of RAM for € 4.15 / mo](https://www.hetzner.com/cloud). I could use less RAM but my app provides some data-intensive services and it needs to fit in memory.
+- have a server, in the cloud or else. For the test version of Nocodefunctions ([https://test.nocodefunctions.com](https://test.nocodefunctions.com), I use Hetzner where I rent [a bare-metal server with 2Gb of RAM for € 4.15 / mo](https://www.hetzner.com/cloud). I could use less RAM but my app provides some data-intensive services and it needs to fit in memory. The real (non test) version of nocodefunctions runs on a bigger server (also with Hetzner) to the data intensive jobs of more users in parallel - at less than 50€ / mo. 
 - have Java installed. That is a single download of a [less than 200Mb](https://adoptium.net/) file for Mac, Win or Linux, is [completely free even for commercial use](https://adoptium.net/docs/faq) (no "but Oracle can..." worry to have) and is a one liner / one click to install.
-- have a Java server to run. There are many. I personally use [Payara Micro (Community Edition)](https://www.payara.fish/downloads/payara-platform-community-edition/), which is free and is a single file download of 77Mb.
+- have a Java web server to run. There are many. I personally use [Payara Micro (Community Edition)](https://www.payara.fish/downloads/payara-platform-community-edition/), which is free and is a single file download of 77Mb.
 - launch your app. That is a one liner.
 
 # Conclusion: consider Java!
