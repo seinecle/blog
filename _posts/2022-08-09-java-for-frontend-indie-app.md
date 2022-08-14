@@ -69,9 +69,12 @@ JSF generates html which you can then see and read in your browser. That helps a
 JSF comes with a long list of ready-to-use components that create the classic parts of an html page, so that you don't have to do it yourself.
 For example, use the [`<h:dataTable>`](https://www.javatpoint.com/jsf-datatable) tag to create a table that displays some data that is loaded from your backend - no need to recreate it from scratch.
 
-This is already super useful, but there is better: a company called [Prime Tek](https://www.primefaces.org/), which is around for a very long time, develops a suite of components called Primefaces: drop-in replacements for the regular JSF components - and they come with additional features and benefits.
+This is already super useful, but there is better: a company called [Prime Tek](https://www.primefaces.org/), which is around for a very long time, develops a suite of open source components called Primefaces: drop-in replacements for the regular JSF components - and they come with additional features and benefits.
 
-Instead of the `<h:dataTable>`, just use the `<p:dataTable>` tag. It gives you a [basic data table](https://www.primefaces.org/showcase/ui/data/datatable/basic.xhtml), but you can easily add a [column toggler](https://www.primefaces.org/showcase/ui/data/datatable/columnToggler.xhtml), or [dynamic colums](https://www.primefaces.org/showcase/ui/data/datatable/columns.xhtml), or [edit functions](https://www.primefaces.org/showcase/ui/data/datatable/edit.xhtml) on the table... !! **And all this is responsive of course**.
+![primefaces](https://user-images.githubusercontent.com/1244100/184534013-231ca860-a753-4556-931e-b601616cb7dc.png)
+
+
+Instead of the `<h:dataTable>`, just use the Primefaces's `<p:dataTable>` tag. It gives you a [basic data table](https://www.primefaces.org/showcase/ui/data/datatable/basic.xhtml), but you can easily add a [column toggler](https://www.primefaces.org/showcase/ui/data/datatable/columnToggler.xhtml), or [dynamic colums](https://www.primefaces.org/showcase/ui/data/datatable/columns.xhtml), or [edit functions](https://www.primefaces.org/showcase/ui/data/datatable/edit.xhtml) on the table... !! **And all this is responsive of course**.
 
 # But Java is slow and heavy?
 
