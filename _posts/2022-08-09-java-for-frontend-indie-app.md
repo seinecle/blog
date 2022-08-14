@@ -44,22 +44,24 @@ JSF is really super simple. It is well documented thanks to [tons of Stackoverfl
 
 JSF is not hard at all:
 
-1. It is well integrated with the classic IDEs for Java ([NetBeans](https://netbeans.apache.org/), [IntelliJ](https://www.jetbrains.com/idea/) and [Eclipse](https://www.eclipse.org/ide/)). Each IDE provide:
+**1. It is well integrated with the classic IDEs for Java** ([NetBeans](https://netbeans.apache.org/), [IntelliJ](https://www.jetbrains.com/idea/) and [Eclipse](https://www.eclipse.org/ide/)). Each IDE provide:
 
   * template projects that fill in the boilerplate for the Maven config (which is dead simple, by the way).
   * debbuging tools (with hot reload, for NetBeans I least)
   * the usual super efficient auto-complete, refactoring, navigation and error highlighting tools of the Java ecosystem. The IDE can provide useful info on any class that you mention in an html page (like the `#{backendscript.myText}` mentioned above). Html pages are truly integrated with the rest of your codebase!**
 
-2. it handles advanced cases of actions on html pages, super easily:
+**2. It handles advanced cases of actions on html pages, super easily**
   * updating parts of the the page when a button is clicked? Just add [an `update` property](https://github.com/seinecle/nocodefunctions/blob/0fb9a250f4e33559b5e835d241e0974de7047068/src/main/webapp/index.xhtml#L215) to your button, followed by the id of the component to be refreshed
   * still on this question of updating / dynamic content: I just love the simplicity with JSF to have the frontend update the backend, the frontend updating itself, or the backend updating the frontend, which are basic requirements of a web app. 
   * have a user upload a file, or multiple files, with conditions on the types of size of files, [in one line with clear parameters](https://github.com/seinecle/nocodefunctions/blob/0fb9a250f4e33559b5e835d241e0974de7047068/src/main/webapp/import_your_structured_data_two_columns.xhtml#L68).
   * powering your website with multiple languages? Add a [`<f:view>`](https://github.com/seinecle/nocodefunctions/blob/0fb9a250f4e33559b5e835d241e0974de7047068/src/main/webapp/who.xhtml#L8) tag in your html, and retrieve the user language [with a single line in the backend](https://github.com/seinecle/nocodefunctions/blob/0fb9a250f4e33559b5e835d241e0974de7047068/src/main/java/net/clementlevallois/nocodeapp/web/front/backingbeans/ActiveLocale.java#L40)
   * etc, etc.
 
-3. You can add and mix html tags, JS scripts, and css, and it is SEO friendly
+**3. You can add and mix html tags, JS scripts, and css, and it is SEO friendly**
 
 You have full control on the html produced by JSF and can always add vanilla html and js. This makes for a an easy way to collaborate with designers and front-end developers who don't know nor care about JSF. I have tried it myself: as I suck in CSS, I got some help by a designer who could work on the html pages I had developed with JSF, without any difficulty finding their way and making the modifications they needed.
+
+JSF generates html which you can then see and read in your browser. That helps a lot for debugging with the usual dev tools, and check that your SEO actions are well implemented.
 
 
 # Primefaces: huge list of free components and themes for JSF
@@ -71,27 +73,40 @@ This is already super useful, but there is better: a company called [Prime Tek](
 
 Instead of the `<h:dataTable>`, just use the `<p:dataTable>` tag. It gives you a [basic data table](https://www.primefaces.org/showcase/ui/data/datatable/basic.xhtml), but you can easily add a [column toggler](https://www.primefaces.org/showcase/ui/data/datatable/columnToggler.xhtml), or [dynamic colums](https://www.primefaces.org/showcase/ui/data/datatable/columns.xhtml), or [edit functions](https://www.primefaces.org/showcase/ui/data/datatable/edit.xhtml) on the table... !! **And all this is responsive of course**.
 
-# But Java is heavy and slow?
+# But Java is slow and heavy?
 
-No. The funny thing is that JS frameworks such as React, Angular and Vue emerged with the promise to be quicker and smarter than JSF by Java, because they were sending all the logic of the frontend at once and in just one go to the web browser, hence their names of a "single page application". No need to fetch pages from the backend after this single, first step, so that's blazzing fast 🏎️ (all happening in the browser, no back and forth with a distant server).
+**1. Slow**
 
-JSF works differently: when a user calls a page (https://nocodefunctions.com), the app in the backend generates the html for this page and sends it back. Same happens for any page that the user will visit on the website. Seems slow 🚜.
+No. The funny thing is that JS frameworks such as React, Angular and Vue emerged with the promise to be quicker and smarter than JSF by Java, because they were sending all the logic of the app at once to the browser of the vistor of the website ("the client"), in just one go, hence their names of a "single page application" (SPA) that do "client side rendering" (CSR). No need to fetch pages from the backend after this single, first step, so that's blazzing fast in theory 🏎️ (all happening in the browser, no back and forth with a distant server).
+
+JSF works differently: when a user calls a page (such as https://nocodefunctions.com), the app in the backend generates the html for this page only and sends it back. That is called "server side rendering" (SSR). Same happens for any page that the user will visit on the website. Seems slow 🚜.
+
+In practice for Single Page Application, the time can be very long for the user to receive and load the javascript files that make the whole app. This can lead to a bad user experience (having to wait for the 1st page to load, we have all had this experience!), and penalties in terms of SEO. As a result, Java style Server Side Rendering gained back a new popularity as it is judged superior in terms of speed / performance than Client Side Rendering. New [SSR frameworks emerge](https://blog.logrocket.com/improve-app-performance-react-server-side-rendering/#why-move-to-react-server-side-rendering), obliging developers used to the Client Side Rendering to handle these two different logics. A real pain in my opinion. Java has done it for ~ 15 years now with JSF, the thing is just solid and easy.
+
+**2. Heavy**
+
+No. What you need to deploy a JSF app is:
+
+- the app itself. A naked "hello world" JSF app is probably 10kb or less.
+- add all the components of Primefaces (discussed above) if you want, and [this is 4.5Mb more](https://mvnrepository.com/artifact/org.primefaces/primefaces/12.0.0-RC2).
+- that's it.
+
+Now, run it on a server. For that, you need to:
+
+- have a server. For https://test.nocodefunctions.com, I run it [on a server with 2Gb of RAM for € 4.15 / mo](https://www.hetzner.com/cloud). I could use less RAM but my app provides some data-intensive services and it needs to fit in memory.
+- have Java installed. That is a single download of a [less than 200Mb](https://adoptium.net/) file for Mac, Win or Linux, is [completely free even for commercial use](https://adoptium.net/docs/faq) (no "but Oracle can..." worry to have) and is a one liner / one click to install.
+- hava a Java server to run. There are many. I personally use Payara Micro (Community Edition), which is free and is a single file download of 77Mb.
+- launch your app. That is a one liner.
+
+# Conclusion: consider Java!
+
+Some programmers, I feel, think that Python, Ruby, php, nodejs + React... are the only choices when you start a small web app. I hope they will consider Java + JSF for their next project. **Especially if they learned java at school**: you will get such a head start, take advantage of it!
 
 
+# Demo
 
+I build [nocode functions](https://nocodefunctions.com) 🔎 entirely in Java. It is [fully open source](https://github.com/seinecle/nocodefunctions). Try it and give some feedback, I would appreciate it!
 
-
-# Alternatives
-
-Every programming language has solid frameworks to develop the front and back end of an app, either in server side rendering or a single page applications. Python has Django, Flask and others, Javascript has Nodejs + Vue, React or Angular, ... There is a solution for every need. I just find that there is a big opportunity for Java developers, and CS students who are taught Java, to go and try JSF without looking at JS or Python as soon as it comes to the front end.
-
-
-
-
-
-
-# Your feedback
-I build nocode functions for you. Try it and give some feedback, I would appreciate it!
-
-* [nocode functions](https://nocodefunctions.com) 🔎
 * my email: [admin@clementlevallois.net](mailto:admin@clementlevallois.net) 📧
+* or on Twitter: [@seinecle](https://twitter.com/seinecle)
+* you can also read [the other articles of this blog](https://nocodefunctions.com/blog), where I write about the process of developing the app.
