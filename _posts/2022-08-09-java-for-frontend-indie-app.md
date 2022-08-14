@@ -59,7 +59,7 @@ JSF is not hard at all:
 
 **3. You can add and mix html tags, JS scripts, and css, and it is SEO friendly**
 
-You have full control on the html produced by JSF and can always add vanilla html and js. This makes for a an easy way to collaborate with designers and front-end developers who don't know nor care about JSF. I have tried it myself: as I suck in CSS, I got some help by a designer who could work on the html pages I had developed with JSF, without any difficulty finding their way and making the modifications they needed.
+You have full control on the html produced by JSF and can always add vanilla html and js. This makes for an easy way to collaborate with designers and front-end developers who don't know nor care about JSF. I have tried it myself: as I suck in CSS, I got some help by a designer who could work on the html pages I had developed with JSF, without any difficulty finding their way and making the modifications they needed.
 
 JSF generates html which you can then see and read in your browser. That helps a lot for debugging with the usual dev tools, and check that your SEO actions are well implemented.
 
