@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Using java for the front-end in an indie app in 2022
-permalink: /java-for-frontend-indie-app/
+title: Using java for the front-end of a web app in 2022
+permalink: /java-frontend-web-app/
 published: true
 date_readable:               Aug 14, 2022
-last_modified_at_readable:   Aug 14, 2022
+last_modified_at_readable:   Aug 15, 2022
 ---
 
 *This is a technical article about my positive experience as an academic developing an indie app, using Java for the front-end.
