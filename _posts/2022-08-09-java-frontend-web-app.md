@@ -102,7 +102,7 @@ No. What you need to deploy a JSF app is:
 
 Now, run it on a server. For that, you need to:
 
-- have a server, in the cloud or else. For the test version of Nocodefunctions ([https://test.nocodefunctions.com](https://test.nocodefunctions.com), I use Hetzner where I rent [a bare-metal server with 2Gb of RAM for € 4.15 / mo](https://www.hetzner.com/cloud). I could use less RAM but my app provides some data-intensive services and it needs to fit in memory. The real (non test) version of nocodefunctions runs on a bigger server (also with Hetzner) to the data intensive jobs of more users in parallel - at less than 50€ / mo. 
+- have a server, in the cloud or else. For the test version of Nocodefunctions ([https://test.nocodefunctions.com](https://test.nocodefunctions.com)), I use Hetzner where I rent [a bare-metal server with 2Gb of RAM for € 4.15 / mo](https://www.hetzner.com/cloud). I could use less RAM but my app provides some data-intensive services and it needs to fit in memory. The real (non test) version of nocodefunctions runs on a bigger server (also with Hetzner) to support the data intensive jobs of more users in parallel - at less than 50€ / mo. 
 - have Java installed. That is a single download of a [less than 200Mb](https://adoptium.net/) file for Mac, Win or Linux, is [completely free even for commercial use](https://adoptium.net/docs/faq) (no "but Oracle can..." worry to have) and is a one liner / one click to install.
 - have a Java web server to run. There are many. I personally use [Payara Micro (Community Edition)](https://www.payara.fish/downloads/payara-platform-community-edition/), which is free and is a single file download of 77Mb.
 - launch your app. That is a one liner.
