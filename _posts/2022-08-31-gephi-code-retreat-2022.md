@@ -9,6 +9,15 @@ last_modified_at_readable:   Aug 31, 2022
 
 *This is a quick update with pics on the Gephi Code Retreat 2022 taking place this week in Paris. I keep it short as I should be actively coding!!*
 
+# Quick background on Gephi
+
+Two-line summary if you don't know Gephi. Born around 2010, [Gephi](https://gephi.org) is the leading software for the visualization and exploration of networks.
+It is open source and free. It is used by analysts, professors, journalists, students. It useful to find patterns and connecting the dots in rich and unstructured datasets, for instance: finding communities, people with key roles in a crowd, identifying connections between items or products, etc.
+
+**Gephi has been downloaded [millions of times](https://seinecle.github.io/gephi-tutorials/generated-html/history-en.html#_a_cumulative_downloads) since its creation**, and the original paper describing Gephi has been cited by close to **[10,000 academic publications from a huge variety of scientific fields]([https://scholar.google.fr/scholar?hl=fr&as_sdt=0%2C5&q=gephi&btnG=](https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=fEDLILQAAAAJ&citation_for_view=fEDLILQAAAAJ:u5HHmVD_uO8C))**.
+
+The Gephi Code retreat is a one-week event organized by the founding members of Gephi to accelerate the development of the software and help the community of Gephi enthusiasts meet and cohere. That is the second year such a retreat is organized, after a first edition in Copenhagen.
+
 # What's going on at the Gephi Code retreat!
 
 After posting a [very quick update on the Gephi Facebook Group 2 days ago](https://www.facebook.com/groups/gephi/posts/10160869191367565/), here are some more news.
@@ -69,8 +78,10 @@ Back to coding!!!
 - Get fresh news from the [Gephi Twitter account](https://twitter.com/Gephi) and also from [Datalgo](https://twitter.com/nicolasbchb)
 - Here are the [Gephi plugins I have developed over the years](https://gephi.org/plugins/#/browse/search/levallois)
 
-I also build [nocode functions](https://nocodefunctions.com) 🔎 entirely in Java. It is [fully open source](https://github.com/seinecle/nocodefunctions). Try it and give some feedback, I would appreciate it!
+I have written [tutorials for Gephi](https://seinecle.github.io/gephi-tutorials/).
+I also build [nocode functions](https://nocodefunctions.com) 🔎 that can also serve the needs of the community of Gephi users. It is [fully open source](https://github.com/seinecle/nocodefunctions).
+Try it and give some feedback, I would appreciate it!
 
 * my email: [admin@clementlevallois.net](mailto:admin@clementlevallois.net) 📧
 * or on Twitter: [@seinecle](https://twitter.com/seinecle) 📱
-* you can also read [the other articles of this blog](https://nocodefunctions.com/blog) 👓, where I write about the process of developing the app.
+* you can also read [the other articles of this blog](https://nocodefunctions.com/blog) 👓, where I write about my journey as a social scientist and app developer.
