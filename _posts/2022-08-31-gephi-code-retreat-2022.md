@@ -65,9 +65,9 @@ As usual, after a night sleep (and extra advice by Mathieu Bastian), I got it wo
 
 I hope to get some of my plugins updated, also helping getting a new version of the Neo4J import plugin getting a new version, and finally getting a new export plugin off the ground (I keep this one a bit mysterious!!).
 
-I see a lot of bug fixes being done, and believe me this is much harder and time consuming that one would thing.
+I see a lot of bug fixes being done, and believe me this is much harder and time consuming that one would think.
 
-Also progress made on the gexf standard, which is this super useful network file format that guarantees that all the rich info on your graphs keep recorded when you save it.
+Also progress made by Paul Girard and al. to extend the [gexf](http://gexf.net/) standard, which is this super useful network file format that guarantees that all the rich info on your graphs keep recorded when you save it.
 
 Back to coding!!!
 
