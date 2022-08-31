@@ -7,6 +7,7 @@ date_readable:               Aug 31, 2022
 last_modified_at_readable:   Aug 31, 2022
 ---
 
+*This is a quick update with pics on the Gephi Code Retreat 2022 taking place this week in Paris. I keep it short as I should be actively coding!!*
 
 # What's going on at the Gephi Code retreat!
 
