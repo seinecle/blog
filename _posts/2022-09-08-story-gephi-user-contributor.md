@@ -94,7 +94,7 @@ Each step is a simple one-click operation!
 
 ## From enthusiastic user to first steps as a contributor
 
-In the course of using Gephi, I started asking a lot of questions on the [now defunct Gephi forum](https://forum-gephi.org/). The community of users is now the most active in a [private Facebook group](https://www.facebook.com/groups/gephi) with close to 10,000 members (join!), where I continue being active.
+In the course of using Gephi, I started asking a lot of questions on the [now defunct Gephi forum](https://forum-gephi.org/). The community of users is now the most active in a [private Facebook group](https://www.facebook.com/groups/gephi) with close to 10,000 members (join!), where I continue to be active.
 
 Even with the help I received on the forum ([Sébastien Heymann](https://www.linkedin.com/in/heymann) did a lot here!), I was frustrated by the absence of basic functions I needed. Like: paint a node in green if it has the text "green" stored in one of its attributes. How to get these functions I needed?
 
