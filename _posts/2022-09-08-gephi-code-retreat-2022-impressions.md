@@ -7,7 +7,11 @@ date_readable:               Sept 08, 2022
 last_modified_at_readable:   Sept 08, 2022
 ---
 
-*My thoughts on the Gephi Code Retreat - 2022 edition, to which I participated in Paris last week*
+*My personal thoughts on the Gephi Code Retreat - 2022 edition, to which I participated in Paris last week*
+
+<div align="center">
+   <img src="https://fr.m.wikipedia.org/wiki/Fichier:Gephi-logo.png" title="The Gephi logo" width="300px"/>
+</div>  
 
 # Quick background on Gephi
 
@@ -21,6 +25,13 @@ It is open source and free. It is used by analysts, professors, journalists, stu
 **Gephi has been downloaded [millions of times](https://seinecle.github.io/gephi-tutorials/generated-html/history-en.html#_a_cumulative_downloads) since its creation**, and the original paper describing Gephi has been cited by close to **[10,000 academic publications from a huge variety of scientific fields]([https://scholar.google.fr/scholar?hl=fr&as_sdt=0%2C5&q=gephi&btnG=](https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=fEDLILQAAAAJ&citation_for_view=fEDLILQAAAAJ:u5HHmVD_uO8C))**.
 
 The Gephi Code retreat is a one-week event organized by the founding members of Gephi to accelerate the development of the software and help the community of Gephi enthusiasts meet and cohere. That is the second year such a retreat is organized, after a first edition in Copenhagen.
+
+
+# My relation to Gephi
+
+Gephi is the reason I transitioned from being a historian of science to a social scientist using computational (data-intensive) approaches. As a post-doc at the [KNAW](https://www.knaw.nl/en) in the Netherlands in 2008, Gephi had just appeared and I realized that visualizing my network of scientists, instead of keeping them in big tables in Excel, was the way I could understand and communicate about my research interests (see two publications [1](https://www.nature.com/articles/nrn3354) [2](https://www.frontiersin.org/articles/10.3389/fnhum.2016.00336/full) of this research project that used Gephi and VOSviewer).
+
+This made me learn Java so that I could develop [plugins for Gephi](https://gephi.org/plugins/#/browse/search/levallois), then I wrote [tutorials for Gephi](https://seinecle.github.io/gephi-tutorials/), and I continued using Gephi in most of my research projects to this day (on [collusion in European markets](https://onlinelibrary.wiley.com/doi/full/10.1111/jcms.12232), [dynamic inter-banking financial networks](https://www.risk.net/journal-of-network-theory-in-finance/2462066/dynamic-visualization-of-large-financial-networks), and new ways to identify communities on Twitter[https://management-aims.com/index.php/mgmt/article/download/4245/10254?inline=1]).
 
 # What did I do / deliver?
 
