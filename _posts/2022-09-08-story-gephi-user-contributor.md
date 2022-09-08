@@ -60,7 +60,7 @@ The founding team of Gephi - thanks to them!
    <img src="https://seinecle.github.io/gephi-tutorials/generated-html/images/initial-team.png" title="The founding team of Gephi" width="500px"/>
 </div>                                                                                                                                  
 
-By the way, it is pretty common for historians to have a similar epiphany with the visualization of networks, and Gephi is a pretty popular tool in the digital humanities.
+By the way, it is pretty common for historians to have a similar epiphany with the visualization of networks, and Gephi is a very popular tool in the digital humanities.
 
 (see two publications [1](https://www.nature.com/articles/nrn3354) [2](https://www.frontiersin.org/articles/10.3389/fnhum.2016.00336/full) of my research project on neuroeconomics that used Gephi and [VOSviewer](https://www.vosviewer.com/), another very good network viz tool).
 
