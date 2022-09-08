@@ -144,7 +144,7 @@ Things were not linear. I had actually started to create a desktop app called ["
 
 So in late 2020 / early 2021, I switched gears and started developing the same functions, but as a web app called [Nocode Functions](https://nocodefunctions.com). I stick to Java, using this time the JSF framework made for web development ([read this blog post](https://nocodefunctions.com/blog/java-frontend-web-app/) I published this summer about this framework!).
 
-And... afdter, one year, [it is a success](https://nocodefunctions.com/blog/nocodefunctions-is-one-year-old/). I personally enjoy a lot developping it, it is easy to deploy, test, maintain, very robust and scalable to any number of function I'd need to add in the future.
+And... after one year, [it is a success](https://nocodefunctions.com/blog/nocodefunctions-is-one-year-old/). I personally enjoy a lot developping it, it is easy to deploy, test, maintain, very robust and scalable to any number of function I'd need to add in the future.
 
 ### ... and back to Gephi
 In late Spring / early summer 2022, [Mathieu Jacomy](https://twitter.com/jacomyma) made [a call for Java devs to participate in the 2022 edition of the Gephi Code retreat](https://twitter.com/Gephi/status/1540983723071504384). To be honest I still don't consider myself a "fullfledged" Java dev so I did not answer the call, and was super happy when I was invited to join! 🤗.
