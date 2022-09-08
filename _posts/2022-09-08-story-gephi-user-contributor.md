@@ -7,7 +7,7 @@ date_readable:               Sept 08, 2022
 last_modified_at_readable:   Sept 08, 2022
 ---
 
-*My journey as a Gephi user and contributor*
+*Looking back at 12 years of involvement with this great software*
 
 <div align="center">
    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Gephi-logo.png" title="The Gephi logo" width="300px"/>
