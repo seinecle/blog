@@ -97,7 +97,7 @@ The first thing I did was contribute to helping fellow users on the forum. I was
 ## Starting developping Gephi plugins
 
 To contribute to new functions for Gephi, that was a step beyond and that felt really out of reach.
-[Almost since its inception](https://seinecle.github.io/gephi-tutorials/generated-html/history-en.html#_b_version_0_7_2010), Gephi came with a [system of plugins](https://gephi.org/plugins/#/) that anyone can develop. But as I am not a computer scientist, this sounded too hard. I had an experience in VBA (the programming language for Excel) as an real amateur, but Gephi is developed in Java and that felt like another league. Java even necessitates to install a software to use it.  I had tried to download and install it (it is called NetBeans, there are others too). Being a real newbie I felt utterly lost: what are the menus and windows in this software *even supposed to do*? I had no clue.
+[Almost since its inception](https://seinecle.github.io/gephi-tutorials/generated-html/history-en.html#_b_version_0_7_2010), Gephi came with a [system of plugins](https://gephi.org/plugins/#/) that anyone can develop. But as I am not a computer scientist, this sounded too hard. I had an experience in VBA (the programming language for Excel) as a real amateur, but Gephi is developed in Java and that felt like another league. Java even necessitates to install a software to use it.  I had tried to download and install it (it is called NetBeans, there are others too). Being a real newbie I felt utterly lost: what are the menus and windows in this software *even supposed to do*? I had no clue.
 
 But using Gephi for my research projects, the question of developing features I needed was really nagging. if I just need, you know, a plugin to change the colors of my nodes - surely it can't be *that* hard to create?
 
@@ -108,7 +108,7 @@ I got hooked when I realized Java was a zillion time faster than Excel. With Exc
 
 I used Java first to create custom gexf files (custom made networks!!) and finally [some plugins for Gephi](https://gephi.org/plugins/#/browse/search/levallois).
 
-My coding style was horrendous. I remember showing my code Francesco Ficarola (I believe), the developer of a Java library that helps create gexf files. I think he said that his eyes burnt. But with time, things improve!
+My coding style was horrendous. I remember showing my code to Francesco Ficarola (I believe), the developer of a Java library that helps create gexf files. I think he said that his eyes burnt. But with time, things improve!
 
 Another big help in learning how to program was Stackoverflow.
 This is THE Q&A website for programming issues, and browsing back to the first question I asked on it, you see it really shows that I was [transitioning from Excel to Java](https://stackoverflow.com/revisions/7200090/1)!
