@@ -27,22 +27,31 @@ It is open source and free. It is used by analysts, professors, journalists, stu
 The Gephi Code retreat is a one-week event organized by the founding members of Gephi to accelerate the development of the software and help the community of Gephi enthusiasts meet and cohere. That is the second year such a retreat is organized, after a first edition in Copenhagen.
 
 
-# My relation to Gephi
-
-
 ## Being a historian, discovering Gephi
 
 Gephi is the reason I transitioned from being a historian of science to a social scientist using computational (data-intensive) approaches.
 As a post-doc at the [KNAW](https://www.knaw.nl/en) in the Netherlands in 2008, Gephi had just appeared (there was also [GUESS](http://graphexploration.cond.org/) that I used as well).
 
-I realized that to explore and find insights in networks of neuroeconomists (that was my interest at the time), scrolling through big tables in Excel was going to be difficult. One column with an author of a publication in neuroeconomics, another column with the name of the co-author. How do you make sense of 10,000 of rows like that?
+I realized that to explore and find insights in networks of neuroeconomists (that was my interest at the time), scrolling through big tables in Excel was going to be difficult:
 
-These data describe a network, and networks can be analyzed in formals ways with a body of knowledge called "social network analysis" and dedicated software like UCINET 
+An author in column A, the co-author in column B.
+How do you make sense of 10,000 of rows like that?
 
-(see two publications [1](https://www.nature.com/articles/nrn3354) [2](https://www.frontiersin.org/articles/10.3389/fnhum.2016.00336/full) of this research project that used Gephi and VOSviewer).
+Relations between authors in column A and their co-authors in column B describe a network.
+Networks can be analyzed in formal ways with a body of knowledge called "network analysis", which produced methods to compute metrics on networks, or generate different types of networks, with dedicated software like [UCINET](https://sites.google.com/site/ucinetsoftware/) or R packages like [igraph](https://igraph.org/).
 
-By the way, it is fare from uncommon for historians to have a similar epiphany with the visualization of networks, and Gephi is a a commonly used tool in digital humanities.
+My need was different though: I needed to "make sense" of the network, in a global and generalist sense. Things like:
 
+- do we see clearly split sub-groups in the network or is it a compact hairball?
+- are two neuroeconomists that I know of "neighbors" in the network or are they far apart?
+- is this famous research lab in the field of neuroeconomics at the periphery or at the center of the network?
+- where are European neuroeconmists, relative to the American ones? And the psychologists?
+- how are positioned the neuroeconomists who tend to publish on addiction? And those working on animal studies?
+- etc...
+
+Being completely new to the field of social network analysis, my first impulse was to find answers to my questions by exploring **visually** the network. I found Gephi that was just born at the time, and already so much advanced compared to the classic viz solutions such as [Pajek](http://mrvar.fdv.uni-lj.si/pajek/) or UCINET's [NetDraw](https://sites.google.com/site/netdrawsoftware/download). By the way, it is pretty common for historians to have a similar epiphany with the visualization of networks, and Gephi is a pretty popular tool in the digital humanities.
+
+(see two publications [1](https://www.nature.com/articles/nrn3354) [2](https://www.frontiersin.org/articles/10.3389/fnhum.2016.00336/full) of my research project on neuroeconomics that used Gephi and [VOSviewer](https://www.vosviewer.com/), another very good network viz tool).
 
 ## Gephi's killer features
 
@@ -60,14 +69,17 @@ Each step is a simple one-click operation!
 
 3. **find central nodes**: which member of the group has the most connections? Who is placed "in the middle", relation to the others?
 
-4. **zoom on sub-regions**: what if we filter out all the network except for one group of nodes and their relations: can we identify local communities within this subnetwork? Who are the central actors within this region?
+4. **explore attributes**: Gephi can handle the attributes attached to the members of the network. Not just their name, but any textual or numerical attribute you have stored on them. Occupation, gender, city, year of birth... 
 
-The killer feature of Gephi is that these 4 operations have an intuitive, **illustrated** expression in Gephi:
+5. **zoom on sub-regions**: what if we filter out all the network except for one group of nodes and their relations: can we identify local communities within this subnetwork? Who are the central actors within this region?
+
+==The killer feature of Gephi is that these 4 operations have an intuitive, **illustrated** expression in Gephi:==
 
 1. The layout (with Force Atlas) deploys / unfolds progressively, showing how the connection micro-patterns progressively moulds the final, global result 
 2. Visualize different communities by painting them in different colors
 3. Visualize the importance of each node by resizing them according to their centrality
-4. Explore subregions by hiding the parts of the network you want to ignore - just apply a filter in one click 
+4. Visualize attributes by switching on the display of labels attached to the nodes, or by painting the nodes in colors representing categories ("blue nodes for professors, "red nodes for post-docs").
+5. Explore subregions by hiding the parts of the network you want to ignore - just apply a filter in one click 
 
 ## From enthusiastic user to contributor
 
