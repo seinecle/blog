@@ -76,7 +76,7 @@ Each step is a simple one-click operation!
 
 5. **zoom on sub-regions**: what if we filter out all the network except for one group of nodes and their relations: can we identify local communities within this subnetwork? Who are the central actors within this region?
 
-==The killer feature of Gephi is that these 4 operations have an intuitive, **illustrated** expression in Gephi:==
+> The killer feature of Gephi is that these 4 operations have an intuitive, **illustrated** expression in Gephi:
 
 1. The layout (with Force Atlas) deploys / unfolds progressively, showing how the connection micro-patterns progressively moulds the final, global result 
 2. Visualize different communities by painting them in different colors
