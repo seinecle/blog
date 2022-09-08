@@ -7,7 +7,7 @@ date_readable:               Sept 08, 2022
 last_modified_at_readable:   Sept 08, 2022
 ---
 
-*Some background on why I participated to the Gephi Code Retreat - 2022 edition, which took place in Paris last week*
+*My journey as a Gephi user and contributor*
 
 <div align="center">
    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Gephi-logo.png" title="The Gephi logo" width="300px"/>
@@ -15,7 +15,7 @@ last_modified_at_readable:   Sept 08, 2022
 
 # Quick background on Gephi
 
-Two-line summary if you don't know Gephi. Born around 2010, [Gephi](https://gephi.org) is the leading software for the visualization and exploration of networks.
+Two-line summary if you don't know Gephi. Born around 2007, [Gephi](https://gephi.org) is the leading software for the visualization and exploration of networks.
 It is open source and free. It is used by analysts, professors, journalists, students. It useful to find patterns and connecting the dots in rich and unstructured datasets, for instance: finding communities, people with key roles in a crowd, identifying connections between items or products, etc.
 
 <div align="center">
@@ -27,7 +27,7 @@ It is open source and free. It is used by analysts, professors, journalists, stu
 The Gephi Code retreat is a one-week event organized by the founding members of Gephi to accelerate the development of the software and help the community of Gephi enthusiasts meet and cohere. That is the second year such a retreat is organized, after a first edition in Copenhagen.
 
 
-## Being a historian, discovering Gephi
+## Being a historian, discovering Gephi in 2010
 
 Gephi is the reason I transitioned from being a historian of science to a social scientist using computational (data-intensive) approaches.
 As a post-doc at the [KNAW](https://www.knaw.nl/en) in the Netherlands in 2008, Gephi had just appeared (there was also [GUESS](http://graphexploration.cond.org/) that I used as well).
@@ -52,7 +52,7 @@ My need was different though: I needed to "make sense" of the network, in a glob
 
 I needed a way to ask all these questions and get a broad sense of whether they were relevant. Also, exploring the data would hopefully reveal other patterns of interest that I had not tought of. To do this, I did not need an analytical tool to test hypotheses, I needed a way to explore my data.
 
-Being completely new to the field of social network analysis, my first impulse was to explore the network **visually**. I found Gephi that was just born at the time, and already so much advanced compared to the classic viz solutions such as [Pajek](http://mrvar.fdv.uni-lj.si/pajek/) or UCINET's [NetDraw](https://sites.google.com/site/netdrawsoftware/download). By the way, it is pretty common for historians to have a similar epiphany with the visualization of networks, and Gephi is a pretty popular tool in the digital humanities.
+Being completely new to the field of social network analysis, my first impulse was to explore the network **visually**. In 2010, I found Gephi, which was already so much advanced compared to the classic viz solutions such as [Pajek](http://mrvar.fdv.uni-lj.si/pajek/) or UCINET's [NetDraw](https://sites.google.com/site/netdrawsoftware/download). By the way, it is pretty common for historians to have a similar epiphany with the visualization of networks, and Gephi is a pretty popular tool in the digital humanities.
 
 (see two publications [1](https://www.nature.com/articles/nrn3354) [2](https://www.frontiersin.org/articles/10.3389/fnhum.2016.00336/full) of my research project on neuroeconomics that used Gephi and [VOSviewer](https://www.vosviewer.com/), another very good network viz tool).
 
@@ -101,7 +101,7 @@ To contribute to new functions for Gephi, that was a step beyond and that felt r
 
 But using Gephi for my research projects, the question of developing features I needed was really nagging. if I just need, you know, a plugin to change the colors of my nodes - surely it can't be *that* hard to create?
 
-In the end, in 2011, I jumped in this strange world of Java, [buying a book for complete beginners](https://www.amazon.fr/Java-Beginners-Guide-Herbert-Schildt-dp-1260463559/dp/1260463559/) and learning how the thing works.
+[After some inquiries in 2010](https://forum-gephi.org/viewtopic.php?f=5&t=229&sid=e5005ceb2af5bf315d56e8a5cc303f12), in the end, in 2011, I jumped in this strange world of Java, [buying a book for complete beginners](https://www.amazon.fr/Java-Beginners-Guide-Herbert-Schildt-dp-1260463559/dp/1260463559/) and learning how the thing works.
 By the way besides a book, everything is free: the software to code ([NetBeans](https://netbeans.apache.org)), and the Java language itself. Not costly to try!
 
 I got hooked when I realized Java was a zillion time faster than Excel. With Excel, I was literally waiting for half an hour to apply operations on my rows, to end up freezing and crashing Excel. With Java that became a 10 seconds operation!
