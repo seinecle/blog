@@ -22,7 +22,7 @@ It is open source and free. It is used by analysts, professors, journalists, stu
    <img src="https://user-images.githubusercontent.com/1244100/189077290-65d51016-df16-4b8c-a154-0cf64ee01eb9.png" title="A screenshot of Gephi" width="500px"/>
 </div>                                                                                                                                  
 
-**Gephi has been downloaded [millions of times](https://seinecle.github.io/gephi-tutorials/generated-html/history-en.html#_a_cumulative_downloads) since its creation**, and the original paper describing Gephi has been cited by close to **[10,000 academic publications from a huge variety of scientific fields]([https://scholar.google.fr/scholar?hl=fr&as_sdt=0%2C5&q=gephi&btnG=](https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=fEDLILQAAAAJ&citation_for_view=fEDLILQAAAAJ:u5HHmVD_uO8C))**.
+**Gephi has been downloaded [millions of times](https://seinecle.github.io/gephi-tutorials/generated-html/history-en.html#_a_cumulative_downloads) since its creation**, and the original paper describing Gephi has been cited by close to **[10,000 academic publications from a huge variety of scientific fields](https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=fEDLILQAAAAJ&citation_for_view=fEDLILQAAAAJ:u5HHmVD_uO8C)**.
 
 The Gephi Code retreat is a one-week event organized by the founding members of Gephi to accelerate the development of the software and help the community of Gephi enthusiasts meet and cohere. That is the second year such a retreat is organized, after a first edition in Copenhagen.
 
@@ -52,7 +52,7 @@ This is a THE Q&A website for programming issues, and browsing back to the first
 
 Knowing how to program came with exponential benefits, beyond Gephi and right away. Java is a versatile language which enabled me to easily [analyze text](https://aclanthology.org/S13-2068/), create [web apps](https://nocodefunctions.com), [desktop apps](https://github.com/seinecle/Gaze), publish courses [in fancy formats](https://seinecle.github.io/mk99/), [grade large groups of students without going mad](https://github.com/emlyon/GradingPicsOnBrightspace), [teach a course on how to create mobile apps](https://seinecle.github.io/codapps/), [create silly personal projects](https://github.com/seinecle/lescalanquessontellesouvertes), and more.
 
-I wrote [tutorials for Gephi](https://seinecle.github.io/gephi-tutorials/), and I continued using Gephi in most of my research projects to this day (on [collusion in European markets](https://onlinelibrary.wiley.com/doi/full/10.1111/jcms.12232), [dynamic inter-banking financial networks](https://www.risk.net/journal-of-network-theory-in-finance/2462066/dynamic-visualization-of-large-financial-networks), and new ways to identify communities on Twitter[https://management-aims.com/index.php/mgmt/article/download/4245/10254?inline=1]).
+I wrote [tutorials for Gephi](https://seinecle.github.io/gephi-tutorials/), and I continued using Gephi in most of my research projects to this day (on [collusion in European markets](https://onlinelibrary.wiley.com/doi/full/10.1111/jcms.12232), [dynamic inter-banking financial networks](https://www.risk.net/journal-of-network-theory-in-finance/2462066/dynamic-visualization-of-large-financial-networks), and new ways to identify [communities on Twitter](https://management-aims.com/index.php/mgmt/article/download/4245/10254?inline=1).
 
 # What did I do / deliver?
 
