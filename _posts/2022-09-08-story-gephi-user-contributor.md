@@ -32,7 +32,7 @@ The Gephi Code retreat is a one-week event organized by the founding members of 
 Gephi is the reason I transitioned from being a historian of science to a social scientist using computational (data-intensive) approaches.
 As a post-doc at the [KNAW](https://www.knaw.nl/en) in the Netherlands in 2008, Gephi had just appeared (there was also [GUESS](http://graphexploration.cond.org/) that I used as well).
 
-I realized that to explore and find insights in networks of neuroeconomists (that was my interest at the time), scrolling through big tables in Excel was going to be difficult:
+I realized that to explore and find insights in networks of scientists (that was my interest at the time), scrolling through big tables in Excel was going to be difficult:
 
 > An author in column A, the co-author in column B.
 How do you make sense of 10,000 of rows like that?
@@ -43,11 +43,11 @@ Networks can be analyzed in formal ways with a body of knowledge called "network
 My need was different though: I needed to "make sense" of the network, in a global and generalist sense. Things like:
 
 - do we see clearly split sub-groups in the network or is it a compact hairball?
-- are two famous neuroeconomists "neighbors" in the network or are they far apart?
-- is the oldest research lab in the field of neuroeconomics at the periphery or at the center of the network?
-- where are European neuroeconmists, relative to their American peers?
+- are two famous scientists "neighbors" in the network or are they far apart?
+- is the oldest research lab at the periphery or at the center of the network?
+- where are European scientists, relative to their American peers?
 - are psychologists scattered in the network or grouped in one region?
-- how are positioned the neuroeconomists who tend to publish on addiction? And those working on animal studies?
+- how are positioned the scientists who tend to publish on addiction? And those working on animal studies?
 - etc...
 
 I needed a way to ask all these questions and get a broad sense of whether they were relevant. Also, exploring the data would hopefully reveal other patterns of interest that I had not tought of. To do this, I did not need an analytical tool to test hypotheses, I needed a way to explore my data.
