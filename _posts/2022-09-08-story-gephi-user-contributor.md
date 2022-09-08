@@ -142,17 +142,30 @@ Things were not linear. I had actually started to create a desktop app called ["
 
 (and yes, Gephi is an exception to this)
 
-So in late 2020 / early 2021, I switched gears and started developing the same functions, but as a web app called [Nocode Functions](https://nocodefunctions.com). I stick to Java, using this time the JSF framework made for web development ([read this blog post](https://nocodefunctions.com/blog/java-frontend-web-app/) I published this summer about this framework!).
+So in late 2020 / early 2021, I switched gears and started developing the same functions, but as a web app called [Nocode Functions](https://nocodefunctions.com):
+
+<div align="center">
+   <img src="https://user-images.githubusercontent.com/1244100/189145097-b163ba0c-e1f1-4730-9422-a7270c272cc9.png" title="home page of nocode functions" width="500px"/>
+</div>  
+
+To develop this web app, I stick to Java and use the JSF framework ([read this blog post](https://nocodefunctions.com/blog/java-frontend-web-app/) I published this summer about this framework!).
 
 And... after one year, [it is a success](https://nocodefunctions.com/blog/nocodefunctions-is-one-year-old/). I personally enjoy a lot developping it, it is easy to deploy, test, maintain, very robust and scalable to any number of function I'd need to add in the future.
 
 ### ... and back to Gephi
 In late Spring / early summer 2022, [Mathieu Jacomy](https://twitter.com/jacomyma) made [a call for Java devs to participate in the 2022 edition of the Gephi Code retreat](https://twitter.com/Gephi/status/1540983723071504384). To be honest I still don't consider myself a "fullfledged" Java dev so I did not answer the call, and was super happy when I was invited to join! 🤗.
 
-This code retreat happened in late August so a week ago. I've published a [short blog post in the middle of it](https://nocodefunctions.com/blog/gephi-code-retreat-2022/) and I'll publish a longer blog post about its conclusion. But in the perspective of my journey as a Gephi user / contributor detailed above, the week constitutes an important step:
+This code retreat happened in late August so a week ago.
+I've published a [short blog post in the middle of it](https://nocodefunctions.com/blog/gephi-code-retreat-2022/) and I'll publish a longer blog post about its conclusion. But in the perspective of my journey as a Gephi user / contributor detailed above, the week constitutes an important step:
 
 - first time in ten years I spend days in contact with the Gephi core contributors. Mathieu Bastian in particular has a lot of knwowledge on the Gephi code base which helped me get unstuck / speed up / expand the horizons of the features I could develop. This made my experience as a developer of Gephi plugins not just more comfortable: it actually helped me overcome difficulties that kept me far from plugins. I can now come back to developing plugins! And I look forward to participating to the following Gephi events of the same nature.
 - I made progress in the way I think of my contributions between Gephi plugins and [Nocode Functions](https://nocodefunctions.com). I believe that I will develop Gephi plugins that are specific to Gephi, typical of a desktop app environment and which are integrated to the Gephi interface by nature. And I will leave other types of functions, which are less "Gephi specific", to Nocode functions.
+
+I hope, I think I have found a balance between the multiple components of my activities as a researcher and developer. Last week during the gephi code retreat, it certainly felt like it 😊:
+
+<div align="center">
+   <img src="[https://user-images.githubusercontent.com/1244100/189145097-b163ba0c-e1f1-4730-9422-a7270c272cc9.png](https://user-images.githubusercontent.com/1244100/189147201-5e483004-d1e5-43a2-9591-4101743fd666.png)" title="clement and a java book during the Gephi code retreat" width="500px"/>
+</div>  
 
 This is a super long post in the end. I am not sure this is of interest to a general readership, maybe more of biographical narrative for my grand-children 😀. But if you are a user of Gephi and read so far, I hope you are now tempted to contribute even more to the community, including with some programming 🚀.
 
