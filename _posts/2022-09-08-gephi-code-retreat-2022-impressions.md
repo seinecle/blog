@@ -37,31 +37,35 @@ As a post-doc at the [KNAW](https://www.knaw.nl/en) in the Netherlands in 2008, 
 
 I realized that to explore and find insights in networks of neuroeconomists (that was my interest at the time), Gephi was going to be much more useful than by scrolling through big tables in Excel (see two publications [1](https://www.nature.com/articles/nrn3354) [2](https://www.frontiersin.org/articles/10.3389/fnhum.2016.00336/full) of this research project that used Gephi and VOSviewer).
 
-## Killer features
+By the way, it is fare from uncommon for historians to have a similar epiphany with the visualization of networks, and Gephi is a a commonly used tool in digital humanities.
 
-The classic workflow in Gephi is super effective at delivering insights:
 
-1. get the big picture: with a dynamic layout you get immediately a sense of the size, patterns of relations, core / periphery structure... that characterize the network:
+## Gephi's killer features
+
+The basic workflow in Gephi is super effective at delivering insights.
+Each step is a simple one-click operation!
+
+1. **get the big picture**: apply a layout to immediately get a sense of the size, patterns of relations, core / periphery structure... that characterize the network:
 
 <div align="center">
    <img src="http://www.martingrandjean.ch/wp-content/uploads/2016/05/Airports-network.gif" title="airport network animation with Gephi by Martin Grandjean" width="300px"/>
 </div>   
 
 
+2. **detect communities** (in one-click): quickly see how a crowd divides in sub-groups, based on the pattern of connections between the members of the group
 
-3. detect communities (in one-click): quickly see how a crowd divides in sub-groups, based on the pattern of connections between the members of the group
-4. find central nodes: which member of the group has the most connections? Who is placed "in the middle", relation to the others?
-5. zoom on sub-regions: what if we filter out all the network except for one group of nodes and their relations: can we identify local communities within this subnetwork? Who are the central actors within this region?
+3. **find central nodes**: which member of the group has the most connections? Who is placed "in the middle", relation to the others?
 
-The killer feature of Gephi is that these 3 operations have an intuitive, **illustrated** expression in Gephi:
+4. **zoom on sub-regions**: what if we filter out all the network except for one group of nodes and their relations: can we identify local communities within this subnetwork? Who are the central actors within this region?
 
-1. Paint different communities in different colors
-2. Scale the size of the nodes according to their centrality
-3. hide the parts of the network you want to ignore, continue working on the visible part
-4. 
+The killer feature of Gephi is that these 4 operations have an intuitive, **illustrated** expression in Gephi:
 
+1. The layout (with Force Atlas) deploys / unfolds progressively, showing how the connection micro-patterns progressively moulds the final, global result 
+2. Visualize different communities by painting them in different colors
+3. Visualize the importance of each node by resizing them according to their centrality
+4. Explore subregions by hiding the parts of the network you want to ignore - just apply a filter in one click 
 
-
+## From enthusiastic user to contributor
 
 I started asking a lot of questions on the [now defunct Gephi forum](https://forum-gephi.org/), and answering lots of questions as well.
 The community of users is now the most active in a [private Facebook group](https://www.facebook.com/groups/gephi) (join!), where I continue being active.
@@ -69,9 +73,11 @@ The community of users is now the most active in a [private Facebook group](http
 Quickly as a user of Gephi, I was frustrated not being able to access basic functions I needed.
 "Gephi can be extended with plugins" is a reply I often got.
 As I am not a computer scientist, this sounded too hard.
-But if I just need, you know, a plugin to change the colors of my nodes - surely it can't be *that* hard to create? 
+But if I just need, you know, a plugin to change the colors of my nodes - surely it can't be *that* hard to create?
 
-In the end, in 2011, I jumped in this strange world of Java, [buying a book for complete beginners](https://www.amazon.fr/Java-Beginners-Guide-Herbert-Schildt-dp-1260463559/dp/1260463559/) and learning how the thing works. Besides a book, everything is free: the software to code (I still use [NetBeans](https://netbeans.apache.org)), and the Java language itself. Not costly to try!
+In the end, in 2011, I jumped in this strange world of Java, [buying a book for complete beginners](https://www.amazon.fr/Java-Beginners-Guide-Herbert-Schildt-dp-1260463559/dp/1260463559/) and learning how the thing works.
+Besides a book, everything is free: the software to code (I still use [NetBeans](https://netbeans.apache.org)), and the Java language itself.
+Not costly to try!
 
 I got hooked when I realized it was a zillion time faster than Excel - literally waiting for half an hour to end up crashing Excel became a 10 seconds operation!
 I used Java first to create custom gexf files (custom made networks!!) and finally [some plugins for Gephi](https://gephi.org/plugins/#/browse/search/levallois).
@@ -79,7 +85,9 @@ I used Java first to create custom gexf files (custom made networks!!) and final
 Another big help in learning how to program was Stackoverflow.
 This is THE Q&A website for programming issues, and browsing back to the first question I asked on it, you see it really shows that I was [transitioning from Excel to Java](https://stackoverflow.com/revisions/7200090/1)!
 
-Knowing how to program came with exponential benefits, beyond Gephi and right away. Java is a versatile language which enabled me to easily [analyze text](https://aclanthology.org/S13-2068/), create [web apps](https://nocodefunctions.com), [desktop apps](https://github.com/seinecle/Gaze), publish courses [in fancy formats](https://seinecle.github.io/mk99/), [grade large groups of students without going mad](https://github.com/emlyon/GradingPicsOnBrightspace), [teach a course on how to create mobile apps](https://seinecle.github.io/codapps/), [create silly personal projects](https://github.com/seinecle/lescalanquessontellesouvertes), and more.
+## Using Gephi programmatically - the additional benefits
+
+Knowing how to program came with exponential benefits, beyond Gephi, and right away. Java is a versatile language which enabled me to easily [analyze text](https://aclanthology.org/S13-2068/), create [web apps](https://nocodefunctions.com), [desktop apps](https://github.com/seinecle/Gaze), publish courses [in fancy formats](https://seinecle.github.io/mk99/), [grade large groups of students without going mad](https://github.com/emlyon/GradingPicsOnBrightspace), [teach a course on how to create mobile apps](https://seinecle.github.io/codapps/), [create silly personal projects](https://github.com/seinecle/lescalanquessontellesouvertes), and more.
 
 I wrote [tutorials for Gephi](https://seinecle.github.io/gephi-tutorials/), and I continued using Gephi in most of my research projects to this day (on [collusion in European markets](https://onlinelibrary.wiley.com/doi/full/10.1111/jcms.12232), [dynamic inter-banking financial networks](https://www.risk.net/journal-of-network-theory-in-finance/2462066/dynamic-visualization-of-large-financial-networks), and new ways to identify [communities on Twitter](https://management-aims.com/index.php/mgmt/article/download/4245/10254?inline=1).
 
