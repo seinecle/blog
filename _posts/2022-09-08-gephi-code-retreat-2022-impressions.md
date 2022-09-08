@@ -90,22 +90,25 @@ In the course of using Gephi, I started asking a lot of questions on the [now de
 
 Even with the help I received on the forum ([Sébastien Heymann](https://www.linkedin.com/in/heymann) did a lot here!), I was frustrated by the absence of basic functions I needed. Like: paint a node in green if it has the text "green" stored in one of its attributes. How to get these functions I needed?
 
-Gephi is a free and open source product, developed by a very small team of volunteers on their free time, and Gephi as it is is already a huuuuge accomplishment. I had heard of "open source software" but Gephi made me realize that there is nothing that justified for me to stay on the sidelines and complain - if I want something, I could at least try to contribute?
+Gephi is a free and open source product, developed by a very small team of volunteers on their free time. That they could create Gephi and take the time to answer all my questions felt already huge. I had heard of "open source software" but the scale and impact of Gephi made me realize that there was nothing that justified for me to stay on the sidelines and complain - if I want something, I could at least make an effort and try to contribute?
 
-The first thing I did was contributing to helping fellow users on the forum. I was an intensive user of Gephi, so there was plenty of cases when people were stuck on issues that could be solved by simply explaining where to click in Gephi and that sorts of things.
+The first thing I did was contribute to helping fellow users on the forum. I was an intensive user of Gephi, so there was plenty of cases when people were stuck on issues that could be solved by simply explaining where to click in Gephi and that sorts of things. It was relatively low effort but it felt already good to give back and also receive thank you messages from the users I helped (it should be noted that the Gephi community is really super nice btw - I can't remember that we ever encountered a troll on the forum or the FB group!)
 
 ## Starting developping Gephi plugins
 
 To contribute to new functions for Gephi, that was a step beyond and that felt really out of reach.
-[Almost since its inception](https://seinecle.github.io/gephi-tutorials/generated-html/history-en.html#_b_version_0_7_2010), Gephi comes with a [system of plugins](https://gephi.org/plugins/#/) that anyone can develop. But as I am not a computer scientist, this sounded too hard. I had an experience in VBA (the programming language for Excel) as an amateur, but Gephi is developed in Java which sounded like a serious, complicated thing. It even necessitates to install a software to use it
-But if I just need, you know, a plugin to change the colors of my nodes - surely it can't be *that* hard to create?
+[Almost since its inception](https://seinecle.github.io/gephi-tutorials/generated-html/history-en.html#_b_version_0_7_2010), Gephi came with a [system of plugins](https://gephi.org/plugins/#/) that anyone can develop. But as I am not a computer scientist, this sounded too hard. I had an experience in VBA (the programming language for Excel) as an real amateur, but Gephi is developed in Java and that felt like another league. Java even necessitates to install a software to use it.  I had tried to download and install it (it is called NetBeans, there are others too). Being a real newbie I felt utterly lost: what are the menus and windows in this software *even supposed to do*? I had no clue.
+
+But using Gephi for my research projects, the question of developing features I needed was really nagging. if I just need, you know, a plugin to change the colors of my nodes - surely it can't be *that* hard to create?
 
 In the end, in 2011, I jumped in this strange world of Java, [buying a book for complete beginners](https://www.amazon.fr/Java-Beginners-Guide-Herbert-Schildt-dp-1260463559/dp/1260463559/) and learning how the thing works.
-Besides a book, everything is free: the software to code (I still use [NetBeans](https://netbeans.apache.org)), and the Java language itself.
-Not costly to try!
+By the way besides a book, everything is free: the software to code ([NetBeans](https://netbeans.apache.org)), and the Java language itself. Not costly to try!
 
-I got hooked when I realized it was a zillion time faster than Excel - literally waiting for half an hour to end up crashing Excel became a 10 seconds operation!
+I got hooked when I realized Java was a zillion time faster than Excel. With Excel, I was literally waiting for half an hour to apply operations on my rows, to end up freezing and crashing Excel. With Java that became a 10 seconds operation!
+
 I used Java first to create custom gexf files (custom made networks!!) and finally [some plugins for Gephi](https://gephi.org/plugins/#/browse/search/levallois).
+
+My coding style was horrendous. I remember showing my code Francesco Ficarola (I believe), the developer of a Java library that helps create gexf files. I think he said that his eyes burnt. But with time, things improve!
 
 Another big help in learning how to program was Stackoverflow.
 This is THE Q&A website for programming issues, and browsing back to the first question I asked on it, you see it really shows that I was [transitioning from Excel to Java](https://stackoverflow.com/revisions/7200090/1)!
@@ -116,20 +119,7 @@ Knowing how to program came with exponential benefits, beyond Gephi, and right a
 
 I wrote [tutorials for Gephi](https://seinecle.github.io/gephi-tutorials/), and I continued using Gephi in most of my research projects to this day (on [collusion in European markets](https://onlinelibrary.wiley.com/doi/full/10.1111/jcms.12232), [dynamic inter-banking financial networks](https://www.risk.net/journal-of-network-theory-in-finance/2462066/dynamic-visualization-of-large-financial-networks), and new ways to identify [communities on Twitter](https://management-aims.com/index.php/mgmt/article/download/4245/10254?inline=1).
 
-# What did I do / deliver?
 
-I worked the full week on creating a plugin for Gephi that will allow a user, directly while using Gephi, to export the network they are working on to the web.
-The network will be viewable and explorable from the browser, and shareable with a simple url.
-
-[A short video with a live demo available here](https://www.twitch.tv/videos/1579615061?t=01h28m54s) explains all the details.
-
-It is important and fair to note that the plugin leverages 2 key resources that I did not develop myself - [Alexis Jacomy](https://twitter.com/jacomyal) and [Ouestware](https://www.ouestware.com/en/) developed and designed them:
-
-- the library to visualize the networks on the web, which is called [Retina](https://ouestware.gitlab.io/retina/beta/)
-- the roadmap to actually export the network to the web, which involves creating a Gist on Github, and [which is publicly discussed here](https://github.com/gephi/gephi-plugins/issues/262#issuecomment-1231627948).
-
-The plugin is not released yet, as it needs to be reviewed and will probably be released with a bunch of other deliverables produced by other contributors during this week.
-You can [check the code here](https://github.com/gephi/gephi-plugins/tree/web-publish-plugin/modules/WebPublishPlugin), and see that I continue to push updates to refine it.
 
 # If you'd like to see the Gephi week or what I'm doing
 
