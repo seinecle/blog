@@ -34,7 +34,7 @@ As a post-doc at the [KNAW](https://www.knaw.nl/en) in the Netherlands in 2008, 
 
 I realized that to explore and find insights in networks of neuroeconomists (that was my interest at the time), scrolling through big tables in Excel was going to be difficult:
 
-An author in column A, the co-author in column B.
+> An author in column A, the co-author in column B.
 How do you make sense of 10,000 of rows like that?
 
 Relations between authors in column A and their co-authors in column B describe a network.
