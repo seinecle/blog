@@ -39,11 +39,18 @@ The community of users is now the most active in a [private Facebook group](http
 
 Quickly as a user of Gephi, I was frustrated not being able to access basic functions I needed.
 "Gephi can be extended with plugins" is a reply I often got.
-As I am not a computer scientist, this sounded too hard. But if I just need, you know, a plugin to change the colors of my nodes - surely it can't be *that* hard to create? 
+As I am not a computer scientist, this sounded too hard.
+But if I just need, you know, a plugin to change the colors of my nodes - surely it can't be *that* hard to create? 
 
-In the end, I jumped in this strange world of Java, [buying a book for complete beginners](https://www.amazon.fr/Java-Beginners-Guide-Herbert-Schildt-dp-1260463559/dp/1260463559/) and learning how the thing works. I got hooked when I realized it was a zillion time faster than Excel, when I used it to create custom gexf files (custom made networks!!) and finally [some plugins for Gephi](https://gephi.org/plugins/#/browse/search/levallois).
+In the end, in 2012, I jumped in this strange world of Java, [buying a book for complete beginners](https://www.amazon.fr/Java-Beginners-Guide-Herbert-Schildt-dp-1260463559/dp/1260463559/) and learning how the thing works. Besides a book, everything is free: the software to code (I still use [NetBeans](https://netbeans.apache.org)), and the Java language itself. Not costly to try!
 
-Knowing how to program came with exponential benefits, beyond Gephi. Java is a versatile language which enabled me to easily [analyze text](https://aclanthology.org/S13-2068/), create [web apps](https://nocodefunctions.com), [desktop apps](https://github.com/seinecle/Gaze), publish courses [in fancy formats](https://seinecle.github.io/mk99/), [grade large groups of students without going mad](https://github.com/emlyon/GradingPicsOnBrightspace), [teach a course on how to create mobile apps](https://seinecle.github.io/codapps/), [create silly personal projects](https://github.com/seinecle/lescalanquessontellesouvertes), and more.
+I got hooked when I realized it was a zillion time faster than Excel - literally waiting for half an hour to end up crashing Excel became a 10 seconds operation!
+I used Java first to create custom gexf files (custom made networks!!) and finally [some plugins for Gephi](https://gephi.org/plugins/#/browse/search/levallois).
+
+Another big help in learning how to program was Stackoverflow.
+This is a THE Q&A website for programming issues, and browsing back to the first question I asked on it, you see it really shows that I was [transitioning from Excel to Java](https://stackoverflow.com/questions/7200090/java-string-classes-or-packages-with-advanced-functions)!
+
+Knowing how to program came with exponential benefits, beyond Gephi and right away. Java is a versatile language which enabled me to easily [analyze text](https://aclanthology.org/S13-2068/), create [web apps](https://nocodefunctions.com), [desktop apps](https://github.com/seinecle/Gaze), publish courses [in fancy formats](https://seinecle.github.io/mk99/), [grade large groups of students without going mad](https://github.com/emlyon/GradingPicsOnBrightspace), [teach a course on how to create mobile apps](https://seinecle.github.io/codapps/), [create silly personal projects](https://github.com/seinecle/lescalanquessontellesouvertes), and more.
 
 I wrote [tutorials for Gephi](https://seinecle.github.io/gephi-tutorials/), and I continued using Gephi in most of my research projects to this day (on [collusion in European markets](https://onlinelibrary.wiley.com/doi/full/10.1111/jcms.12232), [dynamic inter-banking financial networks](https://www.risk.net/journal-of-network-theory-in-finance/2462066/dynamic-visualization-of-large-financial-networks), and new ways to identify communities on Twitter[https://management-aims.com/index.php/mgmt/article/download/4245/10254?inline=1]).
 
