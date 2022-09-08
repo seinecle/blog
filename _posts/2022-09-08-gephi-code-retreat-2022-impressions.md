@@ -14,8 +14,8 @@ last_modified_at_readable:   Sept 08, 2022
 Two-line summary if you don't know Gephi. Born around 2010, [Gephi](https://gephi.org) is the leading software for the visualization and exploration of networks.
 It is open source and free. It is used by analysts, professors, journalists, students. It useful to find patterns and connecting the dots in rich and unstructured datasets, for instance: finding communities, people with key roles in a crowd, identifying connections between items or products, etc.
 
-<div aling="center">
-   <img src="https://user-images.githubusercontent.com/1244100/189077290-65d51016-df16-4b8c-a154-0cf64ee01eb9.png" title="A screenshot of Gephi" width="500px/>
+<div align="center">
+   <img src="https://user-images.githubusercontent.com/1244100/189077290-65d51016-df16-4b8c-a154-0cf64ee01eb9.png" title="A screenshot of Gephi" width="500px"/>
 </div>                                                                                                                                  
 
 **Gephi has been downloaded [millions of times](https://seinecle.github.io/gephi-tutorials/generated-html/history-en.html#_a_cumulative_downloads) since its creation**, and the original paper describing Gephi has been cited by close to **[10,000 academic publications from a huge variety of scientific fields]([https://scholar.google.fr/scholar?hl=fr&as_sdt=0%2C5&q=gephi&btnG=](https://scholar.google.fr/citations?view_op=view_citation&hl=fr&user=fEDLILQAAAAJ&citation_for_view=fEDLILQAAAAJ:u5HHmVD_uO8C))**.
