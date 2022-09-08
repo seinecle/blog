@@ -30,12 +30,16 @@ The Gephi Code retreat is a one-week event organized by the founding members of 
 # My relation to Gephi
 
 
-## From a historian to discovering Gephi
+## Being a historian, discovering Gephi
 
 Gephi is the reason I transitioned from being a historian of science to a social scientist using computational (data-intensive) approaches.
 As a post-doc at the [KNAW](https://www.knaw.nl/en) in the Netherlands in 2008, Gephi had just appeared (there was also [GUESS](http://graphexploration.cond.org/) that I used as well).
 
-I realized that to explore and find insights in networks of neuroeconomists (that was my interest at the time), Gephi was going to be much more useful than by scrolling through big tables in Excel (see two publications [1](https://www.nature.com/articles/nrn3354) [2](https://www.frontiersin.org/articles/10.3389/fnhum.2016.00336/full) of this research project that used Gephi and VOSviewer).
+I realized that to explore and find insights in networks of neuroeconomists (that was my interest at the time), scrolling through big tables in Excel was going to be difficult. One column with an author of a publication in neuroeconomics, another column with the name of the co-author. How do you make sense of 10,000 of rows like that?
+
+These data describe a network, and networks can be analyzed in formals ways with a body of knowledge called "social network analysis" and dedicated software like UCINET 
+
+(see two publications [1](https://www.nature.com/articles/nrn3354) [2](https://www.frontiersin.org/articles/10.3389/fnhum.2016.00336/full) of this research project that used Gephi and VOSviewer).
 
 By the way, it is fare from uncommon for historians to have a similar epiphany with the visualization of networks, and Gephi is a a commonly used tool in digital humanities.
 
