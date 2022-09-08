@@ -156,13 +156,13 @@ This code retreat happened in late August so a week ago. I've published a [short
 
 This is a super long post in the end. I am not sure this is of interest to a general readership, maybe more of biographical narrative for my grand-children 😀. But if you are a user of Gephi and read so far, I hope you are now tempted to contribute even more to the community, including with some programming 🚀.
 
-# If you'd like to see the Gephi week or what I'm doing
+# Some of my contributions to Gephi / get in touch
 
 - Here are the [Gephi plugins I have developed over the years](https://gephi.org/plugins/#/browse/search/levallois)
 - [A short video with a live demo of the plugin I have developed during the Gephi code retreat](https://www.twitch.tv/videos/1579615061?t=01h28m54s)
 
 The [tutorials for Gephi](https://seinecle.github.io/gephi-tutorials/) I have written.
-[Bocode functions](https://nocodefunctions.com) 🔎, the web app that that can also serve the needs of the community of Gephi users. It is [fully open source](https://github.com/seinecle/nocodefunctions).
+[Nocode functions](https://nocodefunctions.com) 🔎, the web app that that can also serve the needs of the community of Gephi users. It is [fully open source](https://github.com/seinecle/nocodefunctions).
 Try it and give some feedback, I would appreciate it!
 
 * my email: [admin@clementlevallois.net](mailto:admin@clementlevallois.net) 📧
