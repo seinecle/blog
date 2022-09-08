@@ -127,16 +127,42 @@ Knowing how to program came with exponential benefits, beyond Gephi, and right a
 
 I wrote [tutorials for Gephi](https://seinecle.github.io/gephi-tutorials/), and I continued using Gephi in most of my research projects to this day (on [collusion in European markets](https://onlinelibrary.wiley.com/doi/full/10.1111/jcms.12232), [dynamic inter-banking financial networks](https://www.risk.net/journal-of-network-theory-in-finance/2462066/dynamic-visualization-of-large-financial-networks), and new ways to identify [communities on Twitter](https://management-aims.com/index.php/mgmt/article/download/4245/10254?inline=1).
 
+## Expanding beyond Gephi and coming back to it
 
+### Moving away from Gephi...
+In the last few years, I did not prioritize the development or maintenance of the Gephi plugins I had created in 2012-2016, for several reasons. On one side, my research and admin activities as a professor led me in other directions. Also, the plugins I have developed are pretty complex and with a code of poor quality which makes it hard to maintain.
+
+In 2020, I found the time to think about how to (re-)deploy my efforts in the area of coding and development, looking at how to achieve a form of [long term impact with my research activities when they are translated and packaged in software form](https://nocodefunctions.com/blog/long-game/). Create more Gephi plugins? Gather all the functions I have created under the umbrella of a desktop app? Or a web app? I just knew that in the spirit of my Gephi plugins, the interface would be click-and-point, meant for technical users who don't code.
+
+Things were not linear. I had actually started to create a desktop app called ["Nocode app"](https://seinecle.github.io/nocodeapp-mods) that would include all the functions that a Gephi user would find interesting, and more: functions for text analysis, for instance. Developed with [JavaFX](https://openjfx.io/), I soon realized that:
+
+1. Yes, JavaFX is a great Java framework for desktop apps, it is super enjoyable to develop with it
+1. but launching, testing and maintaining a desktop app is just daunting
+2. desktop apps are not popular at all compared to web apps
+
+(and yes, Gephi is an exception to this)
+
+So in late 2020 / early 2021, I switched gears and started developing the same functions, but as a web app called [Nocode Functions](https://nocodefunctions.com). I stick to Java, using this time the JSF framework made for web development ([read this blog post](https://nocodefunctions.com/blog/java-frontend-web-app/) I published this summer about this framework!).
+
+And... afdter, one year, [it is a success](https://nocodefunctions.com/blog/nocodefunctions-is-one-year-old/). I personally enjoy a lot developping it, it is easy to deploy, test, maintain, very robust and scalable to any number of function I'd need to add in the future.
+
+### ... and back to Gephi
+In late Spring / early summer 2022, [Mathieu Jacomy](https://twitter.com/jacomyma) made [a call for Java devs to participate in the 2022 edition of the Gephi Code retreat](https://twitter.com/Gephi/status/1540983723071504384). To be honest I still don't consider myself a "fullfledged" Java dev so I did not answer the call, and was super happy when I was invited to join! 🤗.
+
+This code retreat happened in late August so a week ago. I've published a [short blog post in the middle of it](https://nocodefunctions.com/blog/gephi-code-retreat-2022/) and I'll publish a longer blog post about its conclusion. But in the perspective of my journey as a Gephi user / contributor I have detailed above, the week constitutes an important step:
+
+- first time in ten years I spend days in contact with the Gephi core contributors. Mathieu Bastian in particular has a lot of knwowledge on the Gephi code base which helped me get unstuck / speed up / expand the horizons of the features I could develop. This made my experience as a developer of Gephi plugins not just more comfortable: it actually helped me overcome difficulties that kept me far from plugins. I can now come back to developing plugins! And I look forward to participating to the following Gephi events of the same nature.
+- I made progress in the way I think of my contributions between Gephi plugins and [Nocode Functions](https://nocodefunctions.com). I believe that I will develop Gephi plugins that are specific to Gephi, typical of desktop app environment and which are integrated to the Gephi interface by nature. And I will leave other types of functions, which are less "Gephi specific", to Nocode functions.
+
+This is a super long post in the end. I am not sure this is of interest to a general readership, maybe more of biographical narrative for my grand-children 😀. But if you are a user of Gephi and read so far, I hope you are now tempted to contribute even more to the community, including with some programming 🚀.
 
 # If you'd like to see the Gephi week or what I'm doing
 
-- Check the [Twitch stream of the Gephi week](https://www.twitch.tv/datalgo) - I'll try to say hi this afternoon (Paris time)
-- Get fresh news from the [Gephi Twitter account](https://twitter.com/Gephi) and also from [Datalgo](https://twitter.com/nicolasbchb)
 - Here are the [Gephi plugins I have developed over the years](https://gephi.org/plugins/#/browse/search/levallois)
+- [A short video with a live demo of the plugin I have developed during the Gephi code retreat](https://www.twitch.tv/videos/1579615061?t=01h28m54s)
 
-I have written [tutorials for Gephi](https://seinecle.github.io/gephi-tutorials/).
-I also build [nocode functions](https://nocodefunctions.com) 🔎 that can also serve the needs of the community of Gephi users. It is [fully open source](https://github.com/seinecle/nocodefunctions).
+The [tutorials for Gephi](https://seinecle.github.io/gephi-tutorials/) I have written.
+[Bocode functions](https://nocodefunctions.com) 🔎, the web app that that can also serve the needs of the community of Gephi users. It is [fully open source](https://github.com/seinecle/nocodefunctions).
 Try it and give some feedback, I would appreciate it!
 
 * my email: [admin@clementlevallois.net](mailto:admin@clementlevallois.net) 📧
