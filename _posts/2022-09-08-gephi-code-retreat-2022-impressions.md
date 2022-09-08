@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Gephi code retreat for 2022 - why did I participate?
-permalink: /gephi-code-retreat-2022-why-participating/
+title: My story as a Gephi user and contributor
+permalink: /story-gephi-user-contributor/
 published: false
 date_readable:               Sept 08, 2022
 last_modified_at_readable:   Sept 08, 2022
