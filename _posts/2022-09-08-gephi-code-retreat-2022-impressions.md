@@ -43,8 +43,8 @@ The classic workflow in Gephi is super effective at delivering insights:
 
 1. get the big picture: with a dynamic layout you get immediately a sense of the size, patterns of relations, core / periphery structure... that characterize the network:
 
-<div>
-   <img src="http://www.martingrandjean.ch/wp-content/uploads/2016/05/Airports-network.gif"/>
+<div align="center">
+   <img src="http://www.martingrandjean.ch/wp-content/uploads/2016/05/Airports-network.gif" title="airport network animation with Gephi by Martin Grandjean" width="300px"/>
 </div>   
 
 
