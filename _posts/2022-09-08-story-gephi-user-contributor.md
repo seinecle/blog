@@ -61,7 +61,7 @@ Being completely new to the field of social network analysis, my first impulse w
 The basic workflow in Gephi is super effective at delivering insights.
 Each step is a simple one-click operation!
 
-1. **get the big picture**: apply a layout to immediately get a sense of the size, patterns of relations, core / periphery structure... that characterize the network:
+1. **get the big picture**: apply a layout to immediately get a sense of the size, patterns of relations, core / periphery structure... that characterize the network ([source](http://www.martingrandjean.ch/connected-world-air-traffic-network/)):
 
 <div align="center">
    <img src="http://www.martingrandjean.ch/wp-content/uploads/2016/05/Airports-network.gif" title="airport network animation with Gephi by Martin Grandjean" width="300px"/>
