@@ -50,7 +50,9 @@ My need was different though: I needed to "make sense" of the network, in a glob
 - how are positioned the neuroeconomists who tend to publish on addiction? And those working on animal studies?
 - etc...
 
-Being completely new to the field of social network analysis, my first impulse was to find answers to my questions by exploring **visually** the network. I found Gephi that was just born at the time, and already so much advanced compared to the classic viz solutions such as [Pajek](http://mrvar.fdv.uni-lj.si/pajek/) or UCINET's [NetDraw](https://sites.google.com/site/netdrawsoftware/download). By the way, it is pretty common for historians to have a similar epiphany with the visualization of networks, and Gephi is a pretty popular tool in the digital humanities.
+I needed a way to ask all these questions and get a broad sense of whether they were relevant. Also, exploring the data would hopefully reveal other patterns of interest that I had not tought of. To do this, I did not need an analytical tool to test hypotheses, I needed a way to explore my data.
+
+Being completely new to the field of social network analysis, my first impulse was to explore the network **visually**. I found Gephi that was just born at the time, and already so much advanced compared to the classic viz solutions such as [Pajek](http://mrvar.fdv.uni-lj.si/pajek/) or UCINET's [NetDraw](https://sites.google.com/site/netdrawsoftware/download). By the way, it is pretty common for historians to have a similar epiphany with the visualization of networks, and Gephi is a pretty popular tool in the digital humanities.
 
 (see two publications [1](https://www.nature.com/articles/nrn3354) [2](https://www.frontiersin.org/articles/10.3389/fnhum.2016.00336/full) of my research project on neuroeconomics that used Gephi and [VOSviewer](https://www.vosviewer.com/), another very good network viz tool).
 
@@ -68,7 +70,7 @@ Each step is a simple one-click operation!
 
 2. **detect communities** (in one-click): quickly see how a crowd divides in sub-groups, based on the pattern of connections between the members of the group
 
-3. **find central nodes**: which member of the group has the most connections? Who is placed "in the middle", relation to the others?
+3. **find central nodes**: which member of the group has the most connections? Who is placed "in the middle of the network"?
 
 4. **explore attributes**: Gephi can handle the attributes attached to the members of the network. Not just their name, but any textual or numerical attribute you have stored on them. Occupation, gender, city, year of birth... 
 
@@ -82,14 +84,20 @@ Each step is a simple one-click operation!
 4. Visualize attributes by switching on the display of labels attached to the nodes, or by painting the nodes in colors representing categories ("blue nodes for professors, "red nodes for post-docs").
 5. Explore subregions by hiding the parts of the network you want to ignore - just apply a filter in one click 
 
-## From enthusiastic user to contributor
+## From enthusiastic user to first steps as a contributor
 
-I started asking a lot of questions on the [now defunct Gephi forum](https://forum-gephi.org/), and answering lots of questions as well.
-The community of users is now the most active in a [private Facebook group](https://www.facebook.com/groups/gephi) (join!), where I continue being active.
+In the course of using Gephi, I started asking a lot of questions on the [now defunct Gephi forum](https://forum-gephi.org/). The community of users is now the most active in a [private Facebook group](https://www.facebook.com/groups/gephi) with close to 10,000 members (join!), where I continue being active.
 
-Quickly as a user of Gephi, I was frustrated not being able to access basic functions I needed.
-"Gephi can be extended with plugins" is a reply I often got.
-As I am not a computer scientist, this sounded too hard.
+Even with the help I received on the forum ([Sébastien Heymann](https://www.linkedin.com/in/heymann) did a lot here!), I was frustrated by the absence of basic functions I needed. Like: paint a node in green if it has the text "green" stored in one of its attributes. How to get these functions I needed?
+
+Gephi is a free and open source product, developed by a very small team of volunteers on their free time, and Gephi as it is is already a huuuuge accomplishment. I had heard of "open source software" but Gephi made me realize that there is nothing that justified for me to stay on the sidelines and complain - if I want something, I could at least try to contribute?
+
+The first thing I did was contributing to helping fellow users on the forum. I was an intensive user of Gephi, so there was plenty of cases when people were stuck on issues that could be solved by simply explaining where to click in Gephi and that sorts of things.
+
+## Starting developping Gephi plugins
+
+To contribute to new functions for Gephi, that was a step beyond and that felt really out of reach.
+[Almost since its inception](https://seinecle.github.io/gephi-tutorials/generated-html/history-en.html#_b_version_0_7_2010), Gephi comes with a [system of plugins](https://gephi.org/plugins/#/) that anyone can develop. But as I am not a computer scientist, this sounded too hard. I had an experience in VBA (the programming language for Excel) as an amateur, but Gephi is developed in Java which sounded like a serious, complicated thing. It even necessitates to install a software to use it
 But if I just need, you know, a plugin to change the colors of my nodes - surely it can't be *that* hard to create?
 
 In the end, in 2011, I jumped in this strange world of Java, [buying a book for complete beginners](https://www.amazon.fr/Java-Beginners-Guide-Herbert-Schildt-dp-1260463559/dp/1260463559/) and learning how the thing works.
