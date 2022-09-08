@@ -164,7 +164,7 @@ I've published a [short blog post in the middle of it](https://nocodefunctions.c
 I hope, I think I have found a balance between the multiple components of my activities as a researcher and developer. Last week during the gephi code retreat, it certainly felt like it 😊:
 
 <div align="center">
-   <img src="[https://user-images.githubusercontent.com/1244100/189145097-b163ba0c-e1f1-4730-9422-a7270c272cc9.png](https://user-images.githubusercontent.com/1244100/189147201-5e483004-d1e5-43a2-9591-4101743fd666.png)" title="clement and a java book during the Gephi code retreat" width="500px"/>
+   <img src="https://user-images.githubusercontent.com/1244100/189147201-5e483004-d1e5-43a2-9591-4101743fd666.png" title="clement and a java book during the Gephi code retreat" width="500px"/>
 </div>  
 
 This is a super long post in the end. I am not sure this is of interest to a general readership, maybe more of biographical narrative for my grand-children 😀. But if you are a user of Gephi and read so far, I hope you are now tempted to contribute even more to the community, including with some programming 🚀.
