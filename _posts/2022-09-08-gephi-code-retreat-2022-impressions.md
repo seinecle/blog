@@ -10,7 +10,7 @@ last_modified_at_readable:   Sept 08, 2022
 *My personal thoughts on the Gephi Code Retreat - 2022 edition, to which I participated in Paris last week*
 
 <div align="center">
-   <img src="https://fr.m.wikipedia.org/wiki/Fichier:Gephi-logo.png" title="The Gephi logo" width="300px"/>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Gephi-logo.png" title="The Gephi logo" width="300px"/>
 </div>  
 
 # Quick background on Gephi
@@ -29,9 +29,19 @@ The Gephi Code retreat is a one-week event organized by the founding members of 
 
 # My relation to Gephi
 
-Gephi is the reason I transitioned from being a historian of science to a social scientist using computational (data-intensive) approaches. As a post-doc at the [KNAW](https://www.knaw.nl/en) in the Netherlands in 2008, Gephi had just appeared and I realized that visualizing my network of scientists, instead of keeping them in big tables in Excel, was the way I could understand and communicate about my research interests (see two publications [1](https://www.nature.com/articles/nrn3354) [2](https://www.frontiersin.org/articles/10.3389/fnhum.2016.00336/full) of this research project that used Gephi and VOSviewer).
+Gephi is the reason I transitioned from being a historian of science to a social scientist using computational (data-intensive) approaches.
+As a post-doc at the [KNAW](https://www.knaw.nl/en) in the Netherlands in 2008, Gephi had just appeared (there was also [GUESS](http://graphexploration.cond.org/) that I used as well).
 
-This made me learn Java so that I could develop [plugins for Gephi](https://gephi.org/plugins/#/browse/search/levallois), then I wrote [tutorials for Gephi](https://seinecle.github.io/gephi-tutorials/), and I continued using Gephi in most of my research projects to this day (on [collusion in European markets](https://onlinelibrary.wiley.com/doi/full/10.1111/jcms.12232), [dynamic inter-banking financial networks](https://www.risk.net/journal-of-network-theory-in-finance/2462066/dynamic-visualization-of-large-financial-networks), and new ways to identify communities on Twitter[https://management-aims.com/index.php/mgmt/article/download/4245/10254?inline=1]).
+I realized that to explore and find insights in networks of neuroeconomists (that was my interest at the time), Gephi was going to be much more useful than by scrolling through big tables in Excel (see two publications [1](https://www.nature.com/articles/nrn3354) [2](https://www.frontiersin.org/articles/10.3389/fnhum.2016.00336/full) of this research project that used Gephi and VOSviewer).
+
+I started asking a lot of questions on the [now defunct Gephi forum](https://forum-gephi.org/), and answering lots of questions as well.
+The community of users is now the most active in a [private Facebook group](https://www.facebook.com/groups/gephi) (join!), where I continue being active.
+
+Quickly as a user of Gephi, I was frustrated not being able to access basic functions I needed. "Gephi can be extended with plugins" is a reply I often got. As I am not a computer scientist, this sounded too hard. But if I just need, you know, a plugin to change the colors of my nodes - surely it can't be *that* hard to create? 
+
+In the end, I jumped in this strange world of Java, [buying a book for comlete beginners](https://www.amazon.fr/Java-Beginners-Guide-Herbert-Schildt-dp-1260463559/dp/1260463559/) and learning how the thing works. I got hooked when I realized it was a zillion time faster than Excel, when I used it to create custom gexf files (custom made networks!!) and finally [some plugins for Gephi](https://gephi.org/plugins/#/browse/search/levallois).
+
+I wrote [tutorials for Gephi](https://seinecle.github.io/gephi-tutorials/), and I continued using Gephi in most of my research projects to this day (on [collusion in European markets](https://onlinelibrary.wiley.com/doi/full/10.1111/jcms.12232), [dynamic inter-banking financial networks](https://www.risk.net/journal-of-network-theory-in-finance/2462066/dynamic-visualization-of-large-financial-networks), and new ways to identify communities on Twitter[https://management-aims.com/index.php/mgmt/article/download/4245/10254?inline=1]).
 
 # What did I do / deliver?
 
