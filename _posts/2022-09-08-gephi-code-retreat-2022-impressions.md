@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Gephi code retreat for 2022 - my impressions a week later
-permalink: /gephi-code-retreat-2022-impressions/
+title: Gephi code retreat for 2022 - why did I participate?
+permalink: /gephi-code-retreat-2022-why-participating/
 published: false
 date_readable:               Sept 08, 2022
 last_modified_at_readable:   Sept 08, 2022
 ---
 
-*My personal thoughts on the Gephi Code Retreat - 2022 edition, to which I participated in Paris last week*
+*Some background on why I participated to the Gephi Code Retreat - 2022 edition, which took place in Paris last week*
 
 <div align="center">
    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Gephi-logo.png" title="The Gephi logo" width="300px"/>
@@ -29,10 +29,39 @@ The Gephi Code retreat is a one-week event organized by the founding members of 
 
 # My relation to Gephi
 
+
+## From a historian to discovering Gephi
+
 Gephi is the reason I transitioned from being a historian of science to a social scientist using computational (data-intensive) approaches.
 As a post-doc at the [KNAW](https://www.knaw.nl/en) in the Netherlands in 2008, Gephi had just appeared (there was also [GUESS](http://graphexploration.cond.org/) that I used as well).
 
 I realized that to explore and find insights in networks of neuroeconomists (that was my interest at the time), Gephi was going to be much more useful than by scrolling through big tables in Excel (see two publications [1](https://www.nature.com/articles/nrn3354) [2](https://www.frontiersin.org/articles/10.3389/fnhum.2016.00336/full) of this research project that used Gephi and VOSviewer).
+
+## Killer features
+
+The classic workflow in Gephi is super effective at delivering insights:
+
+1. get the big picture: with a dynamic layout you get immediately a sense of the size, patterns of relations, core / periphery structure... that characterize the network:
+
+<div>
+   <img src="http://www.martingrandjean.ch/wp-content/uploads/2016/05/Airports-network.gif"/>
+</div>   
+
+
+
+3. detect communities (in one-click): quickly see how a crowd divides in sub-groups, based on the pattern of connections between the members of the group
+4. find central nodes: which member of the group has the most connections? Who is placed "in the middle", relation to the others?
+5. zoom on sub-regions: what if we filter out all the network except for one group of nodes and their relations: can we identify local communities within this subnetwork? Who are the central actors within this region?
+
+The killer feature of Gephi is that these 3 operations have an intuitive, **illustrated** expression in Gephi:
+
+1. Paint different communities in different colors
+2. Scale the size of the nodes according to their centrality
+3. hide the parts of the network you want to ignore, continue working on the visible part
+4. 
+
+
+
 
 I started asking a lot of questions on the [now defunct Gephi forum](https://forum-gephi.org/), and answering lots of questions as well.
 The community of users is now the most active in a [private Facebook group](https://www.facebook.com/groups/gephi) (join!), where I continue being active.
@@ -48,7 +77,7 @@ I got hooked when I realized it was a zillion time faster than Excel - literally
 I used Java first to create custom gexf files (custom made networks!!) and finally [some plugins for Gephi](https://gephi.org/plugins/#/browse/search/levallois).
 
 Another big help in learning how to program was Stackoverflow.
-This is a THE Q&A website for programming issues, and browsing back to the first question I asked on it, you see it really shows that I was [transitioning from Excel to Java](https://stackoverflow.com/revisions/7200090/1)!
+This is THE Q&A website for programming issues, and browsing back to the first question I asked on it, you see it really shows that I was [transitioning from Excel to Java](https://stackoverflow.com/revisions/7200090/1)!
 
 Knowing how to program came with exponential benefits, beyond Gephi and right away. Java is a versatile language which enabled me to easily [analyze text](https://aclanthology.org/S13-2068/), create [web apps](https://nocodefunctions.com), [desktop apps](https://github.com/seinecle/Gaze), publish courses [in fancy formats](https://seinecle.github.io/mk99/), [grade large groups of students without going mad](https://github.com/emlyon/GradingPicsOnBrightspace), [teach a course on how to create mobile apps](https://seinecle.github.io/codapps/), [create silly personal projects](https://github.com/seinecle/lescalanquessontellesouvertes), and more.
 
