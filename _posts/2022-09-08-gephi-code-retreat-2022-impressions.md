@@ -38,14 +38,15 @@ An author in column A, the co-author in column B.
 How do you make sense of 10,000 of rows like that?
 
 Relations between authors in column A and their co-authors in column B describe a network.
-Networks can be analyzed in formal ways with a body of knowledge called "network analysis", which produced methods to compute metrics on networks, or generate different types of networks, with dedicated software like [UCINET](https://sites.google.com/site/ucinetsoftware/) or R packages like [igraph](https://igraph.org/).
+Networks can be analyzed in formal ways with a body of knowledge called "network analysis" or "social network analysis" (SNA). Researchers in SNA have developed methods to compute metrics on networks, or to generate different types of networks, with dedicated software like [UCINET](https://sites.google.com/site/ucinetsoftware/) or R packages like [igraph](https://igraph.org/).
 
 My need was different though: I needed to "make sense" of the network, in a global and generalist sense. Things like:
 
 - do we see clearly split sub-groups in the network or is it a compact hairball?
-- are two neuroeconomists that I know of "neighbors" in the network or are they far apart?
-- is this famous research lab in the field of neuroeconomics at the periphery or at the center of the network?
-- where are European neuroeconmists, relative to the American ones? And the psychologists?
+- are two famous neuroeconomists "neighbors" in the network or are they far apart?
+- is the oldest research lab in the field of neuroeconomics at the periphery or at the center of the network?
+- where are European neuroeconmists, relative to their American peers?
+- are psychologists scattered in the network or grouped in one region?
 - how are positioned the neuroeconomists who tend to publish on addiction? And those working on animal studies?
 - etc...
 
