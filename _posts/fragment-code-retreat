@@ -1,0 +1,14 @@
+# What did I do / deliver?
+
+I worked the full week on creating a plugin for Gephi that will allow a user, directly while using Gephi, to export the network they are working on to the web.
+The network will be viewable and explorable from the browser, and shareable with a simple url.
+
+[A short video with a live demo available here](https://www.twitch.tv/videos/1579615061?t=01h28m54s) explains all the details.
+
+It is important and fair to note that the plugin leverages 2 key resources that I did not develop myself - [Alexis Jacomy](https://twitter.com/jacomyal) and [Ouestware](https://www.ouestware.com/en/) developed and designed them:
+
+- the library to visualize the networks on the web, which is called [Retina](https://ouestware.gitlab.io/retina/beta/)
+- the roadmap to actually export the network to the web, which involves creating a Gist on Github, and [which is publicly discussed here](https://github.com/gephi/gephi-plugins/issues/262#issuecomment-1231627948).
+
+The plugin is not released yet, as it needs to be reviewed and will probably be released with a bunch of other deliverables produced by other contributors during this week.
+You can [check the code here](https://github.com/gephi/gephi-plugins/tree/web-publish-plugin/modules/WebPublishPlugin), and see that I continue to push updates to refine it.
