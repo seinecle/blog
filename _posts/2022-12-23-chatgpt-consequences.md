@@ -104,13 +104,11 @@ While it is hard to guess how this will impact our daily life and the fabric of 
 
 In the middle to long term (aka in 10 years and more), I would expect that ChatGPT will introduce changes analog in scope to what Internet has caused (1), and maybe more (2).
 
-(1) Changes similar to what Internet has caused
-Business wise, I would expect profound transformations in professions and industries, just like the GAFAs emerged with Internet. ChatGPT will allow us to interact with a system which is seemingly omniscient - that has to open new sources of productivity, new markets, newx expectations, and develop new kinds of consumer behavior.
+(1) Business wise, I would expect profound transformations in professions and industries, just like the GAFAs emerged with Internet. ChatGPT will allow us to interact with a system which is seemingly omniscient - that has to open new sources of productivity, new markets, newx expectations, and develop new kinds of consumer behavior.
 
-(2) Maybe more
-Until 2020, I was just shaking my head when discussing "Strong AI" in class. Strong AI is AI that is self conscious and has its own goals, independently from the direction of humans. Very much aking to a life form. With ChatGPT, the demonstration is now made that we don't need an AI that would be truly self-conscious to be perfectly human-like when interacting with us*. An AI simulating consciousness achieves the same result. So, give it 3, 5 10 or 20 years more of development, and ChatGPT could well become an autonomous agent. Actually, I'd bet on it.
+(2) Until 2020, I was just shaking my head in disbelief when discussing "Strong AI" in class. Strong AI is an AI that is self conscious and sets its own goals, independently from the direction of humans. Very much akin to a life form. With ChatGPT, the demonstration is now made that we don't need an AI that would be truly self-conscious to be perfectly human-like when interacting with us*. An AI simulating consciousness can achieve the same result. So, give it 3, 5 10 or 20 years more of development, and ChatGPT could well become an autonomous agent. Actually, I'd bet on it.
 
-*actually, many acknowledge that "true self consciousness" is too high a bar - we, humans, aren't even truely and completely self-conscious.
+*actually, many acknowledge that "true self consciousness" is too high a bar - we, humans, are far from being truely and completely self-conscious.
 
 # About me
 
