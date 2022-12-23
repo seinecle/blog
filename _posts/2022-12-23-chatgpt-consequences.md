@@ -72,12 +72,12 @@ The example I gave above should be enough: ChatGPT can emulate a computer even i
 
 Things I am 95% sure:
 
-➡ Resistance by all of us, first.
+➡ Resistance by all of us, first
 
 The same way the eldest among us might prefer interacting with analog systems rather than digital ones (reading prints rather than on-screen, anyone?), I expect we will all feel more comfy, at ease, interacting with digital or analogical systems than with ChatGPT-like systems.
 The same way people who grew up with analogical systems always appreciate the trust they can put in good-old-plain-mechanics, we will all feel that the latent spaces of ChatGPT are too nebulous to be fully trusted, even with their incredible mind-blowing performance.
 
-➡ Followed and mixed with rapid adoption.
+➡ Followed and mixed with rapid adoption
  
 Why would I prefer scrolling and reading a piece of content created by "a real human" or a "real computer program" when ChatGPT can create one which is 10x more inspiring?
 With time, individuals who will be exposed to ChatGPT will see no reason to prefer the old ways to create content, which will feel so 'analog' and quaint: slow, mechanical, imperfect, uninventive.
