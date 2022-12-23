@@ -34,12 +34,12 @@ Let's just say that ChatGPT [can be used to emulate a computer (a virtual machin
 
 My impression is that with ChatGPT, **we are crossing a threshold as important as the one we passed from analogical to digital.** 
 
-When digital systems emerged, they freed operations from the constraint of being carried through material circuits which are a mechanistic analogs to the operations.
+When digital systems emerged, they freed operations from the constraint of being carried through material circuits which are mechanistic analogs to the operations.
 Like, when you listen music today, the sound you hear is stored and transmitted in zeros and ones. No need to have the sound stored by having an engraved disk where the engravures are analogical to the sound waves that need to be reproduced.
 
 The move from analogical to digital was transformative, impactful because you could emulate any analogical system with computers. It is cheaper, faster, takes less space, and easier to evolve.
 
-Mechanic calculators had to be actioned by hand and tooks minutes or hours to operate by skilled professionals became electronic calculators that kids can learn in college and do trigonometry with it.
+Mechanic calculators had to be actioned by hand and took minutes or hours to operate by skilled professionals. Digital sysrems permitted electronic calculators that kids, so easy to interact with that kids can use them in junior school and do trigonometry with it.
 Cameras with argentic film became digital cameras.
 Newspapers became online magazines.
 The transmission of voice, image, data started shifting from analog wave systems to digital forms around the 1980s.
@@ -59,10 +59,10 @@ That's going to be difficult and costly, because you will need to materially cha
 In digital systems, you just redesign an interface on a screen.
 Moving bits is easier than moving atoms.
 
-**With ChatGPT, we experience a similar breakthrough**. The argument goes like this:
+**With ChatGPT, we experience a breakthrough of a similar magnitude**. The argument goes like this:
 
 - in digital systems, operations are still described and enacted through rules, which are defined by lines of code that the programmers write.
-- the typical example would be the "for loops" or "if then else" instructions (and their equivalents) that can be found in any programmes. They describe in a precise way what the program should do. You want a the program to perform a new task? Then you will need to rewrite the program.
+- the typical example would be the "for loops" or "if then else" instructions (and their equivalents) that can be found in any programme. They describe in a precise way what the program should do. You want a the program to perform a new task? Then you will need to rewrite these lines of code.
 - to this extent digital systems are very much like analogical systems. Faster, easier to modify, but still following a mechanical way of designing and implementing operations.
 - **with ChatGPT, there are no operations defined, written or even described anywhere**. There is just a latent space (the huge table of numbers I discussed above), which can be triggered to produce an output. The operations to produce the output are discovered by ChatGPT at the moment you ask for it, they were not stored or explicitly described anywhere before.
 
@@ -104,11 +104,11 @@ While it is hard to guess how this will impact our daily life and the fabric of 
 
 In the middle to long term (aka in 10 years and more), I would expect that ChatGPT will introduce changes analog in scope to what Internet has caused (1), and maybe more (2).
 
-(1) Business wise, I would expect profound transformations in professions and industries, just like the GAFAs emerged with Internet. ChatGPT will allow us to interact with a system which is seemingly omniscient - that has to open new sources of productivity, new markets, newx expectations, and develop new kinds of consumer behavior.
+(1) Business wise, I would expect profound transformations in professions and industries, just like the GAFAs emerged with Internet. ChatGPT will allow us to interact with a system which is seemingly omniscient - that has to open new sources of productivity, new markets, new channels of communication, new expectations by consumers.
 
-(2) Until 2020, I was just shaking my head in disbelief when discussing "Strong AI" in class. Strong AI is an AI that is self conscious and sets its own goals, independently from the direction of humans. Very much akin to a life form. With ChatGPT, the demonstration is now made that we don't need an AI that would be truly self-conscious to be perfectly human-like when interacting with us*. An AI simulating consciousness can achieve the same result. So, give it 3, 5 10 or 20 years more of development, and ChatGPT could well become an autonomous agent. Actually, I'd bet on it.
+(2) Until 2020, I was just shaking my head in disbelief when discussing "Strong AI" in class. Strong AI is an AI that is self conscious and sets its own goals, independently from the direction of humans. Very much akin to a life form. With ChatGPT, the demonstration is now made that we don't need an AI that would be truly self-conscious to be perfectly human-like when interacting with us*. An AI simulating consciousness can achieve the same result. So give it 3, 5 10 or 20 years more of development, and ChatGPT could well become an autonomous agent. Actually, I'd bet on it.
 
-*actually, many acknowledge that "true self consciousness" is too high a bar - we, humans, are far from being truely and completely self-conscious.
+*many acknowledge that "true self consciousness" is too high a bar - we, humans, are far from being truely and completely self-conscious.
 
 # About me
 
