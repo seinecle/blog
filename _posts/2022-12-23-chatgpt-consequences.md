@@ -15,11 +15,17 @@ This is an attempt to seize the significance of large language models aka founda
 
 # In three bullet points, why is ChatGPT different from other models in AI?
 
-1. Generalist: ChatGPT is different because it is not trained to perform a specific task, like 'is this email a spam or not', or 'translate this sentence in French into English'. It is trained in the sense that it learns to guess 'what comes next'. If you train it with a text that says 'I love chocolate', it will learn that 'I love' can be followed by 'chocolate' (and less often by 'spinash', maybe?).
+➡ *Generalist*
 
-2. Learns implicit relations: the result of the training is not a simple reflection of what the model has been trained on ("after 'I love', there is a 1% chance that the following word is 'chocolate'). No. Instead, the result of the training is a giant table of numbers (a 'model') representing the relations between all the pieces of text you fed it with. A classic example is that with enough training, it can store the following relations: the word 'king', minus the term 'man', and plus the word 'female', is equivalent to 'queen'. It can also learn 'styles', like slang, formal writing, dialects...
+ChatGPT is different because it is not trained to perform a specific task, like 'is this email a spam or not', or 'translate this sentence in French into English'. It is trained in the sense that it learns to guess 'what comes next'. If you train it with a text that says 'I love chocolate', it will learn that 'I love' can be followed by 'chocolate' (and less often by 'spinash', maybe?).
 
-3. A true deluge of data: In the last few years, it has been trained on an immeeeeeeeense set of textual documents on every imaginable aspect of our human culture. All English pages of Wikipedia. Dozens of thousands of digitalized books. Tons of websites. All Github. And more, more, more.
+➡ *Learns implicit relations*
+
+the result of the training is not a simple reflection of what the model has been trained on ("after 'I love', there is a 1% chance that the following word is 'chocolate'). No. Instead, the result of the training is a giant table of numbers (a 'model') representing the relations between all the pieces of text you fed it with. A classic example is that with enough training, it can store the following relations: the word 'king', minus the term 'man', and plus the word 'female', is equivalent to 'queen'. It can also learn 'styles', like slang, formal writing, dialects...
+
+➡ *A true deluge of data*
+
+In the last few years, it has been trained on an immeeeeeeeense set of textual documents on every imaginable aspect of our human culture. All English pages of Wikipedia. Dozens of thousands of digitalized books. Tons of websites. All Github. And more, more, more.
 
 The results are astonishing. Here I hesitate to give examples because that's not the point of this piece.
 Let's just say that ChatGPT [can be used to emulate a computer (a virtual machine)](https://www.engraved.blog/building-a-virtual-machine-inside/), for example, just because somneone tried it by simply asking it to behave like a computer. That is... a very, very strong capability. 
