@@ -83,11 +83,13 @@ Why would I prefer scrolling and reading a piece of content created by "a real h
 With time, individuals who will be exposed to ChatGPT will see no reason to prefer the old ways to create content, which will feel so 'analog' and quaint: slow, mechanical, imperfect, uninventive.
 
 ➡ Rapid shift from content creation to "content supervision"
+
 Any text, image, movie, sound produced by humans will soon be produced in a realistic way by ChatGPT at a speed and degree of inventiveness that no human can match.
 I am convinced that this will lead to a rapid integration of ChatGPT in all industries - not just creative ones.
 Jobs will be lost, new jobs will emerge, especially the ones in relation to the handling of ChatGPT: giving an editorial line, executing, re-drafting the results, quality control, integration with other systems.
 
 ➡ Increased isolation of individuals
+
 There is a classic book in sociology entitled 'Bowling alone', which describes how individuals in the United States "have become increasingly disconnected from family, friends, neighbors, and our democratic structures".
 
 <div align="center">
@@ -99,6 +101,7 @@ The title of the book is great and tragic: bowling is a typically social activit
 While it is hard to guess how this will impact our daily life and the fabric of society, one thing is pretty clear: individuals will spend even more time interacting with screens and devices than with fellow humans.
 
 ➡ Profound and unexpected changes in the fabric of society
+
 In the middle to long term (aka in 10 years and more), I would expect that ChatGPT will introduce changes analog in scope to what Internet has caused (1), and maybe more (2).
 
 (1) Changes similar to what Internet has caused
