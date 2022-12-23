@@ -39,7 +39,8 @@ Like, when you listen music today, the sound you hear is stored and transmitted 
 
 The move from analogical to digital was transformative, impactful because you could emulate any analogical system with computers. It is cheaper, faster, takes less space, and easier to evolve.
 
-Mechanic calculators had to be actioned by hand and took minutes or hours to operate by skilled professionals. Digital sysrems permitted electronic calculators that kids, so easy to interact with that kids can use them in junior school and do trigonometry with it.
+Mechanic calculators had to be actioned by hand and took minutes or hours to operate by skilled professionals.
+In the digital era, electronic calculators emerged and kids could use them in junior school and do trigonometry with it.
 Cameras with argentic film became digital cameras.
 Newspapers became online magazines.
 The transmission of voice, image, data started shifting from analog wave systems to digital forms around the 1980s.
