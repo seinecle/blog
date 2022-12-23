@@ -40,7 +40,7 @@ It allowed a tremendous increase in the volume and accuracy of the data being tr
 Just one more illustration:
 
 <div align="center">
-   <img src="[https://user-images.githubusercontent.com/1244100/189077290-65d51016-df16-4b8c-a154-0cf64ee01eb9.png](https://user-images.githubusercontent.com/1244100/209371331-e0238c14-8d33-46d5-8ef2-a334df2f5f5c.jpg)" title="Evolution of cockpits in human modules in rockets" width="500px"/>
+   <img src="https://user-images.githubusercontent.com/1244100/209371331-e0238c14-8d33-46d5-8ef2-a334df2f5f5c.jpg" title="Evolution of cockpits in human modules in rockets" width="500px"/>
 </div>                                                                                                                                  
 
 I love this comparison showing the evolution of the control systems aboard the cockpits of human-controlled rocket modules.
@@ -78,7 +78,15 @@ I am convinced that this will lead to a rapid integration of ChatGPT in all indu
 Jobs will be lost, new jobs will emerge, especially the ones in relation to the handling of ChatGPT: giving an editorial line, executing, re-drafting the results, quality control, integration with other systems.
 
 4. Increased isolation of individuals
-There is a classic book in sociology entitled 'Bowling alone', which describes how individuals in the United States "have become increasingly disconnected from family, friends, neighbors, and our democratic structures". The title of the book is great and tragic: bowling is a typically social activity, and yet bowling alone became not uncommon. The book was published... in 2000. With the emergence of social media and smartphones in the years that followed, we as individuals became even more isolated from each other. ChatGPT will most probably increase this tendency. After all, it will be able to become your best teacher ([1](https://medium.com/geekculture/how-to-use-chatgpt-for-teaching-9b2237bdfc67)) ([2](https://ditchthattextbook.com/ai/)) ([3](https://www.techlearning.com/how-to/what-is-chatgpt-and-how-to-teach-with-it-tips-and-tricks
+There is a classic book in sociology entitled 'Bowling alone', which describes how individuals in the United States "have become increasingly disconnected from family, friends, neighbors, and our democratic structures".
+
+<div align="center">
+   <img src="https://user-images.githubusercontent.com/1244100/209373342-3ffd2d3c-4fb9-40fc-8aa3-73a63026c364.jpg" title="Cover of the book Bowling Alone" width="500px"/>
+</div>                                                                                                                                  
+
+![bowling alone](https://user-images.githubusercontent.com/1244100/209373342-3ffd2d3c-4fb9-40fc-8aa3-73a63026c364.jpg)
+
+The title of the book is great and tragic: bowling is a typically social activity, and yet bowling alone became not uncommon. The book was published... in 2000. With the emergence of social media and smartphones in the years that followed, we as individuals became even more isolated from each other. ChatGPT will most probably increase this tendency. After all, it will be able to become your best teacher ([1](https://medium.com/geekculture/how-to-use-chatgpt-for-teaching-9b2237bdfc67)) ([2](https://ditchthattextbook.com/ai/)) ([3](https://www.techlearning.com/how-to/what-is-chatgpt-and-how-to-teach-with-it-tips-and-tricks
 )), and from there why not your shrink / friend / lover (not necessarily in that order).
 While it is hard to guess how this will impact our daily life and the fabric of society, one thing is pretty clear: individuals will spend even more time interacting with screens and devices than with fellow humans.
 
@@ -93,16 +101,10 @@ Until 2020, I was just shaking my head when discussing "Strong AI" in class. Str
 
 *actually, many acknowledge that "true self consciousness" is too high a bar - we, humans, aren't even truely and completely self-conscious.
 
+# About me
 
-# Some of my contributions to Gephi / get in touch
-
-- Here are the [Gephi plugins I have developed over the years](https://gephi.org/plugins/#/browse/search/levallois)
-- [A short video with a live demo of the plugin I have developed during the Gephi code retreat](https://www.twitch.tv/videos/1579615061?t=01h28m54s)
-
-The [tutorials for Gephi](https://seinecle.github.io/gephi-tutorials/) I have written.
-[Nocode functions](https://nocodefunctions.com) 🔎, the web app that that can also serve the needs of the community of Gephi users. It is [fully open source](https://github.com/seinecle/nocodefunctions).
-Try it and give some feedback, I would appreciate it!
+I am a [professor at emlyon business school](https://www.linkedin.com/in/levallois/) where I conduct research in Natural Language Processing and network analysis applied to social sciences and the humanities. I teach about the impact of digital technologies on business and society. I also  build [nocode functions](https://nocodefunctions.com) 🔎, a click and point web app to explore texts and networks. It is [fully open source](https://github.com/seinecle/nocodefunctions). Try it and give some feedback, I would appreciate it!
 
 * my email: [admin@clementlevallois.net](mailto:admin@clementlevallois.net) 📧
 * or on Twitter: [@seinecle](https://twitter.com/seinecle) 📱
-* you can also read [the other articles of this blog](https://nocodefunctions.com/blog) 👓, where I write about my journey as a social scientist and app developer.
+* you can also read [the other articles of this blog](https://nocodefunctions.com/blog) 👓, where I write about the process of developing the app.
