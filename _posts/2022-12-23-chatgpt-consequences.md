@@ -32,7 +32,7 @@ Let's just say that ChatGPT [can be used to emulate a computer (a virtual machin
 
 # Ok, what should we think of it?
 
-My impression is that with ChatGPT, **we are crossing a threshold as important as the one we passed from analogical to digital.** 
+My impression is that with ChatGPT, **we are crossing a threshold as important as the one we passed from analogical systems to the digital world.** 
 
 When digital systems emerged, they freed operations from the constraint of being carried through material circuits which are mechanistic analogs to the operations.
 Like, when you listen music today, the sound you hear is stored and transmitted in zeros and ones. No need to have the sound stored by having an engraved disk where the engravures are analogical to the sound waves that need to be reproduced.
