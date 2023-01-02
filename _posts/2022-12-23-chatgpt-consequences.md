@@ -35,9 +35,9 @@ Let's just say that ChatGPT [can be used to emulate a computer (a virtual machin
 My impression is that with ChatGPT, **we are crossing a threshold as important as the one we passed from analogical systems to the digital world.** 
 
 When digital systems emerged, they freed operations from the constraint of being carried through material circuits which are mechanistic analogs to the operations.
-Like, when you listen music today, the sound you hear is stored and transmitted in zeros and ones. No need to have the sound stored by having an engraved disk where the engravures are analogical to the sound waves that need to be reproduced.
+Like, when you listen to music today, the sound you hear is stored and transmitted in zeros and ones. No need to have the sound stored by having an engraved disk where the engravures are analogical to the sound waves that need to be reproduced.
 
-The move from analogical to digital was transformative, impactful because you could emulate any analogical system with computers. It is cheaper, faster, takes less space, and easier to evolve.
+The move from analogical to digital was transformative and impactful because you could emulate any analogical system with computers. It is cheaper, faster, takes less space, and easier to evolve.
 
 Mechanic calculators had to be actioned by hand and took minutes or hours to operate by skilled professionals.
 In the digital era, electronic calculators emerged and kids could use them in junior school and do trigonometry with it.
@@ -75,7 +75,7 @@ Things I am 95% sure:
 
 ➡ Resistance by all of us, first
 
-The same way the eldest among us might prefer interacting with analog systems rather than digital ones (reading prints rather than on-screen, anyone?), I expect we will all feel more comfy, at ease, interacting with digital or analogical systems than with ChatGPT-like systems.
+The same way the eldest among us might prefer interacting with analog systems rather than digital ones (reading prints rather than on-screen, anyone?), I expect we will all feel more comfortable interacting with digital or analogical systems than with ChatGPT-like systems.
 The same way people who grew up with analogical systems always appreciate the trust they can put in good-old-plain-mechanics, we will all feel that the latent spaces of ChatGPT are too nebulous to be fully trusted, even with their incredible mind-blowing performance.
 
 ➡ Followed and mixed with rapid adoption
