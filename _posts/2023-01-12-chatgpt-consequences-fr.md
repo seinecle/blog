@@ -90,9 +90,11 @@ Avec l'émergence des médias sociaux et des smartphones dans les années qui on
 
 À moyen et à long terme (c'est-à-dire dans 10 ans et plus), je m'attendrais à ce que ChatGPT introduise des changements analogues à ce qu'Internet a causé (1), et peut-être plus (2).
 
-### (1) D'un point de vue économique, je m'attends à des transformations profondes des métiers et des industries, tout comme les GAFA ont émergé avec Internet. ChatGPT nous permettra d'interagir avec un système apparemment omniscient - qui doit ouvrir de nouvelles sources de productivité, de nouveaux marchés, de nouveaux canaux de communication, de nouvelles attentes des consommateurs.
+### (1)
+D'un point de vue économique, je m'attends à des transformations profondes des métiers et des industries, tout comme les GAFA ont émergé avec Internet. ChatGPT nous permettra d'interagir avec un système apparemment omniscient - qui doit ouvrir de nouvelles sources de productivité, de nouveaux marchés, de nouveaux canaux de communication, de nouvelles attentes des consommateurs.
 
-### (2) Avec ChatGPT, la démonstration est maintenant faite que nous n'avons pas besoin d'une IA qui serait vraiment consciente d'elle-même pour être parfaitement humaine lorsqu'elle interagit avec nous. Une IA simulant la conscience peut atteindre le même résultat. Donnez-lui donc 3, 5 10 ou 20 ans de développement en plus, et ChatGPT pourrait bien devenir un agent autonome. En fait, je parierais dessus.
+### (2)
+Avec ChatGPT, la démonstration est maintenant faite que nous n'avons pas besoin d'une IA qui serait vraiment consciente d'elle-même pour être parfaitement humaine lorsqu'elle interagit avec nous. Une IA simulant la conscience peut atteindre le même résultat. Donnez-lui donc 3, 5 10 ou 20 ans de développement en plus, et ChatGPT pourrait bien devenir un agent autonome. En fait, je parierais dessus.
 
 # Sur l'auteur
 
