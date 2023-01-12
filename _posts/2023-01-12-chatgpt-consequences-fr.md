@@ -43,7 +43,7 @@ C'est une prouesse gigantesque.
 
 # Que peut-on en penser ?
 
-Mon impression est qu'avec ChatGPT, nous franchissons un seuil aussi important que celui que nous avons passé en évoluant des systèmes analogiques vers le au monde numérique.
+Mon impression est qu'avec ChatGPT, nous franchissons un seuil aussi important que celui que nous avons passé en évoluant des systèmes analogiques vers le monde numérique.
 
 Lorsque les systèmes numériques ont émergé, ils ont libéré les opérations de la contrainte d'être portées par des circuits matériels qui sont des analogues mécanistes des opérations.
 Par exemple, lorsque vous écoutez de la musique aujourd'hui, le son que vous entendez est stocké et transmis par des zéros et des uns.
