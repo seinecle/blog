@@ -116,7 +116,9 @@ It is different from the Facebook group in the sense that discussions are around
 If you feel that you could contribute to this kind of discussions, do join here. You are not absolutely certain? Do join and be a listener for the first weeks, and you'll see whether you want to be part of the discussions or not.
 
 **What to expect from it?**
-Well, that is super interesting to get close to the core of the Gephi app and community! This is the place where you could learn about the things brewing for the next months, and suggest contributions you can make: in skills, time, money, credit, etc. I would like to emphasize that the most important are contributions (things you can do), not suggestions (things others should do...). The entire group of Gephi core contributors are pretty overwhelmed already, let's give them so help, not a wishlist! :-)
+Well, that is super interesting to get close to the core of the Gephi app and community! This is the place where you could learn about the things brewing for the next months, and suggest contributions you can make: in skills, time, money, credit, etc.
+
+**I would like to emphasize that on this channel the most important are contributions (things you can do), not suggestions (things others should do...). The entire group of Gephi core contributors are pretty overwhelmed already, let's give them so help, not a wishlist! :-)**
 
 # About me
 
