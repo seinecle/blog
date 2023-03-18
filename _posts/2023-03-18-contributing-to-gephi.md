@@ -125,7 +125,7 @@ Well, that is super interesting to get close to the core of the Gephi app and co
 It is not always super clear that Gephi as a topic is for everyone - not just to be contained in the gephi.org website or in the Gephi software. You can develop a free or commercial and / or for-profit activity about Gephi. One obvious activity would be training sessions or workshops about Gephi, or any consulting activity in a given sector, leveraging Gephi. Maybe that when this gets clarified, we'll see a broader offer for trainings in Gephi?
 
 **What to expect from it?**
-Designing a training or workshop about Gephi is always a great occasion to re-learn what had become habitual. Besides the revenues you might get from it, it will also establish your credentials in the domain.
+Designing a training or workshop about Gephi is always a great occasion to re-learn what had become habitual. Besides the revenues you will generate from it, it will also establish your credentials in the domain.
 
 
 ## g. Are you an indie developer, a startup or a larger company with resources for R&D?
