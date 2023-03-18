@@ -120,7 +120,7 @@ Well, that is super interesting to get close to the core of the Gephi app and co
 **I would like to emphasize that on this channel the most important are contributions (things you can do), not suggestions (things others should do...). The entire group of Gephi core contributors are pretty overwhelmed already, let's give them so help, not a wishlist! :-)**
 
 
-## e. Are you a consultant / free-lancer / slasher?
+## f. Are you a consultant / free-lancer / slasher?
 ### Do organize trainings and workshops!
 It is not always super clear that Gephi as a topic is for everyone - not just to be contained in the gephi.org website or in the Gephi software. You can develop a free or commercial and / or for-profit activity about Gephi. One obvious activity would be training sessions or workshops about Gephi, or any consulting activity in a given sector, leveraging Gephi. Maybe that when this gets clarified, we'll see a broader offer for trainings in Gephi?
 
@@ -128,7 +128,7 @@ It is not always super clear that Gephi as a topic is for everyone - not just to
 Designing a training or workshop about Gephi is always a great occasion to re-learn what had become habitual. Besides the revenues you might get from it, it will also establish your credentials in the domain.
 
 
-## e. Are you an indie developer, a startup or a larger company with resources for R&D?
+## g. Are you an indie developer, a startup or a larger company with resources for R&D?
 ### Develop the ecosystem around Gephi!
 
 Gephi provides hooks of an outstanding quality, that make it super convenient to develop your projects with a strong base:
@@ -139,6 +139,25 @@ Gephi provides hooks of an outstanding quality, that make it super convenient to
 **What to expect from it?**
 Using these Gephi assets in your projects will save you time, not reinventing the wheel of a network app that includes the graph itself but also the algorithms, filters, management of attributes, I/O machinery etc. that you will also need pretty quickly. By doing so, you serve Gephi as you will naturally get involved in pushing Gephi and its various assets forward.
 
+## h. Are you a developer?
+It is on purpose that I kept this item for the end of the list. Indeed, we often assume that if we can't code, we can't contribute to Gephi. The 7 ways to contribute to Gephi listed just before have changed your outlook, I hope. Gephi really needs these 7 first types of contributions!
+
+As a developer, you can also contribute to Gephi in several ways:
+
+### Java developer
+Everybody has their own learning path, here is one:
+* one way to get acquainted with Gephi is to play with the Gephi Toolkit, which is the Gephi headless library for Java. It will give you a sense of how the API is structured, with a strong modular architecture and some not-so-common design patterns (not familiar with SPIs? You will be served! 😀).
+* then you might be interested in developping a plugin, which is another steep learning curve but very rewarding because, upon publication, your plugin becomes available to the entire Gephi user base (you can also choose to keep it private, of course).
+* in the course of using the Gephi toolkit or developing a plugin, you might open issues on Github. And depending on your expertise and grit, you will also look at the source code of Gephi and find things to solve. This is very welcome, of course.
+
+### Developer of desktop apps / Rich Client Applications
+Gephi is built on top of the NetBeans Platform, which is the Rich Client Application of the NetBeans IDE. If you have a strong interest in NetBeans / RCA / desktop applications / or the intrincaties of targetting a desktop app specifically for Windows of MacOS, you could make contributions.
+
+### OpenGL for Java
+I might be sloppy here as I have close to zero knowledge of the domain here, but the visualization engine of Gephi is using OpenGL and that is of course quite a tricky aspect. If you or your organization is knowledgeable about this subject, you could also make contributions.
+
+**What to expect from it?**
+Gephi is led by developers who are first-class in their trade. Did you know that Gephi won a Duke Award back in the days? Contributing to this open source project would be a great learning experience for everyone involved.
 
 # About me
 
