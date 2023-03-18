@@ -1,6 +1,6 @@
 ---
 layout: post
-title: With ChatGPT, we are crossing a threshold as important as the one from analogical to digital.
+title: 8 ways you can contribute to Gephi
 permalink: /contributing-to-gephi/
 published: false
 date_readable:               Mar 18, 2023
