@@ -52,8 +52,8 @@ It delivered bug fixes, new plugins, new directions for development but most of 
 By funding the next edition, you contribute in a very concrete manner to making Gephi more stable in the long term.
 
 ## b. Are you an academic?
-
-As an academic (librarian, faculty, student, administrator), a very impactful action is to cite Gephi in the bibliography of the documents your produce - in articles of course but in publication really, including applications and reports.
+### Make use of a powerful tool: citations!
+As an academic (librarian, faculty, student, administrator), a very impactful action is to cite Gephi in the bibliography of the documents your produce - in articles of course but in every publication really, including applications to projects and reports.
 These are the two papers referencing the tool you love:
 
 > Bastian, M., Heymann, S., & Jacomy, M. (2009, March). Gephi: an open source software for exploring and manipulating networks. In Proceedings of the international AAAI conference on web and social media (Vol. 3, No. 1, pp. 361-362).
@@ -66,7 +66,8 @@ Explicitly referencing Gephi in your publications contributes to making Gephi vi
 And for you, Gephi having an established presence and growing reputation will make it easier to convince reviewer #2 that Gephi was indeed the right choice for this network analysis ;-)
 
 ## c. Do you ever write tutorials, how-tos, blog posts?
-* Write a simple intro about your experience using Gephi, help others discover it
+
+### - Write a simple intro about your experience using Gephi, help others discover it
 A classic writer's block about Gephi is that "I am not expert enough" to write about it.
 You are probably much more expert than you think (see next paragraph), but in any case you can explain and document the use case that you worked on with Gephi.
 
@@ -76,7 +77,7 @@ Again, a common conception is that what we do is never "original enough" to be w
 Absolutely not: each dataset or research question has interesting specificities.
 Help fellow users understand what you did and how you did it! And if the case is confidential, don't let it stop you! Transform and abstract your case and showcase the principles you followed.
 
-* Videos, tweets and shorts are useful, too
+### - Shoot videos or shorts, any kind of social media postings are useful, too
 I mentioned written pieces because that's in my comfort zone.
 But videos, short or long, or posts on your favorite social media would be perfectly useful!
 
@@ -85,8 +86,8 @@ You gain the warm glow of knowing that you helped users discover what is possibl
 Not interested in warm feelings?
 Then do it for the SEO, as Gephi is at the cross-road of network analysis, data science and data visualization: all SEO boxes checked at once.
 
-## d. Are you moderately experienced with Gephi?
-* Chat and contribute to the Gephi group on Facebook!
+## d. Are you a beginner or moderately experienced with Gephi?
+### Chat and contribute to the Gephi group on Facebook!
 Yes, Facebook is really far from anyone's cup of tea.
 Discord, LinkedIn, Slack, a Wordpress forum... all these would be preferable in some way and yet ten times less used than the group on Facebook.
 So we stay there for the moment.
@@ -107,8 +108,7 @@ A kind of learning platform!
 
 
 ## e. Are you quite experienced with Gephi?
-
-* Join the Slack group for Gephi!
+### Join the Slack group for Gephi!
 This Slack group exists in some form for many years and is used by the core developers of Gephi. I think it became more widely used at the occasion of the Gephi Week for 2022.
 
 It is different from the Facebook group in the sense that discussions are around organizing and developing Gephi, rather than users helping other users. So it is quite exciting because you can see "Gephi in the making" but to remain productive, it should remain concentrated on that - steering and pushing Gephi forward, not really discussing how to use filters ;-)
