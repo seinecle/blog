@@ -102,7 +102,7 @@ Don't be shy to offer your assistance, again my feeling is that we all tend to u
 
 **What to expect from it?**
 Here again, you get a very nice feeling of giving back to the community, and helping somebody who is a beginner just like you were some time ago.
-Not interested in warm feelings?
+Still not interested in warm feelings?
 Contributing to the Gephi Facebook group will also push you up on the learning curve by exposing you to a variety of cases, questions and solutions that you did not encounter in your usual flow of work with Gephi.
 A kind of learning platform!
 
