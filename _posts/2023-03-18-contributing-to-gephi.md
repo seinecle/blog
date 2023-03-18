@@ -151,13 +151,13 @@ Everybody has their own learning path, here is one:
 * in the course of using the Gephi toolkit or developing a plugin, you might open issues on Github. And depending on your expertise and grit, you will also look at the source code of Gephi and find things to solve. This is very welcome, of course.
 
 ### Developer of desktop apps / Rich Client Applications
-Gephi is built on top of the NetBeans Platform, which is the Rich Client Application of the NetBeans IDE. If you have a strong interest in NetBeans / RCA / desktop applications / or the intrincaties of targetting a desktop app specifically for Windows of MacOS, you could make contributions.
+Gephi is built on top of the NetBeans Platform, which is the Rich Client Application of the NetBeans IDE. If you have a strong interest in NetBeans / RCA / desktop applications / or the intrincaties of targetting a desktop app specifically for Windows of MacOS, you could make contributions of critical importance.
 
 ### OpenGL for Java
-I might be sloppy here as I have close to zero knowledge of the domain here, but the visualization engine of Gephi is using OpenGL and that is of course quite a tricky aspect. If you or your organization is knowledgeable about this subject, you could also make contributions.
+I might be sloppy here as I have close to zero knowledge of the domain here, but the visualization engine of Gephi is using OpenGL and that is of course quite a tricky aspect. I don't have the details but Gephi is in the middle of a major upgrade of the underlying technologies for this OpenGL stuff, so if you or your organization is knowledgeable about this subject, you could also make essential contributions.
 
 **What to expect from it?**
-Gephi is led by developers who are first-class in their trade. Did you know that Gephi won a Duke Award back in the days? Contributing to this open source project would be a great learning experience for everyone involved.
+Gephi is led by developers who are first-class in their trade. Did you know that Gephi won a Duke Award back in the days? Contributing to this open source project would be a great learning experience for everyone involved and would speed up the delivery of key features.
 
 # About me
 
