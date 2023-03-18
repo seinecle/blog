@@ -41,8 +41,9 @@ There are many alternatives to contribute to Gephi, in ways that make the best o
 
 ## a. Are you a company or for-profit organization?
 
-At the moment, there is no legal entity that is set to accept funding for Gephi (AFAIK).
-However, events sponsored by Gephi can still receive funding, through the university that will host the event for instance.
+### Fund Gephi, despite the hurdles
+At the moment, there is no legal entity that is set to accept funding for Gephi, though it is bound to come one day.
+However, events sponsored by Gephi could still receive funding, through the university that will host the event or a similar channel? 
 The Gephi week for 2023 is on the table, for example.
 
 **What to expect from it?**
@@ -66,7 +67,6 @@ Explicitly referencing Gephi in your publications contributes to making Gephi vi
 And for you, Gephi having an established presence and growing reputation will make it easier to convince reviewer #2 that Gephi was indeed the right choice for this network analysis ;-)
 
 ## c. Do you ever write tutorials, how-tos, blog posts?
-
 ### - Write a simple intro about your experience using Gephi, help others discover it
 A classic writer's block about Gephi is that "I am not expert enough" to write about it.
 You are probably much more expert than you think (see next paragraph), but in any case you can explain and document the use case that you worked on with Gephi.
@@ -106,7 +106,6 @@ Not interested in warm feelings?
 Contributing to the Gephi Facebook group will also push you up on the learning curve by exposing you to a variety of cases, questions and solutions that you did not encounter in your usual flow of work with Gephi.
 A kind of learning platform!
 
-
 ## e. Are you quite experienced with Gephi?
 ### Join the Slack group for Gephi!
 This Slack group exists in some form for many years and is used by the core developers of Gephi. I think it became more widely used at the occasion of the Gephi Week for 2022.
@@ -119,6 +118,27 @@ If you feel that you could contribute to this kind of discussions, do join here.
 Well, that is super interesting to get close to the core of the Gephi app and community! This is the place where you could learn about the things brewing for the next months, and suggest contributions you can make: in skills, time, money, credit, etc.
 
 **I would like to emphasize that on this channel the most important are contributions (things you can do), not suggestions (things others should do...). The entire group of Gephi core contributors are pretty overwhelmed already, let's give them so help, not a wishlist! :-)**
+
+
+## e. Are you a consultant / free-lancer / slasher?
+### Do organize trainings and workshops!
+It is not always super clear that Gephi as a topic is for everyone - not just to be contained in the gephi.org website or in the Gephi software. You can develop a free or commercial and / or for-profit activity about Gephi. One obvious activity would be training sessions or workshops about Gephi, or any consulting activity in a given sector, leveraging Gephi. Maybe that when this gets clarified, we'll see a broader offer for trainings in Gephi?
+
+**What to expect from it?**
+Designing a training or workshop about Gephi is always a great occasion to re-learn what had become habitual. Besides the revenues you might get from it, it will also establish your credentials in the domain.
+
+
+## e. Are you an indie developer, a startup or a larger company with resources for R&D?
+### Develop the ecosystem around Gephi!
+
+
+**What to expect from it?**
+Designing a training or workshop about Gephi is always a great occasion to re-learn what had become habitual. Besides the revenues you might get from it, it will also establish your credentials in the domain.
+
+
+
+
+**I would like to emphasize that on this ch
 
 # About me
 
