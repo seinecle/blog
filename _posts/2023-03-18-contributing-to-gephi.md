@@ -61,30 +61,49 @@ These are the two papers referencing the tool you love:
 > Jacomy, M., Venturini, T., Heymann, S., & Bastian, M. (2014). ForceAtlas2, a continuous graph layout algorithm for handy network visualization designed for the Gephi software. PloS one, 9(6), e98679.
 
 **What to expect from it?**
-Gephi has an excellent academic standing, with the original contribution cited more than 10,000 times and Gephi being mentioned in over 39,000 academic publications. Explicitly referencing Gephi in your publications contributes to making Gephi visible by making its impact measurable: it ehnances its legitimacy and fosters adoption. And for you, Gephi having an established presence and growing reputation will make it easier to convince reviewer #2 that Gephi was indeed the right choice for this network analysis ;-)
+Gephi has an excellent academic standing, with the original contribution cited more than 10,000 times and Gephi being mentioned in over 39,000 academic publications.
+Explicitly referencing Gephi in your publications contributes to making Gephi visible by making its impact measurable: it ehnances its legitimacy and fosters adoption.
+And for you, Gephi having an established presence and growing reputation will make it easier to convince reviewer #2 that Gephi was indeed the right choice for this network analysis ;-)
 
 ## c. Do you ever write tutorials, how-tos, blog posts?
-
 * Write a simple intro about your experience using Gephi, help others discover it
-A classic writer's block about Gephi is that "I am not expert enough" to write about it. You are probably much more expert than you think (see next paragraph), but in any case you can explain and document the use case that you worked on with Gephi.
+A classic writer's block about Gephi is that "I am not expert enough" to write about it.
+You are probably much more expert than you think (see next paragraph), but in any case you can explain and document the use case that you worked on with Gephi.
 
-This is a very, very useful contribution to Gephi. It makes it discoverable, easier to understand and it showcases what it can do. Again, a common conception is that what we do is never "original enough" to be worth writing about. Absolutely not: each dataset or research question has interesting specificities. Help fellow users understand what you did and how you did it! And if the case is confidential, don't let it stop you! Transform and abstract your case and showcase the principles you followed.
+This is a very, very useful contribution to Gephi.
+It makes it discoverable, easier to understand and it showcases what it can do.
+Again, a common conception is that what we do is never "original enough" to be worth writing about.
+Absolutely not: each dataset or research question has interesting specificities.
+Help fellow users understand what you did and how you did it! And if the case is confidential, don't let it stop you! Transform and abstract your case and showcase the principles you followed.
 
 * Videos, tweets and shorts are useful, too
-I mentioned written pieces because that's in my comfort zone. But videos, short or long, or posts on your favorite social media would be perfectly useful!
+I mentioned written pieces because that's in my comfort zone.
+But videos, short or long, or posts on your favorite social media would be perfectly useful!
 
 **What to expect from it?**
-You gain the warm glow of knowing that you helped users discover what is possible with Gephi. Not interested in warm feelings? Then do it for the SEO, as Gephi is at the cross-road of network analysis, data science and data visualization: all SEO boxes checked at once.
+You gain the warm glow of knowing that you helped users discover what is possible with Gephi.
+Not interested in warm feelings?
+Then do it for the SEO, as Gephi is at the cross-road of network analysis, data science and data visualization: all SEO boxes checked at once.
 
 ## d. Are you moderately experienced with Gephi?
-
 * Chat and contribute to the Gephi group on Facebook!
-Yes, Facebook is really anyone's cup of tea. Discord, LinkedIn, Slack, a Wordpress forum... all these would be preferable in some way and yet ten times less used than the group on Facebook. So we stay there for the moment.
+Yes, Facebook is really far from anyone's cup of tea.
+Discord, LinkedIn, Slack, a Wordpress forum... all these would be preferable in some way and yet ten times less used than the group on Facebook.
+So we stay there for the moment.
 
-The Gephi Facebook group has close to 10,000 members and is a very welcoming and friendly community. Join, post and read! Stuck in any way? Want to showcase a result? Definitely the place to post about it. And if you see anyone requesting assistance, which happens several times per week actually, have a look and it might well be something you have the answer to! Don't be shy to offer your assistance, again my feeling is that we all tend to underestimate how helpful even a small piece of advice or assistance can be.
+The Gephi Facebook group has close to 10,000 members and is a very welcoming and friendly community.
+Join, post and read!
+Stuck in any way?
+Want to showcase a result?
+Definitely the place to post about it.
+And if you see anyone requesting assistance, which happens several times per week actually, have a look and it might well be something you have the answer to!
+Don't be shy to offer your assistance, again my feeling is that we all tend to underestimate how helpful even a small piece of advice or assistance can be.
 
 **What to expect from it?**
-Here again, you get a very nice feeling of giving back to the community, and helping somebody who is a beginner just like you were some time ago. Not interested in warm feelings? Contributing to the Gephi Facebook group will also push you up on the learning curve, by exposing you to a variety of cases, questions and solutions that you did not encounter in your usual flow of work with Gephi. A kind of learning platform!
+Here again, you get a very nice feeling of giving back to the community, and helping somebody who is a beginner just like you were some time ago.
+Not interested in warm feelings?
+Contributing to the Gephi Facebook group will also push you up on the learning curve by exposing you to a variety of cases, questions and solutions that you did not encounter in your usual flow of work with Gephi.
+A kind of learning platform!
 
 
 ## e. Are you quite experienced with Gephi?
@@ -99,22 +118,6 @@ If you feel that you could contribute to this kind of discussions, do join here.
 **What to expect from it?**
 Well, that is super interesting to get close to the core of the Gephi app and community! This is the place where you could learn about the things brewing for the next months, and suggest contributions you can make: in skills, time, money, credit, etc. I would like to emphasize that the most important are contributions (things you can do), not suggestions (things others should do...). The entire group of Gephi core contributors are pretty overwhelmed already, let's give them so help, not a wishlist! :-)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**What to expect from it?**
-You gain the warm glow of knowing that you helped users discover what is possible with Gephi. Not interested in warm feelings? Then do it for the SEO, as Gephi is at the cross-road of network analysis, data science and data visualization: all SEO boxes checked at once.
 # About me
 
 I am a [professor at emlyon business school](https://www.linkedin.com/in/levallois/) where I conduct research in Natural Language Processing and network analysis applied to social sciences and the humanities. I teach about the impact of digital technologies on business and society. I also  build [nocode functions](https://nocodefunctions.com) 🔎, a click and point web app to explore texts and networks. It is [fully open source](https://github.com/seinecle/nocodefunctions). Try it and give some feedback, I would appreciate it!
