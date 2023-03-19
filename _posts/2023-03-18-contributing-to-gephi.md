@@ -48,7 +48,7 @@ However, events sponsored by Gephi could still receive funding, through the univ
 
 **What to expect from it?**
 
-The 2nd edition of the Gephi week (August 2022) has been extremely productive.
+The 2nd edition of the Gephi week (August 2022) [has been extremely productive](https://gephi.wordpress.com/2022/10/16/gephi-week-2022-debriefing/).
 It delivered bug fixes, new plugins, new directions for development but most of all it generated a renewed energy to participate and contribute.
 By funding the next edition, you contribute in a very concrete manner to making Gephi more stable in the long term.
 
@@ -57,14 +57,14 @@ By funding the next edition, you contribute in a very concrete manner to making 
 As an academic (librarian, faculty, student, administrator), a very impactful action is to cite Gephi in the bibliography of the documents your produce - in articles of course but in every publication really, including applications to projects and reports.
 These are the two papers referencing the tool you love:
 
-> Bastian, M., Heymann, S., & Jacomy, M. (2009, March). Gephi: an open source software for exploring and manipulating networks. In Proceedings of the international AAAI conference on web and social media (Vol. 3, No. 1, pp. 361-362).
+> Bastian, M., Heymann, S., & Jacomy, M. (2009, March). Gephi: an open source software for exploring and manipulating networks. In Proceedings of the international AAAI conference on web and social media (Vol. 3, No. 1, pp. 361-362). [link](https://ojs.aaai.org/index.php/ICWSM/article/view/13937)
 
-> Jacomy, M., Venturini, T., Heymann, S., & Bastian, M. (2014). ForceAtlas2, a continuous graph layout algorithm for handy network visualization designed for the Gephi software. PloS one, 9(6), e98679.
+> Jacomy, M., Venturini, T., Heymann, S., & Bastian, M. (2014). ForceAtlas2, a continuous graph layout algorithm for handy network visualization designed for the Gephi software. PloS one, 9(6), e98679. [link](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0098679)
 
 **What to expect from it?**
-Gephi has an excellent academic standing, with the original contribution cited more than 10,000 times and Gephi being mentioned in over 39,000 academic publications.
-Explicitly referencing Gephi in your publications contributes to making Gephi visible by making its impact measurable: it ehnances its legitimacy and fosters adoption.
-And for you, Gephi having an established presence and growing reputation will make it easier to convince reviewer #2 that Gephi was indeed the right choice for this network analysis ;-)
+Gephi has an excellent academic standing, with the original contribution cited [more than 10,000 times](https://scholar.google.com/scholar?cites=692893633449340225&as_sdt=2005&sciodt=0,5) and Gephi being mentioned in [over 39,000 academic publications](https://scholar.google.com/scholar?as_sdt=0%2C5&q=gephi).
+Explicitly referencing Gephi in your publications contributes to making Gephi visible by making its impact measurable: it enhances its legitimacy and fosters adoption.
+And for you? Gephi having an established presence and growing reputation will make it easier to convince reviewer #2 that Gephi was indeed the right choice for this network analysis ;-)
 
 ## c. Do you ever write tutorials, how-tos, blog posts?
 ### - Write a simple intro about your experience using Gephi, help others discover it
@@ -75,13 +75,20 @@ This is a very, very useful contribution to Gephi.
 It makes it discoverable, easier to understand and it showcases what it can do.
 Again, a common conception is that what we do is never "original enough" to be worth writing about.
 Absolutely not: each dataset or research question has interesting specificities.
-Help fellow users understand what you did and how you did it! And if the case is confidential, don't let it stop you! Transform and abstract your case and showcase the principles you followed.
+Help fellow users understand what you did and how you did it!
+And if the case is confidential, don't let it stop you!
+Transform and abstract your case and showcase the principles you followed.
+
+**Examples**
+
+
 
 ### - Shoot videos or shorts, any kind of social media postings are useful, too
 I mentioned written pieces because that's in my comfort zone.
 But videos, short or long, or posts on your favorite social media would be perfectly useful!
 
 **What to expect from it?**
+
 You gain the warm glow of knowing that you helped users discover what is possible with Gephi.
 Not interested in warm feelings?
 Then do it for the SEO, as Gephi is at the cross-road of network analysis, data science and data visualization: all SEO boxes checked at once.
@@ -101,6 +108,7 @@ And if you see anyone requesting assistance, which happens several times per wee
 Don't be shy to offer your assistance, again my feeling is that we all tend to underestimate how helpful even a small piece of advice or assistance can be.
 
 **What to expect from it?**
+
 Here again, you get a very nice feeling of giving back to the community, and helping somebody who is a beginner just like you were some time ago.
 Still not interested in warm feelings?
 Contributing to the Gephi Facebook group will also push you up on the learning curve by exposing you to a variety of cases, questions and solutions that you did not encounter in your usual flow of work with Gephi.
@@ -115,6 +123,7 @@ It is different from the Facebook group in the sense that discussions are around
 If you feel that you could contribute to this kind of discussions, do join here. You are not absolutely certain? Do join and be a listener for the first weeks, and you'll see whether you want to be part of the discussions or not.
 
 **What to expect from it?**
+
 Well, that is super interesting to get close to the core of the Gephi app and community! This is the place where you could learn about the things brewing for the next months, and suggest contributions you can make: in skills, time, money, credit, etc.
 
 **I would like to emphasize that on this channel the most important are contributions (things you can do), not suggestions (things others should do...). The entire group of Gephi core contributors are pretty overwhelmed already, let's give them so help, not a wishlist! :-)**
@@ -125,6 +134,7 @@ Well, that is super interesting to get close to the core of the Gephi app and co
 It is not always super clear that Gephi as a topic is for everyone - not just to be contained in the gephi.org website or in the Gephi software. You can develop a free or commercial and / or for-profit activity about Gephi. One obvious activity would be training sessions or workshops about Gephi, or any consulting activity in a given sector, leveraging Gephi. Maybe that when this gets clarified, we'll see a broader offer for trainings in Gephi?
 
 **What to expect from it?**
+
 Designing a training or workshop about Gephi is always a great occasion to re-learn what had become habitual. Besides the revenues you will generate from it, it will also establish your credentials in the domain.
 
 
@@ -137,6 +147,7 @@ Gephi provides hooks of an outstanding quality, that make it super convenient to
 * the Gephi graphstore is the low level graph engine that powers Gephi and you could use it in your own projects too!
 
 **What to expect from it?**
+
 Using these Gephi assets in your projects will save you time, not reinventing the wheel of a network app that includes the graph itself but also the algorithms, filters, management of attributes, I/O machinery etc. that you will also need pretty quickly. By doing so, you serve Gephi as you will naturally get involved in pushing Gephi and its various assets forward.
 
 ## h. Are you a developer?
@@ -157,10 +168,10 @@ Gephi is built on top of the NetBeans Platform, which is the Rich Client Applica
 I might be sloppy here as I have close to zero knowledge of the domain here, but the visualization engine of Gephi is using OpenGL and that is of course quite a tricky aspect. I don't have the details but Gephi is in the middle of a major upgrade of the underlying technologies for this OpenGL stuff, so if you or your organization is knowledgeable about this subject, you could also make essential contributions.
 
 **What to expect from it?**
-Gephi is led by developers who are first-class in their trade. Did you know that Gephi won a Duke Award back in the days? Contributing to this open source project would be a great learning experience for everyone involved and would speed up the delivery of key features.
+
+Gephi is led by developers who are first-class in their trade. Did you know that Gephi won a Duke Award back in the days? Contributing to this open source project would be a great learning experience for everyone involved and would speed up the delivery of key features. Gephi is also an open and free software: if you personally care about contributing to a FOSS, Gephi is a perfect choice ❤️. 
 
 # About me
-
 I am a [professor at emlyon business school](https://www.linkedin.com/in/levallois/) where I conduct research in Natural Language Processing and network analysis applied to social sciences and the humanities. I teach about the impact of digital technologies on business and society. I also  build [nocode functions](https://nocodefunctions.com) 🔎, a click and point web app to explore texts and networks. It is [fully open source](https://github.com/seinecle/nocodefunctions). Try it and give some feedback, I would appreciate it!
 
 * my email: [admin@clementlevallois.net](mailto:admin@clementlevallois.net) 📧
