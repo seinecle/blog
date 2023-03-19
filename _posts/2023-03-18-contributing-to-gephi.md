@@ -44,7 +44,7 @@ There are many alternatives to contribute to Gephi, in ways that make the best o
 ### Fund Gephi, despite the hurdles
 At the moment, there is no legal entity that is set to accept funding for Gephi, though it is bound to come one day.
 However, events sponsored by Gephi could still receive funding, through the university that will host the event or a similar channel? 
-<a href="../attachments/Gephi_v1_slides2.pdf" target="_blank">The Gephi week for 2023 is on the table</a> (see pages 12 and 24), for example.
+<a href="https://nocodefunctions.com/blog/attachments/Gephi_v1_slides2.pdf" target="_blank">The Gephi week for 2023 is on the table</a> (see pages 12 and 24), for example.
 
 **What to expect from it?**
 
