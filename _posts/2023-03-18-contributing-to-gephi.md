@@ -62,7 +62,7 @@ These are the two papers referencing the tool you love:
 > Jacomy, M., Venturini, T., Heymann, S., & Bastian, M. (2014). ForceAtlas2, a continuous graph layout algorithm for handy network visualization designed for the Gephi software. PloS one, 9(6), e98679. [link](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0098679)
 
 ### What about organizing an academic conference?
-I think that Gephi has actually never been the central topic of an academic conference. Would you like to be the first? This could be about Gephi itself, or Gephi in relation with your scientific specialty (network analysis, social networks, biological networks, computer science, forensics, etc.). 
+I think that Gephi has actually never been the central topic of an academic conference 🤔. Would you like to be the first? This could be about Gephi itself, or Gephi in relation with your scientific specialty (network analysis, social networks, organizational mapping, biological networks, computer science, forensics, etc.). 
 
 
 **What to expect from it?**
