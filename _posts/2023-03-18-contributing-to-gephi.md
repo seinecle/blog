@@ -14,7 +14,7 @@ How could they develop collaborations and give back - he was asking?
 
 This blog post is my opinion on this matter.
 I am not steering Gephi, so please do not take the following as anything "official" nor definitive on the topic.
-Please check the recent posts on the Gephi blog posts by Mathieu Jacomy and Mathieu Bastian to get the latest views from the core Gephi team.
+Please check the recent posts on [the Gephi blog](https://gephi.wordpress.com/) by [Mathieu Jacomy](https://twitter.com/jacomyma) and [Mathieu Bastian](https://www.linkedin.com/in/mathieubastian) to get the latest views from the core Gephi team.
 
 Ok, let's take a bullet point approach:
 
@@ -23,7 +23,7 @@ Ok, let's take a bullet point approach:
 Gephi is used by a large diversity of actors: students to governments, librarians, academics and professional scientometricians, social media listeners, citizen journalists, fraud detection analysts and NGO volunteers to professional osint and infosec specialists and many more.
 
 In this list of users, companies would have been natural contributors to the development of Gephi: "take my money, and in exchange I have a voice in Gephi to develop this or that feature".
-However Gephi is a free and open source software, and it will not accept funding in return for a right to control how it is developed.
+However [Gephi is a free and open source software](https://en.wikipedia.org/wiki/Free_and_open-source_software), and it will not accept funding in return for a right to control how it is developed.
 
 This stance is not a mistake nor a handicap!
 It is a conscious choice to evolve Gephi for all - not just in the direction that is set by the stakeholders which can fund it.
