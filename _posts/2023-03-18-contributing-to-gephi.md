@@ -91,10 +91,10 @@ But videos, short or long, or posts on your favorite social media would be perfe
 **Examples**
 These are quite "high effort" examples, just to inspire you about the variety of formats. Do start with something smaller in scope!
 
-[Medium articles](https://medium.com/@vespinozag) by [Veronica Espinoza](https://twitter.com/Verukita1)
-[A 20 minutes youtube video](https://www.youtube.com/watch?v=GXtbL8avpik) by [Martin Granjean](https://www.martingrandjean.ch/)
-[A personal website with Gephi tutorials](https://seinecle.github.io/gephi-tutorials/) by myself
-[A company website hosting a blog, with a post dedicated to Gephi](https://orgmapper.com/gephi-tutorial/) by [OrgMapper](https://orgmapper.com/)
+* [Medium articles](https://medium.com/@vespinozag) by [Veronica Espinoza](https://twitter.com/Verukita1)
+* [A 20 minutes youtube video](https://www.youtube.com/watch?v=GXtbL8avpik) by [Martin Granjean](https://www.martingrandjean.ch/)
+* [A personal website with Gephi tutorials](https://seinecle.github.io/gephi-tutorials/) by myself
+* [A company website hosting a blog, with a post dedicated to Gephi](https://orgmapper.com/gephi-tutorial/) by [OrgMapper](https://orgmapper.com/)
 
 **What to expect from it?**
 
