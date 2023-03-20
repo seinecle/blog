@@ -177,7 +177,7 @@ Everybody has their own learning path, here is one:
 Gephi is built on top of the NetBeans Platform, which is the Rich Client Application of the NetBeans IDE. If you have a strong interest in NetBeans / RCA / desktop applications / or the intrincaties of targetting a desktop app specifically for Windows of MacOS, you could make contributions of critical importance.
 
 ### OpenGL for Java
-I might be sloppy here as I have close to zero knowledge of the domain here, but the visualization engine of Gephi is using OpenGL and that is of course quite a tricky aspect. I don't have the details but Gephi is in the middle of a major upgrade of the underlying technologies for this OpenGL stuff, so if you or your organization is knowledgeable about this subject, you could also make essential contributions.
+I might be sloppy here as I have close to zero knowledge of the domain, but the visualization engine of Gephi is using OpenGL and that is of course quite a tricky aspect. I don't have the details but Gephi is in the middle of a major upgrade of the underlying technologies for this OpenGL stuff, so if you or your organization is knowledgeable about this subject, you could also make essential contributions.
 
 **What to expect from it?**
 
