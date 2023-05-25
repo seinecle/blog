@@ -57,7 +57,7 @@ which means:
 - no server, no database, no GPU, no framework.
 
 
-# Methods and results
+# Tips and results
 
 ## Handling Longs, not Strings
 Journal ids and authors ids are represented as a String by OpenAlex, but most of the String is just a url, the actual identifier is a Long Integer at the end of the url.
@@ -73,7 +73,6 @@ There are several libraries I could have chosen from, please [check this benchma
 
 
 # ParallelStreams and virtual threads
-
 The two loops on the journals are managed with parallelstreams. For each pair of journals, their similarity is measured by a count of their joint authors. This count is performed by a small function which is delegated to a virtual thread.
 [I had started by thinking, should I used parallelStreams or virtual threads?, but actually nothing prevents from leveraging them both].
 
@@ -81,7 +80,6 @@ I tried to see if executor.submit() (then retrieving the Future value) would giv
 
 
 # Comparison of sets of authors
-
 This is a trivial part: each journal has a group of authors. How many authors are present in two groups? Just take the intersection of the two sets and get its size.
 There are actually several ways to do this:
 
@@ -91,8 +89,7 @@ There are actually several ways to do this:
 Also, big gains in speed came from simply looping through the **shortest** Set, not the longest - of course! Just added a check on the size of the two sets of authors at the beginning of the comparison, that's all.
 
 # Making sure there is no unecessary boxing /unboxing 
-
-Java conveniently provides two ways to handle numbers:
+Java conveniently provides two ways to handle large numbers:
 
 1. a small, memory efficient long primitive.
 2. a Long object which takes more memory, but is more capable in terms of methods and integration with the Java Collection framework. 
@@ -100,11 +97,22 @@ Java conveniently provides two ways to handle numbers:
 As said above I went for longs not Longs for the sake of not using much memory given the size of the dataset. But in some parts of the code, Java can implicitly turn a long into a Long to carry an operation you need. Boxing is converting a long into a Long, and unboxing is the reverse. This is trivial but can end up consuming precious nanoseconds, multipled many times. Making sure I did not use long here, Long there in the code helped improve speed.
 
 
+# Removing the break of having to write the results while looping
+When a similarity is computed, this result is stored as a text:
+journalA, journalB, count of common authors.
+
+To avoid that writing this result would slow down the loop, it is just given to a queue, which is offloaded in a separate thread. This thread uses a FileChannel to continuously write on disk in a simple way.
+
+Note: I have tried using a StringBuilder to build up a significant portion of text before sending it to the disk - but it was actually slower.
 
 
+# Removing the break of having to write the results while looping
+When a similarity is computed, this result is stored as a text:
+journalA, journalB, count of common authors.
 
+To avoid that writing this result would slow down the loop, it is just given to a queue, which is offloaded in a separate thread. This thread uses a FileChannel to continuously write on disk in a simple way.
 
-
+Note: I have tried using a StringBuilder to build up a significant portion of text before sending it to the disk - but it was actually slower.
 
 
 
