@@ -18,7 +18,7 @@ for each journal in journals
       for each pair, count how many authors have published in the 2 journals of the pair
 ```      
 
-This exceedinly simple. But if you don't find tricks to speed up things, even at 1,000 pairs examined per second, **it will take 23 days to examine all 2 billion pairs 🥲**.
+This is exceedinly simple. But if you don't find tricks to speed up things, even at 1,000 pairs examined per second, **it will take 23 days to examine all 2 billion pairs 🥲**.
 
 
 
