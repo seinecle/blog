@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Speeding up pairwise comparisons to 2.8 milion/sec in Java on a regular laptop
+title: Speeding up pairwise comparisons to 2.8 million/sec in Java on a regular laptop
 permalink: /optimizing-pairwise-comparisons-java/
 published: true
 date_readable:               May 25, 2023
