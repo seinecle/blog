@@ -66,7 +66,7 @@ Do check [the resulting code](https://github.com/seinecle/MapsOfScience/blob/c9b
 **--- first tips to get to the baseline ---**
 
 ## Vectors and matrices?
-This was my first impulse as this is the approach I follow in [Cowo](https://github.com/seinecle/cowo-function). But that seemed like an overkill at the similarity measure I use is very simple and does not involve operations on vectors.
+This was my first impulse as this is the approach I follow in [Cowo](https://github.com/seinecle/cowo-function). But that seemed like an overkill as the similarity measurebeing used here is a simple count, it  does not involve operations on vectors.
 
 ## Handle Longs, not Strings
 Journal ids and authors ids are represented [as a String by OpenAlex](https://docs.openalex.org/how-to-use-the-api/get-single-entities), but most of the String is just a url, the actual identifier is just a Long Integer at the end of the url.
