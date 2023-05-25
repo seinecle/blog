@@ -42,15 +42,6 @@ Now the goal is to compute the **similarity between each pair of journals**, "si
 
 **This makes 2 billion pairs to evaluate**: 200,000 x 200,000 divided by 2 (because when we compared journal A to B, no need to compare journal B to A again).
 
-Pairwise comparisons go something like:
-
-for each journal in journals
-    visit all other journals
-      so that you examine each pair.
-      count how many authors have published in the 2 journals of each pair.
-      
-This exceedinly simple. But if you don't find tricks to speed up things, even at 1,000 pairs examined per second, **it will take 23 days to examine all 2 billion pairs 🥲**.
-
 **The goal of this part of the project is to go down to hours, not days** to compute these 2B similarities.
 
 ➡ *Hardware and stack*
@@ -81,7 +72,38 @@ There are several libraries I could have chosen from, please [check this benchma
 ![Some of the charts by Speiger benchmarking java libraries to handle primitive collections](https://github.com/seinecle/blog/assets/1244100/8708fb31-7a81-4d7f-88ff-e2be8faacf92)
 
 
-# Choosing between virtual threads and parallelStreams
+# ParallelStreams and virtual threads
+
+The two loops on the journals are managed with parallelstreams. For each pair of journals, their similarity is measured by a count of their joint authors. This count is performed by a small function which is delegated to a virtual thread.
+[I had started by thinking, should I used parallelStreams or virtual threads?, but actually nothing prevents from leveraging them both].
+
+I tried to see if executor.submit() (then retrieving the Future value) would give better results than executor.execute(), but it did not.
+
+
+# Comparison of sets of authors
+
+This is a trivial part: each journal has a group of authors. How many authors are present in two groups? Just take the intersection of the two sets and get its size.
+There are actually several ways to do this:
+
+- use the "retainAll" method provided by the Set collection. [First it did not work](https://stackoverflow.com/questions/76326766/fastutil-operation-on-set-fails-with-long-type), then it worked but performance was not the best.
+- loop through the elements of a set, check for each element if it is contained in the other set. This is the approach that gives me the best results. Not using parallel streams as it does not give better results than a classic Iterator.
+
+Also, big gains in speed came from simply looping through the **shortest** Set, not the longest - of course! Just added a check on the size of the two sets of authors at the beginning of the comparison, that's all.
+
+# Making sure there is no unecessary boxing /unboxing 
+
+Java conveniently provides two ways to handle numbers:
+
+1. a small, memory efficient long primitive.
+2. a Long object which takes more memory, but is more capable in terms of methods and integration with the Java Collection framework. 
+
+As said above I went for longs not Longs for the sake of not using much memory given the size of the dataset. But in some parts of the code, Java can implicitly turn a long into a Long to carry an operation you need. Boxing is converting a long into a Long, and unboxing is the reverse. This is trivial but can end up consuming precious nanoseconds, multipled many times. Making sure I did not use long here, Long there in the code helped improve speed.
+
+
+
+
+
+
 
 
 
