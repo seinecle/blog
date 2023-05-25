@@ -132,7 +132,7 @@ This part seemed necessary but also an obvious drag on performance. **A simpler 
 - Loop through A, B, C
 - For each journal in the loop, loop through all the others **but take the next journal as a starting point - skip the ones before**. So: for A, start looping at B. For B, start looping at C. etc.
 
-As my collections of journals are unordered sets, this approach doesn't work straightforwadly: A, B and C are not necessarilty in this order in the inner loop. So it requires some fiddling but the result is really worth it with a large performance gain.
+As my collections of journals are unordered sets, this approach doesn't work straightforwardly: A, B and C are not necessarily in this order in the inner loop. So it requires some fiddling to introduce a logic of indices but the result is really worth it with a large performance gain.
 
 # Results
 These different ways to gain in speed were discussed first during a [Twitch session](https://twitch.tv/clementlevallois), then with [short conversations](https://twitter.com/seinecle/status/1661467087523422208) on Twitter and [StackOverflow](https://stackoverflow.com/questions/76326766/fastutil-operation-on-set-fails-with-long-type), lots of web browsing and questions to ChatGPT.
