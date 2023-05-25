@@ -2,7 +2,7 @@
 layout: post
 title: Speeding up pairwise comparisons in Java on a regular laptop
 permalink: /optimizing-pairwise-comparisons-java/
-published: false
+published: true
 date_readable:               May 25, 2023
 last_modified_at_readable:   May 25, 2023
 ---
