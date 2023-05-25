@@ -7,9 +7,20 @@ date_readable:               May 25, 2023
 last_modified_at_readable:   May 25, 2023
 ---
 
-*Notes on coding strategies to speed up pairwise comparisons on the elements of a collection*
+*Notes on coding strategies to speed up pairwise comparisons for 200,000 journals*
 
-It started at 140,000 comparisons per second and ended up at 3 million / seconds
+Pairwise comparisons go something like:
+
+```
+for each journal in journals
+    visit all other journals
+      so end up examining each pair
+      for each pair, count how many authors have published in the 2 journals of the pair
+```      
+
+This exceedinly simple. But if you don't find tricks to speed up things, even at 1,000 pairs examined per second, **it will take 23 days to examine all 2 billion pairs 🥲**.
+
+
 
 # Context / goal / hardware
 
@@ -31,6 +42,17 @@ Now the goal is to compute the **similarity between each pair of journals**, "si
 
 **This makes 2 billion pairs to evaluate**: 200,000 x 200,000 divided by 2 (because when we compared journal A to B, no need to compare journal B to A again).
 
+Pairwise comparisons go something like:
+
+for each journal in journals
+    visit all other journals
+      so that you examine each pair.
+      count how many authors have published in the 2 journals of each pair.
+      
+This exceedinly simple. But if you don't find tricks to speed up things, even at 1,000 pairs examined per second, **it will take 23 days to examine all 2 billion pairs 🥲**.
+
+**The goal of this part of the project is to go down to hours, not days** to compute these 2B similarities.
+
 ➡ *Hardware and stack*
 
 It is a conscious decision not to go for clusters, GPUs and cloud infrastructure where possible, in order to lower the barrier of entry for those who would like to contribute or just fork and run the project by themselves.
@@ -51,8 +73,17 @@ Journal ids and authors ids are represented as a String by OpenAlex, but most of
 
 Hence, the first trivial operation consisted in reducing the String ids to Longs.
 
-# Using the Fastutil library to handle Longs in a memory efficient way, as primitive "long"
-It
+# Using the [Fastutil library](https://fastutil.di.unimi.it/) to handle Longs in a memory efficient way, as primitive "long"
+200,000 journals and their authors sounded like a big dataset. To be on tne safe side, I did not use the Java native Collections and went directly for a library specializing in reducing the memory footprint of large collections of primitive values, also offering performances on speed.
+
+There are several libraries I could have chosen from, please [check this benchmark]([https://github.com/Speiger/Primitive-Collections-Benchmarks/blob/master/BENCHMARKS.md](https://github.com/Speiger/Primitive-Collections-Benchmarks/blob/master/BENCHMARKS-CHARTS.md)) by [Speiger](https://twitter.com/SpeigerCut) which evaluates them.
+
+![Some of the charts by Speiger benchmarking java libraries to handle primitive collections](https://github.com/seinecle/blog/assets/1244100/8708fb31-7a81-4d7f-88ff-e2be8faacf92)
+
+
+# Choosing between virtual threads and parallelStreams
+
+
 
 
 
