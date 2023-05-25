@@ -78,7 +78,7 @@ Hence, the first trivial operation consisted in reducing the String ids to Longs
 ## Use a library to handle Longs in a memory efficient way, as primitive "long"
 200,000 journals and their authors sounded like a big dataset. To be on the safe side, I did not use the Java native Collections and went directly for a library specializing in reducing the memory footprint of large collections of primitive values, also offering performances on speed.
 
-I am using [Fastutil library](https://fastutil.di.unimi.it/), and there were several libraries I could have chosen from. Please [check this benchmark]([https://github.com/Speiger/Primitive-Collections-Benchmarks/blob/master/BENCHMARKS.md](https://github.com/Speiger/Primitive-Collections-Benchmarks/blob/master/BENCHMARKS-CHARTS.md)) by [Speiger](https://twitter.com/SpeigerCut) which evaluates them.
+I am using [Fastutil library](https://fastutil.di.unimi.it/), and there were several libraries I could have chosen from. Please [check this benchmark](https://github.com/Speiger/Primitive-Collections-Benchmarks/blob/master/BENCHMARKS-CHARTS.md) by [Speiger](https://twitter.com/SpeigerCut) which evaluates them.
 
 ![Some of the charts by Speiger benchmarking java libraries to handle primitive collections](https://github.com/seinecle/blog/assets/1244100/8708fb31-7a81-4d7f-88ff-e2be8faacf92)
 
@@ -115,7 +115,7 @@ Java conveniently provides two ways to handle large numbers:
 1. a small, memory efficient `long` primitive.
 2. a `Long` object which takes more memory, but is more capable in terms of methods and integration with the Java Collection framework. 
 
-As said above I went for longs not Longs for the sake of not using much memory given the size of the dataset. But in some parts of the code, Java can implicitly turn a `long` into a `Long` to carry an operation you asked for. Boxing is converting a `long` into a `Long`, and unboxing is the reverse. This is trivial but can end up consuming precious nanoseconds, multipled many times. Making sure I did not use `long` here, `Long` there in the code helped improve speed.
+As said above I went for longs not Longs for the sake of not using much memory given the size of the dataset. But in some parts of the code, Java can implicitly turn a `long` into a `Long` to carry an operation you asked for. Boxing is converting a `long` into a `Long`, and unboxing is the reverse. This is trivial but can end up consuming precious nanoseconds, multipled many times. Making sure I consistently relied on `long` variables, not `Long`, helped improve speed.
 
 
 ## Tracking pairs is slow? Remove this step
