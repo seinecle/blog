@@ -14,7 +14,7 @@ Pairwise comparisons go something like:
 ```
 for each journal in journals
     visit all other journals
-      so end up examining each pair
+      so we end up examining each pair of journals
       for each pair, count how many authors have published in the 2 journals of the pair
 ```      
 
