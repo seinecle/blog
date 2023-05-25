@@ -139,16 +139,16 @@ These different ways to gain in speed were discussed first during a [Twitch sess
 
 While I did not keep track rigorously of all the changes, I kept a table of my different attempts and the results they brought.
 
+![Informal table to keep track of my attempts on samples of 4,000 or 5,000 journals](https://github.com/seinecle/blog/assets/1244100/3430e590-1835-49fa-a490-91495c1209ac)
+
 It started with 140,000 pairs examined per second, which would run the entire operation in less than 4 hours.
 
-And the result is at **2.8 million pairs examined per second, which would be equivalent to 12 minutes on a 200,000 set of journals**. Of course some degradation of performance will occur but it all should stay below the hour I guess.
+And the end result is at **2.8 million pairs examined per second, which would be equivalent to 12 minutes on a 200,000 set of journals**. Of course some degradation of performance will occur but it all should stay below the hour I guess.
 
 # Feedback!
 If you know about Java and love optimization of performance, I'd love to have your feedback! (see just below).
 
-
 # About me
-
 I am a [professor at emlyon business school](https://www.linkedin.com/in/levallois/) where I conduct research in Natural Language Processing and network analysis applied to social sciences and the humanities. I teach about the impact of digital technologies on business and society. I also  build [nocode functions](https://nocodefunctions.com) 🔎, a click and point web app to explore texts and networks. It is [fully open source](https://github.com/seinecle/nocodefunctions). Try it and give some feedback, I would appreciate it!
 
 * my email: [admin@clementlevallois.net](mailto:admin@clementlevallois.net) 📧
