@@ -59,7 +59,7 @@ In this spirit, so far the project needs:
 which means:
 - no server, no database, no GPU, no framework.
 
-Are we going to get stuck at the step of pair-wise comparisons, if we don't use any fancy tooling? Below is a list of tips that helped speed up computations **by a factor of 20**, the baseline being a double loop using parallel streams. It seems we can can continue working on laptop! 😛
+Are we going to get stuck at the step of pair-wise comparisons, if we don't use any fancy tooling? Below is a list of tips that helped speed up computations **by a factor of 20**, the baseline being a double loop using parallel streams. It seems we  can continue working on a laptop! 😛
 
 Do check [the resulting code](https://github.com/seinecle/MapsOfScience/blob/c9b979c05e6472fd8f53f9e6b1ef11afa9e620f8/src/main/java/net/clementlevallois/functions/mapsofscience/JournalSimilaritiesComputer.java), which is actually short.
 
