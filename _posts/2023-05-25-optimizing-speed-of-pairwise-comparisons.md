@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Speeding up pairwise comparisons in Java on a regular laptop
+title: Speeding up pairwise comparisons to 2.8 milion/sec in Java on a regular laptop
 permalink: /optimizing-pairwise-comparisons-java/
 published: true
 date_readable:               May 25, 2023
@@ -35,8 +35,8 @@ Th project is live streamed every Wednesday at 3pm (Paris time) [there on Twitch
 
 ➡ *Goal*
 
-Using [OpenAlex data](https://openalex.org/), I retrieve **20 million** journal articles, resulting in a **65Gb json file**.
-Extracting the journal name and author ids, this resulted in a list where each entry is a journal with all the authors who published in it. There are **200,000 journals** and with the list of their authors this fills a **0.9Gb file**.
+Using [OpenAlex data](https://openalex.org/), I retrieved **20 million** journal articles, resulting in a **65Gb json file**.
+Extracting the journal name and author ids for each article, this resulted in a list where each entry is a journal with all the authors who published in it. There are **200,000 journals** and with the list of their authors this fills a **0.9Gb file**.
 
 Now the goal is to compute the **similarity between each pair of journals**, "similarity" being measured as the number of authors that jointly published in both.
 
@@ -51,13 +51,12 @@ It is a conscious decision not to go for clusters, GPUs and cloud infrastructure
 In this spirit, so far the project needs:
 
 - a laptop with 8Gb of RAM
-- Java installed
 - continuous access to the Internet for a period of ~ 24h to retrieve the data from [OpenAlex](https://openalex.org/) (one time operation).
 
 which means:
 - no server, no database, no GPU, no framework.
 
-What could be achieved without fancy tooling? Below is a list of tips that helped speed up computations **by a factor of 20**, the baseline being a double loop using parallel streams.
+Are we going to get stuck at the step of pair-wise comparisons, if we don't use any fancy tooling? Below is a list of tips that helped speed up computations **by a factor of 20**, the baseline being a double loop using parallel streams. It seems we can can continue working on laptop! 😛
 
 Do check [the resulting code](https://github.com/seinecle/MapsOfScience/blob/c9b979c05e6472fd8f53f9e6b1ef11afa9e620f8/src/main/java/net/clementlevallois/functions/mapsofscience/JournalSimilaritiesComputer.java), which is actually short.
 
@@ -66,7 +65,7 @@ Do check [the resulting code](https://github.com/seinecle/MapsOfScience/blob/c9b
 **--- first tips to get to the baseline ---**
 
 ## Vectors and matrices?
-This was my first impulse as this is the approach I follow in [Cowo](https://github.com/seinecle/cowo-function). But that seemed like an overkill as the similarity measurebeing used here is a simple count, it  does not involve operations on vectors.
+This was my first impulse as this is the approach I follow in [Cowo](https://github.com/seinecle/cowo-function). But that seemed like an overkill as the similarity measure being used here is a simple count on Sets, so it does not require operations on vectors.
 
 ## Handle Longs, not Strings
 Journal ids and authors ids are represented [as a String by OpenAlex](https://docs.openalex.org/how-to-use-the-api/get-single-entities), but most of the String is just a url, the actual identifier is a Long Integer at the end of the url.
@@ -76,7 +75,7 @@ Hence, the first trivial operation consisted in reducing the String ids to Longs
 ## Use a library to handle Longs in a memory efficient way, as primitive "long"
 200,000 journals and their authors sounded like a big dataset. To be on the safe side, I did not use the Java native Collections and went directly for a library specializing in reducing the memory footprint of large collections of primitive values, also offering performances on speed.
 
-I am using [Fastutil library](https://fastutil.di.unimi.it/), and there was several libraries I could have chosen from. Please [check this benchmark]([https://github.com/Speiger/Primitive-Collections-Benchmarks/blob/master/BENCHMARKS.md](https://github.com/Speiger/Primitive-Collections-Benchmarks/blob/master/BENCHMARKS-CHARTS.md)) by [Speiger](https://twitter.com/SpeigerCut) which evaluates them.
+I am using [Fastutil library](https://fastutil.di.unimi.it/), and there were several libraries I could have chosen from. Please [check this benchmark]([https://github.com/Speiger/Primitive-Collections-Benchmarks/blob/master/BENCHMARKS.md](https://github.com/Speiger/Primitive-Collections-Benchmarks/blob/master/BENCHMARKS-CHARTS.md)) by [Speiger](https://twitter.com/SpeigerCut) which evaluates them.
 
 ![Some of the charts by Speiger benchmarking java libraries to handle primitive collections](https://github.com/seinecle/blog/assets/1244100/8708fb31-7a81-4d7f-88ff-e2be8faacf92)
 
@@ -85,26 +84,25 @@ When a similarity is computed, this result is stored as a text:
 
 > journalA, journalB, count of common authors.
 
-To avoid that writing this result would slow down the loop, it is just given to a queue, which is offloaded in a separate thread. This thread uses a FileChannel to continuously write on disk in a simple way.
+To avoid that writing this result would slow down the loop, it is just given to a queue, which is offloaded in a separate thread. This thread uses a `FileChannel` to continuously write on disk in an efficient way.
 
-Note: I have tried using a StringBuilder to build up a significant portion of text before sending it to the disk - but it was actually slower.
+Note: I have tried using a `StringBuilder` to accumulate a significant portion of text before sending it to the disk - but it was actually slower.
 
 
-**--- the following tips are those which improved the baseline x 20 ---**
+**--- 💥the following tips are those which improved the baseline x 20💥 ---**
 
 ## Parallel streams or virtual threads? Both!
 The two loops on the journals are managed with parallel streams.
-For each pair of journals, their similarity is simply the count of their joint authors. This count is performed by a small function which is delegated to a virtual thread.
-[I had started by thinking, should I used parallelStreams or virtual threads?, but actually nothing prevents from leveraging them both].
+For each pair of journals, their similarity is simply the count of their joint authors. This count is performed by a small function which is delegated to a virtual thread. Virtual threads and parallel streams work well together - and again, [check the code](https://github.com/seinecle/MapsOfScience/blob/c9b979c05e6472fd8f53f9e6b1ef11afa9e620f8/src/main/java/net/clementlevallois/functions/mapsofscience/JournalSimilaritiesComputer.java) and you'll see that it is managed in one line of code for each.
 
-I tried to see if executor.submit() (then retrieving the Future value) would give better results than executor.execute(), but it did not.
+I tried to see if executor.submit() (then retrieving the `Future` value) would give better results than executor.execute(), but it did not.
 
 ## Comparison of sets of authors: not that obvious
 This is a trivial part: each of the 2 journals has a group of authors. How many authors are present in the two groups? Just take the intersection of the two sets and get its size!
 There are actually several ways to do this:
 
-- use the "retainAll" method provided by the Set collection. [First it did not work](https://stackoverflow.com/questions/76326766/fastutil-operation-on-set-fails-with-long-type), then it worked but performance turned out not to be disappointing.
-- loop through the elements of a set, check for each element if it is contained in the other set. This is the approach that gives me the best results. Not using parallel streams as it does not give better results than a classic Iterator. SplitIterator didn't bring a performance boost either. 
+- use the "retainAll" method provided by the Set collection. [First it did not work](https://stackoverflow.com/questions/76326766/fastutil-operation-on-set-fails-with-long-type), then it worked but performance turned out to be disappointing.
+- loop through the elements of a set, check for each element if it is contained in the other set. This is the approach that gives me the best results. Not using parallel streams as it does not give better results than a classic `Iterator`. `SplitIterator` didn't bring a performance boost either. 
 
 Also, big gains in speed at this step came from simply looping through the **shortest** Set, not the longest - of course! Just added a check on the size of the two sets of authors at the beginning of the comparison, that's all.
 
@@ -118,21 +116,20 @@ As said above I went for longs not Longs for the sake of not using much memory g
 
 
 ## Tracking pairs is slow? Remove this step
-In my first approach, I was checking for each pair of journals (A,B) whether I didn't not already examine (B,A). Nexcessary not to double count pairs, and also to half computations from 4 billion pairs to 2 billion!
+In my first approach, I was checking for each pair of journals (A,B) whether I didn't not already examine (B,A). It was a necessity not to get each pair twice in the results, and also to half computations from 4 billion pairs to 2 billion!
 
 To do that, I stored in a `Set` a number representing the pairs already examined. Then, for each new pair of journals, I checked whether it was in the `Set` or not before proceeding to the computation of their similarity. It implied:
 
 - computing a hash for each pair, to be stored in a `Set`
 - the `Set` had to be synchronized as it was accessed by parallel streams
-- each new pair had be be tested with a "is it contained in the Set" before continuing.
+- each new pair had to be tested with a "is it contained in the Set" before continuing.
 
-This part seemed necessary but also an obvious drag on performance. A simpler way consists in removing all this, and looping in a different way. If I have 3 journals A, B, C:
+This part seemed necessary but also an obvious drag on performance. **A simpler way consists in removing all this logic**, which will involve looping in a different way. If I have 3 journals A, B, C:
 
 - Loop through A, B, C
 - For each journal in the loop, loop through all the others **but take the next journal as a starting point - skip the ones before**. So: for A, start looping at B. For B, start looping at C. etc.
 
-As my collections of journals are unordered sets, this approach doesn't work straightforwadly: A, B and C are not necessarilty in this order in the inner loop. So it requires some fiddling but the result is really worth it with a large performance gains. 
-
+As my collections of journals are unordered sets, this approach doesn't work straightforwadly: A, B and C are not necessarilty in this order in the inner loop. So it requires some fiddling but the result is really worth it with a large performance gain.
 
 # Results
 These different ways to gain in speed were discussed first during a [Twitch session](https://twitch.tv/clementlevallois), then with [short conversations](https://twitter.com/seinecle/status/1661467087523422208) on Twitter and [StackOverflow](https://stackoverflow.com/questions/76326766/fastutil-operation-on-set-fails-with-long-type), lots of web browsing and questions to ChatGPT.
