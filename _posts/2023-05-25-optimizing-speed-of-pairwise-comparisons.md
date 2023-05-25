@@ -28,7 +28,10 @@ This exceedinly simple. But if you don't find tricks to speed up things, even at
 
 This is part of a project to build maps of science, similar to this one:
 
-![Rafols, Porter and Leydesdorff, (2010), "Science overlay maps: a new tool for research policy and library management"](https://github.com/seinecle/MapsOfScience/blob/main/assets/img/rafols-porter-leydesdorff-2010.png)
+
+
+![Rafols, Porter and Leydesdorff, (2010), "Science overlay maps: a new tool for research policy and library management"](https://github.com/seinecle/blog/assets/1244100/1510333c-e1f4-424c-a410-65b11cb2dd81)
+
 
 Th project is live streamed every Wednesday at 3pm (Paris time) [there on Twitch](https://twitch.tv/clementlevallois) and is made [fully open on Github](https://github.com/seinecle/MapsOfScience).
 
