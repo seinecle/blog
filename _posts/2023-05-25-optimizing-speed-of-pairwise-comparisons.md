@@ -23,7 +23,7 @@ This is exceedinly simple. But if you don't find tricks to speed up things, even
 # Update following comments on reddit
 [Many useful suggestions were made on reddit](https://www.reddit.com/r/java/comments/13rlb26/speeding_up_pairwise_comparisons_to_28_millionsec/) on how to improve performance further. I'll try to test them, time permitting...
 
-Also, some wanted to do tests themselves. I have made [the datasets publicly available here](https://drive.google.com/drive/folders/1DWGDlAhwjUvqgf1VEkTtpMT57X3o10eD?usp=sharing), go and try things! 
+Also, some wanted to do tests themselves. I have made [the datasets publicly available here](https://drive.google.com/drive/folders/1DWGDlAhwjUvqgf1VEkTtpMT57X3o10eD?usp=sharing), go and try things! The easiest way to report suggestions is to post them as [Github issues there](https://github.com/seinecle/MapsOfScience/issues).
 
 
 # Context / goal / hardware
