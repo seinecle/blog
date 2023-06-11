@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Speeding up pairwise comparisons from 2.8 to 80 million/sec on a regular laptop
+title: Speeding up pairwise comparisons from 2.8 to 80 million per sec on a regular laptop
 permalink: /80-million-pairwise-comparisons-java/
 published: true
 date_readable:               June 12, 2023
