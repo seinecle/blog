@@ -53,7 +53,7 @@ In practice, for a dataset made of:
 - related to 19,343,954 authors
 
 There are 98,230 x 98,229 pairs to be examined, divided by 2 as we examine pair A-B and not B-A again. This amounts to 9,649,034,670 (close to 10 billion) pairs to examine.
-The improved algorithms takes 60 seconds to run this dataset on a [relatively recent processor with 4 cores](https://www.intel.com/content/www/us/en/products/sku/208662/intel-core-i71165g7-processor-12m-cache-up-to-4-70-ghz/specifications.html), which amounts to 80,408,622 pairs compared per second.
+The improved algorithm takes 60 seconds to run on this dataset on a [relatively recent processor with 4 cores](https://www.intel.com/content/www/us/en/products/sku/208662/intel-core-i71165g7-processor-12m-cache-up-to-4-70-ghz/specifications.html), which amounts to 80,408,622 pairs compared per second.
 
 The previous version run at 2.8 million pairs per second: almost 30 x slower and that was my best shot!
 
