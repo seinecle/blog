@@ -34,7 +34,7 @@ The first initialization step consists in mapping all journal ids and authors id
 Then, these journal and author ids, now represented as integers, can be stored in a single array in a way that preserves the information about which author relates to which journal:
 
 ```
-[journal 1 id, number of authors for journal 1, id of 1st author of this journal, id of 2nd author, id of 3rd author, journal 2 id, number of authors for this journal, of of 1st author of this journal, etc.] 
+[journal 1 id, number of authors for journal 1, id of 1st author of this journal, id of 2nd author, id of 3rd author, journal 2 id, number of authors for this journal, id of 1st author of this journal, etc.] 
 ```
 
 (this data structure is better expressed with a simple example [in the original comment](https://www.reddit.com/r/java/comments/13rlb26/speeding_up_pairwise_comparisons_to_28_millionsec/jlm0me1/) by Ivory2Much. As the example was laid out in consecutive lines, it got me confused in thinking the array was multidimensional. But no, it is just to make it easier to read).
