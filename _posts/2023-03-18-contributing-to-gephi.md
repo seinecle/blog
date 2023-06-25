@@ -166,12 +166,12 @@ As a developer, you can also contribute to Gephi in several ways:
 
 ### Java developer
 Everybody has their own learning path, here is one:
-* one way to get acquainted with Gephi is to play with the Gephi Toolkit, which is the Gephi headless library for Java. It will give you a sense of how the API is structured, with a strong modular architecture and some not-so-common design patterns (not familiar with SPIs? You will be served! 😀).
+* one way to get acquainted with Gephi is to play with the [Gephi Toolkit](https://gephi.org/toolkit/), which is the Gephi headless library for Java. It will give you a sense of how the API is structured, with a strong modular architecture and some not-so-common design patterns (not familiar with [SPIs](https://www.baeldung.com/java-spi)? You will be served! 😀).
 * then you might be interested in developping a plugin, which is another steep learning curve but very rewarding because, upon publication, your plugin becomes available to the entire Gephi user base (you can also choose to keep it private, of course).
 * in the course of using the Gephi toolkit or developing a plugin, you might open issues on Github. And depending on your expertise and grit, you will also look at the source code of Gephi and find things to solve. This is very welcome, of course.
 
 ### Developer of desktop apps / Rich Client Applications
-Gephi is built on top of the NetBeans Platform, which is the Rich Client Application of the NetBeans IDE. If you have a strong interest in NetBeans / RCA / desktop applications / or the intrincaties of targetting a desktop app specifically for Windows of MacOS, you could make contributions of critical importance.
+Gephi is built on top of the [Apache NetBeans Platform](https://netbeans.apache.org/kb/docs/platform.html), which is the Rich Client Application of the NetBeans IDE. If you have a strong interest in NetBeans / RCA / desktop applications / or the intrincaties of targetting a desktop app specifically for Windows of MacOS, you could make contributions of critical importance.
 
 ### OpenGL for Java
 I might be sloppy here as I have close to zero knowledge of the domain, but the visualization engine of Gephi is using OpenGL and that is of course quite a tricky aspect. I don't have the details but Gephi is in the middle of a major upgrade of the underlying technologies for this OpenGL stuff, so if you or your organization is knowledgeable about this subject, you could also make essential contributions.
