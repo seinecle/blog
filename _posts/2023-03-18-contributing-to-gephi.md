@@ -151,9 +151,9 @@ Designing a training or workshop about Gephi is always a great occasion to re-le
 ### Develop the ecosystem around Gephi!
 
 Gephi provides hooks of an outstanding quality, that make it super convenient to develop your projects with a strong base:
-* the Gephi Toolkit is a standalone Java library that provides all the goodness of Gephi in of your projects, out of the box, with plenty of documentation
-* the gexf network format, which the Gephi team developed, provides a rich description of your networks - attributes, visual features and dynamic dimension as needed
-* the Gephi graphstore is the low level graph engine that powers Gephi and you could use it in your own projects too!
+* the [Gephi Toolkit](https://gephi.org/toolkit/) is a standalone Java library that provides all the goodness of Gephi in of your projects, out of the box, with plenty of documentation
+* the [gexf network format](https://gexf.net/), which the Gephi team developed, provides a rich description of your networks - attributes, visual features and dynamic dimension as needed
+* the [Gephi graphstore](https://github.com/gephi/graphstore) is the low level, standalone graph engine that powers Gephi and you could use it in your own projects too!
 
 **What to expect from it?**
 
