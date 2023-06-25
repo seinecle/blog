@@ -4,7 +4,7 @@ title: 8 ways you can contribute to Gephi
 permalink: /contributing-to-gephi/
 published: false
 date_readable:               Mar 18, 2023
-last_modified_at_readable:   Mar 18, 2023
+last_modified_at_readable:   Jun 25, 2023
 ---
 
 # Giving back to Gephi - to make sure it thrives in the years to come
