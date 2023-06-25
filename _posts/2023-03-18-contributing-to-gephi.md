@@ -33,8 +33,6 @@ This simple absence of a market mechanism (I buy, you deliver) prevented Gephi f
 
 # 2. So, are we stuck? No!
 
-> The many ways you can contribute to Gephi and get value from it
-
 There are many alternatives to contribute to Gephi, in ways that make the best of your abilities AND with tangible feedbacks beyond the existence of Gephi itself.
 
 *This blog post will be expanded as I get feedback on more possibilities and also contact points (names, emails for specific actions).*
@@ -53,8 +51,8 @@ It delivered bug fixes, new plugins, new directions for development but most of 
 By funding the next edition, you contribute in a very concrete manner to making Gephi more stable in the long term.
 
 ## b. Are you an academic?
-### Make use of a powerful tool: citations!
-As an academic (librarian, faculty, student, administrator), a very impactful action is to cite Gephi in the bibliography of the documents your produce - in articles of course but in every publication really, including applications to projects and reports.
+### Make use of your unique power: citations!
+As a librarian, professor, student... a very impactful action in support of Gephi is to **cite it** in the bibliography of the documents your produce - in articles of course but in every publication really, including applications to projects and reports.
 These are the two papers referencing the tool you love:
 
 > Bastian, M., Heymann, S., & Jacomy, M. (2009, March). Gephi: an open source software for exploring and manipulating networks. In Proceedings of the international AAAI conference on web and social media (Vol. 3, No. 1, pp. 361-362). [link](https://ojs.aaai.org/index.php/ICWSM/article/view/13937)
