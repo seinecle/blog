@@ -108,7 +108,7 @@ Yes, Facebook is really far from anyone's cup of tea.
 Discord, LinkedIn, Slack, a Wordpress forum... all these would be preferable in some way and yet ten times less used than the group on Facebook.
 So we stay there for the moment.
 
-The Gephi Facebook group has close to 10,000 members and is a very welcoming and friendly community.
+The [Gephi Facebook group](https://facebook.com/groups/gephi) has close to 10,000 members and is a very welcoming and friendly community.
 Join, post and read!
 Stuck in any way?
 Want to showcase a result?
