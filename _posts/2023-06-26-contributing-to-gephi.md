@@ -7,7 +7,7 @@ date_readable:               Jun 26, 2023
 last_modified_at_readable:   Jun 26, 2023
 ---
 
-How can we help support Gephi so that it continues to thrive in the years to come?
+How can we give back to Gephi so that it continues to thrive in the years to come?
 
 I am not steering Gephi, so please do not take the following as anything "official" nor definitive on the topic.
 Please check the recent posts on [the Gephi blog](https://gephi.wordpress.com/) by [Mathieu Jacomy](https://twitter.com/jacomyma) and [Mathieu Bastian](https://www.linkedin.com/in/mathieubastian) to get the latest views from the core Gephi team.
