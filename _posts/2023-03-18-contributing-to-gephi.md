@@ -125,7 +125,7 @@ A kind of learning platform!
 
 ## e. Are you quite experienced with Gephi?
 ### Join the Slack group for Gephi!
-This Slack group exists in some form for many years and is used by the core developers of Gephi. I think it became more widely used at the occasion of the Gephi Week for 2022.
+This [Slack group](https://gephi.slack.com/) exists in some form for many years and is used by the core developers of Gephi. I think it became more widely used at the occasion of the Gephi Week for 2022.
 
 It is different from the Facebook group in the sense that discussions are around organizing and developing Gephi, rather than users helping other users. So it is quite exciting because you can see "Gephi in the making" but to remain productive, it should remain concentrated on that - steering and pushing Gephi forward, not really discussing how to use filters ;-)
 
