@@ -66,6 +66,12 @@ Gephi having an established presence and growing reputation will make it easier 
 ### 3. What about organizing an academic conference?
 I think that Gephi has actually never been the central topic of an academic conference 🤔. Would you like to be the first? This could be about Gephi itself, or Gephi in relation with your scientific specialty (network analysis, social networks, organizational mapping, biological networks, computer science, forensics, etc.). Gephi is part of a broader ecosystem of software for the visual exploration of networks: [Cytoscape](https://cytoscape.org/), [NodeXL](https://www.smrfoundation.org/nodexl/), [Graphext](https://www.graphext.com/)... come to mind. Organizing a conference around these would make total sense!
 
+### 3 bis. Grant writing!
+At the suggestion of a Gephi user and academic who just read this post: it would actually make sense to apply for EU funding or any local / international research funding agency, where Gephi would be listed as an essential resource in need of financing. Either directly or through the dedication of a research engineer / research designer / data scientist position working on Gephi, within the project team... these are just initial thoughts.
+
+I personnally would love the idea, and I could also connect you to academics who would be outstanding contributors to such a grant writing project. Do get in touch!
+
+
 ## Do you ever write tutorials, how-tos, blog posts?
 ### 4. Write a simple intro about your experience using Gephi, help others discover it
 A classic writer's block about Gephi is that "I am not expert enough" to write about it.
