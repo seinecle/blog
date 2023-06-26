@@ -16,7 +16,7 @@ Ok, let's dive in:
 
 # Interests should be aligned - and money makes things complicated
 
-Gephi is used by a large diversity of actors: students to governments, librarians, academics and professional scientometricians, social media listeners, citizen journalists, fraud detection analysts and NGO volunteers to professional osint and infosec specialists and many more.
+Gephi is used by a large diversity of actors: students to governments, librarians, academics and professional scientometricians, dataviz designers, social media listeners, citizen journalists, fraud detection analysts and NGO volunteers to professional osint and infosec specialists and many more.
 
 ![take-my-money](https://github.com/seinecle/blog/assets/1244100/9aedf426-cb1d-4e8a-94f9-123f93cbbcb7)
 
