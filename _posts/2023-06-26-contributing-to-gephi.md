@@ -156,9 +156,9 @@ Gephi provides hooks of an outstanding quality, that make it super convenient to
 Using these Gephi assets in your projects will save you time, not reinventing the wheel of a network app that includes the graph itself but also the algorithms, filters, management of attributes, I/O machinery etc. that you will also need pretty quickly. By doing so, you serve Gephi as you will naturally get involved in pushing Gephi and its various assets forward.
 
 ## Are you a developer with significant experience?
-It is on purpose that I kept this item for the end of the list. Indeed, we often assume that if we can't code, we can't contribute to Gephi. The 7 ways to contribute to Gephi listed just before have changed your outlook, I hope. Gephi really needs these 7 first types of contributions!
+It is on purpose that I kept this item for the end of the list. Indeed, we often assume that if we can't code, we can't contribute to Gephi. The 9 ways to contribute to Gephi listed just before have changed your outlook, I hope. Gephi really needs these 9 first types of contributions!
 
-As a developer, you can also contribute to Gephi in several ways:
+As a senior developer (or better said: not a full beginner in Java), you can also contribute to Gephi in several ways:
 
 ### 10. Java developer: shine!
 Everybody has their own learning path, here is one:
