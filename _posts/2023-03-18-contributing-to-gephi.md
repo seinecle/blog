@@ -140,7 +140,7 @@ Well, that is super interesting to get close to the core of the Gephi app and co
 
 ## f. Are you a consultant / free-lancer / slasher?
 ### Do organize trainings and workshops!
-It is not always super clear that Gephi as a topic is for everyone - not just to be contained in the gephi.org website or in the Gephi software. You can develop a free or commercial and / or for-profit activity about Gephi. One obvious activity would be training sessions or workshops about Gephi, or any consulting activity in a given sector, leveraging Gephi. Maybe that when this gets clarified, we'll see a broader offer for trainings in Gephi?
+It is not always super clear that **Gephi as a topic and as an asset is for everyone** - it doesn't have to be contained to the gephi.org website or in the Gephi software. You can develop a free or commercial and / or for-profit activity about Gephi. One obvious activity would be training sessions or workshops about Gephi, or any consulting activity in a given sector, leveraging Gephi. Maybe that when this gets clarified, we'll see a broader offer for trainings in Gephi?
 
 **What to expect from it?**
 
