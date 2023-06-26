@@ -9,10 +9,8 @@ last_modified_at_readable:   Jun 25, 2023
 
 # Giving back to Gephi - to make sure it thrives in the years to come
 
-I was contacted today by a company representative: they make very good use of Gephi in their activities.
-**How can they develop collaborations with Gephi and help Gephi develop - he was asking?**
+I was contacted today by a company representative: they make very good use of Gephi in their activities. **How can they develop collaborations with Gephi and help support Gephi - he was asking?** This blog post is my opinion on this matter.
 
-This blog post is my opinion on this matter.
 I am not steering Gephi, so please do not take the following as anything "official" nor definitive on the topic.
 Please check the recent posts on [the Gephi blog](https://gephi.wordpress.com/) by [Mathieu Jacomy](https://twitter.com/jacomyma) and [Mathieu Bastian](https://www.linkedin.com/in/mathieubastian) to get the latest views from the core Gephi team.
 
@@ -22,8 +20,10 @@ Ok, let's dive in:
 
 Gephi is used by a large diversity of actors: students to governments, librarians, academics and professional scientometricians, social media listeners, citizen journalists, fraud detection analysts and NGO volunteers to professional osint and infosec specialists and many more.
 
+![take-my-money](https://github.com/seinecle/blog/assets/1244100/9aedf426-cb1d-4e8a-94f9-123f93cbbcb7)
+
 **In this list of users, companies would have been natural contributors to the development of Gephi**: "take my money, and in exchange I have a voice in Gephi to develop this or that feature".
-However [Gephi is a free and open source software](https://en.wikipedia.org/wiki/Free_and_open-source_software), and it will not accept funding in return for a right to control how it is developed.
+**However [Gephi is a free and open source software](https://en.wikipedia.org/wiki/Free_and_open-source_software)**, and it will not accept funding in return for a right to control how it is developed.
 
 This stance is not a mistake nor a handicap!
 It is a conscious choice to evolve Gephi for all - not just in the direction that is set by the stakeholders which can fund it.
@@ -35,7 +35,7 @@ This simple absence of a market mechanism (I buy, you deliver) prevented Gephi f
 
 There are many alternatives to contribute to Gephi, in ways that make the best of your abilities AND with tangible feedbacks beyond the existence of Gephi itself.
 
-*This blog post will be expanded as I get feedback on more possibilities and also contact points (names, emails for specific actions).*
+*This blog post will be expanded as I get your feedback: do you see new ways to support Gephi? Would you like to be cited as a contact point for any of those?*
 
 ## a. Are you a company or for-profit organization?
 
@@ -119,7 +119,6 @@ Don't be shy to offer your assistance, again my feeling is that we all tend to u
 **What to expect from it?**
 
 By giving back to the community, you are helping somebody who is a beginner just like you were some time ago. You help the community grow.
-Still not interested in warm feelings?
 Contributing to the Gephi Facebook group will also push you up on the learning curve by exposing you to a variety of cases, questions and solutions that you did not encounter in your usual flow of work with Gephi.
 A kind of learning platform!
 
@@ -145,7 +144,6 @@ It is not always super clear that **Gephi as a topic and as an asset is for ever
 **What to expect from it?**
 
 Designing a training or workshop about Gephi is always a great occasion to re-learn what had become habitual. Besides the revenues you will generate from it, it will also establish your credentials in the domain.
-
 
 ## g. Are you an indie developer, a startup or a larger company with resources for R&D?
 ### Develop the ecosystem around Gephi!
@@ -178,11 +176,14 @@ I might be sloppy here as I have close to zero knowledge of the domain, but the 
 
 **What to expect from it?**
 
-Gephi is led by developers who are first-class in their trade. Did you know that Gephi won a Duke Award back in the days? Contributing to this open source project would be a great learning experience for everyone involved and would speed up the delivery of key features. Gephi is also an open and free software: if you personally care about contributing to a FOSS, Gephi is a perfect choice ❤️. 
+Gephi is led by developers who are first-class in their trade. Did you know that Gephi won a Duke Award back in the days? Contributing to this open source project would be a great learning experience for everyone involved and would speed up the delivery of key features. Gephi is also an open and free software: if you personally care about contributing to a FOSS, Gephi is a perfect choice ❤️.
+
+## In the end
+If you'd like to contribute to Gephi, I'd love to get in touch! Just to discuss, give suggestions and share contact points if needed. Don't hesitate! (see below for 
 
 # About me
 I am a [professor at emlyon business school](https://www.linkedin.com/in/levallois/) where I conduct research in Natural Language Processing and network analysis applied to social sciences and the humanities. I teach about the impact of digital technologies on business and society. I also  build [nocode functions](https://nocodefunctions.com) 🔎, a click and point web app to explore texts and networks. It is [fully open source](https://github.com/seinecle/nocodefunctions). Try it and give some feedback, I would appreciate it!
 
-* my email: [admin@clementlevallois.net](mailto:admin@clementlevallois.net) 📧
+* my email: [analysis@exploreyourdata.com](mailto:analysis@exploreyourdata.com) 📧
 * or on Twitter: [@seinecle](https://twitter.com/seinecle) 📱
 * you can also read [the other articles of this blog](https://nocodefunctions.com/blog) 👓, where I write about the process of developing the app.
