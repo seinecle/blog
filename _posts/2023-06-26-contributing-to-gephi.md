@@ -66,7 +66,7 @@ Gephi having an established presence and growing reputation will make it easier 
 ### 3. What about organizing an academic conference?
 I think that Gephi has actually never been the central topic of an academic conference 🤔. Would you like to be the first? This could be about Gephi itself, or Gephi in relation with your scientific specialty (network analysis, social networks, organizational mapping, biological networks, computer science, forensics, etc.). Gephi is part of a broader ecosystem of software for the visual exploration of networks: [Cytoscape](https://cytoscape.org/), [NodeXL](https://www.smrfoundation.org/nodexl/), [Graphext](https://www.graphext.com/)... come to mind. Organizing a conference around these would make total sense!
 
-## c. Do you ever write tutorials, how-tos, blog posts?
+## Do you ever write tutorials, how-tos, blog posts?
 ### 4. Write a simple intro about your experience using Gephi, help others discover it
 A classic writer's block about Gephi is that "I am not expert enough" to write about it.
 You are probably much more expert than you think (see next paragraph), but in any case you can explain and document the use case that you worked on with Gephi.
