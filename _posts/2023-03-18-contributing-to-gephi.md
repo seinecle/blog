@@ -9,20 +9,20 @@ last_modified_at_readable:   Jun 25, 2023
 
 # Giving back to Gephi - to make sure it thrives in the years to come
 
-I was contacted today by a company representative, telling me they make very good use of Gephi in their activities.
-How could they develop collaborations and give back - he was asking?
+I was contacted today by a company representative: they make very good use of Gephi in their activities.
+**How can they develop collaborations with Gephi and help Gephi develop - he was asking?**
 
 This blog post is my opinion on this matter.
 I am not steering Gephi, so please do not take the following as anything "official" nor definitive on the topic.
 Please check the recent posts on [the Gephi blog](https://gephi.wordpress.com/) by [Mathieu Jacomy](https://twitter.com/jacomyma) and [Mathieu Bastian](https://www.linkedin.com/in/mathieubastian) to get the latest views from the core Gephi team.
 
-Ok, let's take a bullet point approach:
+Ok, let's dive in:
 
 # 1. Interests should be aligned - and money makes things complicated
 
 Gephi is used by a large diversity of actors: students to governments, librarians, academics and professional scientometricians, social media listeners, citizen journalists, fraud detection analysts and NGO volunteers to professional osint and infosec specialists and many more.
 
-In this list of users, companies would have been natural contributors to the development of Gephi: "take my money, and in exchange I have a voice in Gephi to develop this or that feature".
+**In this list of users, companies would have been natural contributors to the development of Gephi**: "take my money, and in exchange I have a voice in Gephi to develop this or that feature".
 However [Gephi is a free and open source software](https://en.wikipedia.org/wiki/Free_and_open-source_software), and it will not accept funding in return for a right to control how it is developed.
 
 This stance is not a mistake nor a handicap!
