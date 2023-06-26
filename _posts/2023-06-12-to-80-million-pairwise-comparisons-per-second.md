@@ -81,6 +81,6 @@ If you know about Java and love optimization of performance, I'd love to have yo
 # About me
 I am a [professor at emlyon business school](https://www.linkedin.com/in/levallois/) where I conduct research in Natural Language Processing and network analysis applied to social sciences and the humanities. I teach about the impact of digital technologies on business and society. I also  build [nocode functions](https://nocodefunctions.com) 🔎, a click and point web app to explore texts and networks. It is [fully open source](https://github.com/seinecle/nocodefunctions). Try it and give some feedback, I would appreciate it!
 
-* my email: [admin@clementlevallois.net](mailto:admin@clementlevallois.net) 📧
+* my email: [analysis@exploreyourdata.com](mailto:analysis@exploreyourdata.com) 📧
 * or on Twitter: [@seinecle](https://twitter.com/seinecle) 📱
 * you can also read [the other articles of this blog](https://nocodefunctions.com/blog) 👓, where I write about the process of developing the app.
