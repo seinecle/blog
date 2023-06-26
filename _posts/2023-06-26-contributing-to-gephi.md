@@ -108,7 +108,7 @@ Then do it for the SEO, as Gephi is at the cross-road of network analysis, data 
 
 ## Are you a beginner or moderately experienced with Gephi?
 ### 6. Chat and contribute to the Gephi group on Facebook!
-Yes, Facebook is really far from anyone's cup of tea.
+Yes, Facebook is really not anyone's cup of tea.
 Discord, LinkedIn, Slack, a Wordpress forum... all these would be preferable in some way and yet ten times less used than the group on Facebook.
 So we stay there for the moment.
 
@@ -138,7 +138,7 @@ If you feel that you could contribute to this kind of discussions, do join here.
 
 Well, that is super interesting to get close to the core of the Gephi app and community! This is the place where you could learn about the things brewing for the next months, and suggest contributions you can make: in skills, time, money, credit, etc.
 
-**I would like to emphasize that on this channel the most important are contributions (things you can do), not suggestions (things others should do...). The entire group of Gephi core contributors are pretty overwhelmed already, let's give them so help, not a wishlist! :-)**
+**I would like to emphasize that on this channel the most important are contributions (things you can do), not suggestions (things others should do...). The entire group of Gephi core contributors are pretty overwhelmed already, let's give them some help, not a wishlist! :-)**
 
 
 ## Are you a consultant / free-lancer / slasher?
