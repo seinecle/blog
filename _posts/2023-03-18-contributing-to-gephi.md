@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 8 ways you can contribute to Gephi
+title: 12 ways you can contribute to Gephi
 permalink: /contributing-to-gephi/
-published: false
-date_readable:               Mar 18, 2023
-last_modified_at_readable:   Jun 25, 2023
+published: true
+date_readable:               Jun 26, 2023
+last_modified_at_readable:   Jun 26, 2023
 ---
 
 # Giving back to Gephi - to make sure it thrives in the years to come
@@ -16,7 +16,7 @@ Please check the recent posts on [the Gephi blog](https://gephi.wordpress.com/) 
 
 Ok, let's dive in:
 
-# 1. Interests should be aligned - and money makes things complicated
+# Interests should be aligned - and money makes things complicated
 
 Gephi is used by a large diversity of actors: students to governments, librarians, academics and professional scientometricians, social media listeners, citizen journalists, fraud detection analysts and NGO volunteers to professional osint and infosec specialists and many more.
 
@@ -31,15 +31,15 @@ But as a result, a very common resource - funding money - is not directly availa
 
 This simple absence of a market mechanism (I buy, you deliver) prevented Gephi from accessing resources that would have been so useful - and it is also why I esteem and respect the team who develops this software for so long, to provide it as a [digital commons](https://en.wikipedia.org/wiki/Digital_commons_(economics)).
 
-# 2. So, are we stuck? No!
+# So, are we stuck? No!
 
 There are many alternatives to contribute to Gephi, in ways that make the best of your abilities AND with tangible feedbacks beyond the existence of Gephi itself.
 
 *This blog post will be expanded as I get your feedback: do you see new ways to support Gephi? Would you like to be cited as a contact point for any of those?*
 
-## a. Are you a company or for-profit organization?
+## Are you a company or for-profit organization?
 
-### Fund Gephi, despite the hurdles
+### 1. Fund Gephi, despite the hurdles
 At the moment, there is no legal entity that is set to accept funding for Gephi, though it is bound to come one day.
 However, events sponsored by Gephi could still receive funding, through the university that will host the event or a similar channel? 
 <a href="https://nocodefunctions.com/blog/attachments/Gephi_v1_slides2.pdf" target="_blank">The Gephi week for 2023 is on the table</a> (see pages 12 and 24), for example.
@@ -50,8 +50,8 @@ The 2nd edition of the Gephi week (August 2022) [has been extremely productive](
 It delivered bug fixes, new plugins, new directions for development but most of all it generated a renewed energy to participate and contribute.
 By funding the next edition, you contribute in a very concrete manner to making Gephi more stable in the long term.
 
-## b. Are you an academic?
-### Make use of your unique power: citations!
+## Are you an academic?
+### 2. Make use of your unique power: citations!
 As a librarian, professor, student... a very impactful action in support of Gephi is to **cite it** in the bibliography of the documents your produce - in articles of course but in every publication really, including applications to projects and reports.
 These are the two papers referencing the tool you love:
 
@@ -65,11 +65,11 @@ Explicitly referencing Gephi in your publications contributes to making Gephi vi
 And for you?
 Gephi having an established presence and growing reputation will make it easier to convince reviewer #2 that Gephi was indeed the right choice for this network analysis ;-)
 
-### What about organizing an academic conference?
+### 3. What about organizing an academic conference?
 I think that Gephi has actually never been the central topic of an academic conference 🤔. Would you like to be the first? This could be about Gephi itself, or Gephi in relation with your scientific specialty (network analysis, social networks, organizational mapping, biological networks, computer science, forensics, etc.). Gephi is part of a broader ecosystem of software for the visual exploration of networks: [Cytoscape](https://cytoscape.org/), [NodeXL](https://www.smrfoundation.org/nodexl/), [Graphext](https://www.graphext.com/)... come to mind. Organizing a conference around these would make total sense!
 
 ## c. Do you ever write tutorials, how-tos, blog posts?
-### - Write a simple intro about your experience using Gephi, help others discover it
+### 4. Write a simple intro about your experience using Gephi, help others discover it
 A classic writer's block about Gephi is that "I am not expert enough" to write about it.
 You are probably much more expert than you think (see next paragraph), but in any case you can explain and document the use case that you worked on with Gephi.
 
@@ -81,7 +81,7 @@ Help fellow users understand what you did and how you did it!
 And if the case is confidential, don't let it stop you!
 Transform and abstract your case and showcase the principles you followed.
 
-### - Shoot videos or shorts, any kind of social media postings are useful, too
+### 5. Shoot videos or shorts, any kind of social media postings are useful, too
 I mentioned written pieces because that's in my comfort zone.
 But videos, short or long, or posts on your favorite social media would be perfectly useful!
 
@@ -102,8 +102,8 @@ You gain the warm glow of knowing that you helped users discover what is possibl
 Not interested in warm feelings?
 Then do it for the SEO, as Gephi is at the cross-road of network analysis, data science and data visualization: all SEO boxes checked at once.
 
-## d. Are you a beginner or moderately experienced with Gephi?
-### Chat and contribute to the Gephi group on Facebook!
+## Are you a beginner or moderately experienced with Gephi?
+### 6. Chat and contribute to the Gephi group on Facebook!
 Yes, Facebook is really far from anyone's cup of tea.
 Discord, LinkedIn, Slack, a Wordpress forum... all these would be preferable in some way and yet ten times less used than the group on Facebook.
 So we stay there for the moment.
@@ -122,8 +122,8 @@ By giving back to the community, you are helping somebody who is a beginner just
 Contributing to the Gephi Facebook group will also push you up on the learning curve by exposing you to a variety of cases, questions and solutions that you did not encounter in your usual flow of work with Gephi.
 A kind of learning platform!
 
-## e. Are you quite experienced with Gephi?
-### Join the Slack group for Gephi!
+## Are you quite experienced with Gephi?
+### 7. Join the Slack group for Gephi!
 This [Slack group](https://gephi.slack.com/) exists in some form for many years and is used by the core developers of Gephi. I think it became more widely used at the occasion of the Gephi Week for 2022.
 
 It is different from the Facebook group in the sense that discussions are around organizing and developing Gephi, rather than users helping other users. So it is quite exciting because you can see "Gephi in the making" but to remain productive, it should remain concentrated on that - steering and pushing Gephi forward, not really discussing how to use filters ;-)
@@ -137,16 +137,16 @@ Well, that is super interesting to get close to the core of the Gephi app and co
 **I would like to emphasize that on this channel the most important are contributions (things you can do), not suggestions (things others should do...). The entire group of Gephi core contributors are pretty overwhelmed already, let's give them so help, not a wishlist! :-)**
 
 
-## f. Are you a consultant / free-lancer / slasher?
-### Do organize trainings and workshops!
+## Are you a consultant / free-lancer / slasher?
+### 8. Organize trainings and workshops!
 It is not always super clear that **Gephi as a topic and as an asset is for everyone** - it doesn't have to be contained to the gephi.org website or in the Gephi software. You can develop a free or commercial and / or for-profit activity about Gephi. One obvious activity would be training sessions or workshops about Gephi, or any consulting activity in a given sector, leveraging Gephi. Maybe that when this gets clarified, we'll see a broader offer for trainings in Gephi?
 
 **What to expect from it?**
 
 Designing a training or workshop about Gephi is always a great occasion to re-learn what had become habitual. Besides the revenues you will generate from it, it will also establish your credentials in the domain.
 
-## g. Are you an indie developer, a startup or a larger company with resources for R&D?
-### Develop the ecosystem around Gephi!
+## Are you an indie developer, a startup or a larger company with resources for R&D?
+### 9. Develop the ecosystem around Gephi!
 
 Gephi provides hooks of an outstanding quality, that make it super convenient to develop your projects with a strong base:
 * the [Gephi Toolkit](https://gephi.org/toolkit/) is a standalone Java library that provides all the goodness of Gephi in of your projects, out of the box, with plenty of documentation
@@ -157,21 +157,21 @@ Gephi provides hooks of an outstanding quality, that make it super convenient to
 
 Using these Gephi assets in your projects will save you time, not reinventing the wheel of a network app that includes the graph itself but also the algorithms, filters, management of attributes, I/O machinery etc. that you will also need pretty quickly. By doing so, you serve Gephi as you will naturally get involved in pushing Gephi and its various assets forward.
 
-## h. Are you a developer?
+## Are you a developer with significant experience?
 It is on purpose that I kept this item for the end of the list. Indeed, we often assume that if we can't code, we can't contribute to Gephi. The 7 ways to contribute to Gephi listed just before have changed your outlook, I hope. Gephi really needs these 7 first types of contributions!
 
 As a developer, you can also contribute to Gephi in several ways:
 
-### Java developer
+### 10. Java developer: shine!
 Everybody has their own learning path, here is one:
 * one way to get acquainted with Gephi is to play with the [Gephi Toolkit](https://gephi.org/toolkit/), which is the Gephi headless library for Java. It will give you a sense of how the API is structured, with a strong modular architecture and some not-so-common design patterns (not familiar with [SPIs](https://www.baeldung.com/java-spi)? You will be served! 😀).
 * then you might be interested in developping a plugin, which is another steep learning curve but very rewarding because, upon publication, your plugin becomes available to the entire Gephi user base (you can also choose to keep it private, of course).
 * in the course of using the Gephi toolkit or developing a plugin, you might open issues on Github. And depending on your expertise and grit, you will also look at the source code of Gephi and find things to solve. This is very welcome, of course.
 
-### Developer of desktop apps / Rich Client Applications
+### 11. Developer of desktop apps / Rich Client Applications
 Gephi is built on top of the [Apache NetBeans Platform](https://netbeans.apache.org/kb/docs/platform.html), which is the Rich Client Application of the NetBeans IDE. If you have a strong interest in NetBeans / RCA / desktop applications / or the intrincaties of targetting a desktop app specifically for Windows of MacOS, you could make contributions of critical importance.
 
-### OpenGL for Java
+### 12. OpenGL for Java
 I might be sloppy here as I have close to zero knowledge of the domain, but the visualization engine of Gephi is using OpenGL and that is of course quite a tricky aspect. I don't have the details but Gephi is in the middle of a major upgrade of the underlying technologies for this OpenGL stuff, so if you or your organization is knowledgeable about this subject, you could also make essential contributions.
 
 **What to expect from it?**
@@ -179,7 +179,7 @@ I might be sloppy here as I have close to zero knowledge of the domain, but the 
 Gephi is led by developers who are first-class in their trade. Did you know that Gephi won a Duke Award back in the days? Contributing to this open source project would be a great learning experience for everyone involved and would speed up the delivery of key features. Gephi is also an open and free software: if you personally care about contributing to a FOSS, Gephi is a perfect choice ❤️.
 
 ## In the end
-If you'd like to contribute to Gephi, I'd love to get in touch! Just to discuss, give suggestions and share contact points if needed. Don't hesitate! (see below for 
+If you'd like to contribute to Gephi, I'd love to get in touch! Just to discuss, give suggestions and point to the right person / resource. Don't hesitate! (see below for contact info).
 
 # About me
 I am a [professor at emlyon business school](https://www.linkedin.com/in/levallois/) where I conduct research in Natural Language Processing and network analysis applied to social sciences and the humanities. I teach about the impact of digital technologies on business and society. I also  build [nocode functions](https://nocodefunctions.com) 🔎, a click and point web app to explore texts and networks. It is [fully open source](https://github.com/seinecle/nocodefunctions). Try it and give some feedback, I would appreciate it!
@@ -187,3 +187,5 @@ I am a [professor at emlyon business school](https://www.linkedin.com/in/levallo
 * my email: [analysis@exploreyourdata.com](mailto:analysis@exploreyourdata.com) 📧
 * or on Twitter: [@seinecle](https://twitter.com/seinecle) 📱
 * you can also read [the other articles of this blog](https://nocodefunctions.com/blog) 👓, where I write about the process of developing the app.
+
+For anything Gephi, a great place to find me would also be the [Gephi Facebook group](https://facebook.com/groups/gephi): it would be a public conversation on the group's feed, but it is actually an effective way to test and share ideas with the Gephi community.
