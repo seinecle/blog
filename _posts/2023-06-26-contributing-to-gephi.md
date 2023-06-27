@@ -156,10 +156,11 @@ Gephi provides hooks of an outstanding quality, that make it super convenient to
 * the [Gephi Toolkit](https://gephi.org/toolkit/) is a standalone Java library that provides all the goodness of Gephi in of your projects, out of the box, with plenty of documentation
 * the [gexf network format](https://gexf.net/), which the Gephi team developed, provides a rich description of your networks - attributes, visual features and dynamic dimension as needed
 * the [Gephi graphstore](https://github.com/gephi/graphstore) is the low level, standalone graph engine that powers Gephi and you could use it in your own projects too!
-
+* [Gephi lite](https://gephi.org/gephi-lite/), a web-based version of Gephi for interactive visualizations in the browser - read about it in [the Gephi blog](https://gephi.wordpress.com/2022/11/15/gephi-lite/).
+* 
 **What to expect from it?**
 
-Using these Gephi assets in your projects will save you time, not reinventing the wheel of a network app that includes the graph itself but also the algorithms, filters, management of attributes, I/O machinery etc. that you will also need pretty quickly. By doing so, you serve Gephi as you will naturally get involved in pushing Gephi and its various assets forward.
+Using these Gephi assets in your projects will save you time, not reinventing the wheel of a network app that includes the graph itself but also the algorithms, layouts, filters, management of attributes, I/O machinery etc. that you will also need pretty quickly. By doing so, you serve Gephi as you will naturally get involved in pushing Gephi and its various assets forward.
 
 ## Are you a developer with significant experience?
 It is on purpose that I kept this item for the end of the list. Indeed, we often assume that if we can't code, we can't contribute to Gephi. The 9 ways to contribute to Gephi listed just before have changed your outlook, I hope. Gephi really needs these 9 first types of contributions!
