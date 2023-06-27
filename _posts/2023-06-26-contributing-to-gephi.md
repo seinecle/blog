@@ -157,7 +157,7 @@ Gephi provides hooks of an outstanding quality, that make it super convenient to
 * the [gexf network format](https://gexf.net/), which the Gephi team developed, provides a rich description of your networks - attributes, visual features and dynamic dimension as needed
 * the [Gephi graphstore](https://github.com/gephi/graphstore) is the low level, standalone graph engine that powers Gephi and you could use it in your own projects too!
 * [Gephi lite](https://gephi.org/gephi-lite/), a web-based version of Gephi for interactive visualizations in the browser - read about it in [the Gephi blog](https://gephi.wordpress.com/2022/11/15/gephi-lite/).
-* 
+  
 **What to expect from it?**
 
 Using these Gephi assets in your projects will save you time, not reinventing the wheel of a network app that includes the graph itself but also the algorithms, layouts, filters, management of attributes, I/O machinery etc. that you will also need pretty quickly. By doing so, you serve Gephi as you will naturally get involved in pushing Gephi and its various assets forward.
