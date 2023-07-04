@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Eat your own dog food: better pdf search function
+title: Eat your own dog food -> better pdf search function
 permalink: /enhanced-pdf-search/
 published: true
 date_readable:               Jul 4, 2023
