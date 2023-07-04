@@ -107,6 +107,16 @@ Not interested in warm feelings?
 Then do it for the SEO, as Gephi is at the cross-road of network analysis, data science and data visualization: all SEO boxes checked at once.
 
 ## Are you a beginner or moderately experienced with Gephi?
+
+### EXTRA: Help translate Gephi in your language!
+Gephi is available in 22 languages, which is a good start but we can do better to bring the software to many other linguistic communities!
+Also, not all of the current 22 languages are translated at 100%.
+What you can do is participate in the translation!
+[It all happens online, here](https://hosted.weblate.org/projects/gephi/#languages).
+
+Even if the interface looks intimidating at first, do register and get a start! And as always, don't hesitate to request help on the Gephi Facebook group :-) 
+
+
 ### 6. Chat and contribute to the Gephi group on Facebook!
 Yes, Facebook is really not anyone's cup of tea.
 Discord, LinkedIn, Slack, a Wordpress forum... all these would be preferable in some way and yet ten times less used than the group on Facebook.
