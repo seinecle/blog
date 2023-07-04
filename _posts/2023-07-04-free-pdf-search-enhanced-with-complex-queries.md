@@ -7,6 +7,8 @@ date_readable:               Jul 4, 2023
 last_modified_at_readable:   Jul 4, 2023
 ---
 
+This is a short note documenting the improvements brought today to the pdf search function. 
+
 # "Eat your own dog food"
 
 This is a saying often used in entrepreneurship and software development, conveying the idea that you will ship better products and services if you are actually using them for your own consumption.
