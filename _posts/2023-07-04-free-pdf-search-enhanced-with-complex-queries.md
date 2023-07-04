@@ -25,7 +25,7 @@ Also, choose the search to be case sensitive or not.
 
 So... I just implemented these changes! They will serve my needs, and hopefully the needs of many others. ❤️
 
-You can test it there: https://nocodefunctions.com/pdfmatcher/pdf_matcher_tool.html
+You can test it there: [free pdf search online function](https://nocodefunctions.com/pdfmatcher/pdf_matcher_tool.html)
 
 # About me
 I am a [professor at emlyon business school](https://www.linkedin.com/in/levallois/) where I conduct research in Natural Language Processing and network analysis applied to social sciences and the humanities. I teach about the impact of digital technologies on business and society. I also  build [nocode functions](https://nocodefunctions.com) 🔎, a click and point web app to explore texts and networks. It is [fully open source](https://github.com/seinecle/nocodefunctions). Try it and give some feedback, I would appreciate it!
