@@ -2,14 +2,14 @@
 layout: post
 title: Detecting the voice of the customer
 permalink: /voice-of-the-customer/
-published: false
+published: true
 date_readable:               Jul 6, 2023
 last_modified_at_readable:   Jul 6, 2023
 ---
 
 A new function is now available: identify the voice of the customer
 
-# Filtering out content that has a "sponsored / commercial" tone: why that?
+# Filtering out content that has a "sponsored / commercial" tone, to identify the voice of the customer
 
 At the very beginning of my work on [sentiment analysis](https://nocodefunctions.com/umigon/sentiment_analysis_tool.html), I was struck by the fact that most of the positive tweets I collected were simply some promoted content written by brands or communication agencies.
 
