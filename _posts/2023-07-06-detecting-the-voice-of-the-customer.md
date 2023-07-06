@@ -25,12 +25,8 @@ Let me know what you think!
 It works in the simplest way: the premise is that promoted content doesn't sound natural.
 For the fans of the TV series Friends, I remember this episode where Phoebe works at a massage chain.
 The receptionist, who addresses Rachel then Phoebe, keeps adopting a formal, commercial tone with them - which sounds weird given the relatively informal settings:
-
-<p align="center">
-   
+  
    [![Watch the video](https://img.youtube.com/vi/IDDKr_W08WU/hqdefault.jpg)](https://youtu.be/IDDKr_W08WU)
-
-</p>
 
 Similarly, a piece of text which has been written by a corporate agent or someone set to promote a service or product, will probably be phrased in a way that doesn't feel natural.
 These unnatural phrasings are captured through simple lists. That's it?
