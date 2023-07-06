@@ -32,7 +32,7 @@ Similarly, a piece of text which has been written by a corporate agent or someon
 These unnatural phrasings are captured through simple lists. That's it?
 These lists are public, see [the one for English](https://github.com/seinecle/umigon-lexicons/blob/main/src/main/resources/net/clementlevallois/umigon/heuristics/lexicons/en/9_commercial%20tone.txt) and [the one for French](https://github.com/seinecle/umigon-lexicons/blob/main/src/main/resources/net/clementlevallois/umigon/heuristics/lexicons/fr/9_commercial%20tone.txt).
 
-See it in action:
+# See it in action:
 
 ![image](https://github.com/seinecle/blog/assets/1244100/4cecca50-280d-45a7-99dd-ccc727996969)
 
