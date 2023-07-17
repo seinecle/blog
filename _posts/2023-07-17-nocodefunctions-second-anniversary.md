@@ -68,7 +68,27 @@ Much improved:
     - in August 2022, [Veronica Espinoza](https://twitter.com/Verukita1) reports that words cut at the end of a line are missed out (ignored), when uploading pdfs for semantic networks. I improve the pdf reader to take this into account, and this benefits all functions using pdfs for inputs - including the pdf matcher function of course.
     - on July 4 2023, so one year later, I improved this function a lot because I'll need it for an academic project. It now features [boolean searches](https://nocodefunctions.com/blog/enhanced-pdf-search/). Doing this, I realized it was bugged in different ways.
 
-Initiated in answer to the need of a member of the community, released super quickly, improved thanks to a user report, and then developed further for my own needs: 4 things that illustrate why I feel fullfilled developping the app.
+Created in answer to the need of a member of the community, released super quickly, improved thanks to a user report, and then developed further for my own needs: 4 things that illustrate why I feel fullfilled developping the app.
+
+# Long term maintainability
+Wow, that is a bit topic. So:
+
+In Oct-Nov 2022, I decoupled the app into a front-end, a back-end running the functions, and a back-end managing file uploads and downloads (I/O). Why?
+
+## Slow to develop
+The app was a monolith of about 120 Mb in size. It became a front-end of 13Mb in size, a back-end of 97 Mb (functions) and 30 Mb (I/O).
+
+- BEFORE: slow to compile, upload and deploy. It took more than a minute for each step of the cycle.
+- AFTER: 20 seconds to compile and upload. Deployment takes 15 seconds for the front-end, and one second for the back-end.
+
+## Stopping everything for nothing much
+- BEFORE: The app being a monolith, I had to stop it entirely to redeploy it even if the change I had made to the app was super small and affecting a tiny backend function.
+- AFTER: I can start and stop each part of the function independently. That means that a user will not see a 404 error when visiting the site when I am simply restarting the functions.
+
+## Spaghetti of code
+- BEFORE: Some operations for the functions were performed in the place where the interactions with the web pages were managed. Very bad practice, and just a pain to maintain ("where did I put this part of the function again? In the code of the button where the user clicked... 🤦"). 
+- AFTER: The code for each function is in a separate project. The front-end sends and receives data to these projects through a web service.
+
 
 
 
