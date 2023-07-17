@@ -39,6 +39,14 @@ Read along or jump to the category that interests you the most:
 - An ugly error in the design of the web pages has been permanently fixed. It made some functions unusable because the buttons on the pages couldn't be clicked. It was very hard to diagnose, it disappeared and came back randomly without leaving clear errors. I could finally fix it (two [CSS files](https://webplatform.github.io/docs/tutorials/learning_what_css_is/) were colliding), thanks to the detailed reports by [Veronica Espinoza](https://twitter.com/Verukita1).
 
 # Traffic
+When I celebrated the first anniversary of Nocodefunctions.com, the app almost never registered more than 300 users per week. For this second anniversary, the app almost never experiences less than 300 users per week.
+
+![image](https://github.com/seinecle/blog/assets/1244100/8ebb73a8-1288-4fb3-84ed-652ce52d6839)
+
+Visit the [public, live version of nocodefunctions users count](https://public.nocodefunctions.com/).
+
+Note: I have changed how users are counted around December 2022. Before, the count was triggered in a technical and imprecise way: each time a function's [managed bean](https://www.java4coding.com/contents/jsf/jsf-managed-beans) is instantiated. Now, the count of users is incremented each time the button launching a function is clicked.
+
 
 
 # Acknowledgements
