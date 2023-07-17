@@ -65,10 +65,10 @@ Much improved:
 - pdf matcher. I really like the development of this function, which shows several benefits of the app:
     - on April 2 2022, [Runa Sandvik](https://twitter.com/runasand) who is a security specialist I follow on Twitter, asked for a simple solution to mine pdfs.
     - on April 9, 2022, I could release a new function doing that - called [pdf matcher](https://nocodefunctions.com/pdfmatcher/pdf_matcher_tool.html) as described in [this blog post](https://nocodefunctions.com/blog/pdf-matcher-tool-for-journalists/).
-    - sometimes in 2022, [Veronica Espinoza](https://twitter.com/Verukita1) reports that words cut at the end of a line when uploading pdfs for semantic networks. I improve the pdf reader to take this into account, and this benefits all functions using pdfs for inputs - including the pdf matcher function of course.
+    - in August 2022, [Veronica Espinoza](https://twitter.com/Verukita1) reports that words cut at the end of a line are missed out (ignored), when uploading pdfs for semantic networks. I improve the pdf reader to take this into account, and this benefits all functions using pdfs for inputs - including the pdf matcher function of course.
     - on July 4 2023, so one year later, I improved this function a lot because I'll need it for an academic project. It now features [boolean searches](https://nocodefunctions.com/blog/enhanced-pdf-search/). Doing this, I realized it was bugged in different ways.
 
-Initiated in answer to the need of a member of my community, released super quickly because nocode function's architecture makes it easy to add new features, and then developed further to answer the needs of an academic project: 3 things that make me feel good about the app.
+Initiated in answer to the need of a member of my community asking for efficacy and simplicity, released super quickly because nocode function's architecture makes it easy to add new features, improved thanks to other parts of the app getting an upgrade, and then developed further to answer the needs of an academic project: 4 things that illustrate how developing nocodefunctions is really fullfilling.
 
 
 
