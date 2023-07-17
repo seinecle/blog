@@ -65,7 +65,13 @@ Much improved:
 - pdf matcher. I really like the development of this function, which shows several benefits of the app:
     - on April 2 2022, [Runa Sandvik](https://twitter.com/runasand) who is a security specialist I follow on Twitter, asked for a simple solution to mine pdfs.
     - on April 9, 2022, I could release a new function doing that - called [pdf matcher](https://nocodefunctions.com/pdfmatcher/pdf_matcher_tool.html) as described in [this blog post](https://nocodefunctions.com/blog/pdf-matcher-tool-for-journalists/).
-    - one year later, early 
+    - on July 4 2023, so one year later, I improved this function a lot because I'll need it for an academic project. Doing this, I realized it was bugged in different ways.
+
+Initiated in answer to the need of a member of my community, released super quickly because nocode function's architecture makes it easy to add new features, and then developed further to answer the needs of an academic project: 3 things that make me feel good about the app.
+
+
+
+      
 # Acknowledgements
 
 ![](https://media.giphy.com/media/ZfK4cXKJTTay1Ava29/giphy.gif)
