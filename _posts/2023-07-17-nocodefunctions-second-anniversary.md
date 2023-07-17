@@ -32,7 +32,7 @@ When I celebrated the first anniversary of Nocodefunctions.com, the app almost a
 
 Visit the [public, live version of nocodefunctions users count](https://public.nocodefunctions.com/).
 
-Note: in [November 2022](https://github.com/seinecle/nocodefunctions-web-app/commit/8f2983e96e74b7ee933752ca8dc1ddeb1b90282a), I have changed how users are counted. Before, the count was triggered in a technical and imprecise way: each time a function's [managed bean](https://www.java4coding.com/contents/jsf/jsf-managed-beans) is instantiated. Now, the count of users is incremented each time the button launching a function is clicked (actually launching, not merely choosing a function then leaving the app.
+Note: in [November 2022](https://github.com/seinecle/nocodefunctions-web-app/commit/8f2983e96e74b7ee933752ca8dc1ddeb1b90282a), I have changed how users are counted. Before, the count was triggered in a technical and imprecise way: each time a function's [managed bean](https://www.java4coding.com/contents/jsf/jsf-managed-beans) is instantiated. Now, the count of users is incremented each time the button launching a function is clicked (actually launching, not merely choosing a function then leaving the app).
 
 # Functions: what's new? what disappeared and why?
 
