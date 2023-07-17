@@ -90,7 +90,7 @@ The app is fully open source, which is good for auditability and accountability.
 However, this doesn't mean anyone can just download the code, click on a button and run the app on their own machine. Surely doable, but not trivial. Fully open source isn't equal to fully reusable.
 
 To make progress on this, I have started taking the most fundamental building blocks of the functions and packaging them in the standard, industry-grade way that is expected by the community of developers to re-use them.
-Every programming language has their packages and their paltform to distribute them.
+Every programming language has their packages and their platform to distribute them.
 [RubyGems](https://www.ruby-lang.org/en/libraries/) for Ruby, [npm](https://www.npmjs.com/) for Javascript, the [CRAN](https://cran.r-project.org/) for R,  ... and [Maven Central](https://central.sonatype.com/) for Java.
 
 It is just the beginning, and documentation is severly lacking, but it is now possible for any developer to rely on the following packages that were developed for nocodefunctions:
