@@ -26,8 +26,6 @@ Read along or jump to the category that interests you the most:
 7. Outreach
 8. What's next
 
-
-
 # Overall feeling
 ![](https://i.pinimg.com/originals/4e/c1/55/4ec1557e1b7e0e996b08d9ccbf8bbaff.gif)
 
@@ -56,9 +54,18 @@ Gone:
 
 New:
 
-- 
+- Spatialize gexf: a gexf file is a classic file format for networks. With this function, you can apply a layout to your network in a quicker way than if you would use [Gephi](https://gephi.org/) instead. The function is not amazingly fast to be honest, but still better than doing the layout directly in Gephi.
+- Detect promoted content. Still embryonic, this function should be widely used in my opinion! Basically, it categories texts in "natural / organic / genuine voice" vs "promoted / corporate speak". That is essential if you do sentiment analysis on brands or products, as you'd want to first filter out posts or tweets that are paid content sponsoring or promoting this product!
+- Sentiment analysis in Spanish. This feature was developped by [Emma Léger](https://www.linkedin.com/in/emmaleger/) whom I thank here. This new feature now needs to be further tested and improved, don't hesitate reporting issues, directly from the app!
 
+Much improved:
 
+- Semantic network generator, topic detection, sentiment analysis. These three functions now benefit from excellent (unique, I'd dare say) methods for the first essential steps of treatment of the text that you provide as input. Basivally, these functions work on the words in the text, so the first step consists in cutting the text in all the words it contains. This is harder than it seems. Punctuation signs, accentuations, lower and upper case, and multi-words ("European Union") need to be taken into account if we want the next steps to achieve a high accuracy. A keystone to these operations is the [tokenizer](https://github.com/seinecle/umigon-tokenizer), which I released in March 2023. More on this in the "Long term maintainability" section below.
+
+- pdf matcher. I really like the development of this function, which shows several benefits of the app:
+    - on April 2 2022, [Runa Sandvik](https://twitter.com/runasand) who is a security specialist I follow on Twitter, asked for a simple solution to mine pdfs.
+    - on April 9, 2022, I could release a new function doing that - called [pdf matcher](https://nocodefunctions.com/pdfmatcher/pdf_matcher_tool.html) as described in [this blog post](https://nocodefunctions.com/blog/pdf-matcher-tool-for-journalists/).
+    - one year later, early 
 # Acknowledgements
 
 ![](https://media.giphy.com/media/ZfK4cXKJTTay1Ava29/giphy.gif)
