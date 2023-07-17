@@ -8,7 +8,7 @@ last_modified_at_readable:   Jul 17, 2023
 ---
 *[Nocode functions](https://nocodefunctions.com/) is a free, no-registration web app for click-and-point data analysis*
 
-In this post, I celebrate the second anniversary of [nocode functions](https://nocodefunctions.com/)!
+In this post, I make a list of the improvements brought to [nocode functions](https://nocodefunctions.com/) in the past year.
 
 # Key facts over the past year
 
@@ -18,7 +18,7 @@ Last year, I celebrated its [first anniversary with a blog post](https://nocodef
 Read along or jump to the category that interests you the most:
 
 1. Overall feeling
-2. Overall quality, user friendliness
+2. Quality, user friendliness
 3. Traffic
 4. Functions: what's new? what disappeared and why?
 5. Long term maintainability
@@ -31,20 +31,15 @@ Read along or jump to the category that interests you the most:
 # Overall feeling
 ![](https://i.pinimg.com/originals/4e/c1/55/4ec1557e1b7e0e996b08d9ccbf8bbaff.gif)
 
+# Quality, user friendliness
+- The promise has not changed. Nocode functions remains free, fully translated in 107 languages, requires no registration, and is respectful of your data. Just click and analyze your data!
+- The app experienced no significant downtime. Users could rely on it 24/24, 365 days a year. How? Simply: when I feel that I will introduce a change that can break the app, I try the change on a test copy of nocodefunctions, which is: [https://**test**.nocodefunctions.com](https://test.nocodefunctions.com). When everything is stabilized, I deploy the changes on the normal address of nocodefunctions: https://nocodefunctions.com.
+- The app remained super fast to load, functions were fast or faster to run, and more error messages were introduced when unexpected errors occurred.
+- The overall design and usage flow remained the same: choose a function, upload your data, select optional parameters, run the function, see the results, download the results.
+- An ugly error in the design of the web pages has been permanently fixed. It made some functions unusable because the buttons on the pages couldn't be clicked. It was very hard to diagnose, it disappeared and came back randomly without leaving clear errors. I could finally fix it (two [CSS files](https://webplatform.github.io/docs/tutorials/learning_what_css_is/) were colliding), thanks to the detailed reports by [Veronica Espinoza](https://twitter.com/Verukita1).
 
-# Next steps
+# Traffic
 
-The next steps consist in going slowly and surely. The goal will remain to provide a free, no-registration, click-and-point experience to execute data analysis functions of the best quality.
-
-I will improve the documentation, starting with submissions to academic journals that specialize in relevant topics. The doc on Github will also get some love, so that this open source project can become easily re-usable.
-
-The Twitter import will get improved, so that we can go beyond 100 tweets (🤦) and also with a complete user-friendly access to all the subtelties of the query parameters available in the v2 of the Twitter API ([there are a lot](https://developer.twitter.com/en/docs/twitter-api/tweets/search/integrate/build-a-query)).
-
-The code of the app will be refactored, with robustness and elegance in view. At the moment, the code of the app includes the web pages and some back-end code to make it work. The functions themselves are located in separate repos. Good, but this modular principle should be pushed a bit further, so that the codebase for nocodefunctions ends up including just the web interface, really. In particular, the logic to import files, and to export the results, should go in separate modules.
-
-Following user reports, I will improve the UX, which remains less than perfect. The goal is to have a user complete an analysis in just a minute - the time to upload a dataset and to click on a "compute" button.
-
-That's all I can think of for now.
 
 # Acknowledgements
 
