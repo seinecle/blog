@@ -68,7 +68,7 @@ Much improved:
     - in August 2022, [Veronica Espinoza](https://twitter.com/Verukita1) reports that words cut at the end of a line are missed out (ignored), when uploading pdfs for semantic networks. I improve the pdf reader to take this into account, and this benefits all functions using pdfs for inputs - including the pdf matcher function of course.
     - on July 4 2023, so one year later, I improved this function a lot because I'll need it for an academic project. It now features [boolean searches](https://nocodefunctions.com/blog/enhanced-pdf-search/). Doing this, I realized it was bugged in different ways.
 
-Initiated in answer to the need of a member of my community asking for efficacy and simplicity, released super quickly because nocode function's architecture makes it easy to add new features, improved thanks to other parts of the app getting an upgrade, and then developed further to answer the needs of an academic project: 4 things that illustrate how developing nocodefunctions is really fullfilling.
+Initiated in answer to the need of a member of my community asking for efficacy and simplicity, released super quickly because nocode function's architecture makes it easy to add new features, improved thanks to other parts of the app getting an upgrade, and then developed further for my own needs: 4 things that illustrate how developing nocodefunctions is really fullfilling.
 
 
 
