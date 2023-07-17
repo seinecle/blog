@@ -74,7 +74,7 @@ And without bringing anything really new in terms of features or visible upgrade
 - AFTER: 20 seconds max to compile and same to upload. Deployment takes 15 seconds for the front-end (also locally! compared to > 1 minute before!), and one second for the back-end. I can do changes and see the results super quickly! Pyschologically, the frustration of suffering this waiting time is gone, so I enjoy coding.
 
 ## Less downtime ⏳
-- BEFORE: The app being a monolith, I had to stop it entirely to redeploy it even if the change I had made to the app was super small and affecting a tiny backend function. The web app was down just for 20 seconds or so to deploy this tiny change, which was bad for the users and also really unsatisfying / frustrating on my side.
+- BEFORE: The app being a monolith, I had to stop it entirely to redeploy it even if the change I had made to the app was super small and affecting a tiny backend function. The web app was down for 20 seconds or so to deploy this tiny change, which was bad for the users and also really unsatisfying / frustrating on my side.
 - AFTER: I can start and stop each part of nocode functions independently. That means that a user will not see a 404 error when visiting the site when I am simply restarting the functions or the I/O machinery.
 
 ## Cleaner organization 🧹
