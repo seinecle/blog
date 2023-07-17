@@ -64,7 +64,8 @@ The app grew and grew as a single big project containing more and more files, to
 To make my experience as a developer still enjoyable, the app required to be "refactored", re-architectured in a leaner way.
 
 I hesitated doing it for a long time because once you start it, there is no turning back. You break everything and must push forward to get to the new version that you hope will be better.
-That requires a lot of work, the app is basically "in the air" for weeks (available and running online, but the code to produce it is turned into something else). And without bringing anything really new feature or visible upgrade to the users - at least in the short term.
+That requires a lot of work, the app is basically "in the air" for weeks (available and running online, but the code to produce it is turned into something else).
+And without bringing anything really new in terms of features or visible upgrade to the users - at least in the short term. Anyway, I jumped!
 
 **Over Oct-Nov 2022, I cut the app in 3 different parts: a front-end, a back-end running the functions, and a back-end managing file uploads and downloads (I/O)**. Before the operaion, the app had become a monolith of about 120 Mb in size. With this transformation, it became a front-end of 13Mb in size, a back-end of 97 Mb (functions) and 30 Mb (I/O). Let's explain the pain points it solved:
 
