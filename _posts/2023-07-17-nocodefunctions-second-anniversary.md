@@ -88,9 +88,9 @@ The app required to be refactored. I hesitated doing it for a long time because 
 - AFTER: The code for each function is in a separate project. The front-end sends data to these projects, and receives the results from them, through a web service.
 
 Graphically, this looks like:
-
+<div style= "border:1px;">
 ![](https://docs.google.com/drawings/d/e/2PACX-1vTc-zHHvrXo9DynfUhRuD0B3TyVL7LOaW1cvKNlhPGyNJoncjjbrOuWZGRSFe0tP1x5qQ8p0ZyVJFgx/pub?w=480&h=360)
-
+</div>
       
 # Acknowledgements
 
