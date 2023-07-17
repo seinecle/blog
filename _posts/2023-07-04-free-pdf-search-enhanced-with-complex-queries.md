@@ -16,11 +16,12 @@ Because you will be as critical, impatient and demanding as any classic user wou
 
 It just happened again.
 I develop [nocodefunctions.com](https://nocodefunctions.com), a free platform for click-and-point data analytics.
-One such functions is simply: searching terms in pdfs, which I had developed in response to the need of a journalist.
+One such functions is simply: searching terms in pdfs, which I had developed [in response to the need of a journalist](https://nocodefunctions.com/blog/pdf-matcher-tool-for-journalists/).
 
 For an academic project, I now need this pdf search for myself.
 And I realize how limited the function currently is.
-It should be more performant than just a keyword search. I'd like to add conditions (AND, OR...) and exclusions (NOT).
+It should be more performant than just a keyword search.
+I'd like to add conditions (AND, OR...) and exclusions (NOT).
 Also, choose the search to be case sensitive or not.
 
 So... I just implemented these changes! They will serve my needs, and hopefully the needs of many others. ❤️
