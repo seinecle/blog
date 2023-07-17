@@ -17,8 +17,6 @@ Last year, I celebrated its [first anniversary with a blog post](https://nocodef
 
 For Aug 2022 to Jul 2023, read along or jump to the category that interests you the most:
 
-{% include toc.html html=content %}
-
 # Overall feeling
 ![](https://i.pinimg.com/originals/4e/c1/55/4ec1557e1b7e0e996b08d9ccbf8bbaff.gif)
 
