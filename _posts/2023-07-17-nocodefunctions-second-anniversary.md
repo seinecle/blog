@@ -39,14 +39,24 @@ Read along or jump to the category that interests you the most:
 - An ugly error in the design of the web pages has been finally, permanently [fixed in Jumy 2022](https://twitter.com/seinecle/status/1678039323130712064). This error made some functions unusable because the buttons on the pages couldn't be clicked. It was very hard to diagnose as it disappeared and came back randomly without leaving clear errors. I could finally fix it (two [CSS files](https://webplatform.github.io/docs/tutorials/learning_what_css_is/) were colliding), thanks to the detailed reports by [Veronica Espinoza](https://twitter.com/Verukita1).
 
 # Traffic
-When I celebrated the first anniversary of Nocodefunctions.com, the app almost never registered more than 300 users per week. For this second anniversary, the app almost never experiences less than 300 users per week.
+When I celebrated the first anniversary of Nocodefunctions.com, the app almost always had **less than 300 users** per week. For this second anniversary, the app almost always experiences **more than 300 users** per week.
 
 ![image](https://github.com/seinecle/blog/assets/1244100/8ebb73a8-1288-4fb3-84ed-652ce52d6839)
 
 Visit the [public, live version of nocodefunctions users count](https://public.nocodefunctions.com/).
 
-Note: I have changed how users are counted around December 2022. Before, the count was triggered in a technical and imprecise way: each time a function's [managed bean](https://www.java4coding.com/contents/jsf/jsf-managed-beans) is instantiated. Now, the count of users is incremented each time the button launching a function is clicked.
+Note: I have changed how users are counted around December 2022. Before, the count was triggered in a technical and imprecise way: each time a function's [managed bean](https://www.java4coding.com/contents/jsf/jsf-managed-beans) is instantiated. Now, the count of users is incremented each time the button launching a function is clicked (actually launching, not merely choosing a function then leaving the app.
 
+# Functions: what's new? what disappeared and why?
+
+Gone:
+
+- ["Best Worst Scaling"](https://en.wikipedia.org/wiki/Best%E2%80%93worst_scaling) was removed around Spring 2023. It was the most complicated function, hard to maintain, and yet I never had any report of a user for it. If anyone reads this and has a serious interest in it, get in touch. Read this short blog post on [why it is a potentially great function to survey tastes and preferences](https://nocodefunctions.com/blog/best-worst-scaling-bws-in-progress/). Check also [this study in sentiment analysis to see BWS in action](https://aclanthology.org/P17-2074/).
+- Tweets importer. [Twitter has shutdown its free API in February 2023](https://twitter.com/TwitterDev/status/1621026986784337922). Get in touch if a Twitter importer for nocodefunctions would remain important to you.
+
+New:
+
+- 
 
 
 # Acknowledgements
