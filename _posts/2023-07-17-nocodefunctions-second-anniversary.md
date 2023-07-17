@@ -62,6 +62,7 @@ Created in answer to the need of a member of the community, released super quick
 # Long term maintainability
 The app grew and grew as a single big project containing more and more files, to the point where working on it was slowed down in many ways, even if once deployed it was still very fast and the users didn't really notice anything.
 To make my experience as a developer still enjoyable, the app required to be "refactored", re-architectured in a leaner way.
+
 I hesitated doing it for a long time because once you start it, there is no turning back. You break everything and must push forward to get to the new version that you hope will be better.
 That requires a lot of work, the app is basically "in the air" for weeks (available and running online, but the code to produce it is turned into something else). And without bringing anything really new feature or visible upgrade to the users - at least in the short term.
 
