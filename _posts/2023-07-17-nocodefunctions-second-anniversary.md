@@ -71,23 +71,21 @@ Much improved:
 Created in answer to the need of a member of the community, released super quickly, improved thanks to a user report, and then developed further for my own needs: 4 things that illustrate why I feel fullfilled developping the app.
 
 # Long term maintainability
-Wow, that is a bit topic. So:
+The app required to be refactored. I hesitated doing it for a long time because it required a lot of work, without bringing anything really new or visible to the users - at least in the short term.
 
-In Oct-Nov 2022, I decoupled the app into a front-end, a back-end running the functions, and a back-end managing file uploads and downloads (I/O). Why?
+**Over Oct-Nov 2022, I cut the app in 3 different parts: a front-end, a back-end running the functions, and a back-end managing file uploads and downloads (I/O)**. Why? The app had become a monolith of about 120 Mb in size. With this transformation, it became a front-end of 13Mb in size, a back-end of 97 Mb (functions) and 30 Mb (I/O). Let's explain the pain points it solved:
 
-## Slow to develop
-The app was a monolith of about 120 Mb in size. It became a front-end of 13Mb in size, a back-end of 97 Mb (functions) and 30 Mb (I/O).
+## Quicker devops
+- BEFORE: slow to compile ( > 1 min), upload (1 min) and deploy (1:30 in my IDE, 20 seconds on the server). It was becoming horrible to wait 1 to 2 minutes to see the results of a tiny change I made in the code, and really frustrating since I knew that all this time was lost compiling the entire app, when the change was affecting 1% of it!
+- AFTER: 20 seconds max to compile and same to upload. Deployment takes 15 seconds for the front-end (also locally! compared to > 1 minute before!), and one second for the back-end. I can do changes and see the results super quickly! Pyschologically, the frustration of suffering this waiting time is gone, so I enjoy coding.
 
-- BEFORE: slow to compile, upload and deploy. It took more than a minute for each step of the cycle.
-- AFTER: 20 seconds to compile and upload. Deployment takes 15 seconds for the front-end, and one second for the back-end.
+## Less downtime
+- BEFORE: The app being a monolith, I had to stop it entirely to redeploy it even if the change I had made to the app was super small and affecting a tiny backend function. The web app was down just for 20 seconds or so to deploy this tiny change, which was bad for the users and also really unsatisfying / frustrating on my side.
+- AFTER: I can start and stop each part of nocode functions independently. That means that a user will not see a 404 error when visiting the site when I am simply restarting the functions or the I/O machinery.
 
-## Stopping everything for nothing much
-- BEFORE: The app being a monolith, I had to stop it entirely to redeploy it even if the change I had made to the app was super small and affecting a tiny backend function.
-- AFTER: I can start and stop each part of the function independently. That means that a user will not see a 404 error when visiting the site when I am simply restarting the functions.
-
-## Spaghetti of code
+## Cleaner organization
 - BEFORE: Some operations for the functions were performed in the place where the interactions with the web pages were managed. Very bad practice, and just a pain to maintain ("where did I put this part of the function again? In the code of the button where the user clicked... 🤦"). 
-- AFTER: The code for each function is in a separate project. The front-end sends and receives data to these projects through a web service.
+- AFTER: The code for each function is in a separate project. The front-end sends dataand to these projects, and received the results from them, through a web service.
 
 
 
