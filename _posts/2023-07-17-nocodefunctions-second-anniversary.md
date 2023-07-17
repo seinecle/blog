@@ -29,23 +29,7 @@ Read along or jump to the category that interests you the most:
 
 
 # Overall feeling
-
-![https://gfycat.com/harmfulweightybeaver](https://media.giphy.com/media/3oKIPu1AxMWB2xlwl2/giphy.gif)
-
-The [long-term objective with nocodefunctions](https://nocodefunctions.com/blog/long-game/) is to provide a free, user friendly, robust web app helping a variety of audiences to use common (but sophisticated) data analysis functions, offered in their best-in-class versions.
-
-After a year, **this objective has started being fulfilled**. I got informal reports about use of nocodefunctions in classrooms, in academic research and by governing bodies.
-
-Another objective for nocode functions is to serve as a testbench for the new functions I develop, as an academic researcher. Bringing a function to the app forces me to go beyond the development of an algorithm. I now must also develop a web interface for it (in 107 languages!), so that it can be featured on https://nocodefunctions.com.
-
-This is exactly what happened last month with the development of a new text mining technique that performs sentiment analysis *and provides a detailed explanation of the result - again, in 107 languages*.
-While I am writing the academic paper that will develop the internals of this technique, the function is already available on the front page of nocode functions, and [as an API as well](https://nocodefunctions.com/umigon/sentiment_analysis_tool.html). It helped me get feedback to improve on it (thank you [Verónica](https://www.linkedin.com/in/ver%C3%B3nica-espinoza/)!).
-
-Here is an example analyzing "I hate to say it, but this actually tastes great"
-
-![image](https://user-images.githubusercontent.com/1244100/182168735-32a410a5-0224-4685-b697-e741b47cec1b.png)
-
-Try it by yourself [with this link](https://nocodefunctions.com/api/sentimentForAText?text-lang=en&text=I%20hate%20to%20say%20it,%20but%20this%20actually%20tastes%20great&explanation=on&output-format=html&explanation-lang=en) or [visit the page that explains how to use it](https://nocodefunctions.com/umigon/sentiment_analysis_tool.html).
+![](https://i.pinimg.com/originals/4e/c1/55/4ec1557e1b7e0e996b08d9ccbf8bbaff.gif)
 
 
 # Next steps
