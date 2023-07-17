@@ -79,7 +79,26 @@ The app required to be refactored. I hesitated doing it for a long time because 
 Graphically, this looks like:
 
 ![](https://docs.google.com/drawings/d/e/2PACX-1vTc-zHHvrXo9DynfUhRuD0B3TyVL7LOaW1cvKNlhPGyNJoncjjbrOuWZGRSFe0tP1x5qQ8p0ZyVJFgx/pub?w=720&h=540)
-      
+
+## Bonus: greater modularity allows for the release of packages 💎
+The app is fully open source, which is good for auditability and accountability.
+However, this doesn't mean anyone can just download the code, click on a button and run the app on their own machine. Surely doable, but not trivial. Fully open source isn't equal to fully reusable.
+
+To make progress on this, I have started taking the most fundamental building blocks of the functions and packaging them in the standard, industry-grade way that is expected by the community of developers to re-use them.
+Every programming language has their packages and their paltform to distribute them.
+[RubyGems](https://www.ruby-lang.org/en/libraries/) for Ruby, [npm](https://www.npmjs.com/) for Javascript, the [CRAN](https://cran.r-project.org/) for R,  ... and [Maven Central](https://central.sonatype.com/) for Java.
+
+It is just the beginning, and documentation is severly lacking, but it is know possible for any developer to rely on the following packages that were developed for nocodefunctions:
+
+- [umigon-tokenizer](https://central.sonatype.com/artifact/net.clementlevallois.functions/umigon-tokenizer), to tokenize a text.
+- [umigon-ngram-ops](https://central.sonatype.com/artifact/net.clementlevallois.functions/umigon-ngram-ops), to add ngrams to the words of a text.
+- [umigon-model](https://central.sonatype.com/artifact/net.clementlevallois.functions/umigon-model), which contains the data structures to describe a text and analyze it further.
+- [umigon-lemmatizer-lightweight](https://central.sonatype.com/artifact/net.clementlevallois.functions/umigon-lemmatizer-lightweight), which is a fast and light lemmatizer for English, Spanish and French.
+- [umigon-stopwords](https://central.sonatype.com/artifact/net.clementlevallois.functions/umigon-stopwords) which provides lists of stopwords in a dozen of languages **and methods to evaluate whether an ngram containing a stopword is itself a stopword. Also contains lists of stopwords for academic types of discourses, both in English and French.
+- [utils-core](https://central.sonatype.com/artifact/net.clementlevallois.utils/utils-core), a set of helper methods. Two I keep using: an implementation of a [Multiset](https://github.com/seinecle/Utils/blob/main/src/main/java/net/clementlevallois/utils/Multiset.java) (no need of Guava for that...), and a [Clock](https://github.com/seinecle/Utils/blob/main/src/main/java/net/clementlevallois/utils/Clock.java) to compute elapsed time in a convenient way.
+
+Nocodefunctions now relies on these packages and I keep evolving them as the application grows. I would like to thank [Maciej Walkowiak](https://twitter.com/maciejwalkowiak) whose [tutorial on how to publish a package on Maven Central](https://maciejwalkowiak.com/blog/guide-java-publish-to-maven-central/) allowed me to do it - and making it very painless. Also thanks to [JReleaser](https://jreleaser.org/) which is the tool doing the actual lifting. 
+
 # Academic returns 🎓
 One important aspect of the web application is to make it aligned with one of my professional objectives as an academic: publishing.
 As stated in [the manifesto for nocode functions](https://nocodefunctions.com/blog/long-game/), my hope is that the web app will be a testbed for new data analytics projects, that will turn into publications.
