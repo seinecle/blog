@@ -43,7 +43,7 @@ When I celebrated the first anniversary of Nocodefunctions.com, the app almost a
 
 Visit the [public, live version of nocodefunctions users count](https://public.nocodefunctions.com/).
 
-Note: I have changed how users are counted around December 2022. Before, the count was triggered in a technical and imprecise way: each time a function's [managed bean](https://www.java4coding.com/contents/jsf/jsf-managed-beans) is instantiated. Now, the count of users is incremented each time the button launching a function is clicked (actually launching, not merely choosing a function then leaving the app.
+Note: in [November 2022](https://github.com/seinecle/nocodefunctions-web-app/commit/8f2983e96e74b7ee933752ca8dc1ddeb1b90282a), I have changed how users are counted. Before, the count was triggered in a technical and imprecise way: each time a function's [managed bean](https://www.java4coding.com/contents/jsf/jsf-managed-beans) is instantiated. Now, the count of users is incremented each time the button launching a function is clicked (actually launching, not merely choosing a function then leaving the app.
 
 # Functions: what's new? what disappeared and why?
 
@@ -60,12 +60,13 @@ New:
 
 Much improved:
 
-- Semantic network generator, topic detection, sentiment analysis. These three functions now benefit from excellent (unique, I'd dare say) methods for the first essential steps of treatment of the text that you provide as input. Basivally, these functions work on the words in the text, so the first step consists in cutting the text in all the words it contains. This is harder than it seems. Punctuation signs, accentuations, lower and upper case, and multi-words ("European Union") need to be taken into account if we want the next steps to achieve a high accuracy. A keystone to these operations is the [tokenizer](https://github.com/seinecle/umigon-tokenizer), which I released in March 2023. More on this in the "Long term maintainability" section below.
+- Semantic network generator, topic detection, sentiment analysis. These three functions now benefit from excellent (unique, I'd dare say) methods for the first essential steps of treatment of the text that you provide as input. Basically, these functions work on the words in the text, so the first step consisting in cutting the text in all its words is of great importance. This is harder than it seems. Punctuation signs, accentuations, lower and upper case, and multi-words ("European Union") need to be taken into account if we want the next steps to achieve a high accuracy. A keystone to these operations is the [tokenizer](https://github.com/seinecle/umigon-tokenizer), which I released in March 2023. More on this in the "Long term maintainability" section below.
 
 - pdf matcher. I really like the development of this function, which shows several benefits of the app:
     - on April 2 2022, [Runa Sandvik](https://twitter.com/runasand) who is a security specialist I follow on Twitter, asked for a simple solution to mine pdfs.
     - on April 9, 2022, I could release a new function doing that - called [pdf matcher](https://nocodefunctions.com/pdfmatcher/pdf_matcher_tool.html) as described in [this blog post](https://nocodefunctions.com/blog/pdf-matcher-tool-for-journalists/).
-    - on July 4 2023, so one year later, I improved this function a lot because I'll need it for an academic project. Doing this, I realized it was bugged in different ways.
+    - sometimes in 2022, [Veronica Espinoza](https://twitter.com/Verukita1) reports that words cut at the end of a line when uploading pdfs for semantic networks. I improve the pdf reader to take this into account, and this benefits all functions using pdfs for inputs - including the pdf matcher function of course.
+    - on July 4 2023, so one year later, I improved this function a lot because I'll need it for an academic project. It now features [boolean searches](https://nocodefunctions.com/blog/enhanced-pdf-search/). Doing this, I realized it was bugged in different ways.
 
 Initiated in answer to the need of a member of my community, released super quickly because nocode function's architecture makes it easy to add new features, and then developed further to answer the needs of an academic project: 3 things that make me feel good about the app.
 
