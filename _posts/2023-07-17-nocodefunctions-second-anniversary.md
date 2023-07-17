@@ -8,14 +8,14 @@ last_modified_at_readable:   Jul 17, 2023
 ---
 *[Nocode functions](https://nocodefunctions.com/) is a free, no-registration web app for click-and-point data analysis*
 
-In this post, I make a list of the improvements brought to [nocode functions](https://nocodefunctions.com/) in the past year.
+In this post, I make a list of the improvements brought to [nocode functions](https://nocodefunctions.com/) from August 2022 to today (July 2023).
 
 # Key facts over the past year
 
 According to the Wayback machine, I have launched nocodefunctions [around May 2021](http://web.archive.org/web/20210503153337/https://nocodefunctions.com/).
 Last year, I celebrated its [first anniversary with a blog post](https://nocodefunctions.com/blog/nocodefunctions-is-one-year-old/) - go have a look!
 
-Read along or jump to the category that interests you the most:
+For Aug 2022 to Jul 2023, read along or jump to the category that interests you the most:
 
 1. Overall feeling
 2. Quality, user friendliness
@@ -30,7 +30,7 @@ Read along or jump to the category that interests you the most:
 ![](https://i.pinimg.com/originals/4e/c1/55/4ec1557e1b7e0e996b08d9ccbf8bbaff.gif)
 
 # Quality, user friendliness
-- The promise has not changed. Nocode functions remains free, fully translated in 107 languages, requires no registration, and is respectful of your data. Just click and analyze your data!
+- The promise has not changed. Nocode functions remains open source (CC BY 4.0), free, fully translated in 107 languages, requires no registration, and is respectful of your data. Just click and analyze your data!
 - The app experienced no significant downtime. Users could rely on it 24/24, 365 days a year. How? Simply: when I feel that I will introduce a change that can break the app, I try the change on a test copy of nocodefunctions, which is: [https://**test**.nocodefunctions.com](https://test.nocodefunctions.com). When everything is stabilized, I deploy the changes on the normal address of nocodefunctions: https://nocodefunctions.com.
 - The app remained super fast to load, functions were fast or faster to run, and more error messages were introduced when unexpected errors occurred.
 - The overall design and usage flow remained the same: choose a function, upload your data, select optional parameters, run the function, see the results, download the results.
@@ -84,11 +84,12 @@ The app required to be refactored. I hesitated doing it for a long time because 
 - AFTER: I can start and stop each part of nocode functions independently. That means that a user will not see a 404 error when visiting the site when I am simply restarting the functions or the I/O machinery.
 
 ## Cleaner organization
-- BEFORE: Some operations for the functions were performed in the place where the interactions with the web pages were managed. Very bad practice, and just a pain to maintain ("where did I put this part of the function again? In the code of the button where the user clicked... 🤦"). 
-- AFTER: The code for each function is in a separate project. The front-end sends dataand to these projects, and received the results from them, through a web service.
+- BEFORE: the app mixed the code for the web pages with the code performing the functions. Very bad practice, and a pain to maintain ("where did I put this part of the function again? In the code of the button where the user clicked... 🤦"). 
+- AFTER: The code for each function is in a separate project. The front-end sends data to these projects, and receives the results from them, through a web service.
 
+Graphically, this looks like:
 
-
+![](https://docs.google.com/drawings/d/e/2PACX-1vTc-zHHvrXo9DynfUhRuD0B3TyVL7LOaW1cvKNlhPGyNJoncjjbrOuWZGRSFe0tP1x5qQ8p0ZyVJFgx/pub?w=960&h=720)
 
       
 # Acknowledgements
