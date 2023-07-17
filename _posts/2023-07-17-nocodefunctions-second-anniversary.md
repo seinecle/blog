@@ -17,14 +17,7 @@ Last year, I celebrated its [first anniversary with a blog post](https://nocodef
 
 For Aug 2022 to Jul 2023, read along or jump to the category that interests you the most:
 
-1. Overall feeling
-2. Quality, user friendliness
-3. Traffic
-4. Functions: what's new? what disappeared and why?
-5. Long term maintainability
-6. Academic returns
-7. Outreach
-8. What's next
+{% include toc.html html=content %}
 
 # Overall feeling
 ![](https://i.pinimg.com/originals/4e/c1/55/4ec1557e1b7e0e996b08d9ccbf8bbaff.gif)
@@ -91,14 +84,45 @@ Graphically, this looks like:
 
 ![](https://docs.google.com/drawings/d/e/2PACX-1vTc-zHHvrXo9DynfUhRuD0B3TyVL7LOaW1cvKNlhPGyNJoncjjbrOuWZGRSFe0tP1x5qQ8p0ZyVJFgx/pub?w=720&h=540)
       
+# Academic returns
+One important aspect of the web application is to make it aligned with one of my professional objectives as an academic: publishing.
+As stated in [the manifesto for nocode functions](https://nocodefunctions.com/blog/long-game/), my hope is that the web app will be a testbed for new data analytics projects, that will turn into publications.
+After two years of development:
+
+- one project of a book on Nocodefunctions co-authored with Veronica Espinoza - but I haven't contributed a single line yet :/
+- one paper under review on text mining for marketing. This paper was directly inspired by the sentiment analysis function.
+- one paper written, rejected and soon re-submitted on the lexicon-based approach of the sentiment analysis function
+- one discussion with a colleague about the "organic posts detection" function, which led to me publishing this function (after a period when it was broken and dormant). Might lead to a common project?
+- one project on the evolution of open source projects in management journals. I'll need the pdf matching function for it, and that's why I've improved this function recently.
+  
+I still need to write a paper on nocodefunctions itself - duh! - but this always seems postponed for later. If an editor reads this line and wants to send me an invitation to submit a paper, please !! :-)
+
+And teaching? I have advertised nocodefunctions to the students I teach in various undergraduate and graduate programs at [my school](https://em-lyon.com/en). I mention it in my [methodology class for MSc theses](https://seinecle.github.io/methodology/). Not sure this is effective though, as I got no follow up email or contact on this subject. It is a shame as students conducting data analysis for their theses was an obvious use case in my view.
+
+# Outreach
+[I don't monetize nocodefunctions](https://nocodefunctions.com/why.html), so my strategy to grow the traffic and usage on nocode functions is not as intense as it would be otherwise. I don't have investors breathing in my neck and I don't expect to pay the rent with it.
+
+That said, it is only human to long for a form of recognition, and seeing traffic to the app is one of my satisfactions. These are the first things I check in the morning with my coffee and a play on Wordle! :-)
+
+For this reason, I had already performed the essentials of SEO in the first year of the app:
+
+- filling in the meta tags in the <header> of all the web pages of the app,
+- creating intra-app links and paying attention to the text of these links
+
+ This blog is another effort I made: created in July 2021, I published 12 posts the first year. In 2022-23, I published 11 posts (counting this one), which tend to be a bit denser. Would you guess which one is the most popular, by very far? This one on "[using java for the front-end of a web app in 2022](https://nocodefunctions.com/blog/java-frontend-web-app/)". Who would have guessed? 😁.
+
+# Plans for next year
+The app works and is very stable. My plan is to continue on growing it slowly, adding new functions suggested by users and which seem useful to the broadest numbers. Adding no function would also be fine, I would then spend my time adding more documentation to the code base and publishing libraries encapsulating the essentials of the existing functions, to make them easy to re-use by other developers. No rush! 
+
+
 # Acknowledgements
 
 ![](https://media.giphy.com/media/ZfK4cXKJTTay1Ava29/giphy.gif)
 
-This app is truly built on the shoulders of giants. Fully developed in [Java](https://www.youtube.com/watch?v=RRubcjpTkks) using [Netbeans](https://netbeans.apache.org/) as a coding tool, I thank the community for developing such a versatile, robust, easy-to-use programming language and tooling. Thanks also to all the maintainers of the libraries that provide specific features. And thanks to all the users who provided feedback, big or not, anonymously or not. Find the [detailed list of acknowledgements here](https://nocodefunctions.com/acknowledgements.html).
+This app is truly built on the shoulders of giants. Fully developed in [Java](https://www.youtube.com/watch?v=RRubcjpTkks) using [Netbeans](https://netbeans.apache.org/) as a coding tool, I thank the community for developing such a versatile, robust, easy-to-use programming language and tooling. Thanks also to all the maintainers of the libraries that provide specific features. And thanks to all the users who provided feedback, big or not, anonymously or not. Find the [detailed list of acknowledgements here](https://nocodefunctions.com/acknowledgements.html). I would like to extend a special thank to [Veronica Espinoza](https://twitter.com/Verukita1), who provided especially constructive feedbacks and suggestions, countless times. The quality of the nocode functions is in no small part the result of her help.
 
 # About me
-I am a [professor at emlyon business school](https://www.linkedin.com/in/levallois/) where I conduct research in Natural Language Processing and network analysis applied to social sciences and the humanities. I teach about the impact of digital technologies on business and society. I also  build [nocode functions](https://nocodefunctions.com) 🔎, a click and point web app to explore texts and networks. It is [fully open source](https://github.com/seinecle/nocodefunctions). Try it and give some feedback, I would appreciate it!
+I am a [professor at emlyon business school](https://www.linkedin.com/in/levallois/) where I conduct research in Natural Language Processing and network analysis applied to social sciences and the humanities. I teach about the impact of digital technologies on business and society. I  build [nocode functions](https://nocodefunctions.com) 🔎, a click and point web app to explore texts and networks. It is [fully open source](https://github.com/seinecle/nocodefunctions). Try it and give some feedback, I would appreciate it!
 
 * my email: [analysis@exploreyourdata.com](mailto:analysis@exploreyourdata.com) 📧
 * or on Twitter: [@seinecle](https://twitter.com/seinecle) 📱
