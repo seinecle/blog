@@ -60,9 +60,12 @@ Note: in [November 2022](https://github.com/seinecle/nocodefunctions-web-app/com
 Created in answer to the need of a member of the community, released super quickly, improved thanks to a user report, and then developed further for my own needs: 4 things that illustrate why I feel fullfilled developping the app.
 
 # Long term maintainability
-The app required to be refactored. I hesitated doing it for a long time because it required a lot of work, without bringing anything really new or visible to the users - at least in the short term.
+The app grew and grew as a single big project containing more and more files, to the point where working on it was slowed down in many ways, even if once deployed it was still very fast and the users didn't really notice anything.
+To make my experience as a developer still enjoyable, the app required to be "refactored", re-architectured in a leaner way.
+I hesitated doing it for a long time because once you start it, there is no turning back. You break everything and must push forward to get to the new version that you hope will be better.
+That requires a lot of work, the app is basically "in the air" for weeks (available and running online, but the code to produce it is turned into something else). And without bringing anything really new feature or visible upgrade to the users - at least in the short term.
 
-**Over Oct-Nov 2022, I cut the app in 3 different parts: a front-end, a back-end running the functions, and a back-end managing file uploads and downloads (I/O)**. Why? The app had become a monolith of about 120 Mb in size. With this transformation, it became a front-end of 13Mb in size, a back-end of 97 Mb (functions) and 30 Mb (I/O). Let's explain the pain points it solved:
+**Over Oct-Nov 2022, I cut the app in 3 different parts: a front-end, a back-end running the functions, and a back-end managing file uploads and downloads (I/O)**. Before the operaion, the app had become a monolith of about 120 Mb in size. With this transformation, it became a front-end of 13Mb in size, a back-end of 97 Mb (functions) and 30 Mb (I/O). Let's explain the pain points it solved:
 
 ## Quicker devops 💨
 - BEFORE: slow to compile ( > 1 min), upload (1 min) and deploy (1:30 in my IDE, 20 seconds on the server). It was becoming horrible to wait 1 to 2 minutes to see the results of a tiny change I made in the code, and really frustrating since I knew that all this time was lost compiling the entire app, when the change was affecting 1% of it!
