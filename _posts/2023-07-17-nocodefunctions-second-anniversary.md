@@ -67,7 +67,7 @@ I hesitated doing it for a long time because once you start it, there is no turn
 That requires a lot of work, the app is basically "in the air" for weeks (available and running online, but the code to produce it is turned into something else).
 And without bringing anything really new in terms of features or visible upgrade to the users - at least in the short term. Anyway, I jumped!
 
-**Over Oct-Nov 2022, I cut the app in 3 different parts: a front-end, a back-end running the functions, and a back-end managing file uploads and downloads (I/O)**. Before the operaion, the app had become a monolith of about 120 Mb in size. With this transformation, it became a front-end of 13Mb in size, a back-end of 97 Mb (functions) and 30 Mb (I/O). Let's explain the pain points it solved:
+**Over Oct-Nov 2022, I cut the app in 3 different parts: a front-end, a back-end running the functions, and a back-end managing file uploads and downloads (I/O)**. Before the operation, the app had become a monolith of about 120 Mb in size. With this transformation, it became a front-end of 13Mb in size, a back-end of 97 Mb (functions) and 30 Mb (I/O). Let's explain the pain points it solved:
 
 ## Quicker devops 💨
 - BEFORE: slow to compile ( > 1 min), upload (1 min) and deploy (1:30 in my IDE, 20 seconds on the server). It was becoming horrible to wait 1 to 2 minutes to see the results of a tiny change I made in the code, and really frustrating since I knew that all this time was lost compiling the entire app, when the change was affecting 1% of it!
