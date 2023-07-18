@@ -10,16 +10,11 @@ last_modified_at_readable:   Jul 17, 2023
 
 In this post, I make a list of the improvements brought to [nocode functions](https://nocodefunctions.com/) from August 2022 to today (July 2023).
 
-# Key facts over the past year
-
-According to the Wayback machine, I have launched nocodefunctions [around May 2021](http://web.archive.org/web/20210503153337/https://nocodefunctions.com/).
-Last year, I celebrated its [first anniversary with a blog post](https://nocodefunctions.com/blog/nocodefunctions-is-one-year-old/) - go have a look!
-
 # Overall feeling
 ![](https://i.pinimg.com/originals/4e/c1/55/4ec1557e1b7e0e996b08d9ccbf8bbaff.gif)
 
 # Quality, user friendliness 🤗
-- The promise has not changed. Nocode functions remains open source (CC BY 4.0), free, fully translated in 107 languages, requires no registration, and is respectful of your data. Just click and analyze your data!
+- The promise of [nocodefunctions.com](https://nocodefunctions.com) remains unchanged. The web app remains open source ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)), free, fully translated in [107 languages](https://nocodefunctions.com/blog/translated-web-app-in-107-languages-i18n/), requires no registration, and is respectful of your data. Just click and analyze your data!
 - The app experienced no significant downtime. Users could rely on it 24/24, 365 days a year. How? Simply: when I feel that I will introduce a change that can break the app, I first try the change on a test copy of nocodefunctions, which is: [https://**test**.nocodefunctions.com](https://test.nocodefunctions.com). When everything is stabilized, I deploy the changes on the normal address of nocodefunctions: https://nocodefunctions.com.
 - The app remained super fast to load, functions were fast or faster to run, and more error messages were introduced when unexpected errors occurred.
 - The overall design and usage flow remained the same: choose a function, upload your data, select optional parameters, run the function, see the results, download the results.
