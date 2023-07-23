@@ -38,7 +38,6 @@ Not saying that Twitter data will not become available once more, one day, but w
 
 > **We are going to see, in the next months and over 2024, an intense activity of developing importers and user interfaces for these alternative data sources mentioned above.**
 
-
 # New data importers, new user interfaces: a call to talk and exchange
 In informal discussions and reading posts from specialists on Twitter, I see that:
 
@@ -68,11 +67,37 @@ Let's consider the steps for a service, say, creating a word cloud from the most
 6. Formatting the results: a picture of the cloud, a table view of the underlying words, a gexf network format for the underlying network of relations?
 7. An interface to export the results: showing the picture on screen, downloading the picture in different formats (svg, png?), exporting to Excel and Google Sheets, visualize the word cloud in an interactive way with Gephi Lite, VOSviewer online or a custom D3 view, export a gexf or GraphML to be opened by Gephi or NodeXL?
 
+and multiply these 7 steps by the number of importers you consider developing!
+
 I believe that relatively big for-profit organizations have a motive and the resources to handle these 7 steps all by themselves (even then, they rely and contribute to open source solutions for parts of the process!)
 
 For smaller organizations (for profit or not) and individuals, there is a strong case to join forces when and if possible, to help each other on one or several steps of the process above.
 
 
+# I go first: what I am happy to help with
+
+The list below are functional blocks that I can relatively easily provide to you, in a format that suits your needs.
+
+## Tools
+
+- methods to [extract words](https://github.com/seinecle/umigon-tokenizer) and [n-grams](https://github.com/seinecle/umigon-ngram-ops) from a given text
+- methods to convert [co-occurring words into a network of words](https://github.com/seinecle/cowo-function)
+- methods to infer the [sentiment from a text](https://github.com/seinecle/umigon-family/tree/main/umigon-core)
+
+## Interfaces
+
+-  you are free to add your method to [https://nocodefunctions.com](https://nocodefunctions.com)
+-  interface between your app and nocodefunctions.com
+
+*(this one seems like: "ah ah I see your ulterior motive for all this, you want to grow your web app!" I would be happy to, that is true. I also know that many developers don't have the time to maintain their own web app, so I offer this for them).*
+
+## Import / export
+
+- from a csv, txt, pdf or Excel file to the plain text they contain
+- from a gexf or graphML file to a url to visualize this file on the web
+
+# "How to start collaborating? I code in R / Python / JS and I don't know how to do X, Y or Z"
+This is not hard actually, we'll figure out a way to coordinate. Let's get in touch, either privately ([analysis@exploreyourdata.com](mailto:analysis@exploreyourdata.com)) or let's discuss pubblicly on [@seinecle](https://twitter.com/seinecle) or [Mastodon](https://ioc.exchange/@seinecle).
 
 # About me
 I am a [professor at emlyon business school](https://www.linkedin.com/in/levallois/) where I conduct research in Natural Language Processing and network analysis applied to social sciences and the humanities. I teach about the impact of digital technologies on business and society. I  build [nocode functions](https://nocodefunctions.com) 🔎, a click and point web app to explore texts and networks. It is [fully open source](https://github.com/seinecle/nocodefunctions). Try it and give some feedback, I would appreciate it!
