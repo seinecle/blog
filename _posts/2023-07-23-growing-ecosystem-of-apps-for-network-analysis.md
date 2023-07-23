@@ -46,7 +46,7 @@ In informal discussions and reading posts from specialists on Twitter, I see tha
 - the same actors are developing transformers for this data: text and network analysis methods (otherwise offering raw data is not of great value)
 - this triggers a re-thinking of exisiting user interfaces, and the development of new ones
 
-Why would we need to do this in isolation?
+**Why would we need to do this in isolation?**
 After giving it some thoughts, I think that there are two big reasons not to engage in collaborations, and one of them is a false one.
 
 One reason not to engage in collaborations is to keep one's product secret and non reproducible, to build a competitive advantage.
