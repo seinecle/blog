@@ -63,14 +63,15 @@ Let's consider the steps for a service consisting in, say, creating a word cloud
 
 > Are you ready to design and implement each of these 7 operations, and especially the 8th one?
 
-1. Creating a interface (web, mobile app or desktop?) where the user will express their query
+1. Creating a interface (web, mobile app or desktop?) where the user will express their query and choose their parameters
 2. Hosting this interface (server costs, maintenance of the app for multiple OS...)
-3. Finding the API client for Wikipedia and querying the data, keeping track of the changes in the API
-4. Parsing and cleaning the data
-5. Constructing the word cloud
-6. Formatting the results: a picture of the cloud, a table view of the underlying words, a gexf network format for the underlying network of relations?
-7. An interface to export the results: showing the picture on screen, downloading the picture in different formats (svg, png?), exporting to Excel and Google Sheets, visualize the word cloud in an interactive way with Gephi Lite, VOSviewer online or a custom D3 view, export a gexf or GraphML to be opened by Gephi or NodeXL?
-8. Maintaining steps 1 to 7 through time 😅.
+3. Finding the API client for Wikipedia and querying the data
+4. Storing the data - issues of scale and OS specificity
+5. Parsing and cleaning the data (are you going multi-language?)
+6. Constructing the word cloud
+7. Formatting the results: a picture of the cloud, a table view of the underlying words and their counts, a [gexf](https://gexf.net/) network format for the underlying network of relations?
+8. An interface to export the results: showing the picture on screen, downloading the picture in different formats (svg, png?), exporting to Excel and Google Sheets, visualize the word cloud in an interactive way with [Gephi Lite](https://gephi.org/gephi-lite/), [VOSviewer online](https://app.vosviewer.com/) or a custom [D3](https://d3js.org/) view, export a gexf or [GraphML](https://fr.wikipedia.org/wiki/GraphML) to be opened by [Gephi](https://gephi.org/) or [NodeXL](https://www.smrfoundation.org/nodexl/)?
+9. Maintaining steps 1 to 7 through time 😅😱.
 
 I believe that relatively big for-profit organizations have a motive and the resources to handle these 8 steps all by themselves (even then, they rely and contribute to open source solutions for parts of the process!)
 
@@ -89,8 +90,8 @@ The list below are functional blocks that I can relatively easily provide to you
 
 ## Interfaces
 
--  you are free to add your method to [https://nocodefunctions.com](https://nocodefunctions.com)
--  we can work at interfacing your app and nocodefunctions.com
+-  you are free to add your method to [https://nocodefunctions.com](https://nocodefunctions.com), which sorts out interfacing and hosting issues
+-  we can work at interfacing your app and nocodefunctions.com, which means your app integrates some of the functions of nocodefunctions.
 
 *(this one seems like: "ah ah I see your ulterior motive for all this, you want to grow your web app!" I would be happy to, that is true. I also know that many developers don't have the time to maintain their own web app, so I offer this for them).*
 
