@@ -34,7 +34,16 @@ The obvious reaction is: none of these are an equivalent to Twitter. It will tak
 > **We are going to see, in the next months and over 2024, an intense activity of developing importers and user interfaces for these alternative data sources mentioned above.**
 
 
-# Mining alternative data sources: a new moment for importers and user interfaces to shine!
+# New data importers, new user interfaces: a call to talk and exchange
+In informal discussions and reading posts from specialists on Twitter, I see that:
+
+- there is an interest in new data importers, either for one's own use or as a service to offer
+- accordinly, individuals, organizations and app developers are building new data importers
+- the same actors are developing transformers for this data: text and network analysis methods (otherwise offering raw data is not of great value)
+- this triggers a re-thinking of exisiting user interfaces, and the development of new ones
+
+This is on this last point that I'd like to make a call: 
+
 
 
 # About me
