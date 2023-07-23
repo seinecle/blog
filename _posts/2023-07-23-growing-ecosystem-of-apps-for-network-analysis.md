@@ -27,6 +27,9 @@ With the new plans for API access [set at prohibitive prices](https://developer.
 
 ## What's next?
 Passed a moment of shock and disbelief, academics and others (OSINT, journalists, marketers, developers, etc.) start turning to other data sources.
+
+![meme from the office](/assets/image/again.gif)
+
 Here are the data sources that I personally consider, or that I heard others considering:
 
 - [Open Street Map](https://www.openstreetmap.org/#map=5/46.449/2.210) ([API](https://wiki.openstreetmap.org/wiki/API))
