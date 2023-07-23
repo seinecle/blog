@@ -1,18 +1,18 @@
 ---
 layout: post
-title: A call to grow an ecosystem of apps form network analysis
-permalink: /call-growing-ecosystem-apps-network-analysis/
+title: A call to grow an ecosystem of apps for text and network analysis on new data sources
+permalink: /call-growing-ecosystem-apps-text-network-analysis-new-data-sources/
 published: false
 date_readable:               Jul 23, 2023
 last_modified_at_readable:   Jul 23, 2023
 ---
-With the end of the free Twitter API, network analysts are looking for new data sources. This is an opportunity to stimulate the ecosystem of apps that specialize in data import and transformation to networks.
+With the end of the free Twitter API, network and text analysts are looking for new data sources. This is an opportunity to stimulate the ecosystem of apps that specialize in data import, text mining and transformation to networks.
 
 # End of the Twitter API: a problem, and an opportunity
 A large crowd of diverse actors relied on the Twitter API to collect data for text analysis, network analysis or both.
 Just taking academics, you find a rapidly growing number of publications mentioning the "Twitter API" in recent years:
 
-|  year | count of publications  |
+|  year | count of publications mentioning the Twitter API  |
 |---|---|
 | 2018  | 2,480  |
 | 2019  | 2,620  |
@@ -21,9 +21,9 @@ Just taking academics, you find a rapidly growing number of publications mention
 
 This is over with the new plans for API access [set at prohibitive prices](https://developer.twitter.com/en/products/twitter-api).
 
-What's next?
+## What's next?
 Academics but others as well (OSINT, journalists, marketers, developers, etc.) turn to other data sources.
-Here are the data sources that I consider, and that I heard others considering:
+Here are the data sources that I personally consider, or that I heard others considering:
 
 - [Open Street Map](https://www.openstreetmap.org/#map=5/46.449/2.210) ([API](https://wiki.openstreetmap.org/wiki/API))
 - Wikipedia / [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) ([API](https://www.wikidata.org/wiki/Wikidata:Data_access/en))
@@ -38,29 +38,30 @@ Not saying that Twitter data will not become available once more, one day, but w
 
 > **Prediction 🔮: we are going to see, in the next months and over 2024, an intense activity of developing importers and user interfaces for these alternative data sources mentioned above.**
 
-# New data importers, new user interfaces: a call to talk and exchange
+# New data importers, new analytics, new user interfaces: a call to talk and exchange
 In informal discussions and reading posts from specialists on Twitter, I see that:
 
 - there is an interest in new data importers, either for one's own use or as a service to offer
 - accordinly, tech-savy individuals, organizations and app developers are building new data importers
 - the same actors are developing transformers for this data: text and network analysis methods (otherwise offering raw data is not of great value)
-- this triggers a re-thinking of exisiting user interfaces, and the development of new ones
+- this also triggers a re-thinking of exisiting user interfaces, and the development of new ones
 
 **Why would we need to do this in isolation?**
 After giving it some thoughts, I think that there are two big reasons not to engage in collaborations, and one of them is a false one.
 
-One reason not to engage in collaborations is to keep one's product secret and non reproducible, to build a competitive advantage.
+**One reason not to engage in collaborations** is to keep one's product secret and non reproducible, to build a competitive advantage.
 A data importer with some clever data transformation added to it can deliver insights of great value, so let's not share it.
 
 A second reason could be technical and resources constraints.
 Working alone can let you go faster, as collaborating adds coordination and interfacing costs and delays.
 
-This second reason is less strong I believe.
+**This second reason is less strong, I believe.**
 Coordination and interfacing costs are real, but setting up a collaboration also helps distribute work among many, instead of doing everything by one's self.
-Let's consider the steps for a service consisting in, say, creating a word cloud from the most common expressions used in a set of Wikipedia pages.
-Constructing the word cloud is far from the only operation we need.
 
-Are you ready to design and implement each of these 7 operations, and especially the 8th one?
+Let's consider the steps for a service consisting in, say, creating a word cloud from the most common expressions used in a set of Wikipedia pages.
+*Constructing the word cloud is far from the only operation we need to build*.
+
+> Are you ready to design and implement each of these 7 operations, and especially the 8th one?
 
 1. Creating a interface (web, mobile app or desktop?) where the user will express their query
 2. Hosting this interface (server costs, maintenance of the app for multiple OS...)
@@ -71,10 +72,9 @@ Are you ready to design and implement each of these 7 operations, and especially
 7. An interface to export the results: showing the picture on screen, downloading the picture in different formats (svg, png?), exporting to Excel and Google Sheets, visualize the word cloud in an interactive way with Gephi Lite, VOSviewer online or a custom D3 view, export a gexf or GraphML to be opened by Gephi or NodeXL?
 8. Maintaining steps 1 to 7 through time.
 
-I believe that relatively big for-profit organizations have a motive and the resources to handle these 7 steps all by themselves (even then, they rely and contribute to open source solutions for parts of the process!)
+I believe that relatively big for-profit organizations have a motive and the resources to handle these 8 steps all by themselves (even then, they rely and contribute to open source solutions for parts of the process!)
 
 For smaller organizations (for profit or not) and individuals, there is a strong case to join forces when and if possible, to help each other on one or several steps of the process above.
-
 
 # I go first: what I am happy to help with
 
@@ -99,7 +99,27 @@ The list below are functional blocks that I can relatively easily provide to you
 - from a gexf or graphML file to a url to visualize this file on the web
 
 # "How to start collaborating? I code in R / Python / JS and I don't know how to do X, Y or Z"
-This is not hard actually, we'll figure out a way to coordinate. Let's get in touch, either privately ([analysis@exploreyourdata.com](mailto:analysis@exploreyourdata.com)) or let's discuss pubblicly on [@seinecle](https://twitter.com/seinecle) or [Mastodon](https://ioc.exchange/@seinecle).
+And you? How could start this collaboration process?
+
+## The first immense step is *psychological*.
+I know from experience that it is very hard to share one's code or application.
+For the first 10 years of my coding career, I did not really open sourced my apps completely, because of an inner fear that I would be "copied" or robbed of the value that I had created.
+I thought that maybe, someday, I could monetize what I produced, so it would be silly to publish it and get anyone to use it before me.
+It took ten years but I am past that.
+I still believe that there is a tiny chance that one day I'll be able to earn something from what I create, but in the meantime this should not keep what I do hidden and unproductive.
+
+## The second step is technical: how to integrate or interface codes from 2 different persons? 
+This is not hard actually, we'll figure out a way to coordinate.
+The general idea would be to keep the two projects separate, and to build interfaces to join the two.
+These interfaces can be of different sorts:
+
+- creating a web API which takes project's A output and format it so that project B can use it
+- creating a command line interface for the same result
+- harmonizing data formats to facilitate exchanges
+
+I am happy to work on these interfaces with you.
+
+Let's get in touch, either privately ([analysis@exploreyourdata.com](mailto:analysis@exploreyourdata.com)) or let's discuss pubblicly on [@seinecle](https://twitter.com/seinecle) or [Mastodon](https://ioc.exchange/@seinecle).
 
 # About me
 I am a [professor at emlyon business school](https://www.linkedin.com/in/levallois/) where I conduct research in Natural Language Processing and network analysis applied to social sciences and the humanities. I teach about the impact of digital technologies on business and society. I  build [nocode functions](https://nocodefunctions.com) 🔎, a click and point web app to explore texts and networks. It is [fully open source](https://github.com/seinecle/nocodefunctions). Try it and give some feedback, I would appreciate it!
