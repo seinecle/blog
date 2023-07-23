@@ -129,7 +129,7 @@ These interfaces can be of different sorts:
 
 I am happy to work on these interfaces with you, let's connect!
 
-![a hand shake](/assets/image/handshake.jpg)
+![a hand shake](/blog/assets/image/handshake.jpg)
 
 Let's get in touch, either privately ([analysis@exploreyourdata.com](mailto:analysis@exploreyourdata.com)) or let's discuss pubblicly on [Twitter](https://twitter.com/seinecle) or [Mastodon](https://ioc.exchange/@seinecle).
 
