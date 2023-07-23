@@ -38,11 +38,15 @@ The obvious reaction is: none of these are an equivalent to Twitter. It will tak
 In informal discussions and reading posts from specialists on Twitter, I see that:
 
 - there is an interest in new data importers, either for one's own use or as a service to offer
-- accordinly, individuals, organizations and app developers are building new data importers
+- accordinly, tech-savy individuals, organizations and app developers are building new data importers
 - the same actors are developing transformers for this data: text and network analysis methods (otherwise offering raw data is not of great value)
 - this triggers a re-thinking of exisiting user interfaces, and the development of new ones
 
-This is on this last point that I'd like to make a call: 
+Why would we need to do this in isolation? Some reasons to avoid collaborations:
+
+- building a competitive advantage. A data importer with some clever data transformation added to it can deliver insights of great value, so let's not share it.
+- technical and resources constraints. Working alone can let you go faster, and collaborating adds coordination and interfacing costs and delays
+- 
 
 
 
