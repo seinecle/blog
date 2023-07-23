@@ -71,8 +71,6 @@ Are you ready to design and implement each of these 7 operations, and especially
 7. An interface to export the results: showing the picture on screen, downloading the picture in different formats (svg, png?), exporting to Excel and Google Sheets, visualize the word cloud in an interactive way with Gephi Lite, VOSviewer online or a custom D3 view, export a gexf or GraphML to be opened by Gephi or NodeXL?
 8. Maintaining steps 1 to 7 through time.
 
-and multiply these 7 steps by the number of importers you consider developing!
-
 I believe that relatively big for-profit organizations have a motive and the resources to handle these 7 steps all by themselves (even then, they rely and contribute to open source solutions for parts of the process!)
 
 For smaller organizations (for profit or not) and individuals, there is a strong case to join forces when and if possible, to help each other on one or several steps of the process above.
