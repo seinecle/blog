@@ -36,7 +36,7 @@ The obvious reaction is: none of these are an equivalent to Twitter.
 It will take a mourning period but yes, we'll have to move on.
 Not saying that Twitter data will not become available once more, one day, but waiting for this to happen, human curiosity must find other objects to apply to.
 
-> **We are going to see, in the next months and over 2024, an intense activity of developing importers and user interfaces for these alternative data sources mentioned above.**
+> **Prediction 🔮: we are going to see, in the next months and over 2024, an intense activity of developing importers and user interfaces for these alternative data sources mentioned above.**
 
 # New data importers, new user interfaces: a call to talk and exchange
 In informal discussions and reading posts from specialists on Twitter, I see that:
