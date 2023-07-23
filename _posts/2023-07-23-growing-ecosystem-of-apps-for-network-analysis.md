@@ -2,7 +2,7 @@
 layout: post
 title: A call to grow an ecosystem of apps for text and network analysis on new data sources
 permalink: /call-growing-ecosystem-apps-text-network-analysis-new-data-sources/
-published: false
+published: true
 date_readable:               Jul 23, 2023
 last_modified_at_readable:   Jul 23, 2023
 ---
