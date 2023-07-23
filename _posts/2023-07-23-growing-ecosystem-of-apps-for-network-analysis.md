@@ -9,7 +9,8 @@ last_modified_at_readable:   Jul 23, 2023
 With the end of the free Twitter API, network analysts are looking for new data sources. This is an opportunity to stimulate the ecosystem of apps that specialize in data import and transformation to networks.
 
 # End of the Twitter API: a problem, and an opportunity
-A large crowd of diverse actors relied on the Twitter API to collect data for text analysis, network analysis or both. Just taking academics, you find a rapidly growing number of publications mentioning the "Twitter API" in recent years:
+A large crowd of diverse actors relied on the Twitter API to collect data for text analysis, network analysis or both.
+Just taking academics, you find a rapidly growing number of publications mentioning the "Twitter API" in recent years:
 
 |  year | count of publications  |
 |---|---|
@@ -20,7 +21,9 @@ A large crowd of diverse actors relied on the Twitter API to collect data for te
 
 This is over with the new plans for API access [set at prohibitive prices](https://developer.twitter.com/en/products/twitter-api).
 
-What's next? Academics but others as well (OSINT, journalists, marketers, developers, etc.) turn to other data sources. Here are the data sources that I consider, and that I heard others considering:
+What's next?
+Academics but others as well (OSINT, journalists, marketers, developers, etc.) turn to other data sources.
+Here are the data sources that I consider, and that I heard others considering:
 
 - [Open Street Map](https://www.openstreetmap.org/#map=5/46.449/2.210) ([API](https://wiki.openstreetmap.org/wiki/API))
 - Wikipedia / [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) ([API](https://www.wikidata.org/wiki/Wikidata:Data_access/en))
@@ -29,7 +32,9 @@ What's next? Academics but others as well (OSINT, journalists, marketers, develo
 - Mastodon ([API](https://docs.joinmastodon.org/api/))
 - [OpenAlex](https://openalex.org/) (this one is quite specialized but really worth a look: gigantic, free access to global scientometric data).
 
-The obvious reaction is: none of these are an equivalent to Twitter. It will take a mourning period but yes, we'll have to move on. Not saying that Twitter data will not become available once more, one day, but waiting for this to happen, human curiosity must find other objects to apply to.
+The obvious reaction is: none of these are an equivalent to Twitter.
+It will take a mourning period but yes, we'll have to move on.
+Not saying that Twitter data will not become available once more, one day, but waiting for this to happen, human curiosity must find other objects to apply to.
 
 > **We are going to see, in the next months and over 2024, an intense activity of developing importers and user interfaces for these alternative data sources mentioned above.**
 
@@ -42,11 +47,30 @@ In informal discussions and reading posts from specialists on Twitter, I see tha
 - the same actors are developing transformers for this data: text and network analysis methods (otherwise offering raw data is not of great value)
 - this triggers a re-thinking of exisiting user interfaces, and the development of new ones
 
-Why would we need to do this in isolation? Some reasons to avoid collaborations:
+Why would we need to do this in isolation?
+After giving it some thoughts, I think that there are two big reasons not to engage in collaborations, and one of them is a false one.
 
-- building a competitive advantage. A data importer with some clever data transformation added to it can deliver insights of great value, so let's not share it.
-- technical and resources constraints. Working alone can let you go faster, and collaborating adds coordination and interfacing costs and delays
-- 
+One reason not to engage in collaborations is to keep one's product secret and non reproducible, to build a competitive advantage.
+A data importer with some clever data transformation added to it can deliver insights of great value, so let's not share it.
+
+A second reason could be technical and resources constraints.
+Working alone can let you go faster, as collaborating adds coordination and interfacing costs and delays.
+
+This second reason is less strong I believe.
+Coordination and interfacing costs are real, but setting up a collaboration also helps distribute work among many, instead of doing everything by one's self.
+Let's consider the steps for a service, say, creating a word cloud from the most common expressions used in a set of Wikipedia pages. Constructing the word cloud is far from the only operation we need!
+
+1. Creating a interface (web, mobile app or desktop?) where the user will express their query
+2. Hosting and maintaining this interface (server costs, maintenance of the app for multiple OS...)
+3. Finding the API client for Wikipedia and querying the data, keeping track of the changes in the API
+4. Parsing and cleaning the data
+5. Constructing the word cloud
+6. Formatting the results: a picture of the cloud, a table view of the underlying words, a gexf network format for the underlying network of relations?
+7. An interface to export the results: showing the picture on screen, downloading the picture in different formats (svg, png?), exporting to Excel and Google Sheets, visualize the word cloud in an interactive way with Gephi Lite, VOSviewer online or a custom D3 view, export a gexf or GraphML to be opened by Gephi or NodeXL?
+
+I believe that relatively big for-profit organizations have a motive and the resources to handle these 7 steps all by themselves (even then, they rely and contribute to open source solutions for parts of the process!)
+
+For smaller organizations (for profit or not) and individuals, there is a strong case to join forces when and if possible, to help each other on one or several steps of the process above.
 
 
 
