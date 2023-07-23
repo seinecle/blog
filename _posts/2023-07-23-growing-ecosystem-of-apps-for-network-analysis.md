@@ -46,15 +46,7 @@ Human curiosity must find other objects to apply to.
 > **Prediction 🔮: we are going to see, in the next months and over 2024, an intense activity of developing importers and user interfaces for these alternative data sources mentioned above.**
 
 # New data importers, new analytics, new user interfaces: a call to talk and exchange
-In informal discussions and reading posts from specialists on Twitter, I see that:
-
-- there is strong interest in new data importers, either for one's consumption or as a service to offer
-- accordinly, tech-savy individuals, organizations and app developers are building new data importers
-- the same actors are developing transformers for this data: text and network analysis methods (otherwise offering raw data is not of great value)
-- this also triggers a re-thinking of exisiting user interfaces, and the development of new ones
-
-This means that we are at the start of an intense period of thinking, tool building and new services that are going to be created.
-This is a great occasion to address the makers of these solutions-to-come, and my question to them is:
+So we are at the start of an intense period of import tool building and new services that are going to be created on top of them. This is a great occasion to address the makers of these solutions-to-come, and my question to them is:
 
 **Why would we need to do this in isolation?**
 I think that there are two big reasons not to engage in collaborations, and one of them is a false one.
