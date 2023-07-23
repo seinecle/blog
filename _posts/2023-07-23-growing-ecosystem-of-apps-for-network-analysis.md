@@ -57,15 +57,19 @@ Working alone can let you go faster, as collaborating adds coordination and inte
 
 This second reason is less strong I believe.
 Coordination and interfacing costs are real, but setting up a collaboration also helps distribute work among many, instead of doing everything by one's self.
-Let's consider the steps for a service, say, creating a word cloud from the most common expressions used in a set of Wikipedia pages. Constructing the word cloud is far from the only operation we need!
+Let's consider the steps for a service consisting in, say, creating a word cloud from the most common expressions used in a set of Wikipedia pages.
+Constructing the word cloud is far from the only operation we need.
+
+Are you ready to design and implement each of these 7 operations, and especially the 8th one?
 
 1. Creating a interface (web, mobile app or desktop?) where the user will express their query
-2. Hosting and maintaining this interface (server costs, maintenance of the app for multiple OS...)
+2. Hosting this interface (server costs, maintenance of the app for multiple OS...)
 3. Finding the API client for Wikipedia and querying the data, keeping track of the changes in the API
 4. Parsing and cleaning the data
 5. Constructing the word cloud
 6. Formatting the results: a picture of the cloud, a table view of the underlying words, a gexf network format for the underlying network of relations?
 7. An interface to export the results: showing the picture on screen, downloading the picture in different formats (svg, png?), exporting to Excel and Google Sheets, visualize the word cloud in an interactive way with Gephi Lite, VOSviewer online or a custom D3 view, export a gexf or GraphML to be opened by Gephi or NodeXL?
+8. Maintaining steps 1 to 7 through time.
 
 and multiply these 7 steps by the number of importers you consider developing!
 
