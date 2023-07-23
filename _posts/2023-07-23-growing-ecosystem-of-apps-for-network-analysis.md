@@ -65,9 +65,9 @@ Let's consider the steps for a service consisting in, say, creating a word cloud
 
 > Are you ready to design and implement each of these 9 operations, and especially the 9th one?
 
-1. Creating a interface (web, mobile app or desktop?) where the user will express their query and choose their parameters
-2. Hosting this interface (server costs, maintenance of the app for multiple OS...)
-3. Choosing and familiarizing with an API client for Wikipedia, writing the code to fetch the any query
+1. Creating an interface (web, mobile app or desktop?) where the user will express their query and choose their parameters
+2. Hosting this interface (server costs, adapting to multiple OS...)
+3. Choosing and familiarizing with an API client for Wikipedia, writing the code to fetch any user query, handling errors
 4. Storing the data - issues of scale and OS specificity
 5. Parsing and cleaning the data (are you supporting different languages?)
 6. Constructing the word cloud
