@@ -33,8 +33,8 @@ Here are the data sources that I personally consider, or that I heard others con
 - [OpenAlex](https://openalex.org/) (this one is quite specialized but really worth a look: gigantic, free access to global scientometric data).
 
 The obvious reaction is: none of these are an equivalent to Twitter.
-It will take a mourning period but yes, we'll have to move on.
-Not saying that Twitter data will not become available once more, one day, but waiting for this to happen, human curiosity must find other objects to apply to.
+It will take a mourning period but yes, we'll have to move on (I won't engage here on Threads, just: I don't wait or count on an API access to it).
+Human curiosity must find other objects to apply to.
 
 > **Prediction 🔮: we are going to see, in the next months and over 2024, an intense activity of developing importers and user interfaces for these alternative data sources mentioned above.**
 
