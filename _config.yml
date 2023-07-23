@@ -33,13 +33,13 @@ baseurl: "/blog"
 # Navigation menu
 navigation_links:
   - title: Blog
-    url: /
+    url: /blog/
 
   - title: About
-    url: /about
+    url: /blog/about
 
   - title: Search
-    url: /search
+    url: /blog/search
 
 # Footer icons
 footer_links:
