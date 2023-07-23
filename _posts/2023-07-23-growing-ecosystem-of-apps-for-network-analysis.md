@@ -81,7 +81,7 @@ Let's consider the steps for a service consisting in, say, creating a word cloud
 6. Constructing the word cloud
 7. Formatting the results: a picture of the cloud, a table view of the underlying words and their counts, a [gexf](https://gexf.net/) network format for the underlying network of relations?
 8. An interface to export the results: showing the picture on screen, downloading the picture in different formats (svg, png?), exporting to Excel and Google Sheets, visualize the word cloud in an interactive way with [Gephi Lite](https://gephi.org/gephi-lite/), [VOSviewer online](https://app.vosviewer.com/) or a custom [D3](https://d3js.org/) view, export a gexf or [GraphML](https://fr.wikipedia.org/wiki/GraphML) to be opened by [Gephi](https://gephi.org/) or [NodeXL](https://www.smrfoundation.org/nodexl/)?
-9. Maintaining steps 1 to 7 through time 😅😱.
+9. Maintaining steps 1 to 8 through time 😅😱.
 
 I believe that relatively big for-profit organizations have a motive and the resources to handle these 9 steps all by themselves (even then, they rely and contribute to open source solutions for parts of the process!)
 
