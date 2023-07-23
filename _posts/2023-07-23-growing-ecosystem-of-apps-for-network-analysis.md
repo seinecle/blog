@@ -6,7 +6,7 @@ published: true
 date_readable:               Jul 23, 2023
 last_modified_at_readable:   Jul 23, 2023
 ---
-With the end of the free Twitter API, network and text analysts are looking for new data sources. This is an opportunity to stimulate the ecosystem of apps that specialize in data import, text mining and transformation to networks. 
+With the end of the free Twitter API, network and text analysts are looking for new data sources. This is an opportunity to stimulate the ecosystem of apps that specialize in data import, text mining and transformation to networks.
 
 # End of the Twitter API: a problem, and an opportunity
 A large crowd of diverse actors relied on the Twitter API to collect data for text analysis, network analysis or both.
