@@ -100,8 +100,6 @@ The list below are functional blocks that I can relatively easily provide to you
 - from a gexf or graphML file to a url to visualize this file on the web
 
 # "How to start collaborating? I code in R / Python / JS and I don't know how to do X, Y or Z"
-And you? How could start this collaboration process?
-
 ## The first immense step is *psychological*
 I know from experience that it is very hard to share one's code or application.
 For the first 10 years of my coding career, I did not really open sourced my apps completely, because of an inner fear that I would be "copied" or robbed of the value that I had created.
