@@ -5,6 +5,7 @@ permalink: /story-gephi-user-contributor/
 published: true
 date_readable:               Sept 08, 2022
 last_modified_at_readable:   Sept 08, 2022
+categories: [gephi, personal]
 ---
 
 *Looking back at 12 years of involvement with this great software*

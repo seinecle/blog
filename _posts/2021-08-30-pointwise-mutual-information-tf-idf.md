@@ -5,6 +5,7 @@ permalink: /pmi-tf-idf/
 published: true
 date_readable:               August 30, 2021
 last_modified_at_readable:   August 30, 2021
+categories: [text mining, network analysis]
 ---
 
 

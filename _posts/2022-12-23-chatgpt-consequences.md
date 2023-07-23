@@ -5,6 +5,7 @@ permalink: /chatgpt-consequences/
 published: true
 date_readable:               Dec 23, 2022
 last_modified_at_readable:   Dec 23, 2022
+categories: [chatgpt]
 ---
 
 *Why is ChatGPT not another exceedingly good model in AI*

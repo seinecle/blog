@@ -5,6 +5,7 @@ permalink: /gephi-code-retreat-2022/
 published: true
 date_readable:               Aug 31, 2022
 last_modified_at_readable:   Aug 31, 2022
+categories: [gephi, plugins]
 ---
 
 *This is a quick update with pics on the Gephi Code Retreat 2022 taking place this week in Paris. I keep it short as I should be actively coding!!*

@@ -5,6 +5,7 @@ permalink: /chatgpt-consequences-fr/
 published: true
 date_readable:               Jan 12, 2023
 last_modified_at_readable:   Jan 12, 2023
+categories: [chatgpt,french]
 ---
 
 *Pourquoi ChatGPT n'est-il pas un autre modèle extrêmement bon en IA*

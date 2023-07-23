@@ -5,6 +5,7 @@ permalink: /giant-weakly-strongly-connected-components/
 published: true
 date_readable:               Dec 03, 2021
 last_modified_at_readable:   Dec 03, 2021
+categories: [network analysis]
 ---
 
 This post hopes to make a clear distinction between weak, strong and giant components, and I use the open-source code of [Gephi](https://gephi.org) to illustrate.

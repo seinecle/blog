@@ -5,6 +5,7 @@ permalink: /designing-precise-data-annotation-tasks/
 published: true
 date_readable:               Jan 30, 2022
 last_modified_at_readable:   Jan 30, 2022
+categories: [qualitative analysis]
 ---
 
 _or, why did I add annotation tasks to Nocode functions if there is so much already on offer?_

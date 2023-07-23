@@ -5,6 +5,7 @@ permalink: /call-growing-ecosystem-apps-text-network-analysis-new-data-sources/
 published: true
 date_readable:               Jul 23, 2023
 last_modified_at_readable:   Jul 23, 2023
+categories: [nocodefunctions, data, Twitter,community]
 ---
 With the end of the free Twitter API, network and text analysts are looking for new data sources. This is an opportunity to stimulate the ecosystem of apps that specialize in data import, text mining and transformation to networks.
 

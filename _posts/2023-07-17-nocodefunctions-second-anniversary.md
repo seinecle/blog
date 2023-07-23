@@ -5,6 +5,7 @@ permalink: /nocodefunctions-second-anniversary/
 published: true
 date_readable:               Jul 17, 2023
 last_modified_at_readable:   Jul 17, 2023
+categories: [anniversary,nocode functions]
 ---
 *[Nocode functions](https://nocodefunctions.com/) is a free, no-registration web app for click-and-point data analysis*
 

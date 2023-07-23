@@ -5,6 +5,7 @@ permalink: /voice-of-the-customer/
 published: true
 date_readable:               Jul 6, 2023
 last_modified_at_readable:   Jul 6, 2023
+categories: [sentiment analysis,text mining,function]
 ---
 
 A new function is now available: identify the voice of the customer

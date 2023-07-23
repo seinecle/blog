@@ -5,6 +5,7 @@ permalink: /gexf-vosviewer/
 published: true
 date_readable:               Sept 22, 2021
 last_modified_at_readable:   Sept 22, 2021
+categories: [network analysis, gephi, vosviewer]
 ---
 
 [Gephi](https://gephi.org) is a free software for network visualization, which is quite popular (more than 3 million downloads since it launched in 2010, and one million download in the last 2 years).

@@ -5,6 +5,7 @@ permalink: /contributing-to-gephi/
 published: true
 date_readable:               Jun 26, 2023
 last_modified_at_readable:   Jun 26, 2023
+categories: [gephi,community]
 ---
 
 How can we give back to Gephi so that it continues to thrive in the years to come?

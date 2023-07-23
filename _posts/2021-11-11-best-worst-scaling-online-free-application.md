@@ -5,6 +5,7 @@ permalink: /best-worst-scaling-bws-in-progress/
 published: true
 date_readable:               Nov 12, 2021
 last_modified_at_readable:   Dec 10, 2021
+categories: [qualitative analysis]
 ---
 
 __update:__ [Best-Worst Scaling is now available on Nocode!](https://nocodefunctions.com/labelling/role.html)

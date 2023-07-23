@@ -5,6 +5,7 @@ permalink: /pdf-matcher-tool-for-journalists/
 published: true
 date_readable:               Apr 09, 2022
 last_modified_at_readable:   Apr 09, 2022
+categories: [pdf mining, text mining, function]
 ---
 
 *A new function has been added to Nocodefunctions.com in response to a need by journalists*

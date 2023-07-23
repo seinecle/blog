@@ -5,6 +5,7 @@ permalink: /umigon-upgrade/
 published: true
 date_readable:               Sept 20, 2021
 last_modified_at_readable:   Sept 20, 2021
+categories: [text mining, sentiment analysis]
 ---
 
 [Umigon <i class="fas fa-external-link-alt fa-sm"></i>](https://nocodefunctions.com/umigon/sentiment_analysis_tool.html) is the name of the function performing __sentiment analysis__, which I initially developed in 2012.

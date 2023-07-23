@@ -5,6 +5,7 @@ permalink: /java-concurrency-with-http-client-asynch/
 published: true
 date_readable:               Feb 19, 2022
 last_modified_at_readable:   Feb 19, 2022
+categories: [java, development]
 ---
 
 _After years of dabbling with `threads`, `Callables` and `Executor Pools`, finally an easy way to setup concurrent tasks_

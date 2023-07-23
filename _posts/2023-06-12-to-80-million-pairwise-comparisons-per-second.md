@@ -5,6 +5,7 @@ permalink: /to-80-million-pairwise-comparisons-java/
 published: true
 date_readable:               Jun 12, 2023
 last_modified_at_readable:   Jun 12, 2023
+categories: [java,development,optimization]
 ---
 
 *How the advice of a user on Reddit helped increase speed by almost x 30*

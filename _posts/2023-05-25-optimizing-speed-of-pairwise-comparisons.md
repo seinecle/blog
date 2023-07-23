@@ -5,6 +5,7 @@ permalink: /optimizing-pairwise-comparisons-java/
 published: true
 date_readable:               May 25, 2023
 last_modified_at_readable:   May 25, 2023
+categories: [java,development,optimization]
 ---
 
 *Notes on coding strategies to speed up pairwise comparisons for 200,000 journals*

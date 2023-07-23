@@ -5,6 +5,7 @@ permalink: /enhanced-pdf-search/
 published: true
 date_readable:               Jul 4, 2023
 last_modified_at_readable:   Jul 4, 2023
+categories: [pdf mining,text mining,function]
 ---
 
 This is a short note documenting the improvements brought today to the pdf search function. 
