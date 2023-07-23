@@ -41,7 +41,7 @@ Not saying that Twitter data will not become available once more, one day, but w
 # New data importers, new analytics, new user interfaces: a call to talk and exchange
 In informal discussions and reading posts from specialists on Twitter, I see that:
 
-- there is an interest in new data importers, either for one's own use or as a service to offer
+- there is strong interest in new data importers, either for one's consumption or as a service to offer
 - accordinly, tech-savy individuals, organizations and app developers are building new data importers
 - the same actors are developing transformers for this data: text and network analysis methods (otherwise offering raw data is not of great value)
 - this also triggers a re-thinking of exisiting user interfaces, and the development of new ones
@@ -70,13 +70,13 @@ Let's consider the steps for a service consisting in, say, creating a word cloud
 5. Constructing the word cloud
 6. Formatting the results: a picture of the cloud, a table view of the underlying words, a gexf network format for the underlying network of relations?
 7. An interface to export the results: showing the picture on screen, downloading the picture in different formats (svg, png?), exporting to Excel and Google Sheets, visualize the word cloud in an interactive way with Gephi Lite, VOSviewer online or a custom D3 view, export a gexf or GraphML to be opened by Gephi or NodeXL?
-8. Maintaining steps 1 to 7 through time.
+8. Maintaining steps 1 to 7 through time 😅.
 
 I believe that relatively big for-profit organizations have a motive and the resources to handle these 8 steps all by themselves (even then, they rely and contribute to open source solutions for parts of the process!)
 
 For smaller organizations (for profit or not) and individuals, there is a strong case to join forces when and if possible, to help each other on one or several steps of the process above.
 
-# I go first: what I am happy to help with
+# I go first: what I am happy to help with 🤗
 
 The list below are functional blocks that I can relatively easily provide to you, in a format that suits your needs.
 
@@ -85,11 +85,12 @@ The list below are functional blocks that I can relatively easily provide to you
 - methods to [extract words](https://github.com/seinecle/umigon-tokenizer) and [n-grams](https://github.com/seinecle/umigon-ngram-ops) from a given text
 - methods to convert [co-occurring words into a network of words](https://github.com/seinecle/cowo-function)
 - methods to infer the [sentiment from a text](https://github.com/seinecle/umigon-family/tree/main/umigon-core)
+- methods to [detect key topics in text](https://github.com/seinecle/topics-detection-function)
 
 ## Interfaces
 
 -  you are free to add your method to [https://nocodefunctions.com](https://nocodefunctions.com)
--  interface between your app and nocodefunctions.com
+-  we can work at interfacing your app and nocodefunctions.com
 
 *(this one seems like: "ah ah I see your ulterior motive for all this, you want to grow your web app!" I would be happy to, that is true. I also know that many developers don't have the time to maintain their own web app, so I offer this for them).*
 
@@ -101,10 +102,10 @@ The list below are functional blocks that I can relatively easily provide to you
 # "How to start collaborating? I code in R / Python / JS and I don't know how to do X, Y or Z"
 And you? How could start this collaboration process?
 
-## The first immense step is *psychological*.
+## The first immense step is *psychological*
 I know from experience that it is very hard to share one's code or application.
 For the first 10 years of my coding career, I did not really open sourced my apps completely, because of an inner fear that I would be "copied" or robbed of the value that I had created.
-I thought that maybe, someday, I could monetize what I produced, so it would be silly to publish it and get anyone to use it before me.
+I thought that maybe, someday, I could monetize what I produced, so it would be silly to publish the result of my hard work and get anyone to use it before me.
 It took ten years but I am past that.
 I still believe that there is a tiny chance that one day I'll be able to earn something from what I create, but in the meantime this should not keep what I do hidden and unproductive.
 
