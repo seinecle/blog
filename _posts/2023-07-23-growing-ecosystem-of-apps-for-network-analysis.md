@@ -15,13 +15,15 @@ Just taking academics, you find a rapidly growing number of publications mention
 
 |  year | count of publications mentioning the Twitter API  |
 | --- | --- |
+| 2017  | 2,200
 | 2018  | 2,480
 | 2019  | 2,620
 | 2020  | 3,100
 | 2021  | 3,890
 
-This is over with the new plans for API access [set at prohibitive prices](https://developer.twitter.com/en/products/twitter-api).
-There is a now a big void, and voids get filled.
+(source: [Google Scholar](https://scholar.google.com/scholar?q=%22twitter+API%22&hl=fr&as_sdt=0%2C5&inst=3539827323569926917&as_ylo=2017&as_yhi=2017))
+
+With the new plans for API access [set at prohibitive prices](https://developer.twitter.com/en/products/twitter-api), this stream of publications will run dry.
 
 ## What's next?
 Passed a moment of shock and disbelief, academics and others (OSINT, journalists, marketers, developers, etc.) start turning to other data sources.
