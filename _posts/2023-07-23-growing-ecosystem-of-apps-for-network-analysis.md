@@ -13,12 +13,11 @@ A large crowd of diverse actors relied on the Twitter API to collect data for te
 Just taking academics, you find a rapidly growing number of publications mentioning the "Twitter API" in recent years:
 
 |  year | count of publications mentioning the Twitter API  |
-
-|---|---|
-| 2018  | 2,480  |
-| 2019  | 2,620  |
-| 2020  |3,100   |
-| 2021  | 3,890  |
+| --- | --- |
+| 2018  | 2,480
+| 2019  | 2,620
+| 2020  | 3,100
+| 2021  | 3,890
 
 This is over with the new plans for API access [set at prohibitive prices](https://developer.twitter.com/en/products/twitter-api).
 
