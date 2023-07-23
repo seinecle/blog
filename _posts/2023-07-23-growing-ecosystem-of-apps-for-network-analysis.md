@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Growing an ecosystem of apps form network analysis
-permalink: /growing-ecosystem-apps-network-analysis/
+title: A call to grow an ecosystem of apps form network analysis
+permalink: /call-growing-ecosystem-apps-network-analysis/
 published: false
 date_readable:               Jul 23, 2023
 last_modified_at_readable:   Jul 23, 2023
@@ -17,6 +17,24 @@ A large crowd of diverse actors relied on the Twitter API to collect data for te
 | 2019  | 2,620  |
 | 2020  |3,100   |
 | 2021  | 3,890  |
+
+This is over with the new plans for API access [set at prohibitive prices](https://developer.twitter.com/en/products/twitter-api).
+
+What's next? Academics but others as well (OSINT, journalists, marketers, developers, etc.) turn to other data sources. Here are the data sources that I consider, and that I heard others considering:
+
+- [Open Street Map](https://www.openstreetmap.org/#map=5/46.449/2.210) ([API](https://wiki.openstreetmap.org/wiki/API))
+- Wikipedia / [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) ([API](https://www.wikidata.org/wiki/Wikidata:Data_access/en))
+- Spotify ([API](https://developer.spotify.com/documentation/web-api))
+- Reddit (well... [not anymore](https://en.wikipedia.org/wiki/2023_Reddit_API_controversy))
+- Mastodon ([API](https://docs.joinmastodon.org/api/))
+- [OpenAlex](https://openalex.org/) (this one is quite specialized but really worth a look: gigantic, free access to global scientometric data).
+
+The obvious reaction is: none of these are an equivalent to Twitter. It will take a mourning period but yes, we'll have to move on. Not saying that Twitter data will not become available once more, one day, but waiting for this to happen, human curiosity must find other objects to apply to.
+
+> **We are going to see, in the next months and over 2024, an intense activity of developing importers and user interfaces for these alternative data sources mentioned above.**
+
+
+# Mining alternative data sources: a new moment for importers and user interfaces to shine!
 
 
 # About me
