@@ -127,7 +127,9 @@ These interfaces can be of different sorts:
 - creating a command line interface for the same result
 - harmonizing data formats to facilitate exchanges
 
-I am happy to work on these interfaces with you.
+I am happy to work on these interfaces with you, let's connect!
+
+![a hand shake](/assets/image/handshake.jpg)
 
 Let's get in touch, either privately ([analysis@exploreyourdata.com](mailto:analysis@exploreyourdata.com)) or let's discuss pubblicly on [Twitter](https://twitter.com/seinecle) or [Mastodon](https://ioc.exchange/@seinecle).
 
