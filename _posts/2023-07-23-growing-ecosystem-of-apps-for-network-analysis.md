@@ -21,9 +21,10 @@ Just taking academics, you find a rapidly growing number of publications mention
 | 2021  | 3,890
 
 This is over with the new plans for API access [set at prohibitive prices](https://developer.twitter.com/en/products/twitter-api).
+There is a now a big void, and voids get filled.
 
 ## What's next?
-Academics but others as well (OSINT, journalists, marketers, developers, etc.) turn to other data sources.
+Passed a moment of shock and disbelief, academics and others (OSINT, journalists, marketers, developers, etc.) start turning to other data sources.
 Here are the data sources that I personally consider, or that I heard others considering:
 
 - [Open Street Map](https://www.openstreetmap.org/#map=5/46.449/2.210) ([API](https://wiki.openstreetmap.org/wiki/API))
@@ -47,8 +48,11 @@ In informal discussions and reading posts from specialists on Twitter, I see tha
 - the same actors are developing transformers for this data: text and network analysis methods (otherwise offering raw data is not of great value)
 - this also triggers a re-thinking of exisiting user interfaces, and the development of new ones
 
+This means that we are at the start of an intense period of thinking, tool building and new services that are going to be created.
+This is a great occasion to address the makers of these solutions-to-come, and my question to them is:
+
 **Why would we need to do this in isolation?**
-After giving it some thoughts, I think that there are two big reasons not to engage in collaborations, and one of them is a false one.
+I think that there are two big reasons not to engage in collaborations, and one of them is a false one.
 
 **One reason not to engage in collaborations** is to keep one's product secret and non reproducible, to build a competitive advantage.
 A data importer with some clever data transformation added to it can deliver insights of great value, so let's not share it.
