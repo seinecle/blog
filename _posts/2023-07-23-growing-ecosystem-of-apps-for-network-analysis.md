@@ -71,19 +71,19 @@ Coordination and interfacing costs are real, but setting up a collaboration also
 Let's consider the steps for a service consisting in, say, creating a word cloud from the most common expressions used in a set of Wikipedia pages.
 *Constructing the word cloud is far from the only operation we need to build*.
 
-> Are you ready to design and implement each of these 7 operations, and especially the 8th one?
+> Are you ready to design and implement each of these 9 operations, and especially the 9th one?
 
 1. Creating a interface (web, mobile app or desktop?) where the user will express their query and choose their parameters
 2. Hosting this interface (server costs, maintenance of the app for multiple OS...)
-3. Finding the API client for Wikipedia and querying the data
+3. Choosing and familiarizing with an API client for Wikipedia, writing the code to fetch the any query
 4. Storing the data - issues of scale and OS specificity
-5. Parsing and cleaning the data (are you going multi-language?)
+5. Parsing and cleaning the data (are you supporting different languages?)
 6. Constructing the word cloud
 7. Formatting the results: a picture of the cloud, a table view of the underlying words and their counts, a [gexf](https://gexf.net/) network format for the underlying network of relations?
 8. An interface to export the results: showing the picture on screen, downloading the picture in different formats (svg, png?), exporting to Excel and Google Sheets, visualize the word cloud in an interactive way with [Gephi Lite](https://gephi.org/gephi-lite/), [VOSviewer online](https://app.vosviewer.com/) or a custom [D3](https://d3js.org/) view, export a gexf or [GraphML](https://fr.wikipedia.org/wiki/GraphML) to be opened by [Gephi](https://gephi.org/) or [NodeXL](https://www.smrfoundation.org/nodexl/)?
 9. Maintaining steps 1 to 7 through time 😅😱.
 
-I believe that relatively big for-profit organizations have a motive and the resources to handle these 8 steps all by themselves (even then, they rely and contribute to open source solutions for parts of the process!)
+I believe that relatively big for-profit organizations have a motive and the resources to handle these 9 steps all by themselves (even then, they rely and contribute to open source solutions for parts of the process!)
 
 For smaller organizations (for profit or not) and individuals, there is a strong case to join forces when and if possible, to help each other on one or several steps of the process above.
 
