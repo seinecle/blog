@@ -60,7 +60,7 @@ So don't expect to retrieve a network that will cover 100% of your publications.
 ## 2. you can use data from an Excel or .txt file.
 This is convenient if the data you handle is not formatted in a classic bibliometric format (bibtex, RIS, Zotero...).
 In the case of an Excel file, just upload it, select the column where your titles or DOIs are, and you are all set.
-For txt files that's even simpler: upload a txt file where there is a title or a DOI on each line (careful: for one analysis your file should contain titles or DOIS, not a mix of both.)
+For txt files that's even simpler: upload a txt file where there is a title or a DOI on each line (careful: for one analysis your file should contain titles or DOIs, not a mix of both.)
 
 ## 3. The output is an online visualization with the VOSviewer app and a gexf file for Gephi
 As usual for [nocodefunctions.com](https://nocodefunctions.com), the output can be directly visualized and explored online (thanks to [VOSviewer online](https://app.vosviewer.com/)), or downloaded as a gexf file for further analysis in [Gephi](https://gephi.org), [NodeXL](https://www.smrfoundation.org/nodexl/) and more.
