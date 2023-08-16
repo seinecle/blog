@@ -14,7 +14,7 @@ categories: [nocodefunctions,bibliometrics,scientometrics,network,excel]
 # A free, easy and transparent method to generate bibliometric networks from Excel or .txt data
 The general idea behind bibliometric networks is that you want to find relations and similarities (or lack of) among the authors, publications, and organizations active in science and research.
 
-The function presented here makes a focus on one of these networks:
+The function presented here makes a focus on one of these networks, called **"[bibliographic coupling](https://en.wikipedia.org/wiki/Bibliographic_coupling)"**:
 
 > **2 publications will be connected if they cite one or several references in common.**
 
