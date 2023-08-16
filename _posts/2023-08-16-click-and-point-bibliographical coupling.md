@@ -79,7 +79,7 @@ This step happens in [this part of the code](https://github.com/seinecle/OpenAle
 It is this relatively new, free data source for bibliometrics.
 As of August 2023 it is not perfect in terms of coverage or data quality but [they keep improving](https://blog.ourresearch.org/new-study-shows-openalex-is-a-good-alternative-to-scopus-for-demographic-research/) and that is what you should bet on for the future.
 
-## b. each pair of journals is compaired for the references they share
+## b. each pair of journals is compared for the references they share
 This part happens in [this part of the code](https://github.com/seinecle/Gaze).
 It was already written for [this other function (check option 2)](https://nocodefunctions.com/gaze/network_builder_tool.html), because similarity computations is actually a very common operation.
 
