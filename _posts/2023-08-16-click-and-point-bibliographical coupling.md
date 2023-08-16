@@ -42,7 +42,7 @@ My use case was that my bibliometric data is sitting in an Excel file, and it do
 It is a collage of several sources: extraction from Web of Science, my own refs stored in Zotero, and the references extracted from a publication formatted as a pdf.
 How to create a bibliograpic coupling network from the 200+ refs I had in my table? I figured that using the titles of the publications, or their DOIs, was the best route.
 
-### Publication titles: super andy  but not super accurate.
+### Publication titles: super handy  but not super accurate
 A slight difference in the way an apostroph is written in a title can prevent it from being recognized: ' is not ʼ !
 So don't expect to retrieve a network that will cover 100% of your publications. Titles remain a very convenient way to have a rough idea of the network that your dataset will create.
 
