@@ -35,7 +35,7 @@ Then, choose a type of bibliometric data which will be loaded either from an API
 
 
 # Comparison: what's new with this function?
-The function just published has two interesting features which can complement what VOSviewer already offers:
+The function just published has a few interesting features which can complement what VOSviewer already offers:
 
 ## 1. it accepts publication titles and DOIs as ways to identify the publications that you want to analyze.
 My use case was that my bibliometric data is sitting in an Excel file, and it does not follow one specific bibliometric format.
@@ -62,10 +62,10 @@ This is convenient if the data you handle is not formatted in a classic bibliome
 In the case of an Excel file, just upload it, select the column where your titles or DOIs are, and you are all set.
 For txt files that's even simpler: upload a txt file where there is a title or a DOI on each line (careful: for one analysis your file should contain titles or DOIS, not a mix of both.)
 
-## 3. The output is an online visualization with VOSviewer and a gexf file for Gephi
-As usual for [nocodefunctions.com](https://nocodefunctions.com), the output can be directly visualized and explored online, or downloaded as a gexf file for further analysis in [Gephi](https://gephi.org), [NodeXL](https://www.smrfoundation.org/nodexl/) and more.
+## 3. The output is an online visualization with the VOSviewer app and a gexf file for Gephi
+As usual for [nocodefunctions.com](https://nocodefunctions.com), the output can be directly visualized and explored online (thanks to [VOSviewer online](https://app.vosviewer.com/)), or downloaded as a gexf file for further analysis in [Gephi](https://gephi.org), [NodeXL](https://www.smrfoundation.org/nodexl/) and more.
 
-# 4. The data used for the computations can be shared
+## 4. The data used for the computations can be shared
 This current version of the function outputs the bibliographic coupling network.
 The underlying data for creating the network is simple and could be interesting to retrieve as well: this is the list of references of each publication, which has been used to assess the similarity between any 2 publications and hence create the network.
 This list of references is not shared with the user at the moment, but it could be done without too much work, as an Excel file that the user would download at the end of the analysis.
