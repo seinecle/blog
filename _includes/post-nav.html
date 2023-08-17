@@ -2,13 +2,13 @@
   <p>
     {% if page.previous.url %}
     <span class="post-nav-label">{{ 'Previous' }}</span><br>
-    <a href="{{page.previous.url}}">&#9194;&nbsp;{{page.previous.title}}</a>
+    <a href="{{site.baseurl}}{{page.previous.url}}">&#9194;&nbsp;{{page.previous.title}}</a>
     {% endif %}
   </p>
   <p>
     {% if page.next.url %}
     <span class="post-nav-label">{{ 'Next' }}</span><br>
-    <a href="{{page.next.url}}">{{page.next.title}}&nbsp;&#9193;</a>
+    <a href="{{site.baseurl}}{{page.next.url}}">{{page.next.title}}&nbsp;&#9193;</a>
     {% endif %}
   </p>
 </div>
