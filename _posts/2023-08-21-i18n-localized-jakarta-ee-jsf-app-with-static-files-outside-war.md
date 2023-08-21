@@ -29,7 +29,7 @@ In such a slim app, I realized the text files containing the translations make u
 It is a bit a waste of time to include them at each compile and deployment cycle, given that it is purely static content.
 What if I could put them on a separate folder, outside the app? The app would read the files at deployment time, and whenever the users would start a session.
 
-Turns out, it is a bit harder than I tought.
+Turns out, it is a bit harder than I thought.
 
 # Steps to make it work
 When the translations are **in** the app, the principle is pretty simple:
