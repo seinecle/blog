@@ -14,14 +14,14 @@ This is a somewhat technical post on how I proceeded, and the gains it brought.
 # Why externalizing the translations outside the app?
 Java makes it very easy to create a localized web app, see my previous blog post on [how I translated nocodefunctions in 107 languages quickly and at not cost](https://nocodefunctions.com/blog/translated-web-app-in-107-languages-i18n/).
 
-One of my key objectives for nocodefunctions is to make it painless to maintain and easy to extend with new features.
-This broad objective is served by a several tactical goals:
+One of my key objectives for nocodefunctions is to make it painless to maintain and easy to extend with new features: best insurance for the longevity of the project.
+This broad objective is served by several tactical goals:
 
 - reducing the number of dependencies
 - relying on well maintained, lean dependencies (aka: not Guava)
 - adding tests
 - decoupling strictly the view from the business logic ([the first attempt](https://nocodefunctions.com/blog/java-concurrency-with-http-client-asynch/) and now [the app is entirely decoupled](https://nocodefunctions.com/blog/nocodefunctions-second-anniversary/#cleaner-organization-))
-- relying as much as I can on static files rather than on a database. So far nocodefunctions doesn't rely on a db.
+- relying as much as I can on static files rather than on a database, because I find that it adds a substantial cost of maintenance. So far nocodefunctions doesn't rely on a db.
 
 Applying these principles, the frontend of the app is now a single, smallish 13Mb war file (all deps included!), which is a 10 x reduction in size compared to last year.
 
@@ -32,6 +32,8 @@ What if I could put them on a separate folder, outside the app? The app would re
 Turns out, it is a bit harder than I thought.
 
 # Steps to make it work
+
+## Translations in the app: painless
 When the translations are **in** the app, the principle is pretty simple:
 
 1. you get the language (the `Locale`) that the user wants, either as the default language of their browser or from a drop down menu.
@@ -53,7 +55,7 @@ and it will return the title of the home page in the language that the user had 
 
 JSF (the Java framework for front end dev) that I am using is placing two difficulties in the way:
 
-- using the `ResourceBundle` as above, you can not specifiy a path to resources placed outside the app
+- using the `ResourceBundle` as above, you can not specifiy a path to resources placed **outside** the app
 - you would usually use a `PropertyResourceBundle` for this, but JSF doesn't accept it.
 
 So... ? To solve the issue, my goto resource is Bauke Scholtz and Arjan Tijms's ["Definitive Guide to Jakarta Faces (the new name of JSF) in Jakarta EE 10"](https://doi.org/10.1007/978-1-4842-7310-4):
