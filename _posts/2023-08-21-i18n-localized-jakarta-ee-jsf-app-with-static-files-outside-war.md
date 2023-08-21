@@ -2,7 +2,7 @@
 layout: post
 title: Make your localized JSF app more slim by placing your localized Strings outside as static files
 permalink: /i18n-localized-jakarta-ee-jsf-app-with-static-files-outside-war/
-published: false
+published: true
 date_readable:               Aug 21, 2023
 last_modified_at_readable:   Aug 21, 2023
 categories: [nocodefunctions,java, jsf, internatioanlization]
