@@ -46,7 +46,7 @@ Let's start with the tooling.
 [Jakarta Faces](https://start.jakarta.ee/) is the rebranding of Java Server Faces after Oracle offloaded it to the Eclipse foundation.
 I suppose 90% of the readers will stop there because it isn't JS or JSF will remind them of JSP and smell like the early 2000s. You'd be wrong.
 
-Basically Jakarta Faces is alive and kicking. Server-side rendering has come back in favor lately, and this is where Java thrives.
+Basically [Jakarta Faces is alive and kicking](https://nocodefunctions.com/blog/java-frontend-web-app/). [Server-side rendering has come back in favor lately](https://nocodefunctions.com/blog/java-frontend-web-app/#but-java-is-slow-and-heavy), and this is where Java thrives.
 It is handy for everyday web development, but especially when you start a project of internationalization, as I realized.
 
 The language is one thing, but then internationalizing a web app is also a lot about refactoring: replacing every bit of String with a placeholder property key, that will be replaced by a value in the selected language at run time.
