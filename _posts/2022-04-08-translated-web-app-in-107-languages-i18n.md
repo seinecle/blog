@@ -90,7 +90,7 @@ A lesson I draw from it is that:
 So in the end, the window of opportunity is pretty narrow, and nobody does it. Have you visited a non-GAFAM website localized in 10 languages, let alone 107, lately?
 
 The sweet spot is to do it when the technology is pretty stabilized, and when the size of the web app means that it can still be handled in a couple of months max.
-__A benefit is that the effort is done just once, after the initial push all text added to the app will follow the key-value pattern and the internationalization can continue incrementally at low effort and budget. __
+_A benefit is that the effort is done just once, after the initial push all text added to the app will follow the key-value pattern and the internationalization can continue incrementally at low effort and budget._
 
 ## The Translation APIs
 DeepL is all the rage at the moment so that's the first API I checked. Also because I still have nightmares from the doc for the Google APIs for Java.
