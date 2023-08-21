@@ -20,7 +20,7 @@ This broad objective is served by a several tactical goals:
 - reducing the number of dependencies
 - relying on well maintained, lean dependencies (aka: not Guava)
 - adding tests
-- decoupling strictly the view from the business logic ([the first attempt](https://nocodefunctions.com/blog/java-concurrency-with-http-client-asynch/) and now [the app is enitrely decoupled](https://nocodefunctions.com/blog/nocodefunctions-second-anniversary/#cleaner-organization-))
+- decoupling strictly the view from the business logic ([the first attempt](https://nocodefunctions.com/blog/java-concurrency-with-http-client-asynch/) and now [the app is entirely decoupled](https://nocodefunctions.com/blog/nocodefunctions-second-anniversary/#cleaner-organization-))
 - relying as much as I can on static files rather than on a database. So far nocodefunctions doesn't rely on a db.
 
 Applying these principles, the frontend of the app is now a single, smallish 13Mb war file (all deps included!), which is a 10 x reduction in size compared to last year.
