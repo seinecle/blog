@@ -40,7 +40,7 @@ When the translations are **in** the app, the principle is pretty simple:
 2. you retrieve the text corresponding to this langage, using this idiom:
 
 ```java
-ResourceBundle textsInOneLanguage = ResourceBundle.getBundle(<path to the folder containing all translation files in your app >, <language chosen by the user >);
+ResourceBundle textsInOneLanguage = ResourceBundle.getBundle(<path to the package containing all translation files in your app >, <language chosen by the user >);
 ```
 
 That's it, then you can just do:
@@ -167,7 +167,7 @@ First, I now know better how to load static property files from outside a Java w
 - I can now fix translations without taking the app down. Just editing the txt files, they will be taken into account next time a visitor browses the app. Great! 🌈
 
 # Next steps
-I couldn't find a documentation on this quite mainstream use case. Writing this blog post, I hope it will server future users. 
+I couldn't find a documentation on this quite mainstream use case. Writing this blog post, I hope it will serve future users. 
 
 # About me
 I am a [professor at emlyon business school](https://www.linkedin.com/in/levallois/) where I conduct research in Natural Language Processing and network analysis applied to social sciences and the humanities. I teach about the impact of digital technologies on business and society. I  build [nocode functions](https://nocodefunctions.com) 🔎, a click and point web app to explore texts and networks. It is [fully open source](https://github.com/seinecle/nocodefunctions). Try it and give some feedback, I would appreciate it!
