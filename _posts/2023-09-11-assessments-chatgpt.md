@@ -38,11 +38,11 @@ So, the setup:
 3. the assignment is formatted as a Powerpoint and avoids the format of a Q&A.
 4. I grade only 2 of the 4 in-class assignments - but students don't know in advance which 2 of the 4 will be graded
 5. ChatGPT and access to Internet are not forbidden during the assignment.
-6. Added a codicil to the evaluation grid: generic answers can be discounted at the liberty of the grader.
+6. added a codicil to the evaluation grid: generic answers can be discounted at the liberty of the grader.
 
  # Going into the details of the setup
 
- I'll go through each of the 5 points above as they all matter very much. Skip to the one that interests you most if you prefer!
+ I'll go through each of the 5 points above as they all matter very much. Skip to file of an example of an assessment at the bottom if you prefer!
 
  ## 1. One in-class assignment per teaching session
 I owe this idea to my colleague Lisa Buchter, which I witnessed in a class of hers I was shadowing.
