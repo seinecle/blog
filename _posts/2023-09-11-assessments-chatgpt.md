@@ -42,7 +42,7 @@ So, the setup:
 
  # Going into the details of the setup
 
- I'll go through each of the 5 points above as they all matter very much. Skip to file of an example of an assessment at the bottom if you prefer!
+ I'll go through each of the 5 points above as they all matter very much. Skip and download the file of an example of an assessment at the bottom if you prefer!
 
  ## 1. One in-class assignment per teaching session
 I owe this idea to my colleague Lisa Buchter, which I witnessed in a class of hers I was shadowing.
