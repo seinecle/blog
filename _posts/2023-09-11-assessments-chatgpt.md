@@ -67,7 +67,7 @@ The questions are scenarios which give some contextual elements, scattered on di
 In the same spirit of discouraging a mechanical process of prompt > answer, the document format is not an MS Word but a Powerpoint with tables and unusual diagrammatic designs, because this spatial configuration does not lend itself to a direct solving through ChatGPT.
 The goal is not to prevent the use of ChatGPT, but to encourage students to have a strategic use of it - and opening up the possiblity that a non ChatGPT aided answer might be simpler and make more sense.
 
-## 4. Grading 2 out of 4 assignnents
+## 4. Grading 2 out of 4 assignments
 This one is very operational: sophisticated ways to improve the type of evaluations in the age of ChatGPT often falter because of the load of grading they induce.
 I almost forgot about that and was preparing a hell of a term for myself in terms of grading, just imagine: grading 40 documents **after each class**. Luckily, an adjunct professor working with me pointed that it was just out of scale, and that prompted a rethink.
 
