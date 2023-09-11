@@ -77,7 +77,7 @@ This is a new process so we'll see how it goes but I am pretty happy and confide
 
 ## 5. ChatGPT and access to Internet not forbidden during the assessment
 Given everything that precedes, it seems that the conditions are met for a reasonable, productive use of ChatGPT and any other resource the student might want to search for.
-The scenario based assessment prevents that a "ready made, mindless" answer can be searched, found or generated, copied and pasted in the assignment. The unusual, slightly cumnbersome ppt format discourages the linear Q&A flow that would immediately call for ChatGPT. Some participants will surely try to reconstruct a prompt from the instructions to feed ChatGPT with, but in this case I believe that it falls in the category of "creative, mindful use of ChatGPT", where a cognitive effort and learning experience has effectively taken place.
+The scenario based assessment prevents that a "ready made, mindless" answer can be searched, found or generated, copied and pasted in the assignment. The unusual, slightly cumbersome ppt format discourages the linear Q&A flow that would immediately call for ChatGPT. Some participants will surely try to reconstruct a prompt from the instructions to feed ChatGPT with, but in this case I believe that it falls in the category of "creative, mindful use of ChatGPT", where a cognitive effort and learning experience has effectively taken place.
 Experience will tell.
 
 ## 6. A last insurance: a codicil in the evaluation grid
