@@ -17,6 +17,8 @@ These are fascinating opportunities.
 
 ![chatgpt_in_the_classroom_small](https://github.com/seinecle/blog/assets/1244100/f6f5dfd8-b1ae-4505-9041-e3e828054fc0)
 
+source: https://www.nea.org/nea-today/all-news-articles/chatgpt-enters-classroom-teachers-weigh-pros-and-cons
+
 But at the same time, ChatGPT can become a substitute for learning, which I would list as a threat.
 I have witnessed it first hand when students submitted ChatGPT-generated answers to my assignments in Spring classes. Many (luckily, not all) answers demonstrated that skills of copy-pasting were indeed well acquired, but I doubted that the assessment proved anything in terms of the acquisition of the skills listed on the syllabus. 
 With this experience, I hope to do better this term.
