@@ -42,9 +42,9 @@ So, the setup:
 5. ChatGPT and access to Internet are not forbidden during the assignment.
 6. added a codicil to the evaluation grid: generic answers can be discounted at the liberty of the grader.
 
- # Going into the details of the setup
+# Going into the details of the setup
 
- I'll go through each of the 5 points above as they all matter very much. Skip and download the file of an example of an assessment at the bottom if you prefer!
+I'll go through each of the 5 points above as they all matter very much. Skip and download the file of an example of an assessment at the bottom if you prefer!
 
 ## 1. One in-class assignment per teaching session
 I owe this idea to my colleague Lisa Buchter, which she uses in her class.
@@ -87,7 +87,9 @@ All the above makes me hopeful that the assessments will lead to thoughtful answ
 
 This will be discussed in frankness with the students at the opening of the course. When content creation becomes so cheap and generic, there is an urgency or at least a benefit to develop one's singular personality and reasoning capabilities. This is true from a pragmatic perspective (to find a job one would better be distinguishable from the dozens of other applicants), and from a humanistic perspective (is a life truly lived if we are replicants of each others?).
 
-# Example: The file of an in-class assignment for the class on "definitions of data and how does it create business value"
+# Example: The file of an in-class assignment
+
+... for the class on "definitions of data and how does it create business value".
 
 Available for download here:
 [class activity 1 - identify data sources to support business decisions.pdf](https://github.com/seinecle/blog/files/12578264/class.activity.1.-.identify.data.sources.to.support.business.decisions.pdf)
