@@ -7,16 +7,18 @@ date_readable:               Sept 11, 2023
 last_modified_at_readable:   Sept 11, 2023
 categories: [teaching,chatgpt]
 ---
-A new academic year is starting, the first one since Chatgpt has been released. Time to deliver on the intention to meet the challenge by revising and improving our teaching and evaluation!
+A new academic year is starting, the first one since Chatgpt has been released. I share the file of an assignment I will use this term and that should meet a number of constraints that ChatGPT has brought to the teaching scene.
 
 # ChatGPT: opportunities and threats
-I personally consider that ChatGPT (short for generative AI in general) is indeed a fundamental, important innovation which will bring radical changes in the short term (see my blog post from Dec 2022, also in French here).
+I personally consider that ChatGPT (short for generative AI in general) is indeed a fundamental, important innovation which will bring radical changes in the short term (see [my blog post from Dec 2022](https://nocodefunctions.com/blog/chatgpt-consequences/), also [in French here](https://nocodefunctions.com/blog/chatgpt-consequences-fr/)).
 
-ChatGPT makes it easier to find answers on the web, draft content, explore a problem, to list usage I experimented.
+ChatGPT makes it easier to find answers on the web, draft content, explore a problem.
 These are fascinating opportunities.
 
+![chatgpt_in_the_classroom_small](https://github.com/seinecle/blog/assets/1244100/f6f5dfd8-b1ae-4505-9041-e3e828054fc0)
+
 But at the same time, ChatGPT can become a substitute for learning, which I would list as a threat.
-I have witnessed it first hand when students submitted ChatGPT-generated answers to my assignments in Spring classes.
+I have witnessed it first hand when students submitted ChatGPT-generated answers to my assignments in Spring classes. Many (luckily, not all) answers demonstrated that skills of copy-pasting were indeed well acquired, but I doubted that the assessment proved anything in terms of the acquisition of the skills listed on the syllabus. 
 With this experience, I hope to do better this term.
 
 # Assessment not banning ChatGPT but avoiding mindless copy pasting: challenge accepted
@@ -33,16 +35,16 @@ So, the setup:
 
 1. one in-class assessment per teaching session. One assignment lasts 30 minutes, at the end of a 3 hours session.
 2. the in-class assignments are simplistic scenarios that leverage and put to work the concepts seen just before in class
-3. the assignment is formatted as a powerpoint and avoids the format of a Q&A.
+3. the assignment is formatted as a Powerpoint and avoids the format of a Q&A.
 4. I grade only 2 of the 4 in-class assignments - but students don't know in advance which 2 of the 4 will be graded
-5. ChatGPT and access to Internet is not forbidden during the assignment.
+5. ChatGPT and access to Internet are not forbidden during the assignment.
 6. Added a codicil to the evaluation grid: generic answers can be discounted at the liberty of the grader.
 
  # Going into the details of the setup
 
- I'll go through each of the 5 points above as they all matter very much:
+ I'll go through each of the 5 points above as they all matter very much. Skip to the one that interests you most if you prefer!
 
- ## One in-class assignment per teaching session
+ ## 1. One in-class assignment per teaching session
 I owe this idea to my colleague Lisa Buchter, which I witnessed in a class of hers I was shadowing.
 In 3 hours teaching sessions, the last 30 minutes are usually a struggle for everyone.
 Turning it into an assignment brings back concentration and focus in an astonishing way.
@@ -54,16 +56,16 @@ In the context of a ChatGPT world, staying in-class helps the professor monitor 
 Just walking through the aisles, you see which student is basically working with ChatGPT open in front, and those who try to answer the assignment directly.
 It gives some empirical feedback on the practices.
 
-## Assignment directly addressing the content just seen in class
-Having an assignment dealing directly with was discussed in the hour right before, tends to give more confidence to the students in their capacity to answer correctly to the questions: it is still fresh in memory.
+## 2. Assignment directly addressing the content just seen in class
+Having an assignment dealing directly with what was discussed in the 2 hours right before, tends to give more confidence to the students in their capacity to answer correctly to the questions: it is still fresh in memory.
 This gives a better chance for the students to try and reason by themselves (they have it in mind!) instead of offloading the task to ChatGPT in a mindless way.
 
-## Powerpoint to the rescue (who would have guessed...)
+## 3. Powerpoint to the rescue (who would have guessed...)
 The questions are scenarios which give some contextual elements, scattered on different pages, which obliges students to provide contextualized answers, not direct follow-ups to a generic prompt.
 In the same spirit of discouraging a mechanical process of prompt > answer, the document format is not an MS Word but a Powerpoint with tables and unusual diagrammatic designs, because this spatial configuration does not lend itself to a direct solving through ChatGPT.
 The goal is not to prevent the use of ChatGPT, but to encourage students to have a strategic use of it - and opening up the possiblity that a non ChatGPT aided answer might be simpler and make more sense.
 
-## Grading 2 out of 4 assignnents
+## 4. Grading 2 out of 4 assignnents
 This one is very operational: sophisticated ways to improve the type of evaluations in the age of ChatGPT often falter because of the load of grading they induce.
 I almost forgot about that and was preparing a hell of a term for myself in terms of grading, just imagine: grading 40 documents **after each class**. Luckily, an adjunct professor working with me pointed that it was just out of scale, and that prompted a rethink.
 
@@ -71,19 +73,19 @@ The solution is pretty elegant I find: the students will be graded on 2 assignme
 The obvious effect we want is that they maintain their level of effort, even when the assignment is not graded.
 This is a new process so we'll see how it goes but I am pretty happy and confident with it.
 
-## ChatGPT and access to Internet not forbidden during the assessment
+## 5. ChatGPT and access to Internet not forbidden during the assessment
 Given everything that precedes, it seems that the conditions are met for a resonable, productive use of ChatGPT and any other resource the student might want to search for.
 The scenario based assessment prevents that a "ready made, mindless" answer can be searched, found or generated, copied and pasted in the assignment. The unsual, slightly cumnbersome ppt format discourages the linear Q&A flow that would immediately call for ChatGPT. Some participants will surely try to reconstruct a prompt from the instructions to feed ChatGPT with, but in this case I believe that it falls in the category of "creative, mindful use of ChatGPT", where a cognitive effort and learning experience has effectively taken place.
 Experience will tell.
 
-## A last insurance: a codicil in the evaluation grid
+## 6. A last insurance: a codicil in the evaluation grid
 All the above makes me hopeful that the assessments will lead to thoughtful answers by the students, aided by ChatGPT or not. But in case I was very wrong and I end up with most exam papers filled with answers that I immediately recognize as pale, mindless, unoriginal content produced at the mill with ChatGPT, failing to demonstrate any reasoning or knowledge acquisition? (which is, to recall, the nightmare scenario that prompted this whole assessment redesign!). Well, I have inserted this paragraph in the evaluation grid:
 
 > Responses which feel generic and impersonal will be downgraded at the liberty of the grader, because the expectation is that participants should be able to provide a personalized, thought-through response to the case.
 
 This will be discussed in frankness with the students at the opening of the course. When content creation becomes so cheap and generic, there is an urgency or at least a benefit to develop one's singular personality and reasoning capabilities. This is true from a pragmatic perspective (to find a job one would better be distinguishable from the dozens of other applicants), and from a humanistic perspective (is a life truly lived if we are replicants of each others?).
 
-## Example: The in-class assignment for the class on "definitions of data and how does it create business value"
+# Example: The file of an in-class assignment for the class on "definitions of data and how does it create business value"
 
 Available for download here:
 [class activity 1 - identify data sources to support business decisions.pptx](https://github.com/seinecle/blog/files/12577922/class.activity.1.-.identify.data.sources.to.support.business.decisions.pptx)
