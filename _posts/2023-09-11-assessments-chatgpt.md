@@ -74,12 +74,12 @@ The obvious effect we want is that they maintain their level of effort, even whe
 This is a new process so we'll see how it goes but I am pretty happy and confident with it.
 
 ## 5. ChatGPT and access to Internet not forbidden during the assessment
-Given everything that precedes, it seems that the conditions are met for a resonable, productive use of ChatGPT and any other resource the student might want to search for.
+Given everything that precedes, it seems that the conditions are met for a reasonable, productive use of ChatGPT and any other resource the student might want to search for.
 The scenario based assessment prevents that a "ready made, mindless" answer can be searched, found or generated, copied and pasted in the assignment. The unsual, slightly cumnbersome ppt format discourages the linear Q&A flow that would immediately call for ChatGPT. Some participants will surely try to reconstruct a prompt from the instructions to feed ChatGPT with, but in this case I believe that it falls in the category of "creative, mindful use of ChatGPT", where a cognitive effort and learning experience has effectively taken place.
 Experience will tell.
 
 ## 6. A last insurance: a codicil in the evaluation grid
-All the above makes me hopeful that the assessments will lead to thoughtful answers by the students, aided by ChatGPT or not. But in case I was very wrong and I end up with most exam papers filled with answers that I immediately recognize as pale, mindless, unoriginal content produced at the mill with ChatGPT, failing to demonstrate any reasoning or knowledge acquisition? (which is, to recall, the nightmare scenario that prompted this whole assessment redesign!). Well, I have inserted this paragraph in the evaluation grid:
+All the above makes me hopeful that the assessments will lead to thoughtful answers by the students, aided by ChatGPT or not. But in case I was very wrong and I end up with most exam papers filled with answers that I immediately recognize as pale, unoriginal content produced at the chain with ChatGPT, failing to demonstrate any reasoning or knowledge acquisition? (which is, to recall, the nightmare scenario that prompted this whole assessment redesign!). Well, I have inserted this paragraph in the evaluation grid:
 
 > Responses which feel generic and impersonal will be downgraded at the liberty of the grader, because the expectation is that participants should be able to provide a personalized, thought-through response to the case.
 
