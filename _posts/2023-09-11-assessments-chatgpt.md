@@ -45,14 +45,14 @@ So, the setup:
  I'll go through each of the 5 points above as they all matter very much. Skip and download the file of an example of an assessment at the bottom if you prefer!
 
  ## 1. One in-class assignment per teaching session
-I owe this idea to my colleague Lisa Buchter, which I witnessed in a class of hers I was shadowing.
+I owe this idea to my colleague Lisa Buchter, which she uses in her class.
 In 3 hours teaching sessions, the last 30 minutes are usually a struggle for everyone.
-Turning it into an assignment brings back concentration and focus in an astonishing way.
+Turning these last minutes into an assignment brings back concentration and focus in an astonishing way.
 Students basically don't want to leave the classroom when the bell rings!
 Too busy finishing their assignments :-)
 And the fact that each teaching session has one assignment allows for shorter assignments, taylored exactly to the class.
 
-In the context of a ChatGPT world, staying in-class helps the professor monitor how students use it.
+In the context of a ChatGPT world, staying in-class also helps the professor monitor how students use it.
 Just walking through the aisles, you see which student is basically working with ChatGPT open in front, and those who try to answer the assignment directly.
 It gives some empirical feedback on the practices.
 
