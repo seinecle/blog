@@ -2,7 +2,7 @@
 layout: post
 title: A strategy for assessments in the age of ChatGPT
 permalink: /assessment-chatgpt/
-published: false
+published: true
 date_readable:               Sept 11, 2023
 last_modified_at_readable:   Sept 11, 2023
 categories: [teaching,chatgpt]
