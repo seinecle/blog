@@ -90,7 +90,7 @@ This will be discussed in frankness with the students at the opening of the cour
 # Example: The file of an in-class assignment for the class on "definitions of data and how does it create business value"
 
 Available for download here:
-[class activity 1 - identify data sources to support business decisions.pptx](https://github.com/seinecle/blog/files/12577922/class.activity.1.-.identify.data.sources.to.support.business.decisions.pptx)
+[class activity 1 - identify data sources to support business decisions.pdf](https://github.com/seinecle/blog/files/12578264/class.activity.1.-.identify.data.sources.to.support.business.decisions.pdf)
 
 For context:
 - the course is on data literacy and is meant to introduce engineering students to business studies, and business students to data and digital technologies.
