@@ -46,7 +46,7 @@ So, the setup:
 
  I'll go through each of the 5 points above as they all matter very much. Skip and download the file of an example of an assessment at the bottom if you prefer!
 
- ## 1. One in-class assignment per teaching session
+## 1. One in-class assignment per teaching session
 I owe this idea to my colleague Lisa Buchter, which she uses in her class.
 In 3 hours teaching sessions, the last 30 minutes are usually a struggle for everyone.
 Turning these last minutes into an assignment brings back concentration and focus in an astonishing way.
