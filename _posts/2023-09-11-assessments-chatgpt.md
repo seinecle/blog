@@ -7,7 +7,7 @@ date_readable:               Sept 11, 2023
 last_modified_at_readable:   Sept 11, 2023
 categories: [teaching,chatgpt]
 ---
-A new academic year is starting, the first one since Chatgpt has been released. I share the file of an assignment I will use this term and that should meet a number of constraints that ChatGPT has brought to the teaching scene.
+A new academic year is starting, the first one since ChatGPT has been released. I share the file of an assignment I will use this term and that should meet a number of constraints that ChatGPT has brought to the teaching scene.
 
 # ChatGPT: opportunities and threats
 I personally consider that ChatGPT (short for generative AI in general) is indeed a fundamental, important innovation which will bring radical changes in the short term (see [my blog post from Dec 2022](https://nocodefunctions.com/blog/chatgpt-consequences/), also [in French here](https://nocodefunctions.com/blog/chatgpt-consequences-fr/)).
@@ -17,9 +17,9 @@ These are fascinating opportunities.
 
 ![chatgpt_in_the_classroom_small](https://github.com/seinecle/blog/assets/1244100/f6f5dfd8-b1ae-4505-9041-e3e828054fc0)
 
-source: https://www.nea.org/nea-today/all-news-articles/chatgpt-enters-classroom-teachers-weigh-pros-and-cons
+source: https://www.nea.org/nea-today/all-news-articles/-enters-classroom-teachers-weigh-pros-and-cons
 
-But at the same time, ChatGPT can become a substitute for learning, which I would list as a threat.
+But at the same time,  can become a substitute for learning, which I would list as a threat.
 I have witnessed it first hand when students submitted ChatGPT-generated answers to my assignments in Spring classes. Many (luckily, not all) answers demonstrated that skills of copy-pasting were indeed well acquired, but I doubted that the assessment proved anything in terms of the acquisition of the skills listed on the syllabus. 
 With this experience, I hope to do better this term.
 
