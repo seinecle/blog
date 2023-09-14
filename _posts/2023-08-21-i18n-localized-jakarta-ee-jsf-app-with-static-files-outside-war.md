@@ -5,7 +5,7 @@ permalink: /i18n-localized-jakarta-ee-jsf-app-with-static-files-outside-war/
 published: true
 date_readable:               Aug 21, 2023
 last_modified_at_readable:   Aug 21, 2023
-categories: [nocodefunctions,java, jsf, internatioanlization]
+categories: [nocodefunctions,java, jsf, internationalization, localization]
 ---
 An app localized in 107 different languages gets big because of all the translated text.
 I reduce the size by 30% by placing these translations outside the app - here is how.
