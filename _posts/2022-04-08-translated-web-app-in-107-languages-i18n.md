@@ -5,7 +5,7 @@ permalink: /translated-web-app-in-107-languages-i18n/
 published: true
 date_readable:               Apr 08, 2022
 last_modified_at_readable:   Apr 09, 2022
-categories: [localization, java]
+categories: [localization, internationalization, java]
 ---
 
 _The web app is originally developed in English. Now it can be visited in any of the 107 languages offered by Google Translate and DeepL_
