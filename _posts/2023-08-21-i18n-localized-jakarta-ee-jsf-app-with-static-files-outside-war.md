@@ -12,7 +12,7 @@ I reduce the size by 30% by placing these translations outside the app - here is
 This is a somewhat technical post on how I proceeded, and the gains it brought.
 
 # Why externalizing the translations outside the app?
-Java makes it very easy to create a localized web app, see my previous blog post on [how I translated nocodefunctions in 107 languages quickly and at not cost](https://nocodefunctions.com/blog/translated-web-app-in-107-languages-i18n/).
+Java makes it very easy to create a localized web app, see my previous blog post on [how I translated nocodefunctions in 107 languages quickly and at no cost](https://nocodefunctions.com/blog/translated-web-app-in-107-languages-i18n/).
 
 One of my key objectives for nocodefunctions is to make it painless to maintain and easy to extend with new features: best insurance for the longevity of the project.
 This broad objective is served by several tactical goals:
