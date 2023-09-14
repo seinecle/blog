@@ -19,7 +19,7 @@ These are fascinating opportunities.
 
 source: https://www.nea.org/nea-today/all-news-articles/-enters-classroom-teachers-weigh-pros-and-cons
 
-But at the same time,  can become a substitute for learning, which I would list as a threat.
+But at the same time, it can become a substitute for learning, which I would list as a threat.
 I have witnessed it first hand when students submitted ChatGPT-generated answers to my assignments in Spring classes. Many (luckily, not all) answers demonstrated that skills of copy-pasting were indeed well acquired, but I doubted that the assessment proved anything in terms of the acquisition of the skills listed on the syllabus. 
 With this experience, I hope to do better this term.
 
