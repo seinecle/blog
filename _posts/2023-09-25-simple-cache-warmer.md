@@ -43,7 +43,7 @@ The cache warmer is now running continuously.
 I could release a version of the cache warmer that does not need the installation of Java.
 It would be a zip file that you would unzip on your server, and a `run.bat` file to execute, that's all.
 
-Get in touch with me (analys at exploreyourdata . com) if that would be interesting to you and you would be ready to invest a bit of time to test the solution.
+Get in touch with me (analysis at exploreyourdata . com) if that would be interesting to you and you would be ready to invest a bit of time to test the solution.
 
 # Is it free, open source and licensed to allow commercial use?
 [Yes it is](https://github.com/seinecle/jcachewarmer/blob/main/LICENCE.md).
