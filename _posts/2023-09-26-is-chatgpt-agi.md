@@ -117,7 +117,7 @@ In my view, points 2 to 5 are the most valid to define what is an AGI and what's
 Point 6, about the existential threat, is one of the _possible consequences_ of an AGI, yet it tends to be taken as part of its definition.
 I would be tempted to blame the Terminator movies for that: they imprinted in us the idea of a "switch" that would "awake" an AGI, and putting immediately the issue of the existenial threat to humanity at the forefront.
 
-Instead, what points 1 to 5 above indicate is that AGI has already emerged, by all reasonable definitions. LLMs are generalists, mimic human intelligence, mimic human subjectivity, can be made autonomous, and their capacity to be self aware or not is a moot issue. And what comes to fore is not an existential threat to humanity, but more pressing issues such as:
+Instead, what points 2 to 5 above indicate is that AGI has already emerged, by all reasonable definitions. LLMs are generalists, mimic human intelligence, mimic human subjectivity, can be made autonomous, and their capacity to be self aware or not is a moot issue. And what comes to fore is not an existential threat to humanity, but more pressing issues such as:
 
 What does it look like to:
 
