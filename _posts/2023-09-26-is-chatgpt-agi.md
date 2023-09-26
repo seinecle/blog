@@ -40,6 +40,7 @@ What is an AGI? The definition is muddy. The Wikipedia article, but also everyth
 3. ability to accomplish general tasks
 4. ability to perfectly mimic various human intelligence
 5. ability to perfectly mimic various aspects human cognition (intelligence, emotion, creativity, subjective viewpoint, etc)
+6. causing a direct existential threat to humanity if misaligned
 
 I would argue that:
 
@@ -53,15 +54,32 @@ Let's review these claims in turn:
 
 ## 1. Is self-consciousness an important criteria for AGI? 
 Should we wait for a clear sign that LLMs are self-conscious before we declare an AI to be AGI?
-I would say, absolutely not. There are many reasons, the one I prefer is that since Freud we have accepted that humans are themselves far from being fully self-conscious.
+I would say, absolutely not.
+There are many reasons, the one I prefer is that since Freud we have accepted that humans are themselves far from being fully self-conscious.
 Cognitive psychology has added piles and piles of more evidence that we humans are conscious of ourselves in some capacity, not in an absolute sense.
 In my view, it follows that requiring for an AI to be self-conscious to be declared "AGI" is non sensical - we don't have a yardstick to measure self-consciousness against.
-It merely needs to mimic self consciousness as a human would experience it. And has wxe see fom current LLMs, that is pretty easy for them to do.
+It merely needs to mimic self consciousness as a human would experience it. And as we see fom current LLMs, they are pretty impressive at mimicking a human's thought process.
 
 ## 2. Autonomy
 Granted, the current versions of LLMs are not autonomous.
 They merely function when prompted by a human request, and they stop functioning once this request has been answered.
-But... automating an infinite loop of prompts and answers is pretty trivial to do. Actually, thousands of software developers are "playing" at it at the moment.
+But... automating an infinite loop of prompts and answers is pretty trivial to do.
+Actually, **dozens of thousands** of software developers are currently working at [creating autonomous forms of LLMs at the moment, in public](https://github.com/Significant-Gravitas/AutoGPT).
+
+So "autonomy" is probably not a feature of an AGI which would happen at the switch of a button (Skynet style), but more like the produce an entire community pushing with their classic tools to achieve it.
+
+And they are well aware that there are risks attached to it. Not existential risks (see bullet point #6, below) but risk nonetheless:
+
+![autchatgpt continous mode](https://github.com/seinecle/blog/assets/1244100/e5958c8e-6686-4882-ac53-318810407ce5)
+(source: https://docs.agpt.co/usage/)
+
+## 3. Ability to accompish general tasks
+I'll pass quickly on this one. LLMS are good at accomplishing general tasks, there is a consensus on that, and every day brings more developments on the topic.
+
+The latest objection I had hear was "general tasks, but just on text".
+This not a solid objection as LLMs can do image, and multimode too since today:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">ChatGPT can now see, hear, and speak. Rolling out over next two weeks, Plus users will be able to have voice conversations with ChatGPT (iOS &amp; Android) and to include images in conversations (all platforms). <a href="https://t.co/uNZjgbR5Bm">https://t.co/uNZjgbR5Bm</a> <a href="https://t.co/paG0hMshXb">pic.twitter.com/paG0hMshXb</a></p>&mdash; OpenAI (@OpenAI) <a href="https://twitter.com/OpenAI/status/1706280618429141022?ref_src=twsrc%5Etfw">September 25, 2023</a></blockquote> 
 
 
 # About me
