@@ -112,7 +112,7 @@ The funny thing is that the [Wikipedia page for the definition of AGI](https://e
 
 ## 6. Causing a direct existential threat to humanity if misaligned
 The discussion of this point is important.
-In my view, points 1 to 5 are the most valid to define what is an AGI and what's not. I hope I convinced you that current LLMs (as of 2023) meet these criteria.
+In my view, points 2 to 5 are the most valid to define what is an AGI and what's not. I hope I convinced you that current LLMs (as of 2023) meet these criteria.
 
 Point 6, about the existential threat, is one of the _possible consequences_ of an AGI, yet it tends to be taken as part of its definition.
 I would be tempted to blame the Terminator movies for that: they imprinted in us the idea of a "switch" that would "awake" an AGI, and putting immediately the issue of the existenial threat to humanity at the forefront.
