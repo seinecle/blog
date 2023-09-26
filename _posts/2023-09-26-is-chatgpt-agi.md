@@ -13,6 +13,8 @@ Is ChatGPT a form of "Artificial General Intelligence" (AGI)? I see many in my e
 It is not mere semantics or hair splitting.
 My argument is that **IF** ChatGPT is **NOT** an AGI, then we have still some years before we have to deal with the consequences.
 
+> in the following I use "ChatGPT" and "LLM" interchangeably because ChatGPT has become a household name for Large Language Models (LLMs)
+
 **If** ChatGPT **is indeed** an AGI, it implies that:
 
 - as we co-exist with an AGI (it is pleonasmic), we should not wait for an hypothetical day when it would arise.
