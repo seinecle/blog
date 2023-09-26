@@ -83,7 +83,7 @@ And they are well aware that there are risks attached to it. Not existential ris
 ## 3. Ability to accomplish general tasks
 I'll pass quickly on this one. LLMs are good at accomplishing general tasks, there is a consensus on that, and every day brings more developments on the topic.
 
-The latest objection I had hear was "general tasks, but just on text".
+The latest objection I heard is "general tasks, but just on text".
 This not a solid objection as LLMs can do image, and multimode too since Sept 26, 2023:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">ChatGPT can now see, hear, and speak. Rolling out over next two weeks, Plus users will be able to have voice conversations with ChatGPT (iOS &amp; Android) and to include images in conversations (all platforms). <a href="https://t.co/uNZjgbR5Bm">https://t.co/uNZjgbR5Bm</a> <a href="https://t.co/paG0hMshXb">pic.twitter.com/paG0hMshXb</a></p>&mdash; OpenAI (@OpenAI) <a href="https://twitter.com/OpenAI/status/1706280618429141022?ref_src=twsrc%5Etfw">September 25, 2023</a></blockquote> 
