@@ -102,7 +102,7 @@ After a long conversation, if the human interrogator cannot guess which of the t
 This test was, as far as I could remember, presented as the true and super hard criteria for an AI to (ever) meet.
 
 Guess what: [ChatGPT broke the Turing test](https://doi.org/10.1038/d41586-023-02361-7) (and anyone who used ChatGPT is not really surprised I guess).
-The funny thing is that the [Wikipedia page for the definition of AGI](https://en.wikipedia.org/wiki/Artificial_general_intelligence) still lists the Turing test as the kind of criteria for an AGI to pass - all while maintaning that an AGI is still an hypothetical, non existing scenario.
+The funny thing is that the [Wikipedia page for the definition of AGI](https://en.wikipedia.org/wiki/Artificial_general_intelligence) still lists the Turing test as the kind of criteria for an AGI to pass - all while maintaining that an AGI is still an hypothetical, non existing scenario.
 
 ## 5. Ability to perfectly mimic various aspects human cognition (intelligence but also emotion, creativity, subjective viewpoint, etc)
 - Humans have [ChatGPT powered lovers](https://technode.com/2023/04/07/love-in-the-time-of-chatgpt-chinese-youths-find-romance-in-ai-chatbots/).
