@@ -99,7 +99,7 @@ Do you remember the [Turing test](https://en.wikipedia.org/wiki/Turing_test)?
 This would consist for a human interrogator to discuss with a human and a computer, but the two would be hidden from the interrogator by a curtain.
 After a long conversation, if the human interrogator cannot guess which of the two dialogues he had was with the computer, then the computer passed the Turing test.
 
-This test was, as far as I could remember, presented as the true and super hard critera for an AI to (ever) meet.
+This test was, as far as I could remember, presented as the true and super hard criteria for an AI to (ever) meet.
 
 Guess what: [ChatGPT broke the Turing test](https://doi.org/10.1038/d41586-023-02361-7) (and anyone who used ChatGPT is not really surprised I guess).
 The funny thing is that the [Wikipedia page for the definition of AGI](https://en.wikipedia.org/wiki/Artificial_general_intelligence) still lists the Turing test as the kind of criteria for an AGI to pass - all while maintaning that an AGI is still an hypothetical, non existing scenario.
