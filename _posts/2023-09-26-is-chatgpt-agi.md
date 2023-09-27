@@ -27,7 +27,9 @@ So the question is indeed not trivial.
 # Is ChatGPT an AGI? The counter arguments
 The consensus is that AGI will arise in years, decades, or never. "Today" is not an option:
 
-- ![source: https://emerj.com/ai-future-outlook/when-will-we-reach-the-singularity-a-timeline-consensus-from-ai-researchers/](https://github.com/seinecle/blog/assets/1244100/be533c37-682b-443a-9b75-658c836945be)
+![source: https://emerj.com/ai-future-outlook/when-will-we-reach-the-singularity-a-timeline-consensus-from-ai-researchers/](https://github.com/seinecle/blog/assets/1244100/be533c37-682b-443a-9b75-658c836945be)
+
+source: [emerji.com](https://emerj.com/ai-future-outlook/when-will-we-reach-the-singularity-a-timeline-consensus-from-ai-researchers/)
 
 Considering that AGI would already exist is considered naive, several arguments come to mind:
 
@@ -74,11 +76,11 @@ Actually, **dozens of thousands** of software developers are currently working a
 
 So "autonomy" is probably not a feature of an AGI which would happen at the switch of a button (Skynet style), but more like the produce an entire community pushing with their classic tools to achieve it.
 
-And they are well aware that there are risks attached to it. Not existential risks (see bullet point #6, below) but risk nonetheless:
+Oh and they are well aware that there are risks attached to it. Not existential risks (see bullet point #6, below) but risks nonetheless:
 
 ![autchatgpt continous mode](https://github.com/seinecle/blog/assets/1244100/e5958c8e-6686-4882-ac53-318810407ce5)
 
-(source: https://docs.agpt.co/usage/)
+[source](https://docs.agpt.co/usage/)
 
 ## 3. Ability to accomplish general tasks
 I'll pass quickly on this one. LLMs are good at accomplishing general tasks, there is a consensus on that, and every day brings more developments on the topic.
