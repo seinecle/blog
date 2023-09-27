@@ -18,7 +18,7 @@ My argument is that **IF** ChatGPT is **NOT** an AGI, then we have still some ye
 **If** ChatGPT **is indeed** an AGI, it implies that:
 
 - as we co-exist with an AGI (it is pleonasmic), we should not wait for an hypothetical day when it would arise.
-The "when is the singularity happening" would be a misplaced question because it would have happened, without a bang.
+The "when is the singularity happening" would be a misplaced question because it would have happened already, without a bang.
 The emergence of an AGI would have happened as a series of incremental steps over a few years.
 If so, we should acknowledge the fact that some early forms of AGI have emerged, and act accordinly: how do we humans, as individuals, organizations and societies, coexist with an artificial intelligence which is "human like"? 
 
