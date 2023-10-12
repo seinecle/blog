@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Visions for the future of generative AI
+title: Six different visions for the future of generative AI
 permalink: /visions-generative-ai/
 published: true
 date_readable:               Oct 12, 2023
@@ -73,7 +73,7 @@ Karpathy does point that this analogy, by necessity, sticks to known mental mode
 I also agree with this: we don't know what is the magnitude of the changes that such a technology will enable. In my view, the change is comparable to the [the move from analogical to digital systems](https://nocodefunctions.com/blog/chatgpt-consequences/).
 
 
-## Mustafa Suleyman: containment is needed
+## 3. Mustafa Suleyman: containment is needed
 
 ### Who?
 [Mustafa Suleyman](https://en.wikipedia.org/wiki/Mustafa_Suleyman) was the cofounder of DeepMind which developed AlphaGo, the system that beat the best player at the game of Go in 2015. He then become vice president of AI product management and AI policy at Google. he is now co-founder and CEO of [Inflection AI](https://inflection.ai/), which develops personal assistants with generative AI.
@@ -94,7 +94,7 @@ I personally agree with the arguments of the book, even if they sound dramatic.
 It is pretty pessimistic in the sense that it does not cheer up with an easy solution to the problems (the catastrophies, really) that he predicts.
 "Containment" is the general direction he advocates, but containing AI is impossible to do or if done at full force, that would be at the price of our personal liberties (states tightly controlling what individuals do with IT).
 
-## Jony Ive: towards the new iPhone?
+## 4. Jony Ive: towards the new iPhone?
 
 ### Who
 [Jony Ive](https://en.wikipedia.org/wiki/Jony_Ive) was Apple's lead designer from to 2015 to 2019, and contributed centrally to designing the series of iPhones.
@@ -116,7 +116,7 @@ Yes there is definitely a need for a new type of interface. It feels so quaint t
 - a difficult issue is the use of voice in public space: we are all texting while commuting for instance, but I am pretty sure we are not ready to interact by speaking aloud to our phones while in the bus or subway. Thinking of that freely, I was thinking that "mumbling as an interface" might then become a thing. You would mumble or murmure to your phone when interacting with it in public spaces. It paints a grim picture of our social interactions 😬 but it could solve the issue of voice interactions.
 - SoftBank being involved as an investor in this potential project [sounds like the kiss of death 😅](https://www.ft.com/content/0e375355-85c7-4c4e-87fc-5e73ac268196).
 
-## Clément Delangue: no tsunami, lots of localized AIs
+## 5. Clément Delangue: no tsunami, lots of localized AIs
 
 ### Who
 [Clement Delangue](https://www.linkedin.com/in/clementdelangue/) is co-founder & CEO at [Hugging Face](https://en.wikipedia.org/wiki/Hugging_Face), the company which made it so much easier to train, host and share models in AI - including in generative AI.
@@ -148,7 +148,7 @@ The second reason for not being convinced by the alternative vision of companies
 
 So we'll see where things go. The terms of the argument ("specialized models because trained on local datasets" vs general models) might well evolve: what if OpenAI would offer versions of GPT-4 that you could then train and specialize on extra datasets? (if they don't already?). That would make the alternative void (either ChatGPT or less powerful models on Hugging Face).
 
-## Yuval Noah Harari: existential threat to humanity
+## 6. Yuval Noah Harari: existential threat to humanity
 
 ### Who?
 [Yuval Noah Harari](https://en.wikipedia.org/wiki/Yuval_Noah_Harari), author of the book [Sapiens](https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind) in 2011.
