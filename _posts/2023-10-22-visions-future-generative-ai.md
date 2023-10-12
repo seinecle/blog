@@ -30,13 +30,15 @@ Let us not forget that of course, each of them have a stake in the debate, and t
 
 ## Noam Chomsky: generative AI is not true intelligence
 
-Who? [Noam Chomsky](https://en.wikipedia.org/wiki/Noam_Chomsky), key contributor to linguistics in the second half of the XXth century and public intellectual.
+## Who?
+[Noam Chomsky](https://en.wikipedia.org/wiki/Noam_Chomsky), key contributor to linguistics in the second half of the XXth century and public intellectual.
 
-Source: op-ed in the New York Times: ["Noam Chomsky: The False Promise of ChatGPT"](https://www.nytimes.com/2023/03/08/opinion/noam-chomsky-chatgpt-ai.html)
+## Source
+Op-ed in the New York Times: ["Noam Chomsky: The False Promise of ChatGPT"](https://www.nytimes.com/2023/03/08/opinion/noam-chomsky-chatgpt-ai.html)
 
 Date: March 8, 2023 ([full version in pdf](https://drive.google.com/file/d/1kuggyRlT5eqlqqZ0ad25CpdAvXvetMbi/view)).
 
-Argument: ChatGPT is good at mimicking discourse. True intelligence, reasoning, remains qualitatively different from what ChatGPT does. Chomsky elaborates:
+## Argument: ChatGPT is good at mimicking discourse. True intelligence, reasoning, remains qualitatively different from what ChatGPT does. Chomsky elaborates:
 
 > Here’s an example. Suppose you are holding an apple in your hand. Now you let the apple go. You observe the result and say, “The apple falls.” That is a description. A prediction might have been the statement “The apple will fall if I open my hand.” Both are valuable, and both can be correct. But an explanation is something more: It includes not only descriptions and predictions but also counterfactual conjectures like “Any such object would fall,” plus the additional clause “because of the force of gravity” or “because of the curvature of space-time” or whatever. That is a causal explanation: “The apple would not have fallen but for the force of gravity.” That is thinking. 
 
@@ -121,11 +123,40 @@ The second reason for not being convinced by the alternative vision of companies
 
 So we'll see where things go. The terms of the argument ("specialized models because trained on local datasets" vs general models) might well evolve: what if OpenAI would offer versions of GPT-4 that you could then train and specialize on extra datasets? (if they don't already?). That would make the alternative void (either ChatGPT or less powerful models on Hugging Face).
 
+## Yuval Noah Harari: existential threat to humanity
 
+Who? [Yuval Noah Harari](https://en.wikipedia.org/wiki/Yuval_Noah_Harari), author of the book [Sapiens](https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind) in 2011.
 
+Source: several interviews and debates, eg:
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Author of Sapiens, Homo Deus &amp; Unstoppable Us, Yuval Noah Harari (<a href="https://twitter.com/harari_yuval?ref_src=twsrc%5Etfw">@harari_yuval</a>) and Financial Times&#39;, Gillian Tett (<a href="https://twitter.com/gilliantett?ref_src=twsrc%5Etfw">@gilliantett</a>) discuss if AI could drive humans to extinction <a href="https://t.co/S7WeCqM73Y">https://t.co/S7WeCqM73Y</a> <a href="https://t.co/COBibcYPFi">pic.twitter.com/COBibcYPFi</a></p>&mdash; CogX Festival (@CogX_Festival) <a href="https://twitter.com/CogX_Festival/status/1709670282099634337?ref_src=twsrc%5Etfw">October 4, 2023</a></blockquote>
 
+["Yuval Noah Harari argues that AI has hacked the operating system of human civilisation"](https://www.economist.com/by-invitation/2023/04/28/yuval-noah-harari-argues-that-ai-has-hacked-the-operating-system-of-human-civilisation) (The Economist)
 
+![image](https://github.com/seinecle/blog/assets/1244100/ff243ed4-a1da-44ca-8cb5-6f195630c794)
+
+Date: April - October 2023
+
+Argument: a model in generative AI is capable of getting out of hands of the humans which created it. If that happens and in the worst case scenario, this model could pursue its own objectives, which would not necessarily be compatible with human's welfare.
+
+My personal opinion: I would tend to side with this opinion. People arguing that this overly pessmistic, dramatic and overall ill founded, tend to bring several arguments forward:
+
+1. people making the argument for an existential risk [are not engineers, they use sloppy arguments and imprecise vocabulary, they don't know what they talk about](https://twitter.com/ylecun/status/1711780316652990766)
+2. there is an agenda by some making these claims, to close up AI and keep it to a handful of monopolies (the GAFAMs)
+3. those who know about LLMS know that they are fare from truely intelligent, purposeful, self reflexive AGIs (this is a variation on argument 1.)
+
+To which I would reply:
+
+1. the argument about who is a true engineer or not seems pretty bad. I give all the credits to Yuval Harari to be able to express a sensible opinion on LLMs. Mustafa Suleyman, who expresses similar opinions (see above), is a cofounder of Google's DeepMind: good enough credentials.
+2. This is true that (anti-)competitive dynamics are very strong. Microsoft, Google and a couple of others probably dream to see the ecosystem of generative AI being closed up to a small club composed of... themselves, to reproduce the walled gardens that they are used to enjoy. That said: it does not follow that generative AI is inocuous.
+3. AGI or not? The term "AGI" is so poorly defined that the debate is moot. Suleyman introduced the term "Artifical Capable Intelligence" to distinguish between today's LLMs, and an super intelligent one. To clarify these issues, I have written a short [blog post trying to list the features defining an AGI](https://nocodefunctions.com/blog/chatgpt-agi/). LLMs check most of them.
+
+# Next
+The goal of this blog post was simply to gather in one place some influential opinions on the consequences of ChatGPT, LLMs and generative AI in general. What did we learn?
+
+- a diring absence of women's voices, and other minorities. That reflects the biases of my sources of information. It probably also reflects a lack of representation of minorities in these debates.
+- a lack of consensus on the effects of generative AI: dramatic or not
+- the involvement of the GAFAMs and a recent entrant (Hugging Face) in the debates: competitive dynamics are clearly at play, with the topic of the regulation of AI being perceived by the new entrants as a potential tool used to exclude them. At least that is what I read implicity in the debates about the necessity to keep AI open or to contain it.
 
 # About me
 I am a [professor at emlyon business school](https://www.linkedin.com/in/levallois/) where I conduct research in Natural Language Processing and network analysis applied to social sciences and the humanities. I teach about the impact of digital technologies on business and society. I  build [nocode functions](https://nocodefunctions.com) 🔎, a click and point web app to explore texts and networks. It is [fully open source](https://github.com/seinecle/nocodefunctions). Try it and give some feedback, I would appreciate it!
