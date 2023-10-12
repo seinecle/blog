@@ -38,7 +38,8 @@ Op-ed in the New York Times: ["Noam Chomsky: The False Promise of ChatGPT"](http
 
 Date: March 8, 2023 ([full version in pdf](https://drive.google.com/file/d/1kuggyRlT5eqlqqZ0ad25CpdAvXvetMbi/view)).
 
-### Argument: ChatGPT is good at mimicking discourse. True intelligence, reasoning, remains qualitatively different from what ChatGPT does. Chomsky elaborates:
+### Argument
+ChatGPT is good at mimicking discourse. True intelligence, reasoning, remains qualitatively different from what ChatGPT does. Chomsky elaborates:
 
 > Here’s an example. Suppose you are holding an apple in your hand. Now you let the apple go. You observe the result and say, “The apple falls.” That is a description. A prediction might have been the statement “The apple will fall if I open my hand.” Both are valuable, and both can be correct. But an explanation is something more: It includes not only descriptions and predictions but also counterfactual conjectures like “Any such object would fall,” plus the additional clause “because of the force of gravity” or “because of the curvature of space-time” or whatever. That is a causal explanation: “The apple would not have fallen but for the force of gravity.” That is thinking. 
 
