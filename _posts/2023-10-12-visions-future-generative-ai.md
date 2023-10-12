@@ -77,14 +77,14 @@ I also agree with this: we don't know what is the magnitude of the changes that 
 ## 3. Mustafa Suleyman: containment is needed
 
 ### Who?
-[Mustafa Suleyman](https://en.wikipedia.org/wiki/Mustafa_Suleyman) was the cofounder of DeepMind which developed AlphaGo, the system that beat the best player at the game of Go in 2015. He then become vice president of AI product management and AI policy at Google. he is now co-founder and CEO of [Inflection AI](https://inflection.ai/), which develops personal assistants with generative AI.
+[Mustafa Suleyman](https://en.wikipedia.org/wiki/Mustafa_Suleyman) was the cofounder of DeepMind which developed AlphaGo, the system that beat the best player at the game of Go in 2015. He then became vice president of AI product management and AI policy at Google. He is now co-founder and CEO of [Inflection AI](https://inflection.ai/), which develops personal assistants with generative AI.
 
 ### Source
 ["The Coming Wave"](https://www.amazon.com/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952), a book praised by a vast array of scientists, entrepreneurs and key opinion leaders.
 
 ![image](https://github.com/seinecle/blog/assets/1244100/745f71bc-31af-4590-a535-f38fdbfcde49)
 
-Date: September 2023
+Date: published in September 2023
 
 ### Argument
 Generative AI will cause major disruptions at the societal level in the short term (5 to 10 years). Not because it will become super human (AGI) though it might, but because it is already an ACI (Artificial Capable Intelligence). Generative AI enables the development of intelligent agents at low cost and "en masse". Dilemna: this will probably create many good things, however it will be very hard to contain its nefarious uses because software is harder to trace than say, nuclear material.
@@ -114,7 +114,7 @@ ChatGPT opens a new era for user interactions, which feel different from the use
 Yes there is definitely a need for a new type of interface. It feels so quaint to type long questions on the keyboard, and see the textual response. *Voicing* a prompt would seem the natural way: quicker, less formal than writing, and more precise because we could hesitate and rephrase while prompting. Choosing the format of the output would seem natural, too. Voice, text, writing to a file, searching a document on the phone and displaying it, or executing a command (opening and using an app, checking an agenda, sending an email, etc). A couple of random thoughts:
 
 - personal conversational assistants, such as Siri or Alexa, seem like the natural starting point for such an interface
-- a difficult issue is the use of voice in public space: we are all texting while commuting for instance, but I am pretty sure we are not ready to interact by speaking aloud to our phones while in the bus or subway. Thinking of that freely, I was thinking that "mumbling as an interface" might then become a thing. You would mumble or murmure to your phone when interacting with it in public spaces. It paints a grim picture of our social interactions 😬 but it could solve the issue of voice interactions.
+- a difficult issue is the use of voice in public space: we are all texting while commuting for instance, but I am pretty sure we are not ready to interact by speaking aloud to our phones while in the bus or subway. Thinking of that freely, I was thinking that "whispering as an interface" might then become a thing. You would whisper or murmure to your phone when interacting with it in public spaces. It paints a grim picture of our social interactions 😬 but it could solve the issue of voice interactions.
 - SoftBank being involved as an investor in this potential project [sounds like the kiss of death 😅](https://www.ft.com/content/0e375355-85c7-4c4e-87fc-5e73ac268196).
 
 ## 5. Clément Delangue: no tsunami, lots of localized AIs
@@ -128,8 +128,6 @@ Several tweets, retweets and posts on LinkedIn:
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7117498531065511937" allowfullscreen="" title="Embedded post" width="504" height="399" frameborder="0"></iframe>
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7112524133564870657" allowfullscreen="" title="Embedded post" width="504" height="588" frameborder="0"></iframe>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Having worked on conversational AI in the past, I think that with the current capabilities, we should strongly discourage &amp; warn about the anthropomorphism and leverage of psychology patterns of users by chatbots. <br><br>For thousands of years, we&#39;ve been used to be able to have good… <a href="https://t.co/umlPKFq85M">https://t.co/umlPKFq85M</a></p>&mdash; clem 🤗 (@ClementDelangue) <a href="https://twitter.com/ClementDelangue/status/1710349025793159338?ref_src=twsrc%5Etfw">October 6, 2023</a></blockquote>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The heretofore silent majority of AI scientists and engineers who<br>- do not believe in AI extinction scenarios or<br>- believe we have agency in making AI powerful, reliable, and safe and<br>- think the best way to do so is through open source AI platforms<br>NEED TO SPEAK UP ! <a href="https://t.co/geptca8idf">https://t.co/geptca8idf</a></p>&mdash; Yann LeCun (@ylecun) <a href="https://twitter.com/ylecun/status/1711780316652990766?ref_src=twsrc%5Etfw">October 10, 2023</a></blockquote>
 
