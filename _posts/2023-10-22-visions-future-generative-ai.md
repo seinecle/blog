@@ -56,7 +56,7 @@ Source: a tweet from his personal account
 
 Date: September 28, 2023
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">With many 🧩 dropping recently, a more complete picture is emerging of LLMs not as a chatbot, but the kernel process of a new Operating System. E.g. today it orchestrates:<br><br>- Input &amp; Output across modalities (text, audio, vision)<br>- Code interpreter, ability to write &amp; run… <a href="https://t.co/2HsyslOG2F">pic.twitter.com/2HsyslOG2F</a></p>&mdash; Andrej Karpathy (@karpathy) <a href="https://twitter.com/karpathy/status/1707437820045062561?ref_src=twsrc%5Etfw">September 28, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">With many 🧩 dropping recently, a more complete picture is emerging of LLMs not as a chatbot, but the kernel process of a new Operating System. E.g. today it orchestrates:<br><br>- Input &amp; Output across modalities (text, audio, vision)<br>- Code interpreter, ability to write &amp; run… <a href="https://t.co/2HsyslOG2F">pic.twitter.com/2HsyslOG2F</a></p>&mdash; Andrej Karpathy (@karpathy) <a href="https://twitter.com/karpathy/status/1707437820045062561?ref_src=twsrc%5Etfw">September 28, 2023</a></blockquote>
 
 Argument: GPT-4, which is the generative AI behind ChatGPT, is not merely a "model that produces good chatbots". If we consider that the text it generates is not just passive reading material for humans, but text which can then be fed as "instructions" or "commands" to other computing systems such as apps (including to... itself 🤯), then a better describer for GPT-4 would be that it is an operating system (Windows, iOS, Android, Linux), or even best, **the central orchestrator in such an operating system** (technically called a ["kernel"](https://en.wikipedia.org/wiki/Kernel_(operating_system))).
 
@@ -65,7 +65,7 @@ My personal opinion: the development of plugins and apps for ChatGPT ([since Apr
 
 ## Mustafa Suleyman: containment is needed
 
-Who? [Mustafa Suleyman](https://en.wikipedia.org/wiki/Mustafa_Suleyman) was the cofounder of DeepMind which developed AlphaGo, the system that beat the best player at the game of Go in 2015. He then become vice president of AI product management and AI policy at Google. he is now co-founder and CEO of Inflection AI.
+Who? [Mustafa Suleyman](https://en.wikipedia.org/wiki/Mustafa_Suleyman) was the cofounder of DeepMind which developed AlphaGo, the system that beat the best player at the game of Go in 2015. He then become vice president of AI product management and AI policy at Google. he is now co-founder and CEO of [Inflection AI](https://inflection.ai/), which develops personal assistants with generative AI.
 
 Source: "The Coming Wave", a book praised by a vast array of scientists, entrepreneurs and key opinion leaders.
 
@@ -73,13 +73,13 @@ Source: "The Coming Wave", a book praised by a vast array of scientists, entrepr
 
 Date: September 2023
 
-Argument: Generative AI will cause major disruptions at the societal level in the short term (5 to 10 years). The reason is that generative AI enables to develop intelligent agents at low cost and "en masse". Dilemna: this will probably create many good things, however it will be very hard to contain its nefarious uses because software is harder to trace than say, nuclear material.
+Argument: Generative AI will cause major disruptions at the societal level in the short term (5 to 10 years). Not because it will become super human (AGI) though it might, but because it is already an ACI (Artificial Capable Intelligence). Generative AI enables the development of intelligent agents at low cost and "en masse". Dilemna: this will probably create many good things, however it will be very hard to contain its nefarious uses because software is harder to trace than say, nuclear material.
 
-My personal opinion: Suleyman's argument is of course richer than the summary above, and includes descriptions of the risk of cheap synthetic biology, too. I personally agree with the arguments of the book, even if they sound dramatic. It is pretty pessimistic in the sense that it does not cheer up with an easy solution to the problems (the catastrophies, really) that he lays out. "Containment" is the general direction he advocates, but impossible to do or if done at full force, that would be at the price of our personal liberties (states tightly controlling what individuals do with IT).
+My personal opinion: Suleyman's argument is of course richer than the summary above, and includes descriptions of the risk of cheap synthetic biology, too. I personally agree with the arguments of the book, even if they sound dramatic. It is pretty pessimistic in the sense that it does not cheer up with an easy solution to the problems (the catastrophies, really) that he predicts. "Containment" is the general direction he advocates, but containing AI is impossible to do or if done at full force, that would be at the price of our personal liberties (states tightly controlling what individuals do with IT).
 
-## Jony Ive: the new iPhone?
+## Jony Ive: towards the new iPhone?
 
-Who? [Jony Ive]([https://en.wikipedia.org/wiki/Mustafa_Suleyman](https://en.wikipedia.org/wiki/Jony_Ive)) was Apple's lead designer from to 2015 to 2019, and contributed centrally to designing the series of iPhones.
+Who? [Jony Ive](https://en.wikipedia.org/wiki/Jony_Ive) was Apple's lead designer from to 2015 to 2019, and contributed centrally to designing the series of iPhones.
 
 Source: ["OpenAI and Jony Ive in talks to raise $1bn from SoftBank for AI device venture"](https://www.ft.com/content/4c64ffc1-f57b-4e22-a4a5-f9f90a7419b7), published by the Financial Times.
 
@@ -94,6 +94,37 @@ My personal opinion: yes there is definitely a need for it. It feels so quaint t
 - personal conversational assistants, such as Siri or Alexa, seem like the natural starting point for such an interface
 - a difficult issue is the use of voice in public space: we are all texting while commuting for instance, but I am pretty sure we are not ready to interact by speaking aloud to our phones while in the bus or subway. Thinking of that freely, I was thinking that "mumbling as an interface" might then become a thing. You would mumble or murmure to your phone when interacting with it in public spaces. It paints a grim picture of our social interactions 😬 but it could solve the issue of voice interactions.
 - SoftBank being involved as an investor in this potential project [sounds like the kiss of death 😅](https://www.ft.com/content/0e375355-85c7-4c4e-87fc-5e73ac268196).
+
+## Clément Delangue: no tsunami, lots of localized AIs
+
+Who? [Clement Delangue](https://www.linkedin.com/in/clementdelangue/) is co-founder & CEO at [Hugging Face](https://en.wikipedia.org/wiki/Hugging_Face), the company which made it so much easier to train, host and share models in AI - including in generative AI.
+
+Source: several tweets, retweets and posts on LinkedIn:
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7117498531065511937" allowfullscreen="" title="Embedded post" width="504" height="399" frameborder="0"></iframe>
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7112524133564870657" allowfullscreen="" title="Embedded post" width="504" height="588" frameborder="0"></iframe>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Having worked on conversational AI in the past, I think that with the current capabilities, we should strongly discourage &amp; warn about the anthropomorphism and leverage of psychology patterns of users by chatbots. <br><br>For thousands of years, we&#39;ve been used to be able to have good… <a href="https://t.co/umlPKFq85M">https://t.co/umlPKFq85M</a></p>&mdash; clem 🤗 (@ClementDelangue) <a href="https://twitter.com/ClementDelangue/status/1710349025793159338?ref_src=twsrc%5Etfw">October 6, 2023</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The heretofore silent majority of AI scientists and engineers who<br>- do not believe in AI extinction scenarios or<br>- believe we have agency in making AI powerful, reliable, and safe and<br>- think the best way to do so is through open source AI platforms<br>NEED TO SPEAK UP ! <a href="https://t.co/geptca8idf">https://t.co/geptca8idf</a></p>&mdash; Yann LeCun (@ylecun) <a href="https://twitter.com/ylecun/status/1711780316652990766?ref_src=twsrc%5Etfw">October 10, 2023</a></blockquote>
+
+
+Date: September - October 2023
+
+Argument: The claims of an existential risk to humanity (posed by generative AI) are greatly exaggerated. Exagerated as well are the claims that AI, even when not AGI, is bound to cause severe troubles. Instead, what the future holds if we choose it, is an economy where companies and organizations develop and use special purpose AI models (generative or not), trained on datasets which reflect the particularities of their local context. The sharing of open source models of AI is one guarantee that AI becomes available to all and stays under the scrutiny of all.
+
+My personal opinion: I tend not to be convinced by this argument, for at least two reasons. The first is that there are scenarios of generative AI getting super dangerous, which can't be evacuated by the argument above. Autononous weapons on the battle field? [That seems pretty likely](https://www.defensenews.com/unmanned/2023/10/09/us-army-developing-integrated-formations-of-robots-and-humans/). Exploitation of the attention and emotions of customers, for the sake of the generation of ad revenues, with content / apps / bots powered by generative AI? Seems likely to me as well. Clement Delangue seems worried as well, actually:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Having worked on conversational AI in the past, I think that with the current capabilities, we should strongly discourage &amp; warn about the anthropomorphism and leverage of psychology patterns of users by chatbots. <br><br>For thousands of years, we&#39;ve been used to be able to have good… <a href="https://t.co/umlPKFq85M">https://t.co/umlPKFq85M</a></p>&mdash; clem 🤗 (@ClementDelangue) <a href="https://twitter.com/ClementDelangue/status/1710349025793159338?ref_src=twsrc%5Etfw">October 6, 2023</a></blockquote> 
+
+The second reason for not being convinced by the alternative vision of companies each training localized versions of smaller LLMs, instead of using one general-purpose, expensive GPT-4: the argument sounds like a straight defense of the business model of Hugging Face, which is about hosting a large number of models, as opposed to one hegemonic Bard or ChatGPT. In my personal experience using ChatGPT or Bard, it is very hard to scale down to less powerful models once you have experienced the quality of their seemingly near perfect human interaction.
+
+
+
+
+
+
 
 
 # About me
