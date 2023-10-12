@@ -21,15 +21,43 @@ So we should probably pay attention and as the interviewer said, "let's buckle u
 
 # How to explore the consequences of a radically new fundamental technology? Caveats
 I must say I lack the experience that academics and colleagues possess in exactly this topic, with [Philippe Silberzahn on how to face disruptive innovations](https://philippesilberzahneng.com) or [Thomas Gauthier on conducting far reaching prospective studies](https://www.linkedin.com/in/thomas-gauthier-1473b62/).
-I will simply list and organiz the different influential visions for generative AI that I have read and encountered in the past months.
+I will simply list and organize the different influential visions for generative AI that I have read and encountered in the past months.
 
-The goal is very modest: it is to provide you with a panorama of visions by people whose opinions are usually well informed.
+The goal is very modest: it is to provide a panorama of visions by people whose opinions are usually well informed. I do it to develop [my own thoughts on the consequences of ChatGPT](https://nocodefunctions.com/blog/chatgpt-consequences/), and hopefully you will find it useful too.
 Let us not forget that of course, each of them have a stake in the debate, and that their voice is performative: by articulating a vision, they contribute to this vision becoming reality, even modestly.
 
-# The visions
+# The visions (in no particular order)
 
 ## Noam Chomsky: generative AI is not true intelligence
-Source: op-ed in the New York Times: ["Noam Chomsky: The False Promise of ChatGPT"](https://www.nytimes.com/2023/03/08/opinion/noam-chomsky-chatgpt-ai.html), March 8, 2023. 
+Source: op-ed in the New York Times: ["Noam Chomsky: The False Promise of ChatGPT"](https://www.nytimes.com/2023/03/08/opinion/noam-chomsky-chatgpt-ai.html)
+
+Date: March 8, 2023 ([full version in pdf](https://drive.google.com/file/d/1kuggyRlT5eqlqqZ0ad25CpdAvXvetMbi/view)).
+
+Argument: ChatGPT is good at mimicking discourse. True intelligence, reasoning, remains qualitatively different from what ChatGPT does. Chomsky elaborates:
+
+> Here’s an example. Suppose you are holding an apple in your hand. Now you let the apple go. You observe the result and say, “The apple falls.” That is a description. A prediction might have been the statement “The apple will fall if I open my hand.” Both are valuable, and both can be correct. But an explanation is something more: It includes not only descriptions and predictions but also counterfactual conjectures like “Any such object would fall,” plus the additional clause “because of the force of gravity” or “because of the curvature of space-time” or whatever. That is a causal explanation: “The apple would not have fallen but for the force of gravity.” That is thinking. 
+
+It seems that ChatGPT (and Bard too, I didn't check) are well able to display such a reasoning. This is [the transcript of my attempt on ChatGPT today](https://chat.openai.com/share/437a046c-e7f2-4bf2-bb21-33d700d8254a):
+
+> Suppose you are holding an apple in your hand. Now you let the apple go. What will happen and why?
+
+> If I were a physical entity capable of holding an apple, and I were to let it go, the apple would fall to the ground due to the force of gravity. Gravity is a fundamental force of nature that pulls objects with mass towards each other. In this case, the Earth's gravity would pull the apple towards its center. When you release the apple, there are no other forces counteracting gravity (assuming we are neglecting air resistance in this scenario). Therefore, the gravitational force will cause the apple to accelerate towards the Earth at a rate of approximately 9.81 meters per second squared (on the surface of the Earth). This acceleration continues until the apple hits the ground or encounters some other obstacle that might affect its motion. [the answer continies with a precise description of the law of universal gravitation, which I skip here for brievety].
+
+My personl opinion: I tend to flatly disagree with Chomsky here, which is embarrassing because who am I to disagree with such a great mind. I would think that yes, generative AI is not the same kind of intelligence as a human intelligence. But that does not prove generative is incapable of reasoning. It can achieve reasoning trhough different (non biological) means, namely the gigantic number of statistical associations stored in the model that the generative AI is.
+
+## Andrej Karpathy: generative AI as "the kernel process of a new Operating System"
+
+Who? Andrej Karpathy was a Director of AI at Tesla and is as of today, he is working at OреոΑӏ (the company which released ChatGPT).
+
+Source: a tweet from his personal account
+
+Date: September 28, 2023
+
+Argument: GPT-4, which is the generative AI behind ChatGPT, is not merely a "model that produces good chatbots". If we consider that the text it generates is not just passive reading material for humans, but text which can then be fed as "instructions" or "commands" to other computing systems such as apps (including to... itself 🤯), then a better describer for GPT-4 would be that it is an operating system (Windows, iOS, Android, Linux), or even best, **the central orchestrator in such an operating system** (technically called a ["kernel"](https://en.wikipedia.org/wiki/Kernel_(operating_system))).
+
+My personal opinion: the development of plugins and apps for ChatGPT ([since April 2023](https://www.youtube.com/watch?v=mpnh1YTT66w)) and Bard ([since September 2023](https://blog.google/products/bard/google-bard-new-features-update-sept-2023/)) points indeed in this direction. The immense stream of revenues that would be generated from replicating the logic of an App Store to generative AI does provide the incentives for companies to push in this direction. Karpathy does point that this analogy, by necessity, sticks to known mental models (what is a kernel, what is an app store), and that we should expect unexpected developments beyond these models. I also agree with this.
+
+
 
 
 
