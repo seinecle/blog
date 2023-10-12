@@ -65,7 +65,7 @@ A tweet from his personal account
 Date: September 28, 2023
 
 ### Argument
-GPT-4, which is the generative AI behind ChatGPT, is not merely a "model that produces good chatbots". If we consider that the text it generates is not just passive reading material for humans, but text which can then be fed as "instructions" or "commands" to other computing systems such as apps (including to... itself 🤯), then a better describer for GPT-4 would be that it is an operating system (Windows, iOS, Android, Linux), or even best, **the central orchestrator in such an operating system** (technically called a ["kernel"](https://en.wikipedia.org/wiki/Kernel_(operating_system))).
+GPT-4, which is the generative AI behind ChatGPT, is not merely a "model that produces good chatbots". If we consider that the text it generates is not just passive reading material for humans, but text which can then be fed as "instructions" or "commands" to other computing systems such as apps (including to... itself 🤯), then a better describer for GPT-4 would be that it is an operating system (à la Windows, iOS, Android, Linux), or even best, **the central orchestrator in such an operating system** (technically called a ["kernel"](https://en.wikipedia.org/wiki/Kernel_(operating_system))).
 
 ### My personal opinion
 The development of plugins and apps for ChatGPT ([since April 2023](https://www.youtube.com/watch?v=mpnh1YTT66w)) and Bard ([since September 2023](https://blog.google/products/bard/google-bard-new-features-update-sept-2023/)) points indeed to this model.
