@@ -29,6 +29,9 @@ Let us not forget that of course, each of them have a stake in the debate, and t
 # The visions (in no particular order)
 
 ## Noam Chomsky: generative AI is not true intelligence
+
+Who? [Noam Chomsky](https://en.wikipedia.org/wiki/Noam_Chomsky), contributor to linguistics in the second half of the XXth century and public intellectual.
+
 Source: op-ed in the New York Times: ["Noam Chomsky: The False Promise of ChatGPT"](https://www.nytimes.com/2023/03/08/opinion/noam-chomsky-chatgpt-ai.html)
 
 Date: March 8, 2023 ([full version in pdf](https://drive.google.com/file/d/1kuggyRlT5eqlqqZ0ad25CpdAvXvetMbi/view)).
@@ -47,7 +50,7 @@ My personl opinion: I tend to flatly disagree with Chomsky here, which is embarr
 
 ## Andrej Karpathy: generative AI as "the kernel process of a new Operating System"
 
-Who? Andrej Karpathy was a Director of AI at Tesla and is as of today, he is working at OреոΑӏ (the company which released ChatGPT).
+Who? [Andrej Karpathy](https://en.wikipedia.org/wiki/Andrej_Karpathy) was a Director of AI at Tesla and is as of today, he is working at OреոΑӏ (the company which released ChatGPT).
 
 Source: a tweet from his personal account
 
@@ -56,6 +59,21 @@ Date: September 28, 2023
 Argument: GPT-4, which is the generative AI behind ChatGPT, is not merely a "model that produces good chatbots". If we consider that the text it generates is not just passive reading material for humans, but text which can then be fed as "instructions" or "commands" to other computing systems such as apps (including to... itself 🤯), then a better describer for GPT-4 would be that it is an operating system (Windows, iOS, Android, Linux), or even best, **the central orchestrator in such an operating system** (technically called a ["kernel"](https://en.wikipedia.org/wiki/Kernel_(operating_system))).
 
 My personal opinion: the development of plugins and apps for ChatGPT ([since April 2023](https://www.youtube.com/watch?v=mpnh1YTT66w)) and Bard ([since September 2023](https://blog.google/products/bard/google-bard-new-features-update-sept-2023/)) points indeed in this direction. The immense stream of revenues that would be generated from replicating the logic of an App Store to generative AI does provide the incentives for companies to push in this direction. Karpathy does point that this analogy, by necessity, sticks to known mental models (what is a kernel, what is an app store), and that we should expect unexpected developments beyond these models. I also agree with this.
+
+
+## Mustafa Suleyman: containment is needed
+
+Who? [Mustafa Suleyman](https://en.wikipedia.org/wiki/Mustafa_Suleyman) was the cofounder of DeepMind, which developed the system that beat the best player at the game of Go. He then become vice president of AI product management and AI policy at Google. he is now co-founder and CEO of Inflection AI.
+
+Source: a tweet from his personal account
+
+Date: September 28, 2023
+
+Argument: GPT-4, which is the generative AI behind ChatGPT, is not merely a "model that produces good chatbots". If we consider that the text it generates is not just passive reading material for humans, but text which can then be fed as "instructions" or "commands" to other computing systems such as apps (including to... itself 🤯), then a better describer for GPT-4 would be that it is an operating system (Windows, iOS, Android, Linux), or even best, **the central orchestrator in such an operating system** (technically called a ["kernel"](https://en.wikipedia.org/wiki/Kernel_(operating_system))).
+
+My personal opinion: the development of plugins and apps for ChatGPT ([since April 2023](https://www.youtube.com/watch?v=mpnh1YTT66w)) and Bard ([since September 2023](https://blog.google/products/bard/google-bard-new-features-update-sept-2023/)) points indeed in this direction. The immense stream of revenues that would be generated from replicating the logic of an App Store to generative AI does provide the incentives for companies to push in this direction. Karpathy does point that this analogy, by necessity, sticks to known mental models (what is a kernel, what is an app store), and that we should expect unexpected developments beyond these models. I also agree with this.
+
+
 
 
 
