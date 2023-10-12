@@ -30,7 +30,7 @@ Let us not forget that of course, each of them have a stake in the debate, and t
 
 ## Noam Chomsky: generative AI is not true intelligence
 
-Who? [Noam Chomsky](https://en.wikipedia.org/wiki/Noam_Chomsky), contributor to linguistics in the second half of the XXth century and public intellectual.
+Who? [Noam Chomsky](https://en.wikipedia.org/wiki/Noam_Chomsky), key contributor to linguistics in the second half of the XXth century and public intellectual.
 
 Source: op-ed in the New York Times: ["Noam Chomsky: The False Promise of ChatGPT"](https://www.nytimes.com/2023/03/08/opinion/noam-chomsky-chatgpt-ai.html)
 
@@ -50,7 +50,7 @@ My personl opinion: I tend to flatly disagree with Chomsky here, which is embarr
 
 ## Andrej Karpathy: generative AI as "the kernel process of a new Operating System"
 
-Who? [Andrej Karpathy](https://en.wikipedia.org/wiki/Andrej_Karpathy) was a Director of AI at Tesla and is as of today, he is working at OреոΑӏ (the company which released ChatGPT).
+Who? [Andrej Karpathy](https://en.wikipedia.org/wiki/Andrej_Karpathy) was a Director of AI at Tesla and as of today, he is working at OреոΑӏ (the company which released ChatGPT).
 
 Source: a tweet from his personal account
 
@@ -63,20 +63,35 @@ My personal opinion: the development of plugins and apps for ChatGPT ([since Apr
 
 ## Mustafa Suleyman: containment is needed
 
-Who? [Mustafa Suleyman](https://en.wikipedia.org/wiki/Mustafa_Suleyman) was the cofounder of DeepMind, which developed the system that beat the best player at the game of Go. He then become vice president of AI product management and AI policy at Google. he is now co-founder and CEO of Inflection AI.
+Who? [Mustafa Suleyman](https://en.wikipedia.org/wiki/Mustafa_Suleyman) was the cofounder of DeepMind which developed AlphaGo, the system that beat the best player at the game of Go in 2015. He then become vice president of AI product management and AI policy at Google. he is now co-founder and CEO of Inflection AI.
 
-Source: a tweet from his personal account
+Source: "The Coming Wave", a book praised by a vast array of scientists, entrepreneurs and key opinion leaders.
+
+![image](https://github.com/seinecle/blog/assets/1244100/745f71bc-31af-4590-a535-f38fdbfcde49)
+
+Date: September 2023
+
+Argument: Generative AI will cause major disruptions at the societal level in the short term (5 to 10 years). The reason is that generative AI enables to develop intelligent agents at low cost and "en masse". Dilemna: this will probably create many good things, however it will be very hard to contain its nefarious uses because software is harder to trace than say, nuclear material.
+
+My personal opinion: Suleyman's argument is of course richer than the summary above, and includes descriptions of the risk of cheap synthetic biology, too. I personally agree with the arguments of the book, even if they sound dramatic. It is pretty pessimistic in the sense that it does not cheer up with an easy solution to the problems (the catastrophies, really) that he lays out. "Containment" is the general direction he advocates, but impossible to do or if done at full force, that would be at the price of our personal liberties (states tightly controlling what individuals do with IT).
+
+## Jony Ive: the new iPhone?
+
+Who? [Jony Ive]([https://en.wikipedia.org/wiki/Mustafa_Suleyman](https://en.wikipedia.org/wiki/Jony_Ive)) was Apple's lead designer from to 2015 to 2019, and contributed centrally to designing the series of iPhones.
+
+Source: ["OpenAI and Jony Ive in talks to raise $1bn from SoftBank for AI device venture"](https://www.ft.com/content/4c64ffc1-f57b-4e22-a4a5-f9f90a7419b7), published by the Financial Times.
+
+![image](https://github.com/seinecle/blog/assets/1244100/f542e191-4197-42cf-8841-f4c2f718a4d7)
 
 Date: September 28, 2023
 
-Argument: GPT-4, which is the generative AI behind ChatGPT, is not merely a "model that produces good chatbots". If we consider that the text it generates is not just passive reading material for humans, but text which can then be fed as "instructions" or "commands" to other computing systems such as apps (including to... itself 🤯), then a better describer for GPT-4 would be that it is an operating system (Windows, iOS, Android, Linux), or even best, **the central orchestrator in such an operating system** (technically called a ["kernel"](https://en.wikipedia.org/wiki/Kernel_(operating_system))).
+Argument: ChatGPT opens a new era for user interactions, which feel different from the user interactions on mobile phones we have been used to: typing a prompt, reading the answer, and acting on it, is quite different from interacting with apps at the tap of our fingers. **This is very conditional**: Jony Ive **would be** talking to OpenAI and Softbank on the development of a device that would actually fit this new type of user interaction, and would deliver a better user experience than the textual chat interface which is now largely dominating our interactions with generative AI.
 
-My personal opinion: the development of plugins and apps for ChatGPT ([since April 2023](https://www.youtube.com/watch?v=mpnh1YTT66w)) and Bard ([since September 2023](https://blog.google/products/bard/google-bard-new-features-update-sept-2023/)) points indeed in this direction. The immense stream of revenues that would be generated from replicating the logic of an App Store to generative AI does provide the incentives for companies to push in this direction. Karpathy does point that this analogy, by necessity, sticks to known mental models (what is a kernel, what is an app store), and that we should expect unexpected developments beyond these models. I also agree with this.
+My personal opinion: yes there is definitely a need for it. It feels so quaint to type long questions on the keyboard, and see the textual response. *Voicing* a prompt would seem the natural way: quicker, less formal than writing, and more precise because we could hesitate and rephrase while prompting. Choosing the format of the output would seem natural, too. Voice, text, writing to a file, searching a document on the phone and displaying it, or executing a command (opening and using an app, checking an agenda, sending an email, etc). A couple of random thoughts:
 
-
-
-
-
+- personal conversational assistants, such as Siri or Alexa, seem like the natural starting point for such an interface
+- a difficult issue is the use of voice in public space: we are all texting while commuting for instance, but I am pretty sure we are not ready to interact by speaking aloud to our phones while in the bus or subway. Thinking of that freely, I was thinking that "mumbling as an interface" might then become a thing. You would mumble or murmure to your phone when interacting with it in public spaces. It paints a grim picture of our social interactions 😬 but it could solve the issue of voice interactions.
+- SoftBank being involved as an investor in this potential project [sounds like the kiss of death 😅](https://www.ft.com/content/0e375355-85c7-4c4e-87fc-5e73ac268196).
 
 
 # About me
