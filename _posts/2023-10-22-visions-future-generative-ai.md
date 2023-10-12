@@ -109,7 +109,6 @@ Source: several tweets, retweets and posts on LinkedIn:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The heretofore silent majority of AI scientists and engineers who<br>- do not believe in AI extinction scenarios or<br>- believe we have agency in making AI powerful, reliable, and safe and<br>- think the best way to do so is through open source AI platforms<br>NEED TO SPEAK UP ! <a href="https://t.co/geptca8idf">https://t.co/geptca8idf</a></p>&mdash; Yann LeCun (@ylecun) <a href="https://twitter.com/ylecun/status/1711780316652990766?ref_src=twsrc%5Etfw">October 10, 2023</a></blockquote>
 
-
 Date: September - October 2023
 
 Argument: The claims of an existential risk to humanity (posed by generative AI) are greatly exaggerated. Exagerated as well are the claims that AI, even when not AGI, is bound to cause severe troubles. Instead, what the future holds if we choose it, is an economy where companies and organizations develop and use special purpose AI models (generative or not), trained on datasets which reflect the particularities of their local context. The sharing of open source models of AI is one guarantee that AI becomes available to all and stays under the scrutiny of all.
@@ -118,8 +117,9 @@ My personal opinion: I tend not to be convinced by this argument, for at least t
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Having worked on conversational AI in the past, I think that with the current capabilities, we should strongly discourage &amp; warn about the anthropomorphism and leverage of psychology patterns of users by chatbots. <br><br>For thousands of years, we&#39;ve been used to be able to have good… <a href="https://t.co/umlPKFq85M">https://t.co/umlPKFq85M</a></p>&mdash; clem 🤗 (@ClementDelangue) <a href="https://twitter.com/ClementDelangue/status/1710349025793159338?ref_src=twsrc%5Etfw">October 6, 2023</a></blockquote> 
 
-The second reason for not being convinced by the alternative vision of companies each training localized versions of smaller LLMs, instead of using one general-purpose, expensive GPT-4: the argument sounds like a straight defense of the business model of Hugging Face, which is about hosting a large number of models, as opposed to one hegemonic Bard or ChatGPT. In my personal experience using ChatGPT or Bard, it is very hard to scale down to less powerful models once you have experienced the quality of their seemingly near perfect human interaction.
+The second reason for not being convinced by the alternative vision of companies each training localized versions of open source, smaller LLMs, instead of using one general-purpose, expensive and private GPT-4: the argument sounds like a straight defense of the business model of Hugging Face, which is about hosting a large number of models, as opposed to one hegemonic Bard or ChatGPT. In my personal experience using ChatGPT or Bard, it is very hard to scale down to less powerful models once you have experienced the quality of their seemingly near perfect human interaction.
 
+So we'll see where things go. The terms of the argument ("specialized models because trained on local datasets" vs general models) might well evolve: what if OpenAI would offer versions of GPT-4 that you could then train and specialize on extra datasets? (if they don't already?). That would make the alternative void (either ChatGPT or less powerful models on Hugging Face).
 
 
 
