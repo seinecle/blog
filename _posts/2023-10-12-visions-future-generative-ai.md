@@ -123,11 +123,13 @@ Yes there is definitely a need for a new type of interface. It feels so quaint t
 [Clement Delangue](https://www.linkedin.com/in/clementdelangue/) is co-founder & CEO at [Hugging Face](https://en.wikipedia.org/wiki/Hugging_Face), the company which made it so much easier to train, host and share models in AI - including in generative AI.
 
 ### Source
-Several tweets, retweets and posts on LinkedIn:
+These posts on LinkedIn:
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7117498531065511937" allowfullscreen="" title="Embedded post" width="504" height="399" frameborder="0"></iframe>
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7112524133564870657" allowfullscreen="" title="Embedded post" width="504" height="588" frameborder="0"></iframe>
+
+And a repost by Clément Delangue of this post by Yann Le Cun, Chief AI Scientist at Meta: 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The heretofore silent majority of AI scientists and engineers who<br>- do not believe in AI extinction scenarios or<br>- believe we have agency in making AI powerful, reliable, and safe and<br>- think the best way to do so is through open source AI platforms<br>NEED TO SPEAK UP ! <a href="https://t.co/geptca8idf">https://t.co/geptca8idf</a></p>&mdash; Yann LeCun (@ylecun) <a href="https://twitter.com/ylecun/status/1711780316652990766?ref_src=twsrc%5Etfw">October 10, 2023</a></blockquote>
 
@@ -139,7 +141,7 @@ The claims of an existential risk to humanity (posed by generative AI) are great
 ### My personal opinion
 I tend not to be convinced by this argument, for at least two reasons.
 
-The first is that there are scenarios of generative AI getting super dangerous, which can't be evacuated by the argument above. Autononous weapons on the battle field? [That seems pretty likely](https://www.defensenews.com/unmanned/2023/10/09/us-army-developing-integrated-formations-of-robots-and-humans/). Exploitation of the attention and emotions of customers, for the sake of the generation of ad revenues, with content / apps / bots powered by generative AI? Seems likely to me as well. Clement Delangue seems worried as well, actually:
+The first is that there are scenarios of generative AI getting super dangerous, which can't be evacuated by the argument above. Autonomous weapons on the battle field? [That seems pretty likely](https://www.defensenews.com/unmanned/2023/10/09/us-army-developing-integrated-formations-of-robots-and-humans/). Exploitation of the attention and emotions of customers, for the sake of the generation of ad revenues, with content / apps / bots powered by generative AI? Seems likely to me as well. Clement Delangue seems worried as well, actually:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Having worked on conversational AI in the past, I think that with the current capabilities, we should strongly discourage &amp; warn about the anthropomorphism and leverage of psychology patterns of users by chatbots. <br><br>For thousands of years, we&#39;ve been used to be able to have good… <a href="https://t.co/umlPKFq85M">https://t.co/umlPKFq85M</a></p>&mdash; clem 🤗 (@ClementDelangue) <a href="https://twitter.com/ClementDelangue/status/1710349025793159338?ref_src=twsrc%5Etfw">October 6, 2023</a></blockquote> 
 
