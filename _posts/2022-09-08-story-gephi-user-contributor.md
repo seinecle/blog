@@ -60,8 +60,8 @@ Being completely new to the field of social network analysis, my first impulse w
 The founding team of Gephi - thanks to them!
 
 <div align="center">
-   <img src="https://seinecle.github.io/gephi-tutorials/generated-html/images/initial-team.png" title="The founding team of Gephi" width="500px"/>
-</div>                                                                                                                                  
+   <img src="https://seinecle.github.io/gephi-tutorials/generated-html/history-en.adoc/images/initial-team.png" title="The founding team of Gephi" width="500px"/>
+</div>                                                                                                                      
 
 By the way, it is pretty common for historians to have a similar epiphany with the visualization of networks, and Gephi is a very popular tool in the digital humanities.
 
@@ -182,6 +182,6 @@ The [tutorials for Gephi](https://seinecle.github.io/gephi-tutorials/) I have wr
 [Nocode functions](https://nocodefunctions.com) 🔎, the web app that that can also serve the needs of the community of Gephi users. It is [fully open source](https://github.com/seinecle/nocodefunctions).
 Try it and give some feedback, I would appreciate it!
 
-* my email: [admin@clementlevallois.net](mailto:admin@clementlevallois.net) 📧
+* my email: [analysis@exploreyourdata.com](mailto:analysis@exploreyourdata.com) 📧
 * or on Twitter: [@seinecle](https://twitter.com/seinecle) 📱
 * you can also read [the other articles of this blog](https://nocodefunctions.com/blog) 👓, where I write about my journey as a social scientist and app developer.
