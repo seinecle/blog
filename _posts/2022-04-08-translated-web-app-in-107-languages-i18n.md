@@ -10,7 +10,7 @@ categories: [localization, internationalization, java]
 
 _The web app is originally developed in English. Now it can be visited in any of the 107 languages offered by Google Translate and DeepL_
 
-# An inspiration: Patrich Chew from Change.org
+# An inspiration: Patrick Chew from Change.org
 
 Early March, I was in San Francisco to guide the 120+ students of the [MSc degree](https://masters.em-lyon.com/en/msc-in-digital-marketing-data-science) I manage at [emlyon business school](https://em-lyon.com/en).
 
