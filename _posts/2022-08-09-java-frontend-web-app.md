@@ -15,13 +15,13 @@ Please excuse the at-times sloppy vocabulary.*
 
 Using Java for front-end development is often thought to be just impossible: Java is for heavy backend stuff, right?
 
-Yes, a long time ago, [Java Applets](https://en.wikipedia.org/wiki/Java_applet) and [Java Webstart](https://en.wikipedia.org/wiki/Java_Web_Start) enabled java apps to be launched from the browser. But this is [ancient history](https://www.slideshare.net/HendrikEbbers/java-webstart-is-dead-what-should-we-do-now), as old as the Flash plugin 💀.
+Yes, a long time ago, [Java Applets](https://en.wikipedia.org/wiki/Java_applet) and [Java Webstart](https://en.wikipedia.org/wiki/Java_Web_Start) enabled Java apps to be launched from the browser. But this is [ancient history](https://www.slideshare.net/HendrikEbbers/java-webstart-is-dead-what-should-we-do-now), as old as the Flash plugin 💀.
 
 Even without applets, there is still a way to use Java for the front end: this is JSP or "Java Server Pages", which many computer science students learned at school.
 Even if JSP is still discussed in some books on Java for the web (eg [1](https://www.amazon.com/Java-Jakarta-Recipes-Problem-Solution-Enterprise-ebook/dp/B0B6Z9JTNH), [2](https://www.amazon.com/Beginning-Jakarta-Web-Development-Applications/dp/1484258657)), it is outdated [since the 2010s](https://odoepner.wordpress.com/2015/03/11/is-jsp-an-unsupported-deprecated-part-of-jee/). Another dead end 💀 😔. 
 
 Last, there are frameworks that enable Java developers to "transpile" (convert in a complicated way) their code into Javascript thanks to the Google Web Toolkit (GWT, [not super fresh](https://groups.google.com/g/google-web-toolkit/c/FeEI0Rl7cyw/m/OU0HHvxtBQAJ?pli=1)) or the up-and-coming [J2Cl project](https://github.com/google/j2cl) (also by Google, very active).
-GWT and J2Cl however are not meant as a beginner-friendly frameworks, they are more of enterprise toolings developed by Google, to be used by big projects in companies.
+GWT and J2Cl however are not meant as beginner-friendly frameworks, they are more of enterprise toolings developed by Google, to be used by big projects in companies.
 
 # The unsung hero 🌈 of Java for the front-end: Jakarta Faces (JSF)!
 
