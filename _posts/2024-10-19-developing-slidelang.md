@@ -19,6 +19,7 @@ Because as a professor, I needed to translate a Powerpoint presentation containi
 Not for my need:
 
 || [DeepL](https://www.deepl.com/fr/pro)    | [Google translate](https://support.google.com/translate/answer/2534559?ref_topic=7011659&hl=en) |  [slidelang](https://alpha.slidelang.com/) |
+| --------| --------| -------- | ------- |
 |Max size|30 Mb 😲 |10 Mb 😲 |no limit 😄|
 |Max number of translations per month| 100  | ?    | no limit    |
 |Price| $50 / month | free     |  free for now   |
