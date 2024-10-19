@@ -13,7 +13,7 @@ This is a very short blog post about [slidelang](https://alpha.slidelang.com/), 
 It is an app that translates Powerpoint documents.
 
 # Why did I start developing it?
-Because as a professor, I needed to translate a Powerpoint presentation containing my course on data science and AI, that contains ~ 300 slides. I found no solution on the market to do it.
+Because as a professor, I needed to translate [my course on data science and AI from English to French](https://docs.google.com/presentation/d/1RIK6Qb_wufbdJayJn9EWMocfBBIHU__Ux_XIbDh7jCI). It is a Google Slide that contains ~ 300 slides. I found no solution on the market to do it.
 
 # But DeepL, Google Translate... do it already?
 Not for my need:
@@ -27,6 +27,11 @@ Not for my need:
 |Preserves layout| yes    | yes    | yes    |
 |Quality of translation|excellent    |excellent    |excellent    |
 
+# Does it work well?
+I let you judge for yourself:
+- my course in English as a pptx file (130 Mb, 307 slides)
+- the translation in French (
+
 # How does it work?
 The translation is managed by calls to the OpenAI API. The preservation of the layout is achieved with a complex programmatic process that I designed.
 
@@ -34,7 +39,7 @@ The translation is managed by calls to the OpenAI API. The preservation of the l
 No so enjoy it now! I'll create plans that are super cheap compared to what DeepL offers.
 
 # Next
-[slidelang](https://alpha.slidelang.com/) is available, up and running. I develop it slowly but surely, aiming to add amazing, useful features. Coming first: translation of Google Slides, OpenOffice formats.
+[slidelang](https://alpha.slidelang.com/) is available, up and running. I develop it slowly but surely, aiming to add amazing, useful features. Coming first: better progess bar, translation of Google Slides, OpenOffice formats.
 
 # About me
 I am academic and independent web app developer. Besides slidelang, I build [nocode functions](https://nocodefunctions.com) 🔎, a free click and point web app to explore texts and networks. It is [fully open source](https://github.com/seinecle/nocodefunctions). Try it and give some feedback, I would appreciate it!
