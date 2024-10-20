@@ -29,8 +29,10 @@ Not for my need:
 
 # Does it work well?
 I let you judge for yourself:
-- my course in English as a pptx file (132 Mb, 307 slides)
-- the translation in French
+- [my course in English as a pptx file (132 Mb, 307 slides)](https://docs.google.com/presentation/d/1DccGhUM99qPP_vp0Y569HcmaRXvZyWmE/edit?usp=sharing&ouid=105103410331114692786&rtpof=true&sd=true)
+- [the translation in French](https://docs.google.com/presentation/d/1D_XD8IJTDtFqXSq2880RDmelHruQjrhz/edit?usp=sharing&ouid=105103410331114692786&rtpof=true&sd=true)
+
+The translation took 12 minutes. I am working at making it faster.
 
 # How does it work?
 The translation is managed by calls to the OpenAI API. The preservation of the layout is achieved with a complex programmatic process that I designed.
