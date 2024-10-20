@@ -20,7 +20,7 @@ Not for my need:
 
 || [DeepL](https://www.deepl.com/fr/pro)    | [Google translate](https://support.google.com/translate/answer/2534559?ref_topic=7011659&hl=en) |  [slidelang](https://alpha.slidelang.com/) |
 | --------| --------| -------- | ------- |
-|Max size|30 Mb 😲 |10 Mb 😲 |no limit 😄|
+|Max size|30 Mb 😲 |10 Mb 😲 |300Mb 😄|
 |Max number of translations per month| 100  | ?    | no limit    |
 |Price| $50 / month | free     |  free for now   |
 |Uses your data to train their models?|no | unclear (probably yes)     |  no   |
@@ -29,8 +29,8 @@ Not for my need:
 
 # Does it work well?
 I let you judge for yourself:
-- my course in English as a pptx file (130 Mb, 307 slides)
-- the translation in French (
+- my course in English as a pptx file (132 Mb, 307 slides)
+- the translation in French
 
 # How does it work?
 The translation is managed by calls to the OpenAI API. The preservation of the layout is achieved with a complex programmatic process that I designed.
