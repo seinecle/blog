@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Developing slidelang, a translator for slides
+title: Developing slidelang, a translator for slides without a limit in file size.
 permalink: /developing-slidelang/
-published: false
+published: true
 date_readable:               Oct 19, 2024
 last_modified_at_readable:   Oct 19, 2024
 categories: [chatgpt,llm,development,slidelang]
@@ -41,7 +41,7 @@ The translation is managed by calls to the OpenAI API. The preservation of the l
 No so enjoy it now! I'll create plans that are super cheap compared to what DeepL offers.
 
 # Next
-[slidelang](https://alpha.slidelang.com/) is available, up and running. I develop it slowly but surely, aiming to add amazing, useful features. Coming first: better progess bar, translation of Google Slides, OpenOffice formats.
+[slidelang](https://alpha.slidelang.com/) is available, up and running. I develop it slowly but surely, aiming to add amazing, useful features. Coming: translation of Google Slides, OpenOffice formats.
 
 # About me
 I am academic and independent web app developer. Besides slidelang, I build [nocode functions](https://nocodefunctions.com) 🔎, a free click and point web app to explore texts and networks. It is [fully open source](https://github.com/seinecle/nocodefunctions). Try it and give some feedback, I would appreciate it!
