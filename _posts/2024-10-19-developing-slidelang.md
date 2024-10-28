@@ -34,7 +34,7 @@ I let you judge for yourself:
 
 The translation took 12 minutes. I am working at making it faster.
 
-*[edit Oct 28, 2024 -> we are downn to 4:30 minutes for 300 slides! 🏎️]*
+*[edit Oct 28, 2024 -> we are down to 4:30 minutes for 300 slides! 🏎️]*
 
 # How does it work?
 The translation is managed by calls to the OpenAI API. The preservation of the layout is achieved with a complex programmatic process that I designed.
