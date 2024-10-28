@@ -33,7 +33,8 @@ I let you judge for yourself:
 - [the translation in French](https://docs.google.com/presentation/d/1D_XD8IJTDtFqXSq2880RDmelHruQjrhz/export/pptx)
 
 The translation took 12 minutes. I am working at making it faster.
-[edit Oct 28, 2024 -> 4:30 minutes for 300 slides! 🏎️]
+
+*[edit Oct 28, 2024 -> we are downn to 4:30 minutes for 300 slides! 🏎️]*
 
 # How does it work?
 The translation is managed by calls to the OpenAI API. The preservation of the layout is achieved with a complex programmatic process that I designed.
