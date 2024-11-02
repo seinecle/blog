@@ -32,9 +32,11 @@ I let you judge for yourself:
 - [my course in English as a pptx file (132 Mb, 307 slides)](https://docs.google.com/presentation/d/1DccGhUM99qPP_vp0Y569HcmaRXvZyWmE/export/pptx)
 - [the translation in French](https://docs.google.com/presentation/d/1D_XD8IJTDtFqXSq2880RDmelHruQjrhz/export/pptx)
 
-The translation took 12 minutes. I am working at making it faster.
+The translation took 12 minutes. I am working at making it faster. 
 
 *[edit Oct 28, 2024 -> we are down to 4:30 minutes for 300 slides! 🏎️]*
+
+*[edit Nov 2, 2024 -> we are down to 1:50 minutes for 300 slides! 🏎️]*
 
 # How does it work?
 The translation is managed by calls to the OpenAI API. The preservation of the layout is achieved with a complex programmatic process that I designed.
