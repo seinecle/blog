@@ -35,7 +35,7 @@ Here's a step-by-step breakdown of how the new simplified approach works:
   
 4. **Customer experience post-purchase**
    - The redirection to the app triggers the storing of the hash for this customer as a cookie for the app.
-   - From now on, pages of the app use this cookie at load time to retrieve the customer information : check that the user has enough credits to access features, display csutomer-specific info, etc.
+   - From now on, pages of the app use this cookie at load time to retrieve the customer information : check that the user has enough credits to access features, display customer-specific info, etc.
    - An item is added to the menu with a link to the billing portal where the user can manage its subscription. 
 
 # Technical Highlights:
