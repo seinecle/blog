@@ -7,7 +7,7 @@ date_readable:               March 10, 2025
 last_modified_at_readable:   March 10, 2025
 categories: [nocodefunctions, development, stripe]
 ---
-Today, I'm thrilled to share how I recently updated my web app, [nocodefunctions.com](https://nocodefunctions.com), adding to a simple, secure, and extremely lightweight approach to user management and payments. Inspired by Pieter Levels ([@levelsio](https://x.com/levelsio)) and closely following the customer management approach he used for [photoai.com](https://photoai.com), my goal was to minimize complexity and maximize security, by offloading nearly all customer management tasks directly to Stripe. This change marks a significant improvement in both the user experience and backend maintainability. Here's an in-depth look at how and why I implemented this approach:
+Today, I'm thrilled to share how I recently updated my web app, [nocodefunctions.com](https://nocodefunctions.com), by adding a secure and lightweight approach to user management and payments. Inspired by Pieter Levels ([@levelsio](https://x.com/levelsio)) and closely following the customer management approach he used for [photoai.com](https://photoai.com), my goal was to minimize complexity and maximize security, by offloading nearly all customer management tasks directly to Stripe. This change marks a significant improvement in both the user experience and backend maintainability. Here's an in-depth look at how and why I implemented this approach:
 
 # Why Simplify?
 
