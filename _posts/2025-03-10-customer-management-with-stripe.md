@@ -11,16 +11,16 @@ Today, I'm thrilled to share how I recently updated my web app, [nocodefunctions
 
 # Why Simplify?
 
-As an indie Java developer balancing a demanding full-time academic career, managing complex user authentication, account security, and billing flows quickly would have been overwhelming. Complex infrastructures not only require substantial maintenance effort but also introduce security vulnerabilities. By leveraging Stripe’s capabilities, I completely eliminated the need to handle sensitive user credentials like passwords or payment details on my servers. Stripe securely manages everything from subscriptions and payments to essential customer metadata.
+As an indie Java developer developping at nights and weekends, managing complex user authentication, account security, and billing flows would have been simply overwhelming. By leveraging Stripe’s capabilities, I completely eliminated the need to handle sensitive user credentials like passwords or payment details on my servers. Stripe securely manages everything from subscriptions and payments to essential customer metadata.
 
 # The Simplified Flow:
 
 Here's a step-by-step breakdown of how the new simplified approach works:
 
-1. **User Interaction**:
+1. **Email sent to the user**:
 
    - Users sign up or log in simply by entering their email address.
-   - Immediately after submission, a unique login link is emailed directly to them—no passwords needed.
+   - This sends them a link to a web page where the 2 paying plans are described. Why this detour, since these plans are already visible [on the front page of the app](https://nocodefunctions.com/#input-email-container-anchor)? The trick is that this allows to populate the links towards the corresponding Stripe checkouts with the email of the person navigating to the page. Simple stuff but that is the essential first step for the Stripe checkout.
 
 2. **Checkout with Stripe**:
 
@@ -32,7 +32,12 @@ Here's a step-by-step breakdown of how the new simplified approach works:
 
    - Upon successful payment, Stripe sends a webhook notification to my backend, with the hash value of the customer. From there on, the hash value or the email of the user will be used to identify / retrieve their info from Stripe.
    - Stripe securely stores critical user information such as email, subscription details, remaining credits, and a unique user hash (identifier).
-   - My application interacts with Stripe through simple API calls, retrieving only necessary information without ever accessing sensitive payment data. Typically, just decrementing the credit amount each time the user makes use of the service.
+   - After payment, Stripe redirects the user to the app.
+  
+4. **Customer experience post-purchase**
+   - The redirection to the app triggers the storing of the hash for this customer as a cookie for the app.
+   - From now on, pages of the app use this cookie at load time to retrieve the customer information : check that the user has enough credits to access features, display csutomer-specific info, etc.
+   - An item is added to the menu with a link to the billing portal where the user can manage its subscription. 
 
 # Technical Highlights:
 
@@ -58,7 +63,7 @@ User gains immediate access via unique hash
 
 This approach significantly improves security by eliminating the storage of passwords and any sensitive financial information, thereby greatly reducing potential security breaches. Additionally, it drastically reduces application complexity, resulting in fewer bugs and easier ongoing maintenance. I have basically 3 classes:
 
-- one class in the front end listing operations with Stripe. These ops are not made by the front end but delegated to a separate backend module.
+- [one class in the front end listing operations with Stripe](https://github.com/seinecle/nocodefunctions-web-app/blob/main/src/main/java/net/clementlevallois/nocodeapp/web/front/stripe/StripeBean.java). These ops are not made by the front end but delegated to a separate backend module.
 - this backend module does what the name of the methods suggest: very basic stuff ("retrieve customer email by hash", "retrieve customer hash by email", "get remaining credits", etc.)
 - this backend has also webhooks: endpoints that receive Stripe push notifications, again very simple stuff: notifcation of customer creation (triggers the creation of a hash and a credit amount for this customer)... that's it. 
 
