@@ -19,7 +19,7 @@ Here's a step-by-step breakdown of how the new simplified approach works:
 
 1. **Email sent to the user**:
 
-   - Users sign up or log in simply by entering their email address.
+   - Users sign up or log in simply by entering their email address on the [front page of the app](https://nocodefunctions.com/#input-email-container-anchor).
    - This sends them a link to a web page where the 2 paying plans are described. Why this detour, since these plans are already visible [on the front page of the app](https://nocodefunctions.com/#input-email-container-anchor)? The trick is that this allows to populate the links towards the corresponding Stripe checkouts with the email of the person navigating to the page. Simple stuff but that is the essential first step for the Stripe checkout.
 
 2. **Checkout with Stripe**:
