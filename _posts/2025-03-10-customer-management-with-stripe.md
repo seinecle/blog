@@ -31,8 +31,7 @@ Here's a step-by-step breakdown of how the new simplified approach works:
 3. **Post-Payment Process**:
 
    - Upon successful payment, Stripe sends a webhook notification to my backend, with the hash value of the customer. From there on, the hash value or the email of the user will be used to identify / retrieve their info from Stripe.
-   - Stripe securely stores critical user information such as email, subscription details, remaining credits, and a unique user hash (identifier).
-   - After payment, Stripe redirects the user to the app.
+   - Stripe redirects the user to the app.
   
 4. **Customer experience post-purchase**
    - The redirection to the app triggers the storing of the hash for this customer as a cookie for the app.
