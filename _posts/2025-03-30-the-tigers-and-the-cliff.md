@@ -1,3 +1,4 @@
+---
 layout: post
 title: Attention, Laptops and Generative AI in the Classroom
 permalink: /attention-laptops-generative-ai-classroom/
