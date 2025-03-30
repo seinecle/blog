@@ -23,6 +23,8 @@ Another article from 2019 makes a similar argument for electronic devices: [usin
 # Removing Generative AI and Electronic Devices from the Classroom?
 Here I shift from summarizing research to sharing my personal experience. I spent 10 years conducting studies and research in the history and sociology of science, followed by 10 years as a professor at a business school, and now I serve as the head of department at a school of visual arts (with a focus on interactive design and video games). I am also deeply involved in [software development for text mining and network visualization](https://nocodefunctions.com/) and [teaching about generative AI](https://ai-for-professionals.com/).
 
+![andrew-neel-ute2XAFQU2I-unsplash](https://github.com/user-attachments/assets/6876a822-f27d-4d5e-8c84-583bd1085366)
+
 ## Preserving and Training Students' Attention: <u>Defensive</u> Measures
 I have witnessed students completely losing focus due to their use of smartphones and laptops in class. In one instance, while teaching in a classroom that had a window panel connecting to an adjacent room, I could see that while the professor was actively engaging students—pointing at the blackboard and encouraging participation— her students were silently watching YouTube videos.
 
@@ -46,7 +48,7 @@ I find this exercise particularly effective in illustrating to students what "at
 # Introducing Generative AI in the Classroom with Three Actions  
 *Not as a prompting machine/attention-killer, but as a tool for production*
 
-Generative AI is likely—indeed, I would even say certainly—becoming as fundamental as computers in the professional lives of the students we prepare for graduation. While its integration is still "in progress," there is ample evidence that writing, coding, creating visual assets, and researching topics are increasingly performed with the assistance of generative AI. Heck, I'm using ChatGPT to help me refine [some markdown finesses](https://chatgpt.com/share/67e91600-cfa0-8001-9d7c-2b7ebf69659e) in the formatting of this page, to polish the writing of this blog post (since I am not a native English speaker), and even to create a French version—a task that might otherwise take me an hour but now only takes ten minutes with generative AI.
+Generative AI is likely—indeed, I would even say certainly—becoming as fundamental as computers in the professional lives of the students we prepare for graduation. While its integration is still "in progress," there is ample evidence that writing, coding, creating visual assets, and researching topics are increasingly performed with the assistance of generative AI. Heck, I'm using ChatGPT to help me refine [some markdown finesses](https://chatgpt.com/share/67e91600-cfa0-8001-9d7c-2b7ebf69659e) in the formatting of this page, to polish the writing of this blog post (since I am not a native English speaker), and even to later create a French version—a task that might otherwise take me an hour but now only takes ten minutes with generative AI.
 
 The resolution to the contradiction—where generative AI is seen as both a threat to students' attention and an essential tool—is to treat it as an object of study rather than merely a prompting machine. This can be achieved through three key actions, introduced **as early as possible in the curriculum**:
 
