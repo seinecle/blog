@@ -33,6 +33,7 @@ The article cited above mentions a class exercise performed in art history:
 
 > An exercise that compels students to become aware of the process by which they formulate responses to our prompts is one of the most traditional pedagogical exercises in the art historian’s toolkit. Drimmer has students sit in a dim classroom, look at a work in silence for twenty minutes, and jot their thoughts.  
 The class then reconvenes not only to talk about their observations but also to reflect on what that process was like. They always say, “it’s hard.” Without fail, they articulate how challenging it felt to maintain their focus when they thought they had nothing left to write and then how unexpected it was to be able to work through a barrier of stultification toward discovering more to see, to think about, and to write.
+-- <cite>How We are Not Using AI in the Classroom by Sonja Drimmer & Christopher J. Nygren (ICMA News, 2025)</cite>
 
 
 
