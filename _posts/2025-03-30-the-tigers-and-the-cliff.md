@@ -26,7 +26,13 @@ I have for a long time banned laptops in my classes. "Open your laptop, we are g
 In the context of a class where laptops and desktops are the tools of the trade (Bachelor in game art, Bachelor in interactive design), things are more difficult as laptops can't be switched off. Still, I think that the struggle for cultivating students' attention should be conducted. I am now a faculty admin not a professor in the classroom anymore, so these are suggestions not actions I would take myself:
 
 - tell the students that screen use is in relation to the subject discussed in class, not mindless browsing. Then efforcing this rule.
-- 
+- ban smartphones in the classroom. Students might argue that they take note on it, or that their computer is broken so that they need their smartphone: I would resist these arguments.
+
+These are "defensive" measures. There is a more "active" approach that can be pursued in parallel, which consists in involving the students in the issue: presenting them with the stakes of the loss of attention, and inviting them to train it.
+The article cited above mentions a class exercise performed in art history:
+
+> An exercise that compels students to become aware of the process by which they formulate responses to our prompts is one of the most traditional pedagogical exercises in the art historian’s toolkit. Drimmer has students sit in a dim classroom, look at a work in silence for twenty minutes, and jot their thoughts.  
+The class then reconvenes not only to talk about their observations but also to reflect on what that process was like. They always say, “it’s hard.” Without fail, they articulate how challenging it felt to maintain their focus when they thought they had nothing left to write and then how unexpected it was to be able to work through a barrier of stultification toward discovering more to see, to think about, and to write.
 
 
 
