@@ -11,6 +11,7 @@ Technology in the classroom has become an urgent issue. Laptops or phones in the
 
 # <u>Generative AI</u> in the classroom: robbing students from their attention
 A recent article argues convincingly that [generative AI in the classroom robs students from experiencing "learning"](https://static1.squarespace.com/static/55577d2fe4b02de6a6ea49cd/t/67dfeb8d9ff3a5472a6d719d/1742728078061/Drimmer_Nygren_Not_Using_AI.pdf). Instead of pondering, exploring, reflecting on a subject, students now write a prompt and generate in a click whatever response the teacher was expecting from them.
+
 The authors are very clear about the damage that is causes: a student using generative AI to generate a response is focusing on delivering the content instead of focsuing on experiencing the process of creation, imagination and formation of a judgement leading to the final product. What the student loses in the process can be captured by the term "attention". Students don't attend to the subject, they do not learn to gather and focus their attention on a task for a sustained period of time. This is a catastrophic development, both in terms of the mission of schools and universities to train humans ans citizens as fully formed critical thinkers, but also more pragmatically in terms of vocational prospects: graduates who didn't learn to properly focus and think by themselves will have a hard time perform in complex professional environments.
 
 # <u>Electronic devices</u> in the classroom: robbing students from their attention
