@@ -28,7 +28,9 @@ After 10 years doing research in the history and sociology of science, I spent a
 ![andrew-neel-ute2XAFQU2I-unsplash](https://github.com/user-attachments/assets/6876a822-f27d-4d5e-8c84-583bd1085366)
 
 ## Preserving and Training Students' Attention: <u>Defensive</u> Measures
-I’ve seen firsthand how devices can derail student focus. Once, while teaching, I could see into the adjacent classroom through a window panel in the wall. From where I stood, I could see students’ screens—and even though the teacher was actively engaging them, pointing at the board and prompting discussion, they were quietly watching YouTube.
+I’ve seen firsthand how devices can derail student focus in my own classes. And once—anecdotally—I saw it happen in another. While I was teaching, I could see into the adjacent classroom through a window panel in the wall. From where I stood, I could see students’ screens—and even though the teacher was actively engaging them, pointing at the board and prompting discussion, they were quietly watching YouTube on mute.
+
+That moment stuck with me. It made me realize how blissfully unaware we can be as teachers, believing that our energy and motivation alone are enough to keep students from getting distracted by their screens.
 
 I’ve long banned laptops in my classes—and never went back. I would say, “Open your laptop—we’re going to do an exercise that requires accessing online resources,” and then, “The exercise is now over; please close your laptop.” This worked, though not without resistance. Sometimes I was too tired to call out students glancing at their phones in their laps. I even once scolded a student for using their phone under the desk—only to realize they were just picking their nails. Embarrassing, but the overall result was clear: students were paying attention.
 
