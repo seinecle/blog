@@ -36,7 +36,7 @@ I’ve long banned laptops in my classes—and never went back. I would say, “
 
 In programs where laptops or desktops are essential tools—like game art or interactive design—enforcing this is more complex. You can't just shut the computers off. Still, the effort to cultivate focus must continue. Now that I'm in an administrative role, I suggest rather than enforce. Here are a few rules of thumb:
 
-- **Enforce focused screen use:** Make it clear that screens must be used only for class-related tasks—and follow through on that policy.
+- **Enforce focused screen use:** Make it clear that screens must be used only for class-related tasks—and follow through on that policy. No need for screens? Shut it down.
 - **Ban smartphones in class:** Even if students claim they need them for notes or due to a malfunctioning laptop, stay firm.
 - **Accommodate disabilities:** Naturally, make the appropriate exceptions for students who need devices for accessibility.
 
@@ -73,7 +73,7 @@ So, imagine this scenario: students are assigned a creative essay or a design br
 
 My proposal:
 
-- **Precondition 1:** Generative AI has been introduced as a topic earlier in the curriculum.
+- **Precondition 1:** Generative AI has been introduced as a topic earlier in the curriculum, from a cultural / humanities standpoint.
 - **Precondition 2:** Students have been taught how to use it effectively and responsibly.
 - **Assignment policy:** Don’t fully allow or fully ban it. Allow specific uses, and prohibit others.
 
