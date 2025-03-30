@@ -23,7 +23,7 @@ Another article from 2019 makes a similar argument about electronic devices: [us
 # Removing Generative AI and Electronic Devices from the Classroom?
 Now, shifting from a couple of readings to personal experience.
 
-After 10 years doing research in the history and sociology of science, I spent another 10 as a business school professor. I now head a department at a visual arts school focused on interactive design and video games. I'm also deeply involved in [software development for text mining and network visualization](https://nocodefunctions.com/) and [teaching about generative AI](https://ai-for-professionals.com/).
+After 10 years doing research in the history and sociology of science, I spent another 10 as a business school professor. I now head two departments at a visual arts school focused on interactive design and video games. I'm also deeply involved in [software development for text mining and network visualization](https://nocodefunctions.com/) and [teaching about generative AI](https://ai-for-professionals.com/).
 
 ![andrew-neel-ute2XAFQU2I-unsplash](https://github.com/user-attachments/assets/6876a822-f27d-4d5e-8c84-583bd1085366)
 
