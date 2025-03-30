@@ -77,7 +77,13 @@ My proposal:
 - **Precondition 2:** Students have been taught how to use it effectively and responsibly.
 - **Assignment policy:** Don’t fully allow or fully ban it. Allow specific uses, and prohibit others.
 
-Writing a list of permitted and banned uses is tough. One pragmatic approach: specify what’s not allowed, and require students to document how they used generative AI. It may sound bureaucratic—but it’s more realistic than either extreme.
+Writing a list of permitted and banned uses is tough. One pragmatic approach: specify what’s not allowed, and require students to document how they used generative AI. For instance:
+
+- OK to use generative AI for research, ideation spell check, revision of style
+- OK to use generative AI for post production on visual assets (upscaling, filters...)
+- NOT OK for the drafting / writing of text or the production of the visual.
+
+It may sound bureaucratic—but it’s more realistic than either extreme.
 
 # Conclusion
 This post was inspired by conversations at my workplace and recent discussions [on Bluesky](https://bsky.app/profile/disabilitystor1.bsky.social/post/3llhkutjz7k2q) and [on Twitter](https://x.com/HKBradshaw/status/1906031696794796196). I’d love to continue the discussion!
