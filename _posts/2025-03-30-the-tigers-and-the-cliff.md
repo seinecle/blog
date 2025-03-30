@@ -65,8 +65,8 @@ Consider a common scenario: what should be the policy when an assignment is desi
 
 My proposal is as follows:
 
-- **Precondition:** The curriculum must have introduced generative AI within a culture and humanities class.
-- **Precondition:** The fundamentals of using generative AI should have been taught beforehand.
+- **Precondition 1:** The curriculum must have introduced generative AI within a culture and humanities class.
+- **Precondition 2:** The fundamentals of using generative AI should have been taught beforehand.
 - **For the specific assignment:** Instead of imposing an outright ban or full permission, generative AI should be allowed for certain explicit functions while being disallowed for others.
 
 Drafting a detailed list of which features of generative AI are permitted for each assignment is a complex task. One practical solution is to specify what is explicitly banned and require students to document how they used generative AI. Although this approach may seem bureaucratic, it better addresses the complexity of the issue than a blanket ban or unrestricted authorization.
