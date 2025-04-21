@@ -16,7 +16,7 @@ This video showcases a number of new features detailed below:
 
 
 
-Handling first names better
+# Handling first names better
 
 When crawling news sites like lemonde.fr, you can end up with nodes like “Emmanuel” or “Anne” popping up in the resulting network.
 Not because two people with those names were making headlines, but because many different people named Emmanuel or Anne were mentioned—completely unrelated.
@@ -31,7 +31,8 @@ So:
     “Pierre-Emmanuel Barré” → also stays (if mentioned often enough)
 
 🧹 From now on, isolated first names get cleaned up automatically. Enjoy!
-Fully responsive
+
+# Fully responsive
 
 Nocodefunctions.com is meant to be simple:
 1️⃣ Upload a file or pick a website
@@ -41,7 +42,8 @@ Nocodefunctions.com is meant to be simple:
 It’s something you can totally do from your phone—except, until now, some pages didn’t behave well on mobile.
 
 📲 Good news: all pages now display properly on smartphones. You can analyze and share results on the go—even for entire websites.
-Topics are back
+
+# Topics are back
 
 The “Topic Detection” feature had been down for a few weeks.
 I paused it to take it apart and experiment with building multi-step functions more cleanly.
@@ -49,7 +51,8 @@ I paused it to take it apart and experiment with building multi-step functions m
 I learned a lot—especially about how not to let things spiral into spaghetti code.
 
 🚀 Topic detection is back online, and this refactoring should help unlock more powerful features soon.
-Semantic networks in multiple languages
+
+# Semantic networks in multiple languages
 
 I recently tried analyzing the devoxx.fr website—a well-known dev conference series, with the French edition last week.
 
@@ -59,8 +62,9 @@ Since I had selected "French" as the language, the English pages were misinterpr
 It turned out to be a relatively small lift to support multiple languages instead of just one.
 
 🎌 You can now select more than one language when your input (file or website) is multilingual.
-Check out the cleaned-up graph for devoxx.fr.
-Next steps ✨✨✨
+Check out the [cleaned-up graph for devoxx.fr](https://nocodefunctions.com/user_created_files/vosviewer/index.html?json=public/vosviewer_1786377755738343236.json).
+
+# Next steps ✨✨✨
 
 I’m now working on chaining functions together—surprise: they’ll rely on generative AI.
 
