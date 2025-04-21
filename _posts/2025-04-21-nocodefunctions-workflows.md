@@ -13,7 +13,7 @@ This is an update on the latest improvements for nocodefunctions.com, with a sho
 # The demo
 This video showcases a number of new features detailed below:
 
-<video src="https://github.com/user-attachments/assets/2ae390c6-be1a-402b-9bc2-8d617768630c" controls="controls" style="max-width: 730px;">
+<video src="https://github.com/user-attachments/assets/2ae390c6-be1a-402b-9bc2-8d617768630c" controls="controls" style="max-width: 400px;">
 </video>
 
 
