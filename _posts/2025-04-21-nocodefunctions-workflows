@@ -16,41 +16,56 @@ This video showcases a number of new features detailed below:
 
 
 
-# Handling first names better
-When crawling newspaper website such as lemonde.fr, you might end up with "Emmanuel" or "Anne" appearing as important nodes in the resulting network.
-Not because 2 persons with these first names were making the news this day, but because a number of persons named "Emmanuel" and "Anne" were in the news, but unrelated.
-These first names should then be removed: they are not meaningful except if they appear frequently with another term - a family name, typically.
-For instance "Emmanuel" should be removed, but "Emmanuel Macron" should stay, as well as "Pierre-Emmanuel Barré", if both are frequently mentioned in the web pages.
+Handling first names better
 
-🧹 the removal of isolated first names is now conducted by default. Enjoy!
+When crawling news sites like lemonde.fr, you can end up with nodes like “Emmanuel” or “Anne” popping up in the resulting network.
+Not because two people with those names were making headlines, but because many different people named Emmanuel or Anne were mentioned—completely unrelated.
 
-# Fully responsive
-Nocodefunctions.com is very simple to use: 1️⃣ upload a file or select a website to crawl, 2️⃣ click on "run", 3️⃣ watch on screen / download / share the results.
-Really something that can be done from a browser on your mobile phone. But some web pages of nocodefunctions.com didn't display correctly on smartphones.
+These standalone first names aren’t very meaningful. Unless they appear frequently with something else—usually a last name—they should be removed.
+So:
 
-📲 all web pages of nocodefunctions.com now display correctly on smartphones. You can quickly perform and share semantic analyses (especialy of websites) while on mobile!
+    “Emmanuel” → removed
 
-# Topics are back
-The function "Topic detection" in texts was unavailable for the last weeks.
-I paused this function to tear it apart, and explore with it how multi-steps functions can one day be developed more easily.
-I learned a lot, especially on how NOT to make the web app a mess (spaghetti code) to achieve this objective.
+    “Emmanuel Macron” → stays
 
-🚀 topics detection is back, and hopefully what I learned on the way will pave the way to more complex functions.
+    “Pierre-Emmanuel Barré” → also stays (if mentioned often enough)
 
-# Text in multiple languages for semantic networks
-I experimented with the semantic analyis of the website of devoxx.fr
-Devoxx is a very famous conference series for developers, and #devoxxfr is the French edition of this series that took place last week.
-The result was disappointing because, as it happens, devoxx.fr has web pages in French and English.
-I had selected "French" as the language for the website, and for this reason pages in English were treated as if they were in French - messing up with the detection of stopwords.
-As a result, a lot of English stopwords ("the"... "have"... "a lot" ... etc) were visible in the final graph - not helpful at all.
-Envetually, it was a relatively small development effort to implement multiple languages, instead of just one.
-The results are much cleaner, see the [graph of the devoxx.fr website](https://nocodefunctions.com/user_created_files/vosviewer/index.html?json=public/vosviewer_1786377755738343236.json).
+🧹 From now on, isolated first names get cleaned up automatically. Enjoy!
+Fully responsive
 
-🎌 multiple languages can now be selected, when your input text (files, or website) is multilingual
+Nocodefunctions.com is meant to be simple:
+1️⃣ Upload a file or pick a website
+2️⃣ Click "run"
+3️⃣ Watch, download, or share the results
 
-# Next steps
-I am working on functions that chain several operations. Without a suprise, I am also working at functions that will rely on generative AI capabilities.
-The refactoring work I have done on the Topics detection function (see above) lays the ground for these coming features. Stay tuned and don't hesitate getting touch.
+It’s something you can totally do from your phone—except, until now, some pages didn’t behave well on mobile.
+
+📲 Good news: all pages now display properly on smartphones. You can analyze and share results on the go—even for entire websites.
+Topics are back
+
+The “Topic Detection” feature had been down for a few weeks.
+I paused it to take it apart and experiment with building multi-step functions more cleanly.
+
+I learned a lot—especially about how not to let things spiral into spaghetti code.
+
+🚀 Topic detection is back online, and this refactoring should help unlock more powerful features soon.
+Semantic networks in multiple languages
+
+I recently tried analyzing the devoxx.fr website—a well-known dev conference series, with the French edition last week.
+
+Results were underwhelming. Why? The site mixes French and English.
+Since I had selected "French" as the language, the English pages were misinterpreted—so the stopword filtering failed, and things like “the”, “have”, or “a lot” cluttered the graph.
+
+It turned out to be a relatively small lift to support multiple languages instead of just one.
+
+🎌 You can now select more than one language when your input (file or website) is multilingual.
+Check out the cleaned-up graph for devoxx.fr.
+Next steps ✨✨✨
+
+I’m now working on chaining functions together—surprise: they’ll rely on generative AI.
+
+The refactoring I did on topic detection is a key building block for this.
+More coming soon—stay tuned, and don’t hesitate to reach out!
 
 # About Me
 I’m an academic and independent web app developer. I created [nocode functions](https://nocodefunctions.com) 🔎, a free, point-and-click tool for exploring texts and networks. It’s [fully open source](https://github.com/seinecle/nocodefunctions). Try it out and let me know what you think—I’d love your feedback!
