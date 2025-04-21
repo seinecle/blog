@@ -13,7 +13,9 @@ This is an update on the latest improvements for nocodefunctions.com, with a sho
 # The demo
 This video showcases a number of new features detailed below:
 
-https://github.com/user-attachments/assets/2ae390c6-be1a-402b-9bc2-8d617768630c
+<video src="https://github.com/user-attachments/assets/2ae390c6-be1a-402b-9bc2-8d617768630c" controls="controls" style="max-width: 730px;">
+</video>
+
 
 # 1. Handling first names better
 
