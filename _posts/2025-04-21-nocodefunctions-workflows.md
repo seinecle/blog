@@ -35,8 +35,11 @@ So:
 # Fully responsive
 
 Nocodefunctions.com is meant to be simple:
+
 1️⃣ Upload a file or pick a website
+
 2️⃣ Click "run"
+
 3️⃣ Watch, download, or share the results
 
 It’s something you can totally do from your phone—except, until now, some pages didn’t behave well on mobile.
