@@ -26,7 +26,7 @@ So:
 
     “Emmanuel” → removed
 
-    “Emmanuel Macron” → stays
+    “Emmanuel Macron” → stays (if mentioned often enough)
 
     “Pierre-Emmanuel Barré” → also stays (if mentioned often enough)
 
