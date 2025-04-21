@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Latest improvements to nocodefunctions
-permalink: /nocodefunctions-improvements/
+title: 5 improvements to nocodefunctions
+permalink: /nocodefunctions-5-improvements/
 published: true
 date_readable:               April 21, 2025
 last_modified_at_readable:   April 21, 2025
@@ -13,16 +13,9 @@ This is an update on the latest improvements for nocodefunctions.com, with a sho
 # The demo
 This video showcases a number of new features detailed below:
 
-
-
 https://github.com/user-attachments/assets/2ae390c6-be1a-402b-9bc2-8d617768630c
 
-<video src="https://github.com/user-attachments/assets/2ae390c6-be1a-402b-9bc2-8d617768630c" controls="controls" style="max-width: 730px;">
-</video>
-
-
-
-# Handling first names better
+# 1. Handling first names better
 
 When crawling news sites like lemonde.fr, you can end up with nodes like “Emmanuel” or “Anne” popping up in the resulting network.
 Not because two people with those names were making headlines, but because many different people named Emmanuel or Anne were mentioned—completely unrelated.
@@ -38,7 +31,7 @@ So:
 
 🧹 From now on, isolated first names get cleaned up automatically. Enjoy!
 
-# Fully responsive
+# 2. Fully responsive
 
 Nocodefunctions.com is meant to be simple:
 
@@ -53,7 +46,7 @@ It’s something you can totally do from your phone—except, until now, some pa
 📲 Good news: all pages now display properly on smartphones. You can analyze and share results on the go—even for entire websites.
 The video above was made from my mobile in literally 3 minutes.
 
-# Topics are back
+# 3. Topics are back
 
 The “Topic Detection” feature had been down for a few weeks.
 I paused it to take it apart and experiment with building multi-step functions more cleanly.
@@ -62,7 +55,7 @@ I learned a lot—especially about how not to let things spiral into spaghetti c
 
 🚀 Topic detection is back online, and this refactoring should help unlock more powerful features soon.
 
-# Semantic networks in multiple languages
+# 4. Semantic networks in multiple languages
 
 I recently tried analyzing the devoxx.fr website—a well-known dev conference series, with the French edition last week.
 
@@ -74,7 +67,7 @@ It turned out to be a relatively small lift to support multiple languages instea
 🎌 You can now select more than one language when your input (file or website) is multilingual.
 Check out the [cleaned-up graph for devoxx.fr](https://nocodefunctions.com/user_created_files/vosviewer/index.html?json=public/vosviewer_1786377755738343236.json).
 
-# Next steps ✨✨✨
+# 5. Next steps ✨✨✨
 
 I’m now working on chaining functions together—surprise: they’ll rely on generative AI.
 
