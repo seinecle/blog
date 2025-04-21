@@ -15,6 +15,12 @@ This video showcases a number of new features detailed below:
 
 
 
+https://github.com/user-attachments/assets/2ae390c6-be1a-402b-9bc2-8d617768630c
+
+<video src="https://github.com/user-attachments/assets/2ae390c6-be1a-402b-9bc2-8d617768630c" controls="controls" style="max-width: 730px;">
+</video>
+
+
 
 # Handling first names better
 
@@ -45,6 +51,7 @@ Nocodefunctions.com is meant to be simple:
 It’s something you can totally do from your phone—except, until now, some pages didn’t behave well on mobile.
 
 📲 Good news: all pages now display properly on smartphones. You can analyze and share results on the go—even for entire websites.
+The video above was made from my mobile in literally 3 minutes.
 
 # Topics are back
 
