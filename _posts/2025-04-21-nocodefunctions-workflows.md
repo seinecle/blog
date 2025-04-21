@@ -62,10 +62,9 @@ I recently tried analyzing the [devoxx.fr](https://devoxx.fr) website: a well-kn
 Results were quite bad, because the site mixes French and English.
 Since I had selected "French" as the language, the English pages were misinterpreted: the stopword filtering failed, and things like “the”, “have”, or “a lot” cluttered the graph.
 
-It turned out to be a relatively small lift to support multiple languages instead of just one.
+It turned out to be a relatively small lift to support multiple languages instead of just one. The video above shows the result. You can also check out [cleaned-up graph for devoxx.fr](https://nocodefunctions.com/user_created_files/vosviewer/index.html?json=public/vosviewer_1786377755738343236.json), which is the direct output I got from the analysis.
 
 🎌 You can now select more than one language when your input (file or website) is multilingual.
-Check out the [cleaned-up graph for devoxx.fr](https://nocodefunctions.com/user_created_files/vosviewer/index.html?json=public/vosviewer_1786377755738343236.json).
 
 # 5. Next steps ✨✨✨
 
