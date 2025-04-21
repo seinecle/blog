@@ -1,0 +1,58 @@
+---
+layout: post
+title: Paving the way for workflows in nocodefunctions
+permalink: /nocodefunctions-workflows/
+published: true
+date_readable:               April 21, 2025
+last_modified_at_readable:   April 21, 2025
+categories: [nocodefunctions, llms, development, architecture, refactoring]
+---
+
+This is an update on the latest improvements for nocodefunctions.com, with a short video demo!
+
+# The demo
+This video showcases a number of new features detailed below:
+
+
+
+
+# Handling first names better
+Generating networks from newspapers shows different issues than for scientific articles: first names are mentioned much more frequently in newspapers.
+As a result, for instance, when crawling the lemonde.fr website, you might end up with "Emmanuel" or "Anne" appearing as important nodes in the resulting network.
+This is just an artifact though: "Jean" and "Anne" might relate to different persons who just share the same first name.
+These names should be removed, except if they appear frequently with another term.
+"Emmanuel" should be removed, but "Emmanuel Macron" should stay, as well as "Pierre-Emmanuel Barré", if both are frequently mentioned in the web pages.
+
+🧹 the removal of isolated first names is now conducted by default. Enjoy!
+
+# Fully responsive
+Nocodefunctions.com is very simple to use: 1️⃣ upload a file or select a website to crawl, 2️⃣ click on "run", 3️⃣ watch the results on screen.
+Really something that can be done from a browser on your mobile phone. But some web pages of nocodefunctions.com didn't display correctly on smartphones.
+
+📲 all web pages of nocodefunctions.com display now correctly on smartphones. You can now quickly perform and share semantic analyses (especialy of websites) while mobile!
+
+# Topics are back
+Topic detection in texts was unavailable for the last weeks.
+I paused this function to tear it apart, and explore with it how multi-steps functions can one day be developed more easily.
+I learned a lot, especially on how NOT to make the web app a mess (spaghetti code) to achieve this objective.
+
+🚀 topics detection is back, and hopefully what I learned on the way will pave the way to more complex functions.
+
+# Text in multiple languages for semantic networks
+I experimented with the semantic analyis of the website of devoxx.fr.
+Devoxx is a very famous conference series for developers, and #devoxxfr is the French edition of this series.
+The result was disappointing because, as it happens, devoxx.fr has web pages in French and English.
+As I had selected "French" as the language for the website, the pages in English were not properly cleaned.
+In the resulting graph, a lot of English stopwords ("the"... "have"... "a lot" ... etc) were visible in the graph - not helpful at all.
+As it turns out, it was a small development effort to implement the selection of multiple languages, instead of just one.
+The results are much cleaner, see the [graph of the devoxx.fr website](https://nocodefunctions.com/user_created_files/vosviewer/index.html?json=public/vosviewer_1786377755738343236.json).
+
+🎌 multiple languages can now be selected, when your input text (files, or website) is multilingual
+
+
+# About Me
+I’m an academic and independent web app developer. I created [nocode functions](https://nocodefunctions.com) 🔎, a free, point-and-click tool for exploring texts and networks. It’s [fully open source](https://github.com/seinecle/nocodefunctions). Try it out and let me know what you think—I’d love your feedback!
+
+- **Email:** [analysis@exploreyourdata.com](mailto:analysis@exploreyourdata.com) 📧  
+- **Bluesky:** [@seinecle](https://bsky.app/profile/seinecle.bsky.social) 📱  
+- **Blog:** [Read more articles](https://nocodefunctions.com/blog) 👓 on app development and data exploration.
