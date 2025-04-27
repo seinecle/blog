@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 5 improvements to nocodefunctions
-permalink: /nocodefunctions-5-improvements/
+title: La structured concurrency en Java
+permalink: /java-structured-concurrency/
 published: true
-date_readable:               April 21, 2025
-last_modified_at_readable:   April 21, 2025
-categories: [nocodefunctions, development, architecture, refactoring]
+date_readable:               April 27, 2025
+last_modified_at_readable:   April 27, 2025
+categories: [asynch, virtual threads, blocking, concurrency, reactive programming]
 ---
 
 Quand j’ai vu apparaître la *structured concurrency* en Java, j’ai failli passer à côté.  
