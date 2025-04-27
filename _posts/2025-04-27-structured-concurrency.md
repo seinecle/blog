@@ -49,9 +49,9 @@ Mais en pratique je trouve ca impossible à debugger:
 * les breakpoints de mon IDE favori ne se déclenchent pas comme il faut,
 * pour une "région" de mon code que je veux mettre en async, je me retrouve toujours à devoir transformer toutes mes méthodes en aval dans cette logique, et ca devient une charge cognitive très lourde, que je n'avais pas demandée !
 
-Et puis, le chaînage des méthodes (then... combine... exceptionnally...) qui est encore une fois une promesse d'élégance et de structuration, finit par faire du code très indenté et complexe. Les statements séquentiels ont du bon, en vrai !
+Et puis, le chaînage des méthodes (`then`... `combine`... `exceptionnally`...) qui est encore une fois une promesse d'élégance et de structuration, finit par faire du code très indenté et complexe. Les statements séquentiels ont du bon, en vrai !
 
-### 2. Avec un traditionnel ExecutorService, pas async
+### 2. Avec un traditionnel `ExecutorService`, pas async
 
 ```java
 
@@ -74,10 +74,10 @@ executor.shutdown();
 C’est plus propre que l’asynchrone pur. Mais :
 
 * il faut penser à shutdown,
-* l’exception est cachée dans ExecutionException
+* l’exception est cachée dans `ExecutionException`
 *et si un service échoue, il faut faire le ménage soi-même.
 
-Même en utilisant des virtual threads ('Executors.newVirtualThreadPerTaskExecutor()'), on reste avec un code sans vraie structure : pas de supervision automatique, pas d'annulation en cas d'erreur.
+Même en utilisant des virtual threads (`Executors.newVirtualThreadPerTaskExecutor()`), on reste avec un code sans vraie structure : pas de supervision automatique, pas d'annulation en cas d'erreur.
 
 
 ### 3. Avec Structured Concurrency
@@ -119,7 +119,7 @@ Et sous le capot : des virtual threads, donc aussi rapide qu’un code non bloqu
 Avec cette nouvelle approche, on peut utiliser la concurrence sans devoir faire des numéros d’équilibriste :
 
 * Est-ce que la tâche va créer des milliers de sous-tâches ?
-* Si oui, ces tâches vont elles être gourmandes ? Quel Executor choisir ?  Combien de threads faut-il prévoir ?
+* Si oui, ces tâches vont elles être gourmandes ? Quel `Executor` choisir ?  Combien de threads faut-il prévoir ?
 * Comment gérer les blocages et attentes qui resulteraient de l'assignation de mes (potentiellement) milliers de tâches à un pool de quelques dizaines de threads ?
 
 On peut y aller beaucoup plus en confiance : démarrer des tâches, les superviser, attendre leur résultat, sans que le coût caché (en termes de gestion de threads) explose derrière.
