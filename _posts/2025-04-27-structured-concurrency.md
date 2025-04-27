@@ -1,7 +1,11 @@
 ---
+layout: post
+permalink: /java-structured-concurrency/
 title: "Structured concurrency en Java : une révolution silencieuse"
-date: 2025-04-27
-tags: [java, concurrency, structured-concurrency, virtual-threads]
+date_readable:               April 27, 2025
+last_modified_at_readable:   April 27, 2025
+published: true
+categories: [java, concurrency, structured-concurrency, virtual-threads]
 ---
 
 Quand j’ai vu apparaître la *structured concurrency* en Java, j’ai failli passer à côté.  
