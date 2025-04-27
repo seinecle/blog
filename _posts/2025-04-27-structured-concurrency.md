@@ -111,7 +111,7 @@ Si une tâche échoue, tout est annulé proprement.
 
 Et sous le capot : des virtual threads, donc aussi rapide qu’un code non bloquant*, mais beaucoup plus lisible.
 
-* c'est un point compliqué. En vrai, si je comprends bien:
+\* c'est un point compliqué. En vrai, si je comprends bien:
 - les threads classiques sont lents à créer, et lourds - au moins 1Mb par thread. C'est une grosse pénalité de la programmation concurrentielle.
 - l'async et la programmation réactive sont conçus pour alléger cette pénalité : en évitant les attentes entre tâches confiées à chaque thread, en permettant que l'achèvement de l'une déclenche la suivante de façon fluide, et cela explicitement reflété dans l'expression du code. Les arrêts et pauses imposés par la gestion des threads (le "code bloquant") sont minimisées.
 - mais les virtual threads réduisent quasiment à zéro la pénalité d'utiliser un pool réduit de threads lents à créer et lourds en mémoire. Il n'y a donc plus besoin d'avoir une approche dédiée à débloquer ou fluidifier cette gestion de threads. Cest en ce sens que les virtual threads sont "non bloquants".
