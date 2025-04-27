@@ -75,7 +75,7 @@ C’est plus propre que l’asynchrone pur. Mais :
 
 * il faut penser à shutdown,
 * l’exception est cachée dans `ExecutionException`
-*et si un service échoue, il faut faire le ménage soi-même.
+* et si un service échoue, il faut faire le ménage soi-même.
 
 Même en utilisant des virtual threads (`Executors.newVirtualThreadPerTaskExecutor()`), on reste avec un code sans vraie structure : pas de supervision automatique, pas d'annulation en cas d'erreur.
 
