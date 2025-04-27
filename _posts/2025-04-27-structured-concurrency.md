@@ -106,8 +106,6 @@ Si une tâche échoue, tout est annulé proprement.
 
 Et sous le capot : des virtual threads, donc aussi rapide qu’un code non bloquant, mais beaucoup plus lisible.
 
----
-
 Avec cette nouvelle approche, on peut utiliser la concurrence sans devoir faire des numéros d’équilibriste :
 
 * Est-ce que la tâche va créer des milliers de sous-tâches ?
@@ -117,8 +115,6 @@ Avec cette nouvelle approche, on peut utiliser la concurrence sans devoir faire 
 On n’a plus à se poser autant de questions.
 
 On peut y aller beaucoup plus en confiance : démarrer des tâches, les superviser, attendre leur résultat, sans que le coût caché explose derrière.
-
----
 
 # Où en est la Structured Concurrency aujourd'hui ?
 
