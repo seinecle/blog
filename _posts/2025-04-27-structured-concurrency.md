@@ -12,9 +12,10 @@ Quand j’ai vu apparaître la *structured concurrency* en Java, j’ai failli p
 
 Une nouvelle API pour lancer des threads, bon. Après tout, Java avait déjà ses *ExecutorService*, *Future*, *CompletableFuture*...
 
-Mais en creusant, je me suis rendu compte que c’était beaucoup plus que ça. Ce n’est pas une nouvelle manière de faire de l’asynchrone. C’est la fin du besoin de l’asynchrone en Java.
+Au début, j'ai cru que la structured concurrency n'apportait que des raffinements : une manière plus propre d'orchestrer les flux synchrones et asynchrones dans l'API de concurrence existante.
+Mais en creusant, je me suis rendu compte que c'était beaucoup plus radical : ce n'est pas une nouvelle manière de faire du synchrone ou de l'asynchrone. C'est la fin du besoin de l'asynchrone en Java 😮.
 
-## Un même besoin traité de trois manières
+## Exemple : un même besoin traité de trois manières
 
 Je veux appeler deux services en parallèle, récupérer leurs résultats, et propager les erreurs proprement. Trois approches possibles.
 
@@ -28,7 +29,6 @@ CompletableFuture<String> future2 = CompletableFuture.supplyAsync(() -> appelSer
 CompletableFuture<String> combined = future1.thenCombine(future2, (res1, res2) -> res1 + " " + res2);
 
 combined
-
     .thenAccept(System.out::println)
     .exceptionally(ex -> {
         System.err.println("Erreur: " + ex.getMessage());
@@ -42,11 +42,11 @@ combined
 Thread.sleep(2000);
 ```
 
-Ça marche, mais il faut du sleep bricolé pour éviter que tout se termine avant.
+La logique est éclatée entre les callbacks, et la gestion des erreurs est dispersée. Et si code est d'une grande beauté formelle avec sa logique non bloquante, en pratique je trouve ca impossible à debugger:
+* les breakpoints de mon IDE favori ne se déclenchent pas comme il faut,
+* pour une "région" de mon cod que je veux mettre en asynch, je me retrouve toujours à devoir transformer toutes mes méthodes en aval dans cette logique, et ca devient une charge cognitive très lourde, que je n'avais pas demandée !
 
-La logique est éclatée entre les callbacks, et la gestion des erreurs est dispersée.
-
-2. Avec ExecutorService
+### 2. Avec un traditionnel ExecutorService, pas asynch
 
 ```java
 
