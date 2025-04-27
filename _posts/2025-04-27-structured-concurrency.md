@@ -1,7 +1,7 @@
 ---
 layout: post
-permalink: /java-structured-concurrency/
 title: Structured concurrency en Java - une révolution silencieuse
+permalink: /java-structured-concurrency/
 date_readable: April 27, 2025
 last_modified_at_readable: April 27, 2025
 published: true
