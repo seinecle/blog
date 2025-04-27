@@ -1,9 +1,9 @@
 ---
 layout: post
 permalink: /java-structured-concurrency/
-title: "Structured concurrency en Java - une révolution silencieuse"
+title: Structured concurrency en Java - une révolution silencieuse
 date_readable: April 27, 2025
-last_modified_at_readable:   April 27, 2025
+last_modified_at_readable: April 27, 2025
 published: true
 categories: [java, concurrency, structured-concurrency, virtual-threads]
 ---
@@ -17,6 +17,7 @@ Mais en creusant, je me suis rendu compte que c’était beaucoup plus que ça. 
 ## Un même besoin traité de trois manières
 
 Je veux appeler deux services en parallèle, récupérer leurs résultats, et propager les erreurs proprement. Trois approches possibles.
+
 ### 1. Avec `CompletableFuture`
 
 ```java
@@ -36,12 +37,11 @@ combined
 
     });
 
-
-
 // Sleep pour éviter que le programme se termine trop vite
 
 Thread.sleep(2000);
-```m
+```
+
 Ça marche, mais il faut du sleep bricolé pour éviter que tout se termine avant.
 
 La logique est éclatée entre les callbacks, et la gestion des erreurs est dispersée.
