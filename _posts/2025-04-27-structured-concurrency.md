@@ -42,11 +42,12 @@ combined
 Thread.sleep(2000);
 ```
 
-Si code est d'une grande beauté formelle avec sa logique non bloquante, en pratique je trouve ca impossible à debugger:
-* les breakpoints de mon IDE favori ne se déclenchent pas comme il faut,
-* pour une "région" de mon cod que je veux mettre en asynch, je me retrouve toujours à devoir transformer toutes mes méthodes en aval dans cette logique, et ca devient une charge cognitive très lourde, que je n'avais pas demandée !
+Si code est d'une grande beauté formelle avec sa logique réactive / non bloquante, en pratique je trouve ca impossible à debugger:
 
-Et puis, le chaînage des méthodes (then... combine... exceptionnally...) qui est encore une fois une promesse d'élégance et de structuration, finit par faire du code très indenté et complexe. Les statements séquentiels ont du bon, en vrait !
+* les breakpoints de mon IDE favori ne se déclenchent pas comme il faut,
+* pour une "région" de mon code que je veux mettre en asynch, je me retrouve toujours à devoir transformer toutes mes méthodes en aval dans cette logique, et ca devient une charge cognitive très lourde, que je n'avais pas demandée !
+
+Et puis, le chaînage des méthodes (then... combine... exceptionnally...) qui est encore une fois une promesse d'élégance et de structuration, finit par faire du code très indenté et complexe. Les statements séquentiels ont du bon, en vrai !
 
 ### 2. Avec un traditionnel ExecutorService, pas asynch
 
@@ -106,17 +107,20 @@ Pas de shutdown à penser.
 
 Si une tâche échoue, tout est annulé proprement.
 
-Et sous le capot : des virtual threads, donc aussi rapide qu’un code non bloquant, mais beaucoup plus lisible.
+Et sous le capot : des virtual threads, donc aussi rapide qu’un code non bloquant*, mais beaucoup plus lisible.
+
+* c'est un point compliqué. En vrai, si je comprends bien:
+- les threads classiques sont lents à créer, et lourds - au moins 1Mb par thread. C'est une grosse pénalité de la programmation concurrentielle.
+- l'async et la programmation réactive sont conçus pour alléger cette pénalité : en évitant les attentes entre tâches, permettre que l'achèvement de l'une déclenche la suivante de façon fluide, et cela explicitement reflété dans l'expression du code. Les arrêts et pauses imposés par la gestion des threads (le "code bloquant") sont minimisées.
+- mais les virtual threads réduisent quasiment à zéro la pénalité d'utiliser un pool réduit de threads lents à créer et lourds en mémoire. Il n'y a donc plus besoin d'avoir une approche dédiée à débloquer ou fluidifier cette gestion de threads.
 
 Avec cette nouvelle approche, on peut utiliser la concurrence sans devoir faire des numéros d’équilibriste :
 
 * Est-ce que la tâche va créer des milliers de sous-tâches ?
-* Faut-il choisir un Executor spécial ?
-* Combien de threads faut-il prévoir ?
+* Si oui, ces tâches vont elles être gourmandes ? Quel Executor choisir ?  Combien de threads faut-il prévoir ?
+* Comment gérer les blocages et attentes qui resulteraient de l'assignation de mes (potentiellement) milliers de tâches à un pool de quelques dizaines de threads ?
 
-On n’a plus à se poser autant de questions.
-
-On peut y aller beaucoup plus en confiance : démarrer des tâches, les superviser, attendre leur résultat, sans que le coût caché explose derrière.
+On peut y aller beaucoup plus en confiance : démarrer des tâches, les superviser, attendre leur résultat, sans que le coût caché (en termes de gestion de threads) explose derrière.
 
 # Où en est la Structured Concurrency aujourd'hui ?
 
