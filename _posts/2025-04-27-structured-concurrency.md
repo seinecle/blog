@@ -42,7 +42,7 @@ combined
 Thread.sleep(2000);
 ```
 
-Si code est d'une grande beauté formelle avec sa logique chaînée réactive / non bloquante.
+Ce code est d'une grande beauté formelle avec sa logique chaînée réactive / non bloquante.
 
 Mais en pratique je trouve ca impossible à debugger:
 
