@@ -42,9 +42,11 @@ combined
 Thread.sleep(2000);
 ```
 
-La logique est éclatée entre les callbacks, et la gestion des erreurs est dispersée. Et si code est d'une grande beauté formelle avec sa logique non bloquante, en pratique je trouve ca impossible à debugger:
+Si code est d'une grande beauté formelle avec sa logique non bloquante, en pratique je trouve ca impossible à debugger:
 * les breakpoints de mon IDE favori ne se déclenchent pas comme il faut,
 * pour une "région" de mon cod que je veux mettre en asynch, je me retrouve toujours à devoir transformer toutes mes méthodes en aval dans cette logique, et ca devient une charge cognitive très lourde, que je n'avais pas demandée !
+
+Et puis, le chaînage des méthodes (then... combine... exceptionnally...) qui est encore une fois une promesse d'élégance et de structuration, finit par faire du code très indenté et complexe. Les statements séquentiels ont du bon, en vrait !
 
 ### 2. Avec un traditionnel ExecutorService, pas asynch
 
