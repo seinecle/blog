@@ -125,12 +125,14 @@ Avec cette nouvelle approche, on peut utiliser la concurrence sans devoir faire 
 On peut y aller beaucoup plus en confiance : démarrer des tâches, les superviser, attendre leur résultat, sans que le coût caché (en termes de gestion de threads) explose derrière.
 
 # Où en est la Structured Concurrency aujourd'hui ?
-
 La Structured Concurrency est arrivée en preview avec Java 21.
-
 À fin avril 2025, elle est toujours en preview (avec quelques ajustements mineurs) dans Java 24.
-
 Elle devrait être stabilisée et devenir officielle prochainement — mais elle est déjà totalement utilisable pour les projets qui ciblent un JDK récent.
+
+# Bonus !
+Je ne la découvre que le lendemain de l'écriture de ce post, mais cette vidéo de José Paumard datant d'Octobre 2024 explique teeeeellement bien ce que j'essaie de communiquer dans ce post. Enjoy!
+
+[![Are Virtual Threads Going to Make Reactive Programming Irrelevant?](https://img.youtube.com/vi/zPhkg8dYysY/0.jpg)](https://www.youtube.com/watch?v=zPhkg8dYysY)
 
 # A propos
 Je suis Clément Levallois, universitaire et développeur indépendant de [nocode functions](https://nocodefunctions.com) 🔎, une application d'analyse de rexte et de réseaux. Cette app est [open source](https://github.com/seinecle/nocodefunctions).
