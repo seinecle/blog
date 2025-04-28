@@ -130,7 +130,7 @@ La Structured Concurrency est arrivée en preview avec Java 21.
 Elle devrait être stabilisée et devenir officielle prochainement — mais elle est déjà totalement utilisable pour les projets qui ciblent un JDK récent.
 
 # Bonus !
-Je ne la découvre que le lendemain de l'écriture de ce post, mais cette vidéo de José Paumard datant d'Octobre 2024 explique teeeeellement bien ce que j'essaie de communiquer dans ce post. Enjoy!
+Je ne la découvre que le lendemain de l'écriture de ce post, mais cette vidéo de [José Paumard](https://bsky.app/profile/josepaumard.bsky.social) datant d'Octobre 2024 explique teeeeellement bien ce que j'essaie de communiquer dans ce post. Enjoy!
 
 [![Are Virtual Threads Going to Make Reactive Programming Irrelevant?](https://img.youtube.com/vi/zPhkg8dYysY/0.jpg)](https://www.youtube.com/watch?v=zPhkg8dYysY)
 
