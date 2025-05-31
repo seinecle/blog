@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Free Completeness Checks for Query Params with Java Enum Switch Expressions
+title: Free Completeness Checks for Query Params with Java Enum Switch Statements
 permalink: /enum-completeness-check-api-client/
 published: true
 date_readable: May 31, 2025
@@ -10,11 +10,11 @@ categories: [enum, pattern switch, web API, Java]
 
 When maintaining APIs with multiple clients and endpoints, how can you ensure consistency between the query parameters defined on the server and those implemented by clients?
 
-A common solution is to document and maintain APIs using the [OpenAPI specification](https://spec.openapis.org/oas/v3.1.0), implemented by many frameworks. However, if you're looking for a simpler, framework-free alternative, recent Java language features offer built-in support to ensure consistency through exhaustiveness checks on enums in switch expressions.
+A common solution is to document and maintain APIs using the [OpenAPI specification](https://spec.openapis.org/oas/v3.1.0), implemented by many frameworks. However, if you're looking for a simpler, framework-free alternative, recent Java language features offer built-in support to ensure consistency through exhaustiveness checks on enums in switch statements.
 
-# Completeness checks on enums using JDK 21+ switch expressions
+# Completeness checks on enums using JDK 21+ switch statements
 
-From JDK 21 onwards, the Java compiler enforces exhaustiveness checks in `switch` expressions involving enums. This means the compiler will raise an error if an enum value is omitted from a switch statement.
+From JDK 21 onwards, the Java compiler enforces exhaustiveness checks in `switch` statements involving enums. This means the compiler will raise an error if an enum value is omitted from a switch statement.
 
 This feature ensures consistency: if you modify the query parameters on the server but forget to update the client, the client-side code will not compile, serving as an effective safeguard.
 
