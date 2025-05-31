@@ -1,124 +1,104 @@
 ---
 layout: post
-title: Achieving free query params completeness check with native Java switch patter expressions on enums
-permalink: /enum-completess-check-api-client/
-published: false
-date_readable:               May 31, 2025
-last_modified_at_readable:   May 31, 2025
+title: Free Completeness Checks for Query Params with Java Enum Switch Expressions
+permalink: /enum-completeness-check-api-client/
+published: true
+date_readable: May 31, 2025
+last_modified_at_readable: May 31, 2025
 categories: [enum, pattern switch, web API, Java]
 ---
 
+When maintaining APIs with multiple clients and endpoints, how can you ensure consistency between the query parameters defined on the server and those implemented by clients?
 
-In a micro-service architecture where multiple API endpoints coordinate through requests sent and received: how to make sure to keep track and maintain the clients sending the requests, and the endpoints receiving these requests?
+A common solution is to document and maintain APIs using the [OpenAPI specification](https://spec.openapis.org/oas/v3.1.0), implemented by many frameworks. However, if you're looking for a simpler, framework-free alternative, recent Java language features offer built-in support to ensure consistency through exhaustiveness checks on enums in switch expressions.
 
-A large number of solutions exist to document and maintain these APIs, based on the [OpenAPI specification](https://spec.openapis.org/oas/v3.1.0).
+# Completeness checks on enums using JDK 21+ switch expressions
 
-Another road, supposedly lighter because it doesn't rely on OpenAPI, consists in creating an interface that will be shared across server and clients.
+From JDK 21 onwards, the Java compiler enforces exhaustiveness checks in `switch` expressions involving enums. This means the compiler will raise an error if an enum value is omitted from a switch statement.
 
-New Java language features offer a lightweight support on this issue.
+This feature ensures consistency: if you modify the query parameters on the server but forget to update the client, the client-side code will not compile, serving as an effective safeguard.
 
-# JDK 21+ completeness check on enums in switch expressions
+Here's a practical example:
 
-In JDK 21+, the Java compiler now raises a warning if the values of an enum are not exhaustively listed in a switch expression.
+## Defining an enum for your query parameters
 
-So if you changed your list of query parameters server side but forgot to reflect this change on client' side, this will show and the client will stop compiling. Nice reminder!
+Place this `enum` in a shared module accessible by both the server and client:
 
-Here is a hello world:
-
-## create an enum for your query parameters
-This enum should be in a module shared by your server and client.
-
-``` java
+```java
 public enum QueryParams {
-        LANG, REPLACE_STOPWORDS, IS_SCIENTIFIC_CORPUS, LEMMATIZE, REMOVE_ACCENTS, PRECISION, MIN_CHAR_NUMBER, MIN_TERM_FREQ
-    }
+    LANG, REPLACE_STOPWORDS, IS_SCIENTIFIC_CORPUS, LEMMATIZE, REMOVE_ACCENTS, PRECISION, MIN_CHAR_NUMBER, MIN_TERM_FREQ
+}
 ```
 
-## client side
-Add the params to your request by looping on the enum values.
+## Client-side implementation
 
-``` java
+Loop over the enum values to add query parameters to your request:
+
+```java
 for (QueryParams param : QueryParams.values()) {
-            String paramValue = switch (param) {
-                case LANG ->
-                    selectedLanguage;
-                case REPLACE_STOPWORDS ->
-                    String.valueOf(replaceStopwords);
-                case IS_SCIENTIFIC_CORPUS ->
-                    String.valueOf(scientificCorpus);
-                case LEMMATIZE ->
-                    String.valueOf(lemmatize);
-                case REMOVE_ACCENTS ->
-                    String.valueOf(removeNonAsciiCharacters);
-                case PRECISION ->
-                    String.valueOf(precision);
-                case MIN_CHAR_NUMBER ->
-                    String.valueOf(minCharNumber);
-                case MIN_TERM_FREQ ->
-                    String.valueOf(minTermFreq);
-            };
-            requestBuilder.addQueryParameter(param.name(), paramValue);
-        }
+    String paramValue = switch (param) {
+        case LANG -> selectedLanguage;
+        case REPLACE_STOPWORDS -> String.valueOf(replaceStopwords);
+        case IS_SCIENTIFIC_CORPUS -> String.valueOf(scientificCorpus);
+        case LEMMATIZE -> String.valueOf(lemmatize);
+        case REMOVE_ACCENTS -> String.valueOf(removeNonAsciiCharacters);
+        case PRECISION -> String.valueOf(precision);
+        case MIN_CHAR_NUMBER -> String.valueOf(minCharNumber);
+        case MIN_TERM_FREQ -> String.valueOf(minTermFreq);
+    };
+    requestBuilder.addQueryParameter(param.name(), paramValue);
+}
 ```
 
-## server side
-Things are not that simple there: The exhaustiveness check on enums happens only when a switch expression is used, not a switch statement.
+## What happens if a parameter is omitted?
 
-Just to remind between the two:
+If you forget to handle a parameter, such as "PRECISION," the compiler will issue an error:
 
-**switch statement** -> when each case executes a block of code, without assigning a value
+![Compiler Error](https://github.com/user-attachments/assets/bf0e763b-ddbf-43e5-bf6e-d1143b18935a)
 
-``` java
-int dayOfWeek = 3;
-String dayName;
+My IDE (NetBeans) provides a helpful warning explaining the issue:
 
-switch (dayOfWeek) {
-    case 1:
-        dayName = "Monday";
-        { // any code you want }
-        break;
+![IDE Warning](https://github.com/user-attachments/assets/d423f17d-413b-4d53-aeb7-5aef533fadde)
+
+## Server-side implementation
+
+The server-side code follows the same principle. It will also generate compiler errors if any enum values are missing in your switch statements.
+
+Here’s an interesting server-side twist: in my application, query parameters are parsed into values set within a workflow object. To maintain the exhaustiveness checks while parsing parameters, ChatGPT suggested the elegant solution of using a `Consumer`:
+
+```java
+private static RunnableTopicsWorkflow parseQueryParams(RunnableTopicsWorkflow workflow, Map<String, List<String>> queryParamMap) throws Exception {
+    for (var entry : queryParamMap.entrySet()) {
+        String key = entry.getKey();
+        String decodedParamValue = URLDecoder.decode(entry.getValue().getFirst(), StandardCharsets.UTF_8);
+
+        Consumer<String> qpHandler = switch (QueryParams.valueOf(key.toUpperCase())) {
+            case LANG -> workflow::setLang;
+            case PRECISION -> s -> workflow.setPrecision(Integer.parseInt(s));
+            case MIN_TERM_FREQ -> s -> workflow.setMinTermFreq(Integer.parseInt(s));
+            case MIN_CHAR_NUMBER -> s -> workflow.setMinCharNumber(Integer.parseInt(s));
+            case REPLACE_STOPWORDS -> s -> workflow.setReplaceStopwords(Boolean.parseBoolean(s));
+            case REMOVE_ACCENTS -> s -> workflow.setRemoveAccents(Boolean.parseBoolean(s));
+            case LEMMATIZE -> s -> workflow.setLemmatize(Boolean.parseBoolean(s));
+            case IS_SCIENTIFIC_CORPUS -> s -> workflow.setIsScientificCorpus(Boolean.parseBoolean(s));
+        };
+        qpHandler.accept(decodedParamValue);
+    }
+    return workflow;
+}
 ```
 
-**switch statement** -> when each case assigns a value to the variable in the switch
+# See this approach implemented in production
+I am currently refactoring nocodefunctions.com to implement this approach. Check:
 
-``` java
-int dayOfWeek = 3;
-String dayName = switch (dayOfWeek) {
-    case 1 -> "Monday";
-```
+- the [repo for the frontend of the app](https://github.com/seinecle/nocodefunctions-web-app), which builds requests sent to the microservices
+- the [portal for microservices](https://github.com/seinecle/nocodefunctions-as-api), receiving these requests
+- the [module](https://github.com/seinecle/function-model) shared between the frontend and the portal
 
-
-
-``` java
-
-        for (var entry : ctx.queryParamMap().entrySet()) {
-            String key = entry.getKey();
-            String decodedParamValue = URLDecoder.decode(entry.getValue().getFirst(), StandardCharsets.UTF_8);
-
-            Consumer<String> qpHandler = switch (QueryParams.valueOf(key.toUpperCase())) {
-                case LANG ->
-                    workflow::setLang;
-                case PRECISION ->
-                    s -> workflow.setPrecision(Integer.parseInt(s));
-                case MIN_TERM_FREQ ->
-                    s -> workflow.setMinTermFreq(Integer.parseInt(s));
-                case MIN_CHAR_NUMBER ->
-                    s -> workflow.setMinCharNumber(Integer.parseInt(s));
-                case REPLACE_STOPWORDS ->
-                    s -> workflow.setReplaceStopwords(Boolean.parseBoolean(s));
-                case REMOVE_ACCENTS ->
-                    s -> workflow.setRemoveAccents(Boolean.parseBoolean(s));
-                case LEMMATIZE ->
-                    s -> workflow.setLemmatize(Boolean.parseBoolean(s));
-                case IS_SCIENTIFIC_CORPUS ->
-                    s -> workflow.setIsScientificCorpus(Boolean.parseBoolean(s));
-            };
-            qpHandler.accept(decodedParamValue);
-```
 
 # About
-I’m an academic and independent web app developer. I created [nocode functions](https://nocodefunctions.com) 🔎, a free, point-and-click tool for exploring texts and networks. It’s [fully open source](https://github.com/seinecle/nocodefunctions). Try it out and let me know what you think. I’d love your feedback!
+I’m an academic and independent web app developer. I created [nocode functions](https://nocodefunctions.com) 🔎, a free, point-and-click tool for exploring texts and networks. It’s [fully open source](https://github.com/seinecle/nocodefunctions). Try it out and let me know what you think—I’d love your feedback!
 
-- **Email:** [analysis@exploreyourdata.com](mailto:analysis@exploreyourdata.com) 📧  
-- **Bluesky:** [@seinecle](https://bsky.app/profile/seinecle.bsky.social) 📱  
-- **Blog:** [Read more articles](https://nocodefunctions.com/blog) 👓 on app development and data exploration.
+* **Email:** [analysis@exploreyourdata.com](mailto:analysis@exploreyourdata.com) 📧
+* **Bluesky:** [@seinecle](https://bsky.app/profile/seinecle.bsky.social) 📱
+* **Blog:** [Read more articles](https://nocodefunctions.com/blog) 👓 on app development and data exploration.
