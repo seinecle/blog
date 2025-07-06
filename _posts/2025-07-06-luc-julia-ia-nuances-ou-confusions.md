@@ -91,7 +91,7 @@ Je vois comme un *pattern*, pas vous ?
 
 L'IA, depuis l'irruption de ChatGPT dans nos vies, modifie profondément nos vies personnelles et professionnelles. Des nouveautés **significatives** apparaissent chaque mois. Le potentiel de ces technologies est immense et se révèle déjà dans une myriade d'expérimentations, d'études, de lancements de produits et services, d'initiatives créatrices.
 
-Mais à la lecture de ce livre, le lecteur est laissé sans nuances : l'IA n'est pas si puissante que ça, ni très fiable, son potentiel est incertain voir nul, elle a eu de gros ratés, et c'est sans doute finalement une vaste esbrouffe.
+Mais à la lecture de ce livre, le lecteur est laissé sans nuances : l'IA n'est pas si puissante que ça, ni très fiable, son potentiel est incertain voire nul, elle a eu de gros ratés, et c'est sans doute finalement une vaste esbrouffe.
 
 L'auteur a quelques rares mots pour les changements positifs que l'IA peut apporter (p. 49 sur l'IA qui stimule la créativité des designers, p. 249 sur l'IA qui stimule la créativité humaine), mais ce sont des mentions rapides et sans approfondissement. Et le manque de nuances tourne enfin à la confusion : l'intelligence artificielle n'existe pas d'après le sous-titre de l'ouvrage, mais on apprend dans l'avant-propos que c'est l'AGI [intelligence artificielle **générale**] qui n'existerait pas. D'accord, mais alors ... l'IA générative existe, on est d'accord ? On n'en est plus sûr quand on lit la litanie de critiques qui font ce livre de 250 pages. Quelle confusion !
 
@@ -161,7 +161,9 @@ L'image est bien différente. Après une stagnation estivale en 2023, les visite
 
 Ce qui voulait être un article bref est devenu un texte bien trop long. Il faudrait pourtant le doubler de longueur pour développer la vision alternative que je partage sur l'IA. Heureusement, elle est déjà très clairement exprimée dans un excellent ouvrage de référence que je recommande absolument : ***'Co-intelligence : Vivre et travailler avec l'IA'***, la traduction française (2025) du livre d'Ethan Mollick paru en 2024.
 
-![716fV8Mdw+L _SY522_](https://github.com/user-attachments/assets/4887aea0-8482-4169-8fff-e2b4ed29b9c7)
+![co-intelligence](https://github.com/user-attachments/assets/1f7db012-1f6a-4241-ad78-59c1e8bdd046)
+
+[lien pour le trouver dans votre [librairie indépendante préférée](https://www.librairiesindependantes.com/product/9782412101391/), ou bien sur [Amazon.fr](https://www.amazon.fr/Co-intelligence-Vivre-travailler-version-fran%C3%A7aise/dp/2412101396)]
 
 Cet ouvrage est une merveille de nuances, de synthèse d'études, et d'expériences riches, avec un sens critique et une vision hors pair.
 
