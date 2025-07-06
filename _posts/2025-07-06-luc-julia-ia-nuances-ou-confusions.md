@@ -163,7 +163,7 @@ Ce qui voulait être un article bref est devenu un texte bien trop long. Il faud
 
 ![co-intelligence](https://github.com/user-attachments/assets/1f7db012-1f6a-4241-ad78-59c1e8bdd046)
 
-[lien pour le trouver dans votre [librairie indépendante préférée](https://www.librairiesindependantes.com/product/9782412101391/), ou bien sur [Amazon.fr](https://www.amazon.fr/Co-intelligence-Vivre-travailler-version-fran%C3%A7aise/dp/2412101396)]
+lien pour le trouver dans votre [librairie indépendante préférée](https://www.librairiesindependantes.com/product/9782412101391/), ou bien sur [Amazon.fr](https://www.amazon.fr/Co-intelligence-Vivre-travailler-version-fran%C3%A7aise/dp/2412101396)
 
 Cet ouvrage est une merveille de nuances, de synthèse d'études, et d'expériences riches, avec un sens critique et une vision hors pair.
 
