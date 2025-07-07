@@ -106,7 +106,7 @@ Sur quels usages et expériences personnelles et professionnelles de l'IA géné
 3.  "Je me suis amusé à demander ce qu'est l'éthique à ChatGPT et voici sa réponse [...]" (p. 156)
 4.  "Par exemple l'autre jour je me suis amusé à créer un deepfake de mon directeur actuel, Luca de Meo (PDG de Renault) [...] (p. 224)
 
-**C'est tout**. Le secret professionnel interdit peut-être à l'auteur de partager des expériences plus poussées, mais ces 4 exemples suggèrent un usage très rudimentaire.
+**C'est tout**. Le secret professionnel interdit peut-être à l'auteur de partager des expériences plus poussées, mais ces 4 exemples suggèrent un usage qui ne semble guère dépasser le stade de l'anecdote.
 
 Mais alors si ce n'est pas par le témoignage d'expériences personnelles ou professionnelles avec l'IA générative, sur quelles sources documentaires s'appuie l'ouvrage ?
 
