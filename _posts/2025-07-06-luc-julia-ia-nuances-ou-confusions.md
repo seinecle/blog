@@ -20,7 +20,7 @@ Je ne sais pas pour vous, mais pour moi l'invocation de Luc Julia est toujours e
 - mais l'IA ne produit que du contenu pas original
 - mais l'IA ne fait que répéter ce qu'elle a appris
 
-J'avoue que chacun de ces énoncés me font tiquer et répondre : "j'ai pas lu Luc Julia mais ma pratique de l'IA, et ce que je lis ailleurs, m'amènent à un point de vue radicalement différent !"
+J'avoue que chacun de ces énoncés me fait tiquer. Ma pratique de l'IA, et ce que je lis par ailleurs, m'amènent en effet à un point de vue radicalement différent.
 
 Comme beaucoup je suppose, j'utilise l'IA pour retravailler des textes, faire des recherches, me donner des avis et recommandations, me faire des tutos, synthétiser des documents, ... je l'utilise également en permanence quand je programme, ce qui me fait gagner en temps et en compétences. Je fais aussi une veille sur l'IA pour la création et je vois les bonds de géant qui sont faits en génération d'images, de vidéo, de modèles 3D, de sons et musiques. Mais également le développement d'agents IA et de protocoles pour les coordonner, et d'outils pour organiser ces nouvelles façons de travailler.
 
