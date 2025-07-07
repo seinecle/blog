@@ -99,16 +99,16 @@ L'auteur a quelques rares mots pour les changements positifs que l'IA peut appor
 
 ### Quelle base pour un avis si tranché ?
 
-Sur quels usages et expériences personnelles et professionnelles de l'IA générative Luc Julia se base-t-il pour poser ce constat si critique ? Quatre exemples sont partagés dans ce livre de 250 pages :
+Sur quels usages et expériences personnelles et professionnelles de l'IA générative Luc Julia se base-t-il pour poser ce constat si critique ? Quatre exemples tirés de son expérience sont partagés dans ce livre de 250 pages :
 
 1.  "Prenons un exemple pour démontrer que ces IA ne créent rien. [...] Dans le prompt, je saisis 'Dessine-moi des vaches vertes sur la tour Eiffel'. [...] " (p.44)
 2.  "Il y a un petit jeu que j'adore faire avec ces IA, c'est leur faire raconter n'importe quoi sur des sujets que je maîtrise. [...] je m'amuse souvent à générer ma biographie sur ChatGPT, Gemini ou autre." (p. 52).
 3.  "Je me suis amusé à demander ce qu'est l'éthique à ChatGPT et voici sa réponse [...]" (p. 156)
 4.  "Par exemple l'autre jour je me suis amusé à créer un deepfake de mon directeur actuel, Luca de Meo (PDG de Renault) [...] (p. 224)
 
-C'est tout. Le secret professionnel interdit peut-être à l'auteur de partager des expériences plus poussées, mais ces 4 exemples suggèrent un usage très rudimentaire.
+**C'est tout**. Le secret professionnel interdit peut-être à l'auteur de partager des expériences plus poussées, mais ces 4 exemples suggèrent un usage très rudimentaire.
 
-Mais alors sur quelles sources documentaires s'appuie l'ouvrage ?
+Mais alors si ce n'est pas par le témoignage d'expériences personnelles ou professionnelles avec l'IA générative, sur quelles sources documentaires s'appuie l'ouvrage ?
 
 Il s'agit de toucher le grand public, donc on aurait pu s'attendre à un mélange d'études scientifiques mesurant les performances de l'IA générative, et évaluant rigoureusement ses premiers impacts sur la société : le tout distillé et expliqué de façon didactique.
 Au lieu de ça, l'ouvrage s'appuie sur 26 références qui sont pour la plupart des articles de presse en ligne.
