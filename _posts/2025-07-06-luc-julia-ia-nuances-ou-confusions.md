@@ -20,13 +20,13 @@ Je ne sais pas pour vous, mais pour moi l'invocation de Luc Julia est toujours e
 - mais l'IA ne produit que du contenu pas original
 - mais l'IA ne fait que répéter ce qu'elle a appris
 
-J'avoue que chacun de ces énoncés me font tiquer et répondre : "j'ai pas lu Luc Julia mais ma pratique de l'IA, et ce que je lis ailleurs, m'amènent à un point de vue radicalement différent sur l'IA !"
+J'avoue que chacun de ces énoncés me font tiquer et répondre : "j'ai pas lu Luc Julia mais ma pratique de l'IA, et ce que je lis ailleurs, m'amènent à un point de vue radicalement différent !"
 
 Comme beaucoup je suppose, j'utilise l'IA pour retravailler des textes, faire des recherches, me donner des avis et recommandations, me faire des tutos, synthétiser des documents, ... je l'utilise également en permanence quand je programme, ce qui me fait gagner en temps et en compétences. Je fais aussi une veille sur l'IA pour la création et je vois les bonds de géant qui sont faits en génération d'images, de vidéo, de modèles 3D, de sons et musiques. Mais également le développement d'agents IA et de protocoles pour les coordonner, et d'outils pour organiser ces nouvelles façons de travailler.
 
 Tout n'est pas rose et l'IA pose des problèmes gigantesques, j'en vois au moins quatre : le coût énergétique et environnemental, le pillage de la propriété intellectuelle, la paresse intellectuelle que l'IA encourage souvent, et enfin la possibilité difficile à cerner mais ouvertement discutée d'un non alignement de l'IA vis à vis de l'espèce humaine (aka le scénario Terminator).
 
-J'ai donc un point de départ ambivalent sur l'IA : révolution que [je compare en magnitude à celle de l'irruption du digital après l'analogique](https://nocodefunctions.com/blog/chatgpt-consequences-fr/), mais également source de dangers significatifs. Le point de vue très critique de Luc Julia sur les capacités de l'IA, tel que rapporté en conversations, m'interpelle. Peut-être repose-t-il sur des informations solides, ou sur une analyse fine que je n’avais pas encore rencontrée - et qui viendrait justement bousculer mes certitudes ?
+Je considère donc que l'IA depuis ChatGPT (l'IA générative) est une révolution technologique qui aura un impact [comparable en magnitude à celle du digital](https://nocodefunctions.com/blog/chatgpt-consequences-fr/). Le point de vue très critique de Luc Julia sur les capacités de l'IA, tel que rapporté en conversations, m'interpelle donc. Peut-être repose-t-il sur des informations solides, ou sur une analyse fine que je n’avais pas encore rencontrée - et qui viendrait justement bousculer mes certitudes ?
 
 **Pour en avoir le coeur net, je suis allé acheter et lire les 3 livres de Luc Julia.**
 
@@ -46,7 +46,7 @@ J'ai donc un point de départ ambivalent sur l'IA : révolution que [je compare 
 Je laisse de côté le deuxième ouvrage dont le sujet central est celui de l'action destructrice des sociétés humaines sur l'environnement.
 L'IA y est évoquée très brièvement : extrêmement consommateur d'énergie, GPT-3 d'OpenAI est pris en exemple d'"outrance" et de "ridicule" (p.208-209).
 
-Le premier ouvrage, paru en 2019 donc 3 ans avant l'irruption de ChatGPT, est un plaidoyer contre les effets d'hyperboles sur l'IA.
+Le premier ouvrage, paru en 2019 donc 3 ans avant l'irruption de ChatGPT, est une autobiographie de l'auteur et un plaidoyer contre les effets d'hyperboles sur l'IA.
 À commencer par le terme "IA", que Luc Julia critique comme incorrect, et qu'il redéfinit à sa manière.
 Le "I" devrait vouloir dire **"information"** (comme dans le "I" de CIA : Central Intelligence Agency).
 Et le "A" devrait vouloir dire **"augmentée"** plutôt que "artificielle", car l'IA est un amplificateur de l'humain, pas son concurrent synthétique.
@@ -54,7 +54,7 @@ Et le "A" devrait vouloir dire **"augmentée"** plutôt que "artificielle", car 
 Et pour cette raison, l'IA... n'existerait pas.
 
 En 2019, ce type de discours critique et sceptique peut être intéressant.
-Les capacités de l'IA sont impressionnantes (Google Translate, pour prendre un exemple) mais tellement loin d'approcher les capacités de l'intelligence humaine qu'un rappel de ses limites peut aider le grand public à y voir plus clair.
+Les capacités de l'IA étaient impressionnantes (Google Translate, pour prendre un exemple) mais tellement loin d'approcher les capacités de l'intelligence humaine qu'un rappel de ses limites pouvait aider le grand public à y voir plus clair.
 
 Mais qu'en est-il en 2025 avec son nouvel ouvrage, publié plus de 2 ans après la sortie de ChatGPT et de son adoption ultra rapide ? Et bien... **l'IA n'existe toujours pas pour Luc Julia.**
 
