@@ -26,7 +26,7 @@ Comme beaucoup je suppose, j'utilise l'IA pour retravailler des textes, faire de
 
 Tout n'est pas rose et l'IA pose des problèmes gigantesques, j'en vois au moins quatre : le coût énergétique et environnemental, le pillage de la propriété intellectuelle, la paresse intellectuelle que l'IA encourage souvent, et enfin la possibilité difficile à cerner mais ouvertement discutée d'un non alignement de l'IA vis à vis de l'espèce humaine (aka le scénario Terminator).
 
-Je considère donc que l'IA depuis ChatGPT (l'IA générative) est une révolution technologique qui aura un impact [comparable en magnitude à celle du digital](https://nocodefunctions.com/blog/chatgpt-consequences-fr/). Le point de vue très critique de Luc Julia sur les capacités de l'IA, tel que rapporté en conversations, m'interpelle donc. Peut-être repose-t-il sur des informations solides, ou sur une analyse fine que je n’avais pas encore rencontrée - et qui viendrait justement bousculer mes certitudes ?
+Je considère donc que l'IA depuis ChatGPT (l'IA générative accessible au grand public) est une révolution technologique qui aura un impact [comparable en magnitude à celle du digital](https://nocodefunctions.com/blog/chatgpt-consequences-fr/). Le point de vue très critique de Luc Julia sur les capacités de l'IA, tel que rapporté en conversations, m'interpelle donc. Peut-être repose-t-il sur des informations solides, ou sur une analyse fine que je n’avais pas encore rencontrée - et qui viendrait justement bousculer mes certitudes ?
 
 **Pour en avoir le coeur net, je suis allé acheter et lire les 3 livres de Luc Julia.**
 
