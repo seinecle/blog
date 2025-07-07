@@ -134,7 +134,7 @@ Plusieurs problèmes avec cet article et son interprétation :
 
 Cet article et l'interprétation erronée qu'en fait Luc Julia sont ensuite résumés dans la formule **"l'IA se trompe 1 fois sur 3"**, abondamment reprise dans ses nombreuses interventions publiques. Mes enfants me disent l'avoir entendu dans une intro à l'IA au collège, je l'entends en conversation au déjeuner... je ne serais pas surpris que vous l'ayez entendu sous une forme ou une autre.
 
-Edit : Luc Julia cite ce chiffre devant la Commission des affaires économiques du Sénat le 18 juin 2025 avec la même référence erronée à l'article de l' "Université de Hong Kong" de 2023 et ses "1 million" de faits avérés. L'extrait vidéo 📽️ ci-dessous :
+Edit : un internaute que je remercie m'a indiqué que Luc Julia était intervenu devant le Sénat. Et en effet, il cite ce fameux chiffre de 36% d'erreur devant la Commission des affaires économiques du Sénat le 18 juin 2025 avec la même référence erronée à l'article de l' "Université de Hong Kong" de 2023 et ses "1 million" de faits avérés. L'extrait vidéo 📽️ ci-dessous :
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/UjBZaKcTeIY/0.jpg)](https://www.youtube.com/watch?v=UjBZaKcTeIY)
 
