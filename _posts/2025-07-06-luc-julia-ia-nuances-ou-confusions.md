@@ -147,7 +147,7 @@ Le seul graphique du livre présente une stagnation et une diminution du nombre 
 ![signal-2025-07-06-123417_002](https://github.com/user-attachments/assets/9aec3a57-7dae-4370-b322-f948a2ca417b)
 
 
-Problème : le graphique s'arrête en **août 2023**. C'est ancien pour un livre publié en 2025. Voici le graphique complet :
+Problème : le graphique s'arrête en **août 2023**. C'est ancien pour un livre publié en Mai 2025. Voici le graphique complet :
 
 ![chart updated](https://github.com/user-attachments/assets/2ae9d667-3d78-4d3b-bd04-c204f3f87eb9)
 
