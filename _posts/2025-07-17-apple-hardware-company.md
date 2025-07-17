@@ -23,7 +23,7 @@ See the difference?
 
 The big issue for Apple is that the space they are in, which is in the end "consumer electronics", is shrinking fast in relative size.
 
-They missed a fundamental consumer services to Google (search, maps, browser, mail!). They missed the cloud to Amazon, Google and Microsoft. They missed the consumer content and social data to Meta, Amazon, Google, Netflix and Spotify. They are now missing the AI turn to OpenAI, Google, Anthropic and Meta.
+They missed fundamental consumer services to Google (search, maps, browser, mail!). They missed the cloud to Amazon, Google and Microsoft. They missed the consumer content and social data to Meta, Amazon, Google, Netflix and Spotify. They are now missing the AI turn to OpenAI, Google, Anthropic and Meta.
 
 # The near future
 
