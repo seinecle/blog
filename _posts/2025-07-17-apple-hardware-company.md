@@ -52,7 +52,7 @@ Just like they are now switching from Tesla to Chinese brands, for instance:
 
 > source: https://www.reuters.com/business/media-telecom/openai-release-web-browser-challenge-google-chrome-2025-07-09/
 
-### when OpenAI will develop its devices, with Jony Ive from Apple as the helm?
+### when OpenAI will develop its devices, with Jony Ive from Apple at the helm?
 Then Apple will look more and more like Samsung or Dell: good, global manufacturers of commodity products running other companies' smart innovations.
 
 <img width="350" alt="Sam Altman Jony Ive" src="https://github.com/user-attachments/assets/d57348eb-6d85-4034-88fd-d9ad201c9914" />
