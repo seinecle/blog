@@ -1,0 +1,84 @@
+---
+layout: post
+title: "gen AI and designers: the Flash player killing again, but silently"
+permalink: /gen-ai-designers-flash-player-killing-again/
+published: false
+date_readable: July 17, 2025
+last_modified_at_readable: July 17, 2025
+categories: [IA, gen AI, Apple, hardware]
+---
+Why does Apple feel kind of quaint nowadays? Because they do hardware when the gravity center has shifted to software.
+
+# What is Apple producing?
+
+Macbooks, iPhones, AirPods, iWatches, ... 
+
+Let's do the same with **Microsoft**, its rival from the 1990s:
+
+Windows, Office, Github, LinkedIn, Visual Studio, TypeScript, Azure, XBox, plus a very large stake in OpenAI.
+
+See the difference?
+
+# Apple is in consumer electronics
+
+The big issue for Apple is that the space they are in, which is in the end "consumer electronics", is shrinking fast in relative size.
+
+They missed fundamental consumer services to Google (search, maps, browser, mail!). They missed the cloud to Amazon, Google and Microsoft. They missed the consumer content and social data to Meta, Amazon, Google, Netflix and Spotify. They are now missing the AI turn to OpenAI, Microsoft, Google, Anthropic and Meta.
+
+# The near future
+
+What will happen?
+
+### when Chinese consumers will turn away from Apple products, and to Chinese manufacturers for their needs in consumer electronics?
+
+Just like they are now switching from Tesla to Chinese brands, for instance:
+
+<img width="250" alt="Tesla vs BYD sales" src="https://github.com/user-attachments/assets/a66aaf4c-bffd-4c66-bcf2-531db86f8ad3" />
+
+> "How BYD caught up with Tesla in the global EV race", Financial Times, July 15, 2025.
+
+### when Apple will try to develop AI-based systems, impeded by their culture of secretive product design at odds with the open source culture of data science and AI (what remains of it, at least)?
+  
+  <img width="250" alt="Apple AI difficulties" src="https://github.com/user-attachments/assets/cacec0a0-0a91-4471-8bf7-7cab5db49f32" />
+
+> source: Financial Times, March 7 2025
+
+  <img width="250" alt="Apple AI difficulties" src="https://github.com/user-attachments/assets/ae0d34db-b040-4632-b28a-3f7d9878a580" />
+
+> source: Financial Times, June 8 2025
+
+### when OpenAI will develop its own closed garden, and not sharing it with Apple for free?
+<img width="350"  alt="OpenAI browser" src="https://github.com/user-attachments/assets/064897c8-015e-4036-b1c8-0b78d0eb7767" />
+
+> source: https://www.reuters.com/business/media-telecom/openai-release-web-browser-challenge-google-chrome-2025-07-09/
+
+### when OpenAI will develop its devices, with Jony Ive from Apple at the helm?
+Then Apple will look more and more like Samsung or Dell: good, global manufacturers of commodity products running other companies' smart innovations.
+
+<img width="350" alt="Sam Altman Jony Ive" src="https://github.com/user-attachments/assets/d57348eb-6d85-4034-88fd-d9ad201c9914" />
+
+> source: https://www.theverge.com/news/703114/openai-io-jony-ive-sam-altman-ai-hardware
+
+# But surely, Apple is more than that?
+
+I don't think so. Apple has had two major consumer electronics moments:
+
+- the personal computer
+- the smartphone
+
+That second one was 20 years ago.
+
+Both are typical of Steve Jobs' touch: perfect user experience based on excellent product design, desktop and laptop software design and engineering, and manufacturing.
+
+What's missing from this list of ingredients that made the success of Apple? Minimal expectations in 2025: web platforms offering data intensive services mastered to perfection, running on a fragmented ecosystem of brands and devices (from cars to headphones to vocal assistants to home systems etc).
+
+Conclusion: Apple makes beautiful objects belonging to ancient product categories, soon to be matched by Chinese manufacturers, running key software services they don't produce and unprepared to catch up with the current wave of gen AI.
+
+---
+
+# About Me
+I’m an academic and independent web app developer. I created [nocode functions](https://nocodefunctions.com) 🔎, a free, point-and-click tool for exploring texts and networks. It’s [fully open source](https://github.com/seinecle/nocodefunctions). Try it out and let me know what you think. I’d love your feedback!
+
+- **Email:** [analysis@exploreyourdata.com](mailto:analysis@exploreyourdata.com) 📧  
+- **Bluesky:** [@seinecle](https://bsky.app/profile/seinecle.bsky.social) 📱  
+- **Blog:** [Read more articles](https://nocodefunctions.com/blog) 👓 on app development and data exploration.
