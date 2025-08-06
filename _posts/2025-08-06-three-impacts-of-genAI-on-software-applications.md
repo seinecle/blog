@@ -2,7 +2,7 @@
 layout: post
 title: "Three impacts of gen AI on software applications"
 permalink: /three-impacts-of-genAI-on-software-applications/
-published: false
+published: true
 date_readable: 6 August 2025
 last_modified_at_readable: 6 August 2025
 categories: [AI, generative AI, software application, destructive creation]
