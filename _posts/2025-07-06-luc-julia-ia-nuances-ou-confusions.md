@@ -67,7 +67,7 @@ J'ai lu le livre, puis je l'ai relu systématiquement pour relever les affirmati
 - "ces IA [de génération d'images] ne créent rien" (p. 44)
 - "ces IA racontent n'importe quoi et c'est normal. [...] c'est une sorte de moyenne de ce qu'elle trouve sur Internet" (p.52)
 - L'IA manque de pertinence (p.53)
-- "Avoir faux une fois sur 3, c'est grave ?" (pp.53)
+- "Avoir faux une fois sur 3, c'est grave ?" (p.53)
 - "incapacité à raisonner" (p. 54)
 - "l'IA est tombée dans le panneau" (p. 62)
 - "quand le grand public prendra conscience de l'impact énergétique des IA, il s'abstiendra d'en utiliser" (p. 85)
@@ -89,7 +89,7 @@ J'ai lu le livre, puis je l'ai relu systématiquement pour relever les affirmati
 
 Je vois comme un *pattern*, pas vous ?
 
-L'IA, depuis l'irruption de ChatGPT dans nos vies, modifie profondément nos vies personnelles et professionnelles. Des nouveautés **significatives** apparaissent chaque mois. Le potentiel de ces technologies est immense et se révèle déjà dans une myriade d'expérimentations, d'études, de lancements de produits et services, d'initiatives créatrices.
+L'IA, depuis l'irruption de ChatGPT fin novembre 2022, modifie profondément nos vies personnelles et professionnelles. Des nouveautés **significatives** apparaissent chaque mois. Le potentiel de ces technologies est immense et se révèle déjà dans une myriade d'expérimentations, d'études, de lancements de produits et services, d'initiatives créatrices.
 
 Mais à la lecture de ce livre, le lecteur est laissé sans nuances : l'IA n'est pas si puissante que ça, ni très fiable, son potentiel est incertain voire nul, elle a eu de gros ratés, et c'est sans doute finalement une vaste esbrouffe.
 
@@ -99,7 +99,7 @@ L'auteur a quelques rares mots pour les changements positifs que l'IA peut appor
 
 ### Quelle base pour un avis si tranché ?
 
-Sur quels usages et expériences personnelles et professionnelles de l'IA générative Luc Julia se base-t-il pour poser ce constat si critique ? Quatre exemples tirés de son expérience sont partagés dans ce livre de 250 pages :
+Sur quels usages et expériences personnelles et professionnelles de l'IA générative Luc Julia se fonde-t-il pour poser ce constat si critique ? Quatre exemples tirés de son expérience sont partagés dans ce livre de 250 pages :
 
 1.  "Prenons un exemple pour démontrer que ces IA ne créent rien. [...] Dans le prompt, je saisis 'Dessine-moi des vaches vertes sur la tour Eiffel'. [...] " (p.44)
 2.  "Il y a un petit jeu que j'adore faire avec ces IA, c'est leur faire raconter n'importe quoi sur des sujets que je maîtrise. [...] je m'amuse souvent à générer ma biographie sur ChatGPT, Gemini ou autre." (p. 52).
@@ -159,7 +159,7 @@ Problème : le graphique s'arrête en **août 2023**. C'est ancien pour un livre
 
 La première barre rouge à gauche représente la limite du graphique partagé dans le livre. La deuxième barre rouge représente les données à fin 2024, à la veille de la publication du livre.
 
-L'image est bien différente. Après une stagnation estivale en 2023, les visites ont **doublé l'année suivante**. Pourquoi avoir tronqué le graph à l'été 2023 ?
+L'image est bien différente. Après une stagnation estivale en 2023, les visites ont **doublé l'année suivante** pour atteindre près de 4 milliards de visites mensuelles (!). Pourquoi avoir tronqué le graph à l'été 2023 ?
 
 ---
 
