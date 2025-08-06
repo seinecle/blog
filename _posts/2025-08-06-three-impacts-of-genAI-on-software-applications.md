@@ -12,29 +12,29 @@ These are very short notes to categorize and clarify how gen AI impacts existing
 
 # Positive change
 
-## 1. Easier software development
+## *Easier software development*
 Gen AI acts as an augmented suit: developpers become better developers. They can code more complex tasks, quicker. A team of developers has an extended potential.
 Or the the same potential can be achieved with a reduced team. Or even: a reduced team still has an extended potential.
 
 # Negative change
 (negative or disruptive or risky: your pick)
 
-## 1. Entire classes of text-handling software are made obsolete by a ChatGPT-like interface
+## *Entire classes of text-handling software are made obsolete by a ChatGPT-like interface*
 Early August 2025, I have seen a fellow academic announcing the coming launch of his new web app: a service for students to revise, comment and predict the grade of the Master thesis they are working on.
 
 -> this is obsolete by design. Just uploading the draft of the thesis to ChatGPT provides the student with all the feedback they need. With less friction.
 
 Take away: Grammarly, Deepl, and a large numbers of software applications manipulating textual documents are replacable by prompting ChatGPT for the exact service, for free.
 
-## 2. Software specializing in finding needles in a haystack are at risk of getting bypassed
+## *Software helping finding needles in a haystack are at risk of getting bypassed*
 I remember these two contrasting posts:
 
-a. on the reddit channel for OSINT , [a post in July 2025 asking whether genAI was useful to fellow OSINT researchers](https://www.reddit.com/r/OSINT/comments/1lrjcv0/osint_and_ai/).
+**a.** on the reddit channel for OSINT , [a post in July 2025 asking whether genAI was useful to fellow OSINT researchers](https://www.reddit.com/r/OSINT/comments/1lrjcv0/osint_and_ai/).
 The best voted answer starts with:
 
 > "Personally as AI researcher I have zero trust in anything LLM spews out. "
 
-b. In May 2025, Ethan Mollick (that I absolutely advise to follow) had posted this:
+**b.** In May 2025, Ethan Mollick (whom I absolutely advise to follow) had posted this:
 
 <blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:flxq4uyjfotciovpw3x3fxnu/app.bsky.feed.post/3lokji4dwpc2z" data-bluesky-cid="bafyreibsly4scel4t5fxshjbhv3kkos3nricg5a43jypklrj6m5xjirshq" data-bluesky-embed-color-mode="system"><p lang="en">Pretty awesome result from the new version of Gemini 2.5.
 
@@ -46,7 +46,7 @@ Gemini 2.5 consistently found this reference among 860,00 tokens.<br><br><a href
 
 ## 3. AI agents will act as "on-the-fly sofware packages"
 
-On July 17, 2025, OpenAI has released agents in ChatGPT. In practice, this means that your question to ChatGPT can now trigger the launch of a sandboxed Linux instance (in simple terms, a "small computer") able to download, install and run any available software to help answer your question. All at the moment of your request!
+On July 17, 2025, OpenAI has released agents in ChatGPT. In practice, this means that your question to ChatGPT can now trigger the launch of a sandboxed Linux instance (in simple terms, a "small computer") able to download, install and run any available software to help answer your question. All done autonomously, at the moment of your request!
 
 I tried it in the following way:
 
@@ -59,14 +59,15 @@ I tried it in the following way:
 
 Here is the visualization that I could create by uploading the file to ChatGPT and then asking some questions:
 
-<iframe src="/blog/assets/data/network_interactive.html" width="400" height="300"></iframe>
+<iframe src="/blog/assets/data/network_interactive.html" width="430" height="350"></iframe>
 
 (here is [the entire dialog with ChatGPT](https://chatgpt.com/share/68931976-5dec-8001-8c6a-f7e4c955f712))
 
-This is not as good as what I could have achieved by Gephi or other specialized software myself. But this is pretty good for a 10-minute exercise. To achieve this result, ChatGPT followed 2 types of actions, without my intervention:
+This is pretty good for a 10-minute exercise. To achieve this result, ChatGPT followed 2 types of actions, without my intervention:
 
-a. for the data analytics part: it could **not** perform it just by following a "token generation logic" because the data is too large to fit its context window reliably. So it spawned a mini Linux instance,  installed the python packages it judged necessary, and used this custom, newly created IT environment to reliably upload, read and analyzed the file.
-b. for the generation of the interactive web visualization, it just relied on its "instantaneous" knowledge of D3, the javascript library it used for it.
+**a.** for the data analytics part: it could **not** perform it just by following a "token generation logic" because the data is too large to fit its context window reliably. So it spawned a mini Linux instance,  installed the python packages it judged necessary, and used this custom, newly created IT environment to reliably upload, read and analyzed the file.
+
+**b.** for the generation of the interactive web visualization, it just relied on its "instantaneous" knowledge of D3, the javascript library it used for it.
 
 **Part a. of the process is the one that is usually crafted, maintained (and sold) by software companies. Now, ChatGPT can assemble these sofware parts when and as needed, for the price of a 20€ / month ChatGPT subscription.**
 
