@@ -59,7 +59,7 @@ I tried it in the following way:
 
 Here is the visualization that ChatGPT could create from the file:
 
-<iframe src="/assets/data/network_interactive.html" width="800" height="600"></iframe>
+<iframe src="/blog/assets/data/network_interactive.html" width="800" height="600"></iframe>
 
 
 
