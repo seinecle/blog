@@ -15,8 +15,8 @@ These are personal notes to categorize and clarify how gen AI impacts existing s
 Gen AI acts as an augmented suit: with AI copilots, developpers become better developers. They can code more complex tasks, quicker. A team of developers gains an extended potential.
 Or the the same potential can be achieved with a reduced team. Or even: a reduced team still has an extended potential.
 
-# Negative change
-(negative or disruptive or risky: your pick)
+# Risky change
+(risky or disruptive or negative: your pick)
 
 ## 1. *Entire classes of domain-specific analytics are made obsolete by a ChatGPT-like interface*
 Early August 2025, I have seen a fellow academic announcing the coming launch of his new web app: a service for students to revise, comment and predict the grade of the Master thesis they are working on.
