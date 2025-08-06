@@ -18,14 +18,14 @@ Or the the same potential can be achieved with a reduced team. Or even: a reduce
 # Negative change
 (negative or disruptive or risky: your pick)
 
-## *Entire classes of domain-specific analytics are made obsolete by a ChatGPT-like interface*
+## 1. *Entire classes of domain-specific analytics are made obsolete by a ChatGPT-like interface*
 Early August 2025, I have seen a fellow academic announcing the coming launch of his new web app: a service for students to revise, comment and predict the grade of the Master thesis they are working on.
 
 -> this is obsolete by design. Just uploading the draft of the thesis to ChatGPT provides the student with all the feedback they need. With less friction.
 
 Take away: Grammarly, Deepl, and a large numbers of software applications offering analytics on documents for specific domains are replacable by prompting ChatGPT for the exact service, for free.
 
-## *Software in information retrieval are at risk of getting bypassed*
+## 2. *Software in information retrieval are at risk of getting bypassed*
 Contrast these posts a. and b.:
 
 **a.** In July 2025 on the reddit channel for OSINT , [a post asked whether genAI was useful to fellow OSINT researchers](https://www.reddit.com/r/OSINT/comments/1lrjcv0/osint_and_ai/).
@@ -47,7 +47,7 @@ That is of concern to software relying on any domains of information retrieval i
 
 And that is an opportunity that OSINT specialists should explore.
 
-## *AI agents will act as "on-the-fly sofware packages"*
+## 3. *AI agents will act as "on-the-fly sofware packages"*
 On July 17, 2025, OpenAI has released agents in ChatGPT. In practice, this means that your question to ChatGPT can now trigger the launch of a sandboxed Linux instance (in simple terms, a "small computer") able to download, install and run any available software to help answer your question. All done autonomously, at the moment of your request!
 
 I tried it in the following way:
