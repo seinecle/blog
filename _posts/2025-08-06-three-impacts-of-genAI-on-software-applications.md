@@ -20,7 +20,7 @@ Or the the same potential can be achieved with a reduced team. Or even: a reduce
 (negative or disruptive or risky: your pick)
 
 ## 1. Entire classes of text-handling software are made obsolete by a ChatGPT-like interface
-A couple of days ago, I have seen a fellow academic announcing the coming launch of his new web app: a service for students to revise, comment and predict the grade of the Master thesis they are working on.
+Early August 2025, I have seen a fellow academic announcing the coming launch of his new web app: a service for students to revise, comment and predict the grade of the Master thesis they are working on.
 
 -> this is obsolete by design. Just uploading the draft of the thesis to ChatGPT provides the student with all the feedback they need. With less friction.
 
@@ -29,12 +29,12 @@ Take away: Grammarly, Deepl, and a large numbers of software applications manipu
 ## 2. Software specializing in finding needles in a haystack are at risk of getting bypassed
 I remember these two contrasting posts:
 
-a. on the reddit channel for OSINT, [a recent post asking whether genAI was useful to fellow OSINT researchers](https://www.reddit.com/r/OSINT/comments/1lrjcv0/osint_and_ai/).
+a. on the reddit channel for OSINT , [a post in July 2025 asking whether genAI was useful to fellow OSINT researchers](https://www.reddit.com/r/OSINT/comments/1lrjcv0/osint_and_ai/).
 The best voted answer starts with:
 
 > "Personally as AI researcher I have zero trust in anything LLM spews out. "
 
-b. Rouhgly in the same period, Ethan Mollick (that I advise absolutely to follow) posted this:
+b. In May 2025, Ethan Mollick (that I absolutely advise to follow) had posted this:
 
 <blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:flxq4uyjfotciovpw3x3fxnu/app.bsky.feed.post/3lokji4dwpc2z" data-bluesky-cid="bafyreibsly4scel4t5fxshjbhv3kkos3nricg5a43jypklrj6m5xjirshq" data-bluesky-embed-color-mode="system"><p lang="en">Pretty awesome result from the new version of Gemini 2.5.
 
@@ -42,7 +42,25 @@ I changed one line of War and Peace, inserting a sentence into Book 14, Chapter 
 
 Gemini 2.5 consistently found this reference among 860,00 tokens.<br><br><a href="https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu/post/3lokji4dwpc2z?ref_src=embed">[image or embed]</a></p>&mdash; Ethan Mollick (<a href="https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu?ref_src=embed">@emollick.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu/post/3lokji4dwpc2z?ref_src=embed">7 mai 2025 à 06:06</a></blockquote>
 
--> in my view, OSINT researchers should be a bit more curious about gen AI capabilities for their trade.
+-> in my view, OSINT researchers could be a bit more curious about gen AI capabilities for their trade.
+
+## 3. AI agents will act as "on-the-fly sofware packages"
+
+On July 17, 2025, OpenAI has released agents in ChatGPT. In practice, this means that your question to ChatGPT can now trigger the launch of a sandboxed Linux instance (in simple terms, a "small computer") able to download, install and run any available software to help answer your question. All at the moment of your request!
+
+I tried it in the following way:
+
+- I have the network of my followers on Twitter, back from 2023. This is a text file in a specialized style: the gexf format, made to represent entities and their relations.
+- with a specialized desktop software named [Gephi](https://gephi.org/), I created a visual representation of this network:
+
+<img width="1200" height="1200" alt="seinecle_network_small" src="https://github.com/user-attachments/assets/3a111562-3d6a-4079-a9bb-8b46d45a9b40" />
+
+**Could this be done "just with ChatGPT"?**
+
+Here is the visualization that ChatGPT could create from the file:
+
+
+
 
 ### A propos
 Je suis Clément Levallois, universitaire et développeur indépendant de [nocode functions](https://nocodefunctions.com) 🔎, une application d'analyse de texte et de réseaux. Cette app est [open source](https://github.com/seinecle/nocodefunctions).
