@@ -137,14 +137,9 @@ Cet article et l'interprétation erronée qu'en fait Luc Julia sont ensuite rés
 Edit : un internaute que je remercie m'a indiqué que Luc Julia était intervenu devant le Sénat. Et en effet, il cite ce fameux chiffre de 36% d'erreur devant la Commission des affaires économiques du Sénat le 18 juin 2025 avec la même référence erronée à l'article de l' "Université de Hong Kong" de 2023 et ses "1 million" de faits avérés. L'extrait vidéo 📽️ ci-dessous :
 
 <div style="display: flex; justify-content: center;">
-  <div style="position: relative; width: 100%; max-width: 560px; aspect-ratio: 16 / 9;">
-    <iframe
-      src="https://www.youtube.com/embed/UjBZaKcTeIY?start=1805"
-      title="Luc Julian en intervention devant le Sénat"
-      allowfullscreen
-      style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;">
-    </iframe>
-  </div>
+  <a href="https://www.youtube.com/watch?v=UjBZaKcTeIY&t=1805" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/UjBZaKcTeIY/1.jpg" alt="Luc Julian en intervention devant le Sénat" style="max-width: 100%; width: 360px; height: auto;">
+  </a>
 </div>
 
 
