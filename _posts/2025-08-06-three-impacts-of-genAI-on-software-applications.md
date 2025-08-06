@@ -50,16 +50,28 @@ On July 17, 2025, OpenAI has released agents in ChatGPT. In practice, this means
 
 I tried it in the following way:
 
-- I have the network of my followers on Twitter, back from 2023. This is a text file in a specialized style: the gexf format, made to represent entities and their relations.
-- with a specialized desktop software named [Gephi](https://gephi.org/), I created a visual representation of this network:
+- I have the network of my followers on Twitter, back from 2023. This is stored as a text file formatted in a specialized way: the gexf file format, made to represent entities and their relations.
+- I used a specialized desktop software named [Gephi](https://gephi.org/) to create this visual representation of this network:
 
-<img width="1200" height="1200" alt="seinecle_network_small" src="https://github.com/user-attachments/assets/3a111562-3d6a-4079-a9bb-8b46d45a9b40" />
+<img width="400" height="400" alt="seinecle_network_small" src="https://github.com/user-attachments/assets/3a111562-3d6a-4079-a9bb-8b46d45a9b40" />
 
 **Could this be done "just with ChatGPT"?**
 
-Here is the visualization that ChatGPT could create from the file:
+Here is the visualization that I could create by uploading the file to ChatGPT and then asking some questions:
 
-<iframe src="/blog/assets/data/network_interactive.html" width="800" height="600"></iframe>
+<iframe src="/blog/assets/data/network_interactive.html" width="400" height="300"></iframe>
+
+(here is [the entire dialog with ChatGPT](https://chatgpt.com/share/68931976-5dec-8001-8c6a-f7e4c955f712))
+
+This is as good as what I could have achieved with Gephi or other specialized software. But this is not bad for a 10-minute exercise. To achieve this result, ChatGPT followed 2 types of actions, without my intervention:
+
+a. for the data analytics part: it could **not** perform it just by following a "token generation logic" because the data is too large to fit its context window reliably. So it spawned a mini Linux instance,  installed the python packages it judged necessary, and used this custom, newly created IT environment to reliably upload, read and analyzed the file.
+b. for the generation of the interactive web visualization, it just relied on its "instantaneous" knowledge of D3, the javascript library it used for it.
+
+**Part a. of the process is the one that is usually crafted, maintained (and sold) by software companies. Now, ChatGPT can assemble these sofware parts when and as needed, for the price of a 20€ / month ChatGPT subscription.**
+
+Then it can interface whatever this IT environment produced with its dialog and reasoning capabilies (part b.) - a domain or skillset that software companies do not possess or master.
+
 
 
 
