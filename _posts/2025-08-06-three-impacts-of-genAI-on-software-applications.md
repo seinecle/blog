@@ -40,7 +40,7 @@ b. Rouhgly in the same period, Ethan Mollick (that I advise absolutely to follow
 
 I changed one line of War and Peace, inserting a sentence into Book 14, Chapter 10 (halfway through), where Princess Mary &quot;spoke to Crab Man the superhero.&quot;
 
-Gemini 2.5 consistently found this reference among 860,00 tokens.<br><br><a href="https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu/post/3lokji4dwpc2z?ref_src=embed">[image or embed]</a></p>&mdash; Ethan Mollick (<a href="https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu?ref_src=embed">@emollick.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu/post/3lokji4dwpc2z?ref_src=embed">7 mai 2025 à 06:06</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+Gemini 2.5 consistently found this reference among 860,00 tokens.<br><br><a href="https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu/post/3lokji4dwpc2z?ref_src=embed">[image or embed]</a></p>&mdash; Ethan Mollick (<a href="https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu?ref_src=embed">@emollick.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu/post/3lokji4dwpc2z?ref_src=embed">7 mai 2025 à 06:06</a></blockquote>
 
 -> in my view, OSINT researchers should be a bit more curious about gen AI capabilities for their trade.
 
