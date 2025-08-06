@@ -42,7 +42,7 @@ I changed one line of War and Peace, inserting a sentence into Book 14, Chapter 
 
 Gemini 2.5 consistently found this reference among 860,00 tokens.<br><br><a href="https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu/post/3lokji4dwpc2z?ref_src=embed">[image or embed]</a></p>&mdash; Ethan Mollick (<a href="https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu?ref_src=embed">@emollick.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu/post/3lokji4dwpc2z?ref_src=embed">7 mai 2025 à 06:06</a></blockquote>
 
--> in my view, OSINT researchers could be a bit more curious about gen AI capabilities for their trade.
+-> OSINT researchers could be a bit more curious about gen AI capabilities for their trade.
 
 ## 3. AI agents will act as "on-the-fly sofware packages"
 
@@ -63,7 +63,7 @@ Here is the visualization that I could create by uploading the file to ChatGPT a
 
 (here is [the entire dialog with ChatGPT](https://chatgpt.com/share/68931976-5dec-8001-8c6a-f7e4c955f712))
 
-This is as good as what I could have achieved with Gephi or other specialized software. But this is not bad for a 10-minute exercise. To achieve this result, ChatGPT followed 2 types of actions, without my intervention:
+This is not as good as what I could have achieved by Gephi or other specialized software myself. But this is pretty good for a 10-minute exercise. To achieve this result, ChatGPT followed 2 types of actions, without my intervention:
 
 a. for the data analytics part: it could **not** perform it just by following a "token generation logic" because the data is too large to fit its context window reliably. So it spawned a mini Linux instance,  installed the python packages it judged necessary, and used this custom, newly created IT environment to reliably upload, read and analyzed the file.
 b. for the generation of the interactive web visualization, it just relied on its "instantaneous" knowledge of D3, the javascript library it used for it.
