@@ -65,7 +65,7 @@ Here is the visualization that I could create by uploading the file to ChatGPT a
 
 This is pretty good for a 10-minute exercise. To achieve this result, ChatGPT followed 2 types of actions, without my intervention:
 
-**a.** for the data analytics part: it could **not** perform it just by following a "token generation logic" because the data is too large to fit its context window reliably. So it spawned a mini Linux instance,  installed the python packages it judged necessary, and used this custom, newly created IT environment to reliably upload, read and analyzed the file.
+**a.** for the data analytics part: it could **not** perform it just by following a "token generation logic" because the data is too large to fit its context window reliably. So it spawned a mini Linux instance,  installed the python packages it judged necessary, and used this custom, newly created IT environment to reliably upload, read and analyze the file.
 
 **b.** for the generation of the interactive web visualization, it just relied on its "instantaneous" knowledge of D3, the javascript library it used for it.
 
