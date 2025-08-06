@@ -44,7 +44,7 @@ Gemini 2.5 consistently found this reference among 860,00 tokens.<br><br><a href
 
 -> OSINT researchers could be a bit more curious about gen AI capabilities for their trade.
 
-## 3. AI agents will act as "on-the-fly sofware packages"
+## *AI agents will act as "on-the-fly sofware packages"*
 
 On July 17, 2025, OpenAI has released agents in ChatGPT. In practice, this means that your question to ChatGPT can now trigger the launch of a sandboxed Linux instance (in simple terms, a "small computer") able to download, install and run any available software to help answer your question. All done autonomously, at the moment of your request!
 
