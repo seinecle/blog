@@ -13,7 +13,7 @@ These are personal notes to categorize and clarify how gen AI impacts existing s
 # Positive change
 ## *Easier software development*
 Gen AI acts as an augmented suit: with AI copilots, developpers become better developers. They can code more complex tasks, quicker. A team of developers gains an extended potential.
-Or the the same potential can be achieved with a reduced team. Or even: a reduced team still has an extended potential.
+Or the same potential can be achieved with a reduced team.
 
 # Risky change
 (risky or disruptive or negative: your pick)
@@ -41,7 +41,7 @@ I changed one line of War and Peace, inserting a sentence into Book 14, Chapter 
 
 Gemini 2.5 consistently found this reference among 860,00 tokens.<br><br><a href="https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu/post/3lokji4dwpc2z?ref_src=embed">[image or embed]</a></p>&mdash; Ethan Mollick (<a href="https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu?ref_src=embed">@emollick.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:flxq4uyjfotciovpw3x3fxnu/post/3lokji4dwpc2z?ref_src=embed">7 mai 2025 à 06:06</a></blockquote>
 
--> in my honest opinion, Ethan Mollick's experiment suggests that for a wide range of "find the needle in the haystak" kind of tasks, LLMs are already unique in the value they can deliver. 
+-> in my honest opinion, Ethan Mollick's experiment suggests that for a wide range of "find the needle in the haystack" kind of tasks, LLMs are already unique in the value they can deliver. 
 
 That is of concern to software relying on any domains of information retrieval in some capacity: search engines, natural language processing, database management, data preparation, document processing, data visualization, and more.
 
