@@ -85,7 +85,7 @@ To avoid being weeded out by genAI, software need to deliver a value not reprodu
 *custom*: software can rely on classic processes, but then they should customize them to be truly better than the default that agentic AI will pick. Choosing non obvious parameters, rewritting some key parts of the process.
 
 # Final thoughts: open source - to what extent?
-I develop my web app entirely in open source. I am not sure what feeling I would have if I would see an AI agent pick up some of my functions and integrate it in some processes in response to a user request. Why should it matter, since in the end a user has been served, which is one of my key objectives? I still feel that I would kind of loose control to OpenAI on what I have created. I am not sure.
+My web app is entirely in open source. I am not sure what feeling I would have if an AI agent would pick up some of my functions and integrate it in some processes in response to a user request. Why should it matter, since in the end a user has been served, which is one of my key objectives? I still feel that I would kind of loose control to OpenAI on what I have created. I am not sure.
 
 If I wanted to prevent that from happening, I could:
 
