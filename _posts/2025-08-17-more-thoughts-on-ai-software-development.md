@@ -13,7 +13,7 @@ These are personal notes on how gen AI impacts existing software applications. F
 # What gen AI *can* do as of August 2025
 
 ## 1. Take files as input
-Until last year, most gen AI apps were limited in the kind of files they could read. Gemini couldn't even read pdfs.
+Until last year, most gen AI apps were limited in the kind of files they could read. Gemini couldn't even read pdfs if I recall correctly.
 This tends to quickly disappear.
 Most apps now accept txt, csv, pdf, docx, xlsx, pptx, any xml or json files.
 
@@ -40,7 +40,7 @@ A conversational generative AI can now single handly cover the entire chain of d
 
 -> you never leave the app, it is all integrated in one place.
 
-**But in practice and despite all of this, the tasks we perform often quickly require some basic information manipulation that is not available in the ChatGPT environnment:**
+**But in practice and despite all of this, the tasks we perform often quickly require some basic information handling that is not available in the ChatGPT environnment:**
 
 - search, filtering, sorting, renaming, formatting, "undo", ...
 These tasks are often perceived to be so elementary that they are situated at the periphery of the value proposition of any given software.
@@ -57,6 +57,29 @@ This interface is definitely *not* the most useful in many situations:
 - are you a coder? Then "IDEs" (integrated development enviromnents) are proved solutions for decades now
 - are you a UX designer? Then a canvas interface is necessary.
 etc.
+
+# 3 directions where these tensions are pushing innovation
+
+## 1. Gen AI chatbots enriching their interface
+[OpenAI launched "Canvas" in 2024](https://openai.com/fr-FR/index/introducing-canvas/), a panel window that opens next to the conversation when the information at hand manifestly needs an other classic form of display. Canvas can take form of a table when needed, or a coding editor, and can render anything that can be represented as a web page: apps, maps, tables, whatever really.
+
+-> Gemini by Google launched a similar feature, also named "Canvas", in Spring 2025. 
+
+In my experience, these are not really helpful yet: past simple cases, the rendering of html pages is buggy and advanced features are immediately missing (for tabular data).
+
+## 2. Incumbent software integrating AI
+This is a priori a smart move: existing software have all the convenience of a very familiar interface to their very large base of users. So you just need to add gen AI capabilities (like: analytics and reasoning) to it. Think Microsoft Copilot added to Excel. But as of this day the results are very disappointing.
+
+Another (anecdotical) instance is the supermarket chain where I do my grocery shopping, and that delivers it. All from a mobile app. So they tried to add a "gen ai" feature that would help me pre-fill my basket, based on my previous purchases. Well, that fails miserably and a basic expert system would have been enough ("suggest the most frequently, most recently purchased items"). 
+
+Attempts with a better success are:
+
+- [Photoshop](https://helpx.adobe.com/photoshop/using/generative-expand.html) integrating AI-based functions (a move that dates before generative AI).
+- [JetBrains](https://www.jetbrains.com/help/idea/ai-assistant-in-jetbrains-ides.html) adding AI assistant capabilities to its IDEs. Same for [VS Code](https://www.infoworld.com/article/3982310/visual-studio-code-beefs-up-ai-coding-features.html?utm_source=chatgpt.com)
+
+## New "AI native software"
+
+
 
 
 
