@@ -1,0 +1,56 @@
+---
+layout: post
+title: "More thougts on the impact of gen AI on software applications"
+permalink: /more-thoughts-on-impacts-of-genAI-on-software-applications/
+published: false
+date_readable: 17 August 2025
+last_modified_at_readable: 17 August 2025
+categories: [AI, generative AI, software application, destructive creation]
+---
+
+These are personal notes on how gen AI impacts existing software applications. Follow up to [this post](/three-impacts-of-genAI-on-software-applications/).
+
+# What gen AI *can* do as of August 2025
+
+## 1. Takes files as input
+Until last year, most gen AI apps were limited in the kind of files they could read. This tends to quickly disappear. It now accepts txt, csv, pdf, docx, xlsx, pptx, any xml or json files.
+
+## 2. Can perform advanced analytics, on the fly
+ChatGPT can now launch a mini IT environment to treat your queries on the fly: it will be able to run any Python code that is freely available as a packaged library on the web.
+
+## 3. Reasoning
+This one is there from the start: LLMs' stunning impact is that they (seem to) reason like any human would do.
+I let you appreciate whether this human is like "an intern", "an undergrad" or "PhD level", but still quite close to what a human could do.
+
+# What gen AI *can't* do as of August 2025
+
+## 1. Connect to "live" data sources
+Analyzing Bluesky or Reddit or LinkedIn data on the fly?
+That is probably already possible: after all, I imagine you can provide your API account credentials in a prompt and that would enable the gen AI app to fetch the data for you.
+*But that is not practical nor straightforward*. What about speed, costs, memory limits, and persistence of the data that is fetched?
+
+## 2. Provide an integrated environment
+ChatGPT agents are the start of a transformation of the ChatGPT app into an integrated environment:
+
+- you can provide a variety of inputs (files, images, prompts)
+- these inputs can trigger the launch of a variety of actions: web search, a mini-IT environement, a reasoning mode, the creation of visuals, or just a quick written reply if that's all that is necessary.
+- you can then save the result: copy the response to the clipboard, or download the results as a file, or download the image.
+
+-> you never leave the app, it is all integrated in one place.
+
+But in practice, the tasks we perform often quickly require some specific resources or processes that are not available in the ChatGPT environnment:
+
+- advanced information manipulation: search, filtering, sorting, renaming, formatting, ... these "menial" tasks, often perceived to be at the periphery of the value proposition of any given software, are now often a good reason why we leave a chatgpt conversation and come back to desktop application.
+"It is easier and quicker".
+
+
+
+
+
+---
+# About Me
+I’m an academic and independent web app developer. I created [nocode functions](https://nocodefunctions.com) 🔎, a free, point-and-click tool for exploring texts and networks. It’s [fully open source](https://github.com/seinecle/nocodefunctions). Try it out and let me know what you think. I’d love your feedback!
+
+- **Email:** [analysis@exploreyourdata.com](mailto:analysis@exploreyourdata.com) 📧  
+- **Bluesky:** [@seinecle](https://bsky.app/profile/seinecle.bsky.social) 📱  
+- **Blog:** [Read more articles](https://nocodefunctions.com/blog) 👓 on app development and data exploration.
