@@ -89,7 +89,7 @@ Cette interface n’est clairement *pas* la plus utile dans de nombreuses situat
 
 Les immenses ressources des acteurs clés de l’IA générative (Google, OpenAI, Anthropic – et Mistral ?) laissent penser qu’ils développeront ces types d’interfaces manquantes. Des interfaces « canvas » et « coding » ont déjà été ajoutées (voir ci-dessous), même si de façon rudimentaire. Mais faut-il souhaiter une appli « tout-en-un » ? La différenciation des logiciels en applis de bureau distinctes a eu lieu pour une raison : elle offre des choix de conception plus fins. Maintenir ce degré de différenciation dans une seule grosse « appli IA générative » semble difficile.
 
-# 3 directions où ces tensions poussent l’innovation
+# Comment ces tensions catalysent l'innovation dans trois domaines
 
 ## 1. L’évolution de l’interface chatbot
 
