@@ -9,7 +9,7 @@ last\_modified\_at\_readable: 18 August 2025
 categories: \[IA, IA générative, applications logiciels, destruction créatrice, french]
 ---
 
-Ce sont des notes personnelles sur la manière dont l’IA générative impacte les applications logicielles. C’est une suite à [ce post précédent, en anglais](/blog/three-impacts-of-genAI-on-software-applications/).
+Ce sont des notes personnelles sur la manière dont l’IA générative impacte les applications logicielles. Ce post est traduit [de l'anglais](/blog/more-thoughts-on-impacts-of-genAI-on-software-applications/) et fait suite à [ce post précédent, en anglais aussi](/blog/three-impacts-of-genAI-on-software-applications/).
 
 # Ce que l’IA générative *peut* faire en août 2025
 
