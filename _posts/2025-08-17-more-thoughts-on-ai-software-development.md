@@ -34,7 +34,7 @@ I let you appreciate whether this human is like "an intern," "an undergrad" or "
 
 Reasoning has taken a new turn since Autumn 2024 ([OpenAI](https://openai.com/fr-FR/index/introducing-openai-o1-preview/?utm_source=chatgpt.com)) / February 2025 ([Claude](https://www.anthropic.com/news/claude-3-7-sonnet?utm_source=chatgpt.com)) / March 2025 ([Gemini](https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/#gemini-2-5-thinking)) with the ability for a gen AI app to iterate: it can now feed itself the results it has produced, which allows for re-examinations, modifications and improvements before the final version of the results is delivered to the user.
 
-### Generate interactive content
+### 4. Generate interactive content
 
 All major providers are now capable of generating pics and interactive web applications.
 
