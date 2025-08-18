@@ -38,7 +38,7 @@ La capacité de raisonnement est ce qui a fait le succès de l'IA générative :
 
 Le raisonnement a pris une nouvelle tournure depuis l’automne 2024 ([OpenAI](https://openai.com/fr-FR/index/introducing-openai-o1-preview/)) / février 2025 ([Claude](https://www.anthropic.com/news/claude-3-7-sonnet)) / mars 2025 ([Gemini](https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/#gemini-2-5-thinking)) avec la capacité pour une IA générative d’itérer : elle peut désormais se nourrir de ses propres résultats, ce qui permet réexamens, modifications et améliorations avant que la version finale ne soit livrée à l’utilisateur.
 
-### 4. Générer du contenu interactif
+## 4. Générer du contenu interactif
 
 Tous les grands fournisseurs savent désormais générer des images et des applications web interactives.
 
