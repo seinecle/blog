@@ -145,7 +145,7 @@ Ces trois exemples pourraient laisser penser que c’est une voie garantie vers 
 * [Grammarly](https://www.grammarly.com/) : correction et amélioration stylistique de texte
 * [DeepL](https://www.deepl.com/fr/translator) : traduction
 
-Ces 4 services sont menacés d’obsolescence car on peut obtenir le même service gratuitement via ChatGPT ou équivalents. Par exemple, je viens de traduire cet article de blog de l'anglais vers le français avec un simple prompt...
+Ces 4 services sont menacés d’obsolescence car en principe, on peut obtenir le même service gratuitement via ChatGPT ou équivalents. Par exemple, je viens de traduire cet article de blog de l'anglais vers le français avec un simple prompt. DeepL m'aurait ralenti plutôt qu'aidé...
 
 Dit autrement, comme le montre un mème populaire : un simple prompt ChatGPT peut donner le même résultat qu’une appli dédiée, la rendant inutile :
 
