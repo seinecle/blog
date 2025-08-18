@@ -55,7 +55,7 @@ J’étais sur le point de conclure ainsi, mais… Claude d’Anthropic contredi
 * connecteurs vers vos applis de bureau (navigateur, explorateur de fichiers, …),
 * connecteurs vers des sources et services web (Canva, Gmail, Notion, etc.).
 
-Ces connecteurs signifient que vous pouvez utiliser Claude pour raisonner et créer à partir de n’importe quel contenu produit sur votre ordinateur.
+Ces connecteurs signifient que vous pouvez utiliser Claude pour raisonner et créer à partir de n’importe quel contenu produit sur votre ordinateur, et à partir d'un catalogue de plus en plus étoffé de sources de données applicatives sur le web.
 
 ## 2. Gestion fine de l’information
 
