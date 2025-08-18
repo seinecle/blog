@@ -8,7 +8,7 @@ last_modified_at_readable: 17 August 2025
 categories: [AI, generative AI, software application, destructive creation]
 ---
 
-These are personal notes on how gen AI impacts existing software applications. Follow up to [this post](/three-impacts-of-genAI-on-software-applications/).
+These are personal notes on how gen AI impacts software applications. This is a follow up to [this post](/three-impacts-of-genAI-on-software-applications/).
 
 # What gen AI *can* do as of August 2025
 
@@ -57,13 +57,14 @@ A conversational generative AI can now single-handedly cover the entire chain of
 
 -> you never leave the app, it is all integrated in one place.
 
-**But in practice and despite all of this, the tasks we perform often quickly require some basic information handling that is not available in the ChatGPT environnment:**
+**<u>Yet in practice and despite all of this</u>, the tasks we perform often quickly require some basic information handling that is not available in the ChatGPT environnment:**
 
-- search, filtering, sorting, renaming, formatting, "undo", ...
-These tasks are often perceived to be so elementary that they are situated at the periphery of the value proposition of any given software.
+-> search, filtering, sorting, renaming, formatting, "undo", ...
+
+These tasks are perceived to be so elementary that they are almost invisible, situated at the periphery of the value proposition of any given software.
 Yet they are the reason we leave a chatgpt conversation and come back to a "regular" desktop application. Because it "is easier and quicker" to conduct these tasks there.
 
-To illustrate : ChatGPT generates text, for sure. Yet we still copy paste the results to Word and take some time formatting and doing some revisions there.
+To illustrate: ChatGPT generates text, for sure. And it can format it thanks to [markdown](https://daringfireball.net/projects/markdown/), yes indeed. Yet we still copy paste the results to Microsoft Word and take some time to format and polish the result.
 If the final destination of the text is a Powerpoint document, there is even more intense steps of reformatting, as anyone who tried would agree.
 
 ## 3. Offer interfaces designed for the task at hand 
@@ -73,7 +74,9 @@ This interface is definitely *not* the most useful in many situations:
 - need to manipulate tabular data? An Excel-like interface seem essential
 - are you a coder? Then "IDEs" (integrated development enviromnents) are proved solutions for decades now
 - are you a UX designer? Then a canvas interface is necessary.
-etc.
+- etc.
+
+The immense ressources of the key players in gen AI (Google, OpenAI, Anthropic - and Mistral?) suggest that they will develop these missing types of interfaces. "Canvas" and "coding" interfaces have now been added (see below), even if in a rudimentary form. But is a "do-everything" app something to wish for? Differentiation of software in separate desktop apps happened for a reason after all - it offers opportunities for finer design choices. Maintaining this degree of differentiation in one big "gen AI app" seem difficult. 
 
 # 3 directions where these tensions are pushing innovation
 
@@ -84,23 +87,42 @@ etc.
 
 In my experience, these are "nice to have" features but not that useful yet: past simple cases, the rendering of html pages is buggy and advanced features are immediately missing (for tabular data for instance).
 
+I am curious about where this road is heading. Are these diversified interfaces within the genAI app meant to serve "intermediary skilled" users, who don't need the full power of a fullfledged app? Or maybe that advanced users are targeted as well, for their needs to prototyping / experimenting quickly before switching to desktop apps to complete the job? Or again, do the companies behind these genAI apps really think they will ultimately provide the same experience as desktop apps - as in, ChatGPT one day replacing Figma? That last one seems unlikely to me.
+
 ## 2. Incumbent software integrating AI
-This is a priori a smart move: existing software have all the convenience of a very familiar interface to their very large base of users. So you just need to add gen AI capabilities (like: analytics and reasoning) to it. Think Microsoft Copilot added to Excel. But as of this day, in my personal experience the results are very disappointing:
+This is a priori a smart move: existing software have all the convenience of a very familiar, specialized interface to their very large base of users. So you just need to add gen AI capabilities (like: analytics and reasoning) to it and that's it, the genAI wave has been managed. Think Microsoft Copilot added to Excel. But as of this day, in my personal experience this direction has yielded very disappointing results:
 
 - Copilot in Excel doesn't achieve anything useful: it succeeds at simple tasks, which you could have done yourself quicker, such as adding a column that sums two other columns. And it fails at the more complicated tasks, such as formatting a table or filling values in a column by creating an advanced formula.
 
 - Another (anecdotical) instance is the app I use for grocery shopping. They tried to introduce a "gen ai" feature that would help me pre-fill my basket, based on my previous purchases. Well, that fails miserably and a basic expert system would have been enough ("suggest the most frequently, most recently purchased items"). 
 
-An attempt with a better success is the product category of "integrated development environments" (commonly known as IDEs): these software offer programmers all the necessary assistance to code faster and in a more "comfortable" way (it automates boring tasks etc).
-Today, all major IDEs offer AI assisted coding and coders actively use these features, to the point that the absence of these AI assistant features are ressented as hurting productivity. Examples: [JetBrains](https://www.jetbrains.com/help/idea/ai-assistant-in-jetbrains-ides.html) or [VS Code](https://www.infoworld.com/article/3982310/visual-studio-code-beefs-up-ai-coding-features.html?utm_source=chatgpt.com).
+An attempt with a much better success is the product category of "integrated development environments" (commonly known as IDEs, as discussed above): these software offer programmers all the necessary tooling to code faster and in a more "comfortable" way (it automates boring tasks etc.).
 
-## New "AI native software"
+Today, all major IDEs offer AI assisted coding. Coders actively use these features, to the point that the absence of these AI features is ressented as hurting productivity. Examples: [JetBrains](https://www.jetbrains.com/help/idea/ai-assistant-in-jetbrains-ides.html) or [VS Code](https://www.infoworld.com/article/3982310/visual-studio-code-beefs-up-ai-coding-features.html?utm_source=chatgpt.com).
+
+My broad impression on this direction is that after a (possibly long) period of poor user experience and inflated claims ("our app is now AI powered! - not), things will gradually improve and key desktop applications will retain their relevance. Because genAI app can't absorb evertything as this would make them inflated and lacking in advanced features (see above), incumbent software applications can thrive. I just see three big conditions for that:
+
+a. the software should offer a core service that cannot be annihilated by "pure generation" of text, image, video or sound. This is why I and many others see a kind of bleak future for [DeepL](https://www.quora.com/Whose-translation-is-better-DeepL-or-ChatGPT) or [Grammarly](https://www.reddit.com/r/ChatGPT/comments/zqrwnl/is_chatgpt_going_to_kill_grammarly/), for instance.
+
+## New "genAI native software"
 This is a very active area of development, so I won't be exhaustive by any stretch here. I'll take two examples:
 
-- [Scenario](https://www.scenario.com/) which generates 3D assets
-- Suno that generates music
-- 
+- [Scenario](https://www.scenario.com/) which generates 3D assets.
+- [Shortcut](https://www.tryshortcut.ai/) which is like Excel, but with AI capabilities
+- [Suno](https://suno.com/home) which is a generator of music
 
+So much to say on these software, I'll keep it to common essential points:
+
+1. Preliminary evidence suggest that they vastly improve the productivity of professionnals in some significant tasks, in their respective domains. See for [Scenario](https://x.com/emmanuel_2m/status/1947372337529004253), [Shortcut](https://x.com/nicochristie/status/1949862432077484396) and [Suno](https://x.com/levelsio/status/1957155181591777503).
+2. in the case of Scenario and Suno, which relate to artistic creation, we can expect torny debates about the quality of their outputs. 
+3. incumbent professionals will ignore and then be critical of these solutions
+4. businesses will adopt these tools as soon as their tests will show the significant improvement of productivity they gain
+5. Three segments will emerge:
+   a. mass produced cheap cultural assets produced **entirely with AI** (think advertisements on your phone, music in the elevator and shopping malls, etc)
+   b. "artistic-grade" (however defined), small series, "hand crafted", cultural artifacts **created entirely without gen AI**. These will be luxury items for high-end markets but also the production of local artists making a living on indie markets and scenes.
+   c. creative industries continuing to produce their movies, experiences and events with a mix of genAI and traditional human-intensive software (think Blender for 3D assets). Production will be at a faster pace. 
+
+My viewpoint on these "genAI native software": the three examples above could suggest that it is a guaranteed path to success. Absolutely not, as these kind of software face the risk to be superseded, completely replaced by the progress made by generalist genAI apps: ChatGPT, Claude, Gemini (and Le Chat?).  
 
 
 
