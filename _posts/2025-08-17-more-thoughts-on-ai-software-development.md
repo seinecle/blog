@@ -4,7 +4,7 @@ title: "More thoughts on the impact of gen AI on software applications"
 permalink: /more-thoughts-on-impacts-of-genAI-on-software-applications/
 published: true
 date_readable: 17 August 2025
-last_modified_at_readable: 17 August 2025
+last_modified_at_readable: 18 August 2025
 categories: [AI, generative AI, software application, destructive creation]
 ---
 
@@ -85,7 +85,7 @@ This interface is definitely *not* the most useful in many situations:
 
 The immense resources of the key players in gen AI (Google, OpenAI, Anthropic - and Mistral?) suggest that they will develop these missing types of interfaces. "Canvas" and "coding" interfaces have now been added (see below), even if in a rudimentary form. But is a "do-everything" app something to wish for? Differentiation of software in separate desktop apps happened for a reason after all - it offers opportunities for finer design choices. Maintaining this degree of differentiation in one big "gen AI app" seems difficult.
 
-# 3 directions where these tensions are pushing innovation
+# Three directions where these tensions are pushing innovation
 
 ## 1. The evolution of the chatbot interface
 
