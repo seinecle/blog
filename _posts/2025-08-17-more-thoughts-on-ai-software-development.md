@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "More thoughts on the impact of gen AI on software applications"
+title: "Thoughts on the impact of gen AI on software applications"
 permalink: /more-thoughts-on-impacts-of-genAI-on-software-applications/
 published: true
 date_readable: 17 August 2025
