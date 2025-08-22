@@ -4,7 +4,7 @@ title: "Luc Julia : nuances ou confusions ?"
 permalink: /luc-julia-ia-nuances-confusions/
 published: true
 date_readable: 7 juillet 2025
-last_modified_at_readable: 13 août 2025
+last_modified_at_readable: 22 août 2025
 categories: [IA, IA générative, Luc Julia, esprit critique]
 ---
 
@@ -125,7 +125,24 @@ Luc Julia commente ironiquement : *"Si un collègue de travail dit 36% de bêtis
 
 Plusieurs problèmes avec cet article et son interprétation :
 
-- **Il est difficile à trouver :** l'article n'est pas référencé dans le livre, le titre et les auteurs ne sont pas cités, et l'affiliation à l'Université de Hong Kong (seul indice fourni, avec la date de publication) s'avère incorrecte. Après recherches (merci Gemini), il existe une [interview publiée de Luc Julia](https://www.europeanscientist.com/fr/opinion/chatgpt-cest-64-de-pertinence-il-faut-toujours-douter-de-lia-luc-julia-interview/) où il répète ce chiffre de 36% et cette mention de l'université de Hong-Kong mais cette fois-ci avec le lien vers l'étude à laquelle il fait référence. Il s'agit de [cette publication](https://arxiv.org/abs/2302.12095).
+- **Il est difficile à identifier :** l'article n'est pas référencé dans le livre et ni le titre ni les auteurs ne sont cités.
+
+- Après recherches (merci Gemini), il existe une [interview publiée de Luc Julia](https://www.europeanscientist.com/fr/opinion/chatgpt-cest-64-de-pertinence-il-faut-toujours-douter-de-lia-luc-julia-interview/) où il répète ce chiffre de 36% et cette mention de l'université de Hong-Kong mais cette fois-ci avec le lien vers l'étude à laquelle il fait référence. Il s'agit de [cette publication](https://arxiv.org/abs/2302.12095).
+
+**<edit du 22 Août 2025>**
+
+Un étudiant en informatique, que je remercie, m'a contacté pour m'indiquer [qu'une vidéo critique de Luc Julia](https://www.youtube.com/watch?v=e5kDHL-nnh4) publiée après la parution de ce blog a identifié une autre publication comme source de ce chiffre de 64% de pertinence / 36% d'erreur, [il s'agit de celle-ci](https://arxiv.org/abs/2302.04023).
+
+<div style="display: flex; justify-content: center;">
+  <a href="https://www.youtube.com/watch?v=UjBZaKcTeIY&t=1805" target="_blank" rel="noopener noreferrer">
+    <img src="https://github.com/user-attachments/assets/518e6c68-9fc4-469d-bed5-58d020d0817a" alt="Luc Julian en intervention devant le Sénat" style="max-width: 100%; width: 360px; height: auto;">
+  </a>
+</div>
+
+Effectivement, le screenshot de cette conférence de Luc Julia est explicite et il s'agit sans aucun doute de cette étude. Je vous laisse regarder l'analyse critique de cette étude en cliquant sur l'extrait vidéo ci-dessus. La suite de cet article de blog continue avec l'analyse de l'article cité dans l'interview donnée par Luc Julia au _European Scientist_:
+
+**</fin de l'edit>**
+
 - **le taux d'erreur de 36% n'est mentionné dans aucun des résultats de l'étude**. Il est probable que ce chiffre soit une moyenne reconstituée à partir des résultats de ChatGPT à plusieurs tests (cette moyenne est 35,7%), ce qui est une approche discutable : ces jeux de données tests ne mesurent pas les mêmes aptitudes, et pourquoi ne pas avoir pondéré la moyenne par la taille des échantillons de chaque test, par exemple ?
 - **l'article cité ne teste pas ChatGPT sur "une liste de millions de faits avérés"**, comme l'affirme Luc Julia : le test est conduit sur 8 datasets de taille variable (entre 78 et 1200 entrées chacun), totalisant 2,207 exemples. C'est un échantillon de taille faible voire très faible, d'après les standards de recherche. Les auteurs de l'étude devaient manquer de temps ou de moyen pour faire des tests sur des échantillons plus grands, car début 2023 l'accès à l'API de ChatGPT était long et très coûteux.
 - **les exemples contenus dans les tests ne sont pas des faits avérés**. Ce sont par exemple des paires de phrases utilisées pour des tests logiques ou de cohérence. Par exemple, on peut trouver dans un test la paire de phrase du type : A: "Qui a peint la Mona Lisa ?" B: "Léonard de Vinci a vécu en France". Le test consiste à voir si ChatGPT peut deviner si la phrase B est une réponse directe à la question A (ici, non). Il ne s'agit pas du tout de tester ChatGPT sur sa "véracité".
@@ -134,7 +151,9 @@ Plusieurs problèmes avec cet article et son interprétation :
 
 Cet article et l'interprétation erronée qu'en fait Luc Julia sont ensuite résumés dans la formule **"l'IA se trompe 1 fois sur 3"**, abondamment reprise dans ses nombreuses interventions publiques. Mes enfants me disent l'avoir entendu dans une intro à l'IA au collège, je l'entends en conversation au déjeuner... je ne serais pas surpris que vous l'ayez entendu sous une forme ou une autre.
 
-Edit : un internaute que je remercie m'a indiqué que Luc Julia était intervenu devant le Sénat. Et en effet, il cite ce fameux chiffre de 36% d'erreur devant la Commission des affaires économiques du Sénat le 18 juin 2025 avec la même référence erronée à l'article de l' "Université de Hong Kong" de 2023 et ses "1 million" de faits avérés. L'extrait vidéo 📽️ ci-dessous :
+**<edit de mi-juillet 2025>**
+
+un internaute que je remercie m'a indiqué que Luc Julia était intervenu devant le Sénat. Et en effet, il cite ce fameux chiffre de 36% d'erreur devant la Commission des affaires économiques du Sénat le 18 juin 2025 avec la même référence erronée à l'article de l' "Université de Hong Kong" de 2023 et ses "1 million" de faits avérés. L'extrait vidéo 📽️ ci-dessous :
 
 <div style="display: flex; justify-content: center;">
   <a href="https://www.youtube.com/watch?v=UjBZaKcTeIY&t=1805" target="_blank" rel="noopener noreferrer">
@@ -142,6 +161,7 @@ Edit : un internaute que je remercie m'a indiqué que Luc Julia était intervenu
   </a>
 </div>
 
+**</fin de l'edit>**
 
 Il y a quelques semaines, j'ai acheté le magazine Challenges car sa couverture était sur l'IA dans l'éducation, un sujet qui m'intéresse. Et sans surprise une page est consacrée à l'avis de Luc Julia sur la question, avec une reprise des pages de son livre sur le sujet :
 
