@@ -46,7 +46,7 @@ In the past months a number of postings made me realize that, especially with 'g
 ### April 19, humanoid robots spotted at Beijing's marathon
 <div style="display: flex; justify-content: center;">
   <a href="https://www.youtube.com/watch?v=w1dH7KDKRBM" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/user-attachments/assets/f1911b62-e5d3-4637-9469-672ab974440f" alt="Olympics Robot competition in China" style="max-width: 100%; width: 360px; height: auto;">
+    <img src="https://github.com/user-attachments/assets/f1911b62-e5d3-4637-9469-672ab974440f" alt="Humanoid robots at Beijing marathon in 2024" style="max-width: 100%; width: 360px; height: auto;">
   </a>
 </div>
 
