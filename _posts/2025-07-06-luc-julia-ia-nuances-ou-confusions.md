@@ -135,7 +135,7 @@ Un étudiant en informatique, que je remercie, m'a contacté pour m'indiquer [qu
 
 <div style="display: flex; justify-content: center;">
   <a href="https://www.youtube.com/watch?v=UjBZaKcTeIY&t=1805" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/user-attachments/assets/518e6c68-9fc4-469d-bed5-58d020d0817a" alt="Luc Julian en intervention devant le Sénat" style="max-width: 100%; width: 360px; height: auto;">
+    <img src="https://github.com/user-attachments/assets/518e6c68-9fc4-469d-bed5-58d020d0817a" alt="Luc Julia en intervention devant le Sénat" style="max-width: 100%; width: 360px; height: auto;">
   </a>
 </div>
 
@@ -157,7 +157,7 @@ un internaute que je remercie m'a indiqué que Luc Julia était intervenu devant
 
 <div style="display: flex; justify-content: center;">
   <a href="https://www.youtube.com/watch?v=UjBZaKcTeIY&t=1805" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.youtube.com/vi/UjBZaKcTeIY/1.jpg" alt="Luc Julian en intervention devant le Sénat" style="max-width: 100%; width: 360px; height: auto;">
+    <img src="https://img.youtube.com/vi/UjBZaKcTeIY/1.jpg" alt="Luc Julia en intervention devant le Sénat" style="max-width: 100%; width: 360px; height: auto;">
   </a>
 </div>
 
