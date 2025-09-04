@@ -30,8 +30,6 @@ But may I remind you of the not-so-long-ago period (2015-2022, I'd say) when we 
 
 In the past months I read postings that made me realize that robotics is now an industry that is developing in the direction of consumer products and that can change fundamentals of our culture, with humanoid robots. Not just welding arms in factories:
 
-### Spring 2025
-
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How it started v/s How it&#39;s going <a href="https://t.co/7sqL3No42q">pic.twitter.com/7sqL3No42q</a></p>&mdash; DogeDesigner (@cb_doge) <a href="https://twitter.com/cb_doge/status/1907324904443170965?ref_src=twsrc%5Etfw">April 2, 2025</a></blockquote>
 
 <div style="display: flex; justify-content: center;">
@@ -40,6 +38,11 @@ In the past months I read postings that made me realize that robotics is now an 
   </a>
 </div>
 
+<div style="display: flex; justify-content: center;">
+  <a href="https://www.youtube.com/watch?v=LpaSXwpKzGk" target="_blank" rel="noopener noreferrer">
+    <img src="https://github.com/user-attachments/assets/fe0eb6fd-a3d5-4e29-8ee0-b21b829cf357" alt="Largest drone display in China in 2024" style="max-width: 100%; width: 360px; height: auto;">
+  </a>
+</div>
 
 A couple of readings in the past weeks have finished putting the issue in front of my reading interests:
 
@@ -51,148 +54,54 @@ A couple of readings in the past weeks have finished putting the issue in front 
   </a>
 </div>
 
-### 
+### August 18, a thread on the "How China bought Germany's robotics crown jewel"
 
-## 1. Take multimodal files as input
+Quick to read and fascinating: 
 
-Until last year, most gen AI apps were limited in the kinds of files they could read. Gemini couldn't even read PDFs if I recall correctly.
-This barrier has fallen.
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thread: How China bought Germany&#39;s robotics crown jewel<br><br>Quick story: I recently called Kuka German in a thread and got called out - &quot;Kuka is Chinese now.&quot;<br><br>This sent me down a rabbit hole.<br><br>What I found was straight out of Succession, and it reshaped how the West thinks about… <a href="https://t.co/CDPUPQR1rd">pic.twitter.com/CDPUPQR1rd</a></p>&mdash; Jack 🤖 (@JacklouisP) <a href="https://twitter.com/JacklouisP/status/1957432021388837117?ref_src=twsrc%5Etfw">August 18, 2025</a></blockquote>
 
-Most apps now accept txt, csv, pdf, docx, xlsx, pptx, any xml or json files. More importantly, all major gen AI apps are now multimodal: they accept text but also pictures as input and can make very detailed content analyses of them. I just tried with Chat by Mistral (free version), Gemini, Claude (free version) and ChatGPT: all of them could describe a screenshot of my laptop in great and accurate detail.
+### September 2, report on the surge of robotics in China
 
-Sound analysis has landed, too. We can make a very detailed analysis of a .wav file, for example (as of Aug 2025, only ChatGPT has this capability).
+Quoting from the [Financial Times](https://www.ft.com/content/cf427f83-89b2-4912-8f79-0f367ab6e553):
 
-And video? As of now, only ChatGPT can process videos: on the video I tested, it extracts a sample of frames and then tries to infer a meaning from them.
+> Chinese factories are installing about 280,000 industrial robots every year, **or half the global total** [my emphasis], bringing the country’s robot-to-worker density ahead of Germany and closing in on leader South Korea, according to the International Federation of Robotics.
 
-## 2. Perform advanced analytics, on the fly
+[This video from the article above](https://next-media-api.ft.com/clips/optimised-media-files/17567766673420/1920x1080.mp4) shows nicely how advanced arm robots are integrated seemingly routinely in non high tech, "regular" factory floors.
 
-ChatGPT can now launch a mini IT environment to treat your queries on the fly: it will be able to run any Python code that is freely available as a packaged library on the web.
 
-## 3. Reasoning
+### September 3, Chinese military parade
 
-This one is there from the start: LLMs' stunning impact is that they (seem to) reason like any human would do.
-I let you appreciate whether this human is like "an intern," "an undergrad" or "PhD level," but still quite close to what a human could do.
+<img width="852" height="879" alt="image" src="https://github.com/user-attachments/assets/f43c7f26-f93d-46c6-8078-9423cdad505d" />
 
-Reasoning has taken a new turn since Autumn 2024 ([OpenAI](https://openai.com/fr-FR/index/introducing-openai-o1-preview/?utm_source=chatgpt.com)) / February 2025 ([Claude](https://www.anthropic.com/news/claude-3-7-sonnet?utm_source=chatgpt.com)) / March 2025 ([Gemini](https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/#gemini-2-5-thinking)) with the ability for a gen AI app to iterate: it can now feed itself the results it has produced, which allows for re-examinations, modifications and improvements before the final version of the results is delivered to the user.
+The [Financial Times](https://www.ft.com/content/ac2f48f2-6faa-4ecd-af58-bc2665fbe427) notes:
 
-## 4. Generate interactive content
+> "A range of aerial drones for attack and surveillance were also on display, and many of the ground forces that participated in the parade had autonomous elements in their gear, such as small surveillance drones mounted on tanks and robot dogs carried on the back of electronic warfare equipment."
 
-All major providers are now capable of generating pics and interactive web applications.
 
-# What gen AI *can't* do as of August 2025
+### September 3, yet another impressive robot demo by Figure  
 
-## ~~1. Connect to "live" data sources~~
+[Figure](https://www.figure.ai/) is a [US robotics company](https://en.wikipedia.org/wiki/Figure_AI)
 
-Analyzing Bluesky or Reddit or LinkedIn data on the fly?
-That is probably already possible: after all, I imagine you can provide your API account credentials for any of these services in a prompt and that would enable the gen AI app to fetch the data on your behalf.
-*But that is not practical nor straightforward*. What about speed, memory limits, fine controls, error handling, and persistence of the data that is fetched?
+<div style="display: flex; justify-content: center;">
+  <a href="https://www.youtube.com/watch?v=8gfuUzDn4Q8" target="_blank" rel="noopener noreferrer">
+    <img src="https://github.com/user-attachments/assets/a5fd047d-f7f0-4f2d-bb9f-60baba1abf23" alt="Figure Helix demo dish washer" style="max-width: 100%; width: 360px; height: auto;">
+  </a>
+</div>
 
-I was about to conclude this paragraph this way but... Claude by Anthropic is contradicting this argument: since [May 2025](https://www.anthropic.com/news/integrations) and with frequent enrichments since then, it offers 2 kinds of data connectors:
 
-* connectors to your desktop apps (your browser, your file explorer...),
-* connectors to web data sources and services (Canva, Gmail, Notion, etc.).
+ # What to make of it?
+I take it for granted that China has surpassed the US in terms of AI x robotics, with the US a close second in 2025. I also take it for granted that robots will enter consumer culture (as opposed to B2B) in some years. Professionnally, I also prepare for the following:
 
-These connectors mean that you can use Claude to reason and create about whatever content you produce from your laptop.
+- intensification of relations between EU and China: commercially, educationally, culturally, ... anything that reflects China's standing as leader on robotics x AI, Europe being the not-so-powerful client in the relation.
+- displacement of the equilibrium point in the wealth distribution between China and the rest of the world, in favor of China. Quite logical, and with supportive evidence of two kinds:
 
-## 2. Fine handling of information
+  a. development of robotics in China seem not to hurt their labour force (which complements robots and upskills), quite the contrary: 
 
-A conversational generative AI can now single-handedly cover the entire chain of data processing:
+<img width="743" height="756" alt="Homegrown robots help drive China’s global export surge" src="https://github.com/user-attachments/assets/dd5e2fab-54bd-4361-9e25-9b53b7ecec21" />
 
-* you can provide a variety of inputs: files, images, prompts
-* these inputs can trigger the launch of a variety of actions to complete your query: web search, creation of a mini-IT environment to perform analytics, a reasoning mode, the creation of visuals, or just a quick written reply if that's all that is necessary.
-* you can then save the result: copy the response to the clipboard, or download the results as a file, or download the image.
+> source: "Homegrown robots help drive China’s global export surge", [Financial Times, September 3, 2025](https://www.ft.com/content/cf427f83-89b2-4912-8f79-0f367ab6e553).
 
--> you never leave the app, it is all integrated in one place.
-
-**<u>Yet in practice and despite all of this</u>, the tasks we perform often quickly require some basic information handling that is not available in the ChatGPT environment:**
-
--> search, filtering, sorting, renaming, formatting, "undo", ...
-
-These tasks are perceived to be so elementary that they are almost invisible, situated at the periphery of the value proposition of any given software.
-Yet they are the reason we leave a ChatGPT conversation and come back to a "regular" desktop application. Because it "is easier and quicker" to conduct these tasks there.
-
-To illustrate: ChatGPT generates text, for sure. And it can format it thanks to [markdown](https://daringfireball.net/projects/markdown/), yes indeed. Yet we still copy-paste the results to Microsoft Word and take some time to format and polish the result.
-If the final destination of the text is a PowerPoint document, there are even more intense steps of reformatting, as anyone who tried would agree.
-
-## 3. Offer interfaces designed for the task at hand
-
-Pretty obvious argument: ChatGPT (and Claude and Gemini etc.) are generalist apps centered on a conversational interface.
-This interface is definitely *not* the most useful in many situations:
-
-* need to manipulate tabular data? An Excel-like interface seems essential
-* are you a coder? Then "IDEs" (integrated development environments) are proven solutions for decades now
-* are you a UX designer? Then a canvas interface is necessary.
-* etc.
-
-The immense resources of the key players in gen AI (Google, OpenAI, Anthropic - and Mistral?) suggest that they will develop these missing types of interfaces. "Canvas" and "coding" interfaces have now been added (see below), even if in a rudimentary form. But is a "do-everything" app something to wish for? Differentiation of software in separate desktop apps happened for a reason after all - it offers opportunities for finer design choices. Maintaining this degree of differentiation in one big "gen AI app" seems difficult.
-
-# Three directions where these tensions are pushing innovation
-
-## 1. The evolution of the chatbot interface
-
-[OpenAI launched "Canvas" in 2024](https://openai.com/fr-FR/index/introducing-canvas/), a panel window that opens next to the conversation when the information at hand manifestly needs another classic form of display. Canvas can take the form of a table when needed, or a coding editor, and can render anything that can be represented as a web page: apps, maps, tables, whatever really.
-
--> [In May 2025](https://blog.google/products/gemini/gemini-collaboration-features/), Gemini by Google launched a similar feature, also named "Canvas".
-
-In my experience, these are "nice to have" features but not that useful yet: past simple cases, the rendering of HTML pages is buggy and advanced features are immediately missing (for tabular data for instance).
-
-I am curious about where this road is heading. Are these diversified interfaces within the gen AI app meant to serve "intermediary skilled" users, who don't need the full power of a full-fledged app? Or maybe advanced users are targeted as well, for their needs for prototyping/experimenting quickly before switching to desktop apps to complete the job? Or again, do the companies behind these gen AI apps really think they will ultimately provide the same experience as desktop apps - as in, ChatGPT one day replacing Figma? That last one seems unlikely to me.
-
-## 2. The rise of integrated AI
-
-This is a priori a smart move: existing software have all the convenience of a very familiar, specialized interface to their very large base of users. So you just need to add gen AI capabilities (like: analytics and reasoning) to it and that's it, the gen AI wave has been managed. Think Microsoft Copilot added to Excel. But as of this day, in my personal experience this direction has yielded very disappointing results:
-
-* Copilot in Excel doesn't achieve anything useful: it succeeds at simple tasks, which you could have done yourself quicker, such as adding a column that sums two other columns. And it fails at the more complicated tasks, such as formatting a table or filling values in a column by creating an advanced formula.
-
-* Another (anecdotal) instance is the app I use for grocery shopping. They tried to introduce a "gen AI" feature that would help me pre-fill my basket, based on my previous purchases. Well, that fails miserably and a basic expert system would have been enough ("suggest the most frequently, most recently purchased items").
-
-An attempt with much better success is the product category of "integrated development environments" (commonly known as IDEs, as discussed above): these software offer programmers all the necessary tooling to code faster and in a more "comfortable" way (it automates boring tasks etc.).
-
-Today, all major IDEs offer AI-assisted coding. Coders actively use these features, to the point that the absence of these AI features is resented as hurting productivity. Examples: [JetBrains](https://www.jetbrains.com/help/idea/ai-assistant-in-jetbrains-ides.html) or [VS Code](https://www.infoworld.com/article/3982310/visual-studio-code-beefs-up-ai-coding-features.html?utm_source=chatgpt.com).
-
-My broad impression on this direction is that after a (possibly long) period of poor user experience and inflated claims ("our app is now AI powered! - not), things will gradually improve and key desktop applications will retain their relevance. Because gen AI apps can't absorb everything as this would make them inflated and lacking in advanced features (see above), incumbent software applications can thrive.
-
-## 3. The emergence of AI-native applications
-
-This is a very active area of development, so I won't be exhaustive by any stretch here. I'll take three examples:
-
-* [Scenario](https://www.scenario.com/) which generates 3D assets.
-* [Shortcut](https://www.tryshortcut.ai/) which is like Excel, but with AI capabilities.
-* [Suno](https://suno.com/home) which is a generator of music.
-
-So much to say on these software, I'll keep it to common essential points:
-
-1. Preliminary evidence suggests that they vastly improve the productivity of professionals in some significant tasks, in their respective domains. See for [Scenario](https://x.com/emmanuel_2m/status/1947372337529004253), [Shortcut](https://x.com/nicochristie/status/1949862432077484396) and [Suno](https://x.com/levelsio/status/1957155181591777503).
-2. In the case of Scenario and Suno, which relate to artistic creation, we can expect thorny debates about the quality of their outputs. Not so much outside the field of creative industries, such as Shortcut with Excel.
-3. Businesses will adopt these tools as soon as their tests show the significant improvement of productivity they gain.
-4. Three segments will emerge:
-   - mass-produced cheap cultural assets produced **entirely with AI** (think advertisements on your phone, music in the elevator and shopping malls, etc.)
-   - "artistic-grade" (however defined), small series, "hand-crafted," cultural artifacts **created entirely without gen AI**. These will be luxury items for high-end markets but also the production of local artists making a living on indie markets and scenes.
-   - creative industries continuing to produce their movies, experiences and events **with a mix of gen AI and traditional human-intensive software** (think Blender for 3D assets). Production will be at a faster pace.
-
-My viewpoint on these "gen AI native software":
-
-The three examples above could suggest that it is a guaranteed path to success. **Absolutely not**, as these kinds of software face the risk of being superseded, completely replaced by the progress made by generalist gen AI apps: ChatGPT, Claude, Gemini (and Le Chat?). Just look at these products:
-
-*Born with the wave of gen AI:*
-
-* [Otter.ai](https://otter.ai/): generation of transcripts for video meetings
-* [photoai.com](https://photoai.com/): generation of photo shoots from sample photos provided by the user
-
-*Born before the wave of gen AI:*
-
-* [Grammarly](https://www.grammarly.com/): correction and stylistic improvement of text
-* [DeepL](https://www.deepl.com/fr/translator): translation
-
-These 4 services are threatened with obsolescence by the fact that it is possible in principle to get the same service, for free, by just using the free version of ChatGPT and similar apps.
-
-To say it differently with a popular meme, just one prompt on ChatGPT could get the same result as the app, making it virtually useless:
-
-![https://medium.com/@msgforrobin/become-a-chatgpt-pro-in-5-minutes-the-only-prompt-youll-ever-need-3b094bb27e8f](https://github.com/user-attachments/assets/96a3b04b-e250-4d03-8134-0691a2a765e4)
-
-It is interesting to note the reactions and strategies of these services to survive the threat: as discussed above, it makes sense for them to provide more advanced, nuanced control of information and parameters in their apps to differentiate them the most from what a simple conversation with ChatGPT would offer. In my view, only photoai.com is succeeding at this strategy at the moment.
-
-Entrepreneurs launching AI-native services have a daunting task, then: trying to foresee the capabilities of gen AI in 2 to 5 years' time, and make sure the service they invest their entire resources in **today** will not be superseded by these capabilities at this horizon. Exciting, risky bet!
+  b. If [AI accelerates economic growth](https://www.ft.com/content/887531bf-646a-46b5-a821-649d3948a574), places where AI is the most embedded in the production and consumer's systems will mostly enact and benefit from this growth. Today, China is exactly this place.
 
 ---
 
