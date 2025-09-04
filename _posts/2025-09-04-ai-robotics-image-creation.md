@@ -108,7 +108,7 @@ I take it for granted that China has surpassed the US in terms of AI x robotics,
   b. If [AI accelerates economic growth](https://www.ft.com/content/887531bf-646a-46b5-a821-649d3948a574), places where AI is the most embedded in the production and consumer's systems will mostly enact and benefit from this growth. Today, China is exactly this place.
 
 # Conclusion
-I wanted to discuss nano banana, Carrefour and 
+I wanted to also discuss nano banana, Carrefour and the creation of 3D assets in the latest news but that will be for another time.
 
 ---
 
