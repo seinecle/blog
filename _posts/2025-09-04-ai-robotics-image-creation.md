@@ -28,13 +28,30 @@ Some might react with "duh, of course Clement you are the only one who would dra
 
 But may I remind you of the not-so-long-ago period (2015-2022, I'd say) when we were witnessing the quick progress of machine learning in all directions, while on the robotics front we were just with Boston Dynamics posting ~ 2 videos per year [with a robot doing parkour](https://www.youtube.com/watch?v=tF4DML7FIWk)?  
 
-In the past year I saw posting that made me realize that robotics is now an industry that is developing in the direction of consumer products and that can change fundamentals of our culture, with humanoid robots. Not just welding arms in factories:
+In the past months I read postings that made me realize that robotics is now an industry that is developing in the direction of consumer products and that can change fundamentals of our culture, with humanoid robots. Not just welding arms in factories:
+
+### Spring 2025
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How it started v/s How it&#39;s going <a href="https://t.co/7sqL3No42q">pic.twitter.com/7sqL3No42q</a></p>&mdash; DogeDesigner (@cb_doge) <a href="https://twitter.com/cb_doge/status/1907324904443170965?ref_src=twsrc%5Etfw">April 2, 2025</a></blockquote>
 
-A couple of readings in the past week have finished putting the issue in front of my reading interests:
+<div style="display: flex; justify-content: center;">
+  <a href="https://www.youtube.com/watch?v=w1dH7KDKRBM" target="_blank" rel="noopener noreferrer">
+    <img src="https://github.com/user-attachments/assets/f1911b62-e5d3-4637-9469-672ab974440f" alt="Olympics Robot competition in China" style="max-width: 100%; width: 360px; height: auto;">
+  </a>
+</div>
 
-[https://en.wikipedia.org/wiki/Being_Digital](https://x.com/cb_doge/status/1907324904443170965)
+
+A couple of readings in the past weeks have finished putting the issue in front of my reading interests:
+
+### August 16, Robotics olympiads in China
+
+<div style="display: flex; justify-content: center;">
+  <a href="https://www.youtube.com/watch?v=rJowm24piM4" target="_blank" rel="noopener noreferrer">
+    <img src="https://github.com/user-attachments/assets/96cc7337-055c-41ff-a41a-7f83df6bdd43" alt="Olympics Robot competition in China" style="max-width: 100%; width: 360px; height: auto;">
+  </a>
+</div>
+
+### 
 
 ## 1. Take multimodal files as input
 
