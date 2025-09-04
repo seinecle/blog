@@ -11,7 +11,8 @@ categories: [AI, generative AI, gemini, google, nano banana, china, robotics, un
 These are personal notes on latest news on generative AI (late August / early September) and on fundamental trends behind these news. This is a follow-up to [this post](/three-impacts-of-genAI-on-software-applications/).
 
 # Robotics and generative AI: interlinked
-I remember an impactful talk in 2017 by Laurent Alexandre for a commission of the French Senate, where he hammered the economic significance of AI. Still very much worth watching:
+I remember an impactful talk in 2017 by [Laurent Alexandre](https://fr.wikipedia.org/wiki/Laurent_Alexandre) for a commission of the French Senate, where he hammered the economic significance of AI.
+Still very much worth watching:
 
 <div style="display: flex; justify-content: center;">
   <a href="https://www.youtube.com/watch?v=rJowm24piM4" target="_blank" rel="noopener noreferrer">
@@ -19,11 +20,12 @@ I remember an impactful talk in 2017 by Laurent Alexandre for a commission of th
   </a>
 </div>
 
-In this talk, Laurent Alexandre highlights a difference in progress rates between AI and robotics: AI is software based (not only, but significantly) and software has an exponential rate of development. Robotics is hardware, which has a slower pace of development.
-For this reason we should expect great strides on the AI front, and a somewhat less exciting newsfront on robotics.
-This is how I interpreted it at least, and it struck me as a great insight, even if in hindsight this was already derivable from the ['bits are easier to move than atoms' adage from 1995](https://en.wikipedia.org/wiki/Being_Digital).
+In this talk, Laurent Alexandre highlighted a difference in progress rates between AI and robotics: AI is software based (not only, but significantly) and software has an exponential rate of development.
+Robotics is hardware, which has a slower pace of development.
+**For this reason we should expect great strides on the AI front, and a somewhat less exciting newsfront on robotics.**
+This is how I interpreted the argument at least, and it struck me as a great insight, even if in hindsight I could have derived it from the ['bits are easier to move than atoms' adage from 1995](https://en.wikipedia.org/wiki/Being_Digital).
 
-Anyway, my point is to say that the development of robotics, especially in China, should not make us draw too sharp a distinction between the domains of AI and robotics, in terms of product development and economic impact.
+Anyway, my point is to say that in 2025 the development of robotics, especially in China, should not make us draw too sharp a distinction between the domains of AI and robotics, in terms of product development and economic impact.
 Some might react with "duh, of course Clement you are the only one who would draw such a silly distinction".
 
 But may I remind you of the not-so-long-ago period (2015-2022, I'd say) when we were witnessing the quick progress of machine learning in all directions, while on the robotics front we were just with Boston Dynamics posting ~ 2 videos per year [with a robot doing parkour](https://www.youtube.com/watch?v=tF4DML7FIWk)?  
