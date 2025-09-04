@@ -111,6 +111,8 @@ Incidentally, we see an opposite trend based on US job data for the employment o
 
 <img alt="junior vs senior employment figures in sample firms in relation to the emergence of gen AI" src="https://github.com/user-attachments/assets/055f61fd-aa1c-4e86-b1ec-666f18fef0be" style="max-width: 100%; width: 460px; height: auto;"/>
 
+> source:  Lichtinger, Guy and Hosseini Maasoum. Generative AI as Seniority-Biased Technological Change: Evidence from U.S. Résumé and Job Posting Data (August 31, 2025). Available at SSRN: [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555) 
+
   b. If [AI accelerates economic growth](https://www.ft.com/content/887531bf-646a-46b5-a821-649d3948a574), places where AI is the most embedded in the in production and consumer systems will mostly enact and benefit from this growth.
   Today, China is exactly this place. California might be vying for the first place, but that still wouldn’t represent the US as a whole.
 
