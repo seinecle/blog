@@ -73,7 +73,7 @@ Quoting from the [Financial Times](https://www.ft.com/content/cf427f83-89b2-4912
 
 ### September 3, Chinese military parade
 
-<img width="852" height="879" alt="image" src="https://github.com/user-attachments/assets/f43c7f26-f93d-46c6-8078-9423cdad505d" />
+<img alt="China military parade on Sept 2025" src="https://github.com/user-attachments/assets/f43c7f26-f93d-46c6-8078-9423cdad505d" style="max-width: 100%; width: 360px; height: auto;"/>
 
 The [Financial Times](https://www.ft.com/content/ac2f48f2-6faa-4ecd-af58-bc2665fbe427) notes:
 
@@ -99,7 +99,7 @@ I take it for granted that China has surpassed the US in terms of AI x robotics,
 
   a. development of robotics in China seem not to hurt their labour force (which complements robots and upskills), quite the contrary: 
 
-<img alt="Homegrown robots help drive China’s global export surge" src="https://github.com/user-attachments/assets/dd5e2fab-54bd-4361-9e25-9b53b7ecec21" style="max-width: 100%; width: 360px; height: auto;"/>
+<img alt="Homegrown robots help drive China’s global export surge" src="https://github.com/user-attachments/assets/dd5e2fab-54bd-4361-9e25-9b53b7ecec21" style="max-width: 100%; width: 460px; height: auto;"/>
 
 
 
