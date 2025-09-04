@@ -30,25 +30,29 @@ Some might react with "duh, of course Clement you are the only one who would dra
 
 But may I remind you of the not-so-long-ago period (2015-2022, I'd say) when we were witnessing the quick progress of machine learning in all directions, while on the robotics front we were just with Boston Dynamics posting ~ 2 videos per year [with a robot doing parkour](https://www.youtube.com/watch?v=tF4DML7FIWk)?  
 
-In the past months I read postings that made me realize that robotics is now an industry that is developing in the direction of consumer products and that can change fundamentals of our culture, with humanoid robots. Not just welding arms in factories:
+In the past months I read postings that made me realize that especially with "generative AI inside", robotics is now an industry that is developing in the direction of consumer products and that can change fundamentals of our culture, with humanoid robots. Not just welding arms in factories. A few examples:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How it started v/s How it&#39;s going <a href="https://t.co/7sqL3No42q">pic.twitter.com/7sqL3No42q</a></p>&mdash; DogeDesigner (@cb_doge) <a href="https://twitter.com/cb_doge/status/1907324904443170965?ref_src=twsrc%5Etfw">April 2, 2025</a></blockquote>
-
-<div style="display: flex; justify-content: center;">
-  <a href="https://www.youtube.com/watch?v=w1dH7KDKRBM" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/user-attachments/assets/f1911b62-e5d3-4637-9469-672ab974440f" alt="Olympics Robot competition in China" style="max-width: 100%; width: 360px; height: auto;">
-  </a>
-</div>
-
+### September 26 2024: largest drone display in China
 <div style="display: flex; justify-content: center;">
   <a href="https://www.youtube.com/watch?v=LpaSXwpKzGk" target="_blank" rel="noopener noreferrer">
     <img src="https://github.com/user-attachments/assets/fe0eb6fd-a3d5-4e29-8ee0-b21b829cf357" alt="Largest drone display in China in 2024" style="max-width: 100%; width: 360px; height: auto;">
   </a>
 </div>
 
-A couple of readings in the past weeks have finished putting the issue in front of my reading interests:
 
-### August 16, Robotics olympiads in China
+### April 2, progress on the Optimus humanoid robot by Tesla
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How it started v/s How it&#39;s going <a href="https://t.co/7sqL3No42q">pic.twitter.com/7sqL3No42q</a></p>&mdash; DogeDesigner (@cb_doge) <a href="https://twitter.com/cb_doge/status/1907324904443170965?ref_src=twsrc%5Etfw">April 2, 2025</a></blockquote>
+
+### April 19, humanoid robots spotted at Beijing's marathon
+<div style="display: flex; justify-content: center;">
+  <a href="https://www.youtube.com/watch?v=w1dH7KDKRBM" target="_blank" rel="noopener noreferrer">
+    <img src="https://github.com/user-attachments/assets/f1911b62-e5d3-4637-9469-672ab974440f" alt="Olympics Robot competition in China" style="max-width: 100%; width: 360px; height: auto;">
+  </a>
+</div>
+
+A couple of readings in the past weeks have finished putting the issue in front:
+
+### August 16, robotics olympiads in China
 
 <div style="display: flex; justify-content: center;">
   <a href="https://www.youtube.com/watch?v=rJowm24piM4" target="_blank" rel="noopener noreferrer">
@@ -91,9 +95,9 @@ The [Financial Times](https://www.ft.com/content/ac2f48f2-6faa-4ecd-af58-bc2665f
 </div>
 
 
-# What to make of it?
-I take it for granted that China has surpassed the US in terms of AI x robotics, with the US a close second in 2025. I also take it for granted that robots will enter consumer culture (as opposed to B2B) soon. Professionnally, I also prepare for the following:
-
+# What to make of it? My impressions
+- given the speed of progress and the competition between China and the US intensifying things, humanoid robots are coming in the not so distant future to consumer culture. That will be progressive but 5 years seem a safe bet to imagine a robot sold at a consumer price for a some domestic use.
+- I now take it for granted that China has surpassed the US in terms of AI x robotics, with the US a close second in 2025.
 - intensification of relations between EU and China: commercially, educationally, culturally, ... anything that reflects China's standing as leader on robotics x AI, Europe being the not-so-powerful client in the relation.
 - displacement of the equilibrium point in the wealth distribution between China and the rest of the world, in favor of China. Quite logical, and with supportive evidence of two kinds:
 
@@ -106,7 +110,6 @@ I take it for granted that China has surpassed the US in terms of AI x robotics,
 Incidently, we see an opposite trend based on US job data for the employment of junior employees which seem to be hurt by generative AI:
 
 <img alt="junior vs senior employment figures in sample fimrs in relation to the emergence of gen AI" src="https://github.com/user-attachments/assets/055f61fd-aa1c-4e86-b1ec-666f18fef0be" style="max-width: 100%; width: 460px; height: auto;"/>
- 
 
   b. If [AI accelerates economic growth](https://www.ft.com/content/887531bf-646a-46b5-a821-649d3948a574), places where AI is the most embedded in the production and consumer's systems will mostly enact and benefit from this growth. Today, China is exactly this place.
 
