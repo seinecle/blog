@@ -92,7 +92,7 @@ The [Financial Times](https://www.ft.com/content/ac2f48f2-6faa-4ecd-af58-bc2665f
 
 
 # What to make of it?
-I take it for granted that China has surpassed the US in terms of AI x robotics, with the US a close second in 2025. I also take it for granted that robots will enter consumer culture (as opposed to B2B) in some years. Professionnally, I also prepare for the following:
+I take it for granted that China has surpassed the US in terms of AI x robotics, with the US a close second in 2025. I also take it for granted that robots will enter consumer culture (as opposed to B2B) soon. Professionnally, I also prepare for the following:
 
 - intensification of relations between EU and China: commercially, educationally, culturally, ... anything that reflects China's standing as leader on robotics x AI, Europe being the not-so-powerful client in the relation.
 - displacement of the equilibrium point in the wealth distribution between China and the rest of the world, in favor of China. Quite logical, and with supportive evidence of two kinds:
@@ -101,9 +101,12 @@ I take it for granted that China has surpassed the US in terms of AI x robotics,
 
 <img alt="Homegrown robots help drive China’s global export surge" src="https://github.com/user-attachments/assets/dd5e2fab-54bd-4361-9e25-9b53b7ecec21" style="max-width: 100%; width: 460px; height: auto;"/>
 
-
-
 > source: "Homegrown robots help drive China’s global export surge", [Financial Times, September 3, 2025](https://www.ft.com/content/cf427f83-89b2-4912-8f79-0f367ab6e553).
+
+Incidently, we see an opposite trend based on US job data for the employment of junior employees which seem to be hurt by generative AI:
+
+<img alt="junior vs senior employment figures in sample fimrs in relation to the emergence of gen AI" src="https://github.com/user-attachments/assets/055f61fd-aa1c-4e86-b1ec-666f18fef0be" style="max-width: 100%; width: 460px; height: auto;"/>
+ 
 
   b. If [AI accelerates economic growth](https://www.ft.com/content/887531bf-646a-46b5-a821-649d3948a574), places where AI is the most embedded in the production and consumer's systems will mostly enact and benefit from this growth. Today, China is exactly this place.
 
