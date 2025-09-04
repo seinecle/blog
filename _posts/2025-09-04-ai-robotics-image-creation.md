@@ -96,7 +96,7 @@ The [Financial Times](https://www.ft.com/content/ac2f48f2-6faa-4ecd-af58-bc2665f
 
 
 # What to make of it? My impressions
-- given the speed of progress and the competition between China and the US intensifying things, humanoid robots are coming in the not so distant future to consumer culture. That will be progressive but 5 years seem a safe bet to imagine a robot sold at a consumer price for a some domestic use.
+- given the speed of progress and the competition between China and the US intensifying things, humanoid robots are coming in the not so distant future to consumer culture. That will be progressive but 5 years seem a safe bet to imagine a robot sold at a consumer price for some domestic use, or appearing in some sport event or entertainment setting.
 - I now take it for granted that China has surpassed the US in terms of AI x robotics, with the US a close second in 2025.
 - intensification of relations between EU and China: commercially, educationally, culturally, ... anything that reflects China's standing as leader on robotics x AI, Europe being the not-so-powerful client in the relation.
 - displacement of the equilibrium point in the wealth distribution between China and the rest of the world, in favor of China. Quite logical, and with supportive evidence of two kinds:
