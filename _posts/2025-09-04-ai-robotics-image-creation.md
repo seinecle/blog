@@ -101,7 +101,7 @@ The [Financial Times](https://www.ft.com/content/ac2f48f2-6faa-4ecd-af58-bc2665f
 - intensification of relations between EU and China: commercially, educationally, culturally, ... anything that reflects China's standing as leader on robotics x AI, Europe being the not-so-powerful client in the relation.
 - displacement of the equilibrium point in the wealth distribution between China and the rest of the world, in favor of China. Quite logical, and with supportive evidence of two kinds:
 
-  a. development of robotics in China seem not to hurt their labour force (which complements robots and upskills), quite the contrary: 
+  a. development of robotics in China seem not to hurt their labour force (because it complements robots and upskills), quite the contrary: 
 
 <img alt="Homegrown robots help drive China’s global export surge" src="https://github.com/user-attachments/assets/dd5e2fab-54bd-4361-9e25-9b53b7ecec21" style="max-width: 100%; width: 460px; height: auto;"/>
 
@@ -111,10 +111,11 @@ Incidently, we see an opposite trend based on US job data for the employment of 
 
 <img alt="junior vs senior employment figures in sample fimrs in relation to the emergence of gen AI" src="https://github.com/user-attachments/assets/055f61fd-aa1c-4e86-b1ec-666f18fef0be" style="max-width: 100%; width: 460px; height: auto;"/>
 
-  b. If [AI accelerates economic growth](https://www.ft.com/content/887531bf-646a-46b5-a821-649d3948a574), places where AI is the most embedded in the production and consumer's systems will mostly enact and benefit from this growth. Today, China is exactly this place.
+  b. If [AI accelerates economic growth](https://www.ft.com/content/887531bf-646a-46b5-a821-649d3948a574), places where AI is the most embedded in the production and consumer's systems will mostly enact and benefit from this growth.
+  Today, China is exactly this place. California might be vying for first place, but that still wouldn’t represent the US as a whole.
 
 # Conclusion
-I wanted to also discuss nano banana, Carrefour and the creation of 3D assets in the latest news but that will be for another time.
+I wanted to also discuss nano banana, Carrefour, the creation of 3D assets in the latest news but that will be for another time.
 
 ---
 
