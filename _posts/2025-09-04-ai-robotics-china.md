@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Nano banana, China and living standards"
-permalink: /nano-banana-china-living-standards/
+title: "AI, robotics, China and economic development"
+permalink: /ai-robotics-china-development/
 published: true
 date_readable: 04 September 2025
 last_modified_at_readable: 04 September 2025
-categories: [AI, generative AI, gemini, google, nano banana, china, robotics, unemployment, automation]
+categories: [AI, generative AI, china, robotics, unemployment, automation]
 ---
 
-These are personal notes on latest news on generative AI (late August / early September) and on fundamental trends behind these news. This is a follow-up to [this post](/three-impacts-of-genAI-on-software-applications/).
+These are personal notes on the latest news on generative AI (late August / early September) and on fundamental trends behind this news. This is a follow-up to [this post](/three-impacts-of-genAI-on-software-applications/).
 
 # Robotics and generative AI: interlinked
 I remember an impactful talk in 2017 by [Laurent Alexandre](https://fr.wikipedia.org/wiki/Laurent_Alexandre) for a commission of the French Senate, where he hammered the economic significance of AI.
@@ -20,19 +20,19 @@ Still very much worth watching:
   </a>
 </div>
 
-In this talk, Laurent Alexandre highlighted a difference in progress rates between AI and robotics: AI is software based (not only, but significantly) and software has an exponential rate of development.
-Robotics is hardware, which has a slower pace of development.
-**For this reason we should expect great strides on the AI front, and a somewhat less exciting newsfront on robotics.**
-This is how I interpreted the argument at least, and it struck me as a great insight, even if in hindsight I could have derived it from the ['bits are easier to move than atoms' adage from 1995](https://en.wikipedia.org/wiki/Being_Digital).
+In this talk, Laurent Alexandre highlighted a difference in progress rates between AI and robotics: AI is software based (not only, but significantly). Software has an exponential rate of development.
+In contrast robotics is hardware (largely), which has a slower pace of development.
+**For this reason we should expect great strides on the AI front, and a somewhat less exciting front on robotics.**
+This is how I interpreted the argument and it struck me as a great insight, even if in hindsight I could have derived it from the ['bits are easier to move than atoms' adage from 1995](https://en.wikipedia.org/wiki/Being_Digital).
 
-Anyway, my point is to say that in 2025 the development of robotics, especially in China, should not make us draw too sharp a distinction between the domains of AI and robotics, in terms of product development and economic impact.
-Some might react with "duh, of course Clement you are the only one who would draw such a silly distinction".
+Anyway, my point is to say that today, in 2025, the development of robotics leveraging generative AI for their "behavior", especially in China, should not make us draw too sharp a distinction between the domains of AI and robotics in terms of product development and economic impact.
+Some might react with "duh, of course, Clement, you are the only one who would draw such a silly distinction".
 
-But may I remind you of the not-so-long-ago period (2015-2022, I'd say) when we were witnessing the quick progress of machine learning in all directions, while on the robotics front we were just with Boston Dynamics posting ~ 2 videos per year [with a robot doing parkour](https://www.youtube.com/watch?v=tF4DML7FIWk)?  
+But may I remind you of the not-so-long-ago period (2015-2022, I'd say) when we were witnessing the quick progress of machine learning in all directions, while on the robotics front we mostly saw Boston Dynamics posting about two videos per year [with a robot doing parkour](https://www.youtube.com/watch?v=tF4DML7FIWk)?  
 
-In the past months I read postings that made me realize that especially with "generative AI inside", robotics is now an industry that is developing in the direction of consumer products and that can change fundamentals of our culture, with humanoid robots. Not just welding arms in factories. A few examples:
+In the past months a number of postings made me realize that, especially with 'generative AI inside,' robotics is now an industry that is developing in the direction of consumer products and that can change fundamentals of our culture, with humanoid robots. Not just welding arms in factories. A few examples:
 
-### September 26 2024: largest drone display in China
+### September 26, 2024: largest drone display in China
 <div style="display: flex; justify-content: center;">
   <a href="https://www.youtube.com/watch?v=LpaSXwpKzGk" target="_blank" rel="noopener noreferrer">
     <img src="https://github.com/user-attachments/assets/fe0eb6fd-a3d5-4e29-8ee0-b21b829cf357" alt="Largest drone display in China in 2024" style="max-width: 100%; width: 360px; height: auto;">
@@ -50,7 +50,7 @@ In the past months I read postings that made me realize that especially with "ge
   </a>
 </div>
 
-A couple of readings in the past weeks have finished putting the issue in front:
+A couple of readings in the past weeks have brought the issue to the forefront:
 
 ### August 16, robotics olympiads in China
 
@@ -101,21 +101,21 @@ The [Financial Times](https://www.ft.com/content/ac2f48f2-6faa-4ecd-af58-bc2665f
 - intensification of relations between EU and China: commercially, educationally, culturally, ... anything that reflects China's standing as leader on robotics x AI, Europe being the not-so-powerful client in the relation.
 - displacement of the equilibrium point in the wealth distribution between China and the rest of the world, in favor of China. Quite logical, and with supportive evidence of two kinds:
 
-  a. development of robotics in China seem not to hurt their labour force (because it complements robots and upskills), quite the contrary: 
+  a. development of robotics in China seem not to hurt their labor force (because it complements robots and upskills), quite the contrary: 
 
 <img alt="Homegrown robots help drive China’s global export surge" src="https://github.com/user-attachments/assets/dd5e2fab-54bd-4361-9e25-9b53b7ecec21" style="max-width: 100%; width: 460px; height: auto;"/>
 
 > source: "Homegrown robots help drive China’s global export surge", [Financial Times, September 3, 2025](https://www.ft.com/content/cf427f83-89b2-4912-8f79-0f367ab6e553).
 
-Incidently, we see an opposite trend based on US job data for the employment of junior employees which seem to be hurt by generative AI:
+Incidentally, we see an opposite trend based on US job data for the employment of junior employees, who seem to be hurt by generative AI:
 
-<img alt="junior vs senior employment figures in sample fimrs in relation to the emergence of gen AI" src="https://github.com/user-attachments/assets/055f61fd-aa1c-4e86-b1ec-666f18fef0be" style="max-width: 100%; width: 460px; height: auto;"/>
+<img alt="junior vs senior employment figures in sample firms in relation to the emergence of gen AI" src="https://github.com/user-attachments/assets/055f61fd-aa1c-4e86-b1ec-666f18fef0be" style="max-width: 100%; width: 460px; height: auto;"/>
 
-  b. If [AI accelerates economic growth](https://www.ft.com/content/887531bf-646a-46b5-a821-649d3948a574), places where AI is the most embedded in the production and consumer's systems will mostly enact and benefit from this growth.
-  Today, China is exactly this place. California might be vying for first place, but that still wouldn’t represent the US as a whole.
+  b. If [AI accelerates economic growth](https://www.ft.com/content/887531bf-646a-46b5-a821-649d3948a574), places where AI is the most embedded in the in production and consumer systems will mostly enact and benefit from this growth.
+  Today, China is exactly this place. California might be vying for the first place, but that still wouldn’t represent the US as a whole.
 
 # Conclusion
-I wanted to also discuss nano banana, Carrefour, the creation of 3D assets in the latest news but that will be for another time.
+I wanted to also discuss [nano banana](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-image-preview), Carrefour, the creation of 3D assets in the latest news but that will be for another time.
 
 ---
 
