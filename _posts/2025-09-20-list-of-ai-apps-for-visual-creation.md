@@ -8,10 +8,11 @@ last_modified_at_readable: 20 September 2025
 categories: [AI, generative AI, list, visual creation]
 ---
 
-This is a test to see if embedding Github gists here works. The gist:
+For everyone's convenience, I have compiled a list of apps that leverage generative AI for visual creation: all sorts of generation and modification for images, video, 3D models, and more.
 
-<script src="https://gist.github.com/seinecle/689a53bceca96147a04e93bdc5f83940.js"></script>
+This list is is hosted [as a gist](https://www.liquidweb.com/blog/what-is-a-github-gist), which you can think of as a minimal, editable, commentable web page: 
 
-And via Jekyll's native tag:
+I'll grow this list over time. Also delete the apps that disappear over time. Want to contribute? [Open the gist]() and add a comment at the bottom of the page.
 
-{% gist seinecle/689a53bceca96147a04e93bdc5f83940 %}
+gist seinecle/689a53bceca96147a04e93bdc5f83940 %}
+
