@@ -10,9 +10,7 @@ categories: [AI, generative AI, list, visual creation]
 
 This is a list of apps that leverage generative AI for visual creation: all sorts of generation and modification for images, video, 3D models, and more.
 
-This list is is hosted [as a gist](https://www.liquidweb.com/blog/what-is-a-github-gist), which you can think of as a minimal, editable, commentable web page: 
-
-I'll update this list over time. Want to contribute? [Open the gist]() and add a comment at the bottom of the page.
+**🔥 Want to contribute to this list?** [Open the gist](https://gist.github.com/seinecle/689a53bceca96147a04e93bdc5f83940) and add a comment at the bottom of the page.
 
 <div markdown="1">
 {% gist seinecle/689a53bceca96147a04e93bdc5f83940 %}
