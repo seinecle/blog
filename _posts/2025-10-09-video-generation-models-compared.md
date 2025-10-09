@@ -25,7 +25,7 @@ Just the boat descending on the stream, with realistic physics for lights, water
 
 **Except for LUMA the video generation also generates sound, so please SOUND ON on the videos.** 
 
-### LUMA
+### LUMA (RAY 3)
 
 <video controls width="640">
   <source src="https://github.com/user-attachments/assets/e2e81096-7098-4adf-a8df-8a92b142aa3a" type="video/mp4">
@@ -39,7 +39,7 @@ Just the boat descending on the stream, with realistic physics for lights, water
 
 
 
-### WAN
+### WAN 2.5
 
 <video controls width="640">
   <source src="https://github.com/user-attachments/assets/f8560fa9-7578-4ce6-8120-68a4107f9a86" type="video/mp4">
@@ -47,7 +47,7 @@ Just the boat descending on the stream, with realistic physics for lights, water
 </video>
 
 - Time to generate: at least 20 minutes . It took so long that I closed the tab and came back several hours later
-- Where? on a free plan with https://create.wan.video/generate
+- Where? on a free plan with [https://create.wan.video/generate](https://create.wan.video/generate)
 - Evaluation: great fidelity to the prompt, level of details, great sound. The movement of the boat is not really coherent though (should not be so idle given the current)
 
 
@@ -63,10 +63,10 @@ Just the boat descending on the stream, with realistic physics for lights, water
 - Evaluation: no photo realistic, movement of the boat is not natural, resolution is low, sound is compressed
 
 
-### SORA
+### SORA 2
 
 <video controls width="640">
-  <source src="https://github.com/user-attachments/assets/07829bb3-10fe-41b2-875c-2f89fbc7b36e" type="video/mp4">
+  <source src="https://github.com/user-attachments/assets/07829bb3-10fe-41b2-875c-2f89fbc7b36e.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
