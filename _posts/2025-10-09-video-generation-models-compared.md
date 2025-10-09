@@ -27,15 +27,12 @@ Just the boat descending on the stream, with realistic physics for lights, water
 
 ### RAY3 (by Luma Labs AI)
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-  <iframe 
-    src="https://www.youtube.com/embed/7heRRNdXUxE?si=pWnXe4fSEjFeXKx7" 
-    style="position: absolute; top:0; left:0; width:100%; height:100%;" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
+<div style="display: flex; justify-content: center;">
+  <a href="https://www.youtube.com/watch?v=7heRRNdXUxE" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/7heRRNdXUxE/1.jpg" alt="Luc Julia en intervention devant le Sénat" style="max-width: 100%; width: 360px; height: auto;">
+  </a>
 </div>
+
 
 - Time to generate : about 1 minute if I remember correctly.
 - Where? on a free plan on Luma Labs's dream machine: [https://dream-machine.lumalabs.ai/](https://dream-machine.lumalabs.ai/)
@@ -46,7 +43,11 @@ Just the boat descending on the stream, with realistic physics for lights, water
 
 ### WAN 2.5 (by Alibaba)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8wRwwivEtwM?si=_tGM_KEFa95nvq3-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="display: flex; justify-content: center;">
+  <a href="https://www.youtube.com/watch?v=8wRwwivEtwM" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/UjBZaKcTeIY/1.jpg" alt="Luc Julia en intervention devant le Sénat" style="max-width: 100%; width: 360px; height: auto;">
+  </a>
+</div>
 
 - Time to generate: at least 20 minutes . It took so long that I closed the tab and came back several hours later
 - Where? on a free plan with [https://create.wan.video/generate](https://create.wan.video/generate)
@@ -55,10 +56,11 @@ Just the boat descending on the stream, with realistic physics for lights, water
 
 ### GROK (by xAI)
 
-<video controls width="640">
-  <source src="https://github.com/user-attachments/assets/e2f3ebda-a948-4c7e-9d37-d292a13916f9" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div style="display: flex; justify-content: center;">
+  <a href="https://www.youtube.com/watch?v=EvwKxAJDj3w" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/EvwKxAJDj3w/1.jpg" alt="Luc Julia en intervention devant le Sénat" style="max-width: 100%; width: 360px; height: auto;">
+  </a>
+</div>
 
 - Time to generate: less than a minute.
 - Where? on a free plan with [https://grok.com/imagine](https://grok.com/imagine)
@@ -67,10 +69,11 @@ Just the boat descending on the stream, with realistic physics for lights, water
 
 ### SORA 2 (by OpenAI)
 
-<video controls width="640">
-  <source src="https://github.com/user-attachments/assets/07829bb3-10fe-41b2-875c-2f89fbc7b36e" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div style="display: flex; justify-content: center;">
+  <a href="https://www.youtube.com/watch?v=67AW4DPvzHk" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/67AW4DPvzHk/1.jpg" alt="Luc Julia en intervention devant le Sénat" style="max-width: 100%; width: 360px; height: auto;">
+  </a>
+</div>
 
 - Time to generate: between 5 and 10 minutes if I recall correctly
 - Where? on a free plan with [https://vidgo.ai/](https://vidgo.ai/)
@@ -79,14 +82,10 @@ Just the boat descending on the stream, with realistic physics for lights, water
 
 ### VEO 3 (by Google)
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-  <iframe 
-    src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-    style="position: absolute; top:0; left:0; width:100%; height:100%;" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
+<div style="display: flex; justify-content: center;">
+  <a href="https://www.youtube.com/watch?v=5BAc526iVdk" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/5BAc526iVdk/1.jpg" alt="Luc Julia en intervention devant le Sénat" style="max-width: 100%; width: 360px; height: auto;">
+  </a>
 </div>
 
 - Time to generate: a few minutes if I recall correctly
