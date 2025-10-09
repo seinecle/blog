@@ -22,7 +22,7 @@ Prompt used for all models:
 
 ⏩ all generations presented below are first try
 
-⏩ **Except for LUMA the video generation also generates sound, so please SOUND ON on the videos.** 
+⏩ **Except for LUMA, geenrated videos come with sound. So please swith the sound ON on the videos.** 
 
 ### RAY3 (by Luma Labs AI)
 
