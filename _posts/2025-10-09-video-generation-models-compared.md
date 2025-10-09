@@ -9,7 +9,7 @@ categories: [AI, genAI, video, video generation, benchmark, comparison]
 ---
 Comparing Wan, VEO, SORA, LUMA and GROK with a paper boat navigating on a mountain torrent.
 
-Prompt use for all models:
+Prompt used for all models:
 
 *Make a video of a paper boat descending and whirling in a natural torrent water stream from the Alps.*
 
