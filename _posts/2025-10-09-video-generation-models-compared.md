@@ -45,7 +45,7 @@ Just the boat descending on the stream, with realistic physics for lights, water
 
 <div style="display: flex; justify-content: center;">
   <a href="https://www.youtube.com/watch?v=8wRwwivEtwM" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.youtube.com/vi/UjBZaKcTeIY/1.jpg" alt="Luc Julia en intervention devant le Sénat" style="max-width: 100%; width: 360px; height: auto;">
+    <img src="https://img.youtube.com/vi/8wRwwivEtwM/1.jpg" alt="Luc Julia en intervention devant le Sénat" style="max-width: 100%; width: 360px; height: auto;">
   </a>
 </div>
 
