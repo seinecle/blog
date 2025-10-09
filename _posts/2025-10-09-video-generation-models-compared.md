@@ -60,7 +60,7 @@ Prompt use for all models:
   </a>
 </div>
 
-- Time to generate: less than a minute.
+- Time to generate: 10 to 20 seconds.
 - Where? on a free plan with [https://grok.com/imagine](https://grok.com/imagine)
 - Evaluation: no photo realistic, movement of the boat is not natural, resolution is low, sound is compressed
 
