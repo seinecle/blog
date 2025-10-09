@@ -31,12 +31,19 @@ Just the boat descending on the stream, with realistic physics for lights, water
 - Evaluation: my paper boat is navigating the stream up! Also, no sound.
 - Remarks: I made a second try where the paper boat sails [more naturally, downstream](https://github.com/user-attachments/assets/eace0c9c-52e7-4749-8fec-0e8dbfc7b8e6).
 
-https://github.com/user-attachments/assets/e2e81096-7098-4adf-a8df-8a92b142aa3a
+<video controls width="640">
+  <source src="https://github.com/user-attachments/assets/e2e81096-7098-4adf-a8df-8a92b142aa3a" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 
 ### WAN
 
-https://github.com/user-attachments/assets/f8560fa9-7578-4ce6-8120-68a4107f9a86
+<video controls width="640">
+  <source src="https://github.com/user-attachments/assets/f8560fa9-7578-4ce6-8120-68a4107f9a86" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 - Time to generate: at least 20 minutes . It took so long that I closed the tab and came back several hours later
 - Where? on a free plan with https://create.wan.video/generate
@@ -45,7 +52,10 @@ https://github.com/user-attachments/assets/f8560fa9-7578-4ce6-8120-68a4107f9a86
 
 ### GROK
 
-https://github.com/user-attachments/assets/e2f3ebda-a948-4c7e-9d37-d292a13916f9
+<video controls width="640">
+  <source src="https://github.com/user-attachments/assets/e2f3ebda-a948-4c7e-9d37-d292a13916f9" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 - Time to generate: less than a minute.
 - Where? on a free plan with [https://grok.com/imagine](https://grok.com/imagine)
@@ -54,7 +64,10 @@ https://github.com/user-attachments/assets/e2f3ebda-a948-4c7e-9d37-d292a13916f9
 
 ### SORA
 
-https://github.com/user-attachments/assets/07829bb3-10fe-41b2-875c-2f89fbc7b36e.mp4
+<video controls width="640">
+  <source src="https://github.com/user-attachments/assets/07829bb3-10fe-41b2-875c-2f89fbc7b36e" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 - Time to generate: between 5 and 10 minutes if I recall correctly
 - Where? on a free plan with [https://vidgo.ai/](https://vidgo.ai/)
