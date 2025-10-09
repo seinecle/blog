@@ -25,12 +25,17 @@ Just the boat descending on the stream, with realistic physics for lights, water
 
 **Except for LUMA the video generation also generates sound, so please SOUND ON on the videos.** 
 
-### LUMA (RAY 3)
+### RAY3 (by Luma Labs AI)
 
-<video controls width="640">
-  <source src="https://github.com/user-attachments/assets/e2e81096-7098-4adf-a8df-8a92b142aa3a" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe 
+    src="https://www.youtube.com/embed/7heRRNdXUxE?si=pWnXe4fSEjFeXKx7" 
+    style="position: absolute; top:0; left:0; width:100%; height:100%;" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
 
 - Time to generate : about 1 minute if I remember correctly.
 - Where? on a free plan on Luma Labs's dream machine: [https://dream-machine.lumalabs.ai/](https://dream-machine.lumalabs.ai/)
@@ -39,19 +44,16 @@ Just the boat descending on the stream, with realistic physics for lights, water
 
 
 
-### WAN 2.5
+### WAN 2.5 (by Alibaba)
 
-<video controls width="640">
-  <source src="https://github.com/user-attachments/assets/f8560fa9-7578-4ce6-8120-68a4107f9a86" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8wRwwivEtwM?si=_tGM_KEFa95nvq3-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - Time to generate: at least 20 minutes . It took so long that I closed the tab and came back several hours later
 - Where? on a free plan with [https://create.wan.video/generate](https://create.wan.video/generate)
 - Evaluation: great fidelity to the prompt, level of details, great sound. The movement of the boat is not really coherent though (should not be so idle given the current)
 
 
-### GROK
+### GROK (by xAI)
 
 <video controls width="640">
   <source src="https://github.com/user-attachments/assets/e2f3ebda-a948-4c7e-9d37-d292a13916f9" type="video/mp4">
@@ -63,7 +65,7 @@ Just the boat descending on the stream, with realistic physics for lights, water
 - Evaluation: no photo realistic, movement of the boat is not natural, resolution is low, sound is compressed
 
 
-### SORA 2
+### SORA 2 (by OpenAI)
 
 <video controls width="640">
   <source src="https://github.com/user-attachments/assets/07829bb3-10fe-41b2-875c-2f89fbc7b36e" type="video/mp4">
@@ -74,9 +76,27 @@ Just the boat descending on the stream, with realistic physics for lights, water
 - Where? on a free plan with [https://vidgo.ai/](https://vidgo.ai/)
 - Evaluation: photo realistic, camera angles feel elaborated, movement of the boat is so natural, resolution is high and even the blur feels as if an amateur would have shooted out of focus. Sound is realistic and detailed though not perfect.
 
+
+### VEO 3 (by Google)
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe 
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+    style="position: absolute; top:0; left:0; width:100%; height:100%;" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+- Time to generate: a few minutes if I recall correctly
+- Where? on a Google pro plan with [https://labs.google/fx/tools](https://labs.google/fx/tools)
+- Evaluation: photo realistic, movement of the boat is so natural, resolution is high. Sound is realistic, really good.
+
+
 # Conclusion
 
-Wan comes as a close second to SORA in my honest opinion.
+There is a tie between SORA 2 and VEO 3 in my honest opinion. WAN 2.5 is not far behind. GROK and RAY3 a
 
 This quick comparison was made in relation to a list I maintain on [AI apps for visual creation: image, video, dubbing, 3D models and more](https://nocodefunctions.com/blog/list-of-ai-apps-for-visual-creation/).
 
