@@ -66,7 +66,7 @@ Just the boat descending on the stream, with realistic physics for lights, water
 ### SORA 2
 
 <video controls width="640">
-  <source src="https://github.com/user-attachments/assets/07829bb3-10fe-41b2-875c-2f89fbc7b36e.mp4" type="video/mp4">
+  <source src="https://github.com/user-attachments/assets/07829bb3-10fe-41b2-875c-2f89fbc7b36e" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
