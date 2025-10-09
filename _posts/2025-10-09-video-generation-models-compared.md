@@ -33,7 +33,7 @@ Prompt used for all models:
 
 - Time to generate : about 1 minute if I remember correctly.
 - Where? on a free plan on Luma Labs's dream machine: [https://dream-machine.lumalabs.ai/](https://dream-machine.lumalabs.ai/)
-- Evaluation: my paper boat is navigating the stream up! 🤦‍♂️ Also, no sound.
+- Evaluation: my paper boat is sailing upstream! 🤦‍♂️ Also, no sound.
 - Remarks: I made a second try with a prompt asking the boat to sail [more naturally, downstream](https://github.com/user-attachments/assets/eace0c9c-52e7-4749-8fec-0e8dbfc7b8e6).
 
 
