@@ -64,7 +64,7 @@ https://github.com/user-attachments/assets/07829bb3-10fe-41b2-875c-2f89fbc7b36e.
 
 Wan comes as a close second to SORA in my honest opinion.
 
-This quick comparison was made in relation to work I do on maintaining a [list of apps vor visual creation: image, video, dubbing, 3D models and more](https://nocodefunctions.com/blog/list-of-ai-apps-for-visual-creation/).
+This quick comparison was made in relation to a list I maintain on [AI apps for visual creation: image, video, dubbing, 3D models and more](https://nocodefunctions.com/blog/list-of-ai-apps-for-visual-creation/).
 
 ---
 # About Me
