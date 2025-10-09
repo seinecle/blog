@@ -102,7 +102,7 @@ Prompt use for all models:
 - GROK's approach is distinctive: first, it generates *in seconds* literally *dozens* of images following the prompt, all with slight variations. The user is then invited to choose one of these frames as the preferred starting point to generate the video. The video is created at extreme speed (10 to 20 seconds or less in my experience). The video is produced in vertical mode and has a discreet but visible anime style, making it popular for shorts posted on social media. Also, it probably has lower standards in terms of controls on the type of content being produced. All these ingredients could foster its adoption despite not being the highest quality video generator.
 
 ### Other models, newer models?
-This comparison was made in relation to a list I maintain on [AI apps for visual creation: image, video, dubbing, 3D models and more](https://nocodefunctions.com/blog/list-of-ai-apps-for-visual-creation/). This list is made to save me (and you) time by providing a one-stop landscape of AI apps for visual creation, grouped in meaningful categories.
+This comparison was made in relation to a list I maintain on [AI apps for visual creation: image, video, dubbing, 3D models and more](https://nocodefunctions.com/blog/list-of-ai-apps-for-visual-creation/). This list is made to save you time by providing a frequently updated, one-stop landscape of AI apps for visual creation, grouped in meaningful categories.
 
 ---
 # About Me
