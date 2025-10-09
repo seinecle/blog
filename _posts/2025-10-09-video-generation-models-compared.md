@@ -15,6 +15,7 @@ Prompt use for all models:
 
 *A few natural rocks are in the torrent, the torrent is small and the banks are made of herb, flowers, small bushes, in spring season.*
 
+
 *No wild life.*
 
 *Just the boat descending on the stream, with realistic physics for lights, water and boat movements: it whirls, slows down and goes faster depending on the current.*
