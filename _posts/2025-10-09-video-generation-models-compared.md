@@ -9,21 +9,19 @@ categories: [AI, genAI, video, video generation, benchmark, comparison]
 ---
 Comparing Wan, VEO, SORA, LUMA and GROK with a paper boat navigating on a mountain torrent.
 
-Prompt (I am not a native English speaker and was too lazy on that one to check for correctness) :
+Prompt use for all models:
 
-```
-Make a video of a paper boat descending and whirling in a natural torrent water stream from the Alps.
+*Make a video of a paper boat descending and whirling in a natural torrent water stream from the Alps.*
 
-A few natural rocks are in the torrent, the torrent is small and the banks are made of herb, flowers, small bushes, in spring season.
+*A few natural rocks are in the torrent, the torrent is small and the banks are made of herb, flowers, small bushes, in spring season.*
 
-No wild life.
+*No wild life.*
 
-Just the boat descending on the stream, with realistic physics for lights, water and boat movements: it whirls, slows down and goes faster depending on the current.
-```
+*Just the boat descending on the stream, with realistic physics for lights, water and boat movements: it whirls, slows down and goes faster depending on the current.*
 
-*All generations are first try*
+⏩ all generations presented below are first try
 
-**Except for LUMA the video generation also generates sound, so please SOUND ON on the videos.** 
+⏩ **Except for LUMA the video generation also generates sound, so please SOUND ON on the videos.** 
 
 ### RAY3 (by Luma Labs AI)
 
