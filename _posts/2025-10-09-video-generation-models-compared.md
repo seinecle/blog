@@ -54,7 +54,7 @@ https://github.com/user-attachments/assets/e2f3ebda-a948-4c7e-9d37-d292a13916f9
 
 ### SORA
 
-https://github.com/user-attachments/assets/07829bb3-10fe-41b2-875c-2f89fbc7b36e
+https://github.com/user-attachments/assets/07829bb3-10fe-41b2-875c-2f89fbc7b36e.mp4
 
 - Time to generate: between 5 and 10 minutes if I recall correctly
 - Where? on a free plan with [https://vidgo.ai/](https://vidgo.ai/)
