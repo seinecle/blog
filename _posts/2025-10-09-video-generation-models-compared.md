@@ -26,15 +26,16 @@ Just the boat descending on the stream, with realistic physics for lights, water
 **Except for LUMA the video generation also generates sound, so please SOUND ON on the videos.** 
 
 ### LUMA
-- Time to generate : about 1 minute if I remember correctly.
-- Where? on a free plan on Luma Labs's dream machine: https://dream-machine.lumalabs.ai/
-- Evaluation: my paper boat is navigating the stream up! Also, no sound.
-- Remarks: I made a second try where the paper boat sails [more naturally, downstream](https://github.com/user-attachments/assets/eace0c9c-52e7-4749-8fec-0e8dbfc7b8e6).
 
 <video controls width="640">
   <source src="https://github.com/user-attachments/assets/e2e81096-7098-4adf-a8df-8a92b142aa3a" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+- Time to generate : about 1 minute if I remember correctly.
+- Where? on a free plan on Luma Labs's dream machine: [https://dream-machine.lumalabs.ai/](https://dream-machine.lumalabs.ai/)
+- Evaluation: my paper boat is navigating the stream up! 🤦‍♂️ Also, no sound.
+- Remarks: I made a second try where the paper boat sails [more naturally, downstream](https://github.com/user-attachments/assets/eace0c9c-52e7-4749-8fec-0e8dbfc7b8e6).
 
 
 
