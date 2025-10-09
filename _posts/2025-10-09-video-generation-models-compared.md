@@ -26,7 +26,7 @@ Prompt use for all models:
 ### RAY3 (by Luma Labs AI)
 
 <div style="display: flex; justify-content: center;">
-  <a href="https://www.youtube.com/watch?v=7heRRNdXUxE" rel="noopener noreferrer">
+  <a href="https://www.youtube.com/watch?v=7heRRNdXUxE" target="_self">
     <img src="https://img.youtube.com/vi/7heRRNdXUxE/1.jpg" alt="RAY 3" style="max-width: 100%; width: 500px; height: auto;">
   </a>
 </div>
@@ -42,7 +42,7 @@ Prompt use for all models:
 ### WAN 2.5 (by Alibaba)
 
 <div style="display: flex; justify-content: center;">
-  <a href="https://www.youtube.com/watch?v=8wRwwivEtwM" rel="noopener noreferrer">
+  <a href="https://www.youtube.com/watch?v=8wRwwivEtwM" target="_self">
     <img src="https://img.youtube.com/vi/8wRwwivEtwM/1.jpg" alt="WAN 2.5" style="max-width: 100%; width: 500px; height: auto;">
   </a>
 </div>
@@ -55,7 +55,7 @@ Prompt use for all models:
 ### GROK (by xAI)
 
 <div style="display: flex; justify-content: center;">
-  <a href="https://www.youtube.com/watch?v=EvwKxAJDj3w" rel="noopener noreferrer">
+  <a href="https://www.youtube.com/watch?v=EvwKxAJDj3w" target="_self">
     <img src="https://img.youtube.com/vi/EvwKxAJDj3w/1.jpg" alt="GROL" style="max-width: 100%; width: 500px; height: auto;">
   </a>
 </div>
@@ -68,7 +68,7 @@ Prompt use for all models:
 ### SORA 2 (by OpenAI)
 
 <div style="display: flex; justify-content: center;">
-  <a href="https://www.youtube.com/watch?v=67AW4DPvzHk" rel="noopener noreferrer">
+  <a href="https://www.youtube.com/watch?v=67AW4DPvzHk"target="_self">
     <img src="https://img.youtube.com/vi/67AW4DPvzHk/1.jpg" alt="SORA 2" style="max-width: 100%; width: 500px; height: auto;">
   </a>
 </div>
@@ -81,7 +81,7 @@ Prompt use for all models:
 ### VEO 3 (by Google)
 
 <div style="display: flex; justify-content: center;">
-  <a href="https://www.youtube.com/watch?v=5BAc526iVdk" rel="noopener noreferrer">
+  <a href="https://www.youtube.com/watch?v=5BAc526iVdk" target="_self">
     <img src="https://img.youtube.com/vi/5BAc526iVdk/1.jpg" alt="VEO 3" style="max-width: 100%; width: 500px; height: auto;">
   </a>
 </div>
