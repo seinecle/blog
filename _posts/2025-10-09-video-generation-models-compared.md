@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Comparing video generation models with a childhood memory ⛵"
+title: "Comparing video generation models with a childhood memory"
 permalink: /video-generation-models-compared/
 published: true
 date_readable: October 9, 2025
