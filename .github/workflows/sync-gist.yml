@@ -8,7 +8,7 @@ jobs:
       - name: Fetch gist file
         run: |
           curl -L "https://gist.githubusercontent.com/seinecle/689a53bceca96147a04e93bdc5f83940/raw/file-list-of-ai-apps-for-visual-creation.md" \
-            -o _includes/gist-list-of-ai-apps-for-visual-creation.md
+            -o _includes /gist-list-of-ai-apps-for-visual-creation.md
       - name: Commit changes
         run: |
           git config user.name "github-actions"
