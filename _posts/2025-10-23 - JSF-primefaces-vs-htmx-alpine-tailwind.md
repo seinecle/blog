@@ -13,11 +13,14 @@ categories: [frameworks, web development, java, JSF, primefaces, htmx, alpine, t
 
 I develop nocodefunctions.com for 4 years now. Being a Java developer with limited skills and taste for front-end development, I rely on JSF + Primefaces for the front-end, integrated with the backend through JakartaEE.
 
-Trying to redesign the pages with tailwind, I realized that there is some work and tooling needed to make tailwind styles coherent with Primefaces styles.
+Trying to achieve a better, more personal design of the web pages, I realized that my current stack was not making it easy.
 
-I also realized that I relied a lot on Gemini or ChatGPT's canvases to create, preview, interate on the new styles I designed: and that is hard to do with xhtml pages, while it is just natural with html documents, even loaded with external css and js libs.
+I also use Gemini or ChatGPT's canvases a lot to imagine this redesign. These canvases can't render the xhtml files that are central to my current tech stack.
 
-So I considered removing Primefaces..
+So, what if I made a different choice for my frontend stack, for a better experience as a front end developer? What would I loose, what would I gain?
+
+Here is a comparison between my current stack (JSF + Primefaces) and the alternative I am considering (htmx + alpine.js + tailwind)
+
 
 |   | **JSF + PrimeFaces (strengths)**                                                            | **HTMX + Alpine.js (cons)**                                                       |
 | - | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
