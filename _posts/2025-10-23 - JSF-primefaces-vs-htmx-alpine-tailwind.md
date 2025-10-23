@@ -11,9 +11,13 @@ categories: [frameworks, web development, java, JSF, primefaces, htmx, alpine, t
 ## 🧩 Comparison: JSF + PrimeFaces vs HTMX + Alpine.js
 
 
-I develop nocodefunctions.com for 4 years now. Being a Java developer with limited skills and taste for front-end development, I rely on JSF + Primefaces for the front-end, integrated with the backend through JakartaEE.
+I develop nocodefunctions.com for 4 years now. Being a Java developer with limited skills and taste for the key technologies in front-end development (css and js), I rely on JSF + Primefaces for the front-end, integrated with the backend through JakartaEE.
 
-Trying to achieve a better, more personal design of the web pages, I realized that my current stack was not making it easy.
+This stack served me well: as a solo developer with limited spare time for this side project, I could focus on developing the core features of the app. I have been able to serve hundreds or thousands of requests per month.
+
+Today I am exploring if or how I could achieve a better, more personal design of the web site.
+
+I tried to customoze the css with tailwind but I realized that it conflicts with the css applied by default by my current stack.
 
 I also use Gemini or ChatGPT's canvases a lot to imagine this redesign. These canvases can't render the xhtml files that are central to my current tech stack.
 
@@ -24,7 +28,7 @@ Here is a comparison between my current stack (JSF + Primefaces) and the alterna
 
 |   | **JSF + PrimeFaces (strengths)**                                                            | **HTMX + Alpine.js (cons)**                                                       |
 | - | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| 1 | Complex components out of the box (data tables, image croppers, etc.)                       | Lacks complex components — requires specific JS libraries and custom backend code |
+| 1 | Complex components provided out of the box (data tables, image croppers, etc.)                       | Lacks complex components — requires specific JS libraries and custom backend code |
 | 2 | Strong IDE integration: refactoring a backend method refactors the front end as well        | Logic is separated — no automatic synchronization between front and back          |
 | 3 | Same programming language and framework on both sides (e.g., file upload easily integrated) | Different languages/frameworks: file upload must be fully defined on both ends    |
 | 4 | User session management provided out of the box                                             | No session mechanism — must be implemented manually (cookies, tokens, etc.)       |
