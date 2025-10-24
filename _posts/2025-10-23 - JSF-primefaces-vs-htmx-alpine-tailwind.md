@@ -16,7 +16,7 @@ This stack served me well: as a solo developer with limited spare time for this 
 
 Today I am exploring if or how I could achieve a better, more personal design of the web site.
 
-I tried first to customize the css of the pages by adding tailwind but I realized that it conflicts with the css applied by the css theme applied by default by Primefaces. There are ways to have tailwind and Primefaces theming to work hand in hand but they involve to setup a dedicated scaffolding to manage it, which adds cognitive load and will be a burdeon to maintain in the long term.
+I tried first to customize the css of the pages by adding tailwind but I realized that it conflicts with the css theme applied by default by Primefaces. There are ways to have tailwind and Primefaces theming to work hand in hand but they involve to setup a dedicated scaffolding to manage it, which adds cognitive load and will be a burdeon to maintain in the long term.
 
 I also use Gemini or ChatGPT's canvases a lot to imagine this redesign. These canvases can't render the xhtml files that are central to my current tech stack, while they render html + css + js effortlessly.
 
