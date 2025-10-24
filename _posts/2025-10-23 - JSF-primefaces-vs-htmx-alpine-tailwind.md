@@ -25,7 +25,7 @@ As a solo developer with limited spare time for this side project, I managed all
 
 ### Why reconsider my Java stack?
 
-TToday, I’m exploring whether I could achieve a better, more personal design for the website.
+Today, I’m exploring whether I could achieve a better, more personal design for the website.
 
 I tried first customizing the css of the pages with [Tailwind](https://tailwindcss.com/) but quickly realized it conflicts with the css theme applied by default by Primefaces. There are ways to have Tailwind and Primefaces theming to work hand in hand but they involve to setup a dedicated scaffolding to manage it, which adds cognitive load and will be a burdeon to maintain in the long term.
 
