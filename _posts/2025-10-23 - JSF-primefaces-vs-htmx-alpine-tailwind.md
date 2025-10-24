@@ -2,7 +2,7 @@
 layout: post
 title: "Comparison: JSF + PrimeFaces vs HTMX + Alpine.js"
 permalink: /jsf-primefaces-vs-htmx-alpine-tailwind/
-published: false
+published: true
 date_readable: October 23, 2025
 last_modified_at_readable: October 23, 2025
 categories: [frameworks, web development, java, JSF, primefaces, htmx, alpine, tailwind]
@@ -75,13 +75,13 @@ Here is a comparison between my current stack (JSF + Primefaces) and the alterna
 
 What made me tilt towards HTMX + Alpine + Tailwind is that LLMs can handle it for me, removing my biggest obstacle ("I hate css and js, they are too brittle").
 
-Don't jump and shame me ("ohh he is fine with vibe coding and AI slope!"). By sticking to very simple frameworks like HTMX, Tailwind and Alpine,  I remain very close to the native html of the pages. This means the generated html, CSS classes and js will are not a black box I have to trust blindly. I'll be able to debug, modify, and remove them if necessary, in a way that is much more transparent than I was in my current situation with JSF.
+Don't jump and shame me ("ohh he is fine with vibe coding and AI slope!"). By sticking to very simple frameworks like HTMX, Tailwind and Alpine,  I remain very close to the native HTML of the pages. This means the generated HTML, CSS classes and JS are not a black box I have to trust blindly. I'll be able to debug, modify, and remove them if necessary, in a way that is much more transparent than I was in my current situation with JSF.
 
 And the benefits of the switch are mouth-watering: I'll finally be able to design pages in a more personal and distinctive way than the design I was stuck with until now.
 
 Don't get me wrong: I am grateful to JSF and Primefaces for providing the tools that allowed me to create a functional and (to my standards) successful web app without touching CSS and JS, which I dare anyone trying without these Java techs. But LLMs change the game. They reduce the need for such heavy frameworks. Coding closer to native HTML, CSS and JS is now a viable, even enjoyable option.
 
-This new stack does come with trade-offs: some features will be dropped because they're too time-consuming to rebuild. For instance, the complex UI with data tables and the “PDF region selector” using an image cropper. That is a trade-off I'm ready to make.
+This new stack does come with trade-offs: some features will be dropped because they're too time-consuming to rebuild. For instance, the complex UI with data tables and the "PDF region selector" using an image cropper. That is a trade-off I'm ready to make.
 
 ## 🎯 Results: let's wait for the refactoring
 
