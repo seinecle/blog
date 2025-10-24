@@ -18,7 +18,7 @@ I've been developing [nocodefunctions.com](https://nocodefunctions.com) since 20
 
 For this reason, and because I enjoy developing in Java, my entire stack is Java: [JSF](https://github.com/jakartaee/faces) + [Primefaces](https://showcase.primefaces.org) for the front-end, integrated with the backend through [JakartaEE](https://jakarta.ee/learn/starter-guides/) that manages both.
 
-[This stack served me very well](https://nocodefunctions.com/blog/java-frontend-web-app/): it did the job. The web app displays complex data tables, it includes an image cropper function so that a user can select a region on specific pdf pages ... pretty advanced stuff for somebody who doesn't want to touch js even with a stick. It is even [internationalized on 104 languages](https://nocodefunctions.com/blog/translated-web-app-in-107-languages-i18n/), and is fully responsive.
+[This stack served me very well](https://nocodefunctions.com/blog/java-frontend-web-app/): it did the job. The web app displays complex data tables, it includes an image cropper function so that a user can select a region on specific pdf pages ... pretty advanced stuff for somebody who doesn't want to touch Javascript even with a stick. It is even [internationalized on 104 languages](https://nocodefunctions.com/blog/translated-web-app-in-107-languages-i18n/), and is fully responsive.
 
 As a solo developer with limited spare time for this side project, I managed all this while still developing and expanding the app’s core features. It has handled [hundreds or thousands of requests per month](https://public.nocodefunctions.com/).
 
