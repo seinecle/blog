@@ -79,7 +79,7 @@ And the benefits of the switch are mouth-watering: I'll finally be able to desig
 
 Don't get me wrong: I am grateful to JSF and Primefaces for providing the tools that allowed me to create a functional and (to my standards) successful web app without touching CSS and JS, which I dare anyone trying without these Java techs. But LLMs change the game. They reduce the need for such heavy frameworks. Coding closer to native HTML, CSS and JS is now a viable, even enjoyable option.
 
-This new stack does come with trade-offs: some features will be dropped because they're too time-consuming to rebuild. For instance, the complex UI with data tables and the "PDF region selector" using an image cropper. That is a trade-off I'm ready to make.
+This new stack does come with trade-offs: some features will be dropped because they're too time-consuming to rebuild. For instance, the complex UI with data tables and the "PDF region selector" using an image cropper. That is a trade-off I'm ready to make. Also, I will need to write the logic of user session management myself, which will be frankly boring and error-prone. That is what worries me the most.
 
 ## 🎯 Results: let's wait for the refactoring
 
