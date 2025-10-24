@@ -10,27 +10,38 @@ categories: [frameworks, web development, java, JSF, primefaces, htmx, alpine, t
 
 ## Comparison: JSF + PrimeFaces 🆚 HTMX + Alpine.js
 
-I develop [nocodefunctions.com](https://nocodefunctions.com) since 2021. Being a Java developer with limited skills and taste for the key technologies in front-end development (css and js), I rely on JSF + Primefaces for the front-end, integrated with the backend through JakartaEE that manages both.
+### Why a Java stack for the front-end?
 
-This stack served me well: as a solo developer with limited spare time for this side project, I could focus on developing the core features of the app. I have been able to serve [hundreds or thousands of requests per month](https://public.nocodefunctions.com/).
+I've been developing [nocodefunctions.com](https://nocodefunctions.com) since 2021. My skills (and, frankly, my taste) for the key technologies in front-end development (css and js) are very limited:
 
-Today I am exploring if or how I could achieve a better, more personal design of the web site.
+![css-is-awesome](https://github.com/user-attachments/assets/5903b606-3238-4c91-9fad-f966476d269c)
 
-I tried first to customize the css of the pages by adding tailwind but I realized that it conflicts with the css theme applied by default by Primefaces. There are ways to have tailwind and Primefaces theming to work hand in hand but they involve to setup a dedicated scaffolding to manage it, which adds cognitive load and will be a burdeon to maintain in the long term.
+For this reason, and because I enjoy developing in Java, my entire stack is Java: [JSF](https://github.com/jakartaee/faces) + [Primefaces](https://showcase.primefaces.org) for the front-end, integrated with the backend through [JakartaEE](https://jakarta.ee/learn/starter-guides/) that manages both.
 
-I also use Gemini or ChatGPT's canvases a lot to imagine this redesign. These canvases can't render the xhtml files that are central to my current tech stack, while they render html + css + js effortlessly.
+[This stack served me very well](https://nocodefunctions.com/blog/java-frontend-web-app/): it did the job. The web app displays complex data tables, it includes an image cropper function so that a user can select a region on specific pdf pages ... pretty advanced stuff for somebody who doesn't want to touch js even with a stick. It is even [internationalized on 104 languages](https://nocodefunctions.com/blog/translated-web-app-in-107-languages-i18n/), and is fully responsive.
+
+As a solo developer with limited spare time for this side project, I managed all this while still developing and expanding the app’s core features. It has handled [hundreds or thousands of requests per month](https://public.nocodefunctions.com/).
+
+
+### Why reconsider my Java stack?
+
+TToday, I’m exploring whether I could achieve a better, more personal design for the website.
+
+I tried first customizing the css of the pages with [Tailwind](https://tailwindcss.com/) but quickly realized it conflicts with the css theme applied by default by Primefaces. There are ways to have Tailwind and Primefaces theming to work hand in hand but they involve to setup a dedicated scaffolding to manage it, which adds cognitive load and will be a burdeon to maintain in the long term.
+
+I also use Gemini or ChatGPT's canvases extensively to prototype this redesign. However these tools can't render the XHTML files central to my current tech stack, while they render html + css + js effortlessly.
 
 So I came to wonder:
 
-> what if I made a different choice for my frontend stack, for a better experience as a front end developer? What would I loose, what would I gain?
+> what if I made a different choice for my frontend stack, for a better experience as a developer? What would I loose, what would I gain?
 
-Saying that ditching JSF and Primefaces would remove difficulties is obvious, but what would I loose? What additional difficulties does it introduce?
+It's easy to assume that ditching JSF and PrimeFaces would simplify things, but what exactly would I lose? And what new difficulties would appear?
 
-Here is a comparison between my current stack (JSF + Primefaces) and the alternative I am considering (htmx + alpine.js + tailwind)
+Here is a comparison between my current stack (JSF + Primefaces) and the alternative I am considering (HTMX + Alpine.js + Tailwind)
 
-> nota bene : I am well aware that JSF and Primefaces can work with tailwind with no fuss, so one might find it unfair to pit JSF + Primefaces against a solution with tailwind. But as I said above, making tailwind work in coherence with Primefaces need some extra tooling which I personally find too heavy, compared to "just add tailwind" in the htmx + alpine solution.
+> **nota bene** : I am well aware that JSF and Primefaces can work with Tailwind with no fuss, so one might find it unfair to pit JSF + Primefaces against a solution with Tailwind. But as I said above, making Tailwind work in coherence with Primefaces need some extra tooling which I personally find too heavy, compared to "just add tailwind" in the HTMX + Alpine solution.
 
-### from the point of view of JSF + Primefaces strengths...
+### Comparison: from the point of view of JSF + Primefaces strengths
 
 
 |   | **JSF + PrimeFaces (strengths)**                                                            | **HTMX + Alpine.js (cons)**                                                       |
@@ -47,7 +58,7 @@ Here is a comparison between my current stack (JSF + Primefaces) and the alterna
 
 ---
 
-### from the point of view of HTMX + Alpine + Tailwind strengths...
+### Now from the point of view of HTMX + Alpine + Tailwind strengths...
 
 
 | # | **HTMX + Alpine.js + Tailwind (strengths)**                                                                | **JSF + PrimeFaces (cons)**                                                                                             |
@@ -62,15 +73,19 @@ Here is a comparison between my current stack (JSF + Primefaces) and the alterna
 
 ## 🔀 Decision after comparison
 
-What made me tilt towards HTMX + Alpine + Tailwind is that LLMs will handle it for me, so obstacle number one ("I hate css and js, they are too brittle") just disappears.
+What made me tilt towards HTMX + Alpine + Tailwind is that LLMs can handle it for me, removing my biggest obstacle ("I hate css and js, they are too brittle").
 
-Don't jump and shame me ("ohh he is ok with vibe coding and AI slope!"). Keeping to very simple frameworks like HTMX, tailwind and alpine ensures that I remain very close to the native html of the pages. This means the generated html, CSS classes and js will not be a black box that I'll have to trust blindly. I'll be able to debug it, modify it and remove it if necessary, in a way that is much more transparent than I was in my current situation with JSF.
+Don't jump and shame me ("ohh he is fine with vibe coding and AI slope!"). By sticking to very simple frameworks like HTMX, Tailwind and Alpine,  I remain very close to the native html of the pages. This means the generated html, CSS classes and js will are not a black box I have to trust blindly. I'll be able to debug, modify, and remove them if necessary, in a way that is much more transparent than I was in my current situation with JSF.
 
-And the benefits of the switch are mouth watering: I'll finally be able to design pages in a more personal way than the design I was stuck with until now.
+And the benefits of the switch are mouth-watering: I'll finally be able to design pages in a more personal and distinctive way than the design I was stuck with until now.
 
-Don't get me wrong: I thank and praise JSF and Primefaces for having provided these techs that allowed me to create a workable and successful (to my standards) web app without touching CSS and JS, which I dare anyone trying without these Java techs. But LLMs provide new opportunities and I believe they diminish the need for frameworks like these. Coding relatively closer to native html, css and js is a viable option today.
+Don't get me wrong: I am grateful to JSF and Primefaces for providing the tools that allowed me to create a functional and (to my standards) successful web app without touching CSS and JS, which I dare anyone trying without these Java techs. But LLMs change the game. They reduce the need for such heavy frameworks. Coding closer to native HTML, CSS and JS is now a viable, even enjoyable option.
 
+This new stack does come with trade-offs: some features will be dropped because they're too time-consuming to rebuild. For instance, the complex UI with data tables and the “PDF region selector” using an image cropper. That is a trade-off I'm ready to make.
 
+## 🎯 Results: let's wait for the refactoring
+
+I am currently working at this refactoring. Visit [nocodefunctions.com](htpps://nocodefunctions.com) to see how it looks with the current Java stack, and come back in a few months, realistically, to see how it has evolved.
 
 ---
 # About Me
