@@ -1,14 +1,12 @@
 ---
 layout: post
-title: "Comparing JSF + PrimeFaces vs HTMX + Alpine"
+title: "Comparing JSF + PrimeFaces 🆚 HTMX + Alpine"
 permalink: /jsf-primefaces-vs-htmx-alpine-tailwind/
 published: true
 date_readable: October 23, 2025
 last_modified_at_readable: October 23, 2025
 categories: [frameworks, web development, java, JSF, primefaces, htmx, alpine, tailwind]
 ---
-
-## Comparison: JSF + PrimeFaces 🆚 HTMX + Alpine.js
 
 ### Why a Java stack for the front-end?
 
