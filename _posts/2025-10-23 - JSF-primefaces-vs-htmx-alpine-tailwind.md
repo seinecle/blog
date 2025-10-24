@@ -12,7 +12,7 @@ categories: [frameworks, web development, java, JSF, primefaces, htmx, alpine, t
 
 ### Why a Java stack for the front-end?
 
-I've been developing [nocodefunctions.com](https://nocodefunctions.com) since 2021. My skills (and, frankly, my taste) for the key technologies in front-end development (css and js) are very limited:
+I've been developing [nocodefunctions.com](https://nocodefunctions.com) since 2021. My skills (and, frankly, my taste) for the key technologies in front-end development (CSS and JS) are very limited:
 
 ![css-is-awesome](https://github.com/user-attachments/assets/5903b606-3238-4c91-9fad-f966476d269c)
 
