@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Comparison: JSF + PrimeFaces vs HTMX + Alpine.js"
+title: "Comparing JSF + PrimeFaces vs HTMX + Alpine"
 permalink: /jsf-primefaces-vs-htmx-alpine-tailwind/
 published: true
 date_readable: October 23, 2025
