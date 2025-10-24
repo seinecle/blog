@@ -29,7 +29,7 @@ Today, I’m exploring whether I could achieve a better, more personal design fo
 
 I tried first customizing the css of the pages with [Tailwind](https://tailwindcss.com/) but quickly realized it conflicts with the css theme applied by default by Primefaces. There are ways to have Tailwind and Primefaces theming to work hand in hand but they involve to setup a dedicated scaffolding to manage it, which adds cognitive load and will be a burdeon to maintain in the long term.
 
-I also use Gemini or ChatGPT's canvases extensively to prototype this redesign. However these tools can't render the XHTML files central to my current tech stack, while they render html + css + js effortlessly.
+I also use Gemini or ChatGPT's canvases extensively to prototype this redesign. However these tools can't render the XHTML files central to my current tech stack, while they render HTML + CSS + JS effortlessly.
 
 So I came to wonder:
 
