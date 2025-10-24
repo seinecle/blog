@@ -10,7 +10,7 @@ categories: [frameworks, web development, java, JSF, primefaces, htmx, alpine, t
 
 ## Comparison: JSF + PrimeFaces 🆚 HTMX + Alpine.js
 
-I develop [nocodefunctions.com](https://nocodefunctions.com) since 2021. Being a Java developer with limited skills and taste for the key technologies in front-end development (css and js), I rely on JSF + Primefaces for the front-end, integrated with the backend through JakartaEE.
+I develop [nocodefunctions.com](https://nocodefunctions.com) since 2021. Being a Java developer with limited skills and taste for the key technologies in front-end development (css and js), I rely on JSF + Primefaces for the front-end, integrated with the backend through JakartaEE that manages both.
 
 This stack served me well: as a solo developer with limited spare time for this side project, I could focus on developing the core features of the app. I have been able to serve [hundreds or thousands of requests per month](https://public.nocodefunctions.com/)
 
