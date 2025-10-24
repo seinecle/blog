@@ -44,7 +44,7 @@ Here is a comparison between my current stack (JSF + Primefaces) and the alterna
 
 |   | **JSF + PrimeFaces (strengths)**                                                            | **HTMX + Alpine.js (cons)**                                                       |
 | - | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| 1 | No need to touch css or js, or very minimally                                               | it is all about adding css classes and js (but a lot of complexity remains hidden)|
+| 1 | No need to touch css or js, or very minimally                                               | it is all about adding html attributes, css classes and js (but a lot of complexity remains hidden)|
 | 2 | Complex components provided out of the box (data tables, image croppers, etc.)              | Lacks complex components — requires specific JS libraries and custom backend code |
 | 3 | Strong IDE integration: refactoring a backend method refactors the front end as well        | Logic is separated — no automatic synchronization between front and back          |
 | 4 | Same programming language and framework on both sides (e.g., file upload easily integrated) | Different languages/frameworks: file upload must be fully defined on both ends    |
