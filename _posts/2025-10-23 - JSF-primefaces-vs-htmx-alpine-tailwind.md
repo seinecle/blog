@@ -62,9 +62,13 @@ Here is a comparison between my current stack (JSF + Primefaces) and the alterna
 
 ## 🔀 Decision after comparison
 
-What made me tilt towards HTMX + Alpine + Tailwind is that LLMs will handle it for me, so obstacle number one ("I hate css and js, they are too brittle") just disappears. Don't jump and shame me ("ohh he is ok with vibe coding and AI slope!"). Keeping to very simple frameworks like HTMX, tailwind and alpine ensures that I remain very close to the native html of the pages. This means the generated html, CSS classes and js will not be a black box that I'll have to trust blindly. I'll be able to debug it, modify it and remove it if necessary, in a way that is much more transparent than I was in my current situation with JSF.
+What made me tilt towards HTMX + Alpine + Tailwind is that LLMs will handle it for me, so obstacle number one ("I hate css and js, they are too brittle") just disappears.
 
-And the benefits of the switch are mouth watering: I'll finally be able to design pages in a more personal way than the design I was stuck with until now. Don't get me wrong: I thank and praise JSF and Primefaces for having provided these techs that allowed me to create a workable and successful (to my standards) web app without touching CSS and JS, which I dare anyone trying without these Java techs. But LLMs provide new opportunities and I believe they diminish the need for frameworks like these. Coding relatively closer to native html, css and js is a viable option today.
+Don't jump and shame me ("ohh he is ok with vibe coding and AI slope!"). Keeping to very simple frameworks like HTMX, tailwind and alpine ensures that I remain very close to the native html of the pages. This means the generated html, CSS classes and js will not be a black box that I'll have to trust blindly. I'll be able to debug it, modify it and remove it if necessary, in a way that is much more transparent than I was in my current situation with JSF.
+
+And the benefits of the switch are mouth watering: I'll finally be able to design pages in a more personal way than the design I was stuck with until now.
+
+Don't get me wrong: I thank and praise JSF and Primefaces for having provided these techs that allowed me to create a workable and successful (to my standards) web app without touching CSS and JS, which I dare anyone trying without these Java techs. But LLMs provide new opportunities and I believe they diminish the need for frameworks like these. Coding relatively closer to native html, css and js is a viable option today.
 
 
 
