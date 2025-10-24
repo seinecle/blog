@@ -39,7 +39,7 @@ It's easy to assume that ditching JSF and PrimeFaces would simplify things, but 
 
 Here is a comparison between my current stack (JSF + Primefaces) and the alternative I am considering (HTMX + Alpine.js + Tailwind)
 
-> **nota bene** : I am well aware that JSF and Primefaces can work with Tailwind with no fuss, so one might find it unfair to pit JSF + Primefaces against a solution with Tailwind. But as I said above, making Tailwind work in coherence with Primefaces needs some extra tooling which I personally find too heavy, compared to "just add tailwind" in the HTMX + Alpine solution.
+> **nota bene** : I am well aware that JSF and Primefaces can work with Tailwind with no fuss, so one might find it unfair to pit JSF + Primefaces against a solution with Tailwind. But as I said above, making Tailwind work in coherence with Primefaces needs some extra tooling which I personally find too heavy, compared to "just add Tailwind" in the HTMX + Alpine solution.
 
 ### Comparison: from the point of view of JSF + Primefaces strengths
 
