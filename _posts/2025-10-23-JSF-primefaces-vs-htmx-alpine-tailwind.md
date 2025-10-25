@@ -73,7 +73,7 @@ Here is a comparison between my current stack (JSF + Primefaces) and the alterna
 
 What made me tilt towards HTMX + Alpine + Tailwind is that LLMs can handle it for me, removing my biggest obstacle ("I hate css and js, they are too brittle").
 
-Don't jump and shame me ("ohh he is fine with vibe coding and AI slope!"). By sticking to very simple frameworks like HTMX, Tailwind and Alpine,  I remain very close to the native HTML of the pages. This means the generated HTML, CSS classes and JS are not a black box I have to trust blindly. I'll be able to debug, modify, and remove them if necessary, in a way that is much more transparent than I was in my current situation with JSF.
+Don't jump and shame me ("ohh he is fine with vibe coding and AI slop!"). By sticking to very simple frameworks like HTMX, Tailwind and Alpine,  I remain very close to the native HTML of the pages. This means the generated HTML, CSS classes and JS are not a black box I have to trust blindly. I'll be able to debug, modify, and remove them if necessary, in a way that is much more transparent than I was in my current situation with JSF.
 
 And the benefits of the switch are mouth-watering: I'll finally be able to design pages in a more personal and distinctive way than the design I was stuck with until now.
 
