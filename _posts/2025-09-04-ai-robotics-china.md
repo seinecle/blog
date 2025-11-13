@@ -8,7 +8,7 @@ last_modified_at_readable: 04 September 2025
 categories: [AI, generative AI, china, robotics, unemployment, automation]
 ---
 
-These are personal notes on the latest news on generative AI (late August / early September) and on fundamental trends behind this news. This is a follow-up to [this post](/three-impacts-of-genAI-on-software-applications/).
+These are personal notes on the latest news on generative AI (late August / early September) and on fundamental trends behind this news. This is a follow-up to [this post](/blog/three-impacts-of-genAI-on-software-applications/).
 
 # Robotics and generative AI: interlinked
 I remember an impactful talk in 2017 by [Laurent Alexandre](https://fr.wikipedia.org/wiki/Laurent_Alexandre) for a commission of the French Senate, where he hammered the economic significance of AI.
