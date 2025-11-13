@@ -33,7 +33,7 @@ If and as Germany's welfare state shrinks because of the relative decline of the
 - in areas where EU investment matters (and name one where it doesn't?), we should brace for more difficult times. Culture, education, research.
 - increase in defense spending by Germany and other EU countries as a way to maintain their industry afloat. Not a reassuring playbook, if history is any guide.
 
-This particular consequence is explicitly mentioned in the article above:
+This particular consequence is explicitly mentioned [in the article above](https://archive.is/v1zSg):
 
 > "Some are holding out hope that demand for defence will help rescue Germany’s industrial sector"
 
