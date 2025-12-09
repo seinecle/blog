@@ -2,31 +2,40 @@
 layout: default
 ---
 
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
 
-  <div class="entry">
+  <!-- Title -->
+  <h1 class="post-title">{{ page.title }}</h1>
+
+  <!-- Meta: Date -->
+  <p class="post-meta">
+    <i class="fa fa-calendar fa-fw" aria-hidden="true"></i>
+    {{ page.date | date: "%B %e, %Y" }}
+  </p>
+
+  <!-- Content -->
+  <div class="post-content">
     {{ content }}
   </div>
 
-  <div class="date">
-    <i class="fa fa-calendar fa-fw" aria-hidden="true"></i>&nbsp;Date:<span style="color: #333333; font-weight: normal;">&nbsp;{{ page.date | date: "%B %e, %Y" }}</span>
-  </div>
-
-  <div class="share-post">
-    <i class="fa fa-share-alt-square fa-fw" aria-hidden="true"></i>&nbsp;Share:&nbsp;
+  <!-- Share Section -->
+  <section class="share-post">
+    <i class="fa fa-share-alt-square fa-fw" aria-hidden="true"></i>
+    Share:
     {% include share-buttons.html %}
-  </div>
+  </section>
 
-  <div class="related-posts">
+  <!-- Related Posts -->
+  <section class="related-posts">
     {% include related-posts.html %}
-  </div>
+  </section>
 
-  <div class="post-nav">
+  <!-- Post Navigation -->
+  <nav class="post-nav">
     {% include post-nav.html %}
-  </div>
+  </nav>
 
 </article>
