@@ -34,7 +34,7 @@ Karen Hao chooses to include and document Annie Altman’s life story, in an eff
 
 I was reminded, for example, of Elon Musk’s conflictual relationship with his father. At Elon Musk’s request, [his first biographer](https://www.penguin.co.uk/books/419660/elon-musk-by-ashlee-vance/9780753555644) chose not to address this issue; in return, the author gained elevated access to Musk.
 
-[His second biographer](https://www.simonandschuster.com/books/Elon-Musk/Walter-Isaacson/9781982181284) chose the opposite. Delving into (yes, I am in control of this verb) Musk’s relationship with his father became a central key to the psyche of his subject, and my impression is that the second biography provides deeper, more valuable insights into Musk’s trajectory.
+[His second biographer](https://www.simonandschuster.com/books/Elon-Musk/Walter-Isaacson/9781982181284) chose the opposite. Delving into (NB : yes I am in control of this sentence and this particular verb) Musk’s relationship with his father became a central key to the psyche of his subject, and my impression is that the second biography provides deeper, more valuable insights into Musk’s trajectory.
 
 But in the case of Sam Altman’s relationship with his sister, my personal impression is that it does not provide a missing key to his psyche, decisions, or trajectory. In consequence, it left me ill at ease. Discussing how individuals live and cope with close relatives who suffer mental health issues and then making broad, fragile inferences from it: it is a tough call.
 
