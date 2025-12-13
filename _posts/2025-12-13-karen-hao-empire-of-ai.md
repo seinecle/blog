@@ -14,9 +14,6 @@ Published in May 2025, [Empire of AI](https://www.penguin.co.uk/books/460331/emp
 
 <img alt="Book cover of Karen Hao's Empire of AI" src="https://github.com/user-attachments/assets/94a8a9e3-ef5b-4d94-85ed-6ee0c3171e0b" style="max-width: 100%; width: 460px; height: auto;"/>
 
-![cover-empire-of-ai-karen-hao]()
-
-
 ## [TL;DR]
 I fully recommend the reading of this book which is an example of the most rigorous investigative journalism. It documents several dimensions of the development of gen AI:
 
