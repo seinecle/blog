@@ -4,7 +4,7 @@ title: "Comparing JSF + PrimeFaces 🆚 HTMX + Alpine"
 permalink: /jsf-primefaces-vs-htmx-alpine-tailwind/
 published: true
 date_readable: October 23, 2025
-last_modified_at_readable: October 23, 2025
+last_modified_at_readable: December 14, 2025
 categories: [frameworks, web development, java, JSF, primefaces, htmx, alpine, tailwind]
 ---
 
@@ -83,7 +83,9 @@ This new stack does come with trade-offs: some features will be dropped because 
 
 ## 🎯 Results: let's wait for the refactoring
 
-I am currently working at this refactoring. Visit [nocodefunctions.com](htpps://nocodefunctions.com) to see how it looks with the current Java stack, and come back in a few months, realistically, to see how it has evolved.
+I am currently working at this refactoring. Visit [nocodefunctions.com](https://nocodefunctions.com) to see how it looks with the current Java stack, and come back in a few months, realistically, to see how it has evolved.
+
+[EDIT December 14, 2025 -> visit [next.nocodefunctions.com](https://next.nocodefunctions.com) for a live preview of the refactoring in progress]
 
 ---
 # About Me
