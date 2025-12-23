@@ -27,7 +27,7 @@ In practice though, tooling comes in the way.
 Making use of generative AI in a coding task is actually not straightforward. Here are some essential milestones in the short history of tools that have been evolved to ease this process.
 
 | # | Name | Owning company | First public release | Interface type | Key features (1 line) | Cost model |
-|---|------|----------------|----------------------|----------------|-----------------------|------------|--------|
+|---|------|----------------|----------------------|----------------|-----------------------|------------|
 | 1 | [GitHub Copilot](https://en.wikipedia.org/wiki/GitHub_Copilot) | GitHub (Microsoft) | 2021 | IDE extension (VS Code, JetBrains…) | Inline code completion and chat powered by LLMs | Subscription (individual / business) |
 | 2 | [Cursor](https://en.wikipedia.org/wiki/Cursor_(code_editor)) | Anysphere | 2022 | Stand-alone IDE | AI-native IDE with conversational editing across the codebase | Freemium + subscription |
 | 3 | [Aider](https://aider.chat/) | Open source (community) | 2023 | CLI | Git-aware conversational code editing from the terminal | Free (API usage paid separately) |
