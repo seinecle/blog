@@ -30,15 +30,29 @@ Ratings are my subjective opinion in terms of usefulness as of December 2025
 
 | # | Name | Owning company | First public release | Interface type | Key features (1 line) | Cost model | Rating |
 |---|------|----------------|----------------------|----------------|-----------------------|------------|--------|
-| 1 | [GitHub Copilot](https://en.wikipedia.org/wiki/GitHub_Copilot) | GitHub (Microsoft) | 2021 | IDE extension (VS Code, JetBrains…) | Inline code completion and chat powered by LLMs | Subscription (individual / business) | ⭐ |
-| 2 | [Cursor](https://en.wikipedia.org/wiki/Cursor_(code_editor)) | Anysphere | 2022 | Stand-alone IDE | AI-native IDE with conversational editing across the codebase | Freemium + subscription | ⭐⭐⭐⭐ |
-| 3 | [Aider](https://aider.chat/) | Open source (community) | 2023 | CLI | Git-aware conversational code editing from the terminal | Free (API usage paid separately) | ⭐|
-| 4 | [Zed](https://zed.dev/ai) | Zed Industries | 2024 | Stand-alone IDE | High-performance collaborative editor with built-in AI agents | Freemium + paid AI features | ⭐ |
-| 5 | [ChatGPT Canvas](https://openai.com/fr-FR/index/introducing-canvas) | OpenAI | 2024 | Web UI (chat interface) | Editable documents and live frontend rendering inside chat | Freemium + ChatGPT Plus / Team | ⭐ |
-| 6 | [Gemini Canvas](https://blog.google/products/gemini/gemini-collaboration-features) | Google | 2025 | Web UI (chat interface) | Collaborative canvas with live code and document rendering | Included in Gemini Advanced plans | ⭐ |
-| 7 | [Claude Code](https://claude.com/product/claude-code) | Anthropic | 2025 | CLI | Agent-based CLI for large-scale code refactoring (Claude only) | Paid (Anthropic API) | ⭐⭐⭐⭐ |
-| 8 | [Codex (CLI)](https://openai.com/fr-FR/codex/) | OpenAI | 2025 | CLI | Autonomous coding agents for repo-level tasks (OpenAI only) | Paid (usage-based) | ⭐⭐ |
-| 9 | [Antigravity](https://antigravity.google/) | Google | 2025 | Stand-alone IDE | AI-first IDE integrating agents, refactors, and repo-level reasoning | Free for a limited period. Likely subscription (enterprise-oriented) | ⭐⭐ |
+| 1 | [GitHub Copilot](https://en.wikipedia.org/wiki/GitHub_Copilot) | GitHub (Microsoft) | 2021 | IDE extension (VS Code, JetBrains…) | Inline code completion and chat powered by LLMs | Subscription (individual / business) |
+| 2 | [Cursor](https://en.wikipedia.org/wiki/Cursor_(code_editor)) | Anysphere | 2022 | Stand-alone IDE | AI-native IDE with conversational editing across the codebase | Freemium + subscription |
+| 3 | [Aider](https://aider.chat/) | Open source (community) | 2023 | CLI | Git-aware conversational code editing from the terminal | Free (API usage paid separately) |
+| 4 | [Zed](https://zed.dev/ai) | Zed Industries | 2024 | Stand-alone IDE | High-performance collaborative editor with built-in AI agents | Freemium + paid AI features |
+| 5 | [ChatGPT Canvas](https://openai.com/fr-FR/index/introducing-canvas) | OpenAI | 2024 | Web UI (chat interface) | Editable documents and live frontend rendering inside chat | Freemium + ChatGPT Plus / Team |
+| 6 | [Gemini Canvas](https://blog.google/products/gemini/gemini-collaboration-features) | Google | 2025 | Web UI (chat interface) | Collaborative canvas with live code and document rendering | Included in Gemini Advanced plans | 
+| 7 | [Claude Code](https://claude.com/product/claude-code) | Anthropic | 2025 | CLI | Agent-based CLI for large-scale code refactoring (Claude only) | Paid (Anthropic API) |
+| 8 | [Codex (CLI)](https://openai.com/fr-FR/codex/) | OpenAI | 2025 | CLI | Autonomous coding agents for repo-level tasks (OpenAI only) | Paid (usage-based) |
+| 9 | [Antigravity](https://antigravity.google/) | Google | 2025 | Stand-alone IDE | AI-first IDE integrating agents, refactors, and repo-level reasoning | Free for a limited period. Likely subscription (enterprise-oriented) |
+
+My own journey is illustrative of the tortuous, time consuming process of exploration and learning costs associated with the adoption of new tools:
+
+* 2009-2022: NetBeans only. Very happy with it.
+* 2023: NetBeans + copy pasting of code snippets in Claude and ChatGPT.
+* 2024: same as 2023. Weak attempts at exploring [Jeddict](https://plugins.netbeans.apache.org/catalogue/?id=103), a plugin for LLM assistance in NetBeans. I did not adopt it because copy pasting to Claude, Gemini and ChatGPT is faster, easier.
+* 2025
+   1. (Spring): still copy pasting code in Gemini, Claude and ChatGPT. Using the new canvas features of Gemini and ChatGPT to render / edit frontend files.
+   2. (Summer): bored by the copy pasting. I heard of Cursor of course but the 20$ monthly subscription makes me hesitate, as I already spend 20$ for OpenAI and 20$ for Gemini. SO I try  [Aider](https://aider.chat/), a free and open source solution to finally have in-place AI assisted editing of my files. Far from good enough, I stop it.
+   3. (Fall): tried [Zed](https://zed.dev/ai). Freee just like Aider, the results are disappointing: slow and imprecise.
+   4. (Fall): tried [Cursor](https://en.wikipedia.org/wiki/Cursor_(code_editor)). Fantastic results. I virtually stop coding in NetBeans and use it only for its debugger.
+   5. (Winter): will try Claude Code. The reason is that Cursor has troubles interacting with the services I launch: reading their error logs and integrating them back in the conversation to iterate further. I've read that Claude Code does it very well.
+
+As can be seen from the above, a big 
 
 ---
 # About Me
