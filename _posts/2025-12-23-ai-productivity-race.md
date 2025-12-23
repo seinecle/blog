@@ -21,7 +21,27 @@ With LLMs becoming more performant and cheaper every week we would be swimming i
 
 In practice though, tooling comes in the way.
 
-# Tooling: the boring yet essential layer
+# Tooling: not making the headlines, yet an essential layer
+
+I'll take the domain of coding / IT development as an illustration but the same logic is valid for any other domain I suppose (music, essay writing, visual creation, R&D, etc.) 
+
+Github Copilot was one of the earliest real world productivity enhancements made possible by the GPT family of models: released in [October 2021](https://en.wikipedia.org/wiki/GitHub_Copilot), a full year before the release of ChatGPT. It presented itself as a plugin or add-on to an "IDE", which is the type of software that is central to a developer's trade: an IDE is a software that provides all the features a coder needs to write code, debug it, collaborate in teams, and much more.
+
+So Github Copilot appended itself to an IDE, providing an enhanced experience to the developer without fundamentally changing their tooling and workflow.
+
+VS Code: 
+
+Cursor was founded in 2022
+
+Aider: 2023
+
+Zed: reframed Atom in 2024 rebranded as an open sourced text editor for AI assisted coding
+
+
+
+Spring 2025 : Claude Code, OpenAI Codex as CLI.
+
+Google's Antigravity: November 2025
 
 ---
 # About Me
