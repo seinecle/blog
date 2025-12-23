@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The AI productivity race for coding"
+title: "The AI productivity race in coding"
 permalink: /ai-productivity-race/
 published: false
 date_readable: December 23, 2025
@@ -10,7 +10,7 @@ categories: [ai,productivity,cursor,claude,llm,antigravity,netbeans,ide]
 
 # Since LLMs are more clever, cheaper by the day and available on tap...
 ... we would be swimming in virtually infinite intelligence to assist in any of our projects.
-Creativity and time, not our initial skillset, would become the limit to what we can accomplish.
+Creativity and time, not our coding skills, would become the limit to what we can accomplish.
 
 This is the popular meme reflecting the merry-go-round of weekly improvements of AI models:
 
@@ -22,19 +22,23 @@ Productivity for AI assisted tasks would be increasing steadily, driven by this 
 
 In practice though, tooling comes in the way.
 
-# Tooling: not making the headlines, yet an essential layer
+# Tooling: the essential layer
 
-A list of popular coding software
+Making use of generative AI in a coding task is actually not straightforward. Here are some essential milestones in the short history for this process.
 
-[Github Copilot](https://en.wikipedia.org/wiki/GitHub_Copilot): 2021
+Ratings are my subjective opinion in terms of usefulness as of December 2025
 
-[Cursor](https://en.wikipedia.org/wiki/Cursor_(code_editor): 2022
-
-[Aider](https://aider.chat/): 2023
-
-[Zed](https://zed.dev/ai): 2024
-
-[Claude Code](https://claude.com/product/claude-code), OpenAI's [Codex](https://openai.com/fr-FR/codex/), Google's [Antigravity](https://antigravity.google/): 2025
+| # | Name | Owning company | First public release | Interface type | Key features (1 line) | Cost model | Rating |
+|---|------|----------------|----------------------|----------------|-----------------------|------------|--------|
+| 1 | [GitHub Copilot](https://en.wikipedia.org/wiki/GitHub_Copilot) | GitHub (Microsoft) | 2021 | IDE extension (VS Code, JetBrains…) | Inline code completion and chat powered by LLMs | Subscription (individual / business) | ⭐ |
+| 2 | [Cursor](https://en.wikipedia.org/wiki/Cursor_(code_editor)) | Anysphere | 2022 | Stand-alone IDE | AI-native IDE with conversational editing across the codebase | Freemium + subscription | ⭐⭐⭐⭐ |
+| 3 | [Aider](https://aider.chat/) | Open source (community) | 2023 | CLI | Git-aware conversational code editing from the terminal | Free (API usage paid separately) | ⭐|
+| 4 | [Zed](https://zed.dev/ai) | Zed Industries | 2024 | Stand-alone IDE | High-performance collaborative editor with built-in AI agents | Freemium + paid AI features | ⭐ |
+| 5 | [ChatGPT Canvas](https://openai.com/fr-FR/index/introducing-canvas) | OpenAI | 2024 | Web UI (chat interface) | Editable documents and live frontend rendering inside chat | Freemium + ChatGPT Plus / Team | ⭐ |
+| 6 | [Gemini Canvas](https://blog.google/products/gemini/gemini-collaboration-features) | Google | 2025 | Web UI (chat interface) | Collaborative canvas with live code and document rendering | Included in Gemini Advanced plans | ⭐ |
+| 7 | [Claude Code](https://claude.com/product/claude-code) | Anthropic | 2025 | CLI | Agent-based CLI for large-scale code refactoring (Claude only) | Paid (Anthropic API) | ⭐⭐⭐⭐ |
+| 8 | [Codex (CLI)](https://openai.com/fr-FR/codex/) | OpenAI | 2025 | CLI | Autonomous coding agents for repo-level tasks (OpenAI only) | Paid (usage-based) | ⭐⭐ |
+| 9 | [Antigravity](https://antigravity.google/) | Google | 2025 | Stand-alone IDE | AI-first IDE integrating agents, refactors, and repo-level reasoning | Free for a limited period. Likely subscription (enterprise-oriented) | ⭐⭐ |
 
 ---
 # About Me
