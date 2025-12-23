@@ -22,13 +22,11 @@ Productivity for AI assisted tasks would be increasing steadily, driven by this 
 
 In practice though, tooling comes in the way.
 
-# Tooling: the essential layer
+# Tooling: an essential layer
 
-Making use of generative AI in a coding task is actually not straightforward. Here are some essential milestones in the short history for this process.
+Making use of generative AI in a coding task is actually not straightforward. Here are some essential milestones in the short history of tools that have been evolved to ease this process.
 
-Ratings are my subjective opinion in terms of usefulness as of December 2025
-
-| # | Name | Owning company | First public release | Interface type | Key features (1 line) | Cost model | Rating |
+| # | Name | Owning company | First public release | Interface type | Key features (1 line) | Cost model |
 |---|------|----------------|----------------------|----------------|-----------------------|------------|--------|
 | 1 | [GitHub Copilot](https://en.wikipedia.org/wiki/GitHub_Copilot) | GitHub (Microsoft) | 2021 | IDE extension (VS Code, JetBrains…) | Inline code completion and chat powered by LLMs | Subscription (individual / business) |
 | 2 | [Cursor](https://en.wikipedia.org/wiki/Cursor_(code_editor)) | Anysphere | 2022 | Stand-alone IDE | AI-native IDE with conversational editing across the codebase | Freemium + subscription |
@@ -40,9 +38,11 @@ Ratings are my subjective opinion in terms of usefulness as of December 2025
 | 8 | [Codex (CLI)](https://openai.com/fr-FR/codex/) | OpenAI | 2025 | CLI | Autonomous coding agents for repo-level tasks (OpenAI only) | Paid (usage-based) |
 | 9 | [Antigravity](https://antigravity.google/) | Google | 2025 | Stand-alone IDE | AI-first IDE integrating agents, refactors, and repo-level reasoning | Free for a limited period. Likely subscription (enterprise-oriented) |
 
+# Exploration and adoption of AI tools: a long process
+
 My own journey is illustrative of the tortuous, time consuming process of exploration and learning costs associated with the adoption of new tools:
 
-* 2009-2022: NetBeans only. Very happy with it.
+* 2010-2022: NetBeans only. Very happy with it.
 * 2023: NetBeans + copy pasting of code snippets in Claude and ChatGPT.
 * 2024: same as 2023. Weak attempts at exploring [Jeddict](https://plugins.netbeans.apache.org/catalogue/?id=103), a plugin for LLM assistance in NetBeans. I did not adopt it because copy pasting to Claude, Gemini and ChatGPT is faster, easier.
 * 2025
@@ -50,9 +50,18 @@ My own journey is illustrative of the tortuous, time consuming process of explor
    2. (Summer): bored by the copy pasting. I heard of Cursor of course but the 20$ monthly subscription makes me hesitate, as I already spend 20$ for OpenAI and 20$ for Gemini. SO I try  [Aider](https://aider.chat/), a free and open source solution to finally have in-place AI assisted editing of my files. Far from good enough, I stop it.
    3. (Fall): tried [Zed](https://zed.dev/ai). Freee just like Aider, the results are disappointing: slow and imprecise.
    4. (Fall): tried [Cursor](https://en.wikipedia.org/wiki/Cursor_(code_editor)). Fantastic results. I virtually stop coding in NetBeans and use it only for its debugger.
-   5. (Winter): will try Claude Code. The reason is that Cursor has troubles interacting with the services I launch: reading their error logs and integrating them back in the conversation to iterate further. I've read that Claude Code does it very well.
+   5. (Winter): will try Claude Code. The reason is that Cursor has troubles interacting with the services I launch: it can't properly read their error logs and integrate them back in the conversation to iterate further. I've read that Claude Code does it very well.
 
-As can be seen from the above, a big 
+As can be seen from the above, I have changed from a 13-year period of complete stability in tool use to a period of exploration and trial and error.
+This is me as a solo developer, I can't imagine what the process looks like at the scale of an organization. My guess is that:
+
+- in large organizations, teams will stick with their traditional IDE and just wait for it to evolve or for useful plugins for AI assistance to appear. Switching costs are just too high.
+- in medium / agile organizations, teams will switch to Cursor (many already have). Switching *again* to Claude Code is a bridge too far, and in any case Claude Code is too strong a vendor lock-in. They'll wait a couple of months for Cursor to catch up to Claude Code.
+- and companies that have a strong connivence with Anthropic, or the solo devs like myself who have very low switching costs, will try Claude Code.
+
+
+
+
 
 ---
 # About Me
