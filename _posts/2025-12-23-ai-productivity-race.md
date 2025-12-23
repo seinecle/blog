@@ -42,7 +42,7 @@ Making use of generative AI in a coding task is actually not straightforward. He
 
 My own journey is illustrative of the tortuous, time consuming process of exploration and learning costs associated with the adoption of new tools:
 
-* 2010-2022: NetBeans only. Very happy with it.
+* 2010-2022: [NetBeans](https://netbeans.apache.org/front/main/index.html) only. Very happy with it.
 * 2023: NetBeans + copy pasting of code snippets in Claude and ChatGPT.
 * 2024: same as 2023. Weak attempts at exploring [Jeddict](https://plugins.netbeans.apache.org/catalogue/?id=103), a plugin for LLM assistance in NetBeans. I did not adopt it because copy pasting to Claude, Gemini and ChatGPT is faster, easier.
 * 2025
