@@ -8,40 +8,33 @@ last_modified_at_readable: December 23, 2025
 categories: [ai,productivity,cursor,claude,llm,antigravity,netbeans,ide]
 ---
 
-# Since LLMs are clever, cheap and available on tap ...
-This is the current meme reflecting the merry-go-round of weekly improvements of AI models:
+# Since LLMs are more clever, cheaper by the day and available on tap...
+... we would be swimming in virtually infinite intelligence to assist in any of our projects.
+Creativity and time, not our initial skillset, would become the limit to what we can accomplish.
+
+This is the popular meme reflecting the merry-go-round of weekly improvements of AI models:
 
 <img width="640" height="614" alt="image" src="https://github.com/user-attachments/assets/b67de1e8-941e-4bd1-a8b4-8d0510fd7e0c" />
 
 (other versions of this meme do include Anthropic's Claude, if you wonder)
 
-Productivity for AI assisted tasks would be driven by this endless cycle, this race to the [bottom of costs](https://epoch.ai/data-insights/llm-inference-price-trends) and [hallucination rates](https://github.com/vectara/hallucination-leaderboard) and the [heights of task completion duration](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/).
-
-With LLMs becoming more performant and cheaper every week we would be swimming in virtually infinite intelligence to assist in any of our projects. Creativity and time, not our initial skillset, would become the limit to what we can accomplish.
+Productivity for AI assisted tasks would be increasing steadily, driven by this endless cycle. We benefit from a race to the bottom of [costs](https://epoch.ai/data-insights/llm-inference-price-trends) and [hallucination rates](https://github.com/vectara/hallucination-leaderboard), with constantly new heights for [task completion duration](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/) and [overall performance](https://www.linkedin.com/posts/emollick_no-signs-of-an-end-to-rapid-gains-in-ai-ability-activity-7407157959958351873-9Y1h).
 
 In practice though, tooling comes in the way.
 
 # Tooling: not making the headlines, yet an essential layer
 
-I'll take the domain of coding / IT development as an illustration but the same logic is valid for any other domain I suppose (music, essay writing, visual creation, R&D, etc.) 
+A list of popular coding software
 
-Github Copilot was one of the earliest real world productivity enhancements made possible by the GPT family of models: released in [October 2021](https://en.wikipedia.org/wiki/GitHub_Copilot), a full year before the release of ChatGPT. It presented itself as a plugin or add-on to an "IDE", which is the type of software that is central to a developer's trade: an IDE is a software that provides all the features a coder needs to write code, debug it, collaborate in teams, and much more.
+[Github Copilot](https://en.wikipedia.org/wiki/GitHub_Copilot): 2021
 
-So Github Copilot appended itself to an IDE, providing an enhanced experience to the developer without fundamentally changing their tooling and workflow.
+[Cursor](https://en.wikipedia.org/wiki/Cursor_(code_editor): 2022
 
-VS Code: 
+[Aider](https://aider.chat/): 2023
 
-Cursor was founded in 2022
+[Zed](https://zed.dev/ai): 2024
 
-Aider: 2023
-
-Zed: reframed Atom in 2024 rebranded as an open sourced text editor for AI assisted coding
-
-
-
-Spring 2025 : Claude Code, OpenAI Codex as CLI.
-
-Google's Antigravity: November 2025
+[Claude Code](https://claude.com/product/claude-code), OpenAI's [Codex](https://openai.com/fr-FR/codex/), Google's [Antigravity](https://antigravity.google/): 2025
 
 ---
 # About Me
