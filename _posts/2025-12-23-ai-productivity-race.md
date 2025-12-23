@@ -52,7 +52,7 @@ My own journey is illustrative of the tortuous, time consuming process of explor
    1. (Spring): still copy pasting code in Gemini, Claude and ChatGPT. Using the new canvas features of Gemini and ChatGPT to render / edit frontend files. This causes friction with my tech stack because I code with xhtml files, not html files. That obliges me to do some manual and AI assisted file edits between the two formats.  
    2. (Summer): bored by the copy pasting. I heard of Cursor of course but the 20$ monthly subscription makes me hesitate, as I already spend 20$ for OpenAI and 20$ for Gemini. So I try  [Aider](https://aider.chat/), a free and open source solution to finally have in-place AI assisted editing of my files. Far from good enough, I stop it.
    3. (Fall): tried [Zed](https://zed.dev/ai). Free just like Aider, the results are disappointing: slow and imprecise.
-   4. (Fall): fed up with the broken process of previewing my xhtml files as html files in the canvases. [I change my tech stack](https://nocodefunctions.com/blog/jsf-primefaces-vs-htmx-alpine-tailwind/) largely because of that
+   4. (Fall): fed up with the broken process of previewing my xhtml files as html files in the canvases. [I change my tech stack](https://nocodefunctions.com/blog/jsf-primefaces-vs-htmx-alpine-tailwind/) largely because of that.
    5. (Fall): tried [Cursor](https://en.wikipedia.org/wiki/Cursor_(code_editor)). Fantastic results. I virtually stop coding in NetBeans and use it only to launch services and test them in debugging mode.
    6. (Winter): Cursor has troubles interacting with the services I launch: it can't properly read their error logs and integrate them back in the conversation to iterate further. I've read that Claude Code does it very well. I'll try it asap. The only issue is that Claude Code is not Windows friendly yet, so I must switch to a Linux based development environment to adopt it (this swith to Linux is overdue of course but that's a different story). 
 
@@ -63,7 +63,9 @@ This is me as a solo developer, I can't imagine what the process looks like at t
 - in medium / agile organizations, teams will switch to Cursor (many already have). Switching *again* to Claude Code is a bridge too far, and in any case Claude Code is too strong a vendor lock-in. They'll wait a couple of months for Cursor to catch up to Claude Code.
 - and companies that have a strong connivence with Anthropic, or the solo devs like myself who have very low switching costs, will try Claude Code.
 
+So the profusion of AI assisting tools gives this picture:
 
+<img width="2112" height="2016" alt="Gemini_Generated_Image_4uuoi64uuoi64uuo" src="https://github.com/user-attachments/assets/eec559d6-27a6-4d8c-ba97-54b8882b9793" />
 
 
 
