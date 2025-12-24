@@ -14,9 +14,9 @@ categories: [ai,productivity,cursor,claude,llm,antigravity,netbeans,ide]
 ## The race for better models
 This is the popular meme reflecting the merry-go-round of weekly improvements of AI models:
 
-<img width="640" height="614" alt="image" src="https://github.com/user-attachments/assets/b67de1e8-941e-4bd1-a8b4-8d0510fd7e0c" />
+<img alt="The endless cycle of improvement of AI models" src="https://github.com/user-attachments/assets/b67de1e8-941e-4bd1-a8b4-8d0510fd7e0c" style="max-width: 100%; width: 460px; height: auto;"/>
 
-(other versions of this meme do include Anthropic's Claude, if you wonder)
+([source](https://www.reddit.com/r/singularity/comments/1ks0jrb/the_cycle_never_ends/). other versions of this meme do include Anthropic's Claude, if you wonder)
 
 Since LLMs are more clever, cheaper by the day and available on tap, we would be swimming in virtually infinite intelligence to assist in any of our projects.
 Productivity for AI assisted tasks would be increasing steadily, driven by this endless cycle. We benefit from a race to the bottom of [costs](https://epoch.ai/data-insights/llm-inference-price-trends) and [hallucination rates](https://github.com/vectara/hallucination-leaderboard), with constantly new heights for [task completion duration](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/) and [overall performance](https://www.linkedin.com/posts/emollick_no-signs-of-an-end-to-rapid-gains-in-ai-ability-activity-7407157959958351873-9Y1h).
@@ -39,7 +39,7 @@ Making use of generative AI in a coding task is actually not straightforward. He
 | 9 | [Antigravity](https://antigravity.google/) | Google | 2025 (November)| Stand-alone IDE | AI-native IDE with conversational editing across the codebase. Direct competitor to Cursor. | Free for a limited period. Likely subscription (enterprise-oriented) |
 
 Each of these tools come with various features, pricing models, degrees of vendor lock-in, and maturity. They all try to reduce the friction in AI assisted coding.
-From the coder's perspective, the paradox is that learning / adopting / rejecting / switching between these tools is a productivity drain. This can actually slow down a project before the productivity gains of using AI assisted coding actually gets visible. So the "infinite cycle of model improvement" shown above is paralleled by a 
+From the coder's perspective, the paradox is that learning / adopting / rejecting / switching between these tools is a productivity drain. This can actually slow down a project before the productivity gains of using AI assisted coding actually gets visible. So the "infinite cycle of model improvement" shown above is paralleled by an "infinite cycle of tool switching and relearning".
 
 ## Exploration and adoption of AI tools: a cost inducing process
 
@@ -52,11 +52,11 @@ My own journey using AI for coding is illustrative of the tortuous, time consumi
    1. (Spring): still copy pasting code in Gemini, Claude and ChatGPT. Using the new canvas features of Gemini and ChatGPT to render / edit frontend files. This causes friction with my tech stack because it makes use of xhtml files, not html files. That obliges me to do some manual and AI assisted file edits between the two formats.  
    2. (Summer): bored by the back and forth between .xhtml and .html formats, and by the copy pasting. I heard of Cursor of course but the 20$ monthly subscription makes me hesitate, as I already spend 20$ for OpenAI and 20$ for Gemini (plus my server costs etc). So I try  [Aider](https://aider.chat/), a free and open source solution to finally have in-place AI assisted editing of my files. Far from good enough, I don't adopt it.
    3. (Fall): I try [Zed](https://zed.dev/ai), a kind of free and open source Cursor. The results are disappointing: slow and imprecise.
-   4. (Fall): fed up with the broken process of previewing my xhtml files as html files in the canvases. [I change my tech stack](https://nocodefunctions.com/blog/jsf-primefaces-vs-htmx-alpine-tailwind/) largely because of that.
+   4. (Fall): fed up with the broken process of previewing my xhtml files as html files in the canvases. [I change my tech stack](https://nocodefunctions.com/blog/jsf-primefaces-vs-htmx-alpine-tailwind/) largely because of that. The copy pasting continues.
    5. (Fall): finally I have a try at [Cursor](https://en.wikipedia.org/wiki/Cursor_(code_editor)). Fantastic results. I virtually stop coding in NetBeans and use it only to launch services and test them in debugging mode. Big positive impact on my stack: I can remove a large framework (that I used for the last 10 years!) and I come back to a simpler code base.
-* 2026: I push Cursor to its limits by trying to make it interact with the services I launch: it can't properly read their error logs and integrate them back in the conversation to iterate further. I've read that [Claude Code](https://claude.com/product/claude-code) does it very well. The only issue is that Claude Code is not Windows friendly yet, so I must switch to a Linux based development environment to adopt it (this swith to Linux is overdue of course but that's a different story). 
+* 2026: will try [Claude Code](https://claude.com/product/claude-code). Late 2025 I pushed Cursor to its limits by trying to make it interact with the services I launch: it can't properly read their error logs and integrate them back in the conversation to iterate further. I've read that Claude Code does it very well. The only issue is that Claude Code is not Windows friendly yet, so I must switch to a Linux based development environment to adopt it (this swith to Linux is overdue of course but that's a different story). 
 
-As can be seen from the above, I have changed from a 13-year period of complete stability in tool use to a year made of exploration and trial and error. As a result, since January 2025 my web app is completely in terms of feature development (https://nocodefunctions.com). A new version of the app is [slowly emerging](https://next.nocodefunction.com), dervied from a completely refactored code base.
+As can be seen from the above, I have changed from a 13-year period of complete stability in tool use to a year exploration and trial and error. As a result, since January 2025 my web app is completely frozen in terms of feature development (https://nocodefunctions.com). A new version of the app is [slowly emerging](https://next.nocodefunction.com), derived from a completely refactored code base.
 
 This is me as a solo developer, I can't imagine what the process looks like at the scale of an organization which simply can't pause, stop or refactor things in such a way. My guess is that:
 
@@ -66,14 +66,26 @@ This is me as a solo developer, I can't imagine what the process looks like at t
 
 So the profusion of AI assisting tools gives this picture:
 
-<img width="2112" height="2016" alt="Gemini_Generated_Image_4uuoi64uuoi64uuo" src="https://github.com/user-attachments/assets/eec559d6-27a6-4d8c-ba97-54b8882b9793" />
+<img alt="The endless cycle of improvement of AI tools for coding" src="https://github.com/user-attachments/assets/eec559d6-27a6-4d8c-ba97-54b8882b9793" style="max-width: 100%; width: 460px; height: auto;"/>
+
+(source: generated by the author with Gemini)
 
 ## Not just coding: the broader lesson about reskilling
 The story above shows that:
 
-1. paradoxically, progress in AI can cause a temporary decrease in productivity because of the retooling it triggers. Switching costs of all sorts are incurred: production has to slow or stop to make time for the exploration of these new tools. Discovery process, learning of the UI, evaluation ...
-2. retooling has strong bandwagon effects. New tools are not just about a "better or lower performance": they open new opportunities and have specific limits which invite to rethink the code base that is worked on by the tool.
-3. it is not just about coding. The same is happening in visual creation, for example. Look at this list of [100+ tools for AI assisted visual creation](https://nocodefunctions.com/blog/list-of-ai-apps-for-visual-creation/) I maintain: it would be foolish to think that the potential these tools create is simply measurable in terms of "is the result better or worse, is productivity higher or lower?" Workflows, aesthetics, domains of expression, cost models, team work, skillsets, pace of production, ... in a word, the entire domain and industry is turned upside down.
+1. paradoxically, progress in AI can cause a temporary decrease in productivity because of the retooling it invites to do. Switching costs of all sorts are incurred and production has to slow or stop to make time for the exploration of these new tools. Discovery process, learning of the UI, evaluation...
+2. retooling has strong bandwagon effects. New tools are not just about a "better or lower performance": they open new opportunities and have specific limits which invite to rethink the material (in this case; code base) that is worked on by the tool.
+3. **it is not just a story about coding. The same is happening in visual creation, for example. Look at this list of [100+ tools for AI assisted visual creation](https://nocodefunctions.com/blog/list-of-ai-apps-for-visual-creation/) I maintain: it would be foolish to think that the potential of these tools is simply measurable in terms of "is the result better or worse, is productivity higher or lower?" Workflows, aesthetics, domains of expression, cost models, team work, skillsets, pace of production, ... in a word, the entire domain and industry is turned upside down.**
+
+## What to make of it?
+This is a pretty long blog post to arrive at this simple conclusion: the endless competition between AI models providers can give the false impression that as professionals, we can rest in our armchairs and just wait and benefit from this continuous stream of improvements. Actually, there is a parallel and as strong a movement in the reshaping of the "tooling space" which rocks our fundamental working habits and practices, that we often acquired since the early days of our professional practice - since school.
+
+From the perspective of a professional in higher education, this means that the often repeated:
+
+> "we don't train our students for a particular tool, we train them in fundamental skills"
+
+... has a renewed sense of relevance and urgency. Because in practice, we do tend to rely on the obvious workhorses of the trade. Just pick an IDE for coding, learn the Adobe Creative Cloud for visual creation, and choose Blender or Maya for 3D modelling - obviously, right? Well, it might be time for a rethink.
+
 
 --- 
 # About Me
