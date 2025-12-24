@@ -46,15 +46,15 @@ From the coder's perspective, the paradox is that learning / adopting / rejectin
 My own journey using AI for coding is illustrative of the tortuous, time consuming process of exploration and learning costs associated with the adoption of new tools:
 
 * 2010-2022: [NetBeans](https://netbeans.apache.org/front/main/index.html) only. Very happy with it.
-* 2023: NetBeans + copy pasting of code snippets in Claude and ChatGPT. Feels weird and broken to resort to Ctrl+C and Ctrl +V but this is still very useful.
+* 2023: NetBeans + copy pasting of code snippets in Barde (now Gemini), Claude and ChatGPT. Feels weird and broken to resort to Ctrl+C and Ctrl +V but this is still very useful.
 * 2024: same as 2023. Weak attempts at exploring [Jeddict](https://plugins.netbeans.apache.org/catalogue/?id=103), a plugin for LLM assistance integrated in NetBeans. I did not adopt it because copy pasting to Claude, Gemini or ChatGPT is more flexible.
 * 2025
    1. (Spring): still copy pasting code in Gemini, Claude and ChatGPT. Using the new canvas features of Gemini and ChatGPT to render / edit frontend files. This causes friction with my tech stack because it makes use of xhtml files, not html files. That obliges me to do some manual and AI assisted file edits between the two formats.  
    2. (Summer): bored by the back and forth between .xhtml and .html formats, and by the copy pasting. I heard of Cursor of course but the 20$ monthly subscription makes me hesitate, as I already spend 20$ for OpenAI and 20$ for Gemini (plus my server costs etc). So I try  [Aider](https://aider.chat/), a free and open source solution to finally have in-place AI assisted editing of my files. Far from good enough, I don't adopt it.
    3. (Fall): I try [Zed](https://zed.dev/ai), a kind of free and open source Cursor. The results are disappointing: slow and imprecise.
    4. (Fall): fed up with the broken process of previewing my xhtml files as html files in the canvases. [I change my tech stack](https://nocodefunctions.com/blog/jsf-primefaces-vs-htmx-alpine-tailwind/) largely because of that. The copy pasting continues.
-   5. (Fall): finally I have a try at [Cursor](https://en.wikipedia.org/wiki/Cursor_(code_editor)). Fantastic results. I virtually stop coding in NetBeans and use it only to launch services and test them in debugging mode. Big positive impact on my stack: I can remove a large framework (that I used for the last 10 years!) and I come back to a simpler code base.
-* 2026: will try [Claude Code](https://claude.com/product/claude-code). Late 2025 I pushed Cursor to its limits by trying to make it interact with the services I launch: it can't properly read their error logs and integrate them back in the conversation to iterate further. I've read that Claude Code does it very well. The only issue is that Claude Code is not Windows friendly yet, so I must switch to a Linux based development environment to adopt it (this swith to Linux is overdue of course but that's a different story). 
+   5. (Fall): I finally have a try at [Cursor](https://en.wikipedia.org/wiki/Cursor_(code_editor)). Fantastic results. I virtually stop coding in NetBeans and use it only to launch services and test them in debugging mode. Big positive impact on my stack: I can remove a large framework (that I used for the last 10 years!) and I come back to a simpler code base.
+* 2026: will try [Claude Code](https://claude.com/product/claude-code). Late 2025 I pushed Cursor to its limits by trying to make it interact with the services I launch: it can't properly read their error logs and integrate them back in the conversation to iterate further. I've read that Claude Code does it very well. [Claude's notiuon of 'skills' is also very promising](https://quesma.com/blog/claude-skills-not-antigravity/). The only issue is that Claude Code is not Windows friendly yet, so I must switch to a Linux based development environment to adopt it (<i><small>this switch to Linux is overdue of course but that's a different story</small></i>). 
 
 As can be seen from the above, I have changed from a 13-year period of complete stability in tool use to a year exploration and trial and error. As a result, since January 2025 my web app is completely frozen in terms of feature development (https://nocodefunctions.com). A new version of the app is [slowly emerging](https://next.nocodefunction.com), derived from a completely refactored code base.
 
@@ -74,7 +74,7 @@ So the profusion of AI assisting tools gives this picture:
 The story above shows that:
 
 1. paradoxically, progress in AI can cause a temporary decrease in productivity because of the retooling it invites to do. Switching costs of all sorts are incurred and production has to slow or stop to make time for the exploration of these new tools. Discovery process, learning of the UI, evaluation...
-2. retooling has strong bandwagon effects. New tools are not just about a "better or lower performance": they open new opportunities and have specific limits which invite to rethink the material (in this case; code base) that is worked on by the tool.
+2. retooling has strong bandwagon effects. New tools are not just about a "better or lower performance": they open new opportunities and have specific limits which invite to rethink the material that is worked on by the tool, and even aspects of the general environment where we are operating.
 3. **it is not just a story about coding. The same is happening in visual creation, for example. Look at this list of [100+ tools for AI assisted visual creation](https://nocodefunctions.com/blog/list-of-ai-apps-for-visual-creation/) I maintain: it would be foolish to think that the potential of these tools is simply measurable in terms of "is the result better or worse, is productivity higher or lower?" Workflows, aesthetics, domains of expression, cost models, team work, skillsets, pace of production, ... in a word, the entire domain and industry is turned upside down.**
 
 ## What to make of it?
@@ -84,7 +84,7 @@ From the perspective of a professional in higher education, this means that the 
 
 > "we don't train our students for a particular tool, we train them in fundamental skills"
 
-... has a renewed sense of relevance and urgency. Because in practice, we do tend to rely on the obvious workhorses of the trade. Just pick an IDE for coding, learn the Adobe Creative Cloud for visual creation, and choose Blender or Maya for 3D modelling - obviously, right? Well, it might be time for a rethink.
+... has a renewed sense of relevance and urgency. Because in practice, we do tend to rely on the obvious workhorses of the trade. Just pick an IDE for coding, learn the Adobe Creative Cloud for visual creation, and choose Blender or Maya for 3D modelling - obviously, right? Well, it might be time for a rethink and train students in the craft of resetting their fundamental tooling suite on a regular basis.
 
 
 --- 
