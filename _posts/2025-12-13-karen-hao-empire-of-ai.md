@@ -8,8 +8,6 @@ last_modified_at_readable: December 13, 2025
 categories: [book, review]
 ---
 
-# *Empire of AI* by Karen Hao
-
 Published in May 2025, [*Empire of AI*](https://www.penguin.co.uk/books/460331/empire-of-ai-by-hao-karen/9780241678923) is a masterful piece of investigative reporting by [Karen Hao](https://karendhao.com/), a journalist who has been following the AI tech scene in the US for the last 15 years or so, with a special focus on OpenAI. The subtitle in my edition gives away the thesis defended in the book: *Inside the reckless race for total domination*.
 
 <img alt="Book cover of Karen Hao's Empire of AI" src="https://github.com/user-attachments/assets/94a8a9e3-ef5b-4d94-85ed-6ee0c3171e0b" style="max-width: 100%; width: 460px; height: auto;"/>
