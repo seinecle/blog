@@ -1,14 +1,13 @@
 ---
 layout: post
-title: ""
-permalink: /ai-coding-productivity-race/
+title: "Productivity and AI: it's the tool, not the model"
+permalink: /ai-coding-tool-productivity-paradox/
 published: true
 date_readable: December 23, 2025
 last_modified_at_readable: December 23, 2025
-categories: [ai,productivity,cursor,claude,llm,antigravity,netbeans,ide]
+categories: [ai,productivity,cursor,claude,llm,tools, tooling,antigravity,netbeans,ide]
 ---
 
-# Productivity and AI: it's the tool, not the model
 Every week, a new "SOTA" (State of the Art) model is announced, promising higher reasoning capabilities and (often) lower costs. We are told that we are entering an era of infinite, frictionless productivity. But the reality is messier. While the models are getting smarter, the gap between "intelligence on tap" and "code in production" is managed by our tools and right now, that interface is becoming a major source of friction.
 
 As we will see, this isn’t just a developer’s dilemma; it is a preview of the "retooling tax" that every professional domain, from visual arts to consulting or communication, must soon learn to navigate.
