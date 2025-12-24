@@ -21,7 +21,9 @@ This is the popular meme reflecting the merry-go-round of weekly improvements of
 
 *([source](https://www.reddit.com/r/singularity/comments/1ks0jrb/the_cycle_never_ends/). other versions of this meme do include Anthropic's Claude, if you wonder)*
 
-LLMs become more capable, cheaper, and available on tap, to the point that the new best performing model can be indistinguishable from the previous one, simply because models are now so smart that the tasks we perform are not complex enough to clearly differentiate between "a great model" and an "even greater model": both perform equally well on the tests. This is experience of [Simon Willison](https://simonwillison.net/2025/Nov/24/claude-opus/) when testing a preview of Claude Opus 4.5 on November 24, 2025:
+LLMs become more capable, cheaper, and available on tap, to the point that the new best performing model can be indistinguishable from the previous one, simply because models are now so smart that the tasks we perform are not complex enough to clearly differentiate between "a great model" and an "even greater model": both perform equally well on the tests.
+
+This is the experience of [Simon Willison](https://simonwillison.net/2025/Nov/24/claude-opus/) when testing a preview of Claude Opus 4.5 on November 24, 2025:
 
 > It’s clearly an excellent new model, but I did run into a catch. My preview expired at 8pm on Sunday when I still had a few remaining issues in the milestone for the alpha [of his coding project]. I switched back to Claude Sonnet 4.5 and... kept on working at the same pace I’d been achieving with the new model. With hindsight, production coding like this is a less effective way of evaluating the strengths of a new model than I had expected. I’m not saying the new model isn’t an improvement on Sonnet 4.5—but I can’t say with confidence that the challenges I posed it were able to identify a meaningful difference in capabilities between the two.
 
