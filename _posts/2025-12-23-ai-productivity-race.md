@@ -72,9 +72,10 @@ So the profusion of AI assisting tools gives this picture:
 The story above shows that:
 
 1. paradoxically, progress in AI can cause a temporary decrease in productivity because of the retooling it triggers. Switching costs of all sorts are incurred: production has to slow or stop to make time for the exploration of these new tools. Discovery process, learning of the UI, evaluation ...
-2.  
+2. retooling has strong bandwagon effects. New tools are not just about a "better or lower performance": they open new opportunities and have specific limits which invite to rethink the code base that is worked on by the tool.
+3. it is not just about coding. The same is happening in visual creation, for example. Look at this list of [100+ tools for AI assisted visual creation](https://nocodefunctions.com/blog/list-of-ai-apps-for-visual-creation/) I maintain: it would be foolish to think that the potential these tools create is simply measurable in terms of "is the result better or worse, is productivity higher or lower?" Workflows, aesthetics, domains of expression, cost models, team work, skillsets, pace of production, ... in a word, the entire domain and industry is turned upside down.
 
----
+--- 
 # About Me
 
 I’m an academic and independent web app developer. I created [nocode functions](https://nocodefunctions.com), a free, point-and-click tool for exploring texts and networks. It’s [fully open source](https://github.com/seinecle/nocodefunctions). Try it out and let me know what you think. I’d love your feedback!
