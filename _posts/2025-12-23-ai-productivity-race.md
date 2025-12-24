@@ -11,6 +11,8 @@ categories: [ai,productivity,cursor,claude,llm,antigravity,netbeans,ide]
 # Productivity and AI: it's the tool, not the model
 Every week, a new "SOTA" (State of the Art) model is announced, promising higher reasoning capabilities and (often) lower costs. We are told that we are entering an era of infinite, frictionless productivity. But the reality is messier. While the models are getting smarter, the gap between "intelligence on tap" and "code in production" is managed by our tools and right now, that interface is becoming a major source of friction.
 
+As we will see, this isn’t just a developer’s dilemma; it is a preview of the "retooling tax" that every professional domain, from visual arts to consulting or communication, must soon learn to navigate.
+
 ## The race for better models
 This is the popular meme reflecting the merry-go-round of weekly improvements of AI models:
 
@@ -18,10 +20,15 @@ This is the popular meme reflecting the merry-go-round of weekly improvements of
 
 ([source](https://www.reddit.com/r/singularity/comments/1ks0jrb/the_cycle_never_ends/). other versions of this meme do include Anthropic's Claude, if you wonder)
 
-As LLMs become more capable, cheaper, and available on tap, we theoretically should be swimming in infinite intelligence. However, the gains from a race to the bottom in [costs](https://epoch.ai/data-insights/llm-inference-price-trends) and [hallucination rates](https://github.com/vectara/hallucination-leaderboard), with constantly new heights for [task completion duration](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/) and [overall performance](https://www.linkedin.com/posts/emollick_no-signs-of-an-end-to-rapid-gains-in-ai-ability-activity-7407157959958351873-9Y1h), are often lost in translation.
+LLMs become more capable, cheaper, and available on tap, to the point that we sometimes reach a plateau: the new best performing model can be indistinguishable from the previous one, simply because models are so smart now that the tasks we perform are not complex enough to clearly differentiate between "a great model" and an "even greater model": both perform equally well on the tests. This is experience of [Simon Willison](https://simonwillison.net/2025/Nov/24/claude-opus/) when testing a preview of Claude Opus 4.5 on November 24, 2025:
+
+> It’s clearly an excellent new model, but I did run into a catch. My preview expired at 8pm on Sunday when I still had a few remaining issues in the milestone for the alpha [of his coding project]. I switched back to Claude Sonnet 4.5 and... kept on working at the same pace I’d been achieving with the new model. With hindsight, production coding like this is a less effective way of evaluating the strengths of a new model than I had expected. I’m not saying the new model isn’t an improvement on Sonnet 4.5—but I can’t say with confidence that the challenges I posed it were able to identify a meaningful difference in capabilities between the two.
+
+This experience reflects that we are virtually swimming in infinite intelligence. However, the gains from a race to the bottom in [costs](https://epoch.ai/data-insights/llm-inference-price-trends) and [hallucination rates](https://github.com/vectara/hallucination-leaderboard), with constantly new heights for [task completion duration](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/) and [overall performance](https://www.linkedin.com/posts/emollick_no-signs-of-an-end-to-rapid-gains-in-ai-ability-activity-7407157959958351873-9Y1h), are often lost in translation. Why?
 
 ## The tooling paradox
-Making use of generative AI in a coding task is actually not straightforward. Here are some essential milestones in the short history of tools that have been evolved to ease this process.
+Making use of generative AI in a coding task is actually not as straightforward as just asking "solve this problem / respond to this difficult question" and then just collecting the answer.
+In the domain of programming / development for instance, here are some essential milestones in the short history of tools that have been evolved to ease this process.
 
 | # | Name | Owning company | First public release | Interface type | Key features (1 line) | Cost model |
 |---|------|----------------|----------------------|----------------|-----------------------|------------|
