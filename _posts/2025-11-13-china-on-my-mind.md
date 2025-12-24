@@ -8,8 +8,6 @@ last_modified_at_readable: November 13, 2025
 categories: [china, eu]
 ---
 
-# Newsworthy in early November 2025, regarding China from a European perspective
-
 I feel a bit sorry for the gloomy tone of this post (at least from a European vantage point), but the developments below are worth pointing and discussing.
 
 ↗️ in increasing order of significance, with a tie for the last two:
