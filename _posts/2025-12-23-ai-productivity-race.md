@@ -2,7 +2,7 @@
 layout: post
 title: ""
 permalink: /ai-coding-productivity-race/
-published: false
+published: true
 date_readable: December 23, 2025
 last_modified_at_readable: December 23, 2025
 categories: [ai,productivity,cursor,claude,llm,antigravity,netbeans,ide]
@@ -84,8 +84,7 @@ From the perspective of a professional in higher education, this means that the 
 
 > "we don't train our students for a particular tool, we train them in fundamental skills"
 
-... has a renewed sense of relevance and urgency. Because in practice, we do tend to rely on the obvious workhorses of the trade. Just pick an IDE for coding, learn the Adobe Creative Cloud for visual creation, and choose Blender or Maya for 3D modelling - obviously, right? Well, it might be time for a rethink and train students in the craft of resetting their fundamental tooling suite on a regular basis.
-
+... has a renewed sense of relevance and urgency. Because in practice, we do tend to rely on the obvious workhorses of the trade. Just pick an IDE for coding, learn the Adobe Creative Cloud for visual creation, and choose Blender or Maya for 3D modelling - obviously, right? Well, it might be time for a rethink and train students in the art and craft of resetting their fundamental tooling suite on a regular basis.
 
 --- 
 # About Me
