@@ -29,7 +29,7 @@ From the user’s perspective, however, the experience still falls short of the 
 
 ## The tooling paradox
 Making use of generative AI in a coding task is actually not as straightforward as just asking "solve this problem / respond to this difficult question" and then just collecting the answer.
-In the domain of programming / development for instance, here are some essential milestones in the short history of tools that have been evolved to ease this process.
+Here are some essential milestones in the short history of tools that have been evolved to ease this process.
 
 | # | Name | Owning company | First public release | Interface type | Key features (1 line) | Cost model |
 |---|------|----------------|----------------------|----------------|-----------------------|------------|
