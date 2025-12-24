@@ -98,7 +98,7 @@ From the perspective of a professional in higher education, this means that the 
 
 ... has a renewed sense of relevance and urgency. Because in practice, we do tend to rely on the obvious workhorses of the trade. Just pick an IDE for coding, learn the Adobe Creative Cloud for visual creation, and choose Blender or Maya for 3D modelling - obviously, right? Well, it might be time for a rethink and train students in the art and craft of resetting their fundamental tooling suite on a regular basis.
 
-In a world where tools now have a half-life measured in months, not decades, learning to retool quickly is no longer a support skill — it is the core of professional competence.
+In a world where tools now have a half-life measured in years, not decades, learning to retool quickly is no longer a support skill — it is a core professional competence.
 
 --- 
 # About Me
