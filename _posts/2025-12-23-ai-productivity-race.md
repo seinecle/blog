@@ -92,7 +92,7 @@ The story above shows that:
 ## What to make of it?
 This is a pretty long blog post to arrive at this simple conclusion: the endless competition between AI models providers can give the false impression that as professionals, we can rest in our armchairs and just wait and benefit from this continuous stream of improvements. This is a very false sense of comfort.
 
-We are moving from an era of **tool mastery** (learning one category of desktop app for a decade) to an era of **tool fluidity**. The competitive advantage is no longer just knowing how to master a set of professional skills, but how quickly one can integrate these skills in new AI-native workflows without breaking momentum.
+We are moving from an era of **tool mastery** (learning one type of instrument: an investment to be repaid over decades) to an era of **tool fluidity** (accepting to unlearn and reinvest in fundamentally new instruments, regularly). The competitive advantage is no longer just knowing how to master a set of professional skills, but how quickly one can integrate these skills in new AI-native workflows without breaking momentum.
 
 From the perspective of a professional in higher education, this means that the often repeated:
 
