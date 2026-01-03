@@ -1,0 +1,36 @@
+/* Newsletter / Buttondown */
+
+.newsletter-subscribe {
+  margin: 3rem 0 2.5rem;
+  padding: 1.5rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.embeddable-buttondown-form {
+  max-width: 480px;
+}
+
+.embeddable-buttondown-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.embeddable-buttondown-form input[type="email"] {
+  width: 100%;
+  padding: 0.6rem 0.7rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.embeddable-buttondown-form input[type="submit"] {
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.embeddable-buttondown-form p {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+}
