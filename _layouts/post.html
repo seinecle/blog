@@ -22,20 +22,16 @@ layout: default
   </div>
 
   <!-- Newsletter subscription -->
+  <p>Get very occasional emails about new stuff on here, if you like.</p>
   <section class="newsletter-subscribe">
     <form
       action="https://buttondown.com/api/emails/embed-subscribe/seinecle"
       method="post"
-      class="embeddable-buttondown-form"
-    >
-      <label for="bd-email">Enter your email</label>
-      <input type="email" name="email" id="bd-email" required />
-      <input type="submit" value="Subscribe" />
-      <p class="newsletter-powered">
-        <a href="https://buttondown.com/refer/seinecle" target="_blank" rel="noopener">
-          Powered by Buttondown.
-        </a>
-      </p>
+      class="newsletter_form">
+      <label for="email">Email</label>
+      <input type="email" name="email" placeholder="you@example.com">
+      <input type="hidden" name="embed" value="1">
+      <input type="submit" value="Subscribe">
     </form>
   </section>
 
