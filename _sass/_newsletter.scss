@@ -1,36 +1,53 @@
-/* Newsletter / Buttondown */
+/* Newsletter */
 
 .newsletter-subscribe {
-  margin: 3rem 0 2.5rem;
-  padding: 1.5rem;
-  border-top: 1px solid #e0e0e0;
+  margin: 2.5rem 0 2rem;
 }
 
-.embeddable-buttondown-form {
+.newsletter_form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
   max-width: 480px;
 }
 
-.embeddable-buttondown-form label {
-  display: block;
-  margin-bottom: 0.5rem;
+.newsletter_form label {
+  font-size: 0.9rem;
   font-weight: 500;
 }
 
-.embeddable-buttondown-form input[type="email"] {
-  width: 100%;
+.newsletter_form input[type="email"] {
   padding: 0.6rem 0.7rem;
-  margin-bottom: 0.75rem;
-  border: 1px solid #ccc;
   font-size: 1rem;
+  border: 1px solid #ccc;
+  width: 100%;
 }
 
-.embeddable-buttondown-form input[type="submit"] {
-  padding: 0.5rem 1rem;
-  font-size: 0.95rem;
+.newsletter_form input[type="submit"] {
+  align-self: flex-start;
+  padding: 0.45rem 0.9rem;
+  font-size: 0.9rem;
   cursor: pointer;
 }
 
-.embeddable-buttondown-form p {
-  margin-top: 0.75rem;
-  font-size: 0.8rem;
+/* Responsive enhancement for larger screens */
+@media (min-width: 640px) {
+  .newsletter_form {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .newsletter_form label {
+    margin-right: 0.5rem;
+    white-space: nowrap;
+  }
+
+  .newsletter_form input[type="email"] {
+    flex: 1;
+    margin-right: 0.5rem;
+  }
+
+  .newsletter_form input[type="submit"] {
+    margin-top: 0;
+  }
 }
