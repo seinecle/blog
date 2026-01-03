@@ -21,6 +21,24 @@ layout: default
     {{ content }}
   </div>
 
+  <!-- Newsletter subscription -->
+  <section class="newsletter-subscribe">
+    <form
+      action="https://buttondown.com/api/emails/embed-subscribe/seinecle"
+      method="post"
+      class="embeddable-buttondown-form"
+    >
+      <label for="bd-email">Enter your email</label>
+      <input type="email" name="email" id="bd-email" required />
+      <input type="submit" value="Subscribe" />
+      <p class="newsletter-powered">
+        <a href="https://buttondown.com/refer/seinecle" target="_blank" rel="noopener">
+          Powered by Buttondown.
+        </a>
+      </p>
+    </form>
+  </section>
+
   <!-- Share Section -->
   <section class="share-post">
     <i class="fa fa-share-alt-square fa-fw" aria-hidden="true"></i>
