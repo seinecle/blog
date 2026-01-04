@@ -33,7 +33,7 @@ This happened through a series of logical steps (the first ones are retraced in 
 5. But wait: why keep Jakarta MVC at all? If it's mainly for session management, does that justify an entire framework? I could learn via ChatGPT how to manage sessions directly in Javalin (CSRF and all).
 6. I ended up removing Jakarta EE entirely and using Javalin end-to-end for the backend.
 
-# November 2025: the tipping point
+# November 2025: Cursor, the tipping point
 At this stage, I was no longer relying on JSF or Jakarta EE: a break from 15 years of habits! I now depended heavily on copy-pasting code into ChatGPT or Gemini for advice, and for full rewrites from Jakarta EE logic to Javalin.
 
 It became so impractical. I was zipping entire source folders just to give enough context to a conversational interface. **It worked**, but it was silly.
@@ -59,7 +59,7 @@ Yes, vibe coding. Did I miss manual coding? Not at all. I enjoy focusing on arch
 
 But after a few weeks, another friction appeared: why manually copy error traces, or stop/restart services, if Cursor already has access to my machine?
 
-# December 2025: the second tipping point
+# December 2025: Claude Code
 Yes, two tipping points in two months.
 
 Just like for Cursor, I had seen very positive feedback about Claude Code. So I posted a [question on Hacker News](https://news.ycombinator.com/item?id=46185230), asking whether Claude Code was meaningfully different or better than Cursor. The replies were few but very positive, even with this direct comparison with Cursor.
