@@ -32,21 +32,19 @@ It happened in these logical steps:
 5. But wait: is it *that hard* to manage user sessions, to the point of necessitating an entire framework mainly for that? I could try to learn with ChatGPT how to handle user sessions with Javalin. CSRF and all that.
 6. I ended up removing JakartaEE entirely and using Javalin all the way for my backend.
 
-
 # November 2025: the tipping point
-
 At this point my coding practice relied extensively on copy pasting code to ChatGPT or Gemini for advice on how to do this or that, and for entire rewrites from a JakartaEE logic to a Javalin one.
 It become so impractical and silly. I had to zip entire folders of relevant source code to attach it as a context for the conversational interface to reason correctly about my problem. It worked! But the alternative was obvious: what if an AI tool could edit my source files directly on my laptop, exploring the context as needed. Instead of me copy pasting my code in a browser - so silly.
 
-Of course I had heard of Cursor but for a side project with zero revenue I was alreay at:
+Of course I had heard of Cursor. I had tried [aider](https://aider.chat/) and [Zed](https://zed.dev/ai), which were disappointing. And for a side project with zero revenue I was already at:
 
 - 20$ / month for Gemini
 - 20$ / month for ChatGPT
 - 50$ / month for server costs for nocodefunctions (yes that's a big server)
 
-But I caved in and coughed up 20$ extra / month for a Cursor subscription.
+But eventually I caved in and coughed up 20$ extra / month for a Cursor subscription.
 
-And... woooosh. 
+And... woooosh. Cursor is in a different category. You ask, it codes. Correctly, and across the code base. It just works. I was so glad that my recent rearchitecturing contributed to that: htmx + Javalin is so simple that it helps the models reason effectively on them. 
 
    1. (Spring): still copy pasting code in Gemini, Claude and ChatGPT. Using the new canvas features of Gemini and ChatGPT to render / edit frontend files. This causes friction with my tech stack because it makes use of xhtml files, not html files. That obliges me to do some manual and AI assisted file edits between the two formats.  
    2. (Summer): bored by the back and forth between .xhtml and .html formats, and by the copy pasting. I heard of Cursor of course but the 20\$ monthly subscription makes me hesitate, as I already spend 20\$ for OpenAI and 20$ for Gemini (plus my server costs etc). So I try  , a free and open source solution to finally have in-place AI assisted editing of my files. Far from good enough, I don't adopt it.
