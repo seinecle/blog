@@ -28,16 +28,16 @@ This happened through a series of logical steps (the first ones are retraced in 
 1. I wanted to improve the UI of my app, but PrimeFaces makes CSS customization painful. What if I removed PrimeFaces and styled JSF components directly? ChatGPT would help a lot.
 2. But JSF components live in `.xhtml` files, which can't be previewed in ChatGPT's canvas. The constant back-and-forth-copy-pasting between NetBeans and ChatGPT, adapting XHTML to HTML and vice versa was a drag (and I did spend time doing it).
 3. Do I really need JSF components at all, or [could I just use native HTML with htmx to interact with Jakarta EE](https://nocodefunctions.com/blog/jsf-primefaces-vs-htmx-alpine-tailwind/)? Probably yes. Let's go htmx + Alpine on the frontend.
-4. But if I don't use JSF, do I still need Jakarta EE? Maybe [Jakarta MVC](https://jakarta.ee/specifications/mvc/) would suffice? Let's try the slimmer option.
+4. **But if I don't use JSF, do I still need Jakarta EE?** Maybe [Jakarta MVC](https://jakarta.ee/specifications/mvc/) would suffice? Let's try the slimmer option.
 5. But wait: why keep Jakarta MVC at all? If it's mainly for session management, does that justify an entire framework? I could learn via ChatGPT how to manage sessions directly in Javalin (CSRF and all).
 6. I ended up removing Jakarta EE entirely and using Javalin end-to-end for the backend.
 
 # November 2025: Cursor, the tipping point
 At this stage, I was no longer relying on JSF or Jakarta EE: a break from 15 years of habits! I now depended heavily on copy-pasting code into ChatGPT or Gemini for advice, and for full rewrites from Jakarta EE logic to Javalin.
 
-It became so impractical. I was zipping entire source folders just to give enough context to a conversational interface. **It worked**, but it was silly.
+It became so impractical. I was zipping entire source folders just to give enough context to a conversational interface. **It worked, but it was silly.**
 
-The obvious alternative: what if an AI could edit my source files directly on my machine, exploring the context as needed, without browser copy-paste gymnastics?
+The obvious alternative: what if an AI tool could edit my source files directly on my machine, exploring the context as needed, without browser copy-paste gymnastics?
 
 I had heard of Cursor, but the $20/month made me hesitate. This is a side project with zero revenue, and I was already paying:
 - $20/month for Gemini
@@ -46,7 +46,7 @@ I had heard of Cursor, but the $20/month made me hesitate. This is a side projec
 
 I tried free alternatives: [aider](https://aider.chat/) and [Zed](https://zed.dev/ai), and found them disappointing. Eventually, I caved and added another $20/month for Cursor.
 
-And… whoosh. Cursor is in a different category. You ask, it codes correctly, across the codebase. It just works. My recent re-architecture helped: htmx + Javalin is simple enough that models reason effectively over it.
+**And… whoosh. Cursor is in a different category.** You ask, it codes correctly, across the codebase. It just works. My recent re-architecture helped: htmx + Javalin is simple enough that models reason effectively over it.
 
 My workflow changed radically in a few weeks:
 - giving instructions to Cursor
@@ -66,14 +66,14 @@ Just like for Cursor, I had seen very positive feedback about Claude Code. So I 
 So during the Christmas break, I spent another $20/month on Claude Code 😭. After the change I had lived with Cursor and that I thought were huge already, it forced me to change 15 years of habits:
 
 - **From Windows to Linux for development.** I couldn't get Claude Code working on Windows (my fault probably, and I can't install WSL on my machine), so I installed it on my Debian server and effectively moved my codebase there. Psychologically difficult: I'm not an IT-trained developer, and "Windows for dev, Linux via PuTTY for prod" already felt geeky enough*. Going full Linux felt risky. But it worked out.
-- **NetBeans became irrelevant.** I now use [Cursor over SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) to connect to Claude on the server. Cursor can show and edit files, but I rarely do manual edits.
+- **Not using NetBeans or an IDE to code** I now [connect over SSH with Cursor](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) to connect to Claude on the server. Cursor can show and edit files, but I rarely do manual edits.
 
-Claude Code delivers: with proper guidelines it can stop, rebuild, and restart my microservices; read logs and use them as context; navigate directories; grep, sed, push: whatever is needed. Contrary to Cursor it takes full advantage of having access to the file system and the command line. Friction is almost gone. I give instructions; they get executed. It writes tests (so does Cursor to be fair), which was a sore point in my practice.
+Claude Code delivers: with proper guidelines it can stop, rebuild, and restart my microservices; read logs and use them as context; navigate directories; grep, sed, push: whatever is needed. Contrary to Cursor it takes full advantage of having access to the file system and the command line. Friction is almost gone. I give instructions and they get executed. It writes tests (so does Cursor to be fair), which was a sore point in my practice.
 
 # January 2026: the third tipping point
 (Sorry for the exaggeration but it really felt like it.)
 
-A few days ago, I remembered an Android SSH app I had installed years ago and never used. Could I "vibe code" on the go?
+A few days ago, I remembered an Android SSH app I had installed years ago and never used. **Could I "vibe code" on the go?**
 
 Yes. Easily.
 
@@ -87,7 +87,7 @@ Spending $80/month on AI-assisted coding is not sustainable for me:
 # Next steps
 As I wrote earlier, switching tooling (even shiny AI tooling) is initially a [productivity drain](https://nocodefunctions.com/blog/ai-coding-tool-productivity-paradox/). Since this summer, I've been in near-constant tooling transition, eating up the few weekly hours I have for this project.
 
-So I hope Google's *antigravity* will flop and won't justify another switch away from Claude Code :-) That way, I can finally focus on better UI, better UX, and new features for nocodefunctions.com.
+So I hope [Google's antigravity](https://antigravity.google/) will flop and won't justify another switch away from Claude Code :-) That way, I can finally focus on better UI, better UX, and new features for nocodefunctions.com.
 
 \* Thanks to [Miguel Biraud](https://bsky.app/profile/mgilbir.bsky.social) for introducing me to PuTTY and Linux back then. Your help was transformative.
 
