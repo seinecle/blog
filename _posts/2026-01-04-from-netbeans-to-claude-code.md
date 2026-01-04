@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "From NetBeans to Claude Cursor"
-permalink: /from-netbeans-to-claude-cursor/
+title: "From NetBeans to Claude Code"
+permalink: /from-netbeans-to-claude-code/
 published: true
 date_readable: January 05, 2026
 last_modified_at_readable: January 05, 2026
