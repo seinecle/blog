@@ -2,9 +2,9 @@
 layout: post
 title: "From NetBeans to Claude Cursor"
 permalink: /from-netbeans-to-claude-cursor/
-published: false
-date_readable: January 04, 2026
-last_modified_at_readable: January 04, 2026
+published: true
+date_readable: January 05, 2026
+last_modified_at_readable: January 05, 2026
 categories: [ai,productivity,coding,development,netbeans,vibe coding,cursor,claude,devops,ide]
 ---
 
