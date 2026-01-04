@@ -21,7 +21,6 @@ That's the opening scene: my coding environment as a solo Java web developer ove
 - **OS for prod**: Debian
 - **DevOps**: PuTTY, [WinSCP](https://winscp.net/eng/download.php) (and pushing to Git from NetBeans)
 - **AI-assisted coding**: since 2023, copy-pasting code into ChatGPT and Gemini
-- **Tests**: none
 
 # Summer and Fall 2025: removing PrimeFaces, JSF, and Jakarta EE — htmx + Javalin all the way
 This happened through a series of logical steps (the first ones are retraced in a [previous post](https://nocodefunctions.com/blog/jsf-primefaces-vs-htmx-alpine-tailwind/)):
