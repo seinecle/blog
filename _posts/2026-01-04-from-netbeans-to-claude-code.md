@@ -69,7 +69,7 @@ So during the Christmas break, I spent another $20/month on Claude Code 😭. Af
 - **From Windows to Linux for development.** I couldn't get Claude Code working on Windows (my fault probably, and I can't install WSL on my machine), so I installed it on my Debian server and effectively moved my codebase there. Psychologically difficult: I'm not an IT-trained developer, and "Windows for dev, Linux via PuTTY for prod" already felt geeky enough*. Going full Linux felt risky. But it worked out.
 - **NetBeans became irrelevant.** I now use [Cursor over SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) to connect to Claude on the server. Cursor can show and edit files, but I rarely do manual edits.
 
-Claude Code delivers: with proper guidelines it can stop, rebuild, and restart my microservices; read logs and use them as context; navigate directories; grep, sed, push: whatever is needed. Contrary to Cursor it takes full advantage of having access to the file system and the command line. Friction is almost gone. I give instructions; they get executed.
+Claude Code delivers: with proper guidelines it can stop, rebuild, and restart my microservices; read logs and use them as context; navigate directories; grep, sed, push: whatever is needed. Contrary to Cursor it takes full advantage of having access to the file system and the command line. Friction is almost gone. I give instructions; they get executed. It writes tests (so does Cursor to be fair), which was a sore point in my practice.
 
 # January 2026: the third tipping point
 (Sorry for the exaggeration but it really felt like it.)
