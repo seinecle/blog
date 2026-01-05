@@ -63,7 +63,7 @@ Yes, two tipping points in two months.
 
 Just like for Cursor, I had seen very positive feedback about Claude Code. So I posted a [question on Hacker News](https://news.ycombinator.com/item?id=46185230), asking whether Claude Code was meaningfully different or better than Cursor. The replies were few but very positive, even with this direct comparison with Cursor.
 
-So during the Christmas break, I spent another $20/month on Claude Code 😭. After the change I had lived with Cursor and that I thought were huge already, it forced me to change 15 years of habits:
+So during the Christmas break, I spent another \$20/month on Claude Code 😭. After the change I had lived with Cursor and that I thought were huge already, it forced me to change 15 years of habits:
 
 - **From Windows to Linux for development.** I couldn't get Claude Code working on Windows (my fault probably, and I can't install WSL on my machine), so I installed it on my Debian server and effectively moved my codebase there. Psychologically difficult: I'm not an IT-trained developer, and "Windows for dev, Linux via PuTTY for prod" already felt geeky enough*. Going full Linux felt risky. But it worked out.
 - **Not using NetBeans or an IDE to code** I now [connect over SSH with Cursor](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) to connect to Claude on the server. Cursor can show and edit files, but I rarely do manual edits.
@@ -73,19 +73,21 @@ Claude Code delivers: with proper guidelines it can stop, rebuild, and restart m
 # January 2026: the third tipping point
 (Sorry for the exaggeration but it really felt like it.)
 
-A few days ago, I remembered an Android SSH app I had installed years ago and never used. **Could I "vibe code" on the go?**
+A few days ago, I remembered [ConnectBot](https://play.google.com/store/apps/details?id=org.connectbot), an Android SSH app I had installed years ago and never used. **Could I "vibe code" on the go?**
 
 Yes. Easily.
 
-I now do it for real. The setup was trivial. I test results directly on my phone browser on the [dev version of nocodefunctions.com](https://dev.nocodefunctions.com/) (certificate warnings for now, add an exception). When something breaks, I report it to Claude, ask for a fix, and keep walking.
+I now do it for real. The setup was trivial. I can test results of my feature additions directly on the browser of my phone by visiting the [dev version of nocodefunctions.com](https://dev.nocodefunctions.com/) (ssl certificate warnings for now, add an exception). When something breaks, I report it to Claude, ask for a fix, and keep walking.
 
 # Money, money, money
-Spending $80/month on AI-assisted coding is not sustainable for me:
+Spending \$80/month on AI-assisted coding is not sustainable for me:
 - I downgraded ChatGPT from Plus ($20) to Go ($4), since I no longer use it for coding.
 - I cancelled Cursor.
 
 # Next steps
-As I wrote earlier, switching tooling (even shiny AI tooling) is initially a [productivity drain](https://nocodefunctions.com/blog/ai-coding-tool-productivity-paradox/). Since this summer, I've been in near-constant tooling transition, eating up the few weekly hours I have for this project.
+As I wrote earlier, switching tooling (even shiny AI tooling) is initially a [productivity drain](https://nocodefunctions.com/blog/ai-coding-tool-productivity-paradox/). 
+
+Since this summer, I've been in near-constant tooling transition, eating up the few weekly hours I have for this project.
 
 So I hope [Google's antigravity](https://antigravity.google/) will flop and won't justify another switch away from Claude Code :-) That way, I can finally focus on better UI, better UX, and new features for nocodefunctions.com.
 
