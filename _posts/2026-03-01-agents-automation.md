@@ -35,7 +35,7 @@ Here is how it looks:
 
 ## 2. Claude: token rate limits every 5 hours and every week
 Vibe coding increases productivity for sure, and it comes with token spending. I became regularly blocked by the 5-hour token reset period imposed by Claude.
-The weekly limit on token consumption was also looming large. I am on the \$20 monthly plan with Claude, and didn't want to jump to the \$90 or \$200 plan. The situation became very frustrating
+The weekly limit on token consumption was also looming large. I am on the &#36;20 monthly plan with Claude, and didn't want to jump to the &#36;90 or &#36;200 plan. The situation became very frustrating
 
 
 # The solutions! ✨
@@ -43,7 +43,7 @@ The weekly limit on token consumption was also looming large. I am on the \$20 m
 ## 1. Adding Gemini CLI to the server!
 Google's most visible product to compete with Cursor or Claude is [AntiGravity](https://antigravity.google/) and so I had missed that Google has released a CLI version of Gemini (since summer 2025 as per [this Github repo](https://github.com/google-gemini/gemini-cli)).
 
-Anyway, if I am limited by Claude's token limit, why not use the token allowance I have from my Gemini subscription? (20&#36; / month). Installing Gemini CLI on the server is straightforward.
+Anyway, if I am limited by Claude's token limit, why not use the token allowance I have from my Gemini subscription?. Installing Gemini CLI on the server is straightforward.
 
 At first, I switched between Claude and Gemini : launching one when the other's limit was reached.
 If you wonder, Gemini 3.1 pro is good enough to work with on code.
@@ -84,7 +84,7 @@ I don't personally like or use Telegram, and I would have preferred WhatsApp or 
 Done: I can now send instructions to my agents (Claude and Gemini) directly from Signal, either from my phone or from my Windows laptop (where Signal is installed as a desktop app). I can even attach pics to the message. Typically, screenshots of my web app to show them what I mean in terms of layout, when there is a defect or when I want an improvement.
 
 # Money, money, money
-No extra money spent here. I continue with my existing \$20 Claude and \$20 Gemini monthly subscriptions. It' just that their token allowances are better spent now.
+No extra money spent here. I continue with my existing &#36;20 Claude and &#36;20 Gemini monthly subscriptions. It' just that their token allowances are better spent now.
 
 # Next steps
 Thanks to these agents, I could develop 2 new functions that I wanted to develop for a long time:
