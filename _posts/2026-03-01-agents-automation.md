@@ -82,6 +82,13 @@ I don't personally like or use Telegram, and I would have preferred WhatsApp or 
 
 Done: I can now send instructions to my agents (Claude and Gemini) directly from Signal, either from my phone or from my Windows laptop (where Signal is installed as a desktop app). I can even attach pics to the message. Typically, screenshots of my web app to show them what I mean in terms of layout, when there is a defect or when I want an improvement.
 
+Using Signal compared to a terminal interface, the comfort is real:
+
+<div style="display: flex; justify-content: center;">
+    <img src="https://github.com/user-attachments/assets/ce5548d4-9a35-4777-bb38-8d2e8604d795" alt="screenshot of dialoging with agents on debian from Signal" style="max-width: 100%; width: 360px; height: auto;">
+</div>
+
+
 # Money, money, money
 No extra money spent here. I continue with my existing <span>&#36;20</span> Claude and <span>&#36;20</span> Gemini monthly subscriptions. It' just that their token allowances are better spent now.
 
