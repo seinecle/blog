@@ -35,7 +35,7 @@ Here is how it looks:
 
 ## 2. Claude: token rate limits every 5 hours and every week
 Vibe coding increases productivity for sure, and it comes with token spending. I became regularly blocked by the 5-hour token reset period imposed by Claude.
-The weekly limit on token consumption was also looming large. I am on the <span>&#36;20></span> monthly plan with Claude, and didn't want to jump to the &#36;90 or &#36;200 plan. The situation became very frustrating
+The weekly limit on token consumption was also looming large. I am on the <span>&#36;20</span> monthly plan with Claude, and didn't want to jump to the <span>&#36;90</span> or <span>&#36;200</span> plan. The situation became very frustrating
 
 # The solutions! ✨
 
@@ -83,7 +83,7 @@ I don't personally like or use Telegram, and I would have preferred WhatsApp or 
 Done: I can now send instructions to my agents (Claude and Gemini) directly from Signal, either from my phone or from my Windows laptop (where Signal is installed as a desktop app). I can even attach pics to the message. Typically, screenshots of my web app to show them what I mean in terms of layout, when there is a defect or when I want an improvement.
 
 # Money, money, money
-No extra money spent here. I continue with my existing &#36;20 Claude and &#36;20 Gemini monthly subscriptions. It' just that their token allowances are better spent now.
+No extra money spent here. I continue with my existing <span>&#36;20</span> Claude and <span>&#36;20</span> Gemini monthly subscriptions. It' just that their token allowances are better spent now.
 
 # Next steps
 Thanks to these agents, I could develop 2 new functions that I wanted to develop for a long time:
