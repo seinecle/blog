@@ -35,7 +35,7 @@ Here is how it looks:
 
 ## 2. Claude: token rate limits every 5 hours and every week
 Vibe coding increases productivity for sure, and it comes with token spending. I became regularly blocked by the 5-hour token reset period imposed by Claude.
-The weekly limit on token consumption was also looming large. I am on the 20&#36; / month plan with Claude, and didn't want to jump to the 90&#36; or 200&#36; plan. The situation became very frustrating
+The weekly limit on token consumption was also looming large. I am on the 20\$ / month plan with Claude, and didn't want to jump to the 90\$ or 200&#36; plan. The situation became very frustrating
 
 
 # The solutions! ✨
