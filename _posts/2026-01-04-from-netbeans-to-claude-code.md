@@ -81,7 +81,7 @@ I now do it for real. The setup was trivial. I can test results of my feature ad
 
 # Money, money, money
 Spending \$80/month on AI-assisted coding is not sustainable for me:
-- I downgraded my ChatGPT subscription from "Plus" (\$20) to "Go" (\$4), which is sufficient since I no longer use it for coding.
+- I downgraded my ChatGPT subscription from the "Plus" plan (<span>&#36;20</span>) to the "Go" plan (<span>&#36;4</span>), which is sufficient since I no longer use it for coding.
 - I cancelled Cursor.
 
 # Next steps
