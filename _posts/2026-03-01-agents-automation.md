@@ -29,9 +29,7 @@ In the end the experience is OK but not comfortable.
 Here is how it looks:
 
 <div style="display: flex; justify-content: center;">
-  <a href="https://www.youtube.com/watch?v=UjBZaKcTeIY&t=1805" target="_blank" rel="noopener noreferrer">
     <img src="https://github.com/user-attachments/assets/475fa4aa-2357-4165-b4d3-5925fdee8419" alt="Connectbot on Android" style="max-width: 100%; width: 360px; height: auto;">
-  </a>
 </div>
 
 
@@ -74,9 +72,7 @@ Since I left the comfort of using an IDE like NetBeans (2010-2025) then Cursor (
 First thing I did was asking the agents to create a web page interface: a page that I could double tap to edit it, so that I could monitor progress and add tasks directly in the text. They found a Python lib for that:
 
 <div style="display: flex; justify-content: center;">
-  <a href="https://www.youtube.com/watch?v=UjBZaKcTeIY&t=1805" target="_blank" rel="noopener noreferrer">
     <img src="https://github.com/user-attachments/assets/a84ab09e-adef-46a3-808b-61c58af7531a" alt="web interface for agents coordination" style="max-width: 100%; width: 460px; height: auto;">
-  </a>
 </div>
 
 Not bad at all. Then I remembered that levelsio / Pieter Levels had mentioned his use of Telegram to pilot his agents:
@@ -104,9 +100,7 @@ It works already pretty well. Here is the graph created from the phd of [my PhD 
 ➡️ [interactive version available here](https://dev.nocodefunctions.com/user_created_files/vosviewer/index.html?json=public/vosviewer_5432624604758149090.json)
 
 <div style="display: flex; justify-content: center;">
-  <a href="https://www.youtube.com/watch?v=UjBZaKcTeIY&t=1805" target="_blank" rel="noopener noreferrer">
     <img src="https://github.com/user-attachments/assets/bf1d31c1-b08d-4ab4-90f7-df9b52927e65" alt="example of my phd thesis turned into a social graph" style="max-width: 100%; width: 460px; height: auto;">
-  </a>
 </div>
 
 
