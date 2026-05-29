@@ -11,25 +11,32 @@ categories: [ai,productivity,coding,development,agentic]
 The definition of an "AI agent" or "agentic coding" is quite clear in my view:
 
 -> a process endowed with the capabilities of an LLM
--> launched with some instructions given at the start
--> which runs autonomously for a significant period of time, not deviating from the instructions it received
--> processes can be launched in parallel to achieve faster results or to accomplish a larger number of tasks:  same process launched in multiple copies, or a variety of processes launched at once. 
+-> launched with some instructions given at the start to accomplish a task
+-> which runs autonomously for a significant period of time
+-> with a non deterministic behavior: adapting to the circumstances and not deviating from the instructions it received
+-> these processes (agents) can be launched in parallel to achieve faster results or to accomplish a larger number of tasks:  same process launched in multiple copies, or a variety of processes launched at once
+-> not a necessity but logical next step: to accomplish its task, a process can "decide" to launch other processes, sub processes, etc.
 
-Yet, in practice, "agents" is often used in a loose way and possibly to sound up-to-date and sophisiticated, when the "agent" might just be a conversation launched in ChatGPT:
+Yet, in practice, "agents" is often used in a loose way with no relation to the above. Possibly to sound up-to-date and sophisiticated, "agents" might just be in actuality conversations launched in ChatGPT or nothing clear, really:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If I hear people talk about &quot;AI agents&quot; these days it&#39;s generally a red flag and I know they&#39;re non-technical ppl reading AI news but not actually shipping anything<br><br>Not cause I don&#39;t believe in AI agents but it&#39;s such a marketing term with no real meaning at this point</p>&mdash; @levelsio (@levelsio) <a href="https://x.com/levelsio/status/1953125500492128766?ref_src=twsrc%5Etfw">August 6, 2025</a></blockquote>
 
 # 1. Do we even need agents?
 
-Most of the time, *no*. Here is Ethan Mollick creating a complete, live web application with just one prompt nd 4 follow-ups, for a total of less than 20 lines:
+Most of the time, *no*. Here is [Ethan Mollick](https://www.linkedin.com/in/emollick/) creating a complete, live web application with just one prompt and 4 follow-ups, for a total of less than 20 lines:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How lucky are you to have been born when and where you are?<br><br>Had Opus 4.8 in Claude Code whip up a new visualization of all humans who ever lived. In addition to being neat, it is an interesting test of combining research, code, design and stats for an AI. <a href="https://t.co/ayNEdhSLy3">https://t.co/ayNEdhSLy3</a> <a href="https://t.co/Ny2NmICZsK">pic.twitter.com/Ny2NmICZsK</a></p>&mdash; Ethan Mollick (@emollick) <a href="https://x.com/emollick/status/2060165879908749490?ref_src=twsrc%5Etfw">May 29, 2026</a></blockquote>
 
-Another example is the website developed by my daughter: a fullfledged e-commerce platform. Developed with zero fancy technology of agentic scaffolding. Just prompts (and a lot of work).
+Another example is the website developed by my daughter: a [fullfledged e-commerce platform](https://www.daebias.com/). Developed with zero fancy technology or agentic scaffolding. Just prompts (and a lot of work).
 
-You probably also noticed that in conversations, LLM services can launch and manage their own agents to speed up their research and cover more ground in response to your request.
+You probably also noticed that in chats with LLMs, these LLMS can choose to launch and manage their own agents. This helps speed up their research and cover more ground in response to your request.
 
 So I'd say that in most cases, we don't need agents even for complex tasks because LLMs just work fine without, and if agents are useful then LLM agents just launch and manage them under the hood.
+
+But there are a number of cases where agents prove useful.
+
+# 2. Cases where agents prove useful.
+
 
 
 # 2 frustrations
