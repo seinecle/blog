@@ -62,7 +62,7 @@ ChatGPT m'a guidé tout au long de la mise en œuvre de cette nouvelle approche.
 Je vous montre le script A (script écrit par ChatGPT) pour illustrer en quoi cette approche 2 implique bien plus de complexité que l'approche 1 :
 
 <details>
-<summary><strong>Long script A — click to expand</strong></summary>
+<summary><strong>Long script A — cliquer pour ouvrir</strong></summary>
 
 ```
 #!/usr/bin/env bash
