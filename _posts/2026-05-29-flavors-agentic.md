@@ -11,17 +11,25 @@ categories: [ai,productivity,coding,development,agentic,agents]
 A reasonable definition of an "AI agent" or "agentic coding" can be:
 
 - a software process endowed with the capabilities of an LLM
-- launched with some instructions given at the start to accomplish a task
-- which runs autonomously for a significant period of time
-- with a non deterministic behavior: the agent will adapt to the circumstances, hopefully without deviating from the instructions it received
-- these software processes (agents) can be launched in parallel to achieve faster results or to accomplish a larger number of tasks:  same process launched in multiple copies, or a variety of processes launched at once
-- not a necessity but logical next step: to accomplish a task, a process can be led to launch other processes, sub processes, etc.
+- launched with instructions given at the start to accomplish a task
+- which runs autonomously (no interactive session with a human), for a significant period of time
+- with a non-deterministic behavior: the agent will adapt to the circumstances, hopefully without deviating from the instructions it received
 
-Yet, in practice, "agents" is often used in a loose way with no relation to the above. Possibly to sound up-to-date and sophisiticated, "agents" might just be in actuality conversations launched in ChatGPT or nothing clear, really:
+These software processes (agents) can be launched in parallel to achieve faster results or to accomplish a larger number of tasks:  same process launched in multiple copies, or a variety of processes launched at once.
+
+Not a necessity but logical next step: to accomplish a task, a process can be led to launch other processes, subprocesses, etc. This evokes images of cascades, armies, or swarms of agents coordinating in a decentralized manner (no human in the loop) to accomplish a task. 
+
+Yet, in practice, "agents" is often used with no relation to the definition above. Possibly to sound up-to-date and sophisticated, "agents" might in reality designate a ChatGPT conversation where the user prompted "you are acting like a professional tax **agent** and in the following, I want you to help me fill in my tax declaration" 🤷‍♂️.
+
+Pieter Levels, who tends to speak frankly about coding and AI matters, shared this feeling in summer 2025:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If I hear people talk about &quot;AI agents&quot; these days it&#39;s generally a red flag and I know they&#39;re non-technical ppl reading AI news but not actually shipping anything<br><br>Not cause I don&#39;t believe in AI agents but it&#39;s such a marketing term with no real meaning at this point</p>&mdash; @levelsio (@levelsio) <a href="https://x.com/levelsio/status/1953125500492128766?ref_src=twsrc%5Etfw">August 6, 2025</a></blockquote>
 
-In my coding practice, I explored several ways to do agentic coding that would live up to the definition proposed above, and not masquarade for it. Here are 3 flavors I tasted:
+**We are now approaching summer 2026, have things changed much?**
+
+In my coding practice, I explored several ways to do agentic coding that would live up to the definition proposed above, and not masquerade for it.
+
+Here are 3 flavors I tried:
 
 # Flavor 1: launching multiple command line interfaces
 I did that for a while:
@@ -34,7 +42,7 @@ I did that for a while:
 - ask GPT to accomplish another task just by writing a prompt describing the task
 - rinse and repeat...
 
-Honestly, that works pretty well. It is extremely low tech as you can see. It also means you can launch [Claude Code](https://claude.com/fr/product/claude-code) in one session, Codex CLI in another, [Gemini CLI](https://geminicli.com/) in a third one... and hence spread your token consumption on several AI providers in parallel, which makes the token budget limit slower to hit for a given provider.
+Honestly, that works pretty well. It is extremely low-tech as you can see. It also means you can launch [Claude Code](https://claude.com/fr/product/claude-code) in one session, Codex CLI in another, [Gemini CLI](https://geminicli.com/) in a third one... and hence spread your token consumption on several AI providers in parallel, which makes the token budget limit slower to hit for a given provider.
 
 # Flavor 2: launching AI CLIs in headless mode
 I used this second approach to write crawlers for 200+ different webpages. Obviously with 200 crawlers to create, that would have been too boring to do with the Flavor 1 described just above. ChatGPT guided me throughout on how to implement this new approach. The basic logic is:
@@ -44,10 +52,10 @@ I used this second approach to write crawlers for 200+ different webpages. Obvio
 - another script (script "B") that picks 20 websites from the json file and executes script A for each of them. The placeholders of script A are replaced by the info of the website to be crawled, meaning that the crawler created by the LLM will be specific to this website.
 - I launch script B, check that it works fine, then relaunch it with 20 other websites, etc. until I got 200 websites treated that way. 
 
-To show how vastly more complex this is compared to Flavor #1, let me show you what script A looks like (script written by ChatGPT):
+Let me show you script A (script written by ChatGPT) to illustrate how this approach Flavor 2 involves more complexity than Flavor 1:
 
 <details>
-**<summary>Long script A — click to expand</summary>**
+<summary><strong>Long script A — click to expand</strong></summary>
 
     #!/usr/bin/env bash
     set -euo pipefail
@@ -177,12 +185,12 @@ To show how vastly more complex this is compared to Flavor #1, let me show you w
     echo "[$(date -Is)] finished ${PACKAGE}"
 </details>
 
-This approach works well. It is not as easy as "launch script A, get 200 crawlers written in an hour" but almost that. If you are patient to read a bit the script above, you'll see that the LLM is tasked to write unit tests for each crawler it creates! As is normal, these tests don't always pass so that slow downs things a bit, but that's for the good cause since passing tests meaning crawls of a better quality later.
+This approach works well. It is not as easy as "launch script A, get 200 crawlers written in an hour" but almost that. If you are patient to read a bit the script above, you'll see that the LLM is tasked to write unit tests for each crawler it creates! As is normal, these tests don't always pass so that slow downs things a bit, but that's for the good cause since doing extra work to get passing tests means that the crawls will be more reliable.
 
 With this approach, I expect to have my 200 hundred crawlers up and ready in the next few days, and with an easy path to grow to hundreds more.
 
 # Flavor 3: having one LLM create and manage these subagents itself
-The approach above is really bash and unix heavy: I had ChatGPT to guide me through the creation of several bash scripts, which was tedious and which make my processes harder to maintain. Why not have an LLM just spin off agents by itself, following my instructions? That's what every solution is advertising these days:
+Flavor 2 was really bash and unix heavy: this makes my processes harder to maintain. Why not have an LLM just spin off agents by itself, following my instructions? That's what every solution is advertising these days:
 
 - Cursor invites you to ["delegate implementation to focus on higher-level direction"](https://web.archive.org/web/20260528201253/https://cursor.com/product)
 - Codex has ["sub agents"](https://web.archive.org/web/20260524042439/https://developers.openai.com/codex/subagents) you can ochestrate
@@ -191,7 +199,7 @@ The approach above is really bash and unix heavy: I had ChatGPT to guide me thro
 
  My opinion: probably, but not today. Asking one agent to delegate to sub-agents mean that you are 2 steps removed from the sub-agents. Inconsistencies, poor choices, flat errors... will be harder to catch. Interruption and resuming of work for a given sub agent is not straightforward. And you get solution dependent: my AI of choice these days is GPT 5.5, and that would be off limit if I choose a solution with agents that is not developed by its company, OpenAI.
 
-> For these reasons and until proven otherwise, I'll stick with approach number 2 (and even number 1 in simple cases) described above.
+> For these reasons and until proven otherwise, I'll stick with Flavor number 2 (and even number 1 in simple cases) described above.
 
 # Do we even need agents?
 
@@ -201,21 +209,26 @@ Most of the time, *no*. Here is [Ethan Mollick](https://www.linkedin.com/in/emol
 
 Another example is the website developed by my daughter: a [fullfledged e-commerce platform](https://www.daebias.com/). Developed with zero fancy technology or agentic scaffolding. Just prompts (and a lot of work).
 
-You probably also noticed that in chats with LLMs, these LLMS can choose to launch and manage their own agents. This helps speed up their research and cover more ground in response to your request.
+You probably also noticed that in chats with LLMs when we search for information, these LLMS can choose to launch searches on different websites: each search performed with its own  agent. This helps speed up their research and cover more ground in response to your request.
 
 So I'd say that in most cases, we don't need agents even for complex tasks because LLMs  work just fine without, and if agents are useful then LLM launch their own agents and manage them under the hood.
 
 # And the difficulty of agents bumping onto each other
 The topic is just unglamorous and the blog post is already too long so I'll be super brief: multiple agents writing simultaneously in your code base will step on each other's feet. If they make changes to the same file, there is a very good chance the resulting file will be a mess.
 
-The remedy is to have each agent working on a different git branch, then proceeding to the merge of the branches into the main branch when all agents are done. This is also a mess: what if the merge fails (and oh, it will). I tried this approach and it is tedious, hair rising and makes you quit the multi agent game quickly.
+The remedy is to have each agent working on different [git branches](https://www.w3schools.com/GIT/git_branch.asp), then proceeding to the merge of the branches into the main branch when all agents are done. This is also a mess: what if the merge fails? (and oh, it will). I tried this approach and it is tedious, hair rising and makes you quit the multi agent game quickly.
 
-So to conclude, how did I do to develop hundreds of crawlers without having one agent crashing on the work of the others? I conducted plenty of preparatory work on one crawler, making sure it worked in perfect isolation of the others. Not an easy task when you still want to follow the DRY (don't repeat yourself) principle in coding. Only at this condition that each crawler is perfectly isolated can you have dozens of agents work on source files simultaneously without creating a mess.
+So how did I do in Flavor 2 to create dozens of crawlers without having agents crashing on the work of the others?
+
+I first conducted plenty of preparatory work on just one crawler, making sure it worked in perfect isolation of the others. Not an easy task when you still want to follow the DRY (don't repeat yourself) principle in coding. Only at this condition that each crawler is perfectly isolated can you have dozens of agents work on source files simultaneously without creating a mess.
 
 If you scroll up and check the bash script I've shared, you'll see I was also advised on the matter by ChatGPT, which added some hard blocks in the prompt, so that each agent is explicitly forbidden from touching files not in the scope of its work.
 
 # Next steps
-Having these crawlers written, then executing them. Becoming sufficiently proficient at this "home made" multi agent set up that I can reproduce it when and if needed in other places.
+Getting from dozens of crawlers written with Flavor 2 to hundreds of crawlers. Then executing them. Becoming sufficiently proficient at this "home made" multi agent set up that I can reproduce it when and if needed in other places.
+
+# And you?
+What multi agent setup works for you? Or do you stick with no agent at all?
 
 --- 
 # About Me
