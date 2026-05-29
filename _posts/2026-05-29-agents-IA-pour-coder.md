@@ -61,139 +61,7 @@ ChatGPT m'a guidé tout au long de la mise en œuvre de cette nouvelle approche.
 
 Je vous montre le script A (script écrit par ChatGPT) pour illustrer en quoi cette approche 2 implique bien plus de complexité que l'approche 1 :
 
-<details>
-<summary><strong>Long script A — cliquer pour ouvrir</strong></summary>
-
-```
-#!/usr/bin/env bash
-set -euo pipefail
-
-ROOT="/home/xxx/backend"
-
-PACKAGE="${1:?missing package}"
-SOURCE_ID="${2:?missing source_id}"
-PLATFORM="${3:?missing platform}"
-URL="${4:?missing url}"
-LOCAL_GUARDRAIL="${CODEX_LOCAL_GUARDRAIL:-1}"
-
-PROMPT="$ROOT/ops/codex/prompts/${PACKAGE}-agent.txt"
-LOG_MD="$ROOT/reports/codex/logs/${PACKAGE}-agent.md"
-STDOUT_LOG="$ROOT/reports/codex/logs/${PACKAGE}-stdout.log"
-STDERR_LOG="$ROOT/reports/codex/logs/${PACKAGE}-stderr.log"
-
-echo "[$(date -Is)] preparing ${PACKAGE}"
-
-cat > "$PROMPT" <<EOF
-You are source_crawler_creator.
-
-Create or repair exactly one isolated direct-site crawler package.
-
-SOURCE_ID: ${SOURCE_ID}
-URL: ${URL}
-PLATFORM: ${PLATFORM}
-PACKAGE_NAME: ${PACKAGE}
-PACKAGE_PATH: src/main/java/com/xxx/directsite/crawling/sources/${PACKAGE}
-
-Writable paths:
-- src/main/java/com/xxx/directsite/crawling/sources/${PACKAGE}/**
-- src/test/java/com/xxx/directsite/crawling/sources/${PACKAGE}/**
-- src/test/resources/directsite/${PACKAGE}/**
-- reports/codex/source-results/${PACKAGE}.json
-- reports/codex/shared-change-requests/${PACKAGE}.md
-
-Read-only reference paths:
-- src/main/java/com/xxx/directsite/crawling/sources/estia/**
-- src/main/java/com/xxx/directsite/crawling/sources/groupeesa/**
-- src/main/java/com/xxx/directsite/crawling/sources/generic/**
-- src/main/java/com/xxx/directsite/crawling/sources/ats/**
-- src/main/java/com/xxx/directsite/crawling/sources/talentsoft/**
-- src/main/java/com/xxx/directsite/crawling/rules/**
-- src/main/java/com/xxx/directsite/crawling/CrawlerRegistry.java
-- src/main/java/com/xxx/directsite/crawling/DirectSiteCrawler.java
-- src/main/java/com/xxx/directsite/crawling/DirectSiteCrawlerSupport.java
-- src/main/java/com/xxx/directsite/crawling/sources/AGENTS.md
-- AGENTS.md
-- pom.xml
-
-Hard constraints:
-- Modify only the writable paths listed above.
-- Do not edit CrawlerRegistry.java.
-- Do not edit shared crawler classes, including ats and talentsoft reference packages.
-- Do not edit shared pipeline, shared DTOs, pom.xml, or AGENTS.md.
-- Do not touch any other source package.
-- If registration is required in shared code, do not make that shared change. Report it.
-- Keep crawl, parse, reconcile, and LLM enrichment concerns separate.
-- For platform-specific sources, inspect the existing platform package as a read-only reference and create only source-specific wrappers/specs if useful.
-
-Testing rules:
-- JUnit tests must not perform live network calls.
-- Use local fixtures under src/test/resources/directsite/${PACKAGE}/ for detail HTML whenever practical.
-- Inline HTML/JSON is acceptable only for very small snippets.
-- Prefer behavior assertions over brittle exact cardinality unless the fixture is intentionally constructed for that cardinality.
-- Do not assert overly specific live data fields unless they are necessary to lock parser behavior.
-- If asserting URLs/titles from fixtures, treat them as fixture examples, not as proof that the live page still exists.
-
-Task:
-1. Inspect existing crawler patterns.
-2. Investigate the URL and determine xxx.
-3. Create or repair the dedicated ${PACKAGE} crawler package.
-4. Implement only source-specific crawling/parsing details in this package.
-5. Reuse shared rules/classes when applicable.
-6. Add narrow tests if practical.
-7. Run the narrowest useful Maven compile/test command.
-8. Write reports/codex/source-results/${PACKAGE}.json with:
-{
-  "source_id": "${SOURCE_ID}",
-  "package": "${PACKAGE}",
-  "status": "created|repaired|blocked|needs_shared_change",
-  "files_changed": [],
-  "tests_run": [],
-  "shared_change_requested": false,
-  "notes": "..."
-}
-
-Final answer:
-- concise summary
-- files changed
-- tests run
-- whether shared change is needed
-EOF
-
-echo "[$(date -Is)] starting ${PACKAGE}"
-
-if [ "$LOCAL_GUARDRAIL" = "1" ]; then
-  BEFORE_STATUS="$(mktemp)"
-  AFTER_STATUS="$(mktemp)"
-  git status --short --untracked-files=all > "$BEFORE_STATUS"
-fi
-
-codex exec \
-  --cd "$ROOT" \
-  --sandbox workspace-write \
-  --model gpt-5.4 \
-  --output-last-message "$LOG_MD" \
-  - < "$PROMPT" \
-  > "$STDOUT_LOG" \
-  2> "$STDERR_LOG"
-
-if [ "$LOCAL_GUARDRAIL" = "1" ]; then
-  git status --short --untracked-files=all > "$AFTER_STATUS"
-
-  FORBIDDEN="$(
-    comm -13 <(sort "$BEFORE_STATUS") <(sort "$AFTER_STATUS") \
-      | cut -c4- \
-      | grep -vE "^(\.codex/|ops/codex/|reports/codex/|src/main/java/com/xxx/directsite/crawling/sources/${PACKAGE}/|src/test/java/com/xxx/directsite/crawling/sources/${PACKAGE}/|src/test/resources/directsite/${PACKAGE}/)" || true
-)"
-    if [ -n "$FORBIDDEN" ]; then
-      echo "[$(date -Is)] FORBIDDEN FILE CHANGES for ${PACKAGE}:" >&2
-      echo "$FORBIDDEN" >&2
-      exit 42
-    fi
-fi
-echo "[$(date -Is)] finished ${PACKAGE}"
-```
-
-</details>
+[ouvrir le script A](https://github.com/seinecle/blog/blob/main/assets/data/script-A)
 
 Cette approche fonctionne bien.
 Ce n'est pas aussi simple que « lancer le script A et obtenir 200 crawlers écrits en une heure », mais on n'en est pas si loin.
@@ -255,7 +123,7 @@ J'ai d'abord mené un important travail préparatoire sur un seul crawler, en m'
 Ce n'est pas une tâche facile quand on veut malgré tout suivre le principe DRY (*don't repeat yourself*) en programmation.
 Ce n'est qu'à la condition que chaque crawler soit parfaitement isolé que vous pouvez faire travailler simultanément des dizaines d'agents sur des fichiers source sans créer de désastre.
 
-Si vous remontez et regardez le script Bash que j'ai partagé, vous verrez que ChatGPT m'a également conseillé sur ce point, en ajoutant des blocages stricts dans le prompt, de sorte que chaque agent se voit explicitement interdire de toucher aux fichiers qui ne sont pas dans le périmètre de son travail.
+Si vous remontez dans cet article et regardez le script Bash que j'ai partagé, vous verrez que ChatGPT m'a également conseillé sur ce point, en ajoutant des blocages stricts dans le prompt, de sorte que chaque agent se voit explicitement interdire de toucher aux fichiers qui ne sont pas dans le périmètre de son travail.
 
 # Prochaines étapes
 
