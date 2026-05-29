@@ -28,10 +28,10 @@ I did that for a while:
 
 - open an SSH session to my server
 - launch [Codex CLI](https://developers.openai.com/codex/cli) in it
-- ask GPT to accomplish a task: nothing fancy, really just prompting
+- ask GPT to accomplish a task just by writing a prompt describing the task
 - open a second SSH session to my server
 - launch [Codex CLI](https://developers.openai.com/codex/cli) in it
-- ask GPT to accomplish another task
+- ask GPT to accomplish another task just by writing a prompt describing the task
 - rinse and repeat...
 
 Honestly, that works pretty well. It is extremely low tech as you can see. It also means you can launch [Claude Code](https://claude.com/fr/product/claude-code) in one session, Codex CLI in another, [Gemini CLI](https://geminicli.com/) in a third one... and hence spread your token consumption on several AI providers in parallel, which makes the token budget limit slower to hit for a given provider.
