@@ -54,136 +54,7 @@ I used this second approach to write crawlers for 200+ different webpages. Obvio
 
 Let me show you script A (script written by ChatGPT) to illustrate how this approach Flavor 2 involves more complexity than Flavor 1:
 
-<details>
-<summary><strong>Long script A — click to expand</strong></summary>
-
-    #!/usr/bin/env bash
-    set -euo pipefail
-    
-    ROOT="/home/xxx/backend"
-    
-    PACKAGE="${1:?missing package}"
-    SOURCE_ID="${2:?missing source_id}"
-    PLATFORM="${3:?missing platform}"
-    URL="${4:?missing url}"
-    LOCAL_GUARDRAIL="${CODEX_LOCAL_GUARDRAIL:-1}"
-    
-    PROMPT="$ROOT/ops/codex/prompts/${PACKAGE}-agent.txt"
-    LOG_MD="$ROOT/reports/codex/logs/${PACKAGE}-agent.md"
-    STDOUT_LOG="$ROOT/reports/codex/logs/${PACKAGE}-stdout.log"
-    STDERR_LOG="$ROOT/reports/codex/logs/${PACKAGE}-stderr.log"
-    
-    echo "[$(date -Is)] preparing ${PACKAGE}"
-    
-    cat > "$PROMPT" <<EOF
-    You are source_crawler_creator.
-    
-    Create or repair exactly one isolated direct-site crawler package.
-    
-    SOURCE_ID: ${SOURCE_ID}
-    URL: ${URL}
-    PLATFORM: ${PLATFORM}
-    PACKAGE_NAME: ${PACKAGE}
-    PACKAGE_PATH: src/main/java/com/xxx/directsite/crawling/sources/${PACKAGE}
-    
-    Writable paths:
-    - src/main/java/com/xxx/directsite/crawling/sources/${PACKAGE}/**
-    - src/test/java/com/xxx/directsite/crawling/sources/${PACKAGE}/**
-    - src/test/resources/directsite/${PACKAGE}/**
-    - reports/codex/source-results/${PACKAGE}.json
-    - reports/codex/shared-change-requests/${PACKAGE}.md
-    
-    Read-only reference paths:
-    - src/main/java/com/xxx/directsite/crawling/sources/estia/**
-    - src/main/java/com/xxx/directsite/crawling/sources/groupeesa/**
-    - src/main/java/com/xxx/directsite/crawling/sources/generic/**
-    - src/main/java/com/xxx/directsite/crawling/sources/ats/**
-    - src/main/java/com/xxx/directsite/crawling/sources/talentsoft/**
-    - src/main/java/com/xxx/directsite/crawling/rules/**
-    - src/main/java/com/xxx/directsite/crawling/CrawlerRegistry.java
-    - src/main/java/com/xxx/directsite/crawling/DirectSiteCrawler.java
-    - src/main/java/com/xxx/directsite/crawling/DirectSiteCrawlerSupport.java
-    - src/main/java/com/xxx/directsite/crawling/sources/AGENTS.md
-    - AGENTS.md
-    - pom.xml
-    
-    Hard constraints:
-    - Modify only the writable paths listed above.
-    - Do not edit CrawlerRegistry.java.
-    - Do not edit shared crawler classes, including ats and talentsoft reference packages.
-    - Do not edit shared pipeline, shared DTOs, pom.xml, or AGENTS.md.
-    - Do not touch any other source package.
-    - If registration is required in shared code, do not make that shared change. Report it.
-    - Keep crawl, parse, reconcile, and LLM enrichment concerns separate.
-    - For platform-specific sources, inspect the existing platform package as a read-only reference and create only source-specific wrappers/specs if useful.
-    
-    Testing rules:
-    - JUnit tests must not perform live network calls.
-    - Use local fixtures under src/test/resources/directsite/${PACKAGE}/ for listing/detail HTML whenever practical.
-    - Inline HTML/JSON is acceptable only for very small snippets.
-    - Prefer behavior assertions over brittle exact cardinality unless the fixture is intentionally constructed for that cardinality.
-    - Do not assert overly specific live data fields unless they are necessary to lock parser behavior.
-    - If asserting URLs/titles from fixtures, treat them as fixture examples, not as proof that the live page still exists.
-    
-    Task:
-    1. Inspect existing crawler patterns.
-    2. Investigate the URL and determine xxx.
-    3. Create or repair the dedicated ${PACKAGE} crawler package.
-    4. Implement only source-specific crawling/parsing details in this package.
-    5. Reuse shared rules/classes when applicable.
-    6. Add narrow tests if practical.
-    7. Run the narrowest useful Maven compile/test command.
-    8. Write reports/codex/source-results/${PACKAGE}.json with:
-    {
-      "source_id": "${SOURCE_ID}",
-      "package": "${PACKAGE}",
-      "status": "created|repaired|blocked|needs_shared_change",
-      "files_changed": [],
-      "tests_run": [],
-      "shared_change_requested": false,
-      "notes": "..."
-    }
-    
-    Final answer:
-    - concise summary
-    - files changed
-    - tests run
-    - whether shared change is needed
-    EOF
-    
-    echo "[$(date -Is)] starting ${PACKAGE}"
-    
-    if [ "$LOCAL_GUARDRAIL" = "1" ]; then
-      BEFORE_STATUS="$(mktemp)"
-      AFTER_STATUS="$(mktemp)"
-      git status --short --untracked-files=all > "$BEFORE_STATUS"
-    fi
-    
-    codex exec \
-      --cd "$ROOT" \
-      --sandbox workspace-write \
-      --model gpt-5.4 \
-      --output-last-message "$LOG_MD" \
-      - < "$PROMPT" \
-      > "$STDOUT_LOG" \
-      2> "$STDERR_LOG"
-    
-    if [ "$LOCAL_GUARDRAIL" = "1" ]; then
-      git status --short --untracked-files=all > "$AFTER_STATUS"
-    
-      FORBIDDEN="$(
-        comm -13 <(sort "$BEFORE_STATUS") <(sort "$AFTER_STATUS") \
-          | cut -c4- \
-          | grep -vE "^(\.codex/|ops/codex/|reports/codex/|src/main/java/com/xxx/directsite/crawling/sources/${PACKAGE}/|src/test/java/com/xxx/directsite/crawling/sources/${PACKAGE}/|src/test/resources/directsite/${PACKAGE}/)" || true
-    )"
-        if [ -n "$FORBIDDEN" ]; then
-          echo "[$(date -Is)] FORBIDDEN FILE CHANGES for ${PACKAGE}:" >&2
-          echo "$FORBIDDEN" >&2
-          exit 42
-        fi
-    fi
-    echo "[$(date -Is)] finished ${PACKAGE}"
-</details>
+[open script A](https://github.com/seinecle/blog/blob/main/assets/data/script-A)
 
 This approach works well. It is not as easy as "launch script A, get 200 crawlers written in an hour" but almost that. If you are patient to read a bit the script above, you'll see that the LLM is tasked to write unit tests for each crawler it creates! As expected, these tests do not always pass, so that slows things down a bit. But it is for a good reason: doing the extra work needed to get passing tests means that the crawlers will be more reliable.
 
@@ -222,7 +93,7 @@ So how did I manage in Flavor 2 to create dozens of crawlers without having agen
 
 I first conducted plenty of preparatory work on just one crawler, making sure it worked in perfect isolation of the others. Not an easy task when you still want to follow the DRY (don't repeat yourself) principle in coding. Only under this condition that each crawler is perfectly isolated can you have dozens of agents working on source files simultaneously without creating a mess.
 
-If you scroll up and check the bash script I've shared, you'll see I was also advised on the matter by ChatGPT, which added some hard blocks in the prompt, so that each agent is explicitly forbidden from touching files not in the scope of its work.
+If you scroll up and check the Bash script ("script A") I've shared, you'll see I was also advised on the matter by ChatGPT, which added some hard blocks in the prompt, so that each agent is explicitly forbidden from touching files not in the scope of its work.
 
 # Next steps
 Getting from dozens of crawlers written with Flavor 2 to hundreds of crawlers. Then executing them. Becoming sufficiently proficient at this "homemade" multi agent setup that I can reproduce it when and if needed in other places.
