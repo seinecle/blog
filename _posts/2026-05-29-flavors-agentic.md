@@ -1,48 +1,52 @@
 ---
 layout: post
-title: "3 flavors of agentic AI"
-permalink: /flavors-agentic/
+title: "Three flavors of agentic AI"
+permalink: /three-flavors-agentic/
 published: true
 date_readable: May 29, 2026
 last_modified_at_readable: May 29, 2026
-categories: [ai,productivity,coding,development,agentic]
+categories: [ai,productivity,coding,development,agentic,agents]
 ---
 
-The definition of an "AI agent" or "agentic coding" is quite clear in my view:
+A reasonable definition of an "AI agent" or "agentic coding" can be:
 
--> a process endowed with the capabilities of an LLM
--> launched with some instructions given at the start to accomplish a task
--> which runs autonomously for a significant period of time
--> with a non deterministic behavior: adapting to the circumstances and not deviating from the instructions it received
--> these processes (agents) can be launched in parallel to achieve faster results or to accomplish a larger number of tasks:  same process launched in multiple copies, or a variety of processes launched at once
--> not a necessity but logical next step: to accomplish its task, a process can "decide" to launch other processes, sub processes, etc.
+- a software process endowed with the capabilities of an LLM
+- launched with some instructions given at the start to accomplish a task
+- which runs autonomously for a significant period of time
+- with a non deterministic behavior: the agent will adapt to the circumstances, hopefully without deviating from the instructions it received
+- these software processes (agents) can be launched in parallel to achieve faster results or to accomplish a larger number of tasks:  same process launched in multiple copies, or a variety of processes launched at once
+- not a necessity but logical next step: to accomplish a task, a process can be led to launch other processes, sub processes, etc.
 
 Yet, in practice, "agents" is often used in a loose way with no relation to the above. Possibly to sound up-to-date and sophisiticated, "agents" might just be in actuality conversations launched in ChatGPT or nothing clear, really:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If I hear people talk about &quot;AI agents&quot; these days it&#39;s generally a red flag and I know they&#39;re non-technical ppl reading AI news but not actually shipping anything<br><br>Not cause I don&#39;t believe in AI agents but it&#39;s such a marketing term with no real meaning at this point</p>&mdash; @levelsio (@levelsio) <a href="https://x.com/levelsio/status/1953125500492128766?ref_src=twsrc%5Etfw">August 6, 2025</a></blockquote>
 
-Agents are not always useless, and I detail below when and how they can be useful. But for the sake of getting to the point of this blog post quickly, here are 3 flavors of agentic coding:
+In my coding practice, I explored several ways to do agentic coding that would live up to the definition proposed above, and not masquarade for it. Here are 3 flavors I tasted:
 
-# Flavor 1: launching multiple command line interfaces: and run one conversation in each of them
+# Flavor 1: launching multiple command line interfaces
 I did that for a while:
 
 - open an SSH session to my server
-- launch [Codex CLI](https://developers.openai.com/codex/cli) in it.
-- write a prompt, launch a task
+- launch [Codex CLI](https://developers.openai.com/codex/cli) in it
+- ask GPT to accomplish a task: nothing fancy, really just prompting
 - open a second SSH session to my server
-- launch [Codex CLI](https://developers.openai.com/codex/cli) in it.
+- launch [Codex CLI](https://developers.openai.com/codex/cli) in it
+- ask GPT to accomplish another task
 - rinse and repeat...
 
-Honestly, that works pretty well. It is extremely low tech. It also means you can launch [Claude Code](https://claude.com/fr/product/claude-code) in one session, Codex CLI in another, [Gemini CLI](https://geminicli.com/) in a third one... and hence spread your token consumption on several AI providers in parallel, which makes you hit your token budget limit slower for a given provider.
+Honestly, that works pretty well. It is extremely low tech as you can see. It also means you can launch [Claude Code](https://claude.com/fr/product/claude-code) in one session, Codex CLI in another, [Gemini CLI](https://geminicli.com/) in a third one... and hence spread your token consumption on several AI providers in parallel, which makes the token budget limit slower to hit for a given provider.
 
 # Flavor 2: writing scripts that launch AI CLIs in headless mode
-That's the approach I used to write my 200 crawlers. ChatGPT guided me throughout on how to implement it. The basic logic is:
+I used this approach to write crawlers for 200+ different webpages. Obviously that would have been too boring to do with the flavor 1 described just above. ChatGPT guided me throughout on how to implement it. The basic logic is:
 
 - one json file containing the parameters for the 200 websites (urls and a few more details).
-- one bash script (call it "A") able to launch one LLM in command line interface, in headless mode. I use the [`exec` flag on Codex CLI that triggers the headless mode](https://developers.openai.com/codex/noninteractive).  The script contains the prompt that will be given to the LLM. The prompt is a template where placeholders that can be replaced by the actual information of a specific website to be crawled.
-- another script that picks 20 crawlers to write from the json file and executes script A for each of them. The placeholders of script A are replaced by the info of the website to be crawled, meaning that the crawler written by the LLM will be specific to this website.
+- one bash script (call it "A") that can launch one LLM in command line interface, in headless mode. I use the [`exec` flag on Codex CLI that triggers the headless mode](https://developers.openai.com/codex/noninteractive).  Script A contains the prompt that will be given to the LLM when it launches. The prompt is a piece of text with placeholders at key places, that can be replaced by the actual information related to a specific website to be crawled. The prompt basically asks the LLM to write a crawler for this website.
+- another script that picks 20 websites from the json file and executes script A for each of them. The placeholders of script A are replaced by the info of the website to be crawled, meaning that the crawler created by the LLM will be specific to this website.
 
-Let me show you what script A looks like (script written by ChatGPT)
+To show how vastly more complex this is compared to Flavor #1, let me show you what script A looks like (script written by ChatGPT):
+
+<details>
+<summary>Long script A — click to expand</summary>
 
     #!/usr/bin/env bash
     set -euo pipefail
@@ -173,6 +177,7 @@ fi
 
 echo "[$(date -Is)] finished ${PACKAGE}"
 '''
+</details>
 
 This approach works well. It is not as easy as "launch script A, get 200 crawlers written in an hour" but almost that. If you are patient to read a bit the script above, you'll see that the LLM is tasked to write unit tests for each crawler it creates! As is normal, these tests don't always pass so that slow downs things a bit, but that's for the good cause since passing tests meaning crawls of a better quality later.
 
