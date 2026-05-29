@@ -36,17 +36,18 @@ I did that for a while:
 
 Honestly, that works pretty well. It is extremely low tech as you can see. It also means you can launch [Claude Code](https://claude.com/fr/product/claude-code) in one session, Codex CLI in another, [Gemini CLI](https://geminicli.com/) in a third one... and hence spread your token consumption on several AI providers in parallel, which makes the token budget limit slower to hit for a given provider.
 
-# Flavor 2: writing scripts that launch AI CLIs in headless mode
-I used this approach to write crawlers for 200+ different webpages. Obviously that would have been too boring to do with the flavor 1 described just above. ChatGPT guided me throughout on how to implement it. The basic logic is:
+# Flavor 2: launching AI CLIs in headless mode
+I used this second approach to write crawlers for 200+ different webpages. Obviously with 200 crawlers to create, that would have been too boring to do with the Flavor 1 described just above. ChatGPT guided me throughout on how to implement this new approach. The basic logic is:
 
 - one json file containing the parameters for the 200 websites (urls and a few more details).
-- one bash script (call it "A") that can launch one LLM in command line interface, in headless mode. I use the [`exec` flag on Codex CLI that triggers the headless mode](https://developers.openai.com/codex/noninteractive).  Script A contains the prompt that will be given to the LLM when it launches. The prompt is a piece of text with placeholders at key places, that can be replaced by the actual information related to a specific website to be crawled. The prompt basically asks the LLM to write a crawler for this website.
-- another script that picks 20 websites from the json file and executes script A for each of them. The placeholders of script A are replaced by the info of the website to be crawled, meaning that the crawler created by the LLM will be specific to this website.
+- one bash script (call it "A") that can launch one LLM in command line interface, in headless mode. Headless means that the LLM, once launched with the prompt you have given it, will execute until it has completed the task, without interrupting to ask you for permission or ask for feedback or a follow-up. For that I use the [`exec` flag on Codex CLI that triggers the headless mode](https://developers.openai.com/codex/noninteractive). Script A also contains the prompt that will be given to the LLM when it launches. The prompt is a piece of text with placeholders at key places, that will be replaced by the actual information related to a specific website to be crawled. The prompt basically asks the LLM to write a crawler for this website.
+- another script (script "B") that picks 20 websites from the json file and executes script A for each of them. The placeholders of script A are replaced by the info of the website to be crawled, meaning that the crawler created by the LLM will be specific to this website.
+- I launch script B, check that it works fine, then relaunch it with 20 other websites, etc. until I got 200 websites treated that way. 
 
 To show how vastly more complex this is compared to Flavor #1, let me show you what script A looks like (script written by ChatGPT):
 
 <details>
-<summary>Long script A — click to expand</summary>
+**<summary>Long script A — click to expand</summary>**
 
     #!/usr/bin/env bash
     set -euo pipefail
@@ -166,17 +167,14 @@ To show how vastly more complex this is compared to Flavor #1, let me show you w
         comm -13 <(sort "$BEFORE_STATUS") <(sort "$AFTER_STATUS") \
           | cut -c4- \
           | grep -vE "^(\.codex/|ops/codex/|reports/codex/|src/main/java/com/xxx/directsite/crawling/sources/${PACKAGE}/|src/test/java/com/xxx/directsite/crawling/sources/${PACKAGE}/|src/test/resources/directsite/${PACKAGE}/)" || true
-  )"
-
-  if [ -n "$FORBIDDEN" ]; then
-    echo "[$(date -Is)] FORBIDDEN FILE CHANGES for ${PACKAGE}:" >&2
-    echo "$FORBIDDEN" >&2
-    exit 42
-  fi
-fi
-
-echo "[$(date -Is)] finished ${PACKAGE}"
-'''
+    )"
+        if [ -n "$FORBIDDEN" ]; then
+          echo "[$(date -Is)] FORBIDDEN FILE CHANGES for ${PACKAGE}:" >&2
+          echo "$FORBIDDEN" >&2
+          exit 42
+        fi
+    fi
+    echo "[$(date -Is)] finished ${PACKAGE}"
 </details>
 
 This approach works well. It is not as easy as "launch script A, get 200 crawlers written in an hour" but almost that. If you are patient to read a bit the script above, you'll see that the LLM is tasked to write unit tests for each crawler it creates! As is normal, these tests don't always pass so that slow downs things a bit, but that's for the good cause since passing tests meaning crawls of a better quality later.
