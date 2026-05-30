@@ -15,7 +15,7 @@ Une définition raisonnable d'un « agent IA », au moins dans le contexte du co
 * qui s'exécute de manière autonome (pas de session interactive avec un humain), pendant une période significative
 * avec un comportement non déterministe : l'agent s'adapte aux circonstances, si possible sans s'écarter des instructions qu'il a reçues
 
-Ces processus logiciels (agents) peuvent être lancés en parallèle afin d'obtenir des résultats plus rapidement ou d'accomplir un plus grand nombre de tâches : le même processus lancé en plusieurs exemplaires, ou bien une variété de processus lancés en même temps.
+Ces processus logiciels (agents) peuvent être lancés en parallèle afin d'obtenir des résultats plus rapidement ou d'accomplir un plus grand nombre de tâches : le même agent lancé en plusieurs exemplaires, ou bien une variété d'agents lancés en même temps.
 
 Pour accomplir une tâche, un processus peut être amené à lancer d'autres processus, des sous-processus, etc.
 Cela évoque des images de cascades, d'armées ou d'essaims d'agents qui se coordonnent de manière décentralisée (sans humain dans la boucle) pour accomplir une tâche.
@@ -35,15 +35,15 @@ Voici les 3 approches que j'ai testées :
 
 # Approche 1 : lancer plusieurs interfaces en ligne de commande
 
-J'ai pratiqué cette approche pendant quelques mois :
+Je pratique cette approche depuis quelques mois :
 
 * ouvrir une session SSH vers mon serveur
 * lancer [Codex CLI](https://developers.openai.com/codex/cli) dans cette session
 * demander à GPT d'accomplir une tâche, pour cela j'écris simplement un prompt qui décrit cette tâche
 * ouvrir une deuxième session SSH vers mon serveur
 * lancer [Codex CLI](https://developers.openai.com/codex/cli) dans cette session
-* demander à GPT d'accomplir une autre tâche, pour cela j'écris simplement un prompt qui décrit cette tâche
-* et ce processus peut se répèter à l'infini 
+* demander à GPT d'accomplir une deuxième tâche, pour cela j'écris simplement un prompt qui décrit cette tâche
+* et cette méthode peut se répèter à l'infini.
 
 Honnêtement, cela fonctionne assez bien.
 C'est extrêmement low-tech, comme vous pouvez le voir.
@@ -55,7 +55,7 @@ J'ai utilisé cette deuxième approche pour écrire des crawlers pour plus de 20
 ChatGPT m'a guidé tout au long de la mise en œuvre de cette nouvelle approche. La logique de base est la suivante :
 
 * un fichier JSON contenant les paramètres des 200 sites web (URLs et quelques autres détails).
-* un script Bash (appelons-le « A ») capable de lancer un LLM via une interface en ligne de commande, en mode headless. Headless signifie que le LLM, une fois lancé avec le prompt que vous lui avez donné, s'exécutera jusqu'à ce qu'il ait terminé la tâche, sans s'interrompre pour vous demander une permission, un retour ou une suite. Pour cela, j'utilise le [`flag exec` de Codex CLI qui déclenche le mode headless](https://developers.openai.com/codex/noninteractive). Le script A contient également le prompt qui sera donné au LLM au moment de son lancement. Le prompt est un morceau de texte avec des placeholders à des endroits clés, qui sont remplacés par les informations réelles liées au site web spécifique à crawler. Le prompt demande essentiellement au LLM d'écrire un crawler pour ce site web.
+* un script Bash (appelons-le « A ») capable de lancer un LLM via une interface en ligne de commande (une IA en CLI comme faisait l'approche 1), *en mode headless*. Headless signifie que le LLM, une fois lancé avec le prompt que vous lui avez donné, s'exécutera jusqu'à ce qu'il ait terminé la tâche, sans s'interrompre pour vous demander une permission, un retour ou une suite. Pour cela, j'utilise le [`flag exec` de Codex CLI qui déclenche le mode headless](https://developers.openai.com/codex/noninteractive). Le script A contient également le prompt qui sera donné au LLM au moment de son lancement. Le prompt est un morceau de texte avec des placeholders à des endroits clés, qui sont remplacés par les informations réelles liées au site web spécifique à crawler. Le prompt demande essentiellement au LLM d'écrire un crawler pour ce site web.
 * un autre script (le script « B ») qui prend 20 sites web dans le fichier JSON et exécute le script A pour chacun d'eux. Les placeholders du script A sont remplacés par les informations du site web à crawler, ce qui signifie que le crawler créé par le LLM sera spécifique à ce site web.
 * je lance le script B, je vérifie qu'il fonctionne correctement, puis je le relance avec 20 autres sites web, etc., jusqu'à avoir traité 200 sites web de cette manière.
 
@@ -64,14 +64,15 @@ Je vous montre le script A (script écrit par ChatGPT) pour illustrer en quoi ce
 [ouvrir le script A](https://github.com/seinecle/blog/blob/main/assets/data/script-A)
 
 Cette approche fonctionne bien.
-Ce n'est pas aussi simple que « lancer le script A et obtenir 200 crawlers écrits en une heure », mais on n'en est pas si loin.
-Si vous avez la patience de lire un peu le script ci-dessus, vous verrez que le LLM a aussi pour tâche d'écrire des tests unitaires pour chaque crawler qu'il crée !
+Ce n'est pas aussi simple que « lancer le script B et obtenir 200 crawlers écrits en une heure », mais on n'en est pas si loin.
+
+Si vous avez la patience de lire un peu le script A ci-dessus, vous verrez que le LLM a aussi pour tâche d'écrire des tests unitaires pour chaque crawler qu'il crée !
 Comme on peut s'y attendre, ces tests ne passent pas toujours, ce qui ralentit un peu les choses.
 Mais c'est pour une bonne raison : faire le travail supplémentaire nécessaire pour obtenir des tests qui passent signifie que les crawlers seront plus fiables.
 
 Avec cette approche, je m'attends à avoir mes 200 crawlers prêts dans les prochains jours, avec un chemin assez simple pour monter ensuite à plusieurs centaines de plus.
 
-# Approche 3 : demander à un LLM de créer et de gérer lui-même ces sous-agents
+# Approche 3 : demander à un LLM de créer et de gérer lui-même ses sous-agents
 
 L'approche 2 était vraiment très orientée Bash et Unix : ca demande du travail de maintenance de scripts.
 Pourquoi ne pas demander à un LLM de lancer lui-même des agents, en suivant mes instructions ?
