@@ -56,7 +56,7 @@ Let me show you script A (script written by ChatGPT) to illustrate how this appr
 
 [open script A](https://github.com/seinecle/blog/blob/main/assets/data/script-A)
 
-This approach works well. It is not as easy as "launch script A, get 200 crawlers written in an hour" but almost that. If you are patient to read a bit the script above, you'll see that the LLM is tasked to write unit tests for each crawler it creates! As expected, these tests do not always pass, so that slows things down a bit. But it is for a good reason: doing the extra work needed to get passing tests means that the crawlers will be more reliable.
+This approach works well. It is not as easy as "launch script B, get 200 crawlers written in an hour" but almost that. If you are patient to read a bit the script above, you'll see that the LLM is tasked to write unit tests for each crawler it creates! As expected, these tests do not always pass, so that slows things down a bit. But it is for a good reason: doing the extra work needed to get passing tests means that the crawlers will be more reliable.
 
 With this approach, I expect to have my 200 crawlers up and ready in the next few days, and with an easy path to grow to hundreds more.
 
@@ -68,7 +68,7 @@ Flavor 2 was really Bash and Unix heavy: this makes my processes harder to maint
 - Google's Antigravity offers to ["orchestrate multiple autonomous agents working in parallel across independent projects."](https://perma.cc/4S83-LRM3)
 - Claude Code can create ["custom sub agents"](https://web.archive.org/web/20260528082943/https://code.claude.com/docs/en/sub-agents) for you.
 
- My opinion: probably, but not today. Asking one agent to delegate to sub-agents means that you are two steps removed from the actual work. Inconsistencies, poor choices, flat errors... will be harder to catch. Interruption and resuming of work for a given sub agent is not straightforward. And you become solution-dependent: my AI of choice these days is GPT 5.5, and that would be off-limits if I choose a solution with agents that is not developed by its company, OpenAI.
+ My opinion: probably, but not today. Asking one agent to delegate to sub-agents means that you are two steps removed from the actual work. Inconsistencies, poor choices, flat errors... will be harder to catch. Interruption and resuming of work for a given sub-agent is not straightforward. And you become solution-dependent: my AI of choice these days is GPT 5.5, and that would be off-limits if I choose a solution with agents that is not developed by its company, OpenAI.
 
 > For these reasons and until proven otherwise, I'll stick with Flavor number 2 (and even number 1 in simple cases) described above.
 
@@ -80,14 +80,14 @@ Most of the time, *no*. Here is [Ethan Mollick](https://www.linkedin.com/in/emol
 
 Another example is the website developed by my daughter: a [fullfledged e-commerce platform](https://www.daebias.com/). Developed with zero fancy technology or agentic scaffolding. Just prompts (and a lot of work).
 
-You probably also noticed that in chats with LLMs when we search for information, these LLMS can choose to launch searches on different website, with each search performed by its own  agent. This helps speed up their research and cover more ground in response to your request.
+You probably also noticed that in chats with LLMs when we search for information, these LLMS can choose to launch searches on different website, with each search performed by its own agent. This helps speed up their research and cover more ground in response to your request.
 
 So I'd say that in most cases, we don't need agents even for complex tasks because LLMs  work just fine without, and if agents are useful, then LLM launch their own agents and manage them under the hood.
 
 # And the difficulty of agents bumping into each other
 The topic is just unglamorous and the blog post is already too long so I'll be super brief: multiple agents writing simultaneously in your codebase will step on each other's toes. If they make changes to the same file, there is a very good chance the resulting file will be a mess.
 
-The remedy is to have each agent working on different [git branches](https://www.w3schools.com/GIT/git_branch.asp), then proceeding to the merge of the branches into the main branch when all agents are done. This is also a mess: what if the merge fails? (and oh, it will). I tried this approach and it is tedious, hair-raising and makes you quit the multi agent game quickly.
+The remedy is to have each agent working on different [git branches](https://www.w3schools.com/GIT/git_branch.asp), then proceeding to the merge of the branches into the main branch when all agents are done. This is also a mess: what if the merge fails? (and oh, it will). I tried this approach and it is tedious, hair-raising and makes you quit the multi-agent game quickly.
 
 So how did I manage in Flavor 2 to create dozens of crawlers without having agents crash into each other’s work?
 
@@ -96,10 +96,10 @@ I first conducted plenty of preparatory work on just one crawler, making sure it
 If you scroll up and check the Bash script ("script A") I've shared, you'll see I was also advised on the matter by ChatGPT, which added some hard blocks in the prompt, so that each agent is explicitly forbidden from touching files not in the scope of its work.
 
 # Next steps
-Getting from dozens of crawlers written with Flavor 2 to hundreds of crawlers. Then executing them. Becoming sufficiently proficient at this "homemade" multi agent setup that I can reproduce it when and if needed in other places.
+Getting from dozens of crawlers written with Flavor 2 to hundreds of crawlers. Then executing them. Becoming sufficiently proficient at this "homemade" multi-agent setup that I can reproduce it when and if needed in other places.
 
 # And you?
-What multi agent setup works for you? Or do you stick with no agent at all?
+What multi-agent setup works for you? Or do you stick with no agent at all?
 
 --- 
 # About Me
