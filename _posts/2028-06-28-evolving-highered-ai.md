@@ -8,9 +8,9 @@ last_modified_at_readable: June 28, 2026
 categories: [ai,highered,china]
 ---
 
-AI is impacting higher education. What frames of reference are useful to think of the consequences?
+AI is impacting higher education. What frames of reference are useful to design the contours of the consequences?
 
-This blob posts builds on the accumulation of [my postings in the last 4 years](https://nocodefunctions.com) on the meanings and consequences of gen AI, right from [my note on the significance of ChatGPT when it was realeased in 2022](https://nocodefunctions.com/blog/chatgpt-consequences/).
+This blog post builds on the accumulation of [my postings in the last 4 years](https://nocodefunctions.com) on the meanings and consequences of gen AI, right from [my note on the significance of ChatGPT when it was realeased in 2022](https://nocodefunctions.com/blog/chatgpt-consequences/).
 
 # A detour by previous shocks: the web, big data and MOOCs
 Since 2000, highered has add its fair share of shocks that called for its immediate adaptation, "this or you become obsolete":
