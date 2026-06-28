@@ -49,7 +49,7 @@ I think AI is a shock of a different kind. Let's state what I consider to be ind
  - systemic: AI is creating or intensifying environmental, geopolitic and societal imbalances.
  - rapid: we are in June 2026 and ChatGPT was released in November 2022. So it all happened in less than 4 years and the rate of development is accelerating, not slowing down.
    
-
+I believe these evoke the Internet and the web as relatively good comparisons, though my impression is that the impact of AI is stronger on the 4 dimensions (for example, it took about 2 decades for web usage to become widespread, while it took AI [3 years to reach 1 billion users](https://www.reuters.com/technology/chatgpt-app-hits-1-billion-monthly-active-users-record-time-data-shows-2026-06-02/) - counting ChatGPT alone).
 
 # And you?
 What multi-agent setup works for you? Or do you stick with no agent at all?
