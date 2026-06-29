@@ -32,15 +32,15 @@ MOOCs promised to leverage the first two items: the web and big data, to transfo
 
 # Consequences of these technological shocks: much ado about nothing
 
-To paint it in broad strokes:
+I voluntarily paint it in broad strokes:
 
 ## Internet and the web left the core of the pedagogical experience suprisingly untouched
 
-When compared to the direct, destructive effects the web continues to have on other cultural domains (the news media, the movie industry, bookstores, ...), we can be suprised that higher education remains quite stable and unscathed by the web and the digital economy. The core experience in higher education remains offline: a pedagogical activity led by a professor in a classroom full of students. Schools and universities have been transformed by web-era technologies of course (emails, learning management systems, video conferencing, online recruitment systems, etc.), but these innovations remain decidedly at the door of the classroom. Even touch-enabled connected blackboards (when present in a classroom) are used with moderation, in my experience.
+When compared to the direct, destructive effects the web continues to have on cultural organizations (the news media, the movie industry, bookstores, ...), we can be suprised that higher education remains quite stable and unscathed by the web and the digital economy. The core experience in higher education remains offline: courses by a professor in a classroom full of students. Schools and universities have been transformed by web-era technologies of course (emails, learning management systems, video conferencing, online recruitment systems, etc.), but these innovations remain decidedly at the door of the classroom. Even touch-enabled connected blackboards (when present in a classroom) are used with moderation, in my experience. From a pedagogical point of view, the web has been "absorbed" as yet another topic to be dissecated in the classroom.
 
 ## Big data and data science have led to the creation of specialized courses and programs
 
-Around 2015 and forward, most schools have started developing programms offering a cross-over between [name a traditional domain] x [big data / data science / analytics]. This is an objective consequential change, however this did not modify the core missions or functions of higher ed organizations. Expectations were certainly more inflated: the promise was that big data would make schools capable of designing individual learning paths thanks to data analytics on the student data. This has not been delivered.
+Around 2015 and forward, most schools have started developing programms offering a cross-over between [name a traditional domain] x [big data / data science / analytics], just like they had introduced classes in [digital] x [name a traditional domain] a few years before. This is a consequential change for sure, however this did not modify the core missions or functions of higher ed organizations. Expectations went beyond that: the promise was that big data would make schools capable of designing individual learning paths thanks to data analytics on the student data. This has not been delivered.
 
 ## MOOC platforms still exist but schools and universities are fine
 
