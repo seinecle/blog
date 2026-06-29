@@ -5,7 +5,7 @@ permalink: /highered-AI-web/
 published: false
 date_readable: June 28, 2026
 last_modified_at_readable: June 28, 2026
-categories: [ai,highered,china]
+categories: [ai,highered,mooc,big data,web,Internet]
 ---
 
 AI is impacting higher education. What historical frames of reference are useful to imagine the contours of the consequences?
