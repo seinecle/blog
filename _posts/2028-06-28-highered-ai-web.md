@@ -116,9 +116,10 @@ AI models also increase the potential for harm for cyber attacks or in the desig
 The adoption of web technologies was relatively "rapid" at the scale of historical times, in the sense that it took about 2 decades for web usage to become widespread after the appearance of the first web browser. But it took AI just [3 years to reach 1 billion users](https://www.reuters.com/technology/chatgpt-app-hits-1-billion-monthly-active-users-record-time-data-shows-2026-06-02/) - counting ChatGPT alone!
 
 # Conclusion
-In higher education, Gartner's hype cycle has definitely much truth to it: when tech shocks occur a peak of inflated expectations is quickly reached, then the dust settles and a plateau of productivity is reached where universities and school absorb the innovation with their centuries-old defining features remaining completely intact:
+In higher education, thr Gartner hype cycle has definitely much truth to it: when tech shocks occur a peak of inflated expectations forms quickly, then the dust settles and a plateau of productivity is reached where universities and school absorb the innovation with their centuries-old defining features remaining completely intact:
 
 <img width="384" height="249" alt="Gartner Hype Cycle" src="https://github.com/user-attachments/assets/ce9086db-5e53-47c1-97d2-c2ca10e4ca93" />
+
 > source: The [Gartner Hype Cycle](https://en.wikipedia.org/wiki/Gartner_hype_cycle)
 
 
