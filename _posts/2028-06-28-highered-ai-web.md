@@ -42,7 +42,7 @@ Even touch-enabled connected blackboards (when present in a classroom) are used 
 
 ## Big data and data science have led to the creation of specialized courses and programs
 
-Around 2015 and forward, most schools have started developing programms offering a cross-over between [name a traditional domain] x [big data / data science / analytics], just like they had introduced classes in [digital] x [name a traditional domain] a few years before. This is a consequential change for sure, however this did not modify the core missions or functions of higher ed organizations.
+Around 2015 and forward, most schools have started developing programms offering a cross-over between [*name a traditional domain*] x [*big data / data science / analytics*], just like they had introduced classes in [*digital*] x [*name a traditional domain*] a few years before. This is a consequential change for sure, however this did not modify the core missions or functions of higher ed organizations.
 
 This is vastly "normal" and underwhelming compared to the expectations of the transformative potential of big data: the promise was that it would make schools capable of designing individual learning paths thanks to data analytics on the student data. This has not been delivered.
 
