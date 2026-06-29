@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "AI in highered: just like the shock of Internet and the web?"
-permalink: /highered-AI-web/
+title: "AI in higher ed: just like the shock of Internet and the web?"
+permalink: /higher ed-AI-web/
 published: false
 date_readable: June 28, 2026
 last_modified_at_readable: June 28, 2026
-categories: [ai,highered,mooc,big data,web,Internet]
+categories: [ai,higher ed,mooc,big data,web,Internet]
 ---
 
 AI is impacting higher education. What historical frames of reference are useful to imagine the contours of the consequences?
 
 This blog post builds on the accumulation of [my postings in the last 4 years](https://nocodefunctions.com) on the meanings and consequences of gen AI, right from [a note on the significance of ChatGPT when it was realeased in 2022](https://nocodefunctions.com/blog/chatgpt-consequences/).
 
-I am interested in a broader question - namely, the impact and consequences of AI on highered. This blog post is a short side quest, where I establish first whether AI can be compared to previous tech shocks that impacted highered, and how so. Because if AI is "just like MOOCS: vast expectations but limited impact", then we learned something interesting: AI is nothing much to bother about. But that's not the conclusion I'll reach ;-)
+I am interested in a broader question - namely, the impact and consequences of AI on higher ed. This blog post is a short side quest, where I establish first whether AI can be compared to previous tech shocks that impacted higher ed, and how so. Because if AI is "just like MOOCS: vast expectations but limited impact", then we learned something interesting: AI is nothing much to bother about. But that's not the conclusion I'll reach ;-)
 
 # Before AI, 3 notable tech shocks on higher education
 
@@ -48,9 +48,9 @@ This is vastly "normal" and underwhelming compared to the expectations of the tr
 
 ## MOOC platforms still exist but schools and universities are fine
 
-Coursera, Udemy, Udacity, EdX and the Khan academy are still around, after much difficulties and restructuring. They did not displace higher ed orgs by any means but address new, or different, or overlapping but not extensive segments of students. Distance learning is a central feature of MOOCs and is indeed important and even vital to highered, but that was revealed by the COVID pandemic (2020-2022) more than by MOOCS. Traditional highered organizations adapted to the pandemic in a swift way by accelerating their equipments in digital services (with Zoom having their IPO in 2019, what a luck).
+Coursera, Udemy, Udacity, EdX and the Khan academy are still around, after much difficulties and restructuring. They did not displace higher ed orgs by any means but address new, or different, or overlapping but not extensive segments of students. Distance learning is a central feature of MOOCs and is indeed important and even vital to higher ed, but that was revealed by the COVID pandemic (2020-2022) more than by MOOCS. Traditional higher ed organizations adapted to the pandemic in a swift way by accelerating their equipments in digital services (with Zoom having their IPO in 2019, what a luck).
 
-I experienced the shock of the emergence of the web in highered as a student, and I was an active participant in the 2 other shocks as a professor and program manager at emlyon business school in 2014-2024 under the direction of Bernard Belletante. Belletante is a visionary who made sure these shocks were anticipated and translated into the programs and support services of the school. Launch of new programs in data science, creation of a Makers lab, new LMS, de-siloting of academic departments, recruitment of professors with new profiles, adaptation of the classrooms for hybrid learning, etc: the school served the students so well by making all these changes in advance rather than in reaction to the shocks.
+I experienced the shock of the emergence of the web in higher ed as a student, and I was an active participant in the 2 other shocks as a professor and program manager at emlyon business school in 2014-2024 under the direction of Bernard Belletante. Belletante is a visionary who made sure these shocks were anticipated and translated into the programs and support services of the school. Launch of new programs in data science, creation of a Makers lab, new LMS, de-siloting of academic departments, recruitment of professors with new profiles, adaptation of the classrooms for hybrid learning, etc: the school served the students so well by making all these changes in advance rather than in reaction to the shocks.
 
 Among these 3 shocks, the development of the Internet and the web remains the one that I would personally be tempted to compare to AI, given the transformative effect they had on society in general.
 
