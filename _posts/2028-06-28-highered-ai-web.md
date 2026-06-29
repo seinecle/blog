@@ -36,11 +36,15 @@ I voluntarily paint it in broad strokes:
 
 ## Internet and the web left the core of the pedagogical experience suprisingly untouched
 
-When compared to the direct, destructive effects the web continues to have on cultural organizations (the news media, the movie industry, bookstores, ...), we can be suprised that higher education remains quite stable and unscathed by the web and the digital economy. The core experience in higher education remains offline: courses by a professor in a classroom full of students. Schools and universities have been transformed by web-era technologies of course (emails, learning management systems, video conferencing, online recruitment systems, etc.), but these innovations remain decidedly at the door of the classroom. Even touch-enabled connected blackboards (when present in a classroom) are used with moderation, in my experience. In sum, the web has been "absorbed" as yet another topic to be dissecated in the classroom - rather than transforming the classroom.
+When compared to the direct, destructive effects the web continues to have on cultural organizations (the news media, the movie industry, bookstores, ...), we can be suprised that higher education remains quite stable and unscathed by the web and the digital economy. The core experience in higher education remains offline: courses by a professor in a classroom full of students. Schools and universities have been transformed by web-era technologies of course (emails, learning management systems, video conferencing, online recruitment systems, etc.), but these innovations remain decidedly at the door of the classroom. 
+
+Even touch-enabled connected blackboards (when present in a classroom) are used with moderation, in my experience. In sum, the web has been "absorbed" as yet another topic to be dissecated in the classroom - rather than transforming the classroom.
 
 ## Big data and data science have led to the creation of specialized courses and programs
 
-Around 2015 and forward, most schools have started developing programms offering a cross-over between [name a traditional domain] x [big data / data science / analytics], just like they had introduced classes in [digital] x [name a traditional domain] a few years before. This is a consequential change for sure, however this did not modify the core missions or functions of higher ed organizations. This is vastly "normal" and underwhelming compared to the expectations of the transformative potential of big data: the promise was that it would make schools capable of designing individual learning paths thanks to data analytics on the student data. This has not been delivered.
+Around 2015 and forward, most schools have started developing programms offering a cross-over between [name a traditional domain] x [big data / data science / analytics], just like they had introduced classes in [digital] x [name a traditional domain] a few years before. This is a consequential change for sure, however this did not modify the core missions or functions of higher ed organizations.
+
+This is vastly "normal" and underwhelming compared to the expectations of the transformative potential of big data: the promise was that it would make schools capable of designing individual learning paths thanks to data analytics on the student data. This has not been delivered.
 
 ## MOOC platforms still exist but schools and universities are fine
 
@@ -48,9 +52,11 @@ Coursera, Udemy, Udacity, EdX and the Khan academy are still around, after much 
 
 I experienced the shock of the emergence of the web in highered as a student, and I was an active participant in the 2 other shocks as a professor and program manager at emlyon business school in 2014-2024 under the direction of Bernard Belletante. Belletante is a visionary who made sure these shocks were anticipated and translated into the programs and support services of the school. Launch of new programs in data science, creation of a Makers lab, new LMS, de-siloting of academic departments, recruitment of professors with new profiles, adaptation of the classrooms for hybrid learning, etc: the school served the students so well by making all these changes in advance rather than in reaction to the shocks.
 
-Among the 3 shocks, the development of the Internet and the web remains the one that I would personally be tempted to compare to AI, given the transformative effect they had on society in general.
+Among these 3 shocks, the development of the Internet and the web remains the one that I would personally be tempted to compare to AI, given the transformative effect they had on society in general.
 
-Given the relatively weak impact the web has had on the core experience of learning and teaching, a comparison betweeen AI and the web is important. **Maybe AI will reveal to be as important as the web at the societal level, but with similarly weak transformative effects on pedagogy itself?**
+> Given the relatively weak impact the web has had on the core experience of learning and teaching (as discussed just above), a comparison betweeen AI and the web could be illuminating.
+
+**Maybe AI will reveal to be as important as the web at the societal level, but with similarly weak transformative effects on pedagogy itself?**
 
 # Focus on the web as a historical frame of reference: is AI the same kind of shock to higher education?
 
