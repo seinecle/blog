@@ -12,23 +12,23 @@ AI is impacting higher education. What historical frames of reference are useful
 
 This blog post builds on the accumulation of [my postings in the last 4 years](https://nocodefunctions.com) on the meanings and consequences of gen AI, right from [a note on the significance of ChatGPT when it was realeased in 2022](https://nocodefunctions.com/blog/chatgpt-consequences/).
 
-I am interested in a broad question - namely, the impact and consequences of AI on highered. This blog post is a short side quest, where I establish first whether AI can be compared to previous tech shocks that impacted highered, and how so. Because if AI is "just like MOOCS: inflated expectations but little concrete impact", then we learned something interesting: AI is nothing much to bother about.
+I am interested in a broad question - namely, the impact and consequences of AI on highered. This blog post is a short side quest, where I establish first whether AI can be compared to previous tech shocks that impacted highered, and how so. Because if AI is "just like MOOCS: inflated expectations but little concrete impact", then we learned something interesting: AI is nothing much to bother about. But that's not the conclusion I'll reach ;-)
 
-# Before AI, 3 previous tech shocks on highered
+# Before AI, 3 notable tech shocks on higher education
 
-Since 2000, highered has had its fair share of shocks that called for its urgent adaptation:
+Since 2000, higher ed has had its fair share of shocks that called for its urgent adaptation:
 
 ## Internet and the web
 
-The web brought the democratization of content production by independent individuals, new channels of content distribution and diversification of learning habits (shorter attention spans, mobile first, screen-based...). One question at the time was : will highered orgs be sidelined, since knowledge has become available for free, easily and from anywhere?
+The web brought content production to independent individuals - everyone got a voice and access to a wide audience. With Youtube, everyone could record a lecture and broadcast it. Learning habits diversified with shorter attention spans, screen-first, mobile-first. One question at the time was : will these changes sideline highered organisartions since knowledge has become available for free, easily and from anywhere?
 
 ## Big data and data science
 
-Big data and data science opened the perspective that personalized learning will be achieved through the analysis of vast quantities of personal data to create individual learning paths. Will the classroom with standardized teaching at the group-level still be relevant? Will the professor still be useful as a designer of courses and producer of pedagogical content when this content can be sourced, curated and assembled at scale from online platforms? These were questions that were seriously worked on at the time.
+Big data and data science opened the perspective that personalized learning can replace standardized teaching at the group-level. Through the analysis of vast quantities of personal data, individuals learning paths will be identified. Algorithmically or through machine learning, the adequate pedagogical resources will be identified to fit each student's needs, progress rate, and aspirations.
 
 ## MOOCs
 
-MOOCS are a mix of the two first items: the web frees teaching from taking place in small groups on concrete campuses, and big data and data science will allow to individualize learning paths, keeping humans and excellency of the pedagogical experience at the center despite the massification. A sign that this promise was made with high hopes was the business model of MOOCs offering the courses for free and only the completion certificate to be paid by the successful participant. A few companies tried to flesh out the promise: Coursera, Edx, Udemy, Udacity, Khan Academy, ... The question at the time was: will universities be able to survive if online equivalents exist, available 24/24 and delivering diplomas from Ivy League insitutions at a fraction of the cost of a "brick and mortar" university?
+MOOCS promised to leverage the first two items: the web and big data, to transform education. The web offers online teaching to a limitless audience, while big data and data science allow to individualize learning paths, keeping humans and a taylored pedagogical experience at the center despite the massification. A few companies tried to flesh out the promise: Coursera, Edx, Udemy, Udacity, Khan Academy, ... The question at the time was: will universities be able to survive if online equivalents exist, available 24/24 and delivering diplomas from Ivy League insitutions at a fraction of the price and the cost of a "brick and mortar" university?
 
 # Consequences of these technological shocks: much ado about nothing
 
@@ -36,7 +36,7 @@ To paint it in broad strokes:
 
 ## Internet and the web left the core of the pedagogical experience suprisingly untouched
 
-When compared to the direct, destructive effects the web continues to have on other cultural domains (the news media, the movie industry, bookstores, ...), we can be suprised that highered remains quite stable and unscathed by the web. The core experience in higher education remains offline: a pedagogical activity led by a professor in a classroom full of students. Schools and universities have been transformed by web-era technologies of course (emails, learning management systems, video conferencing, etc.), but these innovations remain decidedly at the door of the classroom. Even touch-enabled connected blackboards (when present in a classroom) are seldom used in practice.
+When compared to the direct, destructive effects the web continues to have on other cultural domains (the news media, the movie industry, bookstores, ...), we can be suprised that higher education remains quite stable and unscathed by the web and the digital economy. The core experience in higher education remains offline: a pedagogical activity led by a professor in a classroom full of students. Schools and universities have been transformed by web-era technologies of course (emails, learning management systems, video conferencing, online recruitment systems, etc.), but these innovations remain decidedly at the door of the classroom. Even touch-enabled connected blackboards (when present in a classroom) are used with moderation, in my experience.
 
 ## Big data and data science have led to the creation of specialized courses and programs
 
