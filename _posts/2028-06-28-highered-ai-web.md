@@ -93,7 +93,7 @@ Internet and the web were definitely "profound" in nature, because they opened a
 
 Let's develop this idea by coming back to higher education: the web has offered students access to new kinds of resources to learn, which made easier for them to develop the corresponding skill. AI goes much deeper: AI can readily generate in a few minutes what a skilled student would have created in a few hours or days. This is not about offering more space for expression, or connecting spaces. **It is about fundamentally changing the meaning of "expressing oneself"**.
 
-One can then legitimately wonder: should the student continue to learn and acquire the skill? This question is radically new and was not opened up by the emergence of the web.
+One can then legitimately wonder: should the student continue to learn and acquire the skill? This question was not opened up in such a radical way by the emergence of the web.
 
 ## <u>Broad</u> shock: web and AI alike?
 
@@ -107,26 +107,43 @@ LLMs are not bound to following digital instructions (a software program, [the a
 
 The development of Internet and the web at scale has had profound environmental, geopolitical and societal consequences (eg, [a](https://www.dukeupress.edu/finite-media), [b](https://yalebooks.yale.edu/book/9780300234176/twitter-and-tear-gas/), [c](https://www.hbs.edu/faculty/Pages/item.aspx?num=56791)). Yet it seems that AI has even more consequential effects.
 
-Developing and running AI models necessitates data centers which consume large amounts of electricity, rare-earth materials, and water. The planned capacity of data centers to be created in the next decade is widely commented as putting other use at risk. AI models could also create mass unemployment, especially when it used to augment robots with smart behavior, performing better and cheaper than human operators would do (taxi driver, factory worker ...).
+Developing and running AI models necessitates data centers which consume large amounts of electricity, rare-earth materials, and water.
+The planned capacity of data centers to be created in the next decade is widely commented as putting other use at risk.
+AI models could also create mass unemployment, especially when it used to augment robots with smart behavior, performing better and cheaper than human operators would do (taxi driver, factory worker ...).
 
-AI models also increase the potential for harm for cyber attacks or in the design of bio weapons ([Suleyman, 2024](https://the-coming-wave.com/)). Finally, AI is estimated to pose an existential risk to humanity as a whole, in the plausible eventuality when it would achieve a level of self awareness and would set goals not aligned with the ones humans would choose ([Hinton, 2025](https://www.cbsnews.com/news/godfather-of-ai-geoffrey-hinton-ai-warning/), [AI Statement](https://aistatement.com/work/statement-on-ai-extinction-risk)).    
+AI models also increase the potential for harm for cyber attacks or in the design of bio weapons ([Suleyman, 2024](https://the-coming-wave.com/)).
+Finally, AI is estimated to pose an existential risk to humanity as a whole, in the plausible eventuality when it would achieve a level of self awareness and would set goals not aligned with the ones humans would choose ([Hinton, 2025](https://www.cbsnews.com/news/godfather-of-ai-geoffrey-hinton-ai-warning/), [AI Statement](https://aistatement.com/work/statement-on-ai-extinction-risk)).
+
+The web, while not a calm and quiet innovation, certainly never amounted to this level of systemic risks.
 
 ## Rapid shock: web and AI alike?
 
-The adoption of web technologies was relatively "rapid" at the scale of historical times, in the sense that it took about 2 decades for web usage to become widespread after the appearance of the first web browser. But it took AI just [3 years to reach 1 billion users](https://www.reuters.com/technology/chatgpt-app-hits-1-billion-monthly-active-users-record-time-data-shows-2026-06-02/) - counting ChatGPT alone!
+The adoption of web technologies was relatively "rapid" at the scale of historical times, in the sense that it took about 2 decades for web usage to become widespread after the appearance of the first web browser.
+But it took AI just [3 years to reach 1 billion users](https://www.reuters.com/technology/chatgpt-app-hits-1-billion-monthly-active-users-record-time-data-shows-2026-06-02/) - counting ChatGPT alone!
 
 # Conclusion
-In higher education, thr Gartner hype cycle has definitely much truth to it: when tech shocks occur a peak of inflated expectations forms quickly, then the dust settles and a plateau of productivity is reached where universities and school absorb the innovation with their centuries-old defining features remaining completely intact:
+In higher education, the Gartner hype cycle has definitely much truth to it: when tech shocks occur a peak of inflated expectations forms quickly, then the dust settles and a plateau of productivity is reached where universities and school absorb the innovation with their centuries-old defining features remaining completely intact:
 
 <img width="384" height="249" alt="Gartner Hype Cycle" src="https://github.com/user-attachments/assets/ce9086db-5e53-47c1-97d2-c2ca10e4ca93" />
 
 > source: The [Gartner Hype Cycle](https://en.wikipedia.org/wiki/Gartner_hype_cycle)
 
+Maybe that AI will be of the same sort.
 
+That would mean than in 10 years time, following the playbook of what happened with previous tech shocks on higher ed, we could expect:
 
+- 'AI for finance' programs in business schools,
+- 'Experts in AI visual creation' in schools of arts,
+- AI-enabled scheduling systems that will be used routinely by planification teams,
+- AI avatars doing the job of admissions counselors
 
-# And you?
-What multi-agent setup works for you? Or do you stick with no agent at all?
+... and a human professor teaching to human students, exactly as it has happened for centuries.
+
+But we established above that AI cannot be compared to previous tech shocks. It is more profound, broad, has vastly more systemic effects, and occurs much faster.
+ 
+For this reason, and that is where I want to stop: **we can't safely assume that AI will be as "inocuous" as the web and other tech shocks that impacted higher ed in the last decades**.
+
+Hence, we can embark in the study of the contours of this impact. This is for the next post!
 
 --- 
 # About Me
