@@ -28,7 +28,7 @@ Big data and data science opened the perspective that personalized learning can 
 
 ## MOOCs
 
-MOOCS promised to leverage the first two items: the web and big data, to transform education. The web offers online teaching to a limitless audience, while big data and data science allow to individualize learning paths, keeping humans and a taylored pedagogical experience at the center despite the massification. A few companies tried to flesh out the promise: Coursera, Edx, Udemy, Udacity, Khan Academy, ... The question at the time was: will universities be able to survive if online equivalents exist, available 24/24 and delivering diplomas from Ivy League insitutions at a fraction of the price and the cost of a "brick and mortar" university?
+MOOCs promised to leverage the first two items: the web and big data, to transform education. The web offers online teaching to a limitless audience, while big data and data science allow to individualize learning paths, keeping humans and a taylored pedagogical experience at the center despite the massification. A few companies tried to flesh out the promise: Coursera, Edx, Udemy, Udacity, Khan Academy, ... The question at the time was: will universities be able to survive if online equivalents exist, available 24/24 and delivering diplomas from Ivy League insitutions at a fraction of the price and the cost of a "brick and mortar" university?
 
 # Consequences of these technological shocks: much ado about nothing
 
