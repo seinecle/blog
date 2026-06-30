@@ -74,7 +74,7 @@ Among these 3 shocks, the development of the Internet and the web remains the on
 
 > And so, given the relatively weak impact the web has had on the core experience of learning and teaching (as discussed just above), a comparison betweeen AI and the web could be illuminating.
 
-> **Maybe AI will reveal to be as important as the web at the *societal* level, but with similarly weak transformative effects on higher education itself?**
+> **Maybe AI will reveal to be as important as the web at the *societal* level, but with similarly "weaker than trumpeted" transformative effects on higher education itself?**
 
 # Focus on the web as a historical frame of reference: is AI the same kind of shock to higher education?
 
