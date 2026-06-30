@@ -80,7 +80,7 @@ Among these 3 shocks, the development of the Internet and the web remains the on
 
 Let's state what I consider to be indisputable facts. The impact of AI is:
 
- - **profound**: AI imitates cognitive capabilities to the point it is indistiguishable or better than human performance in many significant cases.
+ - **profound**: AI imitates cognitive capabilities to the point it is indistinguishable or better than human performance in many significant cases.
  - **broad**: usage is widespread at school, in the workplace, in our personal lives, in governments and administrations, in arts and culture, in science, medecine and technology, in the conduct of war, etc.
  - **systemic**: AI is creating or intensifying environmental, geopolitic and societal imbalances.
  - **rapid**: we are in June 2026 and ChatGPT was released in November 2022. So it all happened in less than 4 years and the rate of development is accelerating, not slowing down.
