@@ -118,7 +118,7 @@ The web, while not a calm and quiet innovation, certainly never amounted to this
 
 ## Rapid shock: web and AI alike?
 
-The adoption of web technologies was relatively "rapid" at the scale of historical times, in the sense that it took about 2 decades for web usage to become widespread after the appearance of the first web browser.
+The adoption of web technologies was relatively "rapid" at the scale of historical times, in the sense that it took about just 2 decades for web usage to become widespread after the appearance of the first web browser.
 But it took AI just [3 years to reach 1 billion users](https://www.reuters.com/technology/chatgpt-app-hits-1-billion-monthly-active-users-record-time-data-shows-2026-06-02/) - counting ChatGPT alone!
 
 # Conclusion
