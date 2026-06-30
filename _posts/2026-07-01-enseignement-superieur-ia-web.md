@@ -2,7 +2,7 @@
 layout: post
 title: "L’IA dans l’enseignement supérieur : un choc comparable à Internet et au web ?"
 permalink: /enseignement-superieur-IA-web/
-published: false
+published: true
 date_readable: 1 juillet 2026
 last_modified_at_readable: 1 juillet 2026
 categories: [ia,enseignement supérieur,mooc,big data,web,Internet]
