@@ -93,7 +93,7 @@ Internet and the web were definitely "profound" in nature, because they opened a
 
 Let's develop this idea by coming back to higher education: the web has offered students access to new kinds of resources to learn, which made easier for them to develop the corresponding skill. AI goes much deeper: AI can readily generate in a few minutes what a skilled student would have created in a few hours or days. This is not about offering more space for expression, or connecting spaces. **It is about fundamentally changing the meaning of "expressing oneself"**.
 
-One can then legitimately wonder: should the student continue to learn and acquire the skill? This question was not opened up in such a radical way by the emergence of the web.
+One can then legitimately wonder: what is the value for a student to learn and acquire the skill? This question was not opened up in such a radical way by the emergence of the web.
 
 ## <u>Broad</u> shock: web and AI alike?
 
