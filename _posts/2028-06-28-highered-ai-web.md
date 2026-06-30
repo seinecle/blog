@@ -99,7 +99,7 @@ One can then legitimately wonder: should the student continue to learn and acqui
 
 The web can be said to be a very "broad" technology: it touches everything, in particular since we pack so much of our personal and professional lives in the smartphones we carry all day long. But there again, AI is broad at a more fundamental level.
 
-LLMs have the capacity do emulate everything we ask them to be. Just like there is conceptual gap between digital devices and analogical mecanisms, LLMs introduce a new gap that sets them apart from "traditional" digital devices.
+LLMs have the capacity do emulate everything we ask them to be. Just like there is a conceptual gap between digital devices and analogical mecanisms, LLMs introduce a new gap that sets them apart from "traditional" digital devices.
 
 LLMs are not bound to following digital instructions (a software program, [the argument is developed there](https://nocodefunctions.com/blog/chatgpt-consequences/)), instead, they can be used for any purpose we set to them: explaining a concept from any domain to undergrad students or to PhDs, for instance. Or help a professor create the content of a class. Or help a program officer review entire curriculums. AI is a "broader" shock than the web in this sense: the web had a broad impact, but AI is broader because it is a kind of omnipotent device.
 
