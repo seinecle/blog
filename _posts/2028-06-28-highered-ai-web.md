@@ -112,7 +112,7 @@ The planned capacity of data centers to be created in the next decade is widely 
 AI models could also create mass unemployment, among white collars and also when it used to augment robots with smart behavior, performing better and cheaper than human operators would do (taxi driver, factory worker ...).
 
 AI models also increase the potential for harm for cyber attacks or in the design of bio weapons ([Suleyman, 2024](https://the-coming-wave.com/)).
-Finally, AI is estimated to pose an existential risk to humanity as a whole, in the plausible eventuality when it would achieve a level of self awareness and would set goals not aligned with the ones humans would choose ([Hinton, 2025](https://www.cbsnews.com/news/godfather-of-ai-geoffrey-hinton-ai-warning/), [AI Statement](https://aistatement.com/work/statement-on-ai-extinction-risk)).
+Finally, AI is estimated to be an existential risk to humanity itself, in the plausible eventuality when it would achieve a level of self awareness and would set goals not aligned with the ones humans would choose ([Hinton, 2025](https://www.cbsnews.com/news/godfather-of-ai-geoffrey-hinton-ai-warning/), [AI Statement](https://aistatement.com/work/statement-on-ai-extinction-risk)).
 
 The web, while not a calm and quiet innovation, certainly never amounted to this level of systemic risks.
 
