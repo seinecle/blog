@@ -111,6 +111,14 @@ Developing and running AI models necessitates data centers which consume large a
 The planned capacity of data centers to be created in the next decade is widely commented as putting other use at risk.
 AI models could also create mass unemployment, among white collars and also when it used to augment robots with smart behavior, performing better and cheaper than human operators would do (taxi driver, factory worker ...).
 
+Internet and the web do not run in a literal cloud, and access to Internet and the web is certainly not free. Internet rests on a physical infrastructure of data centers, cables, satellites, ISP providers, local and global authorities... and it all continues to require massive investments and maintenance costs by schools in what was called the "digital transformation", a transformation that never seems to get to an end.
+
+There again, AI seems to follow the same logic, but at a larger scale. To repay their investments in model training and infrastructure building, OpenAI and the few other big players in gen AI have started offering subscription services that range from free plans to a few hundred dollars per month, per individuals. The spending rate of these big players accelerating, we can expect AI services to be a new category of significant spending for schools.
+
+While the Internet remains relatively open across most borders (with major caveats, see China, Russia [Martel, 2018](https://harpercollins.co.in/press-release/smartthe-digital-century-by-frederic-martel-and-translated-by-sindhuja-veeraragavan/), AI services are created and distributed from two main regions: the United States and China. The release and rapid shut down of Claude Fable by Anthropic in June 2026, imposed by the US government which required it to ban its access to non US citizens, shows that the dynamics of the access to frontier AI services is taking a very different turn from how the Internet developed.
+
+For higher education, this imbalance in the source and availability of AI services represents a systematic risk at the regional level: schools and universities in Europe, where no frontier AI models is produced (except for a one model in [visual creation](https://gist.github.com/seinecle/689a53bceca96147a04e93bdc5f83940) by Black Forest, a German company), are at risk of lacking the resources needed to compete with top tier (US, Chinese) competitors. 
+
 AI models also increase the potential for harm for cyber attacks or in the design of bio weapons ([Suleyman, 2024](https://the-coming-wave.com/)).
 Finally, AI is estimated to be an existential risk to humanity itself, in the plausible eventuality when it would achieve a level of self awareness and would set goals not aligned with the ones humans would choose ([Hinton, 2025](https://www.cbsnews.com/news/godfather-of-ai-geoffrey-hinton-ai-warning/), [AI Statement](https://aistatement.com/work/statement-on-ai-extinction-risk)).
 
