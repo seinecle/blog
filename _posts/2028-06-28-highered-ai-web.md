@@ -20,7 +20,7 @@ Since 2000, higher ed has had its fair share of shocks that called for its urgen
 
 ## Internet and the web
 
-The web brought content production to independent individuals - everyone got a voice and access to a wide audience.
+The web brought digital content production to independent individuals - everyone got a voice and access to a potential world wide audience.
 With Youtube, everyone could record a lecture and broadcast it.
 Learning habits diversified with shorter attention spans, screen-first, mobile-first.
 One question at the time was : will these changes sideline higher ed organisations since knowledge has become available for free, easily and from anywhere?
