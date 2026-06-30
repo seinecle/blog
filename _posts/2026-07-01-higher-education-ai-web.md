@@ -49,6 +49,7 @@ I am deliberately painting it in broad strokes:
 ## The Internet and the web left the core of the pedagogical experience surprisingly untouched
 
 When compared to the direct, destructive effects the web continues to have on cultural organizations (the news media, the movie industry, bookstores, ...), we can be surprised that higher education remains quite stable and unscathed by the web and the digital economy.
+
 The core experience in higher education remains offline: courses taught by a professor in a classroom to a group of students.
 Said differently: schools and universities have been transformed by web-era technologies (email, learning management systems, video conferencing, online recruitment systems, etc.), but these have transformed operations more than the basic classroom format.
 
@@ -70,6 +71,7 @@ Distance learning is a central feature of MOOCs and is indeed important, even vi
 Traditional higher education organizations adapted to the pandemic swiftly by accelerating their investments in digital services (with Zoom having had its IPO in 2019 — lucky timing).
 
 I experienced the shock of the emergence of the web in higher ed as a student, and I was an active participant in the two other shocks as a professor and program manager at emlyon business school from 2014 onward, initially under the leadership of Bernard Belletante.
+
 Belletante is a visionary who anticipated these shocks and made sure they were translated into the programs and support services of the school.
 The launch of new programs in data science, the creation of a Makers Lab, a new LMS, the de-siloing of academic departments, the recruitment of professors with new profiles, the adaptation of classrooms for hybrid learning, etc.: the school served students well by making all these changes in advance rather than in reaction to the shocks.
 
@@ -121,6 +123,7 @@ The Internet and the web do not run in a literal cloud, and access to the Intern
 
 Here again, AI seems to follow the same logic, but at a larger scale. To repay their investments in model training and infrastructure building, OpenAI and a few other major players in gen AI have started offering subscription services that range from free plans to a few hundred dollars per month, per individual.
 With the spending rate of these big players accelerating, and with the [multiplication of sophisticated AI services](https://gist.github.com/seinecle/689a53bceca96147a04e93bdc5f83940), we can expect AI to open a new category of significant spending for schools.
+
 *NB: true, open-weight models can be acquired for free and run locally, but they tend to be associated with their own specific and significant costs, notably the cost of ownership of the IT infrastructure required to run these models and the human resources in charge of installation, maintenance, security, user onboarding, etc.* 
 
 While the Internet remains relatively open across most borders (with major caveats: see China, Russia, etc. [[Martel, 2018](https://harpercollins.co.in/press-release/smartthe-digital-century-by-frederic-martel-and-translated-by-sindhuja-veeraragavan/)]), AI services are created and distributed from two main regions: the United States and China. The release and rapid shutdown of Fable 5 by Anthropic in June 2026, following a US government directive that required Anthropic to restrict access for non-US citizens, makes the dynamics of access to frontier AI services feel quite different from the early open expansion of the web.
