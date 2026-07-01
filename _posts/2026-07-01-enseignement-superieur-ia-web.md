@@ -115,7 +115,7 @@ L’IA est en ce sens un choc « plus large » que le web : le web a eu un impac
 
 ## <u>Un choc systémique</u> : le web et l’IA se ressemblent-ils ?
 
-Le développement d’Internet et du web à grande échelle a eu des conséquences environnementales, géopolitiques et sociétales profondes — par exemple [a](https://www.dukeupress.edu/finite-media), [b](https://yalebooks.yale.edu/book/9780300234176/twitter-and-tear-gas/), [c](https://www.hbs.edu/faculty/Pages/item.aspx?num=56791). Pourtant, il semble que l’IA ait des effets encore plus conséquents.
+Le développement d’Internet et du web à grande échelle a eu des conséquences environnementales, géopolitiques et sociétales profondes (voir par exemple [a](https://www.dukeupress.edu/finite-media), [b](https://yalebooks.yale.edu/book/9780300234176/twitter-and-tear-gas/), [c](https://www.hbs.edu/faculty/Pages/item.aspx?num=56791)). Pourtant, il semble que l’IA ait des effets encore plus conséquents.
 
 Développer et faire fonctionner des modèles d’IA nécessite des data centers consommant de grandes quantités d’électricité, de minerais critiques et d’eau.
 Les capacités de data centers prévues pour la prochaine décennie pour l'IA sont largement discutées comme pouvant poser un risque de pénurie pour d'autres usages.
