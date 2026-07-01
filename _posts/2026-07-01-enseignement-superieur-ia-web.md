@@ -18,7 +18,7 @@ Cet article de blog est une importante note de bas de page : j’y commence par 
 
 Parce que si l’IA est « juste comme les MOOCs : beaucoup d’attentes, mais un impact limité », alors nous avons déjà appris quelque chose d’intéressant : il ne faut pas forcément s'inquiéter de son impact massif sur l'enseignement supérieur.
 
-Mais ce n’est pas la conclusion à laquelle je vais arriver ;-)
+Mais ce n’est pas la conclusion à laquelle je vais parvenir ;-)
 
 # Avant l’IA, 3 chocs technologiques notables pour l’enseignement supérieur
 
