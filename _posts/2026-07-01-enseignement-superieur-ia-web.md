@@ -12,6 +12,8 @@ L'impact de l'IA sur l’enseignement supérieur dans les années à venir est d
 
 Cet article de blog s’inscrit dans la suite de [mes publications des 4 dernières années](https://nocodefunctions.com) sur les significations et les conséquences de l’IA générative, à commencer par [une note sur la portée de ChatGPT au moment de sa sortie en 2022](https://nocodefunctions.com/blog/chatgpt-consequences-fr/).
 
+[version en anglais de ce post disponible](https://nocodefunctions.com/blog/higher-education-AI-web/)
+
 La question qui m’intéresse est large : quel est l’impact de l’IA sur l’enseignement supérieur, et quelles en sont les conséquences ?
 
 Cet article de blog est une importante note de bas de page : j’y commence par établir si l’IA peut être comparée à d’autres chocs technologiques ayant affecté l’enseignement supérieur, et de quelle manière.
