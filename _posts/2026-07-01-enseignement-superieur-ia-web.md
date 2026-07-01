@@ -8,7 +8,7 @@ last_modified_at_readable: 1 juillet 2026
 categories: [ia,enseignement supérieur,mooc,big data,web,Internet]
 ---
 
-L'impact de l'IA sur l’enseignement supérieur dans les année à venir est difficile à cerner. Quels cadres de référence historiques sont utiles pour imaginer les contours de ses conséquences ?
+L'impact de l'IA sur l’enseignement supérieur dans les années à venir est difficile à cerner. Quels cadres de référence historiques sont utiles pour imaginer les contours de ses conséquences ?
 
 Cet article de blog s’inscrit dans la suite de [mes publications des 4 dernières années](https://nocodefunctions.com) sur les significations et les conséquences de l’IA générative, à commencer par [une note sur la portée de ChatGPT au moment de sa sortie en 2022](https://nocodefunctions.com/blog/chatgpt-consequences-fr/).
 
