@@ -12,6 +12,8 @@ AI is impacting higher education. What historical frames of reference are useful
 
 This blog post builds on the accumulation of [my postings in the last 4 years](https://nocodefunctions.com) on the meanings and consequences of gen AI, right from [a note on the significance of ChatGPT when it was released in 2022](https://nocodefunctions.com/blog/chatgpt-consequences/).
 
+[this blog post is also available in French](https://nocodefunctions.com/blog/enseignement-superieur-IA-web/)
+
 I am interested in a broad question — namely, the impact and consequences of AI on higher ed.
 This blog post is a short side quest, where I first establish whether AI can be compared to previous tech shocks that impacted higher ed, and how so.
 Because if AI is "just like MOOCs: vast expectations but limited impact", then we have learned something interesting: AI is not much to bother about.
