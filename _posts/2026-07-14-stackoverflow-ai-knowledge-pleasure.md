@@ -27,7 +27,7 @@ In "[After the vibe-code revolution](https://www.ft.com/content/cec8df9e-b43b-4c
 With AI erupting, these maintainers didn't see their task made easier, quite the contrary.
 They now receive tons of AI-generated contributions to the code they are in charge of.
 These contributions are more often than not unnecessary, unqualified, and of poor quality.
-Maintainers have to spend time triaging these instead of investing their time on important issues. As a consequence, they find their job less rewarding and some of them have outright sollicitating [all contributions on critical issues](https://daniel.haxx.se/blog/2026/01/26/the-end-of-the-curl-bug-bounty/).
+Maintainers have to spend time triaging these instead of investing their time on important issues. As a consequence, they find their job less rewarding and some of them have stopped outright sollicitating [all contributions on critical issues](https://daniel.haxx.se/blog/2026/01/26/the-end-of-the-curl-bug-bounty/).
 
 In this article, the chart showing the virtual disappearing of posts on Stackoverflow is invoked to support the same argument as Acemoglu: the fate of Stackoverflow shows that "There is still human-interaction data being generated, but that's private now" [quote of [Joahnnes Wachs](https://johanneswachs.com/), [academic and author of this paper](https://academic.oup.com/pnasnexus/article/3/9/pgae400/7754871?login=false)].
 
@@ -38,9 +38,9 @@ The point is, there is less fun in working on a project when the anticipated use
 Now that programming is mostly performed by AI, the worth of the coding tool you are developing is not going to be a matter of human taste and appreciation, nor depending on the web of human relations that you have developed - the communities - across years and decades.
 Instead, you now work for machines.
 This might be exagerated, after all, software pieces have always had other software pieces as key end users.
-But it is a strong and demotivating psychological factor to think that as of now, for real, humans largely rely on AI to build their software: so that decisions regarding which software tools to use increasingly delegated to AI.
+But it is a strong and demotivating psychological factor to think that as of now, for real, humans largely rely on AI to build their software: so that decisions regarding which software tools to use are increasingly delegated to AI.
 
-> (incidentally, this opens a vast question about the ergonomy of programming languages. Their raison d'être was to be intelligible to humans. But now, [shouldn't they be first intelligible to AI?]()) 
+> (incidentally, this opens a vast question about the ergonomy of programming languages. Their raison d'être was to be intelligible to humans. But now, shouldn't they be first intelligible to AI?) 
 
 
 --- 
