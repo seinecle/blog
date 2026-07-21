@@ -69,7 +69,7 @@ AI faculty development should therefore look less like another degree program an
 
 ### A. Recurring
 
-AI and its ecosystem keep evolving. [Here is one example from my recent experience](https://seinecle.github.io/blog/claude-gemini-on-debian-from-signal/).
+AI and its ecosystem keep evolving at such a rapid pace. [Here is an account, from my recent experience](https://seinecle.github.io/blog/claude-gemini-on-debian-from-signal/).
 An annual intensive session could provide an institutional reset.
 Given the pace of change, however, it should probably be considered a minimum rather than a complete system.
 
