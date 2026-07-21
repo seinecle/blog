@@ -67,7 +67,7 @@ AI faculty development should therefore look less like another degree program an
 
 <img alt="A pit stop in F1" src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Pit_Stop.jpg" style="max-width: 100%; width: 460px; height: auto;"/>
 
-### A. Recurring, not one-off
+### A. Recurring
 
 AI and its ecosystem keep evolving. [Here is one example from my recent experience](https://seinecle.github.io/blog/claude-gemini-on-debian-from-signal/).
 An annual intensive session could provide an institutional reset.
@@ -75,7 +75,7 @@ Given the pace of change, however, it should probably be considered a minimum ra
 
 Shorter updates during the year and an ongoing exchange channel could help faculty remain connected between pit stops.
 
-### B. Critical distance, not evangelization
+### B. Critical distance
 
 AI training may be perceived as an exercise in technology advocacy.
 It should therefore be made explicit that these programs are intended to enable informed judgment across the full spectrum of possible positions: adoption, selective use, refusal, regulation, and outright criticism.
