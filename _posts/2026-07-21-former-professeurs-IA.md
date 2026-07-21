@@ -58,7 +58,7 @@ En France, NEOMA Business School offre des exemples intéressants : [un programm
 
 Comment organiser un tel dispositif de développement professionnel des enseignants ?
 
-## Un modèle de pist stop
+## Un modèle de pit stop
 
 Les enseignants sont, à juste titre, concentrés sur leurs domaines d’expertise.
 Ils disposent de peu de temps à consacrer à des activités qui peuvent initialement leur sembler périphériques par rapport à leur enseignement ou à leurs recherches.
