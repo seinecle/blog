@@ -2,7 +2,7 @@
 layout: post
 title: "The Pit Stop: Training the Trainers for AI"
 permalink: /ai-pit-stop-training-faculty/
-published: false
+published: true
 date_readable: July 21, 2026
 last_modified_at_readable: July 21, 2026
 categories: [ai, higher-education, faculty-development]
@@ -65,7 +65,8 @@ They have limited time to devote to activities that may initially appear periphe
 
 AI faculty development should therefore look less like another degree program and more like a pit stop: short, intensive, recurring, and connected to ongoing support.
 
-https://upload.wikimedia.org/wikipedia/commons/e/e7/Pit_Stop.jpg
+<img alt="A pit stop in F1" src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Pit_Stop.jpg" style="max-width: 100%; width: 460px; height: auto;"/>
+
 ### A. Recurring, not one-off
 
 AI and its ecosystem keep evolving. [Here is one example from my recent experience](https://seinecle.github.io/blog/claude-gemini-on-debian-from-signal/).
