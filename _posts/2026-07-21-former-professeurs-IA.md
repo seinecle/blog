@@ -69,7 +69,7 @@ Le développement professionnel des enseignants en matière d’IA devrait donc 
 
 ### A. Un dispositif récurrent, et non ponctuel
 
-L’IA et son écosystème continuent d’évoluer. [En voici un exemple tiré de mon expérience récente](https://seinecle.github.io/blog/claude-gemini-on-debian-from-signal/).
+L’IA et son écosystème continuent d’évoluer. [Voici mon expérience récente de ces changements si rapides](https://seinecle.github.io/blog/claude-gemini-on-debian-from-signal/).
 Une session intensive annuelle pourrait permettre une remise à niveau collective au sein de l’institution.
 Compte tenu du rythme des changements, elle devrait toutefois probablement être considérée comme un minimum plutôt que comme un dispositif complet.
 
