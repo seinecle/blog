@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Pit Stop: Training the Trainers for AI"
+title: "The AI Pit Stop for Faculty"
 permalink: /ai-pit-stop-training-faculty/
 published: true
 date_readable: July 21, 2026
