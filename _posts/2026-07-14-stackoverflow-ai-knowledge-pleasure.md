@@ -38,9 +38,22 @@ The point is, there is less fun in working on a project when the anticipated use
 Now that programming is mostly performed by AI, the worth of the coding tool you are developing is not going to be a matter of human taste and appreciation, nor depending on the web of human relations that you have developed - the communities - across years and decades.
 Instead, you now work for machines.
 This might be exagerated, after all, software pieces have always had other software pieces as key end users.
-But it is a strong and demotivating psychological factor to think that as of now, for real, humans largely rely on AI to build their software: so that decisions regarding which software tools to use are increasingly delegated to AI.
+But it is a strong and demotivating psychological factor to think that as of now, for real, humans largely rely on AI to build their software, servicing software also built by AI: what's the point of being the human in the middle, servicing machines?
 
 > (incidentally, this opens a vast question about the ergonomy of programming languages. Their raison d'être was to be intelligible to humans. But now, shouldn't they be first intelligible to AI?) 
+
+I find it interesting that the soul searching of software maintainers is also visible among entrepreneurs building software. As entrepreneurs, we would have thought that AI would have made them happier than ever, because they can now code and ship products faster. It decreases their workload and boosts their revenues.
+Possibly, but this also creates disorientation:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m 22 years old and Claude Code is deteriorating my brain.<br><br>Every single day for the last 6 months I&#39;ve had 6 to 8 Claude Code terminals open, waiting for a response just so I can hit &#39;enter&#39; 75% of the time. And it&#39;s doing something to me.<br><br>In convos with a couple of friends,…</p>&mdash; Austin Kennedy (@astnkennedy) <a href="https://x.com/astnkennedy/status/2049942673608352236?ref_src=twsrc%5Etfw">April 30, 2026</a></blockquote> 
+
+Also:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I increasingly have no idea about anything anymore, time is changing too fast, and with AI everyone is equal now, nobody really knows anything while there is a superintelligence that&#39;s actually moving things into a direction that nobody can predict</p>&mdash; @levelsio (@levelsio) <a href="https://x.com/levelsio/status/2079248727793909975?ref_src=twsrc%5Etfw">July 20, 2026</a></blockquote>
+
+
+
+
 
 
 --- 
