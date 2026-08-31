@@ -39,7 +39,7 @@ On a laptop, Gephi used to be able to handle graphs of 10,000 nodes and edges ea
 It could also handle graphs ten time this size, but that required some patience because basic operations became very slow.
 Zooming, panning, and especially changing the layout of the graph: you could go and grab a coffee before the rendering was complete.
 
-The [new viz engine released in May 2026](https://gephi.wordpress.com/2026/05/05/gephi-0-11-major-performance-upgrade-and-new-features/) makes it effortless to handle graphs the size of hundreds of thousands of nodes, and millions of edges 🥹.
+The new viz engine released in May 2026 with [Gephi version 0.11](https://gephi.wordpress.com/2026/05/05/gephi-0-11-major-performance-upgrade-and-new-features/) makes it effortless to handle graphs the size of hundreds of thousands of nodes, and millions of edges 🥹.
 Wow.
 You can move such a huge graph with a click and drag of the mouse, instantly.
 Just look at this graph comparing it with the previous viz engine:
