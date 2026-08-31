@@ -7,10 +7,10 @@ date_readable: August 31, 2026
 last_modified_at_readable: August 31, 2026
 categories: [gephi, community, AI, coding, open source]
 ---
-[Gephi](https://gephi.org) is the leading desktop platform for the visualization and exploration of large graphs.
+[Gephi](https://gephi.org) is the leading desktop platform for the visualization and exploration of large graphs. It is free and open-source.
 It has a [web version](https://lite.gephi.org) and a [headless (programmatic) version](https://gephi.org/toolkit/) as well.
 
-The "Gephi week" is the annual retreat organized by and for the core contributors of Gephi (devs or not), the open-source software for network visualization.
+The "Gephi week" is the annual retreat organized by and for the core contributors of Gephi (devs or not).
 This year it took place in Prague, Czech Republic (Aug 24-27) and it was again a rich experience.
 My participation was made possible thanks to the support of my employer, [Gobelins Paris](https://www.gobelins.fr/).
 
