@@ -75,7 +75,11 @@ Here is what I was able to do in three days:
 - maintenance of the [tutorials for the Gephi Toolkit](https://github.com/gephi/gephi-documentation/pull/14)
 - maintenance of the [Gephi Toolkit demos](https://github.com/gephi/gephi-toolkit-demos/pull/18)
 - working prototype of a Gephi plugin that allows a user to [control Gephi with ChatGPT or Claude](https://github.com/seinecle/gephi-plugins-word-cloud/tree/feature/text2gephi/modules/Text2Gephi) (hat tip to [Matt Artz](https://www.mattartz.me/software/gephi-ai/), who created such a project first and on whose work I piggybacked).
-- and that still left me the time to participate in the filming of 10 video tutorials (short capsules) thanks to [Nicolas](https://www.linkedin.com/in/nicolasbouchaib/), take part in discussions about the direction of Gephi on Monday, hear about Mathieu Jacomy's semantic networks on Wednesday morning and attend a seminar on Wednesday afternoon.
+
+
+And that still left me the time to participate in the filming of 10 video tutorials (short capsules) thanks to [Nicolas](https://www.linkedin.com/in/nicolasbouchaib/), take part in discussions about the direction of Gephi on Monday, hear about Mathieu Jacomy's semantic networks on Wednesday morning and attend a seminar on Wednesday afternoon:
+
+<img width="2156" height="1437" alt="Gephi meetup" src="https://github.com/user-attachments/assets/7646f12e-be1c-4da1-bb8d-6910de88c891" />
 
 My contributions are useful but relatively minor compared to, for instance, the project to develop an "undo button" for Gephi.
 But since everyone in the core team of contributors enjoys the same increase in productivity, the needle has really moved for Gephi (again, not everyone present was keen on using this capability).
