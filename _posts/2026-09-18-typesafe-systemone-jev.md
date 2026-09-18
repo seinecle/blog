@@ -11,7 +11,14 @@ categories: [AI, RLCD, RLHD]
 Jev is a new model that came out 2 days ago (Sept 15, 2026 [1](https://typesafe.ai/blog/introducing-system-one-models-and-jev)).
 
 It is a highly unusual kind of model and I expected it to make the headlines even in the general press, but it didn't.
-It trended on Hacker News for a day or two ([1](https://news.ycombinator.com/item?id=49717558), the conversations are running on X but that's about it.
+It trended on Hacker News for a day or two ([1](https://news.ycombinator.com/item?id=49717558). Conversations are flaring on X but that's about it.
+
+The model is worth making bigger headlines because:
+
+- it is 100 times cheaper than one of the best models of OpenAI
+- it responds in milliseconds, not seconds or dozens of seconds. That is 40x to 200x quicker than other models
+- it provides responses which come with a score of confidence - there is a degree of certainty in the answers, which is super useful to reuse them for any purpose
+
 
 
 
