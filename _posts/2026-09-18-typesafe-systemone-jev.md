@@ -15,9 +15,9 @@ It trended on Hacker News for a day or two ([1](https://news.ycombinator.com/ite
 
 The model is worth making bigger headlines because:
 
-- it is 100 times cheaper than one of the best models of OpenAI
-- it responds in milliseconds, not seconds or dozens of seconds. That is 40x to 200x quicker than other models
-- it provides responses which come with a score of confidence - there is a degree of certainty in the answers, which is super useful to reuse them for any purpose
+- 😱 it is 100 times cheaper than one of the best models of OpenAI
+- 💣 it responds in milliseconds, not seconds or dozens of seconds. That is 40x to 200x quicker than other models
+- 🔥 responses come with a score of confidence. This provides a degree of certainty in the answers, which is super useful and lacking in LLM models
 
 
 
