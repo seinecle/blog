@@ -4,7 +4,7 @@ title: "Jev - not your usual breakthrough model"
 permalink: /typesafe-jev-systemone-RLCD/
 published: true
 date_readable: September 18, 2026
-last_modified_at_readable: September 18, 2026
+last_modified_at_readable: September 27, 2026
 categories: [AI, RLCD, RLHD]
 ---
 ## A model worth your time
